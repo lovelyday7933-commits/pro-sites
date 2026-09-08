@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="470" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">한 장으로 보는 세금 지도</text>
+  <text x="40" y="54" font-size="12" fill="#667085">세율·기준은 바뀝니다 — 정확한 수치와 연도 기준은 본문과 최신 공지로 확인</text>
+  <!-- quadrant cards -->
+  <g>
+    <rect x="40" y="72" width="340" height="160" rx="10" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1.6"/>
+    <text x="60" y="100" font-size="13.5" font-weight="bold" fill="#1E3A5F">국내 상장주식</text>
+    <g font-size="11.8" fill="#1F2937">
+      <text x="60" y="128">팔 때: 증권거래세 (이익·손실 무관, 매도금액 기준)</text>
+      <text x="60" y="152">배당 받을 때: 배당소득세 15.4% 원천징수</text>
+      <text x="60" y="176">양도차익: 소액주주는 비과세</text>
+      <text x="60" y="200">(대주주 요건 해당 시 과세 — 본문 참조)</text>
+    </g>
+    <rect x="396" y="72" width="340" height="160" rx="10" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1.6"/>
+    <text x="416" y="100" font-size="13.5" font-weight="bold" fill="#1E3A5F">해외 주식</text>
+    <g font-size="11.8" fill="#1F2937">
+      <text x="416" y="128">양도차익: 22% (지방세 포함)</text>
+      <text x="416" y="152">연 250만 원 기본공제 후 과세</text>
+      <text x="416" y="176">환율 변동분도 손익에 포함</text>
+      <text x="416" y="200">다음 해 5월 직접 신고 (증권사 대행 서비스 활용)</text>
+    </g>
+    <rect x="40" y="248" width="340" height="160" rx="10" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1.6"/>
+    <text x="60" y="276" font-size="13.5" font-weight="bold" fill="#1E3A5F">이자 · 배당 (금융소득)</text>
+    <g font-size="11.8" fill="#1F2937">
+      <text x="60" y="304">기본: 15.4% 원천징수로 종료</text>
+      <text x="60" y="328">연 2,000만 원 초과분은 종합과세 합산</text>
+      <text x="60" y="352">ISA·연금계좌는 비과세·과세이연 혜택</text>
+      <text x="60" y="376">(한도·조건 본문 참조)</text>
+    </g>
+    <rect x="396" y="248" width="340" height="160" rx="10" fill="#FFF9F2" stroke="#B45309" stroke-width="1.6"/>
+    <text x="416" y="276" font-size="13.5" font-weight="bold" fill="#B45309">가상자산 (코인)</text>
+    <g font-size="11.8" fill="#1F2937">
+      <text x="416" y="304">과세 시행이 여러 차례 연기되어 온 영역</text>
+      <text x="416" y="328">시행 시점·공제액이 계속 바뀌었으므로</text>
+      <text x="416" y="352">매매 전 반드시 최신 공지 확인</text>
+      <text x="416" y="376">거래소 원화 입출금 규정도 함께 확인</text>
+    </g>
+  </g>
+  <text x="40" y="440" font-size="11.5" fill="#667085">같은 1,000만 원 수익이라도 어떤 계좌·어떤 자산에서 났느냐에 따라 손에 쥐는 돈이 달라집니다. 세금은 수익률의 일부입니다.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">추세는 느낌이 아니라 정의입니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">상승 추세 = 고점과 저점이 "함께" 높아지는 상태</text>
+  <!-- zigzag -->
+  <path d="M 80 330 L 170 240 L 235 288 L 330 190 L 395 242 L 490 140 L 550 192 L 670 90"
+        fill="none" stroke="#1F2937" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- peaks -->
+  <g fill="#C6403F">
+    <circle cx="170" cy="240" r="5"/>
+    <circle cx="330" cy="190" r="5"/>
+    <circle cx="490" cy="140" r="5"/>
+  </g>
+  <g font-size="12" fill="#C6403F" font-weight="bold" text-anchor="middle">
+    <text x="170" y="222">고점 1</text>
+    <text x="330" y="172">고점 2</text>
+    <text x="490" y="122">고점 3</text>
+  </g>
+  <!-- lows -->
+  <g fill="#2E6BD6">
+    <circle cx="235" cy="288" r="5"/>
+    <circle cx="395" cy="242" r="5"/>
+    <circle cx="550" cy="192" r="5"/>
+  </g>
+  <g font-size="12" fill="#2E6BD6" font-weight="bold" text-anchor="middle">
+    <text x="235" y="312">저점 1</text>
+    <text x="395" y="266">저점 2</text>
+    <text x="550" y="216">저점 3</text>
+  </g>
+  <!-- trendline under lows -->
+  <line x1="80" y1="335" x2="700" y2="150" stroke="#B45309" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="600" y="200" font-size="12.5" font-weight="bold" fill="#B45309">추세선 (저점끼리 연결)</text>
+  <text x="40" y="380" font-size="11.5" fill="#667085">직전 저점이 무너지는 순간이 "저점이 낮아지기 시작한" 순간이고, 그때가 추세를 의심할 객관적 기준점입니다.</text>
+  <text x="40" y="400" font-size="11.5" fill="#667085">하락 추세는 정확히 반대입니다: 고점과 저점이 함께 낮아집니다.</text>
+</svg>

@@ -1,0 +1,20 @@
+{
+ "cell": "000660:dead_cross",
+ "figures": [
+  {
+   "file": "000660-dead_cross-chart.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\000660-dead_cross-chart.svg",
+   "caption": "SK하이닉스 데드크로스 발생 자리. 기간 2025.02.05~2026.07.31. 세로축 = 주가(원), 아래 = 거래량(주). 표본 61회(전체 기간 1996.12.26~2026.07.31). 판정 = 20일 이동평균이 60일 이동평균을 아래로 지나간 날. 종가 기준, 교차 당일에 판정."
+  },
+  {
+   "file": "000660-dead_cross-compare20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\000660-dead_cross-compare20.svg",
+   "caption": "SK하이닉스 데드크로스 신호 뒤 20거래일 수익률 중앙값을, 같은 기간 아무 날에 사서 20일 뒤 판 경우와 나란히 놓은 것. 단위 = %. 표본 = 신호 60회 / 대조 7,347회. 기간 1996.12.26~2026.07.31. 판정 = 20일 이동평균이 60일 이동평균을 아래로 지나간 날. 종가 기준, 교차 당일에 판정."
+  },
+  {
+   "file": "000660-dead_cross-compare60.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\000660-dead_cross-compare60.svg",
+   "caption": "SK하이닉스 데드크로스 신호 뒤 60거래일 수익률 중앙값을, 같은 기간 아무 날에 사서 60일 뒤 판 경우와 나란히 놓은 것. 단위 = %. 표본 = 신호 60회 / 대조 7,307회. 기간 1996.12.26~2026.07.31. 판정 = 20일 이동평균이 60일 이동평균을 아래로 지나간 날. 종가 기준, 교차 당일에 판정."
+  }
+ ]
+}

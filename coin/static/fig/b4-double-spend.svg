@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">디지털 돈의 근본 문제 — 복사가 된다는 것</text>
+  <text x="40" y="54" font-size="12" fill="#667085">비트코인이 2008년에 풀어낸 "이중지불" 문제</text>
+  <!-- problem side -->
+  <rect x="40" y="76" width="330" height="250" rx="10" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.5"/>
+  <text x="60" y="106" font-size="13.5" font-weight="bold" fill="#C6403F">문제: 파일은 복사됩니다</text>
+  <rect x="140" y="130" width="120" height="44" rx="8" fill="#FFFFFF" stroke="#C6403F"/>
+  <text x="200" y="157" font-size="12" fill="#1F2937" text-anchor="middle">디지털 화폐 1개</text>
+  <g stroke="#C6403F" stroke-width="1.6">
+    <line x1="160" y1="174" x2="110" y2="230"/><polygon points="108,234 107,224 116,228" fill="#C6403F"/>
+    <line x1="240" y1="174" x2="290" y2="230"/><polygon points="292,234 284,228 293,224" fill="#C6403F"/>
+  </g>
+  <rect x="52"  y="238" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#9AA1AB"/>
+  <text x="112" y="263" font-size="11.5" fill="#1F2937" text-anchor="middle">A에게 지불</text>
+  <rect x="232" y="238" width="120" height="40" rx="8" fill="#FFFFFF" stroke="#9AA1AB"/>
+  <text x="292" y="263" font-size="11.5" fill="#1F2937" text-anchor="middle">B에게도 지불?!</text>
+  <text x="60" y="308" font-size="11.5" fill="#667085">같은 돈을 두 번 쓰는 걸 막으려면 누군가</text>
+  <text x="60" y="324" font-size="11.5" fill="#667085">"장부"를 관리해야 했습니다 (= 은행).</text>
+  <!-- solution side -->
+  <rect x="390" y="76" width="330" height="250" rx="10" fill="#FFF9F2" stroke="#C2570A" stroke-width="1.5"/>
+  <text x="410" y="106" font-size="13.5" font-weight="bold" fill="#C2570A">해결: 모두가 같은 장부를 봅니다</text>
+  <g>
+    <rect x="410" y="126" width="290" height="34" rx="6" fill="#FFFFFF" stroke="#C2570A"/>
+    <text x="555" y="148" font-size="11.5" fill="#1F2937" text-anchor="middle">10:00 철수 → A에게 1 BTC : 기록됨</text>
+    <rect x="410" y="168" width="290" height="34" rx="6" fill="#FFFFFF" stroke="#C2570A"/>
+    <text x="555" y="190" font-size="11.5" fill="#C6403F" text-anchor="middle">10:01 철수 → B에게 같은 1 BTC : 거절됨</text>
+  </g>
+  <text x="410" y="232" font-size="11.5" fill="#4B5563">전 세계 수만 대의 컴퓨터가 같은 거래 장부를</text>
+  <text x="410" y="250" font-size="11.5" fill="#4B5563">복제해 들고, 거래 순서를 함께 확정합니다.</text>
+  <text x="410" y="276" font-size="11.5" font-weight="bold" fill="#C2570A">은행 없이 "이미 쓴 돈"을 걸러내는 데 성공 —</text>
+  <text x="410" y="296" font-size="11.5" font-weight="bold" fill="#C2570A">이 장부의 이름이 블록체인입니다.</text>
+  <text x="40" y="368" font-size="11.5" fill="#667085">"비트코인은 그림 파일처럼 복사되지 않나요?"라는 흔한 오해의 답이 여기 있습니다. 코인은 파일이 아니라</text>
+  <text x="40" y="388" font-size="11.5" fill="#667085">장부의 기록이고, 장부는 전 세계가 동시에 감시합니다.</text>
+</svg>

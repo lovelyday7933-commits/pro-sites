@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">승률이 높다고 돈을 버는 게 아닙니다 — 기대값</text>
+  <text x="40" y="54" font-size="12" fill="#667085">한 번 할 때마다 평균적으로 얼마가 남는 게임인가</text>
+  <!-- Game A -->
+  <rect x="40" y="75" width="330" height="250" rx="10" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.5"/>
+  <text x="60" y="106" font-size="14" font-weight="bold" fill="#C6403F">게임 A — 승률 90%</text>
+  <g font-size="12.5" fill="#1F2937">
+    <text x="60" y="140">이기면 +10만 원 (90%)</text>
+    <text x="60" y="164">지면 -100만 원 (10%)</text>
+  </g>
+  <line x1="60" y1="182" x2="350" y2="182" stroke="#E6E8EC"/>
+  <g font-size="12.5" fill="#1F2937">
+    <text x="60" y="210">기대값 = 0.9 × 10 + 0.1 × (-100)</text>
+    <text x="60" y="234">= 9 - 10 = <tspan font-weight="bold" fill="#2E6BD6">-1만 원</tspan></text>
+  </g>
+  <text x="60" y="276" font-size="12.5" font-weight="bold" fill="#2E6BD6">열에 아홉 번 이겨도, 계속하면</text>
+  <text x="60" y="296" font-size="12.5" font-weight="bold" fill="#2E6BD6">반드시 잃는 게임입니다.</text>
+  <!-- Game B -->
+  <rect x="390" y="75" width="330" height="250" rx="10" fill="#F5F9F7" stroke="#1E3A5F" stroke-width="1.5"/>
+  <text x="410" y="106" font-size="14" font-weight="bold" fill="#1E3A5F">게임 B — 승률 30%</text>
+  <g font-size="12.5" fill="#1F2937">
+    <text x="410" y="140">이기면 +100만 원 (30%)</text>
+    <text x="410" y="164">지면 -20만 원 (70%)</text>
+  </g>
+  <line x1="410" y1="182" x2="700" y2="182" stroke="#E6E8EC"/>
+  <g font-size="12.5" fill="#1F2937">
+    <text x="410" y="210">기대값 = 0.3 × 100 + 0.7 × (-20)</text>
+    <text x="410" y="234">= 30 - 14 = <tspan font-weight="bold" fill="#C6403F">+16만 원</tspan></text>
+  </g>
+  <text x="410" y="276" font-size="12.5" font-weight="bold" fill="#C6403F">열에 일곱 번 져도, 계속하면</text>
+  <text x="410" y="296" font-size="12.5" font-weight="bold" fill="#C6403F">쌓이는 게임입니다.</text>
+  <text x="40" y="360" font-size="11.5" fill="#667085">투자에서 "얼마나 자주 맞히는가"보다 "맞혔을 때 크게, 틀렸을 때 작게"가 먼저인 이유입니다.</text>
+  <text x="40" y="380" font-size="11.5" fill="#667085">손절이 작고 수익을 길게 두는 습관은 승률을 포기하고 기대값을 사는 선택입니다.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="560" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">대표 캔들 패턴 6종</text>
+  <text x="40" y="54" font-size="12" fill="#667085">패턴은 모양보다 "어느 위치(추세)에서 나왔는가"가 9할입니다</text>
+  <!-- cell frames: 3 cols x 2 rows. cols x: 40,285,530 w225 / rows y: 70,300 h210 -->
+  <g fill="none" stroke="#E6E8EC" stroke-width="1">
+    <rect x="40" y="70" width="225" height="210" rx="10"/>
+    <rect x="285" y="70" width="225" height="210" rx="10"/>
+    <rect x="530" y="70" width="225" height="210" rx="10"/>
+    <rect x="40" y="300" width="225" height="210" rx="10"/>
+    <rect x="285" y="300" width="225" height="210" rx="10"/>
+    <rect x="530" y="300" width="225" height="210" rx="10"/>
+  </g>
+  <!-- 1 망치형: small body top, long lower wick -->
+  <g>
+    <line x1="152" y1="110" x2="152" y2="225" stroke="#C6403F" stroke-width="2.5"/>
+    <rect x="138" y="110" width="28" height="34" fill="#C6403F" rx="2"/>
+    <text x="152" y="250" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">망치형</text>
+    <text x="152" y="268" font-size="11" fill="#667085" text-anchor="middle">하락 끝, 긴 아랫꼬리 = 매수 반격</text>
+  </g>
+  <!-- 2 역망치형 -->
+  <g>
+    <line x1="397" y1="110" x2="397" y2="225" stroke="#C6403F" stroke-width="2.5"/>
+    <rect x="383" y="191" width="28" height="34" fill="#C6403F" rx="2"/>
+    <text x="397" y="250" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">역망치형</text>
+    <text x="397" y="268" font-size="11" fill="#667085" text-anchor="middle">하락 끝, 긴 윗꼬리 = 반등 시도</text>
+  </g>
+  <!-- 3 상승장악형: small blue then big red engulfing -->
+  <g>
+    <line x1="612" y1="140" x2="612" y2="205" stroke="#2E6BD6" stroke-width="2"/>
+    <rect x="600" y="152" width="24" height="42" fill="#2E6BD6" rx="2"/>
+    <line x1="672" y1="112" x2="672" y2="228" stroke="#C6403F" stroke-width="2.5"/>
+    <rect x="656" y="126" width="32" height="88" fill="#C6403F" rx="2"/>
+    <text x="642" y="250" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">상승장악형</text>
+    <text x="642" y="268" font-size="11" fill="#667085" text-anchor="middle">양봉이 전날 음봉을 통째로 삼킴</text>
+  </g>
+  <!-- 4 잉태형: big candle then small inside -->
+  <g>
+    <line x1="122" y1="342" x2="122" y2="458" stroke="#2E6BD6" stroke-width="2.5"/>
+    <rect x="106" y="356" width="32" height="88" fill="#2E6BD6" rx="2"/>
+    <line x1="182" y1="382" x2="182" y2="428" stroke="#C6403F" stroke-width="2"/>
+    <rect x="170" y="390" width="24" height="30" fill="#C6403F" rx="2"/>
+    <text x="152" y="480" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">잉태형</text>
+    <text x="152" y="498" font-size="11" fill="#667085" text-anchor="middle">큰 봉 안의 작은 봉 = 힘의 소강</text>
+  </g>
+  <!-- 5 도지 -->
+  <g>
+    <line x1="397" y1="340" x2="397" y2="460" stroke="#4B5563" stroke-width="2.5"/>
+    <rect x="371" y="396" width="52" height="6" fill="#4B5563"/>
+    <text x="397" y="480" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">도지</text>
+    <text x="397" y="498" font-size="11" fill="#667085" text-anchor="middle">시가 ≈ 종가 = 팽팽한 균형, 변곡 후보</text>
+  </g>
+  <!-- 6 샛별형: big blue, small gap-down doji, big red -->
+  <g>
+    <line x1="592" y1="330" x2="592" y2="420" stroke="#2E6BD6" stroke-width="2.5"/>
+    <rect x="578" y="340" width="28" height="66" fill="#2E6BD6" rx="2"/>
+    <line x1="642" y1="418" x2="642" y2="452" stroke="#4B5563" stroke-width="2"/>
+    <rect x="632" y="430" width="20" height="10" fill="#4B5563" rx="1"/>
+    <line x1="692" y1="336" x2="692" y2="426" stroke="#C6403F" stroke-width="2.5"/>
+    <rect x="678" y="348" width="28" height="66" fill="#C6403F" rx="2"/>
+    <text x="642" y="480" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">샛별형</text>
+    <text x="642" y="498" font-size="11" fill="#667085" text-anchor="middle">음봉 → 작은 봉 → 양봉, 3봉 반전</text>
+  </g>
+  <text x="40" y="538" font-size="11.5" fill="#667085">같은 망치형도 상승 추세 한가운데서는 의미가 약합니다. 반드시 "하락 뒤인가, 지지선 근처인가"를 먼저 물으십시오.</text>
+</svg>

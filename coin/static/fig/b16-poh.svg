@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Malgun Gothic">
+  <rect width="760" height="470" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">시계를 먼저 찍는다 — 역사증명과 지분증명</text>
+  <text x="40" y="56" font-size="12" fill="#667085">순서를 먼저 정해 두고, 그 위에서 검증인이 확정합니다</text>
+  <text x="40" y="88" font-size="13" font-weight="bold" fill="#1F2937">① 시계를 먼저 찍는다 — 역사증명(PoH)</text>
+  <!-- PoH card -->
+  <rect x="40" y="98" width="680" height="112" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="98" width="680" height="6" fill="#0E7490"/>
+  <text x="60" y="128" font-size="12" fill="#1F2937">앞의 결과를 다음 입력으로 잇는 해시 사슬 — 칸마다 "이것이 저것보다 먼저"가 새겨집니다</text>
+  <line x1="80" y1="158" x2="686" y2="158" stroke="#C9D6DD" stroke-width="3"/>
+  <path d="M678 152 L690 158 L678 164" fill="none" stroke="#C9D6DD" stroke-width="3"/>
+  <g fill="#0E7490">
+    <circle cx="90" cy="158" r="7"/><circle cx="173" cy="158" r="7"/><circle cx="256" cy="158" r="7"/><circle cx="339" cy="158" r="7"/>
+    <circle cx="421" cy="158" r="7"/><circle cx="504" cy="158" r="7"/><circle cx="587" cy="158" r="7"/><circle cx="670" cy="158" r="7"/>
+  </g>
+  <g font-size="10" fill="#667085" text-anchor="middle">
+    <text x="90" y="180">n</text><text x="173" y="180">n+1</text><text x="256" y="180">n+2</text><text x="339" y="180">n+3</text>
+    <text x="421" y="180">n+4</text><text x="504" y="180">n+5</text><text x="587" y="180">n+6</text><text x="670" y="180">n+7</text>
+  </g>
+  <text x="60" y="201" font-size="11.5" fill="#667085">합의를 시작하기 전에 순서가 이미 정해져 있어, 노드끼리 순서를 맞추는 대화가 줄어듭니다</text>
+  <!-- arrow -->
+  <g stroke="#667085" stroke-width="2" fill="none"><path d="M240 212 L240 236 M234 228 L240 236 L246 228"/></g>
+  <!-- PoS card -->
+  <rect x="40" y="240" width="440" height="124" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="240" width="440" height="6" fill="#3F4A5C"/>
+  <text x="60" y="272" font-size="13.5" font-weight="bold" fill="#1F2937">② 지분증명(PoS) 검증인이 확정한다</text>
+  <g font-size="11.8" fill="#1F2937">
+    <text x="60" y="298">· 스테이크(위임 포함)의 크기가 곧 표의 무게</text>
+    <text x="60" y="320">· 검증인은 매 슬롯 투표 거래를 보내 블록을 굳힌다</text>
+    <text x="60" y="342">· 그래서 "트랜잭션 수"에는 투표 거래가 섞여 있다</text>
+  </g>
+  <!-- parallel execution card -->
+  <rect x="500" y="240" width="220" height="124" rx="10" fill="#E8F5F7" stroke="#0E7490"/>
+  <text x="610" y="272" font-size="13" font-weight="bold" fill="#0E7490" text-anchor="middle">병렬 실행</text>
+  <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+    <text x="610" y="298">서로 다른 계정을 건드리는</text>
+    <text x="610" y="316">거래는 동시에 처리한다</text>
+    <text x="610" y="342">같은 계정을 건드리면 줄을 선다</text>
+  </g>
+  <rect x="40" y="392" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="416" font-size="11.5" fill="#667085">수수료 — 모든 거래가 내는 기본 수수료와, 순서를 앞당기려 얹는 우선 수수료가 따로 있습니다.</text>
+  <text x="40" y="434" font-size="11.5" fill="#667085">확정 — 표가 충분히 쌓이면 되돌리기 어려운 상태가 됩니다. "몇 초"라는 체감과 "되돌릴 수 없다"는 상태는 다른 말입니다.</text>
+  <text x="40" y="452" font-size="11.5" fill="#667085">진행형 — 검증인 클라이언트를 여러 종류로 늘리는 작업과 합의·수수료 개편 논의가 이어지고 있습니다.</text>
+</svg>

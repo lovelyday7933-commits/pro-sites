@@ -1,0 +1,4 @@
+name = "base"
+license = "proprietary"
+description = "144 공용 테마 — 주식/코인 두 사이트가 같은 레이아웃·같은 frontmatter 를 쓴다. 61 의 테마 3종(PaperMod/Blowfish/커스텀)이 만든 3배 유지비를 없애려고 하나로 둔다."
+min_version = "0.128.0"

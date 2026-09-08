@@ -1,0 +1,10 @@
+<header class="top">
+  <div class="wrap row">
+    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <nav>
+      {{- range site.Taxonomies.categories.ByCount }}
+      <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+      {{- end }}
+    </nav>
+  </div>
+</header>

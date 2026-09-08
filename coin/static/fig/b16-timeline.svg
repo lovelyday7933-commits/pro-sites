@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" font-family="Malgun Gothic">
+  <rect width="760" height="540" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">솔라나 연표 — 2017년에서 2026년까지</text>
+  <text x="40" y="56" font-size="12" fill="#667085">확정된 사실만 · 날짜는 공개 기록 기준 · 2026년은 진행형입니다</text>
+  <line x1="170" y1="92" x2="170" y2="462" stroke="#E6E8EC" stroke-width="3"/>
+  <!-- 1 -->
+  <circle cx="170" cy="104" r="6" fill="#0E7490"/>
+  <text x="152" y="108" text-anchor="end" font-size="12" font-weight="bold" fill="#1F2937">2017.11</text>
+  <text x="190" y="108" font-size="12" fill="#1F2937">역사증명(PoH) 백서 공개 — 순서를 먼저 찍는다는 발상</text>
+  <!-- 2 -->
+  <circle cx="170" cy="143" r="6" fill="#0E7490"/>
+  <text x="152" y="147" text-anchor="end" font-size="12" font-weight="bold" fill="#1F2937">2020.03</text>
+  <text x="190" y="147" font-size="12" fill="#1F2937">메인넷 베타 가동 (3월 16일) — "베타" 딱지는 그 뒤로도 오래 붙어 있었다</text>
+  <!-- 3 -->
+  <circle cx="170" cy="182" r="6" fill="#C6403F"/>
+  <text x="152" y="186" text-anchor="end" font-size="12" font-weight="bold" fill="#C6403F">2021.09</text>
+  <text x="190" y="186" font-size="12" fill="#1F2937">약 17시간 네트워크 중단 — 봇 거래가 몰려 블록 생산이 멈췄다</text>
+  <!-- 4 -->
+  <circle cx="170" cy="221" r="6" fill="#C6403F"/>
+  <text x="152" y="225" text-anchor="end" font-size="12" font-weight="bold" fill="#C6403F">2022.11</text>
+  <text x="190" y="225" font-size="12" fill="#1F2937">FTX 파산 신청 (11월 11일) — 상장과 투자로 얽힌 이름들이 함께 무너졌다</text>
+  <!-- 5 -->
+  <circle cx="170" cy="260" r="6" fill="#C6403F"/>
+  <text x="152" y="264" text-anchor="end" font-size="12" font-weight="bold" fill="#C6403F">2023.06</text>
+  <text x="190" y="264" font-size="12" fill="#1F2937">SEC 제소문에 SOL이 증권으로 거명 — 감독 당국의 주장 단계였다</text>
+  <!-- 6 -->
+  <circle cx="170" cy="299" r="6" fill="#C6403F"/>
+  <text x="152" y="303" text-anchor="end" font-size="12" font-weight="bold" fill="#C6403F">2024.02</text>
+  <text x="190" y="303" font-size="12" fill="#1F2937">약 5시간 네트워크 중단 — 공식 확인된 대형 중단은 그 뒤로 없다</text>
+  <!-- 7 -->
+  <circle cx="170" cy="338" r="6" fill="#0E7490"/>
+  <text x="152" y="342" text-anchor="end" font-size="12" font-weight="bold" fill="#1F2937">2024.06</text>
+  <text x="190" y="342" font-size="12" fill="#1F2937">미국 현물 ETF 첫 신청 접수 (6월 27일)</text>
+  <!-- 8 -->
+  <circle cx="170" cy="377" r="6" fill="#0E7490"/>
+  <text x="152" y="381" text-anchor="end" font-size="12" font-weight="bold" fill="#1F2937">2025.07</text>
+  <text x="190" y="381" font-size="12" fill="#1F2937">스테이킹을 담은 첫 미국 상장 SOL 펀드 거래 시작 (7월 2일)</text>
+  <!-- 9 -->
+  <circle cx="170" cy="416" r="6" fill="#0E7490"/>
+  <text x="152" y="420" text-anchor="end" font-size="12" font-weight="bold" fill="#1F2937">2025.10</text>
+  <text x="190" y="420" font-size="12" fill="#1F2937">미국 현물 ETF 거래 개시 (10월 28일)</text>
+  <!-- 10 -->
+  <circle cx="170" cy="455" r="6" fill="#FFFFFF" stroke="#0E7490" stroke-width="2.5"/>
+  <text x="152" y="459" text-anchor="end" font-size="12" font-weight="bold" fill="#667085">2026</text>
+  <text x="190" y="459" font-size="12" fill="#667085">진행형 — 발행 · 수수료 · 합의 개편 논의와 제도권 통로의 확대</text>
+  <g font-size="11" fill="#9AA1AB" text-anchor="end">
+    <text x="710" y="108">기술</text>
+    <text x="710" y="147">기술</text>
+    <text x="710" y="186">사고</text>
+    <text x="710" y="225">사건</text>
+    <text x="710" y="264">규제</text>
+    <text x="710" y="303">사고</text>
+    <text x="710" y="342">제도</text>
+    <text x="710" y="381">제도</text>
+    <text x="710" y="420">제도</text>
+    <text x="710" y="459">진행형</text>
+  </g>
+  <rect x="40" y="486" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="508" font-size="11.5" fill="#667085">읽는 법 — 중단 이력과 FTX 연관은 확정된 과거다. 감추고 들어가면 다음 뉴스 한 줄에 그대로 흔들린다.</text>
+  <text x="40" y="526" font-size="11.5" fill="#667085">2026년 칸을 비워 둔 이유 — 진행 중인 논의와 심사는 결론이 난 뒤에 연표에 올린다.</text>
+</svg>

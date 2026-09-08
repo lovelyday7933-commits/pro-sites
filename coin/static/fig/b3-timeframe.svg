@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">주봉 한 개 안에 일봉 다섯 개가 들어 있습니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">타임프레임 = 같은 시장을 보는 배율. 배율이 다르면 이야기가 달라 보입니다</text>
+  <!-- weekly candle -->
+  <text x="140" y="96" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">주봉 1개</text>
+  <line x1="140" y1="110" x2="140" y2="330" stroke="#C6403F" stroke-width="3"/>
+  <rect x="112" y="150" width="56" height="140" fill="#C6403F" rx="3"/>
+  <!-- zoom lines -->
+  <line x1="180" y1="150" x2="300" y2="110" stroke="#C6CBD2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="180" y1="290" x2="300" y2="340" stroke="#C6CBD2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <!-- daily candles: same week decomposed -->
+  <text x="470" y="96" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">같은 한 주의 일봉 5개</text>
+  <rect x="300" y="105" width="360" height="250" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+  <!-- Mon: down -->
+  <line x1="340" y1="150" x2="340" y2="270" stroke="#2E6BD6" stroke-width="2.2"/>
+  <rect x="326" y="170" width="28" height="80" fill="#2E6BD6" rx="2"/>
+  <!-- Tue: down small -->
+  <line x1="410" y1="220" x2="410" y2="310" stroke="#2E6BD6" stroke-width="2.2"/>
+  <rect x="396" y="240" width="28" height="50" fill="#2E6BD6" rx="2"/>
+  <!-- Wed: hammer up -->
+  <line x1="480" y1="250" x2="480" y2="335" stroke="#C6403F" stroke-width="2.2"/>
+  <rect x="466" y="250" width="28" height="30" fill="#C6403F" rx="2"/>
+  <!-- Thu: up -->
+  <line x1="550" y1="180" x2="550" y2="290" stroke="#C6403F" stroke-width="2.2"/>
+  <rect x="536" y="195" width="28" height="75" fill="#C6403F" rx="2"/>
+  <!-- Fri: strong up -->
+  <line x1="620" y1="125" x2="620" y2="215" stroke="#C6403F" stroke-width="2.2"/>
+  <rect x="606" y="135" width="28" height="70" fill="#C6403F" rx="2"/>
+  <g font-size="11" fill="#667085" text-anchor="middle">
+    <text x="340" y="372">월</text><text x="410" y="372">화</text><text x="480" y="372">수</text><text x="550" y="372">목</text><text x="620" y="372">금</text>
+  </g>
+  <text x="40" y="398" font-size="11.5" fill="#667085">주봉으로는 "긴 아랫꼬리 양봉" 하나지만, 일봉으로 보면 "이틀 급락 → 수요일 반전 → 이틀 회복"의 드라마입니다. 큰 배율은 추세를, 작은 배율은 타이밍을 보여줍니다.</text>
+</svg>

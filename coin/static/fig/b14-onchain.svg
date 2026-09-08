@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="Malgun Gothic">
+  <rect width="760" height="450" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">온체인에서 보이는 것과 보이지 않는 것</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#667085">이동은 보이고, 의도는 안 보인다 — 거래소 안으로 들어간 뒤는 원장 밖이다</text>
+  <!-- example flow -->
+  <text x="60" y="96" font-size="13" font-weight="bold" fill="#1F2937">가상의 예시 — "고래 지갑에서 거래소로 대량 이동" 알림이 떴을 때</text>
+  <g font-size="12" fill="#1F2937" text-anchor="middle">
+    <rect x="60" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="150" y="137" font-weight="bold">어느 주소에서 출금</text><text x="150" y="157" font-size="11.5" fill="#667085">금액 · 시각은 보인다</text>
+    <rect x="290" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#C2570A"/><text x="380" y="137" font-weight="bold">거래소 태그 주소로 유입</text><text x="380" y="157" font-size="11.5" fill="#667085">태그는 분석사의 추정</text>
+    <rect x="520" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="610" y="137" font-weight="bold">거래소 내부 장부</text><text x="610" y="157" font-size="11.5" fill="#667085">여기부터는 원장 밖</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none"><path d="M240 142 L282 142 M274 136 L282 142 L274 148"/><path d="M470 142 L512 142 M504 136 L512 142 L504 148"/></g>
+  <!-- two columns -->
+  <rect x="40" y="200" width="330" height="150" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="200" width="330" height="6" fill="#C2570A"/>
+  <text x="205" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">원장이 보여 주는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="60" y="262">· 어느 주소에서 어느 주소로, 얼마가, 언제(블록 높이)</text>
+    <text x="60" y="286">· 거래소로 알려진 주소의 유입·유출 (태그는 추정)</text>
+    <text x="60" y="310">· 오래 안 움직이던 코인의 이동 (주소 나이)</text>
+    <text x="60" y="334">· 그 거래가 낸 수수료 · 멤풀의 붐빔</text>
+  </g>
+  <rect x="390" y="200" width="330" height="150" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="390" y="200" width="330" height="6" fill="#2E6BD6"/>
+  <text x="555" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">원장이 말해 주지 않는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="410" y="262">· 거래소 안의 장부 — 유입 뒤 팔렸는지, 그냥 있는지</text>
+    <text x="410" y="286">· 주소의 주인 (표시된 이름은 태깅, 즉 추정)</text>
+    <text x="410" y="310">· 의도 — 매도 · 수탁 이동 · 내부 재배치 · 담보</text>
+    <text x="410" y="334">· 가격에 미칠 영향 · "고래가 던진다"는 서사의 진위</text>
+  </g>
+  <rect x="40" y="374" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="398" font-size="11.5" fill="#667085">검증 순서 — ① 알림이 말하는 거래를 블록 탐색기에서 직접 찾는다 ② 받는 주소의 태그가 누구의 추정인지 본다</text>
+  <text x="40" y="416" font-size="11.5" fill="#667085">③ '거래소 유입 = 매도'가 아니다. 실제로 팔렸는지는 거래소 잔고와 며칠치 흐름을 이어 봐야 보인다.</text>
+  <text x="40" y="434" font-size="11.5" fill="#667085">MVRV · SOPR 같은 지표도 같은 원장에서 나온 계산이다 — 계산 조건이 다르면 값이 다르고, 지표는 방향을 말하지 않는다.</text>
+</svg>

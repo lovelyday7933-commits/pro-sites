@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">셋은 서로 다릅니다 — 리플사, XRPL, XRP</text>
+  <text x="40" y="54" font-size="12" fill="#667085">이 구분이 안 되면 대부분의 뉴스를 잘못 읽게 됩니다</text>
+  <!-- three boxes triangle-ish layout -->
+  <rect x="280" y="80" width="200" height="90" rx="10" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.8"/>
+  <text x="380" y="110" font-size="13.5" font-weight="bold" fill="#1D4ED8" text-anchor="middle">Ripple (리플사)</text>
+  <text x="380" y="134" font-size="11.5" fill="#4B5563" text-anchor="middle">미국의 영리 기업</text>
+  <text x="380" y="154" font-size="11.5" fill="#4B5563" text-anchor="middle">송금 솔루션·RLUSD 사업</text>
+  <rect x="60" y="250" width="270" height="90" rx="10" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.8"/>
+  <text x="195" y="280" font-size="13.5" font-weight="bold" fill="#1D4ED8" text-anchor="middle">XRP Ledger (XRPL)</text>
+  <text x="195" y="304" font-size="11.5" fill="#4B5563" text-anchor="middle">누구의 소유도 아닌 공개 블록체인</text>
+  <text x="195" y="324" font-size="11.5" fill="#4B5563" text-anchor="middle">리플사가 꺼져도 네트워크는 돌아감</text>
+  <rect x="430" y="250" width="270" height="90" rx="10" fill="#EFF4FF" stroke="#1D4ED8" stroke-width="2"/>
+  <text x="565" y="280" font-size="13.5" font-weight="bold" fill="#1D4ED8" text-anchor="middle">XRP (자산)</text>
+  <text x="565" y="304" font-size="11.5" fill="#4B5563" text-anchor="middle">XRPL의 기본 자산 — 내가 사는 것</text>
+  <text x="565" y="324" font-size="11.5" fill="#4B5563" text-anchor="middle">보유해도 리플사 주주가 되는 게 아님</text>
+  <!-- relation lines -->
+  <g stroke="#9AA1AB" stroke-width="1.5">
+    <line x1="330" y1="170" x2="230" y2="246"/>
+    <line x1="430" y1="170" x2="530" y2="246"/>
+    <line x1="330" y1="295" x2="430" y2="295"/>
+  </g>
+  <g font-size="11" fill="#667085">
+    <text x="180" y="205">개발 기여·검증인 참여</text>
+    <text x="472" y="205">다량 보유 (에스크로)</text>
+    <text x="342" y="288">XRPL 위의 자산</text>
+  </g>
+  <g font-size="11.8" fill="#1F2937">
+    <text x="40" y="384" font-weight="bold">이 구분이 만드는 독해의 차이:</text>
+    <text x="40" y="408">"리플사가 소송에서 이겼다" = 회사 뉴스 → XRP 가치와의 연결 고리를 따로 따져야 하고, "리플사가 은행과 제휴했다" =</text>
+    <text x="40" y="426">그 제휴가 XRP를 실제로 쓰는지(수요)까지 확인해야 XRP 뉴스가 됩니다. 회사의 성공 ≠ 자동으로 XRP의 성공.</text>
+  </g>
+</svg>

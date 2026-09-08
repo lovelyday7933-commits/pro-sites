@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">금리가 오르면 "미래의 돈"이 싸집니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">미래에 받을 100만 원의 현재가치 (할인율 = 금리라고 단순화)</text>
+  <!-- group 1: 1년 뒤 -->
+  <text x="90" y="100" font-size="13" font-weight="bold" fill="#1F2937">1년 뒤 100만 원</text>
+  <!-- bars: scale 2.6px per 만원, base y=330 -->
+  <rect x="90"  y="75.1" width="90" height="254.9" fill="#1E3A5F"/>
+  <text x="135" y="352" font-size="12" fill="#4B5563" text-anchor="middle">금리 2%</text>
+  <text x="135" y="371" font-size="12.5" font-weight="bold" fill="#1E3A5F" text-anchor="middle">98.0만</text>
+  <rect x="200" y="82.4" width="90" height="247.6" fill="#7A93B5"/>
+  <text x="245" y="352" font-size="12" fill="#4B5563" text-anchor="middle">금리 5%</text>
+  <text x="245" y="371" font-size="12.5" font-weight="bold" fill="#4B5563" text-anchor="middle">95.2만</text>
+  <!-- group 2: 10년 뒤 -->
+  <text x="450" y="100" font-size="13" font-weight="bold" fill="#1F2937">10년 뒤 100만 원</text>
+  <rect x="450" y="116.7" width="90" height="213.3" fill="#1E3A5F"/>
+  <text x="495" y="352" font-size="12" fill="#4B5563" text-anchor="middle">금리 2%</text>
+  <text x="495" y="371" font-size="12.5" font-weight="bold" fill="#1E3A5F" text-anchor="middle">82.0만</text>
+  <rect x="560" y="170.4" width="90" height="159.6" fill="#C6403F"/>
+  <text x="605" y="352" font-size="12" fill="#4B5563" text-anchor="middle">금리 5%</text>
+  <text x="605" y="371" font-size="12.5" font-weight="bold" fill="#C6403F" text-anchor="middle">61.4만</text>
+  <line x1="60" y1="330" x2="710" y2="330" stroke="#9AA1AB" stroke-width="1.2"/>
+  <!-- highlight difference -->
+  <text x="40" y="404" font-size="11.5" fill="#667085">1년 뒤 돈은 금리가 올라도 3% 정도 깎이지만, 10년 뒤 돈은 20%포인트 넘게 깎입니다. 이익 대부분이 먼 미래에 있는 성장주가 금리 인상기에 더 크게 흔들리는 이유가 이 산수입니다.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">골든크로스의 배신 — 휩쏘(속임수 신호)</text>
+  <text x="40" y="54" font-size="12" fill="#667085">횡보장에서 이동평균 교차만 따라가면 겪는 일</text>
+  <rect x="40" y="70" width="690" height="270" rx="8" fill="#FFFFFF" stroke="#E6E8EC"/>
+  <!-- long MA: gentle -->
+  <path d="M 70 210 C 170 205, 270 208, 370 206 C 470 204, 570 190, 700 160"
+        fill="none" stroke="#2E6BD6" stroke-width="2.2"/>
+  <!-- short MA: crosses up, down, up -->
+  <path d="M 70 240 C 120 225, 150 205, 190 190 C 230 176, 260 185, 300 205 C 330 220, 360 228, 400 224 C 440 220, 480 200, 530 180 C 590 156, 640 130, 700 105"
+        fill="none" stroke="#C6403F" stroke-width="2.2"/>
+  <!-- price: choppy then trending -->
+  <path d="M 70 250 L 110 200 L 150 230 L 190 170 L 230 215 L 270 190 L 310 235 L 350 210 L 390 240 L 430 195 L 470 215 L 510 170 L 560 190 L 610 140 L 660 155 L 700 95"
+        fill="none" stroke="#1F2937" stroke-width="1.8" opacity="0.55"/>
+  <!-- cross markers -->
+  <circle cx="176" cy="196" r="6" fill="#C6403F"/>
+  <text x="176" y="150" font-size="11.5" font-weight="bold" fill="#C6403F" text-anchor="middle">골든크로스 ①</text>
+  <text x="176" y="166" font-size="11" fill="#667085" text-anchor="middle">매수 직후 하락</text>
+  <circle cx="308" cy="207" r="6" fill="#2E6BD6"/>
+  <text x="308" y="256" font-size="11.5" font-weight="bold" fill="#2E6BD6" text-anchor="middle">데드크로스</text>
+  <text x="308" y="272" font-size="11" fill="#667085" text-anchor="middle">손절 직후 반등</text>
+  <circle cx="500" cy="192" r="6" fill="#C6403F"/>
+  <text x="500" y="150" font-size="11.5" font-weight="bold" fill="#C6403F" text-anchor="middle">골든크로스 ②</text>
+  <text x="500" y="166" font-size="11" fill="#667085" text-anchor="middle">이번엔 진짜 추세</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="40" y="372" font-weight="bold">교차 신호는 추세장에서는 늦지만 유효하고, 횡보장에서는 사고팔기를 반복시키며 수수료와 손실만 쌓습니다.</text>
+    <text x="40" y="396" fill="#667085" font-size="11.5">그래서 교차를 쓰기 전에 "지금이 추세장인가 횡보장인가"를 먼저 판정해야 합니다. ①과 ②를 사전에 구별하는 마법은 없고,</text>
+    <text x="40" y="414" fill="#667085" font-size="11.5">거래량·이격도·상위 타임프레임 확인으로 확률을 높일 수 있을 뿐입니다.</text>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">같은 연 7%라도, 시간이 지나면 다른 돈이 됩니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">1,000만 원을 연 7%로 30년 운용했을 때 (세전, 개념 예시)</text>
+  <!-- grid -->
+  <g stroke="#E6E8EC" stroke-width="1">
+    <line x1="90" y1="280" x2="720" y2="280"/>
+    <line x1="90" y1="210" x2="720" y2="210"/>
+    <line x1="90" y1="140" x2="720" y2="140"/>
+    <line x1="90" y1="70"  x2="720" y2="70"/>
+  </g>
+  <g font-size="11" fill="#667085" text-anchor="end">
+    <text x="84" y="284">2,000만</text>
+    <text x="84" y="214">4,000만</text>
+    <text x="84" y="144">6,000만</text>
+    <text x="84" y="74">8,000만</text>
+  </g>
+  <!-- axes -->
+  <line x1="90" y1="60" x2="90" y2="350" stroke="#9AA1AB" stroke-width="1.2"/>
+  <line x1="90" y1="350" x2="720" y2="350" stroke="#9AA1AB" stroke-width="1.2"/>
+  <g font-size="11" fill="#667085" text-anchor="middle">
+    <text x="90"  y="368">0년</text>
+    <text x="190" y="368">5년</text>
+    <text x="290" y="368">10년</text>
+    <text x="390" y="368">15년</text>
+    <text x="490" y="368">20년</text>
+    <text x="590" y="368">25년</text>
+    <text x="690" y="368">30년</text>
+  </g>
+  <!-- simple interest -->
+  <line x1="90" y1="315" x2="690" y2="241" stroke="#667085" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <!-- compound -->
+  <path d="M 90 315 L 190 301 L 290 281 L 390 253 L 490 215 L 590 160 L 690 84"
+        fill="none" stroke="#1E3A5F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="690" cy="84" r="4" fill="#1E3A5F"/>
+  <circle cx="690" cy="241" r="4" fill="#667085"/>
+  <text x="620" y="120" font-size="12.5" font-weight="bold" fill="#1E3A5F">복리 7,612만 원</text>
+  <text x="620" y="230" font-size="12.5" fill="#667085">단리 3,100만 원</text>
+  <text x="40" y="400" font-size="11.5" fill="#667085">복리의 곡선은 뒤로 갈수록 가팔라집니다. 그래서 "일찍, 오래"가 수익률만큼 중요합니다.</text>
+</svg>

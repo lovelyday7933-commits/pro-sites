@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="Malgun Gothic">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">현물 ETF 이전과 이후 — XRP 수요가 다니는 길</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#667085">통로가 생겼다는 사실과 통로로 돈이 얼마나 흐르는지는 별개다</text>
+  <!-- before -->
+  <text x="60" y="100" font-size="13" font-weight="bold" fill="#667085">ETF 이전</text>
+  <g font-size="12" fill="#1F2937" text-anchor="middle">
+    <rect x="60" y="112" width="150" height="48" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="135" y="141">투자자</text>
+    <rect x="270" y="112" width="150" height="48" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="345" y="135">거래소 가입</text><text x="345" y="151" font-size="10.5" fill="#667085">신원 확인 · 지갑</text>
+    <rect x="480" y="112" width="150" height="48" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="555" y="141">XRP 직접 보유</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none"><path d="M210 136 L262 136 M254 130 L262 136 L254 142"/><path d="M420 136 L472 136 M464 130 L472 136 L464 142"/></g>
+  <text x="60" y="186" font-size="11.5" fill="#667085">연금·기관의 돈은 이 길을 거의 쓰지 못했다 — 수탁·회계·규정의 문턱</text>
+  <!-- after -->
+  <text x="60" y="236" font-size="13" font-weight="bold" fill="#0B5FA5">ETF 이후 (미국 첫 현물 ETF 상장 2025년 11월)</text>
+  <g font-size="12" fill="#1F2937" text-anchor="middle">
+    <rect x="60" y="248" width="150" height="48" rx="8" fill="#F6F8FB" stroke="#0B5FA5"/><text x="135" y="277">증권 계좌</text>
+    <rect x="270" y="248" width="150" height="48" rx="8" fill="#F6F8FB" stroke="#0B5FA5"/><text x="345" y="271">ETF 매수</text><text x="345" y="287" font-size="10.5" fill="#667085">주식처럼 사고판다</text>
+    <rect x="480" y="248" width="150" height="48" rx="8" fill="#F6F8FB" stroke="#0B5FA5"/><text x="555" y="271">운용사가 XRP 보유</text><text x="555" y="287" font-size="10.5" fill="#667085">수탁기관에 보관</text>
+  </g>
+  <g stroke="#0B5FA5" stroke-width="2" fill="none"><path d="M210 272 L262 272 M254 266 L262 272 L254 278"/><path d="M420 272 L472 272 M464 266 L472 272 L464 278"/></g>
+  <text x="60" y="322" font-size="11.5" fill="#667085">기관·연금·자문 계좌의 돈이 같은 길로 들어올 수 있게 됐다 — 수요의 통로. 사고팔고 헤지하는 운용 상품이 된 것.</text>
+  <rect x="40" y="350" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="376" font-size="11.5" fill="#667085">숫자로 보는 법 — 순유입(들어온 돈 − 나간 돈)이 계속 양(+)인가. 2026년 9월 초에는 11거래일 연속 순유입 속에서도</text>
+  <text x="40" y="394" font-size="11.5" fill="#667085">가격이 같은 방향으로 움직이지 않았다. 통로의 존재 · 통로의 유량 · 가격, 셋은 각각 따로 확인한다.</text>
+  <text x="40" y="420" font-size="11.5" fill="#667085">ETF 상품 목록·자금 흐름은 진행형 — 운용사 공시와 감독 당국의 최신 공지가 이 책보다 정확하다.</text>
+</svg>

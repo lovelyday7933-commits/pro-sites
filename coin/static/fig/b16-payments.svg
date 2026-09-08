@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" font-family="Malgun Gothic">
+  <rect width="760" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">두 경로 — 스테이블코인 전송과 카드망</text>
+  <text x="40" y="56" font-size="12" fill="#667085">같은 "결제"라도 끝나는 지점과 걸리는 시간이 다릅니다</text>
+  <!-- lane A -->
+  <text x="40" y="90" font-size="13" font-weight="bold" fill="#0E7490">원장 경로 — 스테이블코인(USDC) 전송</text>
+  <g text-anchor="middle">
+    <rect x="40" y="100" width="150" height="64" rx="8" fill="#E8F5F7" stroke="#0E7490"/>
+    <text x="115" y="126" font-size="12" font-weight="bold" fill="#1F2937">소비자 지갑</text>
+    <text x="115" y="146" font-size="10.5" fill="#667085">USDC를 들고 있다</text>
+    <rect x="216" y="100" width="150" height="64" rx="8" fill="#E8F5F7" stroke="#0E7490"/>
+    <text x="291" y="126" font-size="12" font-weight="bold" fill="#1F2937">원장 전송</text>
+    <text x="291" y="146" font-size="10.5" fill="#667085">초 단위 · 낮은 수수료</text>
+    <rect x="392" y="100" width="150" height="64" rx="8" fill="#E8F5F7" stroke="#0E7490"/>
+    <text x="467" y="126" font-size="12" font-weight="bold" fill="#1F2937">상점 지갑</text>
+    <text x="467" y="146" font-size="10.5" fill="#667085">받는 즉시 상점 몫</text>
+    <rect x="568" y="100" width="150" height="64" rx="8" fill="#E8F5F7" stroke="#0E7490"/>
+    <text x="643" y="126" font-size="12" font-weight="bold" fill="#1F2937">정산 · 환전</text>
+    <text x="643" y="146" font-size="10.5" fill="#667085">원화 창구는 따로 둔다</text>
+  </g>
+  <g stroke="#0E7490" stroke-width="2" fill="none">
+    <path d="M192 132 L212 132 M206 126 L212 132 L206 138"/>
+    <path d="M368 132 L388 132 M382 126 L388 132 L382 138"/>
+    <path d="M544 132 L564 132 M558 126 L564 132 L558 138"/>
+  </g>
+  <text x="40" y="188" font-size="11.5" fill="#667085">특징 — 전송 자체는 초 단위로 끝나고, 주말과 공휴일이라는 개념이 없다.</text>
+  <text x="40" y="206" font-size="11.5" fill="#667085">대신 필요한 것 — 지갑 관리 · 원화 환전 창구 · 세금과 회계 처리 · 잘못 보낸 거래는 되돌릴 수 없다.</text>
+  <!-- lane B -->
+  <text x="40" y="246" font-size="13" font-weight="bold" fill="#3F4A5C">카드망 경로 — 승인과 정산이 나뉜다</text>
+  <g text-anchor="middle">
+    <rect x="40" y="256" width="150" height="64" rx="8" fill="#F6F8FB" stroke="#9AA1AB"/>
+    <text x="115" y="282" font-size="12" font-weight="bold" fill="#1F2937">소비자 카드</text>
+    <text x="115" y="302" font-size="10.5" fill="#667085">긁는 순간 승인</text>
+    <rect x="216" y="256" width="150" height="64" rx="8" fill="#F6F8FB" stroke="#9AA1AB"/>
+    <text x="291" y="282" font-size="12" font-weight="bold" fill="#1F2937">매입사 · 밴</text>
+    <text x="291" y="302" font-size="10.5" fill="#667085">거래를 모아 청구</text>
+    <rect x="392" y="256" width="150" height="64" rx="8" fill="#F6F8FB" stroke="#9AA1AB"/>
+    <text x="467" y="282" font-size="12" font-weight="bold" fill="#1F2937">카드망 · 발급사</text>
+    <text x="467" y="302" font-size="10.5" fill="#667085">한도와 분쟁을 관리</text>
+    <rect x="568" y="256" width="150" height="64" rx="8" fill="#F6F8FB" stroke="#9AA1AB"/>
+    <text x="643" y="282" font-size="12" font-weight="bold" fill="#1F2937">상점 입금</text>
+    <text x="643" y="302" font-size="10.5" fill="#667085">통상 며칠 뒤</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none">
+    <path d="M192 288 L212 288 M206 282 L212 288 L206 294"/>
+    <path d="M368 288 L388 288 M382 282 L388 288 L382 294"/>
+    <path d="M544 288 L564 288 M558 282 L564 288 L558 294"/>
+  </g>
+  <text x="40" y="344" font-size="11.5" fill="#667085">특징 — 승인은 즉시지만 상점 계좌에 돈이 들어오는 것은 통상 며칠 뒤다.</text>
+  <text x="40" y="362" font-size="11.5" fill="#667085">대신 딸려 오는 것 — 분쟁 조정(차지백) · 도난 카드 보호 · 수십 년 쌓인 가맹점 인프라.</text>
+  <rect x="40" y="386" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="410" font-size="11.5" fill="#667085">읽는 법 — "빠르다"는 말은 전송이 빠르다는 뜻이고, 정산 · 환전 · 회계는 그 뒤에 따로 남는다.</text>
+  <text x="40" y="428" font-size="11.5" fill="#667085">그리고 — 이 경로에서 오가는 것은 USDC이지 SOL이 아니다. 결제가 늘면 체인은 붐비지만, SOL 수요로 이어지는 몫은</text>
+  <text x="40" y="446" font-size="11.5" fill="#667085">수수료와 블록 공간을 통해서다 — 결제 채택과 SOL 수요는 한 칸 건너서 이어진다.</text>
+</svg>

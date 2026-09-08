@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430" font-family="Malgun Gothic">
+  <rect width="760" height="430" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">규제와 정책 연표 — 2013부터 2026까지</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#667085">가격이 아니라 규칙이 바뀐 날들 — 취급업자에게 규칙을 붙이던 시기에서 제도권 통로가 열린 시기로</text>
+  <!-- band labels -->
+  <rect x="83" y="74" width="224" height="26" rx="13" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <text x="195" y="91" text-anchor="middle" font-size="11.5" fill="#667085">규칙이 먼저 생기던 시기</text>
+  <rect x="412" y="74" width="224" height="26" rx="13" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <text x="524" y="91" text-anchor="middle" font-size="11.5" fill="#667085">제도권 통로가 열린 시기</text>
+  <!-- axis -->
+  <line x1="66" y1="210" x2="700" y2="210" stroke="#9AA1AB" stroke-width="2"/>
+  <!-- nodes -->
+  <g>
+    <circle cx="86" cy="210" r="7" fill="#2E6BD6"/>
+    <circle cx="159" cy="210" r="7" fill="#2E6BD6"/>
+    <circle cx="232" cy="210" r="7" fill="#2E6BD6"/>
+    <circle cx="305" cy="210" r="7" fill="#2E6BD6"/>
+    <circle cx="378" cy="210" r="8" fill="#C2570A"/>
+    <circle cx="451" cy="210" r="8" fill="#C2570A"/>
+    <circle cx="524" cy="210" r="7" fill="#2E6BD6"/>
+    <circle cx="597" cy="210" r="7" fill="#2E6BD6"/>
+    <circle cx="670" cy="210" r="7" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="2"/>
+  </g>
+  <!-- above labels: 1 3 5 7 9 -->
+  <g text-anchor="middle">
+    <text x="86" y="142" font-size="12.5" font-weight="bold" fill="#1F2937">2013.03</text>
+    <text x="86" y="162" font-size="11.5" fill="#1F2937">FinCEN 지침</text>
+    <text x="86" y="179" font-size="10.5" fill="#667085">취급업자 = 송금업자</text>
+
+    <text x="232" y="142" font-size="12.5" font-weight="bold" fill="#1F2937">2017.12</text>
+    <text x="232" y="162" font-size="11.5" fill="#1F2937">CME 선물 상장</text>
+    <text x="232" y="179" font-size="10.5" fill="#667085">제도권 파생상품 첫 등장</text>
+
+    <text x="378" y="142" font-size="12.5" font-weight="bold" fill="#C2570A">2024.01.10</text>
+    <text x="378" y="162" font-size="11.5" fill="#C2570A">현물 ETF 승인</text>
+    <text x="378" y="179" font-size="10.5" fill="#667085">다음 날 거래 개시</text>
+
+    <text x="524" y="142" font-size="12.5" font-weight="bold" fill="#1F2937">2025.03.06</text>
+    <text x="524" y="162" font-size="11.5" fill="#1F2937">전략 비트코인 비축</text>
+    <text x="524" y="179" font-size="10.5" fill="#667085">미국 행정명령 — 몰수분 보관</text>
+
+    <text x="670" y="142" font-size="12.5" font-weight="bold" fill="#667085">2026</text>
+  </g>
+  <rect x="622" y="152" width="96" height="42" rx="6" fill="#FFFFFF" stroke="#C6CBD2" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <!-- below labels: 2 4 6 8 -->
+  <g text-anchor="middle">
+    <text x="159" y="240" font-size="12.5" font-weight="bold" fill="#1F2937">2015.06</text>
+    <text x="159" y="260" font-size="11.5" fill="#1F2937">뉴욕 비트라이선스</text>
+    <text x="159" y="277" font-size="10.5" fill="#667085">주 단위 인가제의 시작</text>
+
+    <text x="305" y="240" font-size="12.5" font-weight="bold" fill="#1F2937">2021.09.07</text>
+    <text x="305" y="260" font-size="11.5" fill="#1F2937">엘살바도르 법정통화</text>
+    <text x="305" y="277" font-size="10.5" fill="#667085">국가 단위 채택 첫 사례</text>
+
+    <text x="451" y="240" font-size="12.5" font-weight="bold" fill="#C2570A">2024.04.20</text>
+    <text x="451" y="260" font-size="11.5" fill="#C2570A">네 번째 반감기</text>
+    <text x="451" y="277" font-size="10.5" fill="#667085">블록 840,000 · 보상 절반으로</text>
+
+    <text x="597" y="240" font-size="12.5" font-weight="bold" fill="#1F2937">2025.07.18</text>
+    <text x="597" y="260" font-size="11.5" fill="#1F2937">GENIUS 법</text>
+    <text x="597" y="277" font-size="10.5" fill="#667085">스테이블코인 규율 확정</text>
+  </g>
+  <rect x="40" y="306" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="330" font-size="11.5" fill="#667085">읽는 법 — 이 연표는 "가격이 언제 올랐나"가 아니라 "규칙과 통로가 언제 바뀌었나"를 적은 것입니다. 주황 두 칸만 색이 다릅니다.</text>
+  <text x="40" y="350" font-size="11.5" fill="#667085">앞의 네 칸은 취급업자에게 규칙을 붙이던 시기이고, 2024년부터는 기존 금융 통로 안으로 들어온 시기입니다.</text>
+  <text x="40" y="370" font-size="11.5" fill="#667085">날짜는 발표 · 시행 기준입니다. 2017년 12월 선물은 CBOE가 10일에 먼저, CME가 뒤이어 개시했습니다.</text>
+  <text x="40" y="390" font-size="11.5" fill="#667085">마지막 칸은 비워 뒀습니다 — 2026년에 무엇이 들어갈지는 아직 정해지지 않았습니다.</text>
+</svg>

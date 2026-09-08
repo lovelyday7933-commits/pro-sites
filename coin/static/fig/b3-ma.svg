@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">정배열과 역배열 — 이동평균선의 줄 서기</text>
+  <text x="40" y="54" font-size="12" fill="#667085">이동평균선은 최근 N일 종가의 평균을 이어 그린 선입니다</text>
+  <!-- left panel: 정배열 -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="70" width="330" height="270" rx="10" stroke="#E6E8EC" fill="#FFFFFF"/>
+    <path d="M 70 300 C 140 285, 200 240, 250 185 C 285 148, 320 115, 345 95"  stroke="#1F2937" stroke-width="2.8"/>
+    <path d="M 70 308 C 140 296, 200 255, 250 205 C 285 170, 320 138, 345 118" stroke="#C6403F" stroke-width="2.2"/>
+    <path d="M 70 316 C 140 308, 200 272, 250 228 C 285 196, 320 166, 345 146" stroke="#B45309" stroke-width="2.2"/>
+    <path d="M 70 324 C 140 320, 200 292, 250 255 C 285 228, 320 202, 345 184" stroke="#2E6BD6" stroke-width="2.2"/>
+  </g>
+  <text x="205" y="368" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">정배열</text>
+  <text x="205" y="388" font-size="12" fill="#667085" text-anchor="middle">위에서부터 가격 &gt; 5일 &gt; 20일 &gt; 60일</text>
+  <text x="205" y="406" font-size="12" fill="#667085" text-anchor="middle">상승 추세가 자리 잡은 모습</text>
+  <!-- right panel: 역배열 -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="390" y="70" width="330" height="270" rx="10" stroke="#E6E8EC" fill="#FFFFFF"/>
+    <path d="M 420 95  C 490 110, 550 155, 600 210 C 635 248, 670 280, 695 300" stroke="#1F2937" stroke-width="2.8"/>
+    <path d="M 420 118 C 490 128, 550 170, 600 222 C 635 256, 670 288, 695 308" stroke="#C6403F" stroke-width="2.2"/>
+    <path d="M 420 146 C 490 152, 550 188, 600 236 C 635 266, 670 296, 695 316" stroke="#B45309" stroke-width="2.2"/>
+    <path d="M 420 184 C 490 186, 550 214, 600 254 C 635 280, 670 306, 695 324" stroke="#2E6BD6" stroke-width="2.2"/>
+  </g>
+  <text x="555" y="368" font-size="13.5" font-weight="bold" fill="#1F2937" text-anchor="middle">역배열</text>
+  <text x="555" y="388" font-size="12" fill="#667085" text-anchor="middle">위에서부터 60일 &gt; 20일 &gt; 5일 &gt; 가격</text>
+  <text x="555" y="406" font-size="12" fill="#667085" text-anchor="middle">하락 추세가 자리 잡은 모습</text>
+  <!-- legend -->
+  <g font-size="11.5">
+    <line x1="450" y1="46" x2="474" y2="46" stroke="#1F2937" stroke-width="2.8"/><text x="480" y="50" fill="#4B5563">가격</text>
+    <line x1="520" y1="46" x2="544" y2="46" stroke="#C6403F" stroke-width="2.2"/><text x="550" y="50" fill="#4B5563">5일</text>
+    <line x1="584" y1="46" x2="608" y2="46" stroke="#B45309" stroke-width="2.2"/><text x="614" y="50" fill="#4B5563">20일</text>
+    <line x1="656" y1="46" x2="680" y2="46" stroke="#2E6BD6" stroke-width="2.2"/><text x="686" y="50" fill="#4B5563">60일</text>
+  </g>
+  <text x="40" y="428" font-size="11.5" fill="#667085">배열이 무너지고 다시 서는 과정에서 골든크로스·데드크로스가 나옵니다. 교차는 결과이지 예언이 아닙니다.</text>
+</svg>

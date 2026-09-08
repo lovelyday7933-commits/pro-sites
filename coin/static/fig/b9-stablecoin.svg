@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">"1달러 고정"의 세 가지 방식 — 담보가 무엇인지가 전부</text>
+  <text x="40" y="54" font-size="12" fill="#667085">스테이블코인은 코인 시장의 현금이자 혈액입니다</text>
+  <g>
+    <rect x="40" y="80" width="215" height="250" rx="10" fill="#F5FBFC" stroke="#0E7490" stroke-width="1.6"/>
+    <text x="147" y="110" font-size="13" font-weight="bold" fill="#0E7490" text-anchor="middle">① 법정화폐 담보형</text>
+    <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+      <text x="147" y="140">발행사가 달러·미 국채를</text>
+      <text x="147" y="160">쌓아 두고 1:1 발행</text>
+      <text x="147" y="192" fill="#667085">시장의 주류 방식</text>
+      <text x="147" y="224" fill="#C6403F">약점: 발행사를 믿어야 함</text>
+      <text x="147" y="244" fill="#667085">(준비금 투명성이 생명)</text>
+      <text x="147" y="286" font-weight="bold" fill="#0E7490">은행에 가까운 구조</text>
+    </g>
+    <rect x="272" y="80" width="215" height="250" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="379" y="110" font-size="13" font-weight="bold" fill="#0E7490" text-anchor="middle">② 과담보형</text>
+    <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+      <text x="379" y="140">코인을 150% 이상 맡기고</text>
+      <text x="379" y="160">100만큼만 발행</text>
+      <text x="379" y="192" fill="#667085">탈중앙 · 온체인 투명</text>
+      <text x="379" y="224" fill="#C6403F">약점: 담보 코인 폭락 시</text>
+      <text x="379" y="244" fill="#C6403F">연쇄 청산 압력</text>
+      <text x="379" y="286" font-weight="bold" fill="#0E7490">전당포에 가까운 구조</text>
+    </g>
+    <rect x="504" y="80" width="215" height="250" rx="10" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.8"/>
+    <text x="611" y="110" font-size="13" font-weight="bold" fill="#C6403F" text-anchor="middle">③ 알고리즘형</text>
+    <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+      <text x="611" y="140">실물 담보 없이 설계와</text>
+      <text x="611" y="160">차익거래 유인으로 고정</text>
+      <text x="611" y="192" fill="#667085">"신뢰가 담보"인 구조</text>
+      <text x="611" y="224" font-weight="bold" fill="#C6403F">2022년 5월 테라(UST)</text>
+      <text x="611" y="244" font-weight="bold" fill="#C6403F">붕괴 — 며칠 만에 0으로</text>
+      <text x="611" y="286" fill="#667085">신뢰가 꺼지면 나선형 붕괴</text>
+    </g>
+  </g>
+  <g font-size="11.5" fill="#1F2937">
+    <text x="40" y="368" font-weight="bold">"1달러니까 안전하다"는 문장은 틀렸습니다 — 어떤 방식의 1달러인지까지 물어야 맞는 문장이 됩니다.</text>
+    <text x="40" y="392" fill="#667085">테라 붕괴는 수십조 원 규모의 자금과 함께 "고정은 깨질 수 있다"는 교훈을 남겼습니다. 거래소에서 원화 대신</text>
+    <text x="40" y="412" fill="#667085">스테이블코인으로 대기 자금을 둘 때도, 그 코인의 담보 방식과 발행사 공시를 아는 것이 기본기입니다.</text>
+  </g>
+</svg>

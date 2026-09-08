@@ -1,0 +1,33 @@
+# 사용자 구매 2026-09-08. canonical 은 절대 URL 자기참조여야 한다(SEO 기준).
+baseURL = "https://procoin.kr/"
+languageCode = "ko-kr"
+defaultContentLanguage = "ko"
+title = "코인"
+themesDir = "../_themes"
+theme = "base"
+
+enableGitInfo = false          # ⛔true 로 두면 Actions 에서 fetch-depth:0 이 필요해진다(비용 조항 3번)
+enableRobotsTXT = true
+buildFuture = false            # publishDate 가 미래면 빌드에서 뺀다 = 예약 발행의 근거
+summaryLength = 40
+
+[pagination]
+  pagerSize = 12
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+[params]
+  site = "coin"
+  description = ""
+  # 책 신청 창구 — 사용자 지급 2026-09-08. 사이트마다 다른 양식이라
+  # 이 링크 하나로 주식/코인 세그먼트가 갈린다.
+  ctaURL = "https://proreport.co.kr/f/c6b7o13b"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

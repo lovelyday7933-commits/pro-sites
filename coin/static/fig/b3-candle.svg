@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">캔들 하나에는 네 개의 가격이 들어 있습니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">시가 · 고가 · 저가 · 종가 (한국 관례: 상승=빨강, 하락=파랑)</text>
+  <!-- bullish candle -->
+  <g>
+    <line x1="240" y1="80" x2="240" y2="350" stroke="#C6403F" stroke-width="2.5"/>
+    <rect x="212" y="130" width="56" height="150" fill="#C6403F" rx="2"/>
+    <text x="240" y="378" font-size="13.5" font-weight="bold" fill="#C6403F" text-anchor="middle">양봉 (종가 &gt; 시가)</text>
+    <g font-size="12.5" fill="#1F2937">
+      <line x1="240" y1="80" x2="150" y2="80" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="144" y="84" text-anchor="end">고가</text>
+      <line x1="212" y1="130" x2="150" y2="130" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="144" y="134" text-anchor="end" font-weight="bold">종가</text>
+      <line x1="212" y1="280" x2="150" y2="280" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="144" y="284" text-anchor="end" font-weight="bold">시가</text>
+      <line x1="240" y1="350" x2="150" y2="350" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="144" y="354" text-anchor="end">저가</text>
+    </g>
+    <g font-size="11.5" fill="#667085">
+      <text x="278" y="108">윗꼬리: 올랐다가</text>
+      <text x="278" y="123">밀려 내려온 흔적</text>
+      <text x="278" y="205" font-weight="bold" fill="#1F2937">몸통: 시가→종가</text>
+      <text x="278" y="322">아랫꼬리: 눌렸다가</text>
+      <text x="278" y="337">사들어 올린 흔적</text>
+    </g>
+  </g>
+  <!-- bearish candle -->
+  <g>
+    <line x1="560" y1="80" x2="560" y2="350" stroke="#2E6BD6" stroke-width="2.5"/>
+    <rect x="532" y="130" width="56" height="150" fill="#2E6BD6" rx="2"/>
+    <text x="560" y="378" font-size="13.5" font-weight="bold" fill="#2E6BD6" text-anchor="middle">음봉 (종가 &lt; 시가)</text>
+    <g font-size="12.5" fill="#1F2937">
+      <line x1="560" y1="80" x2="650" y2="80" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="656" y="84">고가</text>
+      <line x1="588" y1="130" x2="650" y2="130" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="656" y="134" font-weight="bold">시가</text>
+      <line x1="588" y1="280" x2="650" y2="280" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="656" y="284" font-weight="bold">종가</text>
+      <line x1="560" y1="350" x2="650" y2="350" stroke="#C6CBD2" stroke-width="1"/>
+      <text x="656" y="354">저가</text>
+    </g>
+  </g>
+  <text x="40" y="406" font-size="11.5" fill="#667085">몸통은 힘의 결과, 꼬리는 힘의 공방입니다. 같은 종가라도 꼬리 모양에 따라 이야기가 달라집니다.</text>
+</svg>

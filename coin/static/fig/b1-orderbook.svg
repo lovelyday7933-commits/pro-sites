@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">호가창 — 사려는 사람과 팔려는 사람의 줄</text>
+  <text x="40" y="54" font-size="12" fill="#667085">예시 종목 (숫자는 이해를 위한 가상의 값)</text>
+  <!-- ask side (sellers) -->
+  <g font-size="12.5">
+    <rect x="240" y="80" width="280" height="30" fill="#F2F6FD"/>
+    <text x="380" y="100" text-anchor="middle" fill="#2E6BD6">50,900</text>
+    <rect x="524" y="84" width="66" height="22" fill="#2E6BD6" opacity="0.35"/>
+    <text x="598" y="100" fill="#4B5563">1,320주</text>
+    <rect x="240" y="112" width="280" height="30" fill="#F2F6FD"/>
+    <text x="380" y="132" text-anchor="middle" fill="#2E6BD6">50,800</text>
+    <rect x="524" y="116" width="44" height="22" fill="#2E6BD6" opacity="0.35"/>
+    <text x="576" y="132" fill="#4B5563">880주</text>
+    <rect x="240" y="144" width="280" height="30" fill="#F2F6FD"/>
+    <text x="380" y="164" text-anchor="middle" font-weight="bold" fill="#2E6BD6">50,700</text>
+    <rect x="524" y="148" width="30" height="22" fill="#2E6BD6" opacity="0.35"/>
+    <text x="562" y="164" fill="#4B5563">610주</text>
+  </g>
+  <text x="230" y="100" font-size="12" fill="#2E6BD6" text-anchor="end">매도 호가 (팔려는 줄)</text>
+  <!-- spread gap -->
+  <rect x="240" y="178" width="280" height="26" fill="#FFF7ED"/>
+  <text x="380" y="196" font-size="11.5" font-weight="bold" fill="#B45309" text-anchor="middle">스프레드 (호가 사이의 틈)</text>
+  <!-- bid side -->
+  <g font-size="12.5">
+    <rect x="240" y="208" width="280" height="30" fill="#FDF4F4"/>
+    <text x="380" y="228" text-anchor="middle" font-weight="bold" fill="#C6403F">50,600</text>
+    <rect x="170" y="212" width="66" height="22" fill="#C6403F" opacity="0.35"/>
+    <text x="162" y="228" fill="#4B5563" text-anchor="end">1,540주</text>
+    <rect x="240" y="240" width="280" height="30" fill="#FDF4F4"/>
+    <text x="380" y="260" text-anchor="middle" fill="#C6403F">50,500</text>
+    <rect x="196" y="244" width="40" height="22" fill="#C6403F" opacity="0.35"/>
+    <text x="188" y="260" fill="#4B5563" text-anchor="end">720주</text>
+    <rect x="240" y="272" width="280" height="30" fill="#FDF4F4"/>
+    <text x="380" y="292" text-anchor="middle" fill="#C6403F">50,400</text>
+    <rect x="182" y="276" width="54" height="22" fill="#C6403F" opacity="0.35"/>
+    <text x="174" y="292" fill="#4B5563" text-anchor="end">1,010주</text>
+  </g>
+  <text x="530" y="228" font-size="12" fill="#C6403F">매수 호가 (사려는 줄)</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="40" y="344" font-weight="bold">시장가 주문: "값 안 따지고 지금 당장" — 매도 1호가(50,700)부터 잡아먹으며 체결됩니다.</text>
+    <text x="40" y="366">수량이 크면 50,700 → 50,800 → 50,900으로 밀고 올라가며 평균 체결가가 나빠집니다(슬리피지).</text>
+    <text x="40" y="396" font-weight="bold">지정가 주문: "이 값 아니면 안 산다" — 50,600에 줄을 서고, 가격이 와야 체결됩니다.</text>
+    <text x="40" y="418" fill="#667085" font-size="11.5">거래가 적은 종목일수록 스프레드가 넓어 시장가 주문의 비용이 커집니다.</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+<title>{{ $title }}</title>
+{{- with (or .Description .Summary site.Params.description) }}
+<meta name="description" content="{{ . | plainify | truncate 155 }}">
+{{- end }}
+{{- /* canonical 은 절대 URL 자기참조. baseURL 이 비면 Hugo 가 상대경로를 준다 — 도메인 연결 뒤 자동으로 채워진다 */}}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title | default site.Title }}">
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{- with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{- if .IsPage }}
+<meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">
+{{- end }}
+{{ $css := resources.Get "css/main.css" | resources.Minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{- if .IsPage }}
+{{/* YMYL 하드룰 — 저자·운영주체·게시일이 없으면 구글이 Lowest 로 본다. 자동 주입한다. */}}
+{{- $ld := dict
+  "@context" "https://schema.org" "@type" "BlogPosting"
+  "headline" .Title
+  "datePublished" (.PublishDate.Format "2006-01-02")
+  "dateModified" (.Lastmod.Format "2006-01-02")
+  "author" (dict "@type" "Organization" "name" site.Title)
+  "publisher" (dict "@type" "Organization" "name" site.Title)
+  "mainEntityOfPage" .Permalink }}
+{{/* ⚠️ jsonify 결과를 그냥 두면 Hugo 가 script 안이라고 한 번 더 문자열로 감싼다(이중 인코딩).
+     safeJS 로 넘겨야 구글이 객체로 읽는다. 2026-09-08 실측으로 잡음. */}}
+<script type="application/ld+json">{{ $ld | jsonify | safeJS }}</script>
+{{- end }}
+</head>

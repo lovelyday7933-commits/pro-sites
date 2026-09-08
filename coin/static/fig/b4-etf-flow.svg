@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">현물 ETF가 바꾼 것 — 돈이 들어오는 문이 늘었다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">2024년 1월 미국 현물 비트코인 ETF 승인 이후의 구조</text>
+  <!-- before -->
+  <text x="40" y="96" font-size="13" font-weight="bold" fill="#4B5563">이전: 코인 거래소라는 문 하나</text>
+  <g>
+    <rect x="40" y="110" width="160" height="54" rx="8" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="1.4"/>
+    <text x="120" y="133" font-size="12" fill="#1F2937" text-anchor="middle">개인 투자자</text>
+    <text x="120" y="152" font-size="11" fill="#667085" text-anchor="middle">지갑·거래소 가입 필요</text>
+    <rect x="280" y="110" width="160" height="54" rx="8" fill="#FFFFFF" stroke="#9AA1AB" stroke-width="1.4"/>
+    <text x="360" y="133" font-size="12" fill="#1F2937" text-anchor="middle">코인 거래소</text>
+    <text x="360" y="152" font-size="11" fill="#667085" text-anchor="middle">보관·해킹 리스크 직접 부담</text>
+    <line x1="200" y1="137" x2="276" y2="137" stroke="#9AA1AB" stroke-width="1.8"/><polygon points="280,137 271,132 271,142" fill="#9AA1AB"/>
+    <text x="520" y="140" font-size="11.5" fill="#667085">연기금·보험·퇴직연금 같은 큰돈은</text>
+    <text x="520" y="158" font-size="11.5" fill="#667085">규정상 이 문으로 못 들어옴</text>
+  </g>
+  <!-- after -->
+  <text x="40" y="220" font-size="13" font-weight="bold" fill="#C2570A">이후: 증권 계좌라는 큰 문이 추가</text>
+  <g>
+    <rect x="40" y="236" width="150" height="60" rx="8" fill="#FFFFFF" stroke="#C2570A" stroke-width="1.6"/>
+    <text x="115" y="260" font-size="12" fill="#1F2937" text-anchor="middle">기관·연금·개인</text>
+    <text x="115" y="280" font-size="11" fill="#667085" text-anchor="middle">기존 증권 계좌 그대로</text>
+    <rect x="230" y="236" width="150" height="60" rx="8" fill="#FFF9F2" stroke="#C2570A" stroke-width="1.8"/>
+    <text x="305" y="260" font-size="12" font-weight="bold" fill="#C2570A" text-anchor="middle">현물 ETF 매수</text>
+    <text x="305" y="280" font-size="11" fill="#667085" text-anchor="middle">주식처럼 사고팖</text>
+    <rect x="420" y="236" width="150" height="60" rx="8" fill="#FFFFFF" stroke="#C2570A" stroke-width="1.6"/>
+    <text x="495" y="260" font-size="12" fill="#1F2937" text-anchor="middle">운용사</text>
+    <text x="495" y="280" font-size="11" fill="#667085" text-anchor="middle">들어온 돈만큼 실물 매입</text>
+    <rect x="610" y="236" width="120" height="60" rx="8" fill="#FFFFFF" stroke="#C2570A" stroke-width="1.6"/>
+    <text x="670" y="260" font-size="12" fill="#1F2937" text-anchor="middle">수탁기관</text>
+    <text x="670" y="280" font-size="11" fill="#667085" text-anchor="middle">실물 BTC 보관</text>
+    <g stroke="#C2570A" stroke-width="2">
+      <line x1="190" y1="266" x2="226" y2="266"/><polygon points="230,266 221,261 221,271" fill="#C2570A"/>
+      <line x1="380" y1="266" x2="416" y2="266"/><polygon points="420,266 411,261 411,271" fill="#C2570A"/>
+      <line x1="570" y1="266" x2="606" y2="266"/><polygon points="610,266 601,261 601,271" fill="#C2570A"/>
+    </g>
+  </g>
+  <text x="40" y="336" font-size="12" font-weight="bold" fill="#1F2937">핵심: ETF로 들어온 돈은 운용사의 실물 매수로 이어집니다.</text>
+  <text x="40" y="352" font-size="12" font-weight="bold" fill="#1F2937">수요의 성격이 "개인의 손"에서 "제도권 자금 배분"으로 확장된 사건입니다.</text>
+  <text x="40" y="370" font-size="11.5" fill="#667085">다만 문이 커졌다는 것이지, 들어온 돈이 나가지 않는다는 보장은 아닙니다. ETF는 환매도 똑같이 쉽게 만듭니다.</text>
+  <text x="40" y="390" font-size="11.5" fill="#667085">승인국·상품 구조는 계속 바뀌므로 투자 전 최신 정보를 확인하십시오.</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="Malgun Gothic">
+  <rect width="760" height="400" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">총발행 1,000억 개의 구성 — 유통과 잠금 (2026년 9월 1일 기준)</text>
+  <text x="40" y="54" font-size="12" fill="#667085">에스크로 잔량은 원장 공개 데이터 · "유통량"은 집계 기관마다 정의가 달라 값이 다르다</text>
+  <text x="40" y="100" font-size="12.5" font-weight="bold" fill="#1F2937">총발행 1,000억 개 (2012년 전량 사전 발행 · 추가 발행 불가)</text>
+  <!-- bar: 680px = 1,000억 -->
+  <rect x="40" y="114" width="467" height="64" fill="#0B5FA5" opacity="0.88"/>
+  <rect x="507" y="114" width="213" height="64" fill="#9AA1AB" opacity="0.8"/>
+  <rect x="718" y="114" width="2" height="64" fill="#C6403F"/>
+  <g font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    <text x="273" y="141">에스크로 밖 약 687억 개</text>
+    <text x="273" y="162" font-size="11" font-weight="normal">거래소·개인·기관 + 회사·창립자 장기 보유가 섞여 있다</text>
+    <text x="613" y="141">에스크로 약 312.8억 개</text>
+    <text x="613" y="162" font-size="11" font-weight="normal">총발행의 약 31%</text>
+  </g>
+  <line x1="719" y1="178" x2="719" y2="214" stroke="#C6403F" stroke-width="1.2"/>
+  <text x="716" y="232" font-size="11.5" fill="#C6403F" text-anchor="end">수수료 소각 누적 약 1,436만 개 = 총발행의 0.0144% (2026년 7월)</text>
+  <!-- escrow history -->
+  <g font-size="12" fill="#1F2937">
+    <text x="40" y="272" font-weight="bold">에스크로의 8년 9개월</text>
+    <text x="40" y="296">2017년 12월 550억 개 예치 → 2026년 9월 약 312.8억 개 = 105개월 동안 약 237억 개 순감 → 월평균 약 2억 2,600만 개</text>
+    <text x="40" y="320">매달 10억 개가 풀렸지만 금고에서 실제로 빠져나간 순량은 그 4분의 1 미만 — 나머지는 재예치</text>
+  </g>
+  <rect x="40" y="340" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="364" font-size="11.5" fill="#667085">체크 — 시가총액 비교는 유통량 기준인지 총발행(FDV) 기준인지부터. 유통량 600억이면 FDV는 시총의 1.67배, 700억이면 1.43배.</text>
+  <text x="40" y="384" font-size="11.5" fill="#667085">소각은 스팸 방어 장치이지 희소성 엔진이 아니다 — 13년 누적이 0.01%대.</text>
+</svg>

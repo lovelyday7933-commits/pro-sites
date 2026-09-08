@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">2,100만 개 — 처음부터 정해진 공급</text>
+  <text x="40" y="54" font-size="12" fill="#667085">누적 발행량은 반감기를 거치며 상한선에 수렴합니다</text>
+  <!-- cap line -->
+  <line x1="90" y1="90" x2="720" y2="90" stroke="#C2570A" stroke-width="1.8" stroke-dasharray="8 6"/>
+  <text x="714" y="82" font-size="12" font-weight="bold" fill="#C2570A" text-anchor="end">발행 상한 2,100만 개</text>
+  <!-- axes -->
+  <line x1="90" y1="70" x2="90" y2="350" stroke="#9AA1AB" stroke-width="1.2"/>
+  <line x1="90" y1="350" x2="720" y2="350" stroke="#9AA1AB" stroke-width="1.2"/>
+  <!-- curve -->
+  <path d="M 90 350 C 120 300, 145 250, 169 220 C 200 180, 225 165, 248 155 C 280 143, 300 128, 326 122.5
+           C 360 115, 380 109, 405 106 C 470 99, 560 94, 720 91"
+        fill="none" stroke="#C2570A" stroke-width="3" stroke-linecap="round"/>
+  <!-- halving markers -->
+  <g stroke="#C6CBD2" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="169" y1="220" x2="169" y2="350"/>
+    <line x1="248" y1="155" x2="248" y2="350"/>
+    <line x1="326" y1="122" x2="326" y2="350"/>
+    <line x1="405" y1="106" x2="405" y2="350"/>
+  </g>
+  <g font-size="11.5" fill="#4B5563" text-anchor="middle">
+    <text x="90" y="368">2009</text>
+    <text x="169" y="368">2012</text>
+    <text x="248" y="368">2016</text>
+    <text x="326" y="368">2020</text>
+    <text x="405" y="368">2024</text>
+    <text x="562" y="368">…</text>
+    <text x="700" y="368">~2140</text>
+  </g>
+  <g font-size="11" fill="#667085" text-anchor="middle">
+    <text x="169" y="208">1,050만</text>
+    <text x="248" y="143">1,575만</text>
+    <text x="326" y="110">1,837만</text>
+    <text x="416" y="130">1,968만</text>
+  </g>
+  <text x="40" y="400" font-size="11.5" fill="#667085">2024년 4차 반감기 시점에 이미 전체의 약 94%가 발행됐습니다. 남은 6%가 앞으로 100년 넘게 나눠 발행됩니다.</text>
+</svg>

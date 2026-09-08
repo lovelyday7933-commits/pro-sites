@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">에스크로 — "물량 폭탄"의 실제 구조</text>
+  <text x="40" y="54" font-size="12" fill="#667085">2017년 12월, 리플사 보유분 550억 개를 잠근 장치</text>
+  <!-- vault -->
+  <rect x="40" y="86" width="240" height="130" rx="10" fill="#EFF4FF" stroke="#1D4ED8" stroke-width="1.8"/>
+  <text x="160" y="116" font-size="13.5" font-weight="bold" fill="#1D4ED8" text-anchor="middle">에스크로 금고</text>
+  <text x="160" y="142" font-size="12" fill="#1F2937" text-anchor="middle">10억 개짜리 계약 55개</text>
+  <text x="160" y="164" font-size="12" fill="#1F2937" text-anchor="middle">(총 550억 개, 프로토콜이 잠금)</text>
+  <text x="160" y="192" font-size="11" fill="#667085" text-anchor="middle">회사도 임의로 못 꺼냄 — 만기 때만 해제</text>
+  <!-- monthly release -->
+  <line x1="280" y1="150" x2="360" y2="150" stroke="#1D4ED8" stroke-width="2"/>
+  <polygon points="364,150 355,145 355,155" fill="#1D4ED8"/>
+  <text x="322" y="136" font-size="11.5" fill="#1D4ED8" text-anchor="middle">매월 만기</text>
+  <rect x="368" y="110" width="180" height="80" rx="10" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="1.5"/>
+  <text x="458" y="140" font-size="12.5" font-weight="bold" fill="#1F2937" text-anchor="middle">최대 10억 개 해제</text>
+  <text x="458" y="164" font-size="11.5" fill="#667085" text-anchor="middle">이 숫자만 보고 겁주는</text>
+  <text x="458" y="180" font-size="11.5" fill="#667085" text-anchor="middle">기사가 많습니다</text>
+  <!-- split: used vs relocked -->
+  <line x1="548" y1="132" x2="620" y2="106" stroke="#C6403F" stroke-width="1.8"/>
+  <polygon points="624,104 614,103 618,112" fill="#C6403F"/>
+  <rect x="600" y="72" width="130" height="56" rx="8" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.4"/>
+  <text x="665" y="96" font-size="11.8" font-weight="bold" fill="#C6403F" text-anchor="middle">실제 사용 일부</text>
+  <text x="665" y="116" font-size="11" fill="#667085" text-anchor="middle">사업·기관 판매 등</text>
+  <line x1="548" y1="168" x2="620" y2="196" stroke="#0F766E" stroke-width="1.8"/>
+  <polygon points="624,198 614,199 618,190" fill="#0F766E"/>
+  <rect x="600" y="176" width="130" height="56" rx="8" fill="#F5FBF9" stroke="#0F766E" stroke-width="1.4"/>
+  <text x="665" y="200" font-size="11.8" font-weight="bold" fill="#0F766E" text-anchor="middle">미사용분 재예치</text>
+  <text x="665" y="220" font-size="11" fill="#667085" text-anchor="middle">새 만기로 다시 잠금</text>
+  <!-- relock loop arrow back to vault -->
+  <path d="M 600 214 C 400 290, 220 280, 160 222" fill="none" stroke="#0F766E" stroke-width="1.6" stroke-dasharray="6 5"/>
+  <polygon points="158,218 156,229 166,224" fill="#0F766E"/>
+  <g font-size="12" fill="#1F2937">
+    <text x="40" y="330" font-weight="bold">읽는 법: "이달 10억 개 해제"가 아니라 "그중 몇 개가 시장에 순유입됐는가"가 진짜 숫자입니다.</text>
+    <text x="40" y="356" fill="#667085" font-size="11.5">역사적으로 해제분의 상당 부분이 재예치되어 왔습니다. 다만 이 관행은 회사의 선택이지 프로토콜의 강제가 아니므로,</text>
+    <text x="40" y="376" fill="#667085" font-size="11.5">달마다 달라질 수 있습니다. 해제·재예치 내역은 XRPL 온체인에서 누구나 직접 확인할 수 있습니다.</text>
+    <text x="40" y="404" fill="#667085" font-size="11.5">공포 기사를 만나면 이 그림을 떠올리고, 온체인 숫자부터 확인하는 습관이 홀더를 지킵니다.</text>
+  </g>
+</svg>

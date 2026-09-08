@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="360" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">주문 한 번이 지나가는 길</text>
+  <text x="40" y="54" font-size="12" fill="#667085">내 스마트폰에서 체결·결제까지</text>
+  <g>
+    <rect x="40" y="90" width="150" height="70" rx="10" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1.6"/>
+    <text x="115" y="119" font-size="13" font-weight="bold" fill="#1E3A5F" text-anchor="middle">투자자</text>
+    <text x="115" y="140" font-size="11.5" fill="#667085" text-anchor="middle">MTS/HTS로 주문</text>
+    <rect x="222" y="90" width="150" height="70" rx="10" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1.6"/>
+    <text x="297" y="119" font-size="13" font-weight="bold" fill="#1E3A5F" text-anchor="middle">증권사</text>
+    <text x="297" y="140" font-size="11.5" fill="#667085" text-anchor="middle">주문 전달 (위탁)</text>
+    <rect x="404" y="90" width="150" height="70" rx="10" fill="#EEF2F7" stroke="#1E3A5F" stroke-width="1.8"/>
+    <text x="479" y="119" font-size="13" font-weight="bold" fill="#1E3A5F" text-anchor="middle">한국거래소</text>
+    <text x="479" y="140" font-size="11.5" fill="#667085" text-anchor="middle">호가 매칭 → 체결</text>
+    <rect x="586" y="90" width="150" height="70" rx="10" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1.6"/>
+    <text x="661" y="119" font-size="13" font-weight="bold" fill="#1E3A5F" text-anchor="middle">예탁결제원</text>
+    <text x="661" y="140" font-size="11.5" fill="#667085" text-anchor="middle">주식·대금 결제</text>
+    <g stroke="#1E3A5F" stroke-width="1.8">
+      <line x1="190" y1="125" x2="218" y2="125"/><polygon points="222,125 213,120 213,130" fill="#1E3A5F"/>
+      <line x1="372" y1="125" x2="400" y2="125"/><polygon points="404,125 395,120 395,130" fill="#1E3A5F"/>
+      <line x1="554" y1="125" x2="582" y2="125"/><polygon points="586,125 577,120 577,130" fill="#1E3A5F"/>
+    </g>
+  </g>
+  <rect x="40" y="200" width="696" height="64" rx="8" fill="#F8F9FA" stroke="#E6E8EC"/>
+  <text x="56" y="226" font-size="12.5" font-weight="bold" fill="#1F2937">D+2 결제: 오늘 판 주식 대금은 2영업일 뒤에 출금할 수 있습니다.</text>
+  <text x="56" y="248" font-size="11.5" fill="#667085">체결(오늘)과 결제(이틀 뒤)가 분리되어 있기 때문입니다. 이사·등록금처럼 날짜가 정해진 돈이라면 미리 계산에 넣으십시오.</text>
+  <text x="40" y="300" font-size="11.5" fill="#667085">수수료는 두 겹입니다: 증권사 위탁수수료 + 유관기관(거래소·예탁원) 비용. "수수료 무료" 광고도</text>
+  <text x="40" y="320" font-size="11.5" fill="#667085">유관기관 비용까지 무료인 경우는 드무니 계좌 개설 전에 조건을 확인하십시오.</text>
+</svg>

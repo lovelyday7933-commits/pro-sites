@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">채굴 — 10분에 한 번 열리는 자물쇠 경주</text>
+  <text x="40" y="54" font-size="12" fill="#667085">난이도 조정이 있어 참가자가 늘어도 속도는 그대로입니다</text>
+  <!-- race diagram -->
+  <g>
+    <rect x="40" y="80" width="200" height="130" rx="10" fill="#FFFFFF" stroke="#C2570A" stroke-width="1.5"/>
+    <text x="140" y="108" font-size="13" font-weight="bold" fill="#C2570A" text-anchor="middle">① 문제 출제</text>
+    <text x="140" y="136" font-size="11.5" fill="#4B5563" text-anchor="middle">정답을 찍어서 맞혀야 하는</text>
+    <text x="140" y="156" font-size="11.5" fill="#4B5563" text-anchor="middle">복권식 수학 퍼즐</text>
+    <text x="140" y="184" font-size="11.5" fill="#667085" text-anchor="middle">지름길 없음 — 오직 시도 횟수</text>
+    <rect x="280" y="80" width="200" height="130" rx="10" fill="#FFFFFF" stroke="#C2570A" stroke-width="1.5"/>
+    <text x="380" y="108" font-size="13" font-weight="bold" fill="#C2570A" text-anchor="middle">② 전 세계 경쟁</text>
+    <text x="380" y="136" font-size="11.5" fill="#4B5563" text-anchor="middle">수많은 채굴기가 초당</text>
+    <text x="380" y="156" font-size="11.5" fill="#4B5563" text-anchor="middle">수십조 번씩 답을 대입</text>
+    <text x="380" y="184" font-size="11.5" fill="#667085" text-anchor="middle">전기와 장비 = 참가 비용</text>
+    <rect x="520" y="80" width="200" height="130" rx="10" fill="#FFF9F2" stroke="#C2570A" stroke-width="1.8"/>
+    <text x="620" y="108" font-size="13" font-weight="bold" fill="#C2570A" text-anchor="middle">③ 승자의 보상</text>
+    <text x="620" y="136" font-size="11.5" fill="#4B5563" text-anchor="middle">먼저 맞힌 사람이 새 블록을</text>
+    <text x="620" y="156" font-size="11.5" fill="#4B5563" text-anchor="middle">기록하고 새 BTC + 수수료 수령</text>
+    <text x="620" y="184" font-size="11.5" fill="#667085" text-anchor="middle">이것이 신규 발행의 유일한 길</text>
+    <g stroke="#C2570A" stroke-width="2">
+      <line x1="240" y1="145" x2="276" y2="145"/><polygon points="280,145 271,140 271,150" fill="#C2570A"/>
+      <line x1="480" y1="145" x2="516" y2="145"/><polygon points="520,145 511,140 511,150" fill="#C2570A"/>
+    </g>
+  </g>
+  <!-- difficulty adjust -->
+  <rect x="40" y="240" width="690" height="100" rx="10" fill="#F8F9FA" stroke="#E6E8EC"/>
+  <text x="60" y="270" font-size="13" font-weight="bold" fill="#1F2937">난이도 조정 — 약 2주(2,016블록)마다 자동 보정</text>
+  <g font-size="11.8" fill="#4B5563">
+    <text x="60" y="296">채굴기가 몰려 10분보다 빨리 풀리면 → 문제가 어려워짐 / 채굴기가 떠나 늦어지면 → 쉬워짐</text>
+    <text x="60" y="320">그래서 참가자가 10배가 되어도 발행 속도는 계획표(약 10분에 1블록)를 지킵니다.</text>
+  </g>
+  <text x="40" y="376" font-size="11.5" fill="#667085">금은 채굴 기술이 좋아지면 공급이 늘지만, 비트코인은 기술이 좋아져도 공급 일정이 변하지 않습니다.</text>
+  <text x="40" y="396" font-size="11.5" fill="#667085">"디지털 금"이라는 별명이 과장이 아닌 지점이 바로 이 설계입니다.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="340" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">SEC 소송 연표 (2020 ~ 2025)</text>
+  <text x="40" y="54" font-size="12" fill="#667085">약 4년 반 동안 XRP 가격과 상장 상태를 지배했던 사건</text>
+  <!-- timeline -->
+  <line x1="70" y1="170" x2="710" y2="170" stroke="#9AA1AB" stroke-width="2"/>
+  <!-- nodes x: 110, 260, 410, 550, 670 -->
+  <g>
+    <circle cx="110" cy="170" r="7" fill="#2E6BD6"/>
+    <circle cx="260" cy="170" r="7" fill="#1D4ED8"/>
+    <circle cx="410" cy="170" r="7" fill="#1D4ED8"/>
+    <circle cx="550" cy="170" r="7" fill="#1D4ED8"/>
+    <circle cx="670" cy="170" r="8" fill="#C6403F"/>
+  </g>
+  <!-- above labels -->
+  <g text-anchor="middle">
+    <text x="110" y="120" font-size="12.5" font-weight="bold" fill="#1F2937">2020.12</text>
+    <text x="110" y="140" font-size="11.5" fill="#4B5563">SEC 제소</text>
+    <text x="410" y="120" font-size="12.5" font-weight="bold" fill="#1F2937">2024.8</text>
+    <text x="410" y="140" font-size="11.5" fill="#4B5563">1심 벌금 판결</text>
+    <text x="670" y="120" font-size="12.5" font-weight="bold" fill="#C6403F">2025</text>
+    <text x="670" y="140" font-size="11.5" fill="#C6403F">소송 종결</text>
+  </g>
+  <!-- below labels -->
+  <g text-anchor="middle">
+    <text x="260" y="200" font-size="12.5" font-weight="bold" fill="#1F2937">2023.7</text>
+    <text x="260" y="220" font-size="11.5" fill="#4B5563">약식판결:</text>
+    <text x="260" y="236" font-size="11.5" fill="#4B5563">거래소 판매는 비증권</text>
+    <text x="550" y="200" font-size="12.5" font-weight="bold" fill="#1F2937">2024~2025</text>
+    <text x="550" y="220" font-size="11.5" fill="#4B5563">항소 국면 →</text>
+    <text x="550" y="236" font-size="11.5" fill="#4B5563">양측 항소 철회</text>
+  </g>
+  <text x="40" y="284" font-size="11.5" fill="#667085">핵심: 2023년 판결은 "거래소에서의 프로그래매틱 판매는 증권 판매가 아니다"였고, 기관 대상 직접 판매는 증권 판매로</text>
+  <text x="40" y="302" font-size="11.5" fill="#667085">판단됐습니다. "XRP라는 자산 자체는 증권이 아니다"라는 상급심 확정 판례와는 범위가 다릅니다 — 본문 참조.</text>
+</svg>

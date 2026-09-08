@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{- with .Content }}<div class="body">{{ . }}</div>{{ end }}
+<ul class="cards">
+  {{- range .Paginator.Pages }}
+  <li>
+    <a href="{{ .RelPermalink }}"><b>{{ .Title }}</b></a>
+    <p>{{ .Description | default .Summary | plainify | truncate 110 }}</p>
+    <span class="meta">{{ .PublishDate.Format "01/02" }}{{ with .Params.categories }} · {{ index . 0 }}{{ end }}</span>
+  </li>
+  {{- end }}
+</ul>
+{{ template "_internal/pagination.html" . }}
+{{ end }}

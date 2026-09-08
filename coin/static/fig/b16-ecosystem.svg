@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Malgun Gothic">
+  <rect width="760" height="470" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">솔라나 생태계 지도 — 다섯 구역</text>
+  <text x="40" y="56" font-size="12" fill="#667085">개별 프로젝트 이름 대신 범주로 먼저 봅니다 — 이름과 순위는 수시로 바뀝니다</text>
+  <!-- row 1 -->
+  <g>
+    <rect x="40" y="86" width="216" height="110" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+    <rect x="40" y="86" width="216" height="5" fill="#0E7490"/>
+    <text x="148" y="118" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">DEX · 디파이</text>
+    <text x="148" y="142" font-size="11" fill="#4B5563" text-anchor="middle">현물 교환 · 유동성 · 대출</text>
+    <text x="148" y="160" font-size="11" fill="#4B5563" text-anchor="middle">체인 위 금융이 모이는 자리</text>
+    <text x="148" y="184" font-size="11" fill="#0E7490" text-anchor="middle">볼 것 — 거래량과 예치금</text>
+  </g>
+  <g>
+    <rect x="272" y="86" width="216" height="110" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+    <rect x="272" y="86" width="216" height="5" fill="#0E7490"/>
+    <text x="380" y="118" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">밈코인 런치패드</text>
+    <text x="380" y="142" font-size="11" fill="#4B5563" text-anchor="middle">토큰을 몇 분 만에 찍는 도구</text>
+    <text x="380" y="160" font-size="11" fill="#4B5563" text-anchor="middle">수수료 수입은 크고 수명은 짧다</text>
+    <text x="380" y="184" font-size="11" fill="#0E7490" text-anchor="middle">볼 것 — 열기와 잔존율</text>
+  </g>
+  <g>
+    <rect x="504" y="86" width="216" height="110" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+    <rect x="504" y="86" width="216" height="5" fill="#0E7490"/>
+    <text x="612" y="118" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">결제 · 모바일</text>
+    <text x="612" y="142" font-size="11" fill="#4B5563" text-anchor="middle">스테이블코인 결제 · 지갑</text>
+    <text x="612" y="160" font-size="11" fill="#4B5563" text-anchor="middle">휴대폰과 매장 단말까지</text>
+    <text x="612" y="184" font-size="11" fill="#0E7490" text-anchor="middle">볼 것 — 발표인가 건수인가</text>
+  </g>
+  <!-- row 2 -->
+  <g>
+    <rect x="40" y="210" width="332" height="110" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+    <rect x="40" y="210" width="332" height="5" fill="#0E7490"/>
+    <text x="206" y="242" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">토큰화 주식 · RWA</text>
+    <text x="206" y="266" font-size="11" fill="#4B5563" text-anchor="middle">주식 · 채권 · 펀드를 원장 위 토큰으로 옮기는 시도</text>
+    <text x="206" y="284" font-size="11" fill="#4B5563" text-anchor="middle">거래 시간과 결제 방식이 달라진다</text>
+    <text x="206" y="308" font-size="11" fill="#0E7490" text-anchor="middle">볼 것 — 발행사 · 상환 경로 · 규제 관할</text>
+  </g>
+  <g>
+    <rect x="388" y="210" width="332" height="110" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+    <rect x="388" y="210" width="332" height="5" fill="#0E7490"/>
+    <text x="554" y="242" font-size="13" font-weight="bold" fill="#1F2937" text-anchor="middle">인프라</text>
+    <text x="554" y="266" font-size="11" fill="#4B5563" text-anchor="middle">RPC · 검증인 클라이언트 · 오라클 · 데이터 서비스</text>
+    <text x="554" y="284" font-size="11" fill="#4B5563" text-anchor="middle">평소엔 안 보이고 장애 때만 보이는 층</text>
+    <text x="554" y="308" font-size="11" fill="#0E7490" text-anchor="middle">볼 것 — 클라이언트가 몇 종류인가</text>
+  </g>
+  <!-- base -->
+  <rect x="40" y="334" width="680" height="58" rx="10" fill="#0E7490"/>
+  <text x="380" y="360" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">기반 — SOL과 검증인 네트워크 (블록 공간 · 수수료 · 스테이킹)</text>
+  <text x="380" y="380" font-size="11.5" fill="#D7F1F8" text-anchor="middle">다섯 구역이 나눠 쓰는 자원은 결국 같은 원장 하나입니다</text>
+  <rect x="40" y="412" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="434" font-size="11.5" fill="#667085">읽는 법 — 구역이 커지는 것과 SOL 수요가 느는 것은 다른 문제다. 그 활동이 수수료와 스테이킹으로 이어지는지 본다.</text>
+  <text x="40" y="452" font-size="11.5" fill="#667085">지도에 없는 이름이 훨씬 많다 — 범주로 먼저 분류하고, 개별 프로젝트는 그날의 공개 데이터로 확인한다.</text>
+</svg>

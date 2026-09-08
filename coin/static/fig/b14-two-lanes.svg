@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" width="760" height="460" font-family="Malgun Gothic">
+  <rect width="760" height="460" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">두 길 — 온체인 결제와 라이트닝 네트워크</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#667085">같은 비트코인을 옮기지만 기록 방식 · 속도 · 수수료 구조가 다르다</text>
+  <!-- left lane: on-chain -->
+  <rect x="40" y="90" width="300" height="240" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="90" width="300" height="6" fill="#C2570A"/>
+  <text x="190" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">온체인 결제 · 기본 원장</text>
+  <text x="190" y="146" text-anchor="middle" font-size="11.5" fill="#667085">블록에 직접 기록한다</text>
+  <text x="60" y="180" font-size="12" fill="#1F2937">· 약 10분마다 한 블록 — 기다림이 기본값</text>
+  <text x="60" y="204" font-size="12" fill="#1F2937">· 확정은 컨펌 수로, 관행상 6컨펌(약 1시간)</text>
+  <text x="60" y="228" font-size="12" fill="#1F2937">· 수수료는 블록 공간 경매 — 붐비면 오른다</text>
+  <text x="60" y="252" font-size="12" fill="#1F2937">· 큰 금액 · 최종 정산 · 보관 지갑 이동에 맞다</text>
+  <text x="60" y="296" font-size="11.5" fill="#667085">걸림돌 — 소액에는 수수료가 비싸고 느리다</text>
+  <!-- right lane: lightning -->
+  <rect x="420" y="90" width="300" height="240" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="420" y="90" width="300" height="6" fill="#2E6BD6"/>
+  <text x="570" y="126" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">라이트닝 네트워크 · 2계층</text>
+  <text x="570" y="146" text-anchor="middle" font-size="11.5" fill="#667085">채널을 열고 그 안에서 주고받는다</text>
+  <text x="440" y="180" font-size="12" fill="#1F2937">· 채널 개설·폐쇄만 원장에, 그 사이는 원장 밖</text>
+  <text x="440" y="204" font-size="12" fill="#1F2937">· 결제는 즉시 — 초 단위, 컨펌 대기 없음</text>
+  <text x="440" y="228" font-size="12" fill="#1F2937">· 수수료는 경로 비용 — 소액 결제에 맞다</text>
+  <text x="440" y="252" font-size="12" fill="#1F2937">· 잔액이 채널 유동성에 묶인다</text>
+  <text x="440" y="296" font-size="11.5" fill="#667085">걸림돌 — 경로·유동성, 지갑 운영자 신뢰</text>
+  <!-- same asset link -->
+  <line x1="340" y1="205" x2="420" y2="205" stroke="#E6E8EC" stroke-width="2"/>
+  <rect x="345" y="190" width="70" height="30" rx="15" fill="#FFFFFF" stroke="#E6E8EC"/>
+  <text x="380" y="210" text-anchor="middle" font-size="11" fill="#667085">같은 자산</text>
+  <!-- bottom -->
+  <rect x="40" y="352" width="680" height="1" fill="#E6E8EC"/>
+  <text x="380" y="378" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">같은 비트코인, 다른 길</text>
+  <text x="40" y="402" font-size="11.5" fill="#667085">읽는 법 — "결제 코인이냐, 디지털 금이냐"는 두 길을 하나로 뭉뚱그릴 때 생기는 논쟁이다. 기본 원장은 정산층, 라이트닝은 결제층.</text>
+  <text x="40" y="422" font-size="11.5" fill="#667085">라이트닝은 원장 위에 얹힌 약속의 망이다 — 채널을 닫으면 결과가 원장에 한 번에 기록된다. 안전은 결국 기본 원장이 맡는다.</text>
+  <text x="40" y="442" font-size="11.5" fill="#667085">채널 규모 · 지갑 수 · 상점 채택은 진행형 — 이 그림은 구조만 적는다.</text>
+</svg>
