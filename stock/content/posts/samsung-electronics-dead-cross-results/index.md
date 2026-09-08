@@ -6,7 +6,7 @@ description: "삼성전자 데드크로스 72회를 조사해 신호 뒤 수익�
 categories: ["종목 실측"]
 tags: ["삼성전자", "데드크로스", "이동평균선", "차트 신호", "수익률"]
 keywords: ["삼성전자", "데드크로스", "이동평균선", "차트 신호", "수익률"]
-kind: "실무"
+post_kind: "실무"
 cell: "005930:dead_cross"
 symbol: "삼성전자"
 cta:

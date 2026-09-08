@@ -6,7 +6,7 @@ description: "리플의 계약과 기관 ETF 보유가 실제 XRP 사용을 뜻�
 categories: ["리플"]
 tags: ["리플", "XRP", "XRP Ledger", "XRP ETF", "리플 파트너십", "13F 공시"]
 keywords: ["리플", "XRP", "XRP Ledger", "XRP ETF", "리플 파트너십", "13F 공시"]
-kind: "기둥"
+post_kind: "기둥"
 cell: "book13:ch01"
 symbol: "리플"
 cta:

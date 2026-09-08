@@ -6,7 +6,7 @@ description: "SK하이닉스 골든크로스 60회의 20·60거래일 수익률�
 categories: ["종목 실측"]
 tags: ["SK하이닉스", "골든크로스", "이동평균선", "차트신호", "수익률"]
 keywords: ["SK하이닉스", "골든크로스", "이동평균선", "차트신호", "수익률"]
-kind: "기둥"
+post_kind: "기둥"
 cell: "000660:golden_cross"
 symbol: "SK하이닉스"
 cta:

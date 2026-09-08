@@ -6,7 +6,7 @@ description: "비트코인 장부가 갈라졌다 합쳐지는 과정과 6컨펌
 categories: ["비트코인"]
 tags: ["비트코인", "블록체인", "컨펌", "이중지불", "작업증명"]
 keywords: ["비트코인", "블록체인", "컨펌", "이중지불", "작업증명"]
-kind: "실무"
+post_kind: "실무"
 cell: "book14:ch02"
 symbol: "비트코인"
 cta:
