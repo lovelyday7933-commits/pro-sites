@@ -22,6 +22,8 @@ summaryLength = 40
   endLevel = 3
 
 [params]
+  # 네이버 서치어드바이저 소유확인 — ⛔지우면 확인이 풀린다
+  naverVerification = "b1e5df6efdc24ef4196c29dac913e2920f2f6aca"
   site = "stock"
   description = ""
   # 책 신청 창구 — 사용자 지급 2026-09-08. 사이트마다 다른 양식이라

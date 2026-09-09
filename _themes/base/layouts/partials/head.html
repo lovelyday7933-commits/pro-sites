@@ -6,6 +6,11 @@
 {{- with (or .Description .Summary site.Params.description) }}
 <meta name="description" content="{{ . | plainify | truncate 155 }}">
 {{- end }}
+{{- /* 네이버 서치어드바이저 소유확인. 값은 사이트마다 다르므로 hugo.toml 의 params 에 둔다.
+     ⛔지우면 소유확인이 풀린다. 국내 투자 글은 네이버 유입이 커서 이 한 줄이 값을 한다. */}}
+{{- with site.Params.naverVerification }}
+<meta name="naver-site-verification" content="{{ . }}">
+{{- end }}
 {{- /* canonical 은 절대 URL 자기참조. baseURL 이 비면 Hugo 가 상대경로를 준다 — 도메인 연결 뒤 자동으로 채워진다 */}}
 {{- if eq .Kind "404" }}
 {{- /* ⛔404 에 canonical 을 달면 없는 주소가 자기 자신을 정본이라 주장한다. 색인에서 뺀다. */}}
