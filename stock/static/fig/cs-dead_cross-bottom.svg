@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">데드크로스 — 가장 안 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">비에이치아이</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">-4.65%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(44회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">마니커</text>
+<rect x="150" y="106" width="409.8" height="18" fill="#2E6BD6" rx="2"/>
+<text x="567.8" y="120" font-size="11.5" font-weight="700" fill="#1F2937">-3.97%p</text>
+<text x="633.8" y="120" font-size="10.5" fill="#667085">(54회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">블루콤</text>
+<rect x="150" y="136" width="387.1" height="18" fill="#2E6BD6" rx="2"/>
+<text x="545.1" y="150" font-size="11.5" font-weight="700" fill="#1F2937">-3.75%p</text>
+<text x="611.1" y="150" font-size="10.5" fill="#667085">(29회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">종근당홀딩스</text>
+<rect x="150" y="166" width="352.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="510.0" y="180" font-size="11.5" font-weight="700" fill="#1F2937">-3.41%p</text>
+<text x="576.0" y="180" font-size="10.5" fill="#667085">(78회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">디와이피엔에프</text>
+<rect x="150" y="196" width="342.7" height="18" fill="#2E6BD6" rx="2"/>
+<text x="500.7" y="210" font-size="11.5" font-weight="700" fill="#1F2937">-3.32%p</text>
+<text x="566.7" y="210" font-size="10.5" fill="#667085">(36회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">우주일렉트로</text>
+<rect x="150" y="226" width="325.2" height="18" fill="#2E6BD6" rx="2"/>
+<text x="483.2" y="240" font-size="11.5" font-weight="700" fill="#1F2937">-3.15%p</text>
+<text x="549.2" y="240" font-size="10.5" fill="#667085">(46회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">대상</text>
+<rect x="150" y="256" width="308.6" height="18" fill="#2E6BD6" rx="2"/>
+<text x="466.6" y="270" font-size="11.5" font-weight="700" fill="#1F2937">-2.99%p</text>
+<text x="532.6" y="270" font-size="10.5" fill="#667085">(78회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">한국정보인증</text>
+<rect x="150" y="286" width="306.6" height="18" fill="#2E6BD6" rx="2"/>
+<text x="464.6" y="300" font-size="11.5" font-weight="700" fill="#1F2937">-2.97%p</text>
+<text x="530.6" y="300" font-size="10.5" fill="#667085">(31회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">아이앤씨</text>
+<rect x="150" y="316" width="289.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="447.0" y="330" font-size="11.5" font-weight="700" fill="#1F2937">-2.80%p</text>
+<text x="513.0" y="330" font-size="10.5" fill="#667085">(40회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">CJ CGV</text>
+<rect x="150" y="346" width="264.3" height="18" fill="#2E6BD6" rx="2"/>
+<text x="422.3" y="360" font-size="11.5" font-weight="700" fill="#1F2937">-2.56%p</text>
+<text x="488.3" y="360" font-size="10.5" fill="#667085">(53회)</text>
+</svg>

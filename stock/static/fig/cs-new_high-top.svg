@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">신고가 돌파 — 가장 잘 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">액트로</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#C6403F" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">+30.29%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(31회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">씨엑스아이</text>
+<rect x="150" y="106" width="232.5" height="18" fill="#C6403F" rx="2"/>
+<text x="390.5" y="120" font-size="11.5" font-weight="700" fill="#1F2937">+14.67%p</text>
+<text x="456.5" y="120" font-size="10.5" fill="#667085">(26회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">지앤비에스 에코</text>
+<rect x="150" y="136" width="204.7" height="18" fill="#C6403F" rx="2"/>
+<text x="362.7" y="150" font-size="11.5" font-weight="700" fill="#1F2937">+12.92%p</text>
+<text x="428.7" y="150" font-size="10.5" fill="#667085">(42회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">DXVX</text>
+<rect x="150" y="166" width="189.4" height="18" fill="#C6403F" rx="2"/>
+<text x="347.4" y="180" font-size="11.5" font-weight="700" fill="#1F2937">+11.95%p</text>
+<text x="413.4" y="180" font-size="10.5" fill="#667085">(32회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">진시스템</text>
+<rect x="150" y="196" width="185.9" height="18" fill="#C6403F" rx="2"/>
+<text x="343.9" y="210" font-size="11.5" font-weight="700" fill="#1F2937">+11.73%p</text>
+<text x="409.9" y="210" font-size="10.5" fill="#667085">(22회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">SK스퀘어</text>
+<rect x="150" y="226" width="173.0" height="18" fill="#C6403F" rx="2"/>
+<text x="331.0" y="240" font-size="11.5" font-weight="700" fill="#1F2937">+10.92%p</text>
+<text x="397.0" y="240" font-size="10.5" fill="#667085">(95회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">더블유에스아이</text>
+<rect x="150" y="256" width="168.8" height="18" fill="#C6403F" rx="2"/>
+<text x="326.8" y="270" font-size="11.5" font-weight="700" fill="#1F2937">+10.65%p</text>
+<text x="392.8" y="270" font-size="10.5" fill="#667085">(25회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">메타케어</text>
+<rect x="150" y="286" width="145.9" height="18" fill="#C6403F" rx="2"/>
+<text x="303.9" y="300" font-size="11.5" font-weight="700" fill="#1F2937">+9.21%p</text>
+<text x="369.9" y="300" font-size="10.5" fill="#667085">(63회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">에이전트AI</text>
+<rect x="150" y="316" width="129.5" height="18" fill="#C6403F" rx="2"/>
+<text x="287.5" y="330" font-size="11.5" font-weight="700" fill="#1F2937">+8.17%p</text>
+<text x="353.5" y="330" font-size="10.5" fill="#667085">(36회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">신화인터텍</text>
+<rect x="150" y="346" width="123.9" height="18" fill="#C6403F" rx="2"/>
+<text x="281.9" y="360" font-size="11.5" font-weight="700" fill="#1F2937">+7.82%p</text>
+<text x="347.9" y="360" font-size="10.5" fill="#667085">(145회)</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Malgun Gothic">
+  <rect width="760" height="470" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">셋은 서로 다릅니다 — 이더리움 재단, 이더리움 네트워크, ETH</text>
+  <text x="40" y="54" font-size="12" fill="#667085">이 구분이 안 되면 "이더리움 회사"라는 말부터 틀립니다 — 대부분의 뉴스를 잘못 읽게 되는 출발점</text>
+  <!-- top: foundation -->
+  <rect x="235" y="80" width="290" height="90" rx="10" fill="#FFFFFF" stroke="#5B3FB5" stroke-width="1.8"/>
+  <text x="380" y="108" font-size="13.5" font-weight="bold" fill="#5B3FB5" text-anchor="middle">이더리움 재단 (EF) — 스위스 비영리</text>
+  <text x="380" y="132" font-size="11.5" fill="#4B5563" text-anchor="middle">하는 일 — 연구 지원 · 개발 보조금 · 행사</text>
+  <text x="380" y="152" font-size="11.5" fill="#4B5563" text-anchor="middle">안 하는 일 — 네트워크 소유 · ETH 가격 관리</text>
+  <!-- bottom-left: network -->
+  <rect x="50" y="250" width="300" height="90" rx="10" fill="#FFFFFF" stroke="#5B3FB5" stroke-width="1.8"/>
+  <text x="200" y="278" font-size="13.5" font-weight="bold" fill="#5B3FB5" text-anchor="middle">이더리움 네트워크 (L1 + L2)</text>
+  <text x="200" y="302" font-size="11.5" fill="#4B5563" text-anchor="middle">하는 일 — 거래 검증 · 스마트 컨트랙트 실행</text>
+  <text x="200" y="322" font-size="11.5" fill="#4B5563" text-anchor="middle">안 하는 일 — 한 주체의 소유 · 통제 · 정지</text>
+  <!-- bottom-right: asset -->
+  <rect x="410" y="250" width="300" height="90" rx="10" fill="#F1EDFA" stroke="#5B3FB5" stroke-width="2"/>
+  <text x="560" y="278" font-size="13.5" font-weight="bold" fill="#5B3FB5" text-anchor="middle">ETH (자산) — 내가 사는 것</text>
+  <text x="560" y="302" font-size="11.5" fill="#4B5563" text-anchor="middle">하는 일 — 가스비 지불 · 스테이킹 담보</text>
+  <text x="560" y="322" font-size="11.5" fill="#4B5563" text-anchor="middle">안 하는 일 — 재단 지분 · 배당 · 의결권</text>
+  <!-- relation lines -->
+  <g stroke="#9AA1AB" stroke-width="1.5">
+    <line x1="300" y1="170" x2="200" y2="246"/>
+    <line x1="460" y1="170" x2="560" y2="246"/>
+    <line x1="350" y1="295" x2="410" y2="295"/>
+  </g>
+  <g font-size="11" fill="#667085">
+    <text x="130" y="205">연구 · 개발 기여</text>
+    <text x="500" y="205">일부 ETH 보유 (온체인에 공개)</text>
+    <text x="380" y="288" text-anchor="middle">기본 자산</text>
+  </g>
+  <g font-size="11.8" fill="#1F2937">
+    <text x="40" y="380" font-weight="bold">이 구분이 만드는 독해의 차이:</text>
+    <text x="40" y="404">"재단이 ETH를 팔았다" = 재단 운영 뉴스 → 규모는 원장에서 확인할 일이고, "업그레이드가 됐다" = 네트워크 뉴스 →</text>
+    <text x="40" y="422">그 변화가 ETH 수요(가스 · 스테이킹)를 실제로 바꾸는지까지 봐야 ETH 뉴스가 됩니다. 네트워크의 성공 ≠ 자동으로 ETH의 성공.</text>
+  </g>
+  <text x="40" y="452" font-size="11.5" fill="#667085">단골 오독 — "이더리움 회사" · 창립자 개인 지갑 = 재단 · "ETH 킬러" · 업그레이드 = 가격 상승 · L2 토큰 = ETH</text>
+</svg>

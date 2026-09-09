@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">이격도 과열 — 가장 안 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">티비씨</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">-8.34%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(44회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">태경비케이</text>
+<rect x="150" y="106" width="469.1" height="18" fill="#2E6BD6" rx="2"/>
+<text x="627.1" y="120" font-size="11.5" font-weight="700" fill="#1F2937">-8.15%p</text>
+<text x="693.1" y="120" font-size="10.5" fill="#667085">(52회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">에어부산</text>
+<rect x="150" y="136" width="466.8" height="18" fill="#2E6BD6" rx="2"/>
+<text x="624.8" y="150" font-size="11.5" font-weight="700" fill="#1F2937">-8.11%p</text>
+<text x="690.8" y="150" font-size="10.5" fill="#667085">(28회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">쎄노텍</text>
+<rect x="150" y="166" width="465.6" height="18" fill="#2E6BD6" rx="2"/>
+<text x="623.6" y="180" font-size="11.5" font-weight="700" fill="#1F2937">-8.09%p</text>
+<text x="689.6" y="180" font-size="10.5" fill="#667085">(54회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">씨엑스아이</text>
+<rect x="150" y="196" width="459.9" height="18" fill="#2E6BD6" rx="2"/>
+<text x="617.9" y="210" font-size="11.5" font-weight="700" fill="#1F2937">-7.99%p</text>
+<text x="683.9" y="210" font-size="10.5" fill="#667085">(65회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">헥토파이낸셜</text>
+<rect x="150" y="226" width="451.8" height="18" fill="#2E6BD6" rx="2"/>
+<text x="609.8" y="240" font-size="11.5" font-weight="700" fill="#1F2937">-7.85%p</text>
+<text x="675.8" y="240" font-size="10.5" fill="#667085">(33회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">네이블</text>
+<rect x="150" y="256" width="443.2" height="18" fill="#2E6BD6" rx="2"/>
+<text x="601.2" y="270" font-size="11.5" font-weight="700" fill="#1F2937">-7.70%p</text>
+<text x="667.2" y="270" font-size="10.5" fill="#667085">(69회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">대영포장</text>
+<rect x="150" y="286" width="439.1" height="18" fill="#2E6BD6" rx="2"/>
+<text x="597.1" y="300" font-size="11.5" font-weight="700" fill="#1F2937">-7.63%p</text>
+<text x="663.1" y="300" font-size="10.5" fill="#667085">(195회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">에이에프더블류</text>
+<rect x="150" y="316" width="427.6" height="18" fill="#2E6BD6" rx="2"/>
+<text x="585.6" y="330" font-size="11.5" font-weight="700" fill="#1F2937">-7.43%p</text>
+<text x="651.6" y="330" font-size="10.5" fill="#667085">(40회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">풍강</text>
+<rect x="150" y="346" width="398.3" height="18" fill="#2E6BD6" rx="2"/>
+<text x="556.3" y="360" font-size="11.5" font-weight="700" fill="#1F2937">-6.92%p</text>
+<text x="622.3" y="360" font-size="10.5" fill="#667085">(39회)</text>
+</svg>

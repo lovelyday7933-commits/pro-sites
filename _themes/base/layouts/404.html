@@ -1,0 +1,19 @@
+{{/* ⛔이 파일이 없으면 CF Pages 가 없는 주소에 **홈 HTML 을 200 으로** 내준다(2026-09-09 실측).
+     `/zzz-없는주소/` 가 canonical=https://prostock.kr/ 인 200 페이지로 응답했다 —
+     소프트 404 는 색인 품질을 갉아먹고, 없는 주소가 홈의 복제본으로 색인되는 경로다.
+     Hugo 가 이 템플릿을 public/404.html 로 굽고, CF Pages 가 그걸 404 상태로 내보낸다. */}}
+{{ define "main" }}
+<article class="post">
+  <h1>주소를 찾지 못했습니다</h1>
+  <p class="lead">주소가 바뀌었거나, 글이 아직 공개되지 않았을 수 있습니다.</p>
+
+  {{- with first 6 (where site.RegularPages "Section" "posts") }}
+  <section class="more">
+    <h2>최근 글</h2>
+    <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
+
+  <p><a href="{{ "" | relURL }}">{{ site.Title }} 첫 화면으로</a></p>
+</article>
+{{ end }}

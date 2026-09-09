@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="760" height="480" font-family="Malgun Gothic">
+  <rect width="760" height="480" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">가스비의 구성 — 소각되는 몫과 검증자에게 가는 몫</text>
+  <text x="40" y="54" font-size="12" fill="#667085">2021년 8월 5일 런던 업그레이드(EIP-1559) 이후의 구조 · 숫자는 가상의 예시</text>
+  <!-- row 1: formula -->
+  <g text-anchor="middle">
+    <rect x="40" y="84" width="200" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/>
+    <text x="140" y="108" font-size="13" font-weight="bold" fill="#1F2937">가스 사용량</text>
+    <text x="140" y="128" font-size="11" fill="#667085">작업의 무게 · 단순 전송 = 21,000 가스</text>
+    <text x="253" y="121" font-size="18" font-weight="bold" fill="#667085">×</text>
+    <rect x="266" y="84" width="200" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/>
+    <text x="366" y="108" font-size="13" font-weight="bold" fill="#1F2937">단위당 가스 가격 (gwei)</text>
+    <text x="366" y="128" font-size="11" fill="#667085">기본 수수료 + 우선 수수료</text>
+    <text x="479" y="121" font-size="18" font-weight="bold" fill="#667085">=</text>
+    <rect x="492" y="84" width="228" height="60" rx="8" fill="#F6F8FB" stroke="#5B3FB5"/>
+    <text x="606" y="108" font-size="13" font-weight="bold" fill="#1F2937">수수료 (ETH)</text>
+    <text x="606" y="128" font-size="11" fill="#667085">지갑에 뜨는 금액 · 1 ETH = 10억 gwei</text>
+  </g>
+  <!-- row 2: split bar -->
+  <text x="40" y="170" font-size="12.5" font-weight="bold" fill="#1F2937">가스 가격의 두 몫 — 누가 정하고, 어디로 가나</text>
+  <rect x="40" y="180" width="560" height="44" fill="#5B3FB5" opacity="0.9"/>
+  <rect x="600" y="180" width="120" height="44" fill="#3F4A5C" opacity="0.9"/>
+  <g text-anchor="middle" fill="#FFFFFF">
+    <text x="320" y="198" font-size="12.5" font-weight="bold">기본 수수료 (Base Fee) — 네트워크가 블록마다 자동으로 정한다</text>
+    <text x="320" y="215" font-size="11">직전 블록이 목표보다 붐비면 오르고 한산하면 내린다 (한 블록에 최대 12.5%)</text>
+    <text x="660" y="198" font-size="12" font-weight="bold">우선 수수료 (팁)</text>
+    <text x="660" y="215" font-size="11">내가 정한다</text>
+  </g>
+  <!-- arrows -->
+  <g stroke="#667085" stroke-width="2" fill="none">
+    <path d="M320 226 L320 254 M314 246 L320 254 L326 246"/>
+    <path d="M660 226 L660 254 M654 246 L660 254 L666 246"/>
+  </g>
+  <g text-anchor="middle">
+    <rect x="200" y="258" width="240" height="56" rx="8" fill="#FFFFFF" stroke="#5B3FB5" stroke-width="1.8"/>
+    <text x="320" y="281" font-size="12.5" font-weight="bold" fill="#5B3FB5">소각 — 영구히 사라진다</text>
+    <text x="320" y="301" font-size="11" fill="#667085">누구도 받지 않는다 · 유통량에서 제거</text>
+    <rect x="560" y="258" width="160" height="56" rx="8" fill="#FFFFFF" stroke="#3F4A5C" stroke-width="1.8"/>
+    <text x="640" y="281" font-size="12.5" font-weight="bold" fill="#3F4A5C">검증자 몫</text>
+    <text x="640" y="301" font-size="11" fill="#667085">블록을 제안한 검증자에게</text>
+  </g>
+  <!-- example -->
+  <text x="40" y="344" font-size="12" font-weight="bold" fill="#1F2937">가상의 예시 — 21,000 가스 × (기본 20 + 우선 2) gwei = 462,000 gwei = 0.000462 ETH</text>
+  <text x="40" y="364" font-size="11.5" fill="#667085">소각 21,000 × 20 = 420,000 gwei = 0.00042 ETH · 검증자 21,000 × 2 = 42,000 gwei = 0.000042 ETH</text>
+  <rect x="40" y="382" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="406" font-size="11.5" fill="#667085">소각은 총량을 줄이는 쪽으로 작용하지만 규모는 그때그때의 사용량이 정한다 — 상수가 아니다. 한산한 주에는 소각이 발행보다 작다.</text>
+  <text x="40" y="424" font-size="11.5" fill="#667085">L2가 L1에 올리는 데이터(블롭)에는 별도의 블롭 수수료가 붙고 이것도 소각된다 (2024년 3월 덴쿤 이후).</text>
+  <text x="40" y="442" font-size="11.5" fill="#667085">런던 이전에는 채굴자가 수수료 전부를 받았다 — 지금 검증자에게 가는 것은 팁과 발행 보상이다.</text>
+  <text x="40" y="460" font-size="11.5" fill="#667085">홀더의 독법 — "소각이 많았다"는 판이 붐볐다는 뜻이지 가격의 뜻이 아니다. 붐빔이 계속되는지는 주간 확인 노트에서 본다.</text>
+</svg>

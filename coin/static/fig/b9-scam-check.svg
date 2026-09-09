@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="460" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">사기를 거르는 최소 점검 — 6개 중 하나만 걸려도 통과 금지</text>
+  <text x="40" y="54" font-size="12" fill="#667085">신규·소형 코인을 만났을 때의 필수 관문</text>
+  <g font-size="12">
+    <rect x="40" y="76" width="340" height="80" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="60" y="104" font-weight="bold" fill="#0E7490">① 팀이 실명인가</text>
+    <text x="60" y="128" font-size="11" fill="#4B5563">익명 팀 + 검증 불가 이력 = 책임질 사람이 없다는 뜻</text>
+    <text x="60" y="146" font-size="11" fill="#667085">링크드인·과거 프로젝트 결과물 확인</text>
+    <rect x="396" y="76" width="340" height="80" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="416" y="104" font-weight="bold" fill="#0E7490">② 백서에 실체가 있는가</text>
+    <text x="416" y="128" font-size="11" fill="#4B5563">유행어 나열("AI·RWA·혁신")뿐이고 작동 방식이 없으면 경고</text>
+    <text x="416" y="146" font-size="11" fill="#667085">"무엇을·어떻게"가 구체적인가</text>
+    <rect x="40" y="168" width="340" height="80" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="60" y="196" font-weight="bold" fill="#0E7490">③ 물량 구조가 공개돼 있는가</text>
+    <text x="60" y="220" font-size="11" fill="#4B5563">팀·초기투자자 몫이 과대하거나 언락 일정이 불투명하면</text>
+    <text x="60" y="238" font-size="11" fill="#4B5563">내가 그들의 출구 유동성이 됩니다</text>
+    <rect x="396" y="168" width="340" height="80" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="416" y="196" font-weight="bold" fill="#0E7490">④ 어떤 거래소에 상장돼 있는가</text>
+    <text x="416" y="220" font-size="11" fill="#4B5563">검증 기준이 있는 대형 거래소 상장 여부는 최소한의 필터</text>
+    <text x="416" y="238" font-size="11" fill="#667085">(통과 = 안전 보증은 아님)</text>
+    <rect x="40" y="260" width="340" height="80" rx="10" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.6"/>
+    <text x="60" y="288" font-weight="bold" fill="#C6403F">⑤ 수익을 보장하는가</text>
+    <text x="60" y="312" font-size="11" fill="#4B5563">"원금 보장·월 N% 확정" — 이 문구가 보이면 검토 종료.</text>
+    <text x="60" y="330" font-size="11" font-weight="bold" fill="#C6403F">보장은 폰지의 언어입니다</text>
+    <rect x="396" y="260" width="340" height="80" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="416" y="288" font-weight="bold" fill="#0E7490">⑥ 커뮤니티가 무엇을 말하는가</text>
+    <text x="416" y="312" font-size="11" fill="#4B5563">기술·사용처 얘기는 없고 가격·상장·"가즈아"뿐이면</text>
+    <text x="416" y="330" font-size="11" fill="#4B5563">그 코인의 실체는 가격뿐이라는 뜻</text>
+  </g>
+  <g font-size="11.5" fill="#1F2937">
+    <text x="40" y="380" font-weight="bold">전형적 수법 두 가지는 이름으로 기억해 두십시오:</text>
+    <text x="40" y="404" fill="#4B5563">러그풀 — 개발진이 유동성을 빼서 잠적(가격이 한 캔들에 0 근처로). 폰지 — 뒷사람 돈으로 앞사람 수익 지급(신규 유입이 멎는 순간 붕괴).</text>
+    <text x="40" y="428" fill="#667085">상장 직후 급등("상장빔")은 유통 물량이 적어 만들기 쉬운 그림이며, 그 봉우리에서 산 사람의 다수가 출구가 없었습니다.</text>
+  </g>
+</svg>

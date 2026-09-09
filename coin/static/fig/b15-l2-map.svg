@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Malgun Gothic">
+  <rect width="760" height="470" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">L1 위에 얹힌 L2 — 롤업 지도</text>
+  <text x="40" y="54" font-size="12" fill="#667085">대표 이름은 2026년 9월 L2BEAT 기준 확인분만 · 순위와 규모는 수시로 바뀐다</text>
+  <!-- optimistic group -->
+  <rect x="40" y="80" width="330" height="150" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="80" width="330" height="6" fill="#5B3FB5"/>
+  <text x="205" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">옵티미스틱 롤업</text>
+  <text x="205" y="132" text-anchor="middle" font-size="11.5" fill="#667085">일단 맞다고 보고, 이의 제기 기간을 둔다 (사기 증명)</text>
+  <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+    <rect x="58" y="148" width="76" height="30" rx="15" fill="#FFFFFF" stroke="#5B3FB5"/><text x="96" y="167">Base</text>
+    <rect x="142" y="148" width="118" height="30" rx="15" fill="#FFFFFF" stroke="#5B3FB5"/><text x="201" y="167">Arbitrum One</text>
+    <rect x="268" y="148" width="94" height="30" rx="15" fill="#FFFFFF" stroke="#5B3FB5"/><text x="315" y="167">OP Mainnet</text>
+  </g>
+  <text x="60" y="208" font-size="11.5" fill="#667085">L1 출금은 이의 제기 기간(통상 7일)을 기다린다</text>
+  <!-- zk group -->
+  <rect x="390" y="80" width="330" height="150" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="390" y="80" width="330" height="6" fill="#3F4A5C"/>
+  <text x="555" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">ZK 롤업</text>
+  <text x="555" y="132" text-anchor="middle" font-size="11.5" fill="#667085">수학적 증명을 L1에 제출해 검증받는다 (유효성 증명)</text>
+  <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+    <rect x="408" y="148" width="90" height="30" rx="15" fill="#FFFFFF" stroke="#3F4A5C"/><text x="453" y="167">Starknet</text>
+    <rect x="506" y="148" width="76" height="30" rx="15" fill="#FFFFFF" stroke="#3F4A5C"/><text x="544" y="167">Linea</text>
+    <rect x="590" y="148" width="106" height="30" rx="15" fill="#FFFFFF" stroke="#3F4A5C"/><text x="643" y="167">ZKsync Era</text>
+  </g>
+  <text x="405" y="208" font-size="11.5" fill="#667085">증명이 검증되면 L1 출금이 빠르다 · 비용은 롤업 몫</text>
+  <!-- arrows between groups and L1 -->
+  <g stroke="#667085" stroke-width="2" fill="none">
+    <path d="M120 236 L120 292 M114 284 L120 292 L126 284"/>
+    <path d="M160 292 L160 236 M154 244 L160 236 L166 244"/>
+    <path d="M600 236 L600 292 M594 284 L600 292 L606 284"/>
+    <path d="M640 292 L640 236 M634 244 L640 236 L646 244"/>
+  </g>
+  <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+    <text x="380" y="256">내려가는 것 — 거래 데이터를 블롭으로 (2024년 3월 덴쿤 이후 전용 공간)</text>
+    <text x="380" y="276">올라오는 것 — L1의 보안과 최종 확정</text>
+  </g>
+  <!-- L1 bar -->
+  <rect x="40" y="300" width="680" height="70" rx="10" fill="#5B3FB5"/>
+  <text x="380" y="328" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#FFFFFF">L1 이더리움 메인넷 — 합의 · 보안 · 데이터 가용성 (검증자 네트워크)</text>
+  <text x="380" y="350" text-anchor="middle" font-size="11.5" fill="#E9E2F7">롤업은 여기에 거래 데이터를 올리고, 여기서 최종 확정을 받는다</text>
+  <!-- notes -->
+  <rect x="40" y="390" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="414" font-size="11.5" fill="#667085">수수료의 흐름 — L2가 L1에 내는 데이터 비용(블롭 수수료)의 기본분은 소각된다. L2가 붐빌수록 블롭 수요가 는다.</text>
+  <text x="40" y="432" font-size="11.5" fill="#667085">L2 토큰(ARB · OP 등)은 ETH가 아니다 — L2가 커져도 그 토큰과 ETH의 이해관계는 따로 따진다.</text>
+  <text x="40" y="450" font-size="11.5" fill="#667085">지도에 없는 이름이 더 많다 — 진영 이름(옵티미스틱 · ZK)으로 먼저 분류하고, 개별 이름은 L2BEAT에서 그날 확인한다.</text>
+</svg>

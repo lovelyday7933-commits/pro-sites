@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">상승 갭 — 가장 안 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">달바글로벌</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">-7.00%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(35회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">온코닉테라퓨틱스</text>
+<rect x="150" y="106" width="466.3" height="18" fill="#2E6BD6" rx="2"/>
+<text x="624.3" y="120" font-size="11.5" font-weight="700" fill="#1F2937">-6.80%p</text>
+<text x="690.3" y="120" font-size="10.5" fill="#667085">(51회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">케이쓰리아이</text>
+<rect x="150" y="136" width="338.7" height="18" fill="#2E6BD6" rx="2"/>
+<text x="496.7" y="150" font-size="11.5" font-weight="700" fill="#1F2937">-4.94%p</text>
+<text x="562.7" y="150" font-size="10.5" fill="#667085">(27회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">셀비온</text>
+<rect x="150" y="166" width="331.9" height="18" fill="#2E6BD6" rx="2"/>
+<text x="489.9" y="180" font-size="11.5" font-weight="700" fill="#1F2937">-4.84%p</text>
+<text x="555.9" y="180" font-size="10.5" fill="#667085">(59회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">쓰리에이로직스</text>
+<rect x="150" y="196" width="331.2" height="18" fill="#2E6BD6" rx="2"/>
+<text x="489.2" y="210" font-size="11.5" font-weight="700" fill="#1F2937">-4.83%p</text>
+<text x="555.2" y="210" font-size="10.5" fill="#667085">(39회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">청담글로벌</text>
+<rect x="150" y="226" width="253.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="411.0" y="240" font-size="11.5" font-weight="700" fill="#1F2937">-3.69%p</text>
+<text x="477.0" y="240" font-size="10.5" fill="#667085">(71회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">씨피시스템</text>
+<rect x="150" y="256" width="244.1" height="18" fill="#2E6BD6" rx="2"/>
+<text x="402.1" y="270" font-size="11.5" font-weight="700" fill="#1F2937">-3.56%p</text>
+<text x="468.1" y="270" font-size="10.5" fill="#667085">(54회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">진시스템</text>
+<rect x="150" y="286" width="218.1" height="18" fill="#2E6BD6" rx="2"/>
+<text x="376.1" y="300" font-size="11.5" font-weight="700" fill="#1F2937">-3.18%p</text>
+<text x="442.1" y="300" font-size="10.5" fill="#667085">(96회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">하이스틸</text>
+<rect x="150" y="316" width="216.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="374.0" y="330" font-size="11.5" font-weight="700" fill="#1F2937">-3.15%p</text>
+<text x="440.0" y="330" font-size="10.5" fill="#667085">(178회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">나우로보틱스</text>
+<rect x="150" y="346" width="211.2" height="18" fill="#2E6BD6" rx="2"/>
+<text x="369.2" y="360" font-size="11.5" font-weight="700" fill="#1F2937">-3.08%p</text>
+<text x="435.2" y="360" font-size="10.5" fill="#667085">(60회)</text>
+</svg>

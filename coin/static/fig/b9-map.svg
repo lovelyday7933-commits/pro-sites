@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">알트코인 지형도 — 아래로 갈수록 수익도 위험도 커집니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">시가총액 티어로 보는 계층 (특정 코인 추천 아님)</text>
+  <!-- pyramid tiers -->
+  <g text-anchor="middle">
+    <polygon points="380,80 520,150 240,150" fill="#0E7490" opacity="0.9"/>
+    <text x="380" y="122" font-size="12.5" font-weight="bold" fill="#FFFFFF">티어 0 — 비트코인</text>
+    <text x="380" y="140" font-size="10.5" fill="#D7F1F8">시장의 기축 · 별도 문법 (시리즈 4권)</text>
+    <polygon points="240,158 520,158 580,240 180,240" fill="#0E7490" opacity="0.7"/>
+    <text x="380" y="192" font-size="12.5" font-weight="bold" fill="#FFFFFF">티어 1 — 초대형 알트</text>
+    <text x="380" y="212" font-size="10.5" fill="#E3F5FA">이더리움 등 자체 생태계 보유 · 상대적으로 검증됨</text>
+    <polygon points="180,248 580,248 640,330 120,330" fill="#0E7490" opacity="0.5"/>
+    <text x="380" y="282" font-size="12.5" font-weight="bold" fill="#FFFFFF">티어 2 — 대형·중형 알트</text>
+    <text x="380" y="302" font-size="10.5" fill="#F0FAFC">섹터 대표들 · 사이클 따라 순위가 크게 뒤바뀜</text>
+    <polygon points="120,338 640,338 700,420 60,420" fill="#0E7490" opacity="0.3"/>
+    <text x="380" y="372" font-size="12.5" font-weight="bold" fill="#0E5666">티어 3 — 소형·마이크로·밈</text>
+    <text x="380" y="392" font-size="10.5" fill="#3A6E7C">수만 개 · 대부분 소멸 · 사기 밀집 구역 · 복권의 문법</text>
+  </g>
+  <!-- side arrows -->
+  <g>
+    <line x1="672" y1="100" x2="712" y2="400" stroke="#C6403F" stroke-width="2"/>
+    <polygon points="713,406 703,398 712,392" fill="#C6403F"/>
+    <text x="716" y="240" font-size="11.5" font-weight="bold" fill="#C6403F" transform="rotate(82 716 240)">변동성 · 소멸 위험 증가</text>
+  </g>
+</svg>

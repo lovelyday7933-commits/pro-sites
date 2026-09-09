@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" font-family="Malgun Gothic">
+  <rect width="760" height="540" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">규제와 구조의 연표 (2014 ~ 2026)</text>
+  <text x="40" y="54" font-size="12" fill="#667085">발언 · 판결 · 승인 · 업그레이드 — 날짜는 2026년 9월 ethereum.org · SEC 공개 문서 기준</text>
+  <!-- legend -->
+  <g font-size="11" fill="#667085">
+    <circle cx="46" cy="72" r="5" fill="#5B3FB5"/><text x="56" y="76">네트워크 업그레이드</text>
+    <circle cx="176" cy="72" r="5" fill="#3F4A5C"/><text x="186" y="76">규제 · 제도</text>
+    <circle cx="266" cy="72" r="5" fill="#C6403F"/><text x="276" y="76">진행형</text>
+  </g>
+  <!-- row A -->
+  <text x="40" y="100" font-size="12" font-weight="bold" fill="#1F2937">① 탄생에서 지분증명까지</text>
+  <line x1="60" y1="176" x2="700" y2="176" stroke="#9AA1AB" stroke-width="2"/>
+  <g>
+    <circle cx="100" cy="176" r="7" fill="#3F4A5C"/>
+    <circle cx="240" cy="176" r="7" fill="#3F4A5C"/>
+    <circle cx="380" cy="176" r="7" fill="#3F4A5C"/>
+    <circle cx="520" cy="176" r="7" fill="#5B3FB5"/>
+    <circle cx="660" cy="176" r="7" fill="#5B3FB5"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="100" y="124" font-size="12.5" font-weight="bold" fill="#1F2937">2014.7</text>
+    <text x="100" y="142" font-size="11.5" fill="#4B5563">ICO (크라우드세일)</text>
+    <text x="100" y="158" font-size="11.5" fill="#4B5563">42일 판매</text>
+    <text x="380" y="124" font-size="12.5" font-weight="bold" fill="#1F2937">2018.6.14</text>
+    <text x="380" y="142" font-size="11.5" fill="#4B5563">SEC 국장 연설</text>
+    <text x="380" y="158" font-size="11.5" fill="#4B5563">"ETH는 증권 아님"</text>
+    <text x="660" y="124" font-size="12.5" font-weight="bold" fill="#1F2937">2022.9.15</text>
+    <text x="660" y="142" font-size="11.5" fill="#4B5563">머지</text>
+    <text x="660" y="158" font-size="11.5" fill="#4B5563">지분증명 전환</text>
+  </g>
+  <g text-anchor="middle">
+    <text x="240" y="206" font-size="12.5" font-weight="bold" fill="#1F2937">2016.6 ~ 7</text>
+    <text x="240" y="224" font-size="11.5" fill="#4B5563">DAO 해킹 → 하드포크</text>
+    <text x="240" y="240" font-size="11.5" fill="#4B5563">이더리움 클래식 분리</text>
+    <text x="520" y="206" font-size="12.5" font-weight="bold" fill="#1F2937">2021.8.5</text>
+    <text x="520" y="224" font-size="11.5" fill="#4B5563">런던 · EIP-1559</text>
+    <text x="520" y="240" font-size="11.5" fill="#4B5563">기본 수수료 소각 시작</text>
+  </g>
+  <!-- row B -->
+  <text x="40" y="284" font-size="12" font-weight="bold" fill="#1F2937">② 스테이킹 · ETF · 스테이블코인 법</text>
+  <line x1="50" y1="366" x2="710" y2="366" stroke="#9AA1AB" stroke-width="2"/>
+  <g>
+    <circle cx="75" cy="366" r="7" fill="#3F4A5C"/>
+    <circle cx="143" cy="366" r="7" fill="#5B3FB5"/>
+    <circle cx="210" cy="366" r="7" fill="#5B3FB5"/>
+    <circle cx="278" cy="366" r="7" fill="#3F4A5C"/>
+    <circle cx="345" cy="366" r="7" fill="#3F4A5C"/>
+    <circle cx="413" cy="366" r="7" fill="#5B3FB5"/>
+    <circle cx="480" cy="366" r="7" fill="#3F4A5C"/>
+    <circle cx="548" cy="366" r="7" fill="#3F4A5C"/>
+    <circle cx="615" cy="366" r="7" fill="#5B3FB5"/>
+    <circle cx="683" cy="366" r="8" fill="#C6403F"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="75" y="314" font-size="12.5" font-weight="bold" fill="#1F2937">2023.2.9</text>
+    <text x="75" y="332" font-size="11.5" fill="#4B5563">크라켄 스테이킹</text>
+    <text x="75" y="348" font-size="11.5" fill="#4B5563">서비스 합의 · 중단</text>
+    <text x="210" y="314" font-size="12.5" font-weight="bold" fill="#1F2937">2024.3.13</text>
+    <text x="210" y="332" font-size="11.5" fill="#4B5563">덴쿤</text>
+    <text x="210" y="348" font-size="11.5" fill="#4B5563">블롭 도입</text>
+    <text x="345" y="314" font-size="12.5" font-weight="bold" fill="#1F2937">2024.7.23</text>
+    <text x="345" y="332" font-size="11.5" fill="#4B5563">현물 ETF</text>
+    <text x="345" y="348" font-size="11.5" fill="#4B5563">거래 개시</text>
+    <text x="480" y="314" font-size="12.5" font-weight="bold" fill="#1F2937">2025.7.18</text>
+    <text x="480" y="332" font-size="11.5" fill="#4B5563">GENIUS 법 서명</text>
+    <text x="480" y="348" font-size="11.5" fill="#4B5563">스테이블코인 법제화</text>
+    <text x="615" y="314" font-size="12.5" font-weight="bold" fill="#1F2937">2025.12.3</text>
+    <text x="615" y="332" font-size="11.5" fill="#4B5563">푸사카</text>
+    <text x="615" y="348" font-size="11.5" fill="#4B5563">블롭 용량 확대</text>
+  </g>
+  <g text-anchor="middle">
+    <text x="143" y="396" font-size="12.5" font-weight="bold" fill="#1F2937">2023.4.12</text>
+    <text x="143" y="414" font-size="11.5" fill="#4B5563">샤펠라</text>
+    <text x="143" y="430" font-size="11.5" fill="#4B5563">스테이킹 출금 개시</text>
+    <text x="278" y="396" font-size="12.5" font-weight="bold" fill="#1F2937">2024.5.23</text>
+    <text x="278" y="414" font-size="11.5" fill="#4B5563">현물 ETF 승인</text>
+    <text x="278" y="430" font-size="11.5" fill="#4B5563">(거래소 규칙 19b-4)</text>
+    <text x="413" y="396" font-size="12.5" font-weight="bold" fill="#1F2937">2025.5.7</text>
+    <text x="413" y="414" font-size="11.5" fill="#4B5563">펙트라</text>
+    <text x="413" y="430" font-size="11.5" fill="#4B5563">검증자 상한 확대</text>
+    <text x="548" y="396" font-size="12.5" font-weight="bold" fill="#1F2937">2025.10</text>
+    <text x="548" y="414" font-size="11.5" fill="#4B5563">스테이킹 포함 ETF</text>
+    <text x="548" y="430" font-size="11.5" fill="#4B5563">그레이스케일 첫 출시</text>
+    <text x="683" y="396" font-size="12.5" font-weight="bold" fill="#C6403F">2026</text>
+    <text x="683" y="414" font-size="11.5" fill="#C6403F">진행형</text>
+    <text x="683" y="430" font-size="11.5" fill="#C6403F">후속 입법 · 규칙</text>
+  </g>
+  <!-- notes -->
+  <rect x="40" y="452" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="476" font-size="11.5" fill="#667085">무게가 다르다 — 2018년 "증권 아님"은 담당 국장의 연설이지 위원회의 결정이 아니었다.</text>
+  <text x="40" y="494" font-size="11.5" fill="#667085">2023년 크라켄 건은 스테이킹 "서비스"에 대한 합의이지 ETH 자체에 대한 판단이 아니었다.</text>
+  <text x="40" y="512" font-size="11.5" fill="#667085">2024년 5월 승인은 현물 상품의 거래소 규칙을 SEC가 허가한 것 — 실제 거래는 등록 서류 효력 뒤 7월 23일에 시작됐다.</text>
+  <text x="40" y="530" font-size="11.5" fill="#667085">업그레이드는 날짜가 확정된 뒤에만 사실이다 — 예고된 일정은 미뤄질 수 있다. 진행 중인 사안은 최신 공지를 본다.</text>
+</svg>

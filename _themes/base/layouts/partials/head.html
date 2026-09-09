@@ -7,7 +7,12 @@
 <meta name="description" content="{{ . | plainify | truncate 155 }}">
 {{- end }}
 {{- /* canonical 은 절대 URL 자기참조. baseURL 이 비면 Hugo 가 상대경로를 준다 — 도메인 연결 뒤 자동으로 채워진다 */}}
+{{- if eq .Kind "404" }}
+{{- /* ⛔404 에 canonical 을 달면 없는 주소가 자기 자신을 정본이라 주장한다. 색인에서 뺀다. */}}
+<meta name="robots" content="noindex, nofollow">
+{{- else }}
 <link rel="canonical" href="{{ .Permalink }}">
+{{- end }}
 <meta property="og:title" content="{{ .Title | default site.Title }}">
 <meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
 <meta property="og:url" content="{{ .Permalink }}">

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">도미넌스 — 시장의 돈이 지금 어디에 있는가</text>
+  <text x="40" y="54" font-size="12" fill="#667085">비트코인 도미넌스 = 비트코인 시가총액 ÷ 코인 시장 전체 시가총액</text>
+  <!-- two states -->
+  <g>
+    <rect x="40" y="84" width="340" height="220" rx="10" fill="#F5FBFC" stroke="#0E7490" stroke-width="1.6"/>
+    <text x="210" y="114" font-size="13" font-weight="bold" fill="#0E7490" text-anchor="middle">도미넌스 상승 국면</text>
+    <!-- big BTC circle, small alt circles -->
+    <circle cx="140" cy="190" r="52" fill="#0E7490" opacity="0.85"/>
+    <text x="140" y="196" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">BTC</text>
+    <g fill="#9AC8D4">
+      <circle cx="255" cy="160" r="14"/><circle cx="295" cy="195" r="10"/>
+      <circle cx="250" cy="225" r="8"/><circle cx="300" cy="240" r="6"/>
+    </g>
+    <text x="210" y="272" font-size="11.5" fill="#4B5563" text-anchor="middle">돈이 안전한 큰 집으로 모임</text>
+    <text x="210" y="292" font-size="11.5" font-weight="bold" fill="#2E6BD6" text-anchor="middle">알트의 겨울 (BTC만 오르거나 덜 빠짐)</text>
+    <rect x="396" y="84" width="340" height="220" rx="10" fill="#FFFFFF" stroke="#0E7490" stroke-width="1.4"/>
+    <text x="566" y="114" font-size="13" font-weight="bold" fill="#0E7490" text-anchor="middle">도미넌스 하락 국면</text>
+    <circle cx="496" cy="190" r="38" fill="#0E7490" opacity="0.6"/>
+    <text x="496" y="196" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">BTC</text>
+    <g fill="#0E7490" opacity="0.8">
+      <circle cx="600" cy="155" r="22"/><circle cx="650" cy="200" r="18"/>
+      <circle cx="600" cy="240" r="15"/><circle cx="660" cy="255" r="11"/><circle cx="555" cy="255" r="9"/>
+    </g>
+    <text x="566" y="292" font-size="11.5" font-weight="bold" fill="#C6403F" text-anchor="middle">돈이 위험을 감수하며 알트로 번짐 (알트 시즌)</text>
+  </g>
+  <g font-size="11.5" fill="#1F2937">
+    <text x="40" y="344" font-weight="bold">알트 홀더에게 도미넌스는 날씨 지도입니다: 내 코인의 재료가 아무리 좋아도, 겨울에는 잘 피지 않습니다.</text>
+    <text x="40" y="368" fill="#667085">전형적 순환 담론(BTC 상승 → 대형 알트 → 중소형 확산)은 과거에 반복 관찰됐지만 표본이 적은 경험칙이며,</text>
+    <text x="40" y="388" fill="#667085">사이클마다 정도와 순서가 달랐습니다. 도미넌스의 정확한 수치보다 방향의 추세를 읽는 것이 실용적입니다.</text>
+  </g>
+</svg>

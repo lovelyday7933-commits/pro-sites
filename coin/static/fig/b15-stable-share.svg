@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" width="760" height="450" font-family="Malgun Gothic">
+  <rect width="760" height="450" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">달러 스테이블코인은 어느 체인 위에 있나</text>
+  <text x="40" y="54" font-size="12" fill="#667085">개념도 — 상대 폭만 표현 · 비중은 발행사 · 시점 · 집계 기준마다 다르다</text>
+  <!-- stacked bar: 680px, widths are conceptual only -->
+  <rect x="40" y="90" width="340" height="64" fill="#5B3FB5" opacity="0.9"/>
+  <rect x="380" y="90" width="200" height="64" fill="#3F4A5C" opacity="0.9"/>
+  <rect x="580" y="90" width="60" height="64" fill="#6B7A90" opacity="0.9"/>
+  <rect x="640" y="90" width="80" height="64" fill="#9AA1AB" opacity="0.9"/>
+  <g font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    <text x="210" y="127">이더리움 (L1 + L2)</text>
+    <text x="480" y="127">트론</text>
+    <text x="680" y="127">기타</text>
+  </g>
+  <line x1="610" y1="154" x2="610" y2="172" stroke="#6B7A90" stroke-width="1.2"/>
+  <text x="610" y="186" font-size="11.5" font-weight="bold" fill="#1F2937" text-anchor="middle">솔라나</text>
+  <!-- column descriptions -->
+  <g font-size="11.5" fill="#667085">
+    <text x="40" y="178">USDT · USDC 둘 다 큼</text>
+    <text x="40" y="196">디파이 · 기관 결제 · L2로도 확장</text>
+    <text x="380" y="178">USDT 중심</text>
+    <text x="380" y="196">아시아 송금 · 거래소 입출금</text>
+    <text x="560" y="206" font-size="11">USDC 중심 · 결제 앱</text>
+    <text x="640" y="178" font-size="11">BNB 체인 등</text>
+  </g>
+  <!-- two cards -->
+  <rect x="40" y="228" width="330" height="118" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="228" width="330" height="6" fill="#5B3FB5"/>
+  <text x="205" y="258" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1F2937">ETH에 뜻하는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="60" y="286">· 전송할 때마다 가스비 → 기본 수수료 소각</text>
+    <text x="60" y="308">· L2 위 스테이블코인 거래 → L1 블롭 수요</text>
+    <text x="60" y="330">· 달러가 이 원장에 머문다 = 판의 사용처</text>
+  </g>
+  <rect x="390" y="228" width="330" height="118" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="390" y="228" width="330" height="6" fill="#3F4A5C"/>
+  <text x="555" y="258" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#1F2937">뜻하지 않는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="410" y="286">· 시총이 늘어도 ETH를 사는 게 아니다</text>
+    <text x="410" y="308">· 발행사의 이자 수익은 발행사 몫 (테더 · 서클)</text>
+    <text x="410" y="330">· 발행은 다른 체인으로 옮겨갈 수 있다</text>
+  </g>
+  <rect x="40" y="366" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="390" font-size="11.5" fill="#667085">확인처 — 발행사 월간 준비금 보고서(테더 · 서클) · 체인별 집계 사이트(디파이라마 등). 같은 날에도 집계마다 값이 다르다.</text>
+  <text x="40" y="408" font-size="11.5" fill="#667085">GENIUS 법(2025년 7월) 이후 미국 발행사는 준비금 · 공시 요건을 따른다 — 어느 체인에 발행하느냐는 법이 아니라 발행사가 정한다.</text>
+  <text x="40" y="426" font-size="11.5" fill="#667085">홀더의 독법 — "이더리움 위 달러"는 판의 사용을 보여주는 숫자이지 ETH 매수 수요의 숫자가 아니다. 둘을 잇는 고리는 가스비뿐이다.</text>
+</svg>

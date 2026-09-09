@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">유동성 — 자산 시장의 밀물과 썰물</text>
+  <text x="40" y="54" font-size="12" fill="#667085">시중에 도는 돈의 양이 모든 자산의 공통 배경입니다</text>
+  <!-- tide panels -->
+  <g>
+    <rect x="40" y="80" width="340" height="220" rx="10" fill="#F5FBF7" stroke="#1F6E43" stroke-width="1.5"/>
+    <text x="210" y="110" font-size="13" font-weight="bold" fill="#1F6E43" text-anchor="middle">밀물 — 완화 (금리 인하 · QE)</text>
+    <!-- rising water level with boats -->
+    <path d="M 70 220 C 120 210, 160 226, 210 216 C 260 206, 300 222, 350 212 L 350 280 L 70 280 Z" fill="#1F6E43" opacity="0.25"/>
+    <path d="M 70 220 C 120 210, 160 226, 210 216 C 260 206, 300 222, 350 212" fill="none" stroke="#1F6E43" stroke-width="2.4"/>
+    <!-- boats: assets floating higher -->
+    <g fill="#1F6E43">
+      <polygon points="120,206 150,206 140,218 130,218"/>
+      <polygon points="220,200 250,200 240,212 230,212"/>
+      <polygon points="300,204 330,204 320,216 310,216"/>
+    </g>
+    <text x="210" y="262" font-size="11" fill="#4B5563" text-anchor="middle">중앙은행이 돈을 풀면 물이 차오르고</text>
+    <text x="210" y="282" font-size="11" font-weight="bold" fill="#1F6E43" text-anchor="middle">거의 모든 배(자산)가 함께 떠오릅니다</text>
+    <rect x="396" y="80" width="340" height="220" rx="10" fill="#FDFAFA" stroke="#C6403F" stroke-width="1.3"/>
+    <text x="566" y="110" font-size="13" font-weight="bold" fill="#C6403F" text-anchor="middle">썰물 — 긴축 (금리 인상 · QT)</text>
+    <path d="M 426 250 C 476 244, 516 256, 566 250 C 616 244, 656 254, 706 248 L 706 280 L 426 280 Z" fill="#C6403F" opacity="0.15"/>
+    <path d="M 426 250 C 476 244, 516 256, 566 250 C 616 244, 656 254, 706 248" fill="none" stroke="#C6403F" stroke-width="2.4"/>
+    <g fill="#9AA1AB">
+      <polygon points="476,238 506,238 496,250 486,250"/>
+      <polygon points="576,232 606,232 596,244 586,244"/>
+    </g>
+    <polygon points="656,258 686,258 676,270 666,270" fill="#C6403F"/>
+    <text x="566" y="200" font-size="11" fill="#4B5563" text-anchor="middle">물이 빠지면 바닥이 드러나고</text>
+    <text x="566" y="220" font-size="11" font-weight="bold" fill="#C6403F" text-anchor="middle">약한 배(고위험 자산·부실)부터 좌초합니다</text>
+  </g>
+  <g font-size="11.5" fill="#1F2937">
+    <text x="40" y="340" font-weight="bold">"좋은 종목을 골랐는데 왜 다 같이 빠지지?"의 답이 대부분 여기 있습니다 — 종목이 아니라 수위의 문제.</text>
+    <text x="40" y="364" fill="#667085">2020~2021년의 전방위 랠리(완화)와 2022년의 전방위 하락(긴축)이 교과서적 실례입니다.</text>
+    <text x="40" y="384" fill="#667085">코인·성장주처럼 바깥쪽에 떠 있는 배일수록 물결을 크게 탑니다 — 내 자산의 위치를 아는 것이 리스크 관리의 출발입니다.</text>
+    <text x="40" y="412" fill="#667085">유동성의 방향은 중앙은행의 정책 발표(FOMC·금통위)와 대차대조표 추이로 읽습니다.</text>
+  </g>
+</svg>

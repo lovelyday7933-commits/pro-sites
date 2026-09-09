@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" width="760" height="500" font-family="Malgun Gothic">
+  <rect width="760" height="500" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">SOL은 어디서 나와 어디로 가나 — 발행 · 보상 · 언락 · 소각</text>
+  <text x="40" y="56" font-size="12" fill="#667085">총량 상한은 없고, 대신 발행 속도가 정해진 일정으로 줄어드는 설계입니다</text>
+  <!-- three source boxes -->
+  <g>
+    <rect x="40" y="96" width="210" height="96" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+    <rect x="40" y="96" width="210" height="5" fill="#0E7490"/>
+    <text x="60" y="126" font-size="13" font-weight="bold" fill="#1F2937">① 인플레이션 발행</text>
+    <g font-size="11" fill="#4B5563">
+      <text x="60" y="148">설계 — 연 8%에서 시작</text>
+      <text x="60" y="166">매년 15%씩 감소 · 하한 연 1.5%</text>
+      <text x="60" y="184">상한 없이 조금씩 늘어난다</text>
+    </g>
+  </g>
+  <g>
+    <rect x="275" y="96" width="210" height="96" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+    <rect x="275" y="96" width="210" height="5" fill="#0E7490"/>
+    <text x="295" y="126" font-size="13" font-weight="bold" fill="#1F2937">② 스테이킹 보상</text>
+    <g font-size="11" fill="#4B5563">
+      <text x="295" y="148">발행분은 검증인과 위임자 몫</text>
+      <text x="295" y="166">스테이킹 비율이 높을수록</text>
+      <text x="295" y="184">한 사람이 받는 비율은 얇아진다</text>
+    </g>
+  </g>
+  <g>
+    <rect x="510" y="96" width="210" height="96" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+    <rect x="510" y="96" width="210" height="5" fill="#3F4A5C"/>
+    <text x="530" y="126" font-size="13" font-weight="bold" fill="#1F2937">③ 파산 재단 물량 언락</text>
+    <g font-size="11" fill="#4B5563">
+      <text x="530" y="148">FTX · 알라메다 파산 절차에서</text>
+      <text x="530" y="166">잠긴 물량이 일정에 따라 풀린다</text>
+      <text x="530" y="184">파는지 아닌지는 원장 밖의 결정</text>
+    </g>
+  </g>
+  <!-- arrows -->
+  <g stroke="#667085" stroke-width="2" fill="none">
+    <path d="M252 144 L271 144 M265 138 L271 144 L265 150"/>
+    <path d="M380 194 L380 246 M374 238 L380 246 L386 238"/>
+    <path d="M615 194 L615 246 M609 238 L615 246 L621 238"/>
+    <path d="M590 316 L590 344 M584 336 L590 344 L596 336"/>
+  </g>
+  <!-- circulating bar -->
+  <rect x="40" y="250" width="680" height="64" rx="10" fill="#0E7490"/>
+  <text x="380" y="278" text-anchor="middle" font-size="13.5" font-weight="bold" fill="#FFFFFF">유통 — 시장에서 실제로 도는 SOL</text>
+  <text x="380" y="300" text-anchor="middle" font-size="11.5" fill="#D7F1F8">스테이킹에 잠긴 몫은 언제든 풀 수 있지만 대기 시간이 있다</text>
+  <!-- bottom two boxes -->
+  <rect x="40" y="346" width="390" height="64" rx="10" fill="#FFFFFF" stroke="#E6E8EC"/>
+  <text x="60" y="372" font-size="12.5" font-weight="bold" fill="#1F2937">총량 상한 없음 — 대신 발행 속도가 줄어든다</text>
+  <text x="60" y="394" font-size="11" fill="#4B5563">비트코인의 2,100만 개 같은 최종 한도가 설계에 없다</text>
+  <rect x="460" y="346" width="260" height="64" rx="10" fill="#FFFFFF" stroke="#C6403F"/>
+  <text x="480" y="372" font-size="12.5" font-weight="bold" fill="#C6403F">기본 수수료의 절반 소각</text>
+  <text x="480" y="394" font-size="11" fill="#4B5563">발행량에 견주면 아주 작은 몫이다</text>
+  <rect x="40" y="430" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="452" font-size="11.5" fill="#667085">주석 — 상한이 없다는 말이 곧 희석이라는 뜻은 아니다. 발행 속도 · 소각량 · 수요를 같이 놓고 봐야 한다.</text>
+  <text x="40" y="470" font-size="11.5" fill="#667085">주석 — 개편 논의 진행 중. 발행 감소 속도와 수수료 배분은 스테이크 표결로 바뀔 수 있는 값이며, 실제로 바뀐 적이 있다.</text>
+  <text x="40" y="488" font-size="11.5" fill="#667085">확인할 곳 — 발행률과 스테이킹 비율은 공개 대시보드에서, 언락 일정은 파산 절차 공시에서 확인한다.</text>
+</svg>

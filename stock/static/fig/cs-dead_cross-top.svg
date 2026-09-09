@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">데드크로스 — 가장 잘 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">네이블</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#C6403F" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">+6.90%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(33회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">HLB펩</text>
+<rect x="150" y="106" width="467.5" height="18" fill="#C6403F" rx="2"/>
+<text x="625.5" y="120" font-size="11.5" font-weight="700" fill="#1F2937">+6.72%p</text>
+<text x="691.5" y="120" font-size="10.5" fill="#667085">(21회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">쎄노텍</text>
+<rect x="150" y="136" width="443.1" height="18" fill="#C6403F" rx="2"/>
+<text x="601.1" y="150" font-size="11.5" font-weight="700" fill="#1F2937">+6.37%p</text>
+<text x="667.1" y="150" font-size="10.5" fill="#667085">(24회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">LIG디펜스앤에어로스페</text>
+<rect x="150" y="166" width="434.1" height="18" fill="#C6403F" rx="2"/>
+<text x="592.1" y="180" font-size="11.5" font-weight="700" fill="#1F2937">+6.24%p</text>
+<text x="658.1" y="180" font-size="10.5" fill="#667085">(28회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">S&amp;K폴리텍</text>
+<rect x="150" y="196" width="411.8" height="18" fill="#C6403F" rx="2"/>
+<text x="569.8" y="210" font-size="11.5" font-weight="700" fill="#1F2937">+5.92%p</text>
+<text x="635.8" y="210" font-size="10.5" fill="#667085">(29회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">티이엠씨씨엔에스</text>
+<rect x="150" y="226" width="359.0" height="18" fill="#C6403F" rx="2"/>
+<text x="517.0" y="240" font-size="11.5" font-weight="700" fill="#1F2937">+5.16%p</text>
+<text x="583.0" y="240" font-size="10.5" fill="#667085">(27회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">서진오토모티브</text>
+<rect x="150" y="256" width="353.4" height="18" fill="#C6403F" rx="2"/>
+<text x="511.4" y="270" font-size="11.5" font-weight="700" fill="#1F2937">+5.08%p</text>
+<text x="577.4" y="270" font-size="10.5" fill="#667085">(31회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">지란지교시큐리티</text>
+<rect x="150" y="286" width="345.0" height="18" fill="#C6403F" rx="2"/>
+<text x="503.0" y="300" font-size="11.5" font-weight="700" fill="#1F2937">+4.96%p</text>
+<text x="569.0" y="300" font-size="10.5" fill="#667085">(20회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">차AI헬스케어</text>
+<rect x="150" y="316" width="340.9" height="18" fill="#C6403F" rx="2"/>
+<text x="498.9" y="330" font-size="11.5" font-weight="700" fill="#1F2937">+4.90%p</text>
+<text x="564.9" y="330" font-size="10.5" fill="#667085">(64회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">한울소재과학</text>
+<rect x="150" y="346" width="329.0" height="18" fill="#C6403F" rx="2"/>
+<text x="487.0" y="360" font-size="11.5" font-weight="700" fill="#1F2937">+4.73%p</text>
+<text x="553.0" y="360" font-size="10.5" fill="#667085">(41회)</text>
+</svg>

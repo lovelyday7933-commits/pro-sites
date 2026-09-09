@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">골든크로스 — 가장 안 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">파인디앤씨</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#2E6BD6" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">-7.53%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(56회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">라닉스</text>
+<rect x="150" y="106" width="428.4" height="18" fill="#2E6BD6" rx="2"/>
+<text x="586.4" y="120" font-size="11.5" font-weight="700" fill="#1F2937">-6.72%p</text>
+<text x="652.4" y="120" font-size="10.5" fill="#667085">(21회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">골드앤에스</text>
+<rect x="150" y="136" width="418.8" height="18" fill="#2E6BD6" rx="2"/>
+<text x="576.8" y="150" font-size="11.5" font-weight="700" fill="#1F2937">-6.57%p</text>
+<text x="642.8" y="150" font-size="10.5" fill="#667085">(52회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">유성티엔에스</text>
+<rect x="150" y="166" width="376.1" height="18" fill="#2E6BD6" rx="2"/>
+<text x="534.1" y="180" font-size="11.5" font-weight="700" fill="#1F2937">-5.90%p</text>
+<text x="600.1" y="180" font-size="10.5" fill="#667085">(40회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">포톤</text>
+<rect x="150" y="196" width="357.6" height="18" fill="#2E6BD6" rx="2"/>
+<text x="515.6" y="210" font-size="11.5" font-weight="700" fill="#1F2937">-5.61%p</text>
+<text x="581.6" y="210" font-size="10.5" fill="#667085">(26회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">넵튠</text>
+<rect x="150" y="226" width="351.9" height="18" fill="#2E6BD6" rx="2"/>
+<text x="509.9" y="240" font-size="11.5" font-weight="700" fill="#1F2937">-5.52%p</text>
+<text x="575.9" y="240" font-size="10.5" fill="#667085">(22회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">이엠앤아이</text>
+<rect x="150" y="256" width="341.7" height="18" fill="#2E6BD6" rx="2"/>
+<text x="499.7" y="270" font-size="11.5" font-weight="700" fill="#1F2937">-5.36%p</text>
+<text x="565.7" y="270" font-size="10.5" fill="#667085">(34회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">하이스틸</text>
+<rect x="150" y="286" width="336.6" height="18" fill="#2E6BD6" rx="2"/>
+<text x="494.6" y="300" font-size="11.5" font-weight="700" fill="#1F2937">-5.28%p</text>
+<text x="560.6" y="300" font-size="10.5" fill="#667085">(20회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">인트론바이오</text>
+<rect x="150" y="316" width="330.8" height="18" fill="#2E6BD6" rx="2"/>
+<text x="488.8" y="330" font-size="11.5" font-weight="700" fill="#1F2937">-5.19%p</text>
+<text x="554.8" y="330" font-size="10.5" fill="#667085">(40회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">강원에너지</text>
+<rect x="150" y="346" width="317.5" height="18" fill="#2E6BD6" rx="2"/>
+<text x="475.5" y="360" font-size="11.5" font-weight="700" fill="#1F2937">-4.98%p</text>
+<text x="541.5" y="360" font-size="10.5" fill="#667085">(35회)</text>
+</svg>

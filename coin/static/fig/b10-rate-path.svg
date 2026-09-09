@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">기준금리 한 번의 변화가 계좌까지 오는 길</text>
+  <text x="40" y="54" font-size="12" fill="#667085">인상 사이클의 전파 경로 (인하는 대체로 반대 방향)</text>
+  <!-- start -->
+  <rect x="290" y="72" width="180" height="52" rx="10" fill="#8C6D1F"/>
+  <text x="380" y="98" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">기준금리 인상</text>
+  <text x="380" y="116" font-size="10.5" fill="#F3E9C9" text-anchor="middle">연준 FOMC · 한은 금통위</text>
+  <!-- three branches -->
+  <g stroke="#8C6D1F" stroke-width="1.8">
+    <line x1="330" y1="124" x2="150" y2="164"/><polygon points="146,166 156,167 152,158" fill="#8C6D1F"/>
+    <line x1="380" y1="124" x2="380" y2="162"/><polygon points="380,166 375,157 385,157" fill="#8C6D1F"/>
+    <line x1="430" y1="124" x2="610" y2="164"/><polygon points="614,166 604,158 608,167" fill="#8C6D1F"/>
+  </g>
+  <g font-size="11.5">
+    <rect x="40" y="168" width="220" height="76" rx="10" fill="#FFFDF5" stroke="#8C6D1F" stroke-width="1.4"/>
+    <text x="150" y="192" font-size="12" font-weight="bold" fill="#8C6D1F" text-anchor="middle">돈의 값이 오른다</text>
+    <text x="150" y="214" fill="#4B5563" text-anchor="middle">대출·회사채 이자 부담 증가</text>
+    <text x="150" y="234" fill="#4B5563" text-anchor="middle">소비·투자 위축 → 기업 이익 압박</text>
+    <rect x="270" y="168" width="220" height="76" rx="10" fill="#FFFDF5" stroke="#8C6D1F" stroke-width="1.4"/>
+    <text x="380" y="192" font-size="12" font-weight="bold" fill="#8C6D1F" text-anchor="middle">미래 이익의 현재가치 하락</text>
+    <text x="380" y="214" fill="#4B5563" text-anchor="middle">할인율 상승 = 같은 이익도 싸게 평가</text>
+    <text x="380" y="234" fill="#4B5563" text-anchor="middle">이익이 먼 성장주·코인에 더 타격</text>
+    <rect x="500" y="168" width="220" height="76" rx="10" fill="#FFFDF5" stroke="#8C6D1F" stroke-width="1.4"/>
+    <text x="610" y="192" font-size="12" font-weight="bold" fill="#8C6D1F" text-anchor="middle">경쟁 자산의 매력 상승</text>
+    <text x="610" y="214" fill="#4B5563" text-anchor="middle">예금·채권만으로 이자가 충분해짐</text>
+    <text x="610" y="234" fill="#4B5563" text-anchor="middle">위험자산에서 돈이 빠져나감</text>
+  </g>
+  <!-- converge -->
+  <g stroke="#8C6D1F" stroke-width="1.8">
+    <line x1="150" y1="244" x2="330" y2="292"/><polygon points="334,294 325,286 328,296" fill="#8C6D1F"/>
+    <line x1="380" y1="244" x2="380" y2="288"/><polygon points="380,292 375,283 385,283" fill="#8C6D1F"/>
+    <line x1="610" y1="244" x2="430" y2="292"/><polygon points="426,294 432,296 435,286" fill="#8C6D1F"/>
+  </g>
+  <rect x="250" y="296" width="260" height="52" rx="10" fill="#F8F4E6" stroke="#8C6D1F" stroke-width="1.8"/>
+  <text x="380" y="322" font-size="13" font-weight="bold" fill="#8C6D1F" text-anchor="middle">주식·코인 가격 압박</text>
+  <text x="380" y="340" font-size="10.5" fill="#4B5563" text-anchor="middle">특히 성장주·위험자산부터</text>
+  <g font-size="11.5" fill="#667085">
+    <text x="40" y="388">2022년 미국의 급속 인상 사이클(0%대 → 4%대)에서 성장주 지수와 코인이 함께 크게 하락한 것이 이 경로의 실례입니다.</text>
+    <text x="40" y="408">단, 시장은 "결정"이 아니라 "예상 대비"에 반응합니다 — 이미 예고된 인상은 가격에 상당 부분 들어가 있습니다.</text>
+  </g>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 530" width="760" height="530" font-family="Malgun Gothic">
+  <rect width="760" height="530" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">ETH 물량의 흐름 — 발행 · 소각 · 스테이킹</text>
+  <text x="40" y="54" font-size="12" fill="#667085">총량 상한은 없지만 발행 속도에는 규칙이 있다 — 이 그림은 규칙의 구조만 그린 개념도</text>
+  <!-- (1) two forces -->
+  <text x="40" y="86" font-size="12.5" font-weight="bold" fill="#1F2937">① 총 공급을 바꾸는 두 힘</text>
+  <rect x="40" y="98" width="200" height="90" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <g text-anchor="middle">
+    <text x="140" y="122" font-size="12.5" font-weight="bold" fill="#1F2937">발행 — 검증자 보상</text>
+    <text x="140" y="142" font-size="11" fill="#667085">새 ETH가 생기는 유일한 통로</text>
+    <text x="140" y="160" font-size="11" fill="#667085">연간 발행량은 스테이킹 총량의</text>
+    <text x="140" y="176" font-size="11" fill="#667085">제곱근에 비례한다</text>
+  </g>
+  <rect x="280" y="98" width="200" height="90" rx="10" fill="#5B3FB5"/>
+  <g text-anchor="middle">
+    <text x="380" y="130" font-size="13.5" font-weight="bold" fill="#FFFFFF">유통 = 총 공급</text>
+    <text x="380" y="152" font-size="11" fill="#E9E2F7">잠긴 물량도 총 공급 안에 있다</text>
+    <text x="380" y="170" font-size="11" fill="#E9E2F7">예약 물량 · 에스크로는 없다</text>
+  </g>
+  <rect x="520" y="98" width="200" height="90" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <g text-anchor="middle">
+    <text x="620" y="122" font-size="12.5" font-weight="bold" fill="#1F2937">소각 — 기본 수수료</text>
+    <text x="620" y="142" font-size="11" fill="#667085">EIP-1559 · 블롭 수수료</text>
+    <text x="620" y="160" font-size="11" fill="#667085">총 공급에서 영구히 빠진다</text>
+    <text x="620" y="176" font-size="11" fill="#667085">타는 양은 가스 수요가 정한다</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none">
+    <path d="M244 143 L276 143 M268 137 L276 143 L268 149"/>
+    <path d="M516 143 L484 143 M492 137 L484 143 L492 149"/>
+  </g>
+  <g font-size="15" font-weight="bold" fill="#667085" text-anchor="middle">
+    <text x="260" y="132">+</text><text x="500" y="132">−</text>
+  </g>
+  <!-- (2) net issuance -->
+  <text x="40" y="210" font-size="12.5" font-weight="bold" fill="#1F2937">② 순발행 — 부호는 가스 수요가 정한다</text>
+  <rect x="40" y="220" width="680" height="64" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <text x="380" y="248" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">순발행 = 발행(검증자 보상) − 소각(기본 수수료)</text>
+  <text x="380" y="270" text-anchor="middle" font-size="11.5" fill="#667085">소각이 발행보다 크면 그 기간의 순발행은 음수, 작으면 양수 — 상수가 아니라 그때그때의 사용량이 정하는 값</text>
+  <!-- (3) staking lockup -->
+  <text x="40" y="310" font-size="12.5" font-weight="bold" fill="#1F2937">③ 스테이킹 락업 — 총량은 그대로, 움직일 수 있는 물량이 바뀐다</text>
+  <rect x="40" y="326" width="200" height="70" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <g text-anchor="middle">
+    <text x="140" y="352" font-size="12.5" font-weight="bold" fill="#1F2937">입금 큐 (들어가는 줄)</text>
+    <text x="140" y="374" font-size="11" fill="#667085">예치 신청 뒤 순서를 기다린다</text>
+  </g>
+  <rect x="280" y="326" width="200" height="70" rx="10" fill="#FFFFFF" stroke="#5B3FB5" stroke-width="1.8"/>
+  <g text-anchor="middle">
+    <text x="380" y="352" font-size="12.5" font-weight="bold" fill="#5B3FB5">스테이킹으로 잠긴 ETH</text>
+    <text x="380" y="374" font-size="11" fill="#667085">검증자 예치금 · 팔 수 없는 상태</text>
+  </g>
+  <rect x="520" y="326" width="200" height="70" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <g text-anchor="middle">
+    <text x="620" y="352" font-size="12.5" font-weight="bold" fill="#1F2937">출금 큐 (나오는 줄)</text>
+    <text x="620" y="374" font-size="11" fill="#667085">종료 신청 뒤 대기해야 인출된다</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none">
+    <path d="M244 361 L276 361 M268 355 L276 361 L268 367"/>
+    <path d="M484 361 L516 361 M508 355 L516 361 L508 367"/>
+  </g>
+  <text x="40" y="418" font-size="11.5" fill="#667085">문의 폭은 공개된 규칙 — 입금 · 출금 각각 에포크당 256 ETH, 하루 225 에포크이므로 하루 최대 57,600 ETH가 한도다.</text>
+  <text x="40" y="436" font-size="11.5" fill="#667085">출금 대기가 길다는 것이 곧 매도 대기가 길다는 뜻은 아니다 — 운영사 이전 · 수탁 방식 변경 · 자산 재배분이 같은 줄에 선다.</text>
+  <rect x="40" y="456" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="480" font-size="11.5" fill="#667085">총량 상한 없음 — 비트코인의 2,100만 개 같은 상한이 없다. 대신 속도에 상한이 있다 — 제곱근 공식이라 전부 잠겨도 천장이 낮다.</text>
+  <text x="40" y="498" font-size="11.5" fill="#667085">그래서 유통량 대신 셋을 본다 — 총 공급의 7일 변화(순발행의 부호) · 스테이킹 비율 · 대기 행렬의 방향.</text>
+  <text x="40" y="516" font-size="11.5" fill="#667085">"디플레 자산"과 "인플레 자산"은 둘 다 한 시기의 가스 수요를 영구 조건으로 읽은 문장이다.</text>
+</svg>

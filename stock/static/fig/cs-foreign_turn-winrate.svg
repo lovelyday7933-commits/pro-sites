@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 382" width="760" height="382" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="382" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">8개 신호를 같은 자로 재면 어디에 서 있나</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군을 이긴 종목의 비율(%) · 기준일 2026.09.08 · 표본 20회 이상인 종목만</text>
+<text x="138" y="91" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">데드크로스</text>
+<rect x="148" y="76" width="286.2" height="20" fill="#9AA1AB" rx="2"/>
+<text x="442.2" y="91" font-size="11.5" font-weight="400" fill="#1F2937">55%  (147/265)</text>
+<text x="138" y="125" font-size="12" text-anchor="end" fill="#1F2937" font-weight="700">외국인 순매수 전환</text>
+<rect x="148" y="110" width="273.6" height="20" fill="#C6403F" rx="2"/>
+<text x="429.6" y="125" font-size="11.5" font-weight="700" fill="#1F2937">53%  (202/381)</text>
+<text x="138" y="159" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">상승 갭</text>
+<rect x="148" y="144" width="208.8" height="20" fill="#9AA1AB" rx="2"/>
+<text x="364.8" y="159" font-size="11.5" font-weight="400" fill="#1F2937">40%  (159/393)</text>
+<text x="138" y="193" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">골든크로스</text>
+<rect x="148" y="178" width="168.7" height="20" fill="#9AA1AB" rx="2"/>
+<text x="324.7" y="193" font-size="11.5" font-weight="400" fill="#1F2937">33%  (86/263)</text>
+<text x="138" y="227" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">정배열 성립</text>
+<rect x="148" y="212" width="165.6" height="20" fill="#9AA1AB" rx="2"/>
+<text x="321.6" y="227" font-size="11.5" font-weight="400" fill="#1F2937">32%  (103/321)</text>
+<text x="138" y="261" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">신고가 돌파</text>
+<rect x="148" y="246" width="164.6" height="20" fill="#9AA1AB" rx="2"/>
+<text x="320.6" y="261" font-size="11.5" font-weight="400" fill="#1F2937">32%  (96/301)</text>
+<text x="138" y="295" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">거래량 급증</text>
+<rect x="148" y="280" width="153.4" height="20" fill="#9AA1AB" rx="2"/>
+<text x="309.4" y="295" font-size="11.5" font-weight="400" fill="#1F2937">30%  (113/380)</text>
+<text x="138" y="329" font-size="12" text-anchor="end" fill="#1F2937" font-weight="400">이격도 과열</text>
+<rect x="148" y="314" width="108.9" height="20" fill="#9AA1AB" rx="2"/>
+<text x="264.9" y="329" font-size="11.5" font-weight="400" fill="#1F2937">21%  (73/346)</text>
+<line x1="406.0" y1="70" x2="406.0" y2="348" stroke="#2E6BD6" stroke-dasharray="4 3"/>
+<text x="406.0" y="370" font-size="10.5" text-anchor="middle" fill="#2E6BD6">반반(50%)</text>
+</svg>

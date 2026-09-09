@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" font-family="Malgun Gothic">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">2021년 고점에서 2022년 저점까지 — 모양만</text>
+  <text x="40" y="54" font-size="12" fill="#667085">개념도입니다 — 축의 숫자도, 낙폭의 수치도 넣지 않았습니다. 모양과 순서만 봅니다.</text>
+  <rect x="40" y="70" width="690" height="256" rx="8" fill="#FFFFFF" stroke="#E6E8EC"/>
+  <text x="60" y="96" font-size="11" fill="#667085">상승 구간 빨강 · 하락 구간 파랑 (한국 관례)</text>
+  <!-- rise -->
+  <path d="M 70 270 L 120 262 L 170 248 L 220 226 L 265 190 L 305 148 L 340 108"
+        fill="none" stroke="#C6403F" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- fall -->
+  <path d="M 340 108 L 390 172 L 440 206 L 490 226 L 540 242 L 600 262 L 660 284 L 700 278"
+        fill="none" stroke="#2E6BD6" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="340" cy="108" r="6" fill="#C6403F"/>
+  <text x="340" y="90" font-size="12" font-weight="bold" fill="#C6403F" text-anchor="middle">2021년 11월 고점</text>
+  <!-- FTX marker -->
+  <line x1="600" y1="164" x2="600" y2="254" stroke="#C6403F" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <circle cx="600" cy="262" r="5" fill="#C6403F"/>
+  <text x="600" y="140" font-size="12" font-weight="bold" fill="#C6403F" text-anchor="middle">2022년 11월</text>
+  <text x="600" y="156" font-size="11.5" fill="#C6403F" text-anchor="middle">FTX 파산 신청</text>
+  <!-- trough -->
+  <circle cx="660" cy="284" r="6" fill="#2E6BD6"/>
+  <text x="660" y="308" font-size="12" font-weight="bold" fill="#2E6BD6" text-anchor="middle">2022년 12월 저점</text>
+  <text x="60" y="316" font-size="11" fill="#667085">가로축 = 시간 · 세로축 = 모양만</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="40" y="356" font-weight="bold">교훈 ① — 오를 때의 이야기(가장 빠른 체인)는 내릴 때도 그대로였습니다.</text>
+    <text x="40" y="376" font-weight="bold">변한 것은 서사가 아니라 유동성과 신뢰였습니다.</text>
+    <text x="40" y="402" font-size="11.5" fill="#667085">교훈 ② — 이 구간에는 시장 전체의 하락과 FTX라는 개별 악재가 겹쳐 있었습니다. 두 개의 상한이 동시에 눌린 셈입니다.</text>
+    <text x="40" y="420" font-size="11.5" fill="#667085">교훈 ③ — 회복 산수는 대칭이 아닙니다. 반토막은 두 배가 나야 본전입니다 — 그래서 비중과 분할이 서사보다 먼저입니다.</text>
+  </g>
+</svg>

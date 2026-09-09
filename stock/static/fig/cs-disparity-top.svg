@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">이격도 과열 — 가장 잘 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">모아데이타</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#C6403F" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">+31.97%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(20회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">더블유에스아이</text>
+<rect x="150" y="106" width="91.0" height="18" fill="#C6403F" rx="2"/>
+<text x="249.0" y="120" font-size="11.5" font-weight="700" fill="#1F2937">+6.06%p</text>
+<text x="315.0" y="120" font-size="10.5" fill="#667085">(22회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">스튜디오미르</text>
+<rect x="150" y="136" width="89.2" height="18" fill="#C6403F" rx="2"/>
+<text x="247.2" y="150" font-size="11.5" font-weight="700" fill="#1F2937">+5.94%p</text>
+<text x="313.2" y="150" font-size="10.5" fill="#667085">(21회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">지앤비에스 에코</text>
+<rect x="150" y="166" width="76.4" height="18" fill="#C6403F" rx="2"/>
+<text x="234.4" y="180" font-size="11.5" font-weight="700" fill="#1F2937">+5.09%p</text>
+<text x="300.4" y="180" font-size="10.5" fill="#667085">(29회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">아이티아이즈</text>
+<rect x="150" y="196" width="73.0" height="18" fill="#C6403F" rx="2"/>
+<text x="231.0" y="210" font-size="11.5" font-weight="700" fill="#1F2937">+4.86%p</text>
+<text x="297.0" y="210" font-size="10.5" fill="#667085">(24회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">현대무벡스</text>
+<rect x="150" y="226" width="66.7" height="18" fill="#C6403F" rx="2"/>
+<text x="224.7" y="240" font-size="11.5" font-weight="700" fill="#1F2937">+4.44%p</text>
+<text x="290.7" y="240" font-size="10.5" fill="#667085">(34회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">KX</text>
+<rect x="150" y="256" width="64.9" height="18" fill="#C6403F" rx="2"/>
+<text x="222.9" y="270" font-size="11.5" font-weight="700" fill="#1F2937">+4.32%p</text>
+<text x="288.9" y="270" font-size="10.5" fill="#667085">(37회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">블루콤</text>
+<rect x="150" y="286" width="60.8" height="18" fill="#C6403F" rx="2"/>
+<text x="218.8" y="300" font-size="11.5" font-weight="700" fill="#1F2937">+4.05%p</text>
+<text x="284.8" y="300" font-size="10.5" fill="#667085">(81회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">신라젠</text>
+<rect x="150" y="316" width="52.8" height="18" fill="#C6403F" rx="2"/>
+<text x="210.8" y="330" font-size="11.5" font-weight="700" fill="#1F2937">+3.52%p</text>
+<text x="276.8" y="330" font-size="10.5" fill="#667085">(44회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">아이쓰리시스템</text>
+<rect x="150" y="346" width="51.9" height="18" fill="#C6403F" rx="2"/>
+<text x="209.9" y="360" font-size="11.5" font-weight="700" fill="#1F2937">+3.46%p</text>
+<text x="275.9" y="360" font-size="10.5" fill="#667085">(70회)</text>
+</svg>

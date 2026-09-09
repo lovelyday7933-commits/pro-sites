@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">"좋은 뉴스가 악재" — 같은 지표가 국면 따라 뒤집힙니다</text>
+  <text x="40" y="54" font-size="12" fill="#667085">고용 지표를 예로 본 해석 매트릭스</text>
+  <!-- matrix headers -->
+  <g font-size="12.5" font-weight="bold" text-anchor="middle">
+    <text x="300" y="106" fill="#1F2937">고용 강함 (경제 뜨거움)</text>
+    <text x="580" y="106" fill="#1F2937">고용 약함 (경제 식음)</text>
+  </g>
+  <g font-size="12" font-weight="bold">
+    <text x="48" y="176" fill="#C6403F">인플레와 싸우는 국면</text>
+    <text x="48" y="196" fill="#667085" font-size="10.5">(금리 인상기·고물가)</text>
+    <text x="48" y="296" fill="#2E6BD6">침체를 걱정하는 국면</text>
+    <text x="48" y="316" fill="#667085" font-size="10.5">(금리 인하 기대기)</text>
+  </g>
+  <g>
+    <rect x="190" y="130" width="220" height="100" rx="10" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.5"/>
+    <text x="300" y="162" font-size="12.5" font-weight="bold" fill="#C6403F" text-anchor="middle">악재로 해석</text>
+    <text x="300" y="188" font-size="11" fill="#4B5563" text-anchor="middle">"경제가 안 식네 →</text>
+    <text x="300" y="208" font-size="11" fill="#4B5563" text-anchor="middle">금리를 더 올리겠구나"</text>
+    <rect x="470" y="130" width="220" height="100" rx="10" fill="#F5FBF7" stroke="#1F6E43" stroke-width="1.5"/>
+    <text x="580" y="162" font-size="12.5" font-weight="bold" fill="#1F6E43" text-anchor="middle">호재로 해석</text>
+    <text x="580" y="188" font-size="11" fill="#4B5563" text-anchor="middle">"식고 있네 → 인상 멈추고</text>
+    <text x="580" y="208" font-size="11" fill="#4B5563" text-anchor="middle">내릴 명분이 생기겠구나"</text>
+    <rect x="190" y="250" width="220" height="100" rx="10" fill="#F5FBF7" stroke="#1F6E43" stroke-width="1.5"/>
+    <text x="300" y="282" font-size="12.5" font-weight="bold" fill="#1F6E43" text-anchor="middle">호재로 해석</text>
+    <text x="300" y="308" font-size="11" fill="#4B5563" text-anchor="middle">"경기가 버텨주네 →</text>
+    <text x="300" y="328" font-size="11" fill="#4B5563" text-anchor="middle">침체 없이 넘어가겠구나"</text>
+    <rect x="470" y="250" width="220" height="100" rx="10" fill="#FDF7F7" stroke="#C6403F" stroke-width="1.5"/>
+    <text x="580" y="282" font-size="12.5" font-weight="bold" fill="#C6403F" text-anchor="middle">악재로 해석</text>
+    <text x="580" y="308" font-size="11" fill="#4B5563" text-anchor="middle">"진짜 침체로 가는구나 →</text>
+    <text x="580" y="328" font-size="11" fill="#4B5563" text-anchor="middle">이익 전망 자체가 무너짐"</text>
+  </g>
+  <g font-size="11.5" fill="#1F2937">
+    <text x="40" y="392" font-weight="bold">지표 해석의 제1규칙: 숫자를 보기 전에 "시장이 지금 무엇을 두려워하는 국면인가"부터 정하십시오.</text>
+    <text x="40" y="416" fill="#667085">같은 실업률 상승이 어떤 해에는 랠리를, 어떤 해에는 급락을 불렀던 이유가 이 표 한 장에 있습니다.</text>
+  </g>
+</svg>

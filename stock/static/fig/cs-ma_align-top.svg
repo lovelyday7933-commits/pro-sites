@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="402" fill="#FFFFFF"/>
+<text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">정배열 성립 — 가장 잘 통한 종목 10곳</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">피씨엘</text>
+<rect x="150" y="76" width="480.0" height="18" fill="#C6403F" rx="2"/>
+<text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">+6.81%p</text>
+<text x="704.0" y="90" font-size="10.5" fill="#667085">(22회)</text>
+<text x="140" y="120" font-size="12" text-anchor="end" fill="#1F2937">로보티즈</text>
+<rect x="150" y="106" width="437.0" height="18" fill="#C6403F" rx="2"/>
+<text x="595.0" y="120" font-size="11.5" font-weight="700" fill="#1F2937">+6.20%p</text>
+<text x="661.0" y="120" font-size="10.5" fill="#667085">(36회)</text>
+<text x="140" y="150" font-size="12" text-anchor="end" fill="#1F2937">바이오톡스텍</text>
+<rect x="150" y="136" width="311.5" height="18" fill="#C6403F" rx="2"/>
+<text x="469.5" y="150" font-size="11.5" font-weight="700" fill="#1F2937">+4.42%p</text>
+<text x="535.5" y="150" font-size="10.5" fill="#667085">(77회)</text>
+<text x="140" y="180" font-size="12" text-anchor="end" fill="#1F2937">SK스퀘어</text>
+<rect x="150" y="166" width="311.5" height="18" fill="#C6403F" rx="2"/>
+<text x="469.5" y="180" font-size="11.5" font-weight="700" fill="#1F2937">+4.42%p</text>
+<text x="535.5" y="180" font-size="10.5" fill="#667085">(24회)</text>
+<text x="140" y="210" font-size="12" text-anchor="end" fill="#1F2937">두산퓨얼셀</text>
+<rect x="150" y="196" width="308.7" height="18" fill="#C6403F" rx="2"/>
+<text x="466.7" y="210" font-size="11.5" font-weight="700" fill="#1F2937">+4.38%p</text>
+<text x="532.7" y="210" font-size="10.5" fill="#667085">(31회)</text>
+<text x="140" y="240" font-size="12" text-anchor="end" fill="#1F2937">HLB펩</text>
+<rect x="150" y="226" width="232.6" height="18" fill="#C6403F" rx="2"/>
+<text x="390.6" y="240" font-size="11.5" font-weight="700" fill="#1F2937">+3.30%p</text>
+<text x="456.6" y="240" font-size="10.5" fill="#667085">(39회)</text>
+<text x="140" y="270" font-size="12" text-anchor="end" fill="#1F2937">형지I&amp;C</text>
+<rect x="150" y="256" width="226.3" height="18" fill="#C6403F" rx="2"/>
+<text x="384.3" y="270" font-size="11.5" font-weight="700" fill="#1F2937">+3.21%p</text>
+<text x="450.3" y="270" font-size="10.5" fill="#667085">(85회)</text>
+<text x="140" y="300" font-size="12" text-anchor="end" fill="#1F2937">두산테스나</text>
+<rect x="150" y="286" width="216.4" height="18" fill="#C6403F" rx="2"/>
+<text x="374.4" y="300" font-size="11.5" font-weight="700" fill="#1F2937">+3.07%p</text>
+<text x="440.4" y="300" font-size="10.5" fill="#667085">(62회)</text>
+<text x="140" y="330" font-size="12" text-anchor="end" fill="#1F2937">씨티케이</text>
+<rect x="150" y="316" width="211.5" height="18" fill="#C6403F" rx="2"/>
+<text x="369.5" y="330" font-size="11.5" font-weight="700" fill="#1F2937">+3.00%p</text>
+<text x="435.5" y="330" font-size="10.5" fill="#667085">(31회)</text>
+<text x="140" y="360" font-size="12" text-anchor="end" fill="#1F2937">디엔에프</text>
+<rect x="150" y="346" width="196.7" height="18" fill="#C6403F" rx="2"/>
+<text x="354.7" y="360" font-size="11.5" font-weight="700" fill="#1F2937">+2.79%p</text>
+<text x="420.7" y="360" font-size="10.5" fill="#667085">(79회)</text>
+</svg>

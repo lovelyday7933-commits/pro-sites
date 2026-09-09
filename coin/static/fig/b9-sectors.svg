@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">사이클마다 주인공이 바뀝니다 — 섹터의 유행</text>
+  <text x="40" y="54" font-size="12" fill="#667085">지난 사이클의 주도 서사들 (다음 주인공을 보장하지 않음)</text>
+  <!-- timeline -->
+  <line x1="70" y1="150" x2="710" y2="150" stroke="#9AA1AB" stroke-width="2"/>
+  <g>
+    <circle cx="150" cy="150" r="7" fill="#0E7490"/>
+    <circle cx="330" cy="150" r="7" fill="#0E7490"/>
+    <circle cx="510" cy="150" r="7" fill="#0E7490"/>
+    <circle cx="660" cy="150" r="7" fill="#FFFFFF" stroke="#0E7490" stroke-width="2.5"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="150" y="110" font-size="12.5" font-weight="bold" fill="#1F2937">2017</text>
+    <text x="150" y="130" font-size="11" fill="#4B5563">ICO·플랫폼 코인</text>
+    <text x="330" y="110" font-size="12.5" font-weight="bold" fill="#1F2937">2020~2021</text>
+    <text x="330" y="130" font-size="11" fill="#4B5563">디파이 · NFT · 밈</text>
+    <text x="510" y="110" font-size="12.5" font-weight="bold" fill="#1F2937">2024~</text>
+    <text x="510" y="130" font-size="11" fill="#4B5563">ETF 제도권 · RWA · AI 서사</text>
+    <text x="660" y="110" font-size="12.5" font-weight="bold" fill="#667085">다음 사이클</text>
+    <text x="660" y="130" font-size="11" fill="#9AA1AB">?</text>
+  </g>
+  <!-- sector cards -->
+  <g font-size="11.3">
+    <rect x="40" y="190" width="163" height="120" rx="8" fill="#F5FBFC" stroke="#0E7490"/>
+    <text x="121" y="214" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">디파이</text>
+    <text x="121" y="238" fill="#4B5563" text-anchor="middle">은행 없는 예금·대출·교환</text>
+    <text x="121" y="258" fill="#667085" text-anchor="middle">실체: 예치금(TVL)</text>
+    <text x="121" y="278" fill="#C6403F" text-anchor="middle">해킹·청산 리스크</text>
+    <rect x="216" y="190" width="163" height="120" rx="8" fill="#F5FBFC" stroke="#0E7490"/>
+    <text x="297" y="214" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">NFT</text>
+    <text x="297" y="238" fill="#4B5563" text-anchor="middle">디지털 소유권 증명</text>
+    <text x="297" y="258" fill="#667085" text-anchor="middle">실체: 거래량·활용처</text>
+    <text x="297" y="278" fill="#C6403F" text-anchor="middle">유동성 증발 이력</text>
+    <rect x="392" y="190" width="163" height="120" rx="8" fill="#F5FBFC" stroke="#0E7490"/>
+    <text x="473" y="214" font-size="12" font-weight="bold" fill="#0E7490" text-anchor="middle">레이어2</text>
+    <text x="473" y="238" fill="#4B5563" text-anchor="middle">기존 체인의 확장 도로</text>
+    <text x="473" y="258" fill="#667085" text-anchor="middle">실체: 처리량·수수료 절감</text>
+    <text x="473" y="278" fill="#C6403F" text-anchor="middle">토큰 필요성 논쟁</text>
+    <rect x="568" y="190" width="163" height="120" rx="8" fill="#FDF7F7" stroke="#C6403F"/>
+    <text x="649" y="214" font-size="12" font-weight="bold" fill="#C6403F" text-anchor="middle">밈코인</text>
+    <text x="649" y="238" fill="#4B5563" text-anchor="middle">서사 없음 — 유행이 전부</text>
+    <text x="649" y="258" fill="#667085" text-anchor="middle">실체: 커뮤니티 화력뿐</text>
+    <text x="649" y="278" fill="#C6403F" text-anchor="middle">복권의 문법 · 극단 위험</text>
+  </g>
+  <g font-size="11.5" fill="#667085">
+    <text x="40" y="352">지난 사이클의 1등 섹터가 다음 사이클에도 1등인 경우는 드물었습니다. "저번에 100배 갔던 종류"를 사는 것은</text>
+    <text x="40" y="372">지나간 유행의 표를 사는 일에 가깝습니다.</text>
+    <text x="40" y="400" font-weight="bold" fill="#1F2937">섹터를 볼 때의 질문: 서사가 아니라 "실체 지표(사용량·예치금·수수료 수입)가 서사를 따라오고 있는가"입니다.</text>
+  </g>
+</svg>

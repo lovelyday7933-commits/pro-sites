@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" width="760" height="470" font-family="Malgun Gothic">
+  <rect width="760" height="470" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">온체인에서 보이는 것과 보이지 않는 것</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#667085">숫자는 보이고, 그 숫자가 무엇을 세었는지는 따로 봐야 한다</text>
+  <!-- TPS split -->
+  <text x="60" y="96" font-size="13" font-weight="bold" fill="#1F2937">TPS라는 숫자 하나가 갈라지는 자리</text>
+  <g font-size="12" fill="#1F2937" text-anchor="middle">
+    <rect x="60" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="150" y="137" font-weight="bold">전체 트랜잭션</text><text x="150" y="157" font-size="11" fill="#667085">투표 거래가 섞여 있다</text>
+    <rect x="290" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#3F4A5C"/><text x="380" y="137" font-weight="bold">투표 거래를 뺀다</text><text x="380" y="157" font-size="11" fill="#667085">검증인이 매 슬롯 보내는 표</text>
+    <rect x="520" y="112" width="180" height="60" rx="8" fill="#E8F5F7" stroke="#0E7490"/><text x="610" y="137" font-weight="bold">비투표 트랜잭션</text><text x="610" y="157" font-size="11" fill="#667085">사람과 봇이 실제로 쓴 몫</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none"><path d="M240 142 L282 142 M274 136 L282 142 L274 148"/><path d="M470 142 L512 142 M504 136 L512 142 L504 148"/></g>
+  <!-- two columns -->
+  <rect x="40" y="200" width="330" height="150" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="200" width="330" height="6" fill="#0E7490"/>
+  <text x="205" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">원장이 보여 주는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="60" y="262">· 트랜잭션 수 — 투표를 뺐는지부터 확인한다</text>
+    <text x="60" y="286">· 활성 주소 수 (한 사람이 여럿을 만들 수 있다)</text>
+    <text x="60" y="310">· DEX 거래량과 예치금</text>
+    <text x="60" y="334">· 수수료와 검증인 총수입(REV)</text>
+  </g>
+  <rect x="390" y="200" width="330" height="150" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="390" y="200" width="330" height="6" fill="#2E6BD6"/>
+  <text x="555" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">원장이 말해 주지 않는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="410" y="262">· 거래소 안의 장부 — 입금 뒤 팔렸는지</text>
+    <text x="410" y="286">· 주소의 주인 (표시된 이름은 태깅, 즉 추정)</text>
+    <text x="410" y="310">· 봇과 사람의 구분 — 주소만으로는 안 갈라진다</text>
+    <text x="410" y="334">· 의도 · 가격에 미칠 영향</text>
+  </g>
+  <rect x="40" y="374" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="398" font-size="11.5" fill="#667085">검증 순서 — ① 그 지표가 투표 거래를 포함했는지 정의부터 본다 ② 같은 이름의 지표라도 집계처마다 값이 다르다</text>
+  <text x="40" y="416" font-size="11.5" fill="#667085">③ 활성 주소는 사람 수가 아니다. 에어드랍이나 봇 캠페인이 있으면 하루 만에 몇 배가 되기도 한다.</text>
+  <text x="40" y="434" font-size="11.5" fill="#667085">REV는 체인이 벌어들인 몫을 보는 숫자다 — 보유자에게 자동으로 배분되는 돈이 아니고, 스테이킹으로만 일부가 닿는다.</text>
+  <text x="40" y="452" font-size="11.5" fill="#667085">"세계에서 가장 빠른 체인" 같은 문장은 지표가 아니라 홍보 문구다. 숫자는 정의와 집계처를 함께 적어야 숫자가 된다.</text>
+</svg>

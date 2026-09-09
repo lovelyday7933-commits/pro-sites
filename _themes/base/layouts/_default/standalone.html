@@ -1,0 +1,14 @@
+{{/* 글이 아닌 낱장 페이지(개인정보처리방침 등)의 틀. 쓰려면 프런트매터에 `layout: "standalone"`.
+
+     ⛔`_default/single.html` 을 그대로 쓰면 안 된다 — 그쪽은 글 전용이라 발행일·읽는 시간·
+       책 안내(CTA)·이어서 볼 글이 따라붙는다. 실제로 날짜 없는 페이지에 "0001년 1월 1일" 이
+       찍혔고 개인정보처리방침 밑에 이어서 볼 글 목록이 붙었다(2026-09-09 빌드로 확인).
+     ⚠️`layouts/page/single.html` 로 두면 Hugo 0.156 이 잡지 않는다(실측). 판마다 흔들리지 않게
+       프런트매터에서 이름으로 지목한다 — `layout:` 지목은 `_default/<이름>.html` 로 확실히 내려온다. */}}
+{{ define "main" }}
+<article class="post">
+  <h1>{{ .Title }}</h1>
+  {{- with .Params.effective }}<p class="meta">시행일 {{ . }}</p>{{ end }}
+  <div class="body">{{ .Content }}</div>
+</article>
+{{ end }}

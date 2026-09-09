@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 468" width="760" height="468" font-family="Malgun Gothic">
+  <rect width="760" height="468" fill="#FFFFFF"/>
+  <text x="380" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1F2937">온체인에서 보이는 것과 보이지 않는 것</text>
+  <text x="380" y="56" text-anchor="middle" font-size="12" fill="#667085">이더리움은 볼 수 있는 층이 많아서 오독의 층도 그만큼 많다</text>
+  <!-- example flow -->
+  <text x="60" y="96" font-size="13" font-weight="bold" fill="#1F2937">가상의 예시 — L2는 커졌는데 L1 소각은 늘지 않는 경우 (덴쿤 이후 구조)</text>
+  <g font-size="12" fill="#1F2937" text-anchor="middle">
+    <rect x="60" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="150" y="137" font-weight="bold">L2 거래가 늘었다</text><text x="150" y="157" font-size="11.5" fill="#667085">L2 탐색기에서 보인다</text>
+    <rect x="290" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#5B3FB5"/><text x="380" y="137" font-weight="bold">블롭으로 L1에 올린다</text><text x="380" y="157" font-size="11.5" fill="#667085">블롭은 별도 수수료 시장</text>
+    <rect x="520" y="112" width="180" height="60" rx="8" fill="#F6F8FB" stroke="#E6E8EC"/><text x="610" y="137" font-weight="bold">L1 소각은 거의 없다</text><text x="610" y="157" font-size="11.5" fill="#667085">블롭이 목표치 아래일 때</text>
+  </g>
+  <g stroke="#667085" stroke-width="2" fill="none"><path d="M240 142 L282 142 M274 136 L282 142 L274 148"/><path d="M470 142 L512 142 M504 136 L512 142 L504 148"/></g>
+  <!-- two columns -->
+  <rect x="40" y="200" width="330" height="176" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="40" y="200" width="330" height="6" fill="#5B3FB5"/>
+  <text x="205" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">장부가 보여 주는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="60" y="262">· 활성 주소 — 하루에 등장한 서로 다른 주소 수</text>
+    <text x="60" y="286">· L2 TVL — 롤업에 올라간 자산의 달러 가치</text>
+    <text x="60" y="310">· 소각량과 발행량 — 블록 단위로 쌓이는 집계</text>
+    <text x="60" y="334">· 스테이킹 총량 · 입금과 출금 대기 행렬</text>
+    <text x="60" y="358">· 거래소 태그 주소의 유입 · 유출 (태그는 추정)</text>
+  </g>
+  <rect x="390" y="200" width="330" height="176" rx="10" fill="#F6F8FB" stroke="#E6E8EC"/>
+  <rect x="390" y="200" width="330" height="6" fill="#2E6BD6"/>
+  <text x="555" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#1F2937">장부가 말해 주지 않는 것</text>
+  <g font-size="12" fill="#1F2937">
+    <text x="410" y="262">· 거래소 안의 체결 — 유입 뒤 팔렸는지 아닌지</text>
+    <text x="410" y="286">· 주소의 주인 (탐색기의 이름표는 제3자 추정)</text>
+    <text x="410" y="310">· 의도 — 매도 · 수탁 이동 · 재배분 · 담보</text>
+    <text x="410" y="334">· 장외 거래 — 호가창을 안 거치고 이체만 남는다</text>
+    <text x="410" y="358">· TVL이 오른 이유 — 자산이 왔나, 값이 올랐나</text>
+  </g>
+  <rect x="40" y="392" width="680" height="1" fill="#E6E8EC"/>
+  <text x="40" y="416" font-size="11.5" fill="#667085">검증 순서 — ① 알림이 말하는 거래를 탐색기에서 직접 연다 ② 양쪽 주소에 붙은 이름표의 근거를 묻는다</text>
+  <text x="40" y="434" font-size="11.5" fill="#667085">③ 한 건인지 여러 주에 걸친 흐름인지 가른다 ④ 분모를 붙인다 — 총 공급 · 스테이킹을 뺀 물량 · 하루 발행량.</text>
+  <text x="40" y="452" font-size="11.5" fill="#667085">숫자에는 기간 · 단위 · 분모를, 대기 행렬에는 방향을 붙인다. 데이터를 인용한 단언이 더 그럴듯해 보인다는 점이 함정이다.</text>
+</svg>
