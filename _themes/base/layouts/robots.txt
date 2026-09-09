@@ -1,0 +1,10 @@
+{{/* ⛔Hugo 기본 robots.txt 에는 `Sitemap:` 줄이 없다. 2026-09-09 실측 —
+     사이트맵은 22·27개 URL 로 멀쩡히 있는데 검색엔진에 **위치를 안 알리고 있었다.**
+     크롤러가 사이트맵을 찾는 표준 경로가 이 줄이므로, 없으면 새 글 발견이 링크 타기에만 의존한다.
+
+     ⚠️Cloudflare 가 이 앞에 "Managed content" 블록(Content-Signal · AI 크롤러 차단)을
+       자동으로 끼워 넣는다. 그건 CF 대시보드 설정이고 여기서 건드리는 것이 아니다. */}}
+User-agent: *
+Allow: /
+
+Sitemap: {{ "sitemap.xml" | absURL }}
