@@ -3,7 +3,8 @@
 {{ partial "head.html" . }}
 <body>
   {{ partial "header.html" . }}
-  <main class="wrap">
+  {{/* 격자 허브는 카드가 여러 줄로 깔려야 해서 본문 폭(44rem)으로는 좁다 */}}
+  <main class="wrap{{ if eq .Layout "hub" }} wide{{ end }}">
     {{ block "main" . }}{{ end }}
 
     {{/* ★2026-09-10 — 전환 장치를 **모든 페이지**에 하나씩 둔다.

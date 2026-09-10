@@ -14,6 +14,7 @@ body{margin:0;background:var(--bg);color:var(--fg);
   font:1.0625rem/1.78 -apple-system,"Pretendard","Malgun Gothic","Apple SD Gothic Neo",sans-serif;
   word-break:keep-all; overflow-wrap:break-word;}
 .wrap{max-width:var(--w);margin:0 auto;padding:0 1.15rem}
+.wrap.wide{max-width:74rem}
 a{color:inherit}
 .body a{color:var(--accent)}
 
@@ -91,3 +92,58 @@ a{color:inherit}
 .more h2{font-size:1.05rem;margin:0 0 .6rem}
 .more ul{padding-left:1.1rem;margin:0;font-size:.9375rem}
 .more li{margin:.35rem 0}
+
+/* ── 격자 허브 (2026-09-10) ────────────────────────────────────
+   ⛔처음엔 이 절이 통째로 없어서 `<ul class="hub-grid">` 가 브라우저 기본 불릿으로 나왔다.
+     종목 393개가 한 줄씩 쏟아지고 "3S8칸" 처럼 이름과 수치가 붙었다(사용자 지적).
+     레이아웃에 클래스를 쓸 거면 CSS 를 같이 쓴다. */
+.hub{max-width:none}
+.hub-jump{display:flex;flex-wrap:wrap;gap:.3rem;margin:1.6rem 0 .4rem;
+  padding:.7rem .8rem;background:var(--card);border:1px solid var(--line);border-radius:.5rem}
+.hub-jump a{display:inline-flex;align-items:center;justify-content:center;
+  min-width:2rem;height:2rem;padding:0 .45rem;border-radius:.35rem;
+  font-size:.8125rem;font-weight:600;color:var(--dim);text-decoration:none}
+.hub-jump a:hover{background:var(--accent);color:#fff}
+
+.hub-group{margin:2.2rem 0 0;scroll-margin-top:1rem}
+.hub-group h2{display:flex;align-items:baseline;gap:.5rem;
+  font-size:1.05rem;margin:0 0 .8rem;padding-bottom:.5rem;
+  border-bottom:1px solid var(--line);letter-spacing:-.01em}
+.hub-group h2 .cnt{font-size:.75rem;font-weight:500;color:var(--dim);
+  font-variant-numeric:tabular-nums}
+
+.hub-grid{list-style:none;padding:0;margin:0;
+  display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(11.5rem,1fr))}
+.hub-grid.wide{grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));margin-top:1.6rem}
+.hub-grid li{margin:0}
+.hub-grid a{display:flex;align-items:baseline;justify-content:space-between;gap:.6rem;
+  padding:.6rem .75rem;background:var(--card);border:1px solid var(--line);
+  border-radius:.45rem;text-decoration:none;line-height:1.35}
+.hub-grid a:hover{border-color:var(--accent)}
+.hub-grid .nm{font-size:.9375rem;letter-spacing:-.015em;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hub-grid .meta{flex:none;font-size:.75rem;color:var(--dim);
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.hub-grid .meta b{margin-left:.35rem;font-weight:600}
+.hub-grid .meta .up{color:var(--accent)}
+.hub-grid .meta .dn{color:var(--dim)}
+
+/* 셀의 빵부스러기 */
+.crumb{font-size:.8125rem;color:var(--dim);margin:0 0 .9rem}
+.crumb a{color:var(--dim);text-decoration:none}
+.crumb a:hover{color:var(--accent)}
+.cell .more ul{list-style:none;padding:0;
+  display:grid;gap:.4rem;grid-template-columns:repeat(auto-fill,minmax(13rem,1fr))}
+.cell .more li{margin:0}
+.cell .more a{display:inline-block;text-decoration:none}
+.cell .more .n{color:var(--dim);font-size:.8125rem;margin-left:.35rem;
+  font-variant-numeric:tabular-nums}
+
+/* 허브 되돌아가기 — ⛔기본 불릿으로 두면 앞에서 지적받은 그 모양이 된다 */
+.hub~.more{border-top:none;padding-top:0}
+.hub~.more ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.hub~.more li{margin:0}
+.hub~.more a{display:inline-block;padding:.5rem .95rem;background:var(--card);
+  border:1px solid var(--line);border-radius:.4rem;text-decoration:none;
+  font-size:.875rem;color:var(--dim)}
+.hub~.more a:hover{border-color:var(--accent);color:var(--accent)}
