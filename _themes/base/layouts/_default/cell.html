@@ -1,0 +1,51 @@
+{{/* 격자 셀 — /종목/<종목명>/<신호명>/
+     ⛔`_default/single.html` 을 쓰면 안 된다. 그쪽은 글 전용이라 발행일·읽는 시간이 붙고,
+       "이어서 볼 글"이 posts 섹션만 본다(격자는 거기 없다).
+     ★셀은 **두 방향**으로 올라간다 — 종목 허브와 신호 허브. 그게 고아를 없앤다(설계안 §4). */}}
+{{ define "main" }}
+<article class="post cell">
+  <nav class="crumb">
+    <a href="/">{{ site.Title }}</a> ›
+    <a href="/종목/">종목</a> ›
+    <a href="{{ .Parent.RelPermalink }}">{{ .Params.stock }}</a> ›
+    <span>{{ .Params.signal }}</span>
+  </nav>
+
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+
+  {{- if gt (len .TableOfContents) 60 }}
+  <nav class="toc"><b>이 페이지에서 보는 것</b>{{ .TableOfContents }}</nav>
+  {{- end }}
+
+  <div class="body">{{ .Content }}</div>
+
+  {{ partial "cta.html" . }}
+</article>
+
+{{/* 옆 A — 같은 종목의 다른 신호 */}}
+{{- with .Parent }}
+{{- with .Params.links }}
+<section class="more">
+  <h2>{{ $.Params.stock }}의 다른 신호</h2>
+  <ul>
+    {{- range . }}
+    {{- if ne .label $.Params.signal }}
+    <li><a href="{{ .url }}">{{ $.Params.stock }} {{ .label }}</a> <span class="n">{{ .n }}회</span></li>
+    {{- end }}
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{- end }}
+
+{{/* 옆 B + 위 — 같은 신호를 다른 종목에서 */}}
+<section class="more">
+  <h2>같은 신호를 다른 종목에서</h2>
+  <ul>
+    <li><a href="/신호/{{ .Params.signal | urlize }}/">{{ .Params.signal }} 전수 실측 — 종목별로 보기</a></li>
+    <li><a href="/신호/">차트 신호 전체</a></li>
+    <li><a href="/종목/">종목 전체</a></li>
+  </ul>
+</section>
+{{ end }}

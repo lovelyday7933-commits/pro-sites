@@ -1,0 +1,41 @@
+{{/* 격자 허브 — /종목/ · /종목/<종목명>/ · /신호/ · /신호/<신호명>/
+     설계 = _ref/롱테일_설계안_20260910.md §4
+
+     ⛔링크 목록은 프런트매터가 들고 있다(grid.py 가 넣는다). Hugo 로 교차 조회하지 않는다 —
+       셀의 정본 주소는 종목 쪽 하나뿐이라, 신호 허브에서는 Hugo 의 자식 관계로 닿을 수 없다.
+     ★한 화면에 300개를 뿌리면 링크가 묽어진다. 신호 허브는 값 구간(groups)으로 묶어 내린다. */}}
+{{ define "main" }}
+<article class="post hub">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  {{- with .Content }}<div class="body">{{ . }}</div>{{ end }}
+
+  {{- with .Params.groups }}
+  {{- range . }}
+  <section class="grid-group">
+    <h2>{{ .label }} <small>{{ len .items }}개</small></h2>
+    <ul class="grid-links">
+      {{- range .items }}
+      <li><a href="{{ .url }}">{{ .label }}</a><span class="n">{{ .n }}회 · {{ printf "%+.2f" .e }}%p</span></li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+  {{- end }}
+
+  {{- with .Params.links }}
+  <ul class="grid-links">
+    {{- range . }}
+    <li><a href="{{ .url }}">{{ .label }}</a>
+      {{- if .n }}<span class="n">{{ .n }}{{ if .e }}회 · {{ printf "%+.2f" .e }}%p{{ else }}칸{{ end }}</span>{{ end }}</li>
+    {{- end }}
+  </ul>
+  {{- end }}
+</article>
+
+{{- with .Params.up }}
+<nav class="more">
+  <ul>{{ range . }}<li><a href="{{ .url }}">{{ .label }}</a></li>{{ end }}</ul>
+</nav>
+{{- end }}
+{{ end }}

@@ -1,7 +1,16 @@
 <header class="top">
   <div class="wrap row">
     <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    {{/* ★2026-09-10 — 격자로 내려가는 길을 여기서 연다.
+         전에는 카테고리 term 만 걸려 있어서 `/종목/` `/신호/` `/posts/` 로 가는 입구가
+         어디에도 없었다(빌드 실측: 고아 3). 쿠키 9:01 — "메인페이지에서부터 클릭 클릭해서
+         접근을 못 하면 그건 고아페이지라고 불러". 격자의 두 축이 최상단 내비여야 한다. */}}
     <nav>
+      {{- range site.Sections }}
+      {{- $url := .RelPermalink }}
+      {{- with .Params.nav }}<a href="{{ $url }}">{{ . }}</a>{{ end }}
+      {{- end }}
+      {{- with site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">글</a>{{ end }}
       {{- range site.Taxonomies.categories.ByCount }}
       <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
       {{- end }}

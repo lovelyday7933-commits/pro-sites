@@ -2,6 +2,16 @@
   <div class="wrap">
     <p class="disc">이 글은 정보 제공을 위해 작성되었습니다. 특정 종목의 매수·매도를 권유하지 않으며,
        과거 데이터가 앞으로의 결과를 보장하지 않습니다. 투자 판단과 그 결과는 본인에게 있습니다.</p>
+    {{/* ⛔분류·태그 목록 페이지는 어디서도 링크되지 않아 고아였다(2026-09-10 빌드 실측).
+         상단 내비는 term 만 걸고 목록 자체는 안 걸기 때문이다. 여기서 닫는다. */}}
+    <nav class="foot-nav">
+      {{- range site.Sections }}
+      {{- $u := .RelPermalink }}{{ with .Params.nav }}<a href="{{ $u }}">{{ . }}</a>{{ end }}
+      {{- end }}
+      {{- with site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">전체 글</a>{{ end }}
+      {{- with site.GetPage "/categories" }}<a href="{{ .RelPermalink }}">주제별</a>{{ end }}
+      {{- with site.GetPage "/tags" }}<a href="{{ .RelPermalink }}">태그</a>{{ end }}
+    </nav>
     <p class="meta">{{ site.Title }} · <a href="{{ "privacy/" | relURL }}">개인정보처리방침</a></p>
   </div>
 </footer>
