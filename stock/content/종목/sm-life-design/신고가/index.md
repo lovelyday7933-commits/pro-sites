@@ -9,6 +9,7 @@ signal: "신고가"
 signal_key: "new_high"
 hits: 111
 edge20: -5.79
+utm_source: "sm-life-design-신고가"
 ---
 
 SM Life Design에서 신고가가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 아래였다. 기간을 늘려도 방향이 바뀌지 않았다.

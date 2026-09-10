@@ -9,6 +9,7 @@ signal: "골든크로스"
 signal_key: "golden_cross"
 hits: 41
 edge20: -1.13
+utm_source: "nice인프라-골든크로스"
 ---
 
 NICE인프라의 골든크로스는 20거래일과 60거래일의 방향이 서로 달랐다. 어느 구간을 보느냐에 따라 판정이 뒤집히는 사례다.

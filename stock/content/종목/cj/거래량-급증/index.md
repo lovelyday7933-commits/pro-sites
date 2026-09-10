@@ -9,6 +9,7 @@ signal: "거래량 급증"
 signal_key: "volume_spike"
 hits: 204
 edge20: 1.47
+utm_source: "cj-거래량-급증"
 ---
 
 CJ에서 거래량 급증가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 위였다. 두 구간이 같은 방향을 가리킨 경우다.

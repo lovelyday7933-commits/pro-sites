@@ -9,6 +9,7 @@ signal: "신고가"
 signal_key: "new_high"
 hits: 32
 edge20: 11.95
+utm_source: "dxvx-신고가"
 ---
 
 DXVX에서 신고가가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 위였다. 두 구간이 같은 방향을 가리킨 경우다.

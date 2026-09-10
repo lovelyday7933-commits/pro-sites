@@ -36,8 +36,13 @@
 {{- if eq $.Kind "404" }}
   {{- $source = "404" }}{{ $medium = "404" }}
 {{- else if $.IsPage }}
-  {{- $source = $.File.ContentBaseName }}
+  {{/* ⛔`.File.ContentBaseName` 은 **페이지 번들의 폴더 이름 하나**다.
+       격자 셀은 `content/종목/삼성전자/골든크로스/index.md` 라서 그 값이 `골든크로스` 가 되고,
+       셀 2,628장이 신호 이름 8종으로 뭉갠다 — 페이지별 귀속이 통째로 무의미해진다.
+       2026-09-10 라이브에서 잡음. 그래서 격자는 `utm_source` 를 프런트매터로 직접 준다. */}}
+  {{- $source = $.Params.utm_source | default $.File.ContentBaseName }}
   {{- $medium = cond (eq $.Layout "standalone") "page" "post" }}
+  {{- if $.Params.utm_source }}{{ $medium = "cell" }}{{ end }}
 {{- else if eq $.Kind "section" }}
   {{- $source = printf "section-%s" $.Section }}{{ $medium = "list" }}
 {{- else if eq $.Kind "taxonomy" }}

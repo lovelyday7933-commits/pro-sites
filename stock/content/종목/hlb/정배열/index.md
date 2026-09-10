@@ -9,6 +9,7 @@ signal: "정배열"
 signal_key: "ma_align"
 hits: 92
 edge20: 1.76
+utm_source: "hlb-정배열"
 ---
 
 HLB에서 정배열가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 위였다. 두 구간이 같은 방향을 가리킨 경우다.

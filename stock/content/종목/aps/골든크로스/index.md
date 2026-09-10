@@ -9,6 +9,7 @@ signal: "골든크로스"
 signal_key: "golden_cross"
 hits: 57
 edge20: 0.1
+utm_source: "aps-골든크로스"
 ---
 
 APS에서 골든크로스가 난 뒤와 같은 기간 아무 날에 시작한 경우의 차이는 크지 않았다. 신호가 있고 없고가 결과를 크게 가르지 않은 쪽이다.

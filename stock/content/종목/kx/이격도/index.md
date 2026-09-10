@@ -9,6 +9,7 @@ signal: "이격도"
 signal_key: "disparity"
 hits: 37
 edge20: 4.32
+utm_source: "kx-이격도"
 ---
 
 KX의 이격도는 20거래일과 60거래일의 방향이 서로 달랐다. 어느 구간을 보느냐에 따라 판정이 뒤집히는 사례다.

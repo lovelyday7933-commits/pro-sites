@@ -9,6 +9,7 @@ signal: "신고가"
 signal_key: "new_high"
 hits: 101
 edge20: 1.61
+utm_source: "gkl-신고가"
 ---
 
 GKL의 신고가는 20거래일과 60거래일의 방향이 서로 달랐다. 어느 구간을 보느냐에 따라 판정이 뒤집히는 사례다.

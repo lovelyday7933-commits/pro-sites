@@ -9,6 +9,7 @@ signal: "정배열"
 signal_key: "ma_align"
 hits: 124
 edge20: -0.48
+utm_source: "sgg-정배열"
 ---
 
 SG&G에서 정배열가 난 뒤와 같은 기간 아무 날에 시작한 경우의 차이는 크지 않았다. 신호가 있고 없고가 결과를 크게 가르지 않은 쪽이다.

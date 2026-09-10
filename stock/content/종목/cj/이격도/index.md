@@ -9,6 +9,7 @@ signal: "이격도"
 signal_key: "disparity"
 hits: 155
 edge20: 2.17
+utm_source: "cj-이격도"
 ---
 
 CJ에서 이격도가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 위였다. 두 구간이 같은 방향을 가리킨 경우다.

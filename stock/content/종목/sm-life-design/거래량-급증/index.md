@@ -9,6 +9,7 @@ signal: "거래량 급증"
 signal_key: "volume_spike"
 hits: 353
 edge20: -3.39
+utm_source: "sm-life-design-거래량-급증"
 ---
 
 SM Life Design에서 거래량 급증가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 아래였다. 기간을 늘려도 방향이 바뀌지 않았다.

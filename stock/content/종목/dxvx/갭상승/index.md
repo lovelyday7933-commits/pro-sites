@@ -9,6 +9,7 @@ signal: "갭상승"
 signal_key: "gap_up"
 hits: 153
 edge20: 3.86
+utm_source: "dxvx-갭상승"
 ---
 
 DXVX에서 갭상승가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 위였다. 두 구간이 같은 방향을 가리킨 경우다.

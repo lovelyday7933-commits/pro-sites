@@ -9,6 +9,7 @@ signal: "이격도"
 signal_key: "disparity"
 hits: 29
 edge20: -1.84
+utm_source: "mds테크-이격도"
 ---
 
 MDS테크에서 이격도가 난 뒤의 결과는 20거래일과 60거래일 모두 같은 기간 아무 날보다 아래였다. 기간을 늘려도 방향이 바뀌지 않았다.
