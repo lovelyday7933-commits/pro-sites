@@ -50,7 +50,11 @@
 {{- $source = replace $source " " "-" }}
 {{- $campaign := replace ($.Params.cta.book | default site.Params.defaultCTA.book) " " "-" }}
 <aside class="cta{{ if $isDefault }} cta-default{{ end }}">
-  <p class="q">{{ .question | default "여기서 더 들어가고 싶다면" }}</p>
+  {{/* ⛔"여기서 더 들어가고 싶다면" 으로 돼 있었다. 사용자 2026-09-10:
+       "사람이 쓰는 말이 아니야. 더 알아보기, 라는 표현을 하지. 어딜 들어가 들어가긴."
+       글이 `cta.question` 을 따로 안 주면 전부 이 기본값을 쓴다 — 발행된 12편이 전부 그랬다.
+       기본값은 짧은 입말로 둔다. 조건절(“…싶다면”)로 늘리지 마라. */}}
+  <p class="q">{{ .question | default "더 알아보기" }}</p>
   <p class="bk"><b>{{ .book }}</b>{{ with .chapter }} · {{ . }}{{ end }}</p>
   {{- with .note }}<p class="note">{{ . }}</p>{{ end }}
   {{- with site.Params.ctaURL }}
