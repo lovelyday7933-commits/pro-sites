@@ -1,13 +1,37 @@
-{{/* 책 안내. ⛔143 규칙 — 1:1 책(종목책)은 그 종목 글에만. 붙일 책이 없으면 아무것도 내보내지 않는다.
+{{/* 책 안내. ⛔143 규칙 — 1:1 책(종목책)은 그 종목 글에만.
      헌법 제16조: 광고처럼 읽히지 않게, 남은 질문 하나와 그 책의 관련 대목을 짚는 것으로 끝낸다.
-     신청 창구(site.Params.ctaURL)는 사이트마다 다른 양식이라, 이 링크 하나로 주식/코인 세그먼트가 갈린다. */}}
-{{- with .Params.cta }}
-<aside class="cta">
+     신청 창구(site.Params.ctaURL)는 사이트마다 다른 양식이라, 이 링크 하나로 주식/코인 세그먼트가 갈린다.
+
+     ★2026-09-10 개정 — 이제 baseof 가 **모든 페이지에서** 한 번 부른다.
+       과외상담.com 실측: 전환 장치가 전 페이지에 붙어 있는데 우리는 글에만 있었다(홈·목록 0개).
+       글에 `.Params.cta` 가 있으면 그것을, 없으면 사이트 기본 책을 낸다.
+       ⛔기본 책은 반드시 **N:1** 이어야 한다. 1:1 종목책을 기본값으로 깔면 §4 규칙을 어긴다.
+
+     ★`?src=` — 어느 페이지가 리드를 만들었는지 알 유일한 수단이다.
+       과외상담은 자체 /api/track 을 쓰지만 그건 우리 비용 조항 §6-7(페이지뷰마다 Worker 금지) 위반이다.
+       정적 링크에 붙는 쿼리 한 조각이면 Worker 도 자바스크립트도 필요 없다.
+       ⚠️미검증 — proreport.co.kr 폼이 이 값을 응답에 남기는지 확인해야 한다. */}}
+
+{{- $cta := .Params.cta }}
+{{- $isDefault := false }}
+{{- if not $cta }}
+  {{- with site.Params.defaultCTA }}
+    {{- $cta = . }}
+    {{- $isDefault = true }}
+  {{- end }}
+{{- end }}
+
+{{- with $cta }}
+{{- $src := "home" }}
+{{- if not $.IsHome }}
+  {{- $src = $.RelPermalink }}
+{{- end }}
+<aside class="cta{{ if $isDefault }} cta-default{{ end }}">
   <p class="q">{{ .question | default "여기서 더 들어가고 싶다면" }}</p>
   <p class="bk"><b>{{ .book }}</b>{{ with .chapter }} · {{ . }}{{ end }}</p>
   {{- with .note }}<p class="note">{{ . }}</p>{{ end }}
   {{- with site.Params.ctaURL }}
-  <a class="go" href="{{ . }}" target="_blank" rel="noopener nofollow">책 신청하기</a>
+  <a class="go" href="{{ . }}?src={{ $src | urlquery }}" target="_blank" rel="noopener nofollow">책 신청하기</a>
   <p class="fine">신청 양식으로 이동합니다. 무료로 보내 드립니다.</p>
   {{- else }}
   <p class="soon">신청 창구는 준비 중입니다.</p>

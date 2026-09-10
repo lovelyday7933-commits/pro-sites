@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="코인">
+  <!-- 16px 에서도 읽히도록 획을 굵게. 이모지·그라데이션 없음(메모리 규칙: AI티 금지). -->
+  <rect width="32" height="32" rx="7" fill="#12161c"/>
+  <circle cx="16" cy="16" r="8" fill="none" stroke="#e8edf4" stroke-width="3"/>
+  <rect x="14.5" y="5" width="3" height="22" fill="#e8edf4"/>
+</svg>

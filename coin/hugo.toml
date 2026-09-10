@@ -2,7 +2,9 @@
 baseURL = "https://procoin.kr/"
 languageCode = "ko-kr"
 defaultContentLanguage = "ko"
-title = "코인"
+# 사용자 2026-09-10: "네이밍 프로 주식, 프로 코인 으로 일단 해. 이건 나중에 바꿔도 되잖아."
+# ⚠️임시 이름이다. 바꿀 때 여기 한 곳만 고치면 title·og·JSON-LD 저자/발행처가 함께 따라온다.
+title = "프로 코인"
 themesDir = "../_themes"
 theme = "base"
 
@@ -25,10 +27,20 @@ summaryLength = 40
   # 네이버 서치어드바이저 소유확인 — ⛔지우면 확인이 풀린다
   naverVerification = "40163bcae369c64bde528d2742b299412ee47c64"
   site = "coin"
-  description = ""
+  # ⚠️2026-09-09 까지 빈 문자열이었다 = 홈·목록에 meta description 이 아예 없었다.
+  description = "코인 시장에서 값이 움직이는 구조를 하나씩 확인합니다. 체결과 원장, 수수료와 발행량, 수급과 지표처럼 가격 예측이 아니라 그 뒤에서 실제로 무엇이 돌아가는지를 다룹니다."
   # 책 신청 창구 — 사용자 지급 2026-09-08. 사이트마다 다른 양식이라
   # 이 링크 하나로 주식/코인 세그먼트가 갈린다.
   ctaURL = "https://proreport.co.kr/f/c6b7o13b"
+
+  # ★기본 책 안내 — 글이 자기 책을 지정하지 않은 페이지에 붙는다.
+  # ⛔반드시 N:1 책이어야 한다. 1:1(종목책)을 기본값으로 깔면 §4 를 어긴다.
+  # ⚠️book10 은 config.json 에서 sites=["stock","coin"] 로 코인에 명시 허용된 N:1 이라 골랐다.
+  #   사용자가 다른 책을 원하면 여기만 바꾼다.
+  [params.defaultCTA]
+    question = "가격 이야기 말고 그 뒤의 구조를 잡고 싶다면"
+    book = "경제지표의 기본기"
+    note = "금리·환율·유동성이 위험자산에 닿는 경로를 순서대로 정리했습니다."
 
 [taxonomies]
   category = "categories"

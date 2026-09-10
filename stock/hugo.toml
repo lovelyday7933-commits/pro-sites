@@ -2,7 +2,9 @@
 baseURL = "https://prostock.kr/"
 languageCode = "ko-kr"
 defaultContentLanguage = "ko"
-title = "주식"
+# 사용자 2026-09-10: "네이밍 프로 주식, 프로 코인 으로 일단 해. 이건 나중에 바꿔도 되잖아."
+# ⚠️임시 이름이다. 바꿀 때 여기 한 곳만 고치면 title·og·JSON-LD 저자/발행처가 함께 따라온다.
+title = "프로 주식"
 themesDir = "../_themes"
 theme = "base"
 
@@ -25,10 +27,18 @@ summaryLength = 40
   # 네이버 서치어드바이저 소유확인 — ⛔지우면 확인이 풀린다
   naverVerification = "b1e5df6efdc24ef4196c29dac913e2920f2f6aca"
   site = "stock"
-  description = ""
+  # ⚠️2026-09-09 까지 빈 문자열이었다 = 홈·목록에 meta description 이 아예 없었다.
+  description = "차트 신호를 390여 개 종목 36년 일봉으로 직접 재고, 같은 기간 아무 날에 시작한 경우와 나란히 놓습니다. 골든크로스·이격도·거래량처럼 이름은 익숙한데 실제 결과는 잘 모르는 신호들을 숫자로 확인합니다."
   # 책 신청 창구 — 사용자 지급 2026-09-08. 사이트마다 다른 양식이라
   # 이 링크 하나로 주식/코인 세그먼트가 갈린다.
   ctaURL = "https://proreport.co.kr/f/wvptb0wl"
+
+  # ★기본 책 안내 — 글이 자기 책을 지정하지 않은 페이지(홈·목록·지표 페이지)에 붙는다.
+  # ⛔반드시 N:1 책이어야 한다. CLAUDE.md §4: "주식 글의 기본 CTA = book11 차트의 정석 제1권".
+  [params.defaultCTA]
+    question = "신호 하나가 아니라 차트를 읽는 순서를 잡고 싶다면"
+    book = "차트의 정석 제1권"
+    note = "390여 개 종목을 같은 마스크로 잰 실측이 근거로 들어가 있습니다."
 
 [taxonomies]
   category = "categories"
