@@ -1,19 +1,29 @@
 <header class="top">
-  <div class="wrap row">
-    <a class="brand" href="{{ "/" | relURL }}">{{ site.Title }}</a>
-    {{/* ★2026-09-10 — 격자로 내려가는 길을 여기서 연다.
-         전에는 카테고리 term 만 걸려 있어서 `/종목/` `/신호/` `/posts/` 로 가는 입구가
-         어디에도 없었다(빌드 실측: 고아 3). 쿠키 9:01 — "메인페이지에서부터 클릭 클릭해서
-         접근을 못 하면 그건 고아페이지라고 불러". 격자의 두 축이 최상단 내비여야 한다. */}}
-    <nav>
-      {{- range site.Sections }}
-      {{- $url := .RelPermalink }}
-      {{- with .Params.nav }}<a href="{{ $url }}">{{ . }}</a>{{ end }}
-      {{- end }}
-      {{- with site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">글</a>{{ end }}
-      {{- range site.Taxonomies.categories.ByCount }}
-      <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+  <div class="site">
+    <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ site.Title }} 첫 화면">
+      {{ partial "mark.html" 26 }}
+      <span>{{ site.Title }}</span>
+      {{- with site.Params.tagline }}<small>{{ . }}</small>{{ end }}
+    </a>
+    {{/* ★메뉴는 hugo.toml [menus.main] 이 정한다(2026-09-11). 전에는 섹션·글·카테고리를 자동으로 늘어놔서
+         "종목 · 신호 · 글 · 차트 신호 · 종목 실측" 처럼 같은 말이 두 번씩 나갔다.
+         메뉴가 없는 사이트(코인)는 아래 옛 자동 방식으로 떨어진다 — 카테고리(리플·비트코인…)가 곧 메뉴다.
+         쿠키 9:01 — "메인페이지에서부터 클릭 클릭해서 접근을 못 하면 그건 고아페이지". 격자의 두 축이 여기 있어야 한다. */}}
+    <nav class="gnb" aria-label="주요 메뉴">
+      {{- $sec := .Section }}
+      {{- with site.Menus.main }}
+        {{- range . }}<a href="{{ .URL }}"{{ if eq .Identifier $sec }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
+      {{- else }}
+        {{- range site.Sections }}
+        {{- $u := .RelPermalink }}{{ $s := .Section }}
+        {{- with .Params.nav }}<a href="{{ $u }}"{{ if eq $s $sec }} aria-current="page"{{ end }}>{{ . }}</a>{{ end }}
+        {{- end }}
+        {{- with site.GetPage "/posts" }}<a href="{{ .RelPermalink }}"{{ if eq $sec "posts" }} aria-current="page"{{ end }}>글</a>{{ end }}
+        {{- range site.Taxonomies.categories.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}
       {{- end }}
     </nav>
+    {{- if site.Params.ctaURL }}
+    <a class="btn btn-primary" href="{{ partial "ctahref.html" (dict "page" . "place" "top") }}" target="_blank" rel="noopener nofollow">무료 책 신청</a>
+    {{- end }}
   </div>
 </header>

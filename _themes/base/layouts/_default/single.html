@@ -1,30 +1,28 @@
+{{/* 글(codex 가 쓴 산문). 제목 띠는 격자와 같은 부품 — 사이트 전체가 한 문법으로 보이게(2026-09-11). */}}
 {{ define "main" }}
-<article class="post">
-  <h1>{{ .Title }}</h1>
-  <p class="meta">
-    {{ .PublishDate.Format "2006년 1월 2일" }}
-    {{- with .Params.categories }} · {{ index . 0 }}{{ end }}
-    · 약 {{ math.Round (div (countwords .Content) 500.0) }}분
-  </p>
-  {{- with .Description }}<p class="lead">{{ . }}</p>{{ end }}
-
+{{- $mins := math.Max 1 (math.Round (div (countwords .Content) 500.0)) }}
+{{- partial "pagehead.html" (dict
+    "crumbs" (partial "crumbs.html" .)
+    "chip" (index (.Params.categories | default (slice "")) 0)
+    "title" .Title "lead" .Description
+    "meta" (printf "%s · 약 %.0f분" (.PublishDate.Format "2006년 1월 2일") $mins)
+    "flat" true) }}
+<div class="site">
+<article class="post article">
   {{- if gt (len .TableOfContents) 60 }}
   <nav class="toc"><b>이 글에서 다루는 것</b>{{ .TableOfContents }}</nav>
   {{- end }}
-
   <div class="body">{{ .Content }}</div>
-
   {{ partial "cta.html" . }}
-</article>
 
-{{- $rel := where (where site.RegularPages "Section" "posts") ".Permalink" "!=" .Permalink }}
-{{- with .Params.categories }}
-  {{- $rel = where $rel "Params.categories" "intersect" . }}
-{{- end }}
-{{- with first 4 $rel }}
-<section class="more">
-  <h2>이어서 볼 글</h2>
-  <ul>{{ range . }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
-</section>
-{{- end }}
+  {{- $rel := where (where site.RegularPages "Section" "posts") ".Permalink" "!=" .Permalink }}
+  {{- with .Params.categories }}{{ $rel = where $rel "Params.categories" "intersect" . }}{{ end }}
+  {{- with first 4 $rel }}
+  <section class="rel">
+    <h2>이어서 볼 글</h2>
+    <ul class="links">{{ range . }}<li><a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
+</article>
+</div>
 {{ end }}

@@ -1,0 +1,7 @@
+{{/* 신청 링크 주소 하나. 인자 = dict "page" <페이지> "place" <"" | "top" | "float">.
+     place 가 있으면 medium 뒤에 붙인다(cell-top · post-float …) — 어느 버튼이 신청을 만들었는지
+     CSV 의 medium 열에서 갈라 볼 수 있다. source 는 건드리지 않는다(페이지 귀속이 제일 중요하다). */}}
+{{- $u := partial "utm.html" .page }}
+{{- $m := $u.medium }}
+{{- with .place }}{{ $m = printf "%s-%s" $m . }}{{ end }}
+{{- return printf "%s?utm_source=%s&utm_medium=%s&utm_campaign=%s" site.Params.ctaURL (urlquery $u.source) (urlquery $m) (urlquery $u.campaign) }}

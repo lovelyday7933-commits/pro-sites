@@ -1,0 +1,5 @@
+{{/* 빵부스러기 목록(보이는 것) — 홈 › 조상들 › 지금 페이지. JSON-LD 는 head.html 이 같은 순서로 따로 낸다. */}}
+{{- $cr := slice (dict "url" "/" "label" "홈") }}
+{{- range .Ancestors.Reverse }}{{ if not .IsHome }}{{ $cr = $cr | append (dict "url" .RelPermalink "label" .Title) }}{{ end }}{{ end }}
+{{- $cr = $cr | append (dict "label" .Title) }}
+{{- return $cr }}

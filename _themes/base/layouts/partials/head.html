@@ -38,8 +38,16 @@
 {{- if .IsPage }}
 <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}">
 {{- end }}
-{{ $css := resources.Get "css/main.css" | resources.Minify }}
+{{- /* ★2026-09-11 본문 글꼴 — 윈도에서 맑은 고딕으로 떨어지면 화면이 싸 보인다. Pretendard 동적 부분집합:
+     쓰는 글자만 받는다. 외부 CDN(jsDelivr)이라 우리 쪽 요청·과금과 무관하다(비용 조항 §6). */}}
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+{{- /* ⛔파일명에 지문을 붙인다. 2026-09-10 배포 뒤 브라우저가 옛 main.min.css 를 max-age 4시간 동안 물고 있어서
+     고친 화면이 사용자에게 안 보였다. 내용이 바뀌면 주소가 바뀌니 캐시가 따라온다.
+     ⚠️integrity(SRI)는 달지 않는다 — CDN 쪽에서 파일을 한 바이트라도 손대면 CSS 가 통째로 막힌다. */}}
+{{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<meta name="theme-color" content="#0e5a46">
 {{- if .IsPage }}
 {{/* YMYL 하드룰 — 저자·운영주체·게시일이 없으면 구글이 Lowest 로 본다. 자동 주입한다. */}}
 {{- $ld := dict

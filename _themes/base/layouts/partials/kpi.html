@@ -1,0 +1,20 @@
+{{/* 실측 요약 — 제목 띠에 걸치는 흰 판. 레퍼런스의 "현재 매칭 가능(실시간)" 판 자리.
+     인자 dict: head · sub(오른쪽 작은 글 — 기준일) · tiles(slice of dict v·u·l·s) · dist(판 아래 분포 그림 HTML, 선택) · distTitle
+     ⛔v 에는 이미 문자열로 다듬은 값을 넣는다. 부호가 있는 값은 cls 로 up/dn 을 준다. */}}
+<div class="site">
+  <div class="kpi">
+    <div class="kpi-h"><b>{{ .head }}</b>{{ with .sub }}<span>{{ . }}</span>{{ end }}</div>
+    <div class="kpi-g">
+      {{- range .tiles }}
+      <div class="kpi-t">
+        <div class="v{{ with .cls }} {{ . }}{{ end }}">{{ .v }}{{ with .u }}<small>{{ . }}</small>{{ end }}</div>
+        <div class="l">{{ .l }}</div>
+        {{- with .s }}<div class="s">{{ . }}</div>{{ end }}
+      </div>
+      {{- end }}
+    </div>
+    {{- with .dist }}
+    <div class="dist">{{ with $.distTitle }}<p>{{ . }}</p>{{ end }}{{ . }}</div>
+    {{- end }}
+  </div>
+</div>

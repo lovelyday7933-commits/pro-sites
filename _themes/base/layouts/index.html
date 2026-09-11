@@ -1,15 +1,59 @@
+{{/* 홈. ★2026-09-11 — 격자로 내려가는 길을 홈에서 연다.
+     쿠키 9:04: "메인에서부터 … 기준이 있으니까 인덱스로 마인드맵마냥 구조화" — 홈 → 신호 8 / 종목 393 → 셀.
+     전에는 홈에 글 카드만 있었고 격자는 헤더 글자 두 개로만 닿았다.
+     ⛔grid.json 이 없는 사이트(코인)는 격자 절을 통째로 건너뛴다. */}}
 {{ define "main" }}
-<section class="hero">
-  <h1>{{ site.Title }}</h1>
-  {{- with site.Params.description }}<p>{{ . }}</p>{{ end }}
-</section>
-<ul class="cards">
-  {{- range first 18 (where site.RegularPages "Section" "posts") }}
-  <li>
-    <a href="{{ .RelPermalink }}"><b>{{ .Title }}</b></a>
-    <p>{{ .Description | default .Summary | plainify | truncate 110 }}</p>
-    <span class="meta">{{ .PublishDate.Format "01/02" }}{{ with .Params.categories }} · {{ index . 0 }}{{ end }}</span>
-  </li>
+{{- $g := site.Data.grid }}
+{{- $acts := slice }}
+{{- if $g }}{{ $acts = $acts | append (dict "url" "/종목/" "label" "종목별 실측 보기" "cls" "btn-light") (dict "url" "/신호/" "label" "신호별 실측 보기" "cls" "btn-ghost") }}{{ end }}
+{{- partial "pagehead.html" (dict
+    "chip" (cond (ne $g nil) (printf "종목 %d개 · 신호 %d가지 · %s~%s 일봉" (int ($g.n_stocks | default 0)) (int ($g.n_signals | default 0)) (substr ($g.period_from | default "") 0 4) (substr ($g.period_to | default "") 0 4)) "")
+    "title" (site.Params.headline | default site.Title)
+    "lead" site.Params.description
+    "find" (cond (ne $g nil) "/종목/" "")
+    "flat" (not $g)) }}
+{{- with $g }}
+{{- partial "kpi.html" (dict "head" "실측 범위" "sub" (printf "기준일 %s" .as_of) "tiles" (slice
+    (dict "v" (lang.FormatNumber 0 .n_stocks) "u" "개" "l" "종목" "s" "일봉 전 구간")
+    (dict "v" (int .n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·가격·거래량·수급")
+    (dict "v" (lang.FormatNumber 0 .n_pages) "u" "장" "l" "종목별 신호 실측 페이지" "s" (printf "종목×신호 %s개 가운데" (lang.FormatNumber 0 .n_measured)))
+    (dict "v" (printf "%s~%s" (substr .period_from 0 4) (substr .period_to 0 4)) "l" "조사 기간" "s" "종목마다 상장일부터"))) }}
+{{- end }}
+<div class="site page">
+  {{- with $g }}
+  <section class="sec">
+    <div class="sec-h"><span class="tag">신호별로 보기</span><h2>차트 신호 {{ .n_signals }}가지</h2>
+      <p>신호를 누르면 그 신호를 잰 종목 전부의 결과가 나옵니다. 숫자는 종목별 20거래일 차이의 중앙값입니다.</p></div>
+    <ul class="tiles">
+      {{- range .order }}{{ $s := index $g.signals . }}
+      <li><a href="{{ $s.url }}"><b>{{ $s.label }}</b><span>잰 종목 {{ $s.measured }}개</span>
+        <span class="v {{ cond (ge (float $s.med20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float $s.med20) }}%p</span></a></li>
+      {{- end }}
+    </ul>
+  </section>
+  <section class="sec">
+    <div class="sec-h"><span class="tag">종목별로 보기</span><h2>종목 {{ .n_stocks }}개, 첫 글자로 찾기</h2>
+      <p>글자를 누르면 종목 결과표의 그 자리로 갑니다.</p></div>
+    <nav class="jump">{{ range .groups }}<a href="/종목/#g-{{ .label }}">{{ .label }}</a>{{ end }}</nav>
+    <a class="btn btn-primary" href="/종목/">종목 결과표 전체 보기</a>
+  </section>
   {{- end }}
-</ul>
+
+  {{- $posts := where site.RegularPages "Section" "posts" }}
+  {{- with $posts }}
+  <section class="sec">
+    <div class="sec-h"><span class="tag">글</span><h2>최근 글</h2></div>
+    <ul class="cards">
+      {{- range first 12 . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p>{{ .Description | default .Summary | plainify | truncate 110 }}</p>
+        <span class="meta">{{ .PublishDate.Format "2006.01.02" }}{{ with .Params.categories }} · <span class="cat">{{ index . 0 }}</span>{{ end }}</span>
+      </li>
+      {{- end }}
+    </ul>
+    {{- with site.GetPage "/posts" }}<p style="margin:1.2rem 0 0"><a class="btn btn-primary" href="{{ .RelPermalink }}">전체 글 보기</a></p>{{ end }}
+  </section>
+  {{- end }}
+</div>
 {{ end }}

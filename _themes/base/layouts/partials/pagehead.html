@@ -1,0 +1,36 @@
+{{/* 제목 띠 — 레퍼런스의 페이지 머리(빵부스러기 · 알약 · 제목 · 한 줄 설명)를 우리 쪽 문법으로.
+     인자 dict: crumbs(slice of dict url·label — 마지막은 지금 페이지) · chip · title · lead · meta · flat
+     flat = 아래에 실측 요약(.kpi)이 걸치지 않는 페이지. 띠 아래 여백을 줄인다.
+     ⛔빵부스러기 JSON-LD 는 head.html 이 따로 낸다. 여기는 눈에 보이는 것만. */}}
+<section class="band{{ if .flat }} flat{{ end }}">
+  <svg class="deco" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true">
+    <defs><linearGradient id="bandfill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fe3c9" stop-opacity=".22"/><stop offset="1" stop-color="#9fe3c9" stop-opacity="0"/></linearGradient></defs>
+    <path d="M0,168 L70,160 L130,166 L190,142 L250,150 L310,126 L370,134 L430,110 L490,118 L550,96 L610,104 L670,84 L730,94 L790,70 L850,78 L910,60 L970,68 L1030,50 L1090,58 L1150,40 L1200,46 L1200,200 L0,200 Z" fill="url(#bandfill)"/>
+    <path d="M0,168 L70,160 L130,166 L190,142 L250,150 L310,126 L370,134 L430,110 L490,118 L550,96 L610,104 L670,84 L730,94 L790,70 L850,78 L910,60 L970,68 L1030,50 L1090,58 L1150,40 L1200,46" fill="none" stroke="#9fe3c9" stroke-opacity=".55" stroke-width="2" vector-effect="non-scaling-stroke"/>
+  </svg>
+  <div class="site">
+    {{- with .crumbs }}
+    <nav class="crumb" aria-label="현재 위치">
+      {{- $n := len . }}
+      {{- range $i, $c := . }}
+        {{- if gt $i 0 }}<span aria-hidden="true">›</span>{{ end }}
+        {{- if and $c.url (lt (add $i 1) $n) }}<a href="{{ $c.url }}">{{ $c.label }}</a>{{ else }}<span aria-current="page">{{ $c.label }}</span>{{ end }}
+      {{- end }}
+    </nav>
+    {{- end }}
+    {{- with .chip }}<p class="chip">{{ . }}</p>{{ end }}
+    <h1>{{ .title }}</h1>
+    {{- with .lead }}<p class="lead">{{ . }}</p>{{ end }}
+    {{- with .meta }}<p class="meta">{{ . }}</p>{{ end }}
+    {{- /* find = 종목 찾기 칸(홈). 제출하면 /종목/?q= 로 가고 그 페이지 스크립트가 거른다. 서버 호출 없음. */}}
+    {{- with .find }}
+    <form class="find-h" action="{{ . }}" method="get" role="search">
+      <input type="search" name="q" placeholder="종목 이름으로 찾기 (예: 삼성전자)" autocomplete="off" aria-label="종목 이름으로 찾기">
+      <button class="btn btn-light btn-lg" type="submit">찾기</button>
+    </form>
+    {{- end }}
+    {{- with .acts }}
+    <div class="acts">{{ range . }}<a class="btn btn-lg {{ .cls }}" href="{{ .url }}"{{ if .ext }} target="_blank" rel="noopener nofollow"{{ end }}>{{ .label }}</a>{{ end }}</div>
+    {{- end }}
+  </div>
+</section>

@@ -1,14 +1,25 @@
+{{/* 글 목록 · 주제별 · 태그. 격자 허브는 여기를 타지 않는다(layout: stocks/stock/signals/signal). */}}
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{- with .Content }}<div class="body">{{ . }}</div>{{ end }}
-<ul class="cards">
-  {{- range .Paginator.Pages }}
-  <li>
-    <a href="{{ .RelPermalink }}"><b>{{ .Title }}</b></a>
-    <p>{{ .Description | default .Summary | plainify | truncate 110 }}</p>
-    <span class="meta">{{ .PublishDate.Format "01/02" }}{{ with .Params.categories }} · {{ index . 0 }}{{ end }}</span>
-  </li>
+{{- partial "pagehead.html" (dict "crumbs" (partial "crumbs.html" .) "title" .Title "lead" .Description "flat" true) }}
+<div class="site page">
+  {{- with .Content }}<section class="sec"><div class="txt">{{ . }}</div></section>{{ end }}
+  {{- if eq .Kind "taxonomy" }}
+  <section class="sec">
+    <ul class="links">
+      {{- range .Data.Terms.ByCount }}<li><a href="{{ .Page.RelPermalink }}"><span>{{ .Page.Title }}</span><span class="v">{{ .Count }}편</span></a></li>{{ end }}
+    </ul>
+  </section>
+  {{- else }}
+  <ul class="cards">
+    {{- range .Paginator.Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <p>{{ .Description | default .Summary | plainify | truncate 110 }}</p>
+      <span class="meta">{{ .PublishDate.Format "2006.01.02" }}{{ with .Params.categories }} · <span class="cat">{{ index . 0 }}</span>{{ end }}</span>
+    </li>
+    {{- end }}
+  </ul>
+  {{ template "_internal/pagination.html" . }}
   {{- end }}
-</ul>
-{{ template "_internal/pagination.html" . }}
+</div>
 {{ end }}

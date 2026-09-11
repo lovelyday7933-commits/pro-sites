@@ -27,6 +27,9 @@ summaryLength = 40
   # 네이버 서치어드바이저 소유확인 — ⛔지우면 확인이 풀린다
   naverVerification = "b1e5df6efdc24ef4196c29dac913e2920f2f6aca"
   site = "stock"
+  # 홈 제목 띠의 큰 제목(검색어 먼저) · 헤더 로고 옆 작은 글. 없으면 사이트 이름만 나간다(코인).
+  headline = "차트 신호 종목별 실측"
+  tagline = "차트 신호 종목별 실측"
   # ⚠️2026-09-09 까지 빈 문자열이었다 = 홈·목록에 meta description 이 아예 없었다.
   description = "차트 신호를 390여 개 종목 36년 일봉으로 직접 재고, 같은 기간 아무 날에 시작한 경우와 나란히 놓습니다. 골든크로스·이격도·거래량처럼 이름은 익숙한데 실제 결과는 잘 모르는 신호들을 숫자로 확인합니다."
   # 책 신청 창구 — 사용자 지급 2026-09-08. 사이트마다 다른 양식이라
@@ -39,7 +42,29 @@ summaryLength = 40
   #   조건절로 늘린 문구는 사람이 쓰는 말이 아니다(사용자 2026-09-10).
   [params.defaultCTA]
     book = "차트의 정석 제1권"
-    note = "390여 개 종목을 같은 마스크로 잰 실측이 근거로 들어가 있습니다."
+    note = "390여 개 종목을 같은 기준으로 잰 실측이 근거로 들어가 있습니다."
+
+# ★2026-09-11 — 헤더 메뉴를 이름으로 못박는다.
+#   전에는 섹션 nav + 글 + 카테고리(term)를 자동으로 늘어놔서 "종목 · 신호 · 글 · 차트 신호 · 종목 실측"
+#   처럼 같은 말이 두 번씩 나갔다. 카테고리는 /categories/ 에서 닿는다(푸터 "주제별").
+#   ⛔코인 사이트는 이 블록이 없다 — 헤더가 옛 자동 방식(카테고리 = 리플·비트코인…)으로 떨어진다.
+#   identifier = 섹션 이름. header.html 이 지금 페이지의 .Section 과 대 보고 aria-current 를 단다.
+[menus]
+  [[menus.main]]
+    identifier = "종목"
+    name = "종목별 실측"
+    url = "/종목/"
+    weight = 10
+  [[menus.main]]
+    identifier = "신호"
+    name = "신호별 실측"
+    url = "/신호/"
+    weight = 20
+  [[menus.main]]
+    identifier = "posts"
+    name = "글"
+    url = "/posts/"
+    weight = 30
 
 [taxonomies]
   category = "categories"

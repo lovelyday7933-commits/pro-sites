@@ -1,17 +1,38 @@
+{{/* ⛔2026-09-10 라이브: 이 줄의 링크들이 CSS 가 없어서 "종목신호전체 글주제별태그" 로 붙어 나갔다.
+     ⛔분류·태그 목록 페이지는 여기서만 링크된다 — 빼면 고아가 된다(2026-09-10 빌드 실측). */}}
 <footer class="foot">
-  <div class="wrap">
-    <p class="disc">이 글은 정보 제공을 위해 작성되었습니다. 특정 종목의 매수·매도를 권유하지 않으며,
+  <div class="site">
+    <div class="foot-g">
+      <div>
+        <a class="brand" href="{{ "/" | relURL }}">{{ partial "mark.html" 22 }}<span>{{ site.Title }}</span></a>
+        {{- with site.Params.description }}<p class="about">{{ . }}</p>{{ end }}
+      </div>
+      <div>
+        <h4>바로가기</h4>
+        <ul>
+          {{- with site.Menus.main }}
+            {{- range . }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+          {{- else }}
+            {{- range site.Sections }}{{ $u := .RelPermalink }}{{ with .Params.nav }}<li><a href="{{ $u }}">{{ . }}</a></li>{{ end }}{{ end }}
+            {{- with site.GetPage "/posts" }}<li><a href="{{ .RelPermalink }}">전체 글</a></li>{{ end }}
+          {{- end }}
+          {{- with site.GetPage "/categories" }}<li><a href="{{ .RelPermalink }}">주제별 글</a></li>{{ end }}
+          {{- with site.GetPage "/tags" }}<li><a href="{{ .RelPermalink }}">태그</a></li>{{ end }}
+        </ul>
+      </div>
+      <div>
+        <h4>안내</h4>
+        <ul>
+          {{- if site.Params.ctaURL }}
+          <li><a href="{{ partial "ctahref.html" (dict "page" . "place" "foot") }}" target="_blank" rel="noopener nofollow">무료 책 신청</a></li>
+          {{- end }}
+          <li><a href="{{ "privacy/" | relURL }}">개인정보처리방침</a></li>
+          <li><a href="{{ "index.xml" | relURL }}">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disc">이 사이트의 내용은 정보 제공을 위해 작성되었습니다. 특정 종목의 매수·매도를 권유하지 않으며,
        과거 데이터가 앞으로의 결과를 보장하지 않습니다. 투자 판단과 그 결과는 본인에게 있습니다.</p>
-    {{/* ⛔분류·태그 목록 페이지는 어디서도 링크되지 않아 고아였다(2026-09-10 빌드 실측).
-         상단 내비는 term 만 걸고 목록 자체는 안 걸기 때문이다. 여기서 닫는다. */}}
-    <nav class="foot-nav">
-      {{- range site.Sections }}
-      {{- $u := .RelPermalink }}{{ with .Params.nav }}<a href="{{ $u }}">{{ . }}</a>{{ end }}
-      {{- end }}
-      {{- with site.GetPage "/posts" }}<a href="{{ .RelPermalink }}">전체 글</a>{{ end }}
-      {{- with site.GetPage "/categories" }}<a href="{{ .RelPermalink }}">주제별</a>{{ end }}
-      {{- with site.GetPage "/tags" }}<a href="{{ .RelPermalink }}">태그</a>{{ end }}
-    </nav>
-    <p class="meta">{{ site.Title }} · <a href="{{ "privacy/" | relURL }}">개인정보처리방침</a></p>
+    <p class="copy">© 2026 {{ site.Title }}</p>
   </div>
 </footer>

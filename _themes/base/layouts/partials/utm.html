@@ -1,0 +1,30 @@
+{{/* 신청 링크의 출처 표시 계산 — 본문 책 안내(cta.html)·헤더 버튼·떠 있는 버튼이 같이 쓴다.
+     2026-09-11 cta.html 에서 옮겼다. 규칙은 그대로다.
+
+     ⛔이름은 반드시 utm_* 이다. 프로리포트 폼은 utm_ 접두어만 읽는다(2026-09-10 번들 실측).
+     ⛔term·content 는 쓰지 않는다 — 저장은 되지만 화면·CSV 어디에도 안 나온다.
+       보이는 것 = source(목록 chip·통계) · CSV = source·medium·campaign.
+     ⛔.File.ContentBaseName 을 격자에 쓰지 마라 — 셀은 폴더 이름(=신호명) 하나만 잡아 8종으로 뭉갠다.
+       격자(셀·허브)는 grid.py 가 프런트매터 utm_source 로 직접 준다. 그게 있으면 무엇보다 먼저 쓴다 —
+       허브는 Kind=section 이라 그 값이 없으면 393장이 "section-종목" 하나로 뭉갠다. */}}
+{{- $p := . }}
+{{- $source := "home" }}
+{{- $medium := "home" }}
+{{- if eq $p.Kind "404" }}
+  {{- $source = "404" }}{{ $medium = "404" }}
+{{- else if $p.Params.utm_source }}
+  {{- $source = $p.Params.utm_source }}
+  {{- $medium = cond (eq $p.Kind "page") "cell" "hub" }}
+{{- else if $p.IsPage }}
+  {{- $source = $p.File.ContentBaseName }}
+  {{- $medium = cond (eq $p.Layout "standalone") "page" "post" }}
+{{- else if eq $p.Kind "section" }}
+  {{- $source = printf "section-%s" $p.Section }}{{ $medium = "list" }}
+{{- else if eq $p.Kind "taxonomy" }}
+  {{- $source = printf "tax-%s" $p.Data.Singular }}{{ $medium = "list" }}
+{{- else if eq $p.Kind "term" }}
+  {{- $source = printf "%s-%s" $p.Data.Singular $p.Title }}{{ $medium = "list" }}
+{{- end }}
+{{/* 공백은 뺀다. urlquery 가 공백을 + 로 바꾸고 CSV 에 "차트의+정석+제1권" 처럼 남는다. */}}
+{{- $book := $p.Params.cta.book | default site.Params.defaultCTA.book | default "" }}
+{{- return dict "source" (replace $source " " "-") "medium" $medium "campaign" (replace $book " " "-") }}

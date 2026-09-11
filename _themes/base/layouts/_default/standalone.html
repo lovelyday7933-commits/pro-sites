@@ -4,11 +4,14 @@
        책 안내(CTA)·이어서 볼 글이 따라붙는다. 실제로 날짜 없는 페이지에 "0001년 1월 1일" 이
        찍혔고 개인정보처리방침 밑에 이어서 볼 글 목록이 붙었다(2026-09-09 빌드로 확인).
      ⚠️`layouts/page/single.html` 로 두면 Hugo 0.156 이 잡지 않는다(실측). 판마다 흔들리지 않게
-       프런트매터에서 이름으로 지목한다 — `layout:` 지목은 `_default/<이름>.html` 로 확실히 내려온다. */}}
+       프런트매터에서 이름으로 지목한다 — `layout:` 지목은 `_default/<이름>.html` 로 확실히 내려온다.
+     CTA 는 baseof 가 낸다(standalone 예외). */}}
 {{ define "main" }}
-<article class="post">
-  <h1>{{ .Title }}</h1>
-  {{- with .Params.effective }}<p class="meta">시행일 {{ . }}</p>{{ end }}
+{{- partial "pagehead.html" (dict "crumbs" (partial "crumbs.html" .) "title" .Title
+    "meta" (cond (ne .Params.effective nil) (printf "시행일 %v" .Params.effective) "") "flat" true) }}
+<div class="site">
+<article class="post article">
   <div class="body">{{ .Content }}</div>
 </article>
+</div>
 {{ end }}

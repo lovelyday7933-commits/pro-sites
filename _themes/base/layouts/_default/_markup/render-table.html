@@ -1,0 +1,20 @@
+{{/* 마크다운 표 렌더 훅 (Hugo 0.134+). 셀·글의 표를 가로 스크롤 틀(.tw)로 감싸고
+     "+…" 칸은 up(빨강), "-…"·"−…" 칸은 dn(파랑)을 단다 — 한국식 등락 색.
+     ⛔글자 하나짜리 "-"(빈칸 표시)는 색을 달지 않는다. */}}
+<div class="tw"><table{{ range $k, $v := .Attributes }} {{ $k }}="{{ $v }}"{{ end }}>
+  <thead>
+    {{- range .THead }}<tr>{{ range . }}<th{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text }}</th>{{ end }}</tr>{{ end }}
+  </thead>
+  <tbody>
+    {{- range .TBody }}<tr>
+      {{- range . }}
+      {{- $t := .Text | plainify | strings.TrimSpace }}
+      {{- $cls := "" }}
+      {{- if gt (strings.RuneCount $t) 1 }}
+        {{- if hasPrefix $t "+" }}{{ $cls = "up" }}{{ else if or (hasPrefix $t "-") (hasPrefix $t "−") }}{{ $cls = "dn" }}{{ end }}
+      {{- end }}
+      <td{{ with $cls }} class="{{ . }}"{{ end }}{{ with .Alignment }} style="text-align:{{ . }}"{{ end }}>{{ .Text }}</td>
+      {{- end }}
+    </tr>{{ end }}
+  </tbody>
+</table></div>
