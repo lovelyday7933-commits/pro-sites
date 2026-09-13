@@ -33,7 +33,7 @@
     {{- with $g }}
     <div class="facts">
       <div><b>{{ lang.FormatNumber 0 .n_stocks }}<small>개</small></b><span>잰 {{ $T }} · {{ cond $coin "원화마켓 일봉" "일봉 전 기간" }}</span></div>
-      <div><b>{{ .n_signals }}<small>가지</small></b><span>차트 신호 · {{ cond $coin "이동평균·RSI·볼린저·거래량" "이동평균·가격·거래량·수급" }}</span></div>
+      <div><b>{{ .n_signals }}<small>가지</small></b><span>차트 신호 · {{ cond $coin "이동평균·RSI·볼린저·거래량" "이동평균·RSI·볼린저·수급" }}</span></div>
       <div><b>{{ lang.FormatNumber 0 .n_pages }}<small>장</small></b><span>{{ $T }}별 신호 실측 페이지</span></div>
       <div><b>{{ substr .period_from 0 4 }}–{{ substr .period_to 0 4 }}</b><span>조사 기간 · {{ $T }}마다 상장일부터</span></div>
     </div>
