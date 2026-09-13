@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Malgun Gothic, sans-serif">
+  <rect width="760" height="420" fill="#FFFFFF"/>
+  <text x="40" y="34" font-size="16" font-weight="bold" fill="#1F2937">물가 지표 삼형제 — 무엇을 재고, 누가 보나</text>
+  <text x="40" y="54" font-size="12" fill="#667085">발표일마다 시장을 흔드는 숫자들의 정체</text>
+  <g>
+    <rect x="40" y="80" width="215" height="230" rx="10" fill="#FFFFFF" stroke="#8C6D1F" stroke-width="1.6"/>
+    <text x="147" y="110" font-size="13.5" font-weight="bold" fill="#8C6D1F" text-anchor="middle">CPI (소비자물가)</text>
+    <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+      <text x="147" y="142">장바구니 물가 총괄</text>
+      <text x="147" y="164">(식품·에너지·집세 포함)</text>
+      <text x="147" y="196" fill="#667085">미 노동통계국 · 매월 발표</text>
+      <text x="147" y="228" font-weight="bold">뉴스 헤드라인의 주인공</text>
+      <text x="147" y="260" fill="#667085">발표 순간 변동성 최대</text>
+    </g>
+    <rect x="272" y="80" width="215" height="230" rx="10" fill="#FFFFFF" stroke="#8C6D1F" stroke-width="1.5"/>
+    <text x="379" y="110" font-size="13.5" font-weight="bold" fill="#8C6D1F" text-anchor="middle">근원(Core) 물가</text>
+    <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+      <text x="379" y="142">식품·에너지를 뺀 물가</text>
+      <text x="379" y="164">(출렁이는 것 제거)</text>
+      <text x="379" y="196" fill="#667085">물가의 "추세"를 보는 렌즈</text>
+      <text x="379" y="228" font-weight="bold">정책 판단에 더 중요</text>
+      <text x="379" y="260" fill="#667085">헤드라인과 방향이 갈릴 때 주목</text>
+    </g>
+    <rect x="504" y="80" width="215" height="230" rx="10" fill="#FFF9EC" stroke="#8C6D1F" stroke-width="1.8"/>
+    <text x="611" y="110" font-size="13.5" font-weight="bold" fill="#8C6D1F" text-anchor="middle">PCE (개인소비지출)</text>
+    <g font-size="11.5" fill="#1F2937" text-anchor="middle">
+      <text x="611" y="142">더 넓은 소비 범위 반영</text>
+      <text x="611" y="164">(소비 패턴 변화 반영)</text>
+      <text x="611" y="196" fill="#667085">미 상무부 · 매월 발표</text>
+      <text x="611" y="228" font-weight="bold" fill="#8C6D1F">연준이 공식적으로 보는 지표</text>
+      <text x="611" y="260" fill="#667085">금리 전망은 이쪽이 본류</text>
+    </g>
+  </g>
+  <g font-size="11.5" fill="#1F2937">
+    <text x="40" y="350" font-weight="bold">시장이 반응하는 것은 숫자가 아니라 "예상치와의 차이"입니다.</text>
+    <text x="40" y="374" fill="#667085">물가 3.0%가 나와도 예상이 3.2%였다면 안도 랠리가, 예상이 2.8%였다면 급락이 나올 수 있습니다.</text>
+    <text x="40" y="394" fill="#667085">그래서 발표 캘린더에는 항상 "컨센서스(예상치)"가 함께 적혀 있고, 그 열까지 읽어야 발표 날의 움직임이 해석됩니다.</text>
+  </g>
+</svg>
