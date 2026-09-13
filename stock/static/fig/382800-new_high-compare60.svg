@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="320" fill="#FFFFFF"/>
+<text x="28" y="27" font-size="15.5" font-weight="700" fill="#1F2937">지앤비에스 에코 · 신고가 돌파 — 60일 뒤 수익률 중앙값</text>
+<text x="28" y="48" font-size="11.5" fill="#667085">막대 = 수익률 중앙값(%) · 막대 아래 = 오른 비율과 표본 수</text>
+<text x="120" y="94" font-size="12" text-anchor="end" fill="#1F2937">신호 뒤 60일</text>
+<rect x="-394.0" y="78" width="524.0" height="22" fill="#C6403F" rx="2"/>
+<text x="138.0" y="94" font-size="12.5" font-weight="700" fill="#1F2937">-15.88%</text>
+<text x="-393.0" y="114" font-size="11" fill="#667085">오른 비율 31.0% · 표본 42회</text>
+<text x="120" y="152" font-size="12" text-anchor="end" fill="#1F2937">평소</text>
+<rect x="-32.3" y="136" width="162.3" height="22" fill="#9AA1AB" rx="2"/>
+<text x="138.0" y="152" font-size="12.5" font-weight="700" fill="#1F2937">-4.92%</text>
+<text x="-31.3" y="172" font-size="11" fill="#667085">오른 비율 42.8% · 표본 1,111회</text>
+<line x1="28" y1="210" x2="732" y2="210" stroke="#E6E8EC"/>
+<text x="28" y="236" font-size="12.5" font-weight="700" fill="#2E6BD6">내린 경우 29회 (69.0%)</text>
+<text x="28" y="258" font-size="11.5" fill="#667085">가장 나빴던 경우 -59.96% · 하위 25% -37.38% · 상위 25% +3.38%</text>
+<text x="28" y="306" font-size="9.5" fill="#9AA1AB">자료 = 일봉 2021.10.29~2026.09.08 · 거래대금이 얇은 날과 제도상 불가능한 변동일 제외</text>
+</svg>

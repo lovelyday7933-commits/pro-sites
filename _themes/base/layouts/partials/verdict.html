@@ -1,25 +1,24 @@
 {{/* 셀 판정 카드 — 제목 오른쪽에 선다(2026-09-13 3판). 09-11 판의 "네모 4칸"을 대신한다.
      큰 숫자 하나(20거래일 중앙값 차이) + 작은 셋 + 같은 신호 종목 분포 속 자리.
-     인자 dict: st(grid 종목) · sg(grid 신호) · e(그 칸) · g(grid)
-     ⛔e20 = 신호가 난 날에 시작한 20거래일 수익률 중앙값 − 같은 기간 아무 날에 시작한 경우의 중앙값(crosssec edge_median).
-       "수익률"로 부르지 않는다 — 차이다. */}}
-{{- $st := .st }}{{ $sg := .sg }}{{ $e := .e }}
+     인자 dict: st(grid 종목·코인) · sg(grid 신호) · e(그 칸) · g(grid)
+     ⛔e20 = 신호가 뜬 날 산 경우의 20거래일 수익률 중앙값 − 평소(신호와 상관없이 그 기간 모든 날에 샀을 때)의 중앙값.
+       "수익률"로 부르지 않는다 — 차이다.
+     ⛔2026-09-13 사용자 네 번: "아무 날보다 높았나" · "아무 날에나 산 것보다" 전부 *"말이 너무 어색함"* — 이름은 "평소".
+     ⛔이름 뒤에 조사를 붙이지 않는다(정배열이/골든크로스가) — "보고 · 신호를"처럼 받침과 무관한 말만. */}}
+{{- $st := .st }}{{ $sg := .sg }}{{ $e := .e }}{{ $g := .g }}
+{{- $T := $g.thing | default "종목" }}{{ $D := $g.day | default "거래일" }}
 {{- $e20 := float $e.e20 }}{{ $e60 := float $e.e60 }}
 <div class="verdict">
-  {{- /* ⛔2026-09-13 사용자 두 번: "아무 날보다 높았나" → "아무 날에나 산 것보다" 둘 다 *"말이 너무 어색함"*.
-       정의문(같은 기간 아무 날에 시작한 경우)을 문장에 넣으면 어디서든 어색하다. 사람 말 = **"평소"**.
-       정의는 작은 글씨(.vs)에 한 번만. ⛔"정말 올랐나"로 줄이지 않는다 — 이 값은 주가 등락이 아니라 평소와의 차이다. */}}
   <p class="vk">{{ $sg.label }} 보고 샀다면, 평소보다</p>
   <p class="big {{ cond (ge $e20 0.0) "up" "dn" }}">{{ cond (ge $e20 0.0) "+" "−" }}{{ printf "%.2f" (math.Abs $e20) }}<small>%p</small></p>
-  <p class="vs">20거래일 뒤 수익률 · 중앙값 기준</p>
+  <p class="vs">20{{ $D }} 뒤 수익률 · 중앙값 기준</p>
   <dl>
-    <div><dt>신호가 난 횟수</dt><dd>{{ $e.n }}번</dd></div>
-    <div><dt>60거래일 뒤엔</dt><dd class="{{ cond (ge $e60 0.0) "up" "dn" }}">{{ cond (ge $e60 0.0) "+" "−" }}{{ printf "%.2f" (math.Abs $e60) }}%p</dd></div>
-    <div><dt>{{ $sg.measured }}개 종목 중</dt><dd>{{ cond (ge $e.pct 50) (printf "상위 %v%%" (sub 101 $e.pct)) (printf "하위 %v%%" $e.pct) }}</dd></div>
+    <div><dt>신호가 뜬 횟수</dt><dd>{{ $e.n }}번</dd></div>
+    <div><dt>60{{ $D }} 뒤엔</dt><dd class="{{ cond (ge $e60 0.0) "up" "dn" }}">{{ cond (ge $e60 0.0) "+" "−" }}{{ printf "%.2f" (math.Abs $e60) }}%p</dd></div>
+    <div><dt>{{ $sg.measured }}개 {{ $T }} 중</dt><dd>{{ cond (ge $e.pct 50) (printf "상위 %v%%" (sub 101 $e.pct)) (printf "하위 %v%%" $e.pct) }}</dd></div>
   </dl>
   <div class="vh">
-    {{- /* ⛔이름 뒤에 조사를 붙이지 않는다(정배열이/골든크로스가) — "신호가"로 받침을 고정한다 */}}
-    <p>같은 신호를 잰 {{ $sg.measured }}개 종목 사이에서 {{ $st.name }} 자리(세로선)</p>
-    {{ partial "hist.html" (dict "sig" $sg "w" 440 "h" 54 "small" true "mark" $e20 "aria" (printf "%s 종목별 20거래일 차이 분포에서 %s의 위치" $sg.label $st.name)) }}
+    <p>같은 신호를 잰 {{ $sg.measured }}개 {{ $T }} 사이에서 {{ $st.name }} 자리(세로선)</p>
+    {{ partial "hist.html" (dict "sig" $sg "w" 440 "h" 54 "small" true "mark" $e20 "aria" (printf "%s %s별 20%s 뒤 차이 분포에서 %s의 위치" $sg.label $T $D $st.name)) }}
   </div>
 </div>

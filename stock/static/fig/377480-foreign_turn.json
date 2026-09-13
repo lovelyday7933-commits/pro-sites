@@ -1,0 +1,35 @@
+{
+ "cell": "377480:foreign_turn",
+ "figures": [
+  {
+   "file": "377480-foreign_turn-chart.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\377480-foreign_turn-chart.svg",
+   "caption": "마음AI 외국인 순매수 전환 발생 자리. 기간 2025.02.18~2026.09.08. 세로축 = 주가(원), 아래 = 거래량(주). 표본 66회(전체 기간 2021.11.23~2026.09.08). 판정 = 외국인 지분율이 직전 20거래일 최저치를 찍고 다음 날 올라선 날. 지분율 자료가 있는 구간만."
+  },
+  {
+   "file": "377480-foreign_turn-compare20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\377480-foreign_turn-compare20.svg",
+   "caption": "마음AI 외국인 순매수 전환 신호 뒤 20거래일 수익률 중앙값을, 평소(신호와 상관없이 그 기간 모든 날에 사서 20일 뒤 판 경우)와 나란히 놓은 것. 단위 = %. 표본 = 신호 66회 / 평소 1,134회. 기간 2021.11.23~2026.09.08. 판정 = 외국인 지분율이 직전 20거래일 최저치를 찍고 다음 날 올라선 날. 지분율 자료가 있는 구간만."
+  },
+  {
+   "file": "377480-foreign_turn-compare60.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\377480-foreign_turn-compare60.svg",
+   "caption": "마음AI 외국인 순매수 전환 신호 뒤 60거래일 수익률 중앙값을, 평소(신호와 상관없이 그 기간 모든 날에 사서 60일 뒤 판 경우)와 나란히 놓은 것. 단위 = %. 표본 = 신호 62회 / 평소 1,094회. 기간 2021.11.23~2026.09.08. 판정 = 외국인 지분율이 직전 20거래일 최저치를 찍고 다음 날 올라선 날. 지분율 자료가 있는 구간만."
+  },
+  {
+   "file": "377480-foreign_turn-spread20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\377480-foreign_turn-spread20.svg",
+   "caption": "마음AI 외국인 순매수 전환 신호 뒤 20거래일 수익률이 흩어진 폭. 가로 = %, 굵은 구간 = 하위 25%~상위 25%, 세로선 = 중앙값. 표본 = 신호 66회 / 평소 1,134회. 기간 2021.11.23~2026.09.08. 판정 = 외국인 지분율이 직전 20거래일 최저치를 찍고 다음 날 올라선 날. 지분율 자료가 있는 구간만."
+  },
+  {
+   "file": "377480-foreign_turn-spread60.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\377480-foreign_turn-spread60.svg",
+   "caption": "마음AI 외국인 순매수 전환 신호 뒤 60거래일 수익률이 흩어진 폭. 가로 = %, 굵은 구간 = 하위 25%~상위 25%, 세로선 = 중앙값. 표본 = 신호 62회 / 평소 1,094회. 기간 2021.11.23~2026.09.08. 판정 = 외국인 지분율이 직전 20거래일 최저치를 찍고 다음 날 올라선 날. 지분율 자료가 있는 구간만."
+  },
+  {
+   "file": "377480-foreign_turn-worst20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\377480-foreign_turn-worst20.svg",
+   "caption": "마음AI 외국인 순매수 전환 가운데 결과가 가장 나빴던 한 번. 신호일 2024.07.12, 뒤 20거래일 수익률 -33.13%. 기간 2024.02.29~2024.11.26. 세로축 = 주가(원), 아래 = 거래량(주). 표본 66회 중 1건. 판정 = 외국인 지분율이 직전 20거래일 최저치를 찍고 다음 날 올라선 날. 지분율 자료가 있는 구간만."
+  }
+ ]
+}

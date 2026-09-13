@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
+<rect width="760" height="320" fill="#FFFFFF"/>
+<text x="28" y="27" font-size="15.5" font-weight="700" fill="#1F2937">제일일렉트릭 · 정배열 성립 — 20일 뒤 수익률 중앙값</text>
+<text x="28" y="48" font-size="11.5" fill="#667085">막대 = 수익률 중앙값(%) · 막대 아래 = 오른 비율과 표본 수</text>
+<text x="120" y="94" font-size="12" text-anchor="end" fill="#1F2937">신호 뒤 20일</text>
+<rect x="-394.0" y="78" width="524.0" height="22" fill="#C6403F" rx="2"/>
+<text x="138.0" y="94" font-size="12.5" font-weight="700" fill="#1F2937">-6.16%</text>
+<text x="-393.0" y="114" font-size="11" fill="#667085">오른 비율 33.3% · 표본 21회</text>
+<text x="120" y="152" font-size="12" text-anchor="end" fill="#1F2937">평소</text>
+<rect x="-22.3" y="136" width="152.3" height="22" fill="#9AA1AB" rx="2"/>
+<text x="138.0" y="152" font-size="12.5" font-weight="700" fill="#1F2937">-1.79%</text>
+<text x="-21.3" y="172" font-size="11" fill="#667085">오른 비율 44.5% · 표본 1,309회</text>
+<line x1="28" y1="210" x2="732" y2="210" stroke="#E6E8EC"/>
+<text x="28" y="236" font-size="12.5" font-weight="700" fill="#2E6BD6">내린 경우 14회 (66.7%)</text>
+<text x="28" y="258" font-size="11.5" fill="#667085">가장 나빴던 경우 -21.56% · 하위 25% -14.11% · 상위 25% +2.57%</text>
+<text x="28" y="306" font-size="9.5" fill="#9AA1AB">자료 = 일봉 2020.11.26~2026.09.08 · 거래대금이 얇은 날과 제도상 불가능한 변동일 제외</text>
+</svg>

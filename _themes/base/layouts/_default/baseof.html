@@ -30,11 +30,11 @@
   {{- end }}
 
   {{- /* ★2026-09-13 종목 찾기 창 + 점그림·차트 풀이. 스크립트 한 파일(지문) — 페이지마다 인라인으로 복사하지 않는다. */}}
-  {{- if site.Data.grid }}
-  <dialog class="pal" id="pal" aria-label="종목 찾기" data-src="{{ "search.json" | relURL }}">
+  {{- with site.Data.grid }}{{ $T := .thing | default "종목" }}
+  <dialog class="pal" id="pal" aria-label="{{ $T }} 찾기" data-src="{{ "search.json" | relURL }}" data-thing="{{ $T }}">
     <form method="dialog" role="search">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="color:var(--mute)"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-      <input type="search" placeholder="종목 이름 · 초성(ㅅㅅㅈㅈ) · 신호 이름" autocomplete="off" aria-label="종목 이름으로 찾기">
+      <input type="search" placeholder="{{ cond (eq $T "코인") "코인 이름 · 초성(ㅂㅌㅋㅇ) · BTC · 신호 이름" "종목 이름 · 초성(ㅅㅅㅈㅈ) · 신호 이름" }}" autocomplete="off" aria-label="{{ $T }} 이름으로 찾기">
       <kbd>esc</kbd>
     </form>
     <ul role="listbox"></ul>

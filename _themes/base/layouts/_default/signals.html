@@ -1,23 +1,24 @@
-{{/* /신호/ — 신호 전체. 카드마다 판정 조건 · 잰 종목 · 이긴 비율 · 중앙값 · 분포 그림.
+{{/* /신호/ — 신호 전체. 카드마다 판정 조건 · 잰 종목 · 나았던 비율 · 중앙값 · 분포 그림.
      ⛔2026-09-10 반려판은 "갭상승 393개 종목" 상자 8개뿐이었고, 그 숫자(만든 페이지 수)가 글 제목의 숫자(잰 종목 수)와 달랐다.
-     ⛔숫자는 전부 grid.json — 셀·글과 같은 값이다. */}}
+     ⛔숫자는 전부 grid.json — 셀·글과 같은 값이다. ★2026-09-13 주식·코인 공용. */}}
 {{ define "main" }}
 {{- $g := site.Data.grid }}
+{{- $T := $g.thing | default "종목" }}{{ $D := $g.day | default "거래일" }}
 {{- $beat := 0 }}{{ range $g.signals }}{{ $beat = add $beat .beat20 }}{{ end }}
 {{- partial "pagehead.html" (dict
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "label" "신호별 실측"))
-    "chip" (printf "신호 %d가지 · 종목 %d개" (int $g.n_signals) (int $g.n_stocks))
+    "chip" (printf "신호 %d가지 · %s %d개 · 기준일 %s" (int $g.n_signals) $T (int $g.n_stocks) $g.as_of)
     "title" .Title "lead" .Description) }}
-{{- partial "kpi.html" (dict "head" "실측 범위" "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
-    (dict "v" (int $g.n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·가격·거래량·수급")
-    (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" "잰 종목" "s" "일봉 전 구간")
-    (dict "v" (lang.FormatNumber 0 $g.n_measured) "u" "개" "l" "종목×신호 조합" "s" "발생 20회 이상만")
-    (dict "v" (printf "%.1f" (mul (div (float $beat) (float $g.n_measured)) 100.0)) "u" "%" "l" "평소보다 나았던 조합" "s" "20거래일 뒤 기준"))) }}
+{{- partial "kpi.html" (dict "head" "잰 범위" "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
+    (dict "v" (int $g.n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·RSI·거래량 등")
+    (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" (printf "잰 %s" $T) "s" "일봉 전 기간")
+    (dict "v" (lang.FormatNumber 0 $g.n_measured) "u" "개" "l" (printf "%s×신호 조합" $T) "s" "신호 20번 이상만")
+    (dict "v" (printf "%.1f" (mul (div (float $beat) (float $g.n_measured)) 100.0)) "u" "%" "l" "평소보다 나았던 조합" "s" (printf "20%s 뒤 기준" $D)))) }}
 <div class="site page">
   <section class="sec">
-    <div class="sec-h"><span class="tag">읽는 법</span><h2>신호마다 종목 수백 개를 같은 기준으로 쟀습니다</h2></div>
+    <div class="sec-h"><h2>신호마다 {{ $T }} 수백 개를 같은 기준으로 쟀습니다</h2></div>
     <div class="txt">{{ .Content }}</div>
-    <p class="note">분포 그림의 막대 하나는 20거래일 차이의 한 구간이고, 높이는 그 구간에 든 종목 수입니다. 가운데 세로선이 0, 점선이 중앙값입니다.</p>
+    <p class="note">분포 그림의 막대 하나는 20{{ $D }} 뒤 평소와 차이의 한 구간이고, 높이는 그 구간에 든 {{ $T }} 수입니다. 가운데 세로선이 0, 점선이 중앙값입니다.</p>
   </section>
 
   <div class="sig-grid">
@@ -26,12 +27,12 @@
       <h3>{{ $s.label }}</h3>
       <p class="rule">{{ $s.rule }}</p>
       <div class="st">
-        <div><b>{{ $s.measured }}개</b><span>잰 종목</span></div>
-        <div><b>{{ printf "%.1f" (float $s.beat20_rate) }}%</b><span>평소보다 나았던 종목</span></div>
+        <div><b>{{ $s.measured }}개</b><span>잰 {{ $T }}</span></div>
+        <div><b>{{ printf "%.1f" (float $s.beat20_rate) }}%</b><span>평소보다 나았던 {{ $T }}</span></div>
         <div><b class="{{ cond (ge (float $s.med20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float $s.med20) }}%p</b><span>평소와 차이(중앙값)</span></div>
       </div>
-      {{ partial "hist.html" (dict "sig" $s "w" 560 "h" 92 "small" true "aria" (printf "%s 종목별 20거래일 차이 분포" $s.label)) }}
-      <span class="go">종목 {{ $s.measured }}개 결과 보기 →</span>
+      {{ partial "hist.html" (dict "sig" $s "w" 560 "h" 92 "small" true "aria" (printf "%s %s별 20%s 뒤 차이 분포" $s.label $T $D)) }}
+      <span class="go">{{ $s.label }} 뜻과 {{ $T }} {{ $s.measured }}개 결과 보기 →</span>
     </a>
     {{- end }}
   </div>
@@ -40,7 +41,7 @@
   {{- range where site.RegularPages "Section" "posts" }}{{ if hasPrefix (.Params.cell | default "") "signal:" }}{{ $rel = $rel | append . }}{{ end }}{{ end }}
   {{- with $rel }}
   <section class="sec" style="margin-top:1.2rem">
-    <div class="sec-h"><span class="tag">글</span><h2>신호 하나를 깊게 판 글</h2></div>
+    <div class="sec-h"><h2>신호 하나를 깊게 판 글</h2></div>
     <ul class="links">{{ range . }}<li><a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a></li>{{ end }}</ul>
   </section>
   {{- end }}

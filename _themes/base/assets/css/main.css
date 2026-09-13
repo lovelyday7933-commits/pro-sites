@@ -447,7 +447,7 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 
 /* 셀 — 주가 위 신호 자리 */
 .pchart{margin:0}
-.pc-plot{position:relative;height:clamp(240px,34vw,380px);margin:0 3.6rem 1.6rem 0;cursor:crosshair}
+.pc-plot{position:relative;height:clamp(240px,34vw,380px);margin:0 calc(var(--lw,7) * .44rem + .8rem) 1.6rem 0;cursor:crosshair}
 .pc-plot svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
 .pc-plot .g{stroke:var(--grid);stroke-width:1;vector-effect:non-scaling-stroke}
 .pc-plot .area{fill:var(--ink);fill-opacity:.035}
@@ -465,7 +465,7 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 .pkey i{width:9px;height:9px;border-radius:50%;background:var(--na)}
 .pkey i.u{background:var(--up)} .pkey i.d{background:var(--dn)}
 .pchart figcaption{margin:0;font-size:.78rem;color:var(--mute);line-height:1.65}
-@media(max-width:44rem){.pc-plot{margin-right:3.1rem}}
+@media(max-width:44rem){.pc-plot{margin-right:calc(var(--lw,7) * .42rem + .5rem)}}
 
 /* 종목 찾기 창 */
 .pal{width:min(36rem,calc(100vw - 2rem));max-height:min(32rem,80vh);margin:12vh auto 0;padding:0;border:1px solid var(--line);border-radius:16px;

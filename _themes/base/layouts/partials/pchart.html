@@ -1,14 +1,15 @@
-{{/* 주가 위에 신호가 난 자리 — 2026-09-13 3판. 재료 = data/charts/<code>.json (tools/chart.py).
-     인자 dict: chart · key(신호 키) · label(신호 이름) · name(종목 이름)
+{{/* 주가·시세 위에 신호가 난 자리 — 2026-09-13 3판. 재료 = data/charts/<code>.json (tools/chart.py --site).
+     인자 dict: chart · key(신호 키 · 비우면 가격선만 — 허브의 "주가/시세 차트") · label(신호 이름) · name · g(grid)
      ★그리는 법 — SVG 는 가로로 늘어난다(preserveAspectRatio=none). 그래서
        · 선은 vector-effect 로 굵기를 지키고
        · 점은 길이 0 짜리 선분 + 둥근 끝(원으로 그려진다 · 늘어나도 찌그러지지 않는다)
        · 눈금 글자는 SVG 밖 HTML 로 겹친다(SVG 글자는 모바일에서 같이 줄어 안 읽힌다).
-     ⛔가격선은 무채색(맥락) · 점만 빨강/파랑(데이터). 점 색 = 그 뒤 20거래일 **주가 자체**가 올랐나/내렸나.
-       판정 카드의 큰 숫자(아무 날과의 차이)와 다른 값이다 — 범례에 그대로 적는다.
+     ⛔가격선은 무채색(맥락) · 점만 빨강/파랑(데이터). 점 색 = 그 뒤 20거래일(코인 20일) **가격 자체**가 올랐나/내렸나.
+       판정 카드의 큰 숫자(평소와의 차이)와 다른 값이다 — 범례에 그대로 적는다.
      ⛔차트 점 개수 = 셀 숫자. chart.py 가 grid.json 과 대조해 어긋나면 굽기를 멈춘다. */}}
-{{- $c := .chart }}
-{{- $ev := index $c.ev .key | default slice }}
+{{- $c := .chart }}{{ $g := .g }}
+{{- $D := $g.day | default "거래일" }}{{ $P := cond (eq $g.site "coin") "가격" "주가" }}
+{{- $ev := slice }}{{ with .key }}{{ $ev = index $c.ev . | default slice }}{{ end }}
 {{- $n := len $ev }}
 {{- $sw := cond (le $n 150) 8 (cond (le $n 500) 6 4) }}
 {{- $u := "" }}{{ $dn := "" }}{{ $na := "" }}{{ $nu := 0 }}{{ $nd := 0 }}{{ $nn := 0 }}
@@ -20,17 +21,21 @@
   {{- else }}{{ $dn = print $dn $p }}{{ $nd = add $nd 1 }}{{ end }}
 {{- end }}
 {{- $ly := float (index $c.last 1) }}
+{{- /* ⛔코인은 가격표가 9자리+쉼표(105,378,000)라 고정 여백이면 모바일에서 화면 끝에 닿았다(2026-09-13 캡처) — 글자 수로 여백을 준다 */}}
+{{- $lw := len (index $c.last 2) }}{{ range $c.yt }}{{ $lw = math.Max $lw (len (index . 1)) }}{{ end }}
 <figure class="pchart">
-  <div class="pc-plot" data-ev="{{ $ev | jsonify }}" data-label="{{ .label }}">
-    <svg viewBox="0 0 1000 300" preserveAspectRatio="none" role="img" aria-label="{{ .name }} 주가(주간 종가 · 로그 눈금)와 {{ .label }} {{ $n }}회가 난 자리">
+  <div class="pc-plot" style="--lw:{{ $lw }}"{{ if $n }} data-ev="{{ $ev | jsonify }}" data-label="{{ .label }}" data-day="{{ $D }}"{{ end }}>
+    <svg viewBox="0 0 1000 300" preserveAspectRatio="none" role="img" aria-label="{{ .name }} {{ $P }} 차트(주간 종가 · 로그 눈금){{ if $n }}와 {{ .label }} 신호 {{ $n }}번이 뜬 자리{{ end }}">
       <path class="g" d="{{ range $c.yt }}M0 {{ index . 0 }}H1000{{ end }}"/>
       <path class="area" d="{{ $c.line }}L1000,300L0,300Z"/>
       <path class="ln" d="{{ $c.line }}"/>
+      {{- if $n }}
       <path class="ring" style="stroke-width:{{ add $sw 3 }}px" d="{{ $u }}{{ $dn }}{{ $na }}"/>
       <path class="en" style="stroke-width:{{ $sw }}px" d="{{ $na }}"/>
       <path class="ed" style="stroke-width:{{ $sw }}px" d="{{ $dn }}"/>
       <path class="eu" style="stroke-width:{{ $sw }}px" d="{{ $u }}"/>
       <path class="hl" style="stroke-width:{{ add $sw 6 }}px" d=""/>
+      {{- end }}
     </svg>
     {{- range $c.yt }}{{ $y := float (index . 0) }}{{ if gt (math.Abs (sub $y $ly)) 16.0 }}
     <span class="yl" style="top:{{ printf "%.2f" (div $y 3.0) }}%">{{ index . 1 }}</span>{{ end }}{{ end }}
@@ -38,11 +43,14 @@
     <span class="xl" style="left:{{ printf "%.2f" (div (float (index . 0)) 10.0) }}%">{{ index . 1 }}</span>{{ end }}
     <span class="last" style="top:{{ printf "%.2f" (div $ly 3.0) }}%">{{ index $c.last 2 }}</span>
   </div>
+  {{- if $n }}
   <div class="pkey">
-    <span><i class="u"></i>20거래일 뒤 주가가 올라 있었다 {{ $nu }}번</span>
+    {{- /* ⛔"가격가" — 조사를 이름에 붙여 두지 않는다. 받침이 갈리는 두 낱말이라 통째로 고른다 */}}
+    <span><i class="u"></i>20{{ $D }} 뒤 {{ cond (eq $g.site "coin") "가격이" "주가가" }} 올라 있었다 {{ $nu }}번</span>
     <span><i class="d"></i>내려 있었거나 그대로 {{ $nd }}번</span>
-    {{- if $nn }}<span><i></i>아직 20거래일이 안 지났다 {{ $nn }}번</span>{{ end }}
+    {{- if $nn }}<span><i></i>아직 20{{ $D }}이 안 지났다 {{ $nn }}번</span>{{ end }}
   </div>
-  <figcaption>주간 종가 · 로그 눈금 · {{ $c.from }} ~ {{ $c.to }}. 점에 마우스를 올리거나 누르면 그날 종가와 20거래일 뒤 등락이 나옵니다.
-    {{- with index $c.cut .key }} {{ $c.data_from }} ~ {{ $c.from }} 사이는 가격 단위가 이어지지 않아 그리지 않았고, 그 사이 난 신호 {{ . }}번은 점이 없습니다.{{ end }}</figcaption>
+  {{- end }}
+  <figcaption>주간 종가 · 로그 눈금 · {{ $c.from }} ~ {{ $c.to }}{{ if eq $g.site "coin" }} · 원화마켓{{ end }}.{{ if $n }} 점에 마우스를 올리거나 누르면 그날 종가와 20{{ $D }} 뒤 등락이 나옵니다.{{ end }}
+    {{- if $n }}{{ with index $c.cut .key }} {{ $c.data_from }} ~ {{ $c.from }} 사이는 가격 단위가 이어지지 않아 그리지 않았고, 그 사이 난 신호 {{ . }}번은 점이 없습니다.{{ end }}{{ end }}</figcaption>
 </figure>

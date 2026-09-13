@@ -1,9 +1,13 @@
-{{/* /종목/<종목명>/ — 그 종목의 신호 전부. 재료 = data/grid.json, 첫 문단 = grid.py stock_text().
+{{/* /종목/<종목명>/ · /코인/<코인명>/ — 그 종목의 주가·시세 차트와 신호 전부. 재료 = data/grid.json · data/charts, 첫 문단 = grid.py stock_text().
      ⛔2026-09-10 반려판은 작은 상자 8개(이름 · "133회 +2.45%p")가 전부였다 — 무엇의 숫자인지 머리칸이 없었다.
-     ⛔막대 길이는 종목마다 다시 재지 않는다(±6%p 고정). 종목마다 늘리면 0.6%p 가 꽉 찬 막대로 보인다.
-     ⛔제목에 이름을 넣을 때 조사(을/를)를 붙이지 않는다 — 이름마다 받침이 달라 틀린다. */}}
+     ⛔막대 길이는 종목마다 다시 재지 않는다(주식 ±6%p · 코인 ±15%p 고정). 종목마다 늘리면 0.6%p 가 꽉 찬 막대로 보인다.
+     ⛔제목에 이름을 넣을 때 조사(을/를)를 붙이지 않는다 — 이름마다 받침이 달라 틀린다.
+     ★2026-09-13 검색어 — "{종목} 주가" · "{코인} 시세" 가 자동완성 1위. 제목(grid.py)이 그 말로 시작하고,
+       이 페이지는 그 말에 답하는 **가격 차트**를 맨 위에 둔다. 사용자: "너의 판단보다 더 중요한건 대중성". */}}
 {{ define "main" }}
 {{- $g := site.Data.grid }}
+{{- $T := $g.thing | default "종목" }}{{ $SEC := $g.section | default "종목" }}{{ $D := $g.day | default "거래일" }}{{ $KW := $g.kw | default "주가" }}
+{{- $scale := cond (eq $g.site "coin") 15.0 6.0 }}
 {{- $s := index $g.stocks .Params.code }}
 {{- $rows := slice }}
 {{- range $k := $g.order }}{{ with index $s.sig $k }}
@@ -12,47 +16,57 @@
 {{- $rows = sort $rows "e20" "desc" }}
 {{- $top := index $rows 0 }}
 {{- partial "pagehead.html" (dict
-    "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" "/종목/" "label" "종목별 실측") (dict "label" $s.name))
-    "chip" (printf "%s ~ %s 일봉" $s.from $s.to)
+    "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" (printf "/%s/" $SEC) "label" (printf "%s별 실측" $T)) (dict "label" $s.name))
+    "chip" (printf "%s · %s ~ %s 일봉 · 기준일 %s" .Params.code $s.from $s.to $g.as_of)
     "title" .Title "lead" .Description) }}
-{{- partial "kpi.html" (dict "head" (printf "%s 실측 요약" $s.name) "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
-    (dict "v" (len $rows) "u" "가지" "l" "잰 신호" "s" (cond (eq (len $rows) (len $g.order)) "8가지 전부" (printf "%d가지는 발생 20회 미만" (sub (len $g.order) (len $rows)))))
-    (dict "v" (lang.FormatNumber 0 $s.hits) "u" "회" "l" "신호 발생 합계" "s" "조사 구간 전체")
-    (dict "v" (printf "%v / %d" $s.beat20 (len $rows)) "l" "평소보다 나았던 신호" "s" "20거래일 뒤 기준")
+{{- with index site.Data.charts .Params.code }}
+<div class="site">
+  <section class="panel">
+    <div class="panel-h">
+      <div><h2>{{ $s.name }} {{ $KW }} 차트</h2>
+        <p>{{ $s.from }}부터 {{ $s.to }}까지 주간 종가입니다. 신호가 뜬 자리는 아래 신호 이름을 누르면 차트 위에 점으로 볼 수 있습니다.</p></div>
+    </div>
+    {{ partial "pchart.html" (dict "chart" . "key" "" "label" "" "name" $s.name "g" $g) }}
+  </section>
+</div>
+{{- end }}
+{{- partial "kpi.html" (dict "head" (printf "%s 신호 요약" $s.name) "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
+    (dict "v" (len $rows) "u" "가지" "l" "잰 신호" "s" (cond (eq (len $rows) (len $g.order)) (printf "%d가지 전부" (len $g.order)) (printf "%d가지는 신호 20번 미만" (sub (len $g.order) (len $rows)))))
+    (dict "v" (lang.FormatNumber 0 $s.hits) "u" "번" "l" "신호가 뜬 횟수 합계" "s" "조사 기간 전체")
+    (dict "v" (printf "%v / %d" $s.beat20 (len $rows)) "l" "평소보다 나았던 신호" "s" (printf "20%s 뒤 기준" $D))
     (dict "v" (printf "%+.2f" $top.e20) "u" "%p" "cls" (cond (ge $top.e20 0.0) "up" "dn") "l" "가장 나았던 신호" "s" $top.label))) }}
 <div class="site page">
   <section class="sec">
-    <div class="sec-h"><span class="tag">요약</span><h2>{{ $s.name }}에서 신호가 난 뒤</h2></div>
+    <div class="sec-h"><h2>{{ $s.name }}에서 신호가 뜬 뒤</h2></div>
     <div class="txt">{{ .Content }}</div>
   </section>
 
   <section class="sec">
     <div class="sec-h">
-      <span class="tag">신호별 결과</span>
       <h2>{{ $s.name }} 차트 신호 {{ len $rows }}가지</h2>
-      <p>막대는 신호 보고 샀을 때가 평소보다 20거래일 뒤 나았는지(오른쪽·빨강) 못했는지(왼쪽·파랑)입니다. 끝까지 차면 ±6%p 입니다.</p>
+      <p>막대는 신호 보고 샀을 때가 평소보다 20{{ $D }} 뒤 나았는지(오른쪽·빨강) 못했는지(왼쪽·파랑)입니다. 끝까지 차면 ±{{ $scale }}%p 입니다. 신호 이름을 누르면 {{ $KW }} 차트 위에 그 신호가 뜬 자리가 나옵니다.</p>
     </div>
     <div class="tw">
       <table class="dt">
-        <thead><tr><th>신호</th><th>발생</th><th>20거래일 뒤 차이</th><th>60거래일 뒤 차이</th><th>같은 신호를 잰 종목 중</th><th></th></tr></thead>
+        <thead><tr><th>신호</th><th>뜬 횟수</th><th>20{{ $D }} 뒤 평소와 차이</th><th>60{{ $D }} 뒤</th><th>같은 신호를 잰 {{ $T }} 중</th><th></th></tr></thead>
         <tbody>
           {{- range $rows }}
           {{- $c20 := cond (ge .e20 0.0) "up" "dn" }}
-          {{- $w := math.Min 50.0 (mul (div (math.Abs .e20) 6.0) 50.0) }}
+          {{- $w := math.Min 50.0 (mul (div (math.Abs .e20) $scale) 50.0) }}
           <tr>
             <td>{{ if .url }}<a href="{{ .url }}">{{ .label }}</a>{{ else }}{{ .label }}{{ end }}</td>
-            <td>{{ .n }}회</td>
+            <td>{{ .n }}번</td>
             <td class="v {{ $c20 }}"><span class="bar"><i class="{{ $c20 }}" style="--w:{{ printf "%.1f" $w }}%"></i></span>{{ printf "%+.2f" .e20 }}%p</td>
             <td class="{{ cond (ge .e60 0.0) "up" "dn" }}">{{ printf "%+.2f" .e60 }}%p</td>
             <td>{{ if ge .pct 50 }}상위 {{ sub 101 .pct }}%{{ else }}하위 {{ .pct }}%{{ end }} <span class="mut">/ {{ .total }}개</span></td>
-            <td>{{ if .url }}<a class="go" href="{{ .url }}">자세히</a>{{ else }}<span class="mut">표본 부족</span>{{ end }}</td>
+            <td>{{ if .url }}<a class="go" href="{{ .url }}">자세히</a>{{ else }}<span class="mut">신호 부족</span>{{ end }}</td>
           </tr>
           {{- end }}
         </tbody>
       </table>
     </div>
     {{- range $rows }}{{ if .why }}<p class="note">{{ .label }} — {{ .why }}.</p>{{ end }}{{ end }}
-    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 순위는 같은 신호를 잰 종목들 사이의 자리이고, 모든 수치는 지나간 구간의 결과입니다.</p>
+    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 순위는 같은 신호를 잰 {{ $T }}들 사이의 자리이고, 모두 지나간 기간의 결과입니다.</p>
   </section>
 
   {{- $code := .Params.code }}
@@ -63,14 +77,14 @@
   {{- end }}
   {{- with $rel }}
   <section class="sec">
-    <div class="sec-h"><span class="tag">글</span><h2>{{ $s.name }} 관련 글</h2></div>
+    <div class="sec-h"><h2>{{ $s.name }} 관련 글</h2></div>
     <ul class="links">{{ range . }}<li><a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a></li>{{ end }}</ul>
   </section>
   {{- end }}
 
-  <nav class="pager" aria-label="앞뒤 종목">
-    {{- with $s.prev }}{{ $p := index $g.stocks . }}<a class="prev" href="{{ $p.url }}"><span>앞 종목</span><b>{{ $p.name }}</b></a>{{ end }}
-    {{- with $s.next }}{{ $n := index $g.stocks . }}<a class="next" href="{{ $n.url }}"><span>다음 종목</span><b>{{ $n.name }}</b></a>{{ end }}
+  <nav class="pager" aria-label="앞뒤 {{ $T }}">
+    {{- with $s.prev }}{{ $p := index $g.stocks . }}<a class="prev" href="{{ $p.url }}"><span>앞 {{ $T }}</span><b>{{ $p.name }}</b></a>{{ end }}
+    {{- with $s.next }}{{ $n := index $g.stocks . }}<a class="next" href="{{ $n.url }}"><span>다음 {{ $T }}</span><b>{{ $n.name }}</b></a>{{ end }}
   </nav>
 </div>
 {{ end }}

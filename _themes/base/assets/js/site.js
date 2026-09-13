@@ -51,13 +51,14 @@
     var list = pal.querySelector('ul');
     var sel = 0;
     var isJamo = /^[ㄱ-ㅎ]+$/;
+    var thing = pal.getAttribute('data-thing') || '종목';     // 주식 = 종목 · 코인 = 코인
 
     function render() {
       data().then(function (j) {
         var q = input.value.trim().toLowerCase();
         var rows = [];
         if (!q) {
-          j.signals.forEach(function (s) { rows.push({ t: s.n, s: '신호 · 종목 ' + s.m + '개', u: s.u }); });
+          j.signals.forEach(function (s) { rows.push({ t: s.n, s: '신호 · ' + thing + ' ' + s.m + '개', u: s.u }); });
         } else {
           var hit = [];
           j.stocks.forEach(function (o) {
@@ -65,12 +66,12 @@
             if (o.l.indexOf(q) === 0) score = 0;
             else if (o.l.indexOf(q) > 0) score = 1;
             else if (isJamo.test(q) && o.h.indexOf(q) > -1) score = 2;
-            else if (o.c.indexOf(q) === 0) score = 3;
+            else if (o.c.toLowerCase().indexOf(q) === 0) score = 3;     // 코인은 btc·xrp 로 찾는 사람이 많다
             if (score > -1) hit.push([score, o]);
           });
           hit.sort(function (a, b) { return a[0] - b[0] || a[1].n.length - b[1].n.length || (a[1].n < b[1].n ? -1 : 1); });
           j.signals.forEach(function (s) {
-            if (s.n.toLowerCase().indexOf(q) > -1) rows.push({ t: s.n, s: '신호 · 종목 ' + s.m + '개', u: s.u });
+            if (s.n.toLowerCase().indexOf(q) > -1) rows.push({ t: s.n, s: '신호 · ' + thing + ' ' + s.m + '개', u: s.u });
           });
           hit.slice(0, 30).forEach(function (h) {
             rows.push({ t: h[1].n, s: h[1].c + ' · 신호 ' + h[1].k + '가지', u: h[1].u });
@@ -78,7 +79,8 @@
         }
         list.textContent = '';
         if (!rows.length) {
-          list.appendChild(el('li', 'empty', '"' + input.value.trim() + '" 에 맞는 종목이 없습니다. 지금은 393개 종목을 잽니다.'));
+          list.appendChild(el('li', 'empty', '"' + input.value.trim() + '" 에 맞는 ' + thing + '이 없습니다. 지금은 ' +
+            j.stocks.length + '개 ' + thing + '을 잽니다.'));
           return;
         }
         sel = Math.min(sel, rows.length - 1);
@@ -193,7 +195,7 @@
         tip.appendChild(el('b', p[3] > 0 ? 'up' : p[3] < 0 ? 'dn' : '', sgn(p[3], 2, '%p')));
         tip.appendChild(el('div', '', (o ? o.n : p[2]) + ' · ' + label));
         tip.appendChild(el('div', '', (p[3] > 0 ? '평소보다 나았다' : p[3] < 0 ? '평소보다 못했다' : '평소와 같았다') +
-          (p[4] ? ' · 누르면 자세히' : ' · 누르면 종목 전체')));
+          (p[4] ? ' · 누르면 자세히' : ' · 누르면 ' + (box.getAttribute('data-thing') || '종목') + ' 전체')));
       },
       go: function (p) {
         var o = names && names[p[2]];
@@ -207,14 +209,15 @@
   d.querySelectorAll('.pc-plot[data-ev]').forEach(function (box) {
     var pts = JSON.parse(box.getAttribute('data-ev'));
     var label = box.getAttribute('data-label');
+    var day = box.getAttribute('data-day') || '거래일';          // 코인은 "일"
     hover(box, {
       pts: pts, W: 1000, H: 300, max: 26,
       fill: function (tip, p) {
         var ds = p[3].slice(0, 4) + '.' + p[3].slice(4, 6) + '.' + p[3].slice(6, 8);
-        if (p[2] == null) tip.appendChild(el('b', '', '20거래일이 아직 안 지남'));
-        else tip.appendChild(el('b', p[2] > 0 ? 'up' : p[2] < 0 ? 'dn' : '', '20거래일 뒤 ' + sgn(p[2], 1, '%')));
-        tip.appendChild(el('div', '', ds + ' ' + label));
-        tip.appendChild(el('div', '', '그날 종가 ' + p[4].toLocaleString('ko-KR') + '원'));
+        if (p[2] == null) tip.appendChild(el('b', '', '20' + day + '이 아직 안 지남'));
+        else tip.appendChild(el('b', p[2] > 0 ? 'up' : p[2] < 0 ? 'dn' : '', '20' + day + ' 뒤 ' + sgn(p[2], 1, '%')));
+        tip.appendChild(el('div', '', ds + ' ' + label + ' 신호'));
+        tip.appendChild(el('div', '', '그날 종가 ' + p[4].toLocaleString('ko-KR', { maximumFractionDigits: 4 }) + '원'));
       }
     });
   });

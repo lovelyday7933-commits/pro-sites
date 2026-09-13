@@ -1,0 +1,35 @@
+{
+ "cell": "476060:volume_spike",
+ "figures": [
+  {
+   "file": "476060-volume_spike-chart.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\476060-volume_spike-chart.svg",
+   "caption": "온코닉테라퓨틱스 거래량 급증 발생 자리. 기간 2025.03.12~2026.09.08. 세로축 = 주가(원), 아래 = 거래량(주). 표본 28회(전체 기간 2024.12.19~2026.09.08). 판정 = 그날 거래량이 직전 20거래일 평균 거래량의 3배 이상인 날. 당일 마감 뒤 판정."
+  },
+  {
+   "file": "476060-volume_spike-compare20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\476060-volume_spike-compare20.svg",
+   "caption": "온코닉테라퓨틱스 거래량 급증 신호 뒤 20거래일 수익률 중앙값을, 평소(신호와 상관없이 그 기간 모든 날에 사서 20일 뒤 판 경우)와 나란히 놓은 것. 단위 = %. 표본 = 신호 26회 / 평소 378회. 기간 2024.12.19~2026.09.08. 판정 = 그날 거래량이 직전 20거래일 평균 거래량의 3배 이상인 날. 당일 마감 뒤 판정."
+  },
+  {
+   "file": "476060-volume_spike-compare60.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\476060-volume_spike-compare60.svg",
+   "caption": "온코닉테라퓨틱스 거래량 급증 신호 뒤 60거래일 수익률 중앙값을, 평소(신호와 상관없이 그 기간 모든 날에 사서 60일 뒤 판 경우)와 나란히 놓은 것. 단위 = %. 표본 = 신호 24회 / 평소 338회. 기간 2024.12.19~2026.09.08. 판정 = 그날 거래량이 직전 20거래일 평균 거래량의 3배 이상인 날. 당일 마감 뒤 판정."
+  },
+  {
+   "file": "476060-volume_spike-spread20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\476060-volume_spike-spread20.svg",
+   "caption": "온코닉테라퓨틱스 거래량 급증 신호 뒤 20거래일 수익률이 흩어진 폭. 가로 = %, 굵은 구간 = 하위 25%~상위 25%, 세로선 = 중앙값. 표본 = 신호 26회 / 평소 378회. 기간 2024.12.19~2026.09.08. 판정 = 그날 거래량이 직전 20거래일 평균 거래량의 3배 이상인 날. 당일 마감 뒤 판정."
+  },
+  {
+   "file": "476060-volume_spike-spread60.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\476060-volume_spike-spread60.svg",
+   "caption": "온코닉테라퓨틱스 거래량 급증 신호 뒤 60거래일 수익률이 흩어진 폭. 가로 = %, 굵은 구간 = 하위 25%~상위 25%, 세로선 = 중앙값. 표본 = 신호 24회 / 평소 338회. 기간 2024.12.19~2026.09.08. 판정 = 그날 거래량이 직전 20거래일 평균 거래량의 3배 이상인 날. 당일 마감 뒤 판정."
+  },
+  {
+   "file": "476060-volume_spike-worst20.svg",
+   "path": "C:\\WORK\\ULTRATHINK\\projects\\144. 자동화 홈페이지\\sites\\stock\\static\\fig\\476060-volume_spike-worst20.svg",
+   "caption": "온코닉테라퓨틱스 거래량 급증 가운데 결과가 가장 나빴던 한 번. 신호일 2025.03.31, 뒤 20거래일 수익률 -18.68%. 기간 2024.12.19~2025.08.11. 세로축 = 주가(원), 아래 = 거래량(주). 표본 28회 중 1건. 판정 = 그날 거래량이 직전 20거래일 평균 거래량의 3배 이상인 날. 당일 마감 뒤 판정."
+  }
+ ]
+}

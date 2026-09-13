@@ -27,8 +27,11 @@ summaryLength = 40
   # 네이버 서치어드바이저 소유확인 — ⛔지우면 확인이 풀린다
   naverVerification = "40163bcae369c64bde528d2742b299412ee47c64"
   site = "coin"
+  # ★2026-09-13 코인 격자 — 주식과 같은 구조. 검색어(자동완성 1위 "{코인} 시세")를 제목·설명 앞에 둔다.
+  headline = "코인 시세 차트 신호 실측"
+  tagline = "코인 시세 차트 신호 실측"
   # ⚠️2026-09-09 까지 빈 문자열이었다 = 홈·목록에 meta description 이 아예 없었다.
-  description = "코인 시장에서 값이 움직이는 구조를 하나씩 확인합니다. 체결과 원장, 수수료와 발행량, 수급과 지표처럼 가격 예측이 아니라 그 뒤에서 실제로 무엇이 돌아가는지를 다룹니다."
+  description = "비트코인·리플·솔라나 시세 차트에서 골든크로스·RSI·볼린저밴드 같은 신호가 뜬 뒤 실제로 어땠는지, 380여 개 코인의 원화마켓 일봉으로 확인합니다. 가격을 예측하지 않고, 지나간 기록을 숫자로 보여 드립니다."
   # 책 신청 창구 — 사용자 지급 2026-09-08. 사이트마다 다른 양식이라
   # 이 링크 하나로 주식/코인 세그먼트가 갈린다.
   ctaURL = "https://proreport.co.kr/f/c6b7o13b"
@@ -42,6 +45,40 @@ summaryLength = 40
   [params.defaultCTA]
     book = "경제지표의 기본기"
     note = "금리·환율·유동성이 위험자산에 닿는 경로를 순서대로 정리했습니다."
+
+# ⛔위 [params.defaultCTA] 표 아래에 params 값을 쓰면 defaultCTA 안으로 들어간다 — 표 이름으로 다시 연다.
+[params.home]
+  # 홈 찾기 칸 아래 바로가기 — 코인 코드. grid.json 에 없는 코드는 템플릿이 건너뛴다.
+  quick = ["BTC", "XRP", "ETH", "SOL", "DOGE"]
+
+# /search.json — 코인 찾기 창·홈 점그림 풀이(layouts/index.search.json). 배포 파일 +1.
+[outputFormats.search]
+  mediaType = "application/json"
+  baseName = "search"
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ["html", "rss", "search"]
+
+# ★2026-09-13 헤더 메뉴 — 주식과 같이 이름으로 못박는다. 전에는 카테고리(리플·비트코인…)가 자동으로 메뉴가 됐다.
+#   카테고리는 /categories/ 에서 닿는다(푸터 "주제별"). identifier = 섹션 이름.
+[menus]
+  [[menus.main]]
+    identifier = "코인"
+    name = "코인별 실측"
+    url = "/코인/"
+    weight = 10
+  [[menus.main]]
+    identifier = "신호"
+    name = "신호별 실측"
+    url = "/신호/"
+    weight = 20
+  [[menus.main]]
+    identifier = "posts"
+    name = "글"
+    url = "/posts/"
+    weight = 30
 
 [taxonomies]
   category = "categories"

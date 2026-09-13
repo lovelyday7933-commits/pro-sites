@@ -1,18 +1,19 @@
-{{/* 격자 셀 — /종목/<종목명>/<신호명>/  본문 = cell.py 가 조립(⛔codex 아님). 요약·분포·이웃 = grid.json.
+{{/* 격자 셀 — /종목/<종목명>/<신호명>/ · /코인/<코인명>/<신호명>/  본문 = cell.py 가 조립(⛔codex 아님). 요약·분포·이웃 = grid.json.
      ⛔`_default/single.html` 을 쓰면 안 된다. 그쪽은 글 전용이라 발행일·읽는 시간이 붙고,
        "이어서 볼 글"이 posts 섹션만 본다(격자는 거기 없다).
      ★셀은 **두 방향**으로 올라간다 — 종목 허브와 신호 허브. 그게 고아를 없앤다(설계안 §4).
-     ★옆으로도 간다 — 같은 종목 다른 신호(옆 A) · 같은 신호에서 값이 이웃한 종목(옆 B · 설계안 §4 "~6"). */}}
+     ★옆으로도 간다 — 같은 종목 다른 신호(옆 A) · 같은 신호에서 값이 이웃한 종목(옆 B · 설계안 §4 "~6").
+     ★2026-09-13 주식·코인 공용 — "종목/코인 · 거래일/일"은 grid.json 의 thing·day·section 이 정한다. */}}
 {{ define "main" }}
 {{- $g := site.Data.grid }}
+{{- $T := $g.thing | default "종목" }}{{ $SEC := $g.section | default "종목" }}{{ $D := $g.day | default "거래일" }}
 {{- $code := .Params.code }}{{ $key := .Params.signal_key }}
 {{- $st := index $g.stocks $code }}{{ $sg := index $g.signals $key }}
 {{- $e := index $st.sig $key }}
-{{- $e20 := float $e.e20 }}{{ $e60 := float $e.e60 }}
 {{- /* ★2026-09-13 3판 — 네모 4칸을 걷어내고 제목 오른쪽 판정 카드 + 주가 위 신호 자리 차트.
      사용자: "html 자유도가 어마어마한데 너무 구시대적 디자인". 숫자가 어디서 났는지를 그림으로 보인다. */}}
 {{- partial "pagehead.html" (dict
-    "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" "/종목/" "label" "종목별 실측") (dict "url" $st.url "label" $st.name) (dict "label" $sg.label))
+    "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" (printf "/%s/" $SEC) "label" (printf "%s별 실측" $T)) (dict "url" $st.url "label" $st.name) (dict "label" $sg.label))
     "chip" (printf "%s · %s ~ %s 일봉 · 기준일 %s" $code $st.from $st.to $g.as_of)
     "title" .Title "lead" .Description
     "aside" (partial "verdict.html" (dict "st" $st "sg" $sg "e" $e "g" $g))) }}
@@ -20,10 +21,10 @@
 <div class="site">
   <section class="panel">
     <div class="panel-h">
-      <div><h2>{{ $st.name }} {{ $sg.label }} {{ $e.n }}번, 언제 났고 그 뒤 어땠나</h2>
+      <div><h2>{{ $st.name }} {{ $sg.label }} {{ $e.n }}번, 언제 떴고 그 뒤 어땠나</h2>
         <p>점 하나가 신호 한 번입니다. 판정 기준 — {{ $sg.rule }}</p></div>
     </div>
-    {{ partial "pchart.html" (dict "chart" . "key" $key "label" $sg.label "name" $st.name) }}
+    {{ partial "pchart.html" (dict "chart" . "key" $key "label" $sg.label "name" $st.name "g" $g) }}
   </section>
 </div>
 {{- end }}
@@ -49,7 +50,7 @@
     <ul class="links">
       {{- range $k := $g.order }}{{ if ne $k $key }}{{ with index $st.sig $k }}
       {{- $lab := (index $g.signals $k).label }}
-      <li>{{ if .url }}<a href="{{ .url }}"><span>{{ $lab }}</span><span class="v {{ cond (ge (float .e20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float .e20) }}%p</span></a>{{ else }}<span class="x"><span>{{ $lab }}</span><span class="v">표본 부족</span></span>{{ end }}</li>
+      <li>{{ if .url }}<a href="{{ .url }}"><span>{{ $lab }}</span><span class="v {{ cond (ge (float .e20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float .e20) }}%p</span></a>{{ else }}<span class="x"><span>{{ $lab }}</span><span class="v">신호 부족</span></span>{{ end }}</li>
       {{- end }}{{ end }}{{ end }}
     </ul>
   </section>
@@ -58,7 +59,7 @@
   {{- $start := int (math.Max 0 (sub (int $e.pos) 3)) }}
   {{- $near := first 7 (after $start $sg.rows) }}
   <section class="rel">
-    <h2>{{ $sg.label }}에서 값이 가까운 종목</h2>
+    <h2>{{ $sg.label }} 신호에서 값이 가까운 {{ $T }}</h2>
     <ul class="links">
       {{- range $near }}{{ if ne .code $code }}
       <li><a href="{{ with .url }}{{ . }}{{ else }}{{ (index $g.stocks .code).url }}{{ end }}"><span>{{ .name }}</span><span class="v {{ cond (ge (float .e20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float .e20) }}%p</span></a></li>
@@ -69,9 +70,9 @@
   <section class="rel">
     <h2>더 넓게 보기</h2>
     <ul class="links">
-      <li><a href="{{ $st.url }}"><span>{{ $st.name }} 신호 전체</span><span class="v">{{ len $st.sig }}가지</span></a></li>
-      <li><a href="{{ $sg.url }}"><span>{{ $sg.label }} 종목 전체</span><span class="v">{{ $sg.measured }}개</span></a></li>
-      <li><a href="/종목/"><span>종목별 실측</span><span class="v">{{ $g.n_stocks }}개</span></a></li>
+      <li><a href="{{ $st.url }}"><span>{{ $st.name }} {{ $g.kw | default "주가" }} 차트와 신호 전체</span><span class="v">{{ len $st.sig }}가지</span></a></li>
+      <li><a href="{{ $sg.url }}"><span>{{ $sg.label }} 뜻과 {{ $T }} 전체</span><span class="v">{{ $sg.measured }}개</span></a></li>
+      <li><a href="/{{ $SEC }}/"><span>{{ $T }}별 실측</span><span class="v">{{ $g.n_stocks }}개</span></a></li>
       <li><a href="/신호/"><span>신호별 실측</span><span class="v">{{ $g.n_signals }}가지</span></a></li>
     </ul>
   </section>
