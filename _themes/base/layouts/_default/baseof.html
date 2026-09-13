@@ -43,5 +43,10 @@
   {{- end }}
   {{- $js := resources.Get "js/site.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
+  {{- /* ★2026-09-13 방문 기록 — 체류·스크롤·신청 안내 봄/누름 → /admin/c (ops/admin-worker). 쿠키·IP 없음. 404 는 뺀다. */}}
+  {{- if ne .Kind "404" }}
+  {{- $tr := resources.Get "js/track.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $tr.RelPermalink }}" defer></script>
+  {{- end }}
 </body>
 </html>
