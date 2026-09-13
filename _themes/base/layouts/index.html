@@ -1,48 +1,112 @@
 {{/* 홈. ★2026-09-11 — 격자로 내려가는 길을 홈에서 연다.
      쿠키 9:04: "메인에서부터 … 기준이 있으니까 인덱스로 마인드맵마냥 구조화" — 홈 → 신호 8 / 종목 393 → 셀.
-     전에는 홈에 글 카드만 있었고 격자는 헤더 글자 두 개로만 닿았다.
+     ★2026-09-13 3판 — 첫 화면에 **실측 전체를 점으로** 깐다. 점 하나 = 종목 하나(신호 8줄 · 2,650점).
+       사용자: "html 자유도가 어마어마한데 너무 구시대적 디자인". 09-11 판 홈은 "우리가 몇 개 쟀다"는 네모 4칸이 첫 화면이었다.
+       점은 누르면 그 종목의 그 신호 페이지로 간다 — 홈에서 셀까지 한 번에 내려간다.
      ⛔grid.json 이 없는 사이트(코인)는 격자 절을 통째로 건너뛴다. */}}
 {{ define "main" }}
 {{- $g := site.Data.grid }}
-{{- $acts := slice }}
-{{- if $g }}{{ $acts = $acts | append (dict "url" "/종목/" "label" "종목별 실측 보기" "cls" "btn-light") (dict "url" "/신호/" "label" "신호별 실측 보기" "cls" "btn-ghost") }}{{ end }}
-{{- partial "pagehead.html" (dict
-    "chip" (cond (ne $g nil) (printf "종목 %d개 · 신호 %d가지 · %s~%s 일봉" (int ($g.n_stocks | default 0)) (int ($g.n_signals | default 0)) (substr ($g.period_from | default "") 0 4) (substr ($g.period_to | default "") 0 4)) "")
-    "title" (site.Params.headline | default site.Title)
-    "lead" site.Params.description
-    "find" (cond (ne $g nil) "/종목/" "")
-    "flat" (not $g)) }}
-{{- with $g }}
-{{- partial "kpi.html" (dict "head" "실측 범위" "sub" (printf "기준일 %s" .as_of) "tiles" (slice
-    (dict "v" (lang.FormatNumber 0 .n_stocks) "u" "개" "l" "종목" "s" "일봉 전 구간")
-    (dict "v" (int .n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·가격·거래량·수급")
-    (dict "v" (lang.FormatNumber 0 .n_pages) "u" "장" "l" "종목별 신호 실측 페이지" "s" (printf "종목×신호 %s개 가운데" (lang.FormatNumber 0 .n_measured)))
-    (dict "v" (printf "%s~%s" (substr .period_from 0 4) (substr .period_to 0 4)) "l" "조사 기간" "s" "종목마다 상장일부터"))) }}
-{{- end }}
+<section class="hero">
+  <div class="site">
+    {{- with $g }}
+    <p class="eyebrow">종목 {{ .n_stocks }}개 · 차트 신호 {{ .n_signals }}가지 · {{ substr .period_from 0 4 }}~{{ substr .period_to 0 4 }} 일봉 · 기준일 {{ .as_of }}</p>
+    {{- end }}
+    <div class="hero-g">
+      <div>
+        <h1>{{ site.Params.headline | default site.Title }}</h1>
+        {{- with site.Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+      </div>
+      {{- with $g }}
+      <div class="hero-find">
+        <form action="/종목/" method="get" role="search">
+          <input type="search" name="q" placeholder="종목 이름으로 찾기 (예: 삼성전자)" autocomplete="off" aria-label="종목 이름으로 찾기" data-pal-input>
+        </form>
+        <div class="quick"><span>바로 보기</span>
+          {{- range site.Params.home.quick }}{{ with index $g.stocks . }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}{{ end }}
+        </div>
+      </div>
+      {{- end }}
+    </div>
+    {{- with $g }}
+    <div class="facts">
+      <div><b>{{ lang.FormatNumber 0 .n_stocks }}<small>개</small></b><span>잰 종목 · 일봉 전 구간</span></div>
+      <div><b>{{ .n_signals }}<small>가지</small></b><span>차트 신호 · 이동평균·가격·거래량·수급</span></div>
+      <div><b>{{ lang.FormatNumber 0 .n_pages }}<small>장</small></b><span>종목별 신호 실측 페이지</span></div>
+      <div><b>{{ substr .period_from 0 4 }}–{{ substr .period_to 0 4 }}</b><span>조사 기간 · 종목마다 상장일부터</span></div>
+    </div>
+    {{- end }}
+  </div>
+</section>
+
 <div class="site page">
   {{- with $g }}
-  <section class="sec">
-    <div class="sec-h"><span class="tag">신호별로 보기</span><h2>차트 신호 {{ .n_signals }}가지</h2>
-      <p>신호를 누르면 그 신호를 잰 종목 전부의 결과가 나옵니다. 숫자는 종목별 20거래일 차이의 중앙값입니다.</p></div>
-    <ul class="tiles">
-      {{- range .order }}{{ $s := index $g.signals . }}
-      <li><a href="{{ $s.url }}"><b>{{ $s.label }}</b><span>잰 종목 {{ $s.measured }}개</span>
-        <span class="v {{ cond (ge (float $s.med20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float $s.med20) }}%p</span></a></li>
-      {{- end }}
-    </ul>
+  {{- /* 줄 순서 = 아무 날보다 높았던 종목 비율이 큰 신호부터. 가로축 = 20거래일 중앙값 차이(±8%p 에서 자른다 · 풀이에는 원래 값). */}}
+  {{- $rows := slice }}
+  {{- range .order }}{{ $s := index $g.signals . }}{{ $rows = $rows | append (dict "s" $s "rate" (float $s.beat20_rate)) }}{{ end }}
+  {{- $rows = sort $rows "rate" "desc" }}
+  {{- $H := 60.0 }}{{ $lim := 8.0 }}
+  <section class="panel strips" aria-labelledby="strips-h">
+    <div class="panel-h">
+      <div>
+        {{- /* ⛔2026-09-13 사용자: *"'아무 날보다 높았나' 라는 말이 너무 어색함 … 인간의 말투로 다듬어야 해"*
+             ⛔"정말 올랐나"로 줄이지 않는다 — 점은 주가 등락이 아니라 아무 날에나 산 경우와의 차이다. 둘 다 떨어져도 덜 떨어졌으면 빨강. */}}
+        <h2 id="strips-h">신호 보고 샀으면, 평소보다 정말 나았을까?</h2>
+        <p>차트 신호 {{ .n_signals }}가지 · 종목 {{ .n_stocks }}개. 점 하나가 종목 하나입니다. 신호 보고 샀을 때가 평소보다 20거래일 뒤 나았으면 오른쪽(빨강), 못했으면 왼쪽(파랑)에 찍었습니다. 굵은 세로선은 종목들의 중앙값입니다.</p>
+      </div>
+      <div class="scale" aria-hidden="true">평소보다 못했다<i></i>나았다</div>
+    </div>
+    {{- range $rows }}{{ $s := .s }}
+    {{- $d3 := "" }}{{ $d2 := "" }}{{ $d1 := "" }}{{ $z := "" }}{{ $u1 := "" }}{{ $u2 := "" }}{{ $u3 := "" }}
+    {{- /* ⛔`$pts | append (slice (slice …))` 는 빈 slice 에서 "cannot append slice of []interface {}" 로 죽는다(2026-09-13 빌드).
+         풀이용 좌표는 JSON 문자열로 직접 잇는다 — 코드는 숫자 6자리라 따옴표 탈출이 필요 없다. */}}
+    {{- $pts := "" }}
+    {{- range $i, $r := $s.rows }}
+      {{- $v := float $r.e20 }}
+      {{- $x := math.Round (mul (div (add (math.Max (math.Min $v $lim) (mul -1.0 $lim)) $lim) (mul 2.0 $lim)) 10000.0) }}
+      {{- $x = div $x 10.0 }}
+      {{- /* ⛔세로 흩뿌림을 줄 번호(i)로 만들면 값 순서와 같이 움직여 빗금 무늬가 난다(2026-09-13 캡처). 종목 코드 해시로 준다. */}}
+      {{- $y := div (math.Round (mul (add 7.0 (mul (div (float (mod (hash.FNV32a $r.code) 1000)) 999.0) (sub $H 14.0))) 10.0)) 10.0 }}
+      {{- $p := printf "M%v %vh0" $x $y }}
+      {{- if le $v -6.0 }}{{ $d3 = print $d3 $p }}{{ else if le $v -3.0 }}{{ $d2 = print $d2 $p }}{{ else if le $v -1.0 }}{{ $d1 = print $d1 $p }}
+      {{- else if lt $v 1.0 }}{{ $z = print $z $p }}{{ else if lt $v 3.0 }}{{ $u1 = print $u1 $p }}{{ else if lt $v 6.0 }}{{ $u2 = print $u2 $p }}{{ else }}{{ $u3 = print $u3 $p }}{{ end }}
+      {{- $hp := 0 }}{{ if $r.url }}{{ $hp = 1 }}{{ end }}
+      {{- $pts = printf "%s%s[%v,%v,\"%s\",%v,%d]" $pts (cond (eq $i 0) "" ",") $x $y $r.code $v $hp }}
+    {{- end }}
+    {{- $mx := mul (div (add (math.Max (math.Min (float $s.med20) $lim) (mul -1.0 $lim)) $lim) (mul 2.0 $lim)) 1000.0 }}
+    <div class="srow">
+      <a class="nm" href="{{ $s.url }}"><b>{{ $s.label }}</b><span>종목 {{ $s.measured }}개</span></a>
+      <div class="splot" data-pts="[{{ $pts }}]" data-slug="{{ path.Base $s.url }}" data-label="{{ $s.label }}" data-h="{{ $H }}">
+        <svg viewBox="0 0 1000 {{ $H }}" preserveAspectRatio="none" role="img" aria-label="{{ $s.label }} — 종목 {{ $s.measured }}개 중 {{ $s.beat20 }}개에서 평소보다 나았다. 중앙값 {{ printf "%+.2f" (float $s.med20) }}%p">
+          <path class="zl" d="M500 0V{{ $H }}"/>
+          <path class="dt3" d="{{ $d3 }}"/><path class="dt2" d="{{ $d2 }}"/><path class="dt1" d="{{ $d1 }}"/><path class="dz" d="{{ $z }}"/>
+          <path class="du1" d="{{ $u1 }}"/><path class="du2" d="{{ $u2 }}"/><path class="du3" d="{{ $u3 }}"/>
+          <path class="ml" d="M{{ printf "%.1f" $mx }} 2V{{ sub $H 2.0 }}"/>
+          <path class="hl" d=""/>
+        </svg>
+      </div>
+      <div class="st"><b>{{ printf "%.1f" (float $s.beat20_rate) }}%</b><span>평소보다 나았던 종목</span></div>
+    </div>
+    {{- end }}
+    <div class="saxis" aria-hidden="true">
+      <div></div>
+      <div>{{ range slice -8 -6 -3 0 3 6 8 }}<span style="left:{{ mul (div (add (float .) 8.0) 16.0) 100.0 }}%">{{ if eq . -8 }}≤−8{{ else if eq . 8 }}≥+8{{ else if gt . 0 }}+{{ . }}{{ else if lt . 0 }}−{{ math.Abs . }}{{ else }}0{{ end }}</span>{{ end }}</div>
+      <div></div>
+    </div>
+    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 단위 %p · 20거래일 수익률 중앙값끼리 뺀 값입니다. 종목마다 그 종목의 기간으로 따로 쟀고, 모두 지나간 기간의 결과입니다.</p>
   </section>
+
   <section class="sec">
-    <div class="sec-h"><span class="tag">종목별로 보기</span><h2>종목 {{ .n_stocks }}개, 첫 글자로 찾기</h2>
-      <p>글자를 누르면 종목 결과표의 그 자리로 갑니다.</p></div>
+    <div class="sec-h"><h2>종목 {{ .n_stocks }}개, 첫 글자로 찾기</h2>
+      <p>글자를 누르면 종목 결과표의 그 자리로 갑니다. 결과표는 종목마다 신호 8가지를 한 줄로 보여 줍니다.</p></div>
     <nav class="jump">{{ range .groups }}<a href="/종목/#g-{{ .label }}">{{ .label }}</a>{{ end }}</nav>
-    <a class="btn btn-primary" href="/종목/">종목 결과표 전체 보기</a>
+    <p style="margin:1.2rem 0 0;display:flex;flex-wrap:wrap;gap:.5rem"><a class="btn btn-light" href="/종목/">종목 결과표 전체</a><a class="btn btn-ghost" href="/신호/">신호별 실측</a></p>
   </section>
   {{- end }}
 
   {{- $posts := where site.RegularPages "Section" "posts" }}
   {{- with $posts }}
   <section class="sec">
-    <div class="sec-h"><span class="tag">글</span><h2>최근 글</h2></div>
+    <div class="sec-h"><h2>최근 글</h2></div>
     <ul class="cards">
       {{- range first 12 . }}
       <li>
@@ -52,7 +116,7 @@
       </li>
       {{- end }}
     </ul>
-    {{- with site.GetPage "/posts" }}<p style="margin:1.2rem 0 0"><a class="btn btn-primary" href="{{ .RelPermalink }}">전체 글 보기</a></p>{{ end }}
+    {{- with site.GetPage "/posts" }}<p style="margin:1.4rem 0 0"><a class="btn btn-ghost" href="{{ .RelPermalink }}">전체 글 보기</a></p>{{ end }}
   </section>
   {{- end }}
 </div>

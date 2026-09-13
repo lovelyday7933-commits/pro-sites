@@ -11,12 +11,12 @@
 <text x="351.5" y="118" font-size="10.5" text-anchor="middle" fill="#667085">-17.5</text>
 <text x="569.6" y="118" font-size="10.5" text-anchor="middle" fill="#667085">+58.7</text>
 <text x="405.8" y="75" font-size="11" font-weight="700" text-anchor="middle" fill="#1F2937">+1.45%</text>
-<text x="106" y="159" font-size="12" text-anchor="end" fill="#1F2937">같은 기간 아무 날</text>
+<text x="106" y="159" font-size="12" text-anchor="end" fill="#1F2937">평소</text>
 <line x1="118.0" y1="154" x2="730.0" y2="154" stroke="#9AA1AB" stroke-width="1.5"/>
 <rect x="389.2" y="146" width="34.1" height="16" fill="#9AA1AB" opacity=".28" rx="2"/>
 <line x1="405.4" y1="143" x2="405.4" y2="165" stroke="#9AA1AB" stroke-width="2.5"/>
 <text x="118.0" y="180" font-size="10.5" text-anchor="middle" fill="#667085">-99.1</text>
 <text x="730.0" y="180" font-size="10.5" text-anchor="middle" fill="#667085">+114.7</text>
 <text x="405.4" y="137" font-size="11" font-weight="700" text-anchor="middle" fill="#1F2937">+1.31%</text>
-<text x="16" y="218" font-size="9.5" fill="#9AA1AB">자료 = 일봉 1990.01.03~2026.07.31 · 표본 신호 71회 / 대조 8,206회</text>
+<text x="16" y="218" font-size="9.5" fill="#9AA1AB">자료 = 일봉 1990.01.03~2026.07.31 · 표본 신호 71회 / 평소 8,206회</text>
 </svg>

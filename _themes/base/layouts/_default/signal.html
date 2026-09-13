@@ -15,9 +15,9 @@
     "dist" $dist
     "tiles" (slice
     (dict "v" $s.measured "u" "개" "l" "잰 종목" "s" (cond (lt $s.pages $s.measured) (printf "개별 페이지 %v장" $s.pages) "전부 개별 페이지"))
-    (dict "v" $s.beat20 "u" "개" "l" "대조군보다 높았던 종목" "s" (printf "%.1f%% · 20거래일 뒤" (float $s.beat20_rate)))
-    (dict "v" (printf "%+.2f" (float $s.med20)) "u" "%p" "cls" (cond (ge (float $s.med20) 0.0) "up" "dn") "l" "20거래일 차이 중앙값" "s" "종목별 차이의 가운데")
-    (dict "v" (printf "%+.2f" (float $s.med60)) "u" "%p" "cls" (cond (ge (float $s.med60) 0.0) "up" "dn") "l" "60거래일 차이 중앙값" "s" (printf "높았던 종목 %.1f%%" (float $s.beat60_rate))))) }}
+    (dict "v" $s.beat20 "u" "개" "l" "평소보다 나았던 종목" "s" (printf "%.1f%% · 20거래일 뒤" (float $s.beat20_rate)))
+    (dict "v" (printf "%+.2f" (float $s.med20)) "u" "%p" "cls" (cond (ge (float $s.med20) 0.0) "up" "dn") "l" "20거래일 뒤 평소와 차이" "s" "종목들의 중앙값")
+    (dict "v" (printf "%+.2f" (float $s.med60)) "u" "%p" "cls" (cond (ge (float $s.med60) 0.0) "up" "dn") "l" "60거래일 뒤 평소와 차이" "s" (printf "나았던 종목 %.1f%%" (float $s.beat60_rate))))) }}
 <div class="site page">
   <section class="sec">
     <div class="sec-h"><span class="tag">요약</span><h2>{{ $s.label }}, 종목마다 얼마나 갈렸나</h2></div>
@@ -27,7 +27,7 @@
   <section class="sec">
     <div class="sec-h"><span class="tag">정의</span><h2>{{ $s.label }} 판정 조건</h2></div>
     <p class="txt">{{ $s.rule }}</p>
-    <p class="note">"같은 기간 아무 날"은 조사 구간의 모든 거래일을 시작점으로 삼아 같은 거래일 수 뒤와 견준 값입니다. 종목마다 그 종목의 구간으로 따로 잽니다. 거래대금이 얇은 날과 제도상 불가능한 변동일은 뺐습니다.</p>
+    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 종목마다 그 종목의 기간으로 따로 잽니다. 거래대금이 얇은 날과 제도상 불가능한 변동일은 뺐습니다.</p>
   </section>
 
   {{- $bands := slice
@@ -40,7 +40,7 @@
     <div class="sec-h">
       <span class="tag">종목별 결과</span>
       <h2>{{ $s.label }} {{ $s.measured }}개 종목</h2>
-      <p>20거래일 뒤 같은 기간 아무 날과의 차이가 큰 순서입니다. 종목 이름을 누르면 그 종목의 {{ $s.label }} 실측으로 갑니다.</p>
+      <p>신호 보고 샀을 때가 평소보다 20거래일 뒤 많이 나았던 순서입니다. 종목 이름을 누르면 그 종목의 {{ $s.label }} 페이지로 갑니다.</p>
     </div>
     <nav class="jump" aria-label="구간으로 건너뛰기">{{ range $bands }}{{ if .rows }}<a href="#{{ .id }}">{{ .label }}</a>{{ end }}{{ end }}</nav>
     <div class="tw">

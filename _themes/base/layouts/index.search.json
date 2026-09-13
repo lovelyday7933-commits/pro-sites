@@ -1,0 +1,10 @@
+{{- /* /search.json — 종목 찾기 창과 홈 점그림 풀이가 같이 쓰는 목록 하나(2026-09-13).
+     ⛔페이지마다 393개 이름을 박지 않는다(3,500장 × 16KB). 한 파일을 처음 필요할 때 한 번 받는다. 배포 파일 +1.
+     stocks = {n 이름 · c 코드 · u 종목 허브 주소 · k 잰 신호 수} · signals = {n 이름 · u 신호 허브 주소 · m 잰 종목 수}
+     ⛔`append (slice (slice …))` 는 빈 slice 에서 죽는다(2026-09-13 빌드) — dict 로 쌓는다. */ -}}
+{{- $g := site.Data.grid -}}
+{{- $st := slice -}}
+{{- range $code, $s := $g.stocks }}{{ $st = $st | append (dict "n" $s.name "c" $code "u" $s.url "k" $s.n_sig) }}{{ end -}}
+{{- $sg := slice -}}
+{{- range $g.order }}{{ $x := index $g.signals . }}{{ $sg = $sg | append (dict "n" $x.label "u" $x.url "m" $x.measured) }}{{ end -}}
+{{- dict "stocks" $st "signals" $sg | jsonify -}}

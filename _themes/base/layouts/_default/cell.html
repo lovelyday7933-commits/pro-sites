@@ -9,21 +9,24 @@
 {{- $st := index $g.stocks $code }}{{ $sg := index $g.signals $key }}
 {{- $e := index $st.sig $key }}
 {{- $e20 := float $e.e20 }}{{ $e60 := float $e.e60 }}
+{{- /* ★2026-09-13 3판 — 네모 4칸을 걷어내고 제목 오른쪽 판정 카드 + 주가 위 신호 자리 차트.
+     사용자: "html 자유도가 어마어마한데 너무 구시대적 디자인". 숫자가 어디서 났는지를 그림으로 보인다. */}}
 {{- partial "pagehead.html" (dict
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" "/종목/" "label" "종목별 실측") (dict "url" $st.url "label" $st.name) (dict "label" $sg.label))
-    "chip" (printf "%s ~ %s 일봉 · 기준일 %s" $st.from $st.to $g.as_of)
-    "title" .Title "lead" .Description) }}
-{{- $dist := partial "hist.html" (dict "sig" $sg "w" 900 "h" 170 "mark" $e20
-    "mlabel" (printf "%s %+.2f%%p" $st.name $e20)
-    "aria" (printf "%s 종목별 20거래일 차이 분포에서 %s의 위치" $sg.label $st.name)) }}
-{{- partial "kpi.html" (dict "head" (printf "%s %s 실측 요약" $st.name $sg.label) "sub" (printf "기준일 %s" $g.as_of)
-    "distTitle" (printf "같은 신호를 잰 %v개 종목의 20거래일 차이 — 굵은 선이 %s" $sg.measured $st.name)
-    "dist" $dist
-    "tiles" (slice
-    (dict "v" $e.n "u" "회" "l" "신호 발생" "s" (printf "%s ~ %s" (substr $st.from 0 4) (substr $st.to 0 4)))
-    (dict "v" (printf "%+.2f" $e20) "u" "%p" "cls" (cond (ge $e20 0.0) "up" "dn") "l" "20거래일 뒤 차이" "s" "같은 기간 아무 날 대비")
-    (dict "v" (printf "%+.2f" $e60) "u" "%p" "cls" (cond (ge $e60 0.0) "up" "dn") "l" "60거래일 뒤 차이" "s" "같은 기간 아무 날 대비")
-    (dict "v" (cond (ge $e.pct 50) (printf "상위 %v" (sub 101 $e.pct)) (printf "하위 %v" $e.pct)) "u" "%" "l" (printf "%v개 종목 중 위치" $sg.measured) "s" "20거래일 차이 기준"))) }}
+    "chip" (printf "%s · %s ~ %s 일봉 · 기준일 %s" $code $st.from $st.to $g.as_of)
+    "title" .Title "lead" .Description
+    "aside" (partial "verdict.html" (dict "st" $st "sg" $sg "e" $e "g" $g))) }}
+{{- with index site.Data.charts $code }}
+<div class="site">
+  <section class="panel">
+    <div class="panel-h">
+      <div><h2>{{ $st.name }} {{ $sg.label }} {{ $e.n }}번, 언제 났고 그 뒤 어땠나</h2>
+        <p>점 하나가 신호 한 번입니다. 판정 기준 — {{ $sg.rule }}</p></div>
+    </div>
+    {{ partial "pchart.html" (dict "chart" . "key" $key "label" $sg.label "name" $st.name) }}
+  </section>
+</div>
+{{- end }}
 <div class="site">
 <article class="post cell article">
   {{- if gt (len .TableOfContents) 60 }}

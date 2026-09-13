@@ -12,7 +12,7 @@
     (dict "v" (int $g.n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·가격·거래량·수급")
     (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" "잰 종목" "s" "일봉 전 구간")
     (dict "v" (lang.FormatNumber 0 $g.n_measured) "u" "개" "l" "종목×신호 조합" "s" "발생 20회 이상만")
-    (dict "v" (printf "%.1f" (mul (div (float $beat) (float $g.n_measured)) 100.0)) "u" "%" "l" "대조군보다 높았던 조합" "s" "20거래일 뒤 기준"))) }}
+    (dict "v" (printf "%.1f" (mul (div (float $beat) (float $g.n_measured)) 100.0)) "u" "%" "l" "평소보다 나았던 조합" "s" "20거래일 뒤 기준"))) }}
 <div class="site page">
   <section class="sec">
     <div class="sec-h"><span class="tag">읽는 법</span><h2>신호마다 종목 수백 개를 같은 기준으로 쟀습니다</h2></div>
@@ -27,8 +27,8 @@
       <p class="rule">{{ $s.rule }}</p>
       <div class="st">
         <div><b>{{ $s.measured }}개</b><span>잰 종목</span></div>
-        <div><b>{{ printf "%.1f" (float $s.beat20_rate) }}%</b><span>대조군보다 높았던 종목</span></div>
-        <div><b class="{{ cond (ge (float $s.med20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float $s.med20) }}%p</b><span>종목별 차이 중앙값</span></div>
+        <div><b>{{ printf "%.1f" (float $s.beat20_rate) }}%</b><span>평소보다 나았던 종목</span></div>
+        <div><b class="{{ cond (ge (float $s.med20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float $s.med20) }}%p</b><span>평소와 차이(중앙값)</span></div>
       </div>
       {{ partial "hist.html" (dict "sig" $s "w" 560 "h" 92 "small" true "aria" (printf "%s 종목별 20거래일 차이 분포" $s.label)) }}
       <span class="go">종목 {{ $s.measured }}개 결과 보기 →</span>

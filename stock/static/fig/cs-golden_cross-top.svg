@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 402" width="760" height="402" font-family="Malgun Gothic, 맑은 고딕, sans-serif">
 <rect width="760" height="402" fill="#FFFFFF"/>
 <text x="16" y="27" font-size="15.5" font-weight="700" fill="#1F2937">골든크로스 — 가장 잘 통한 종목 10곳</text>
-<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 대조군 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
+<text x="16" y="48" font-size="11.5" fill="#667085">막대 = 평소 대비 초과수익(%p, 20거래일) · 괄호 = 신호 발생 횟수 · 기준일 2026.09.08</text>
 <text x="140" y="90" font-size="12" text-anchor="end" fill="#1F2937">HLB펩</text>
 <rect x="150" y="76" width="480.0" height="18" fill="#C6403F" rx="2"/>
 <text x="638.0" y="90" font-size="11.5" font-weight="700" fill="#1F2937">+6.32%p</text>

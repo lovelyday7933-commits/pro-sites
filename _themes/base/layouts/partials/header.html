@@ -22,6 +22,14 @@
         {{- range site.Taxonomies.categories.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}
       {{- end }}
     </nav>
+    {{- /* ★2026-09-13 종목 찾기 창 — 3,500장 어느 페이지에서든 종목으로 바로 간다. `/` 키로도 열린다.
+         목록은 /search.json 한 파일(처음 열 때 한 번 받는다). ⛔격자가 없는 사이트(코인)는 버튼을 내지 않는다. */}}
+    {{- if site.Data.grid }}
+    <button class="kbar" type="button" data-pal aria-label="종목 찾기">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <span>종목 찾기</span><kbd>/</kbd>
+    </button>
+    {{- end }}
     {{- if site.Params.ctaURL }}
     <a class="btn btn-primary" href="{{ partial "ctahref.html" (dict "page" . "place" "top") }}" target="_blank" rel="noopener nofollow">무료 책 신청</a>
     {{- end }}

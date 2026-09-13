@@ -26,7 +26,7 @@
   {{- $cls := cond (ge $a 0.0) "bu" "bd" }}
   {{- if and $has (ge $mv $a) (lt $mv (add $a $st)) }}{{ $cls = printf "%s bh" $cls }}{{ end }}
   {{- if gt $c 0 }}
-  <rect class="{{ $cls }}" x="{{ printf "%.1f" (add $x0 1.0) }}" y="{{ printf "%.1f" (sub $base $bh) }}" width="{{ printf "%.1f" (sub $bw 2.0) }}" height="{{ printf "%.1f" $bh }}" rx="1.5"><title>{{ printf "%+.1f ~ %+.1f%%p · %d개 종목" $a (add $a $st) $c }}</title></rect>
+  <rect class="{{ $cls }}" x="{{ printf "%.1f" (add $x0 1.0) }}" y="{{ printf "%.1f" (sub $base $bh) }}" width="{{ printf "%.1f" (sub $bw 2.0) }}" height="{{ printf "%.1f" $bh }}" rx="1.5"><title>{{ printf "%+.1f ~ %+.1f%%p · %d개 종목" $a (add $a $st) (int $c) }}</title></rect>{{/* ⛔(int $c) — JSON 숫자는 float 라 %d 가 "%!d(float64=1)" 로 깨졌다(09-11 라이브 · 2026-09-13 발견) */}}
   {{- end }}
   {{- end }}
   {{- $zx := add $pl (mul (div (sub 0.0 $lo) $st) $bw) }}
@@ -44,5 +44,9 @@
   {{- else }}
   <text class="t" x="{{ printf "%.1f" $dx }}" y="{{ sub $pt 10.0 }}" text-anchor="{{ cond (lt $dx (mul $W 0.2)) "start" (cond (gt $dx (mul $W 0.8)) "end" "middle") }}">{{ printf "중앙값 %+.2f%%p" (float $s.med20) }}</text>
   {{- end }}
+  {{- else if $has }}
+  {{- /* 2026-09-13 셀 판정 카드의 작은 분포 — 글자 없이 이 종목 자리 선만 긋는다 */}}
+  {{- $xx := add $pl (mul (div (sub $mv $lo) $st) $bw) }}
+  <line class="mk" x1="{{ printf "%.1f" $xx }}" x2="{{ printf "%.1f" $xx }}" y1="0" y2="{{ $base }}"/>
   {{- end }}
 </svg>

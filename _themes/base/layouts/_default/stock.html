@@ -18,8 +18,8 @@
 {{- partial "kpi.html" (dict "head" (printf "%s 실측 요약" $s.name) "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
     (dict "v" (len $rows) "u" "가지" "l" "잰 신호" "s" (cond (eq (len $rows) (len $g.order)) "8가지 전부" (printf "%d가지는 발생 20회 미만" (sub (len $g.order) (len $rows)))))
     (dict "v" (lang.FormatNumber 0 $s.hits) "u" "회" "l" "신호 발생 합계" "s" "조사 구간 전체")
-    (dict "v" (printf "%v / %d" $s.beat20 (len $rows)) "l" "대조군보다 높았던 신호" "s" "20거래일 뒤 기준")
-    (dict "v" (printf "%+.2f" $top.e20) "u" "%p" "cls" (cond (ge $top.e20 0.0) "up" "dn") "l" "가장 높았던 신호" "s" $top.label))) }}
+    (dict "v" (printf "%v / %d" $s.beat20 (len $rows)) "l" "평소보다 나았던 신호" "s" "20거래일 뒤 기준")
+    (dict "v" (printf "%+.2f" $top.e20) "u" "%p" "cls" (cond (ge $top.e20 0.0) "up" "dn") "l" "가장 나았던 신호" "s" $top.label))) }}
 <div class="site page">
   <section class="sec">
     <div class="sec-h"><span class="tag">요약</span><h2>{{ $s.name }}에서 신호가 난 뒤</h2></div>
@@ -30,7 +30,7 @@
     <div class="sec-h">
       <span class="tag">신호별 결과</span>
       <h2>{{ $s.name }} 차트 신호 {{ len $rows }}가지</h2>
-      <p>막대는 신호가 난 뒤 20거래일 결과가 같은 기간 아무 날보다 높았는지(오른쪽·빨강) 낮았는지(왼쪽·파랑)입니다. 끝까지 차면 ±6%p 입니다.</p>
+      <p>막대는 신호 보고 샀을 때가 평소보다 20거래일 뒤 나았는지(오른쪽·빨강) 못했는지(왼쪽·파랑)입니다. 끝까지 차면 ±6%p 입니다.</p>
     </div>
     <div class="tw">
       <table class="dt">
@@ -52,7 +52,7 @@
       </table>
     </div>
     {{- range $rows }}{{ if .why }}<p class="note">{{ .label }} — {{ .why }}.</p>{{ end }}{{ end }}
-    <p class="note">"같은 기간 아무 날"은 조사 구간의 모든 거래일을 시작점으로 삼아 같은 거래일 수 뒤와 견준 값입니다. 순위는 같은 신호를 잰 종목들 사이의 자리이고, 모든 수치는 지나간 구간의 결과입니다.</p>
+    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 순위는 같은 신호를 잰 종목들 사이의 자리이고, 모든 수치는 지나간 구간의 결과입니다.</p>
   </section>
 
   {{- $code := .Params.code }}
