@@ -9,6 +9,8 @@
     "flat" true) }}
 <div class="site">
 <article class="post article">
+  {{- /* ★도입부 신청 안내 — 제목 바로 아래, 목차보다 먼저(휴대폰 첫 화면 안). 모든 글. */}}
+  {{- partial "ctainline.html" (dict "page" . "place" "intro" "lead" "이 글이 기대는 판단 기준은" "tail" "차근차근 정리했습니다") }}
   {{- if gt (len .TableOfContents) 60 }}
   <nav class="toc"><b>이 글에서 다루는 것</b>{{ .TableOfContents }}</nav>
   {{- end }}

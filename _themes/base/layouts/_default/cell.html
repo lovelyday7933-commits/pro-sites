@@ -17,6 +17,8 @@
     "chip" (printf "%s · %s ~ %s 일봉 · 기준일 %s" $code $st.from $st.to $g.as_of)
     "title" .Title "lead" .Description
     "aside" (partial "verdict.html" (dict "st" $st "sg" $sg "e" $e "g" $g))) }}
+{{- /* ★도입부 신청 안내 — 판정 카드 바로 아래, 차트보다 먼저(휴대폰 첫 화면 끝). 모든 셀. */}}
+<div class="site">{{ partial "ctainline.html" (dict "page" . "place" "intro" "lead" (printf "%s %s 신호 %v번, 이런 기록을 어떻게 읽는지는" .Params.stock .Params.signal .Params.hits)) }}</div>
 {{- with index site.Data.charts $code }}
 <div class="site">
   <section class="panel">
