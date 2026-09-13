@@ -33,7 +33,15 @@
   {{- if gt (len .TableOfContents) 60 }}
   <nav class="toc"><b>이 페이지에서 보는 것</b>{{ .TableOfContents }}</nav>
   {{- end }}
+  {{- $parts := split .Content "<h2" }}
+  {{- $at := -1 }}
+  {{- range $i, $x := $parts }}{{ if and (lt $at 0) (in $x "중에선 어디쯤") }}{{ $at = $i }}{{ end }}{{ end }}
+  {{- if and (partial "abgroup.html" .) (gt $at 0) (lt $at (len $parts)) }}
+  {{- $lead := printf "%s에서 %s 신호가 %v번 뜬 기록, 이런 신호를 어떻게 읽는지" .Params.stock .Params.signal .Params.hits }}
+  <div class="body">{{ index $parts 0 | safeHTML }}{{ range $i, $x := after 1 $parts }}{{ printf "<h2%s" $x | safeHTML }}{{ if eq (add $i 1) $at }}{{ partial "ctainline.html" (dict "page" $ "lead" $lead) }}{{ end }}{{ end }}</div>
+  {{- else }}
   <div class="body">{{ .Content }}</div>
+  {{- end }}
 
   {{ partial "cta.html" . }}
 

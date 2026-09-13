@@ -12,10 +12,29 @@
   {{- if gt (len .TableOfContents) 60 }}
   <nav class="toc"><b>이 글에서 다루는 것</b>{{ .TableOfContents }}</nav>
   {{- end }}
+  {{- $parts := split .Content "<h2" }}
+  {{- if and (partial "abgroup.html" .) (ge (len $parts) 4) }}
+  {{- $lead := "이 글에서 다룬 이야기는" }}
+  <div class="body">{{ index $parts 0 | safeHTML }}{{ range $i, $x := after 1 $parts }}{{ if eq $i 2 }}{{ partial "ctainline.html" (dict "page" $ "lead" $lead "tail" "더 자세히 정리했습니다") }}{{ end }}{{ printf "<h2%s" $x | safeHTML }}{{ end }}</div>
+  {{- else }}
   <div class="body">{{ .Content }}</div>
+  {{- end }}
+
+  {{- /* ★같은 책으로 이어지는 글 — 한 주제를 꾸준히 쓴다는 신호(주제 집중도)이자 책 신청으로 가는 길(2026-09-13) */}}
+  {{- with .Params.cta.book }}
+  {{- $book := . }}
+  {{- $series := where (where site.RegularPages "Section" "posts") "Params.cta.book" $book }}
+  {{- if gt (len $series) 1 }}
+  <section class="series">
+    <h2>『{{ $book }}』에서 이어지는 글</h2>
+    <ol class="links">{{ range first 8 $series.ByPublishDate }}<li>{{ if eq .Permalink $.Permalink }}<span class="x">{{ .Title }} · 지금 읽는 글</span>{{ else }}<a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>{{ end }}</li>{{ end }}</ol>
+  </section>
+  {{- end }}
+  {{- end }}
   {{ partial "cta.html" . }}
 
   {{- $rel := where (where site.RegularPages "Section" "posts") ".Permalink" "!=" .Permalink }}
+  {{- with .Params.cta.book }}{{ $rel = where $rel "Params.cta.book" "!=" . }}{{ end }}
   {{- with .Params.categories }}{{ $rel = where $rel "Params.categories" "intersect" . }}{{ end }}
   {{- with first 4 $rel }}
   <section class="rel">

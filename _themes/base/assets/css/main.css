@@ -486,3 +486,16 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 .pal .ft{display:flex;gap:1rem;padding:.55rem 1rem;border-top:1px solid var(--line);font-size:.72rem;color:var(--mute)}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* 본문 속 신청 링크 · 같은 책 연재 (2026-09-13) */
+.cta-inline{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.6rem 1.2rem;margin:2.2rem 0;padding:1rem 1.2rem;
+  border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:10px;background:var(--surface)}
+.cta-inline p{margin:0;flex:1 1 20rem;font-size:.95rem;line-height:1.6;color:var(--ink2)}
+.cta-inline b{color:var(--ink);font-weight:700}
+.cta-inline a{flex:none;display:inline-flex;align-items:center;gap:.35rem;height:40px;padding:0 1rem;border-radius:10px;
+  background:var(--accent-bg);color:var(--accent-ink);font-weight:650;font-size:.92rem;text-decoration:none}
+.cta-inline a::after{content:"→"}
+.cta-inline a:hover{background:var(--accent-bg2)}
+.series{margin:3rem 0 0}
+.series h2{margin:0 0 .6rem;font-size:1rem;letter-spacing:-.02em;font-weight:650}
+.series ol.links{counter-reset:s}
