@@ -1,6 +1,6 @@
 ---
-title: "HJ중공업 실적, 2025년 영업이익 671억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "HJ중공업 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "HJ중공업 실적 발표일 2026년 8월 12일(2분기) · 2025년 영업이익 671억 원"
+description: "HJ중공업 최근 실적은 2026년 8월 12일에 나왔다(2026년 2분기 반기보고서 제출). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "097230"
@@ -11,14 +11,31 @@ utm_source: "hj중공업-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/토목-건설업/", "label": "토목 건설업"}, {"url": "/종목/hj중공업/", "label": "HJ중공업"}, {"label": "실적"}]
+faq: [{"q": "HJ중공업 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 2분기)은 2026년 8월 12일에 발표됐다(반기보고서 제출). 3분기 실적은 지난해 2025년 11월 14일에 나왔다."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/hj중공업/", "label": "HJ중공업 주가"}, {"url": "/종목/hj중공업/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/hj중공업/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/hj중공업/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/hj중공업/실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/dl이앤씨/실적/", "label": "DL이앤씨 실적"}, {"url": "/종목/태영건설/실적/", "label": "태영건설 실적"}, {"url": "/종목/코오롱글로벌/실적/", "label": "코오롱글로벌 실적"}, {"url": "/종목/삼부토건/실적/", "label": "삼부토건 실적"}, {"url": "/종목/계룡건설산업/실적/", "label": "계룡건설산업 실적"}, {"url": "/종목/동부건설/실적/", "label": "동부건설 실적"}, {"url": "/종목/현대건설/실적/", "label": "현대건설 실적"}, {"url": "/종목/진흥기업/실적/", "label": "진흥기업 실적"}]
 peers_head: "같은 업종(토목 건설업) 다른 종목의 실적"
 ---
 
+HJ중공업의 가장 최근 실적 발표는 2026년 8월 12일(2026년 2분기 반기보고서 제출)이었다.
+3분기 실적은 지난해 2025년 11월 14일에 나왔다.
+
 HJ중공업의 최근 연간 실적은 2023년 매출 2조 1,621억 원·영업이익 -1,088억 원, 2024년 매출 1조 8,860억 원·영업이익 73억 원, 2025년 매출 1조 9,997억 원·영업이익 671억 원이다.
 2026년 추정치(증권사 컨센서스)는 매출 2조 6,710억 원·영업이익 2,180억 원이다.
+
+## HJ중공업 실적 발표일
+
+| 기간 | 실적이 나온 날(정기보고서 제출) |
+|---|---|
+| 2026년 2분기 | 2026.08.12 · 반기보고서 |
+| 2026년 1분기 | 2026.05.15 · 분기보고서 |
+| 2025년 4분기 | 2026.03.19 · 사업보고서 |
+| 2025년 3분기 | 2025.11.14 · 분기보고서 |
+| 2025년 2분기 | 2025.08.14 · 반기보고서 |
+| 2025년 1분기 | 2025.05.15 · 분기보고서 |
+| 2024년 4분기 | 2025.03.20 · 사업보고서 |
+| 2024년 3분기 | 2024.11.12 · 분기보고서 |
 
 ## HJ중공업 연간 실적
 
@@ -51,4 +68,4 @@ HJ중공업의 최근 연간 실적은 2023년 매출 2조 1,621억 원·영업�
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HJ중공업 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="237.4" width="52.3" height="18.6" rx="3"/><text class="ic-val" x="112.7" y="231.4" text-anchor="middle">53억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="235.6" width="52.3" height="20.4" rx="3"/><text class="ic-val" x="206.0" y="229.6" text-anchor="middle">58억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="78.6" width="52.3" height="177.4" rx="3"/><text class="ic-val" x="299.3" y="72.6" text-anchor="middle">505억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="169.6" width="52.3" height="86.4" rx="3"/><text class="ic-val" x="392.7" y="163.6" text-anchor="middle">246억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">649억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="48.7" width="52.3" height="207.3" rx="3"/><text class="ic-val" x="579.3" y="42.7" text-anchor="middle">590억</text></svg><figcaption>HJ중공업 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

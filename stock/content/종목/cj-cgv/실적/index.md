@@ -1,6 +1,6 @@
 ---
-title: "CJ CGV 실적, 2025년 영업이익 962억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "CJ CGV 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "CJ CGV 실적 발표일 2026년 8월 7일(2분기) · 2025년 영업이익 962억 원"
+description: "CJ CGV 최근 실적은 2026년 8월 7일에 나왔다(2026년 2분기 잠정실적 공시). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "079160"
@@ -11,14 +11,32 @@ utm_source: "cj-cgv-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/영화,-비디오물,-방송프로그램-제작-및-배급업/", "label": "영화, 비디오물, 방송프로그램 제작 및 배급업"}, {"url": "/종목/cj-cgv/", "label": "CJ CGV"}, {"label": "실적"}]
+faq: [{"q": "CJ CGV 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 2분기)은 2026년 8월 7일에 발표됐다(잠정실적 공시). 3분기 실적은 지난해 2025년 11월 6일에 나왔다."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/cj-cgv/", "label": "CJ CGV 주가"}, {"url": "/종목/cj-cgv/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/cj-cgv/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/cj-cgv/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/cj-cgv/실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/스튜디오드래곤/실적/", "label": "스튜디오드래곤 실적"}, {"url": "/종목/더핑크퐁컴퍼니/실적/", "label": "더핑크퐁컴퍼니 실적"}, {"url": "/종목/samg엔터/실적/", "label": "SAMG엔터 실적"}, {"url": "/종목/쇼박스/실적/", "label": "쇼박스 실적"}, {"url": "/종목/애니플러스/실적/", "label": "애니플러스 실적"}, {"url": "/종목/ytn/실적/", "label": "YTN 실적"}, {"url": "/종목/초록뱀미디어/실적/", "label": "초록뱀미디어 실적"}, {"url": "/종목/포바이포/실적/", "label": "포바이포 실적"}]
 peers_head: "같은 업종(영화, 비디오물, 방송프로그램 제작 및 배급업) 다른 종목의 실적"
 ---
 
+CJ CGV의 가장 최근 실적 발표는 2026년 8월 7일(2026년 2분기 잠정실적 공시)이었다.
+같은 기간 반기보고서는 8월 14일에 나왔다.
+3분기 실적은 지난해 2025년 11월 6일에 나왔다.
+
 CJ CGV의 최근 연간 실적은 2023년 매출 1조 5,458억 원·영업이익 491억 원, 2024년 매출 1조 9,579억 원·영업이익 759억 원, 2025년 매출 2조 2,754억 원·영업이익 962억 원이다.
 2026년 추정치(증권사 컨센서스)는 매출 2조 4,988억 원·영업이익 1,060억 원이다.
+
+## CJ CGV 실적 발표일
+
+| 기간 | 잠정실적 공시 | 정기보고서 제출 |
+|---|---|---|
+| 2026년 2분기 | 2026.08.07 | 2026.08.14 · 반기보고서 |
+| 2026년 1분기 | 2026.05.08 | 2026.05.15 · 분기보고서 |
+| 2025년 4분기 | 2026.02.03 | 2026.03.18 · 사업보고서 |
+| 2025년 3분기 | 2025.11.06 | 2025.11.14 · 분기보고서 |
+| 2025년 2분기 | 2025.08.07 | 2025.08.14 · 반기보고서 |
+| 2025년 1분기 | 2025.05.08 | 2025.05.15 · 분기보고서 |
+| 2024년 4분기 | 2025.02.07 | 2025.03.17 · 사업보고서 |
+| 2024년 3분기 | 2024.11.08 | 2024.11.14 · 분기보고서 |
 
 ## CJ CGV 연간 실적
 
@@ -51,4 +69,4 @@ CJ CGV의 최근 연간 실적은 2023년 매출 1조 5,458억 원·영업이익
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="CJ CGV 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="250.3" width="52.3" height="5.7" rx="3"/><text class="ic-val" x="112.7" y="244.3" text-anchor="middle">17억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="177.9" width="52.3" height="78.1" rx="3"/><text class="ic-val" x="206.0" y="171.9" text-anchor="middle">233억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">680억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="226.8" width="52.3" height="29.2" rx="3"/><text class="ic-val" x="392.7" y="220.8" text-anchor="middle">87억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="217.4" width="52.3" height="38.6" rx="3"/><text class="ic-val" x="486.0" y="211.4" text-anchor="middle">115억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="102.4" width="52.3" height="153.6" rx="3"/><text class="ic-val" x="579.3" y="96.4" text-anchor="middle">458억</text></svg><figcaption>CJ CGV 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

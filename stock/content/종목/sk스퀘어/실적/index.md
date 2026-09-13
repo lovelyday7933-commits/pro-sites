@@ -1,6 +1,6 @@
 ---
-title: "SK스퀘어 실적, 2025년 영업이익 8조 7,974억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "SK스퀘어 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "SK스퀘어 실적 발표일 2026년 8월 14일(2분기) · 2025년 영업이익 8조 7,974억 원"
+description: "SK스퀘어 최근 실적은 2026년 8월 14일에 나왔다(2026년 2분기 반기보고서 제출). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "402340"
@@ -11,14 +11,31 @@ utm_source: "sk스퀘어-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/sk스퀘어/", "label": "SK스퀘어"}, {"label": "실적"}]
+faq: [{"q": "SK스퀘어 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 2분기)은 2026년 8월 14일에 발표됐다(반기보고서 제출). 3분기 실적은 지난해 2025년 11월 13일에 나왔다."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/sk스퀘어/", "label": "SK스퀘어 주가"}, {"url": "/종목/sk스퀘어/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/sk스퀘어/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/sk스퀘어/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/sk스퀘어/실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/kb금융/실적/", "label": "KB금융 실적"}, {"url": "/종목/신한지주/실적/", "label": "신한지주 실적"}, {"url": "/종목/sk/실적/", "label": "SK 실적"}, {"url": "/종목/하나금융지주/실적/", "label": "하나금융지주 실적"}, {"url": "/종목/hd한국조선해양/실적/", "label": "HD한국조선해양 실적"}, {"url": "/종목/우리금융지주/실적/", "label": "우리금융지주 실적"}, {"url": "/종목/메리츠금융지주/실적/", "label": "메리츠금융지주 실적"}, {"url": "/종목/hd현대/실적/", "label": "HD현대 실적"}]
 peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
 ---
 
+SK스퀘어의 가장 최근 실적 발표는 2026년 8월 14일(2026년 2분기 반기보고서 제출)이었다.
+3분기 실적은 지난해 2025년 11월 13일에 나왔다.
+
 SK스퀘어의 최근 연간 실적은 2023년 매출 2조 2,785억 원·영업이익 -2조 3,397억 원, 2024년 매출 5조 8,818억 원·영업이익 3조 9,206억 원, 2025년 매출 10조 4,556억 원·영업이익 8조 7,974억 원이다.
 2026년 추정치(증권사 컨센서스)는 매출 18조 990억 원·영업이익 48조 2,125억 원이다.
+
+## SK스퀘어 실적 발표일
+
+| 기간 | 실적이 나온 날(정기보고서 제출) |
+|---|---|
+| 2026년 2분기 | 2026.08.14 · 반기보고서 |
+| 2026년 1분기 | 2026.05.14 · 분기보고서 |
+| 2025년 4분기 | 2026.03.17 · 사업보고서 |
+| 2025년 3분기 | 2025.11.13 · 분기보고서 |
+| 2025년 2분기 | 2025.08.14 · 반기보고서 |
+| 2025년 1분기 | 2025.05.15 · 분기보고서 |
+| 2024년 4분기 | 2025.03.19 · 사업보고서 |
+| 2024년 3분기 | 2024.11.14 · 분기보고서 |
 
 ## SK스퀘어 연간 실적
 
@@ -51,4 +68,4 @@ SK스퀘어의 최근 연간 실적은 2023년 매출 2조 2,785억 원·영업�
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK스퀘어 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="239.4" width="52.3" height="16.6" rx="3"/><text class="ic-val" x="112.7" y="233.4" text-anchor="middle">1조 4,002억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="224.6" width="52.3" height="31.4" rx="3"/><text class="ic-val" x="206.0" y="218.6" text-anchor="middle">2조 6,455억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="219.3" width="52.3" height="36.7" rx="3"/><text class="ic-val" x="299.3" y="213.3" text-anchor="middle">3조 985억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="157.9" width="52.3" height="98.1" rx="3"/><text class="ic-val" x="392.7" y="151.9" text-anchor="middle">8조 2,783억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">19조 2,354억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="102.9" width="52.3" height="153.1" rx="3"/><text class="ic-val" x="579.3" y="96.9" text-anchor="middle">12조 9,129억</text></svg><figcaption>SK스퀘어 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

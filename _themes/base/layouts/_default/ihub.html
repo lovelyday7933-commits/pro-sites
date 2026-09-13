@@ -11,6 +11,7 @@
     <ul class="links">{{ range . }}<li><a href="{{ .url }}"><span>{{ $.Params.name }} {{ .label }}</span><span class="v">보기</span></a></li>{{ end }}</ul>
   </section>
   {{- end }}
+  {{- if .Params.code }}{{ partial "stock-events.html" (dict "code" .Params.code "name" .Params.name) }}{{ end }}
   <section class="sec">
     <div class="body">{{ .Content }}</div>
   </section>

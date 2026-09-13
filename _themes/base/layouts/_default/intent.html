@@ -11,6 +11,14 @@
   <nav class="sibs" aria-label="{{ $.Params.name }} 더 보기">{{ range . }}<a href="{{ .url }}"{{ if .cur }} aria-current="page"{{ end }}>{{ .label }}</a>{{ end }}</nav>
   {{- end }}
   <div class="body">{{ .Content }}</div>
+  {{- /* 자주 묻는 것 — 앞머리 faq(intent.py 가 전자공시 날짜로 만든다) · head.html 이 같은 내용을 FAQPage 구조화 데이터로 싣는다.
+       화면에 없는 문답을 구조화 데이터에만 넣지 않는다(2026-09-13). */}}
+  {{- with .Params.faq }}
+  <section class="rel faq">
+    <h2>자주 묻는 것</h2>
+    <dl>{{ range . }}<dt>{{ .q }}</dt><dd>{{ .a }}</dd>{{ end }}</dl>
+  </section>
+  {{- end }}
   {{ partial "cta.html" . }}
   {{- with .Params.peers }}
   <section class="rel">

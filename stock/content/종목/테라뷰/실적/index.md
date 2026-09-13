@@ -1,6 +1,6 @@
 ---
-title: "테라뷰 실적, 2026년 4월 결산 영업이익 -93억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "테라뷰 연간 매출·영업이익·순이익 2년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "테라뷰 실적 발표일 2026년 8월 19일(4월 사업보고서) · 2026년 4월 결산 영업이익 -93억 원"
+description: "테라뷰 최근 실적은 2026년 8월 19일에 나왔다(2026년 4월 사업보고서 사업보고서 제출). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "950250"
@@ -11,13 +11,24 @@ utm_source: "테라뷰-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/테라뷰/", "label": "테라뷰"}, {"label": "실적"}]
+faq: [{"q": "테라뷰 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 4월 사업보고서)은 2026년 8월 19일에 발표됐다(사업보고서 제출)."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/테라뷰/", "label": "테라뷰 주가"}, {"url": "/종목/테라뷰/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/테라뷰/실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/나우ib/실적/", "label": "나우IB 실적"}, {"url": "/종목/디와이/실적/", "label": "디와이 실적"}, {"url": "/종목/경동인베스트/실적/", "label": "경동인베스트 실적"}, {"url": "/종목/유비쿼스홀딩스/실적/", "label": "유비쿼스홀딩스 실적"}, {"url": "/종목/미원홀딩스/실적/", "label": "미원홀딩스 실적"}, {"url": "/종목/한솔홀딩스/실적/", "label": "한솔홀딩스 실적"}, {"url": "/종목/웅진/실적/", "label": "웅진 실적"}, {"url": "/종목/ak홀딩스/실적/", "label": "AK홀딩스 실적"}]
 peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
 ---
 
+테라뷰의 가장 최근 실적 발표는 2026년 8월 19일(2026년 4월 사업보고서 사업보고서 제출)이었다.
+
 테라뷰의 최근 연간 실적은 2025년 매출 76억 원·영업이익 -71억 원, 2026년 매출 78억 원·영업이익 -93억 원이다.
+
+## 테라뷰 실적 발표일
+
+| 기간 | 실적이 나온 날(정기보고서 제출) |
+|---|---|
+| 2026년 4월 사업보고서 | 2026.08.19 · 사업보고서 |
+| 2026년 1월 분기보고서 | 2026.03.30 · 분기보고서 |
+| 2025년 10월 반기보고서 | 2025.12.30 · 반기보고서 |
 
 ## 테라뷰 연간 실적
 
@@ -44,4 +55,4 @@ peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="테라뷰 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.04</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="92.6" rx="3"/><text class="ic-val" x="112.7" y="134.6" text-anchor="middle">-13억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.07</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="114.0" rx="3"/><text class="ic-val" x="206.0" y="156.0" text-anchor="middle">-16억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.10</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="142.5" rx="3"/><text class="ic-val" x="299.3" y="184.5" text-anchor="middle">-20억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.01</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="178.1" rx="3"/><text class="ic-val" x="392.7" y="220.1" text-anchor="middle">-25억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.04</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-32억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.07</text></svg><figcaption>테라뷰 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

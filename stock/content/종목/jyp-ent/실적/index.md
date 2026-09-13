@@ -1,6 +1,6 @@
 ---
-title: "JYP Ent. 실적, 2025년 영업이익 1,552억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "JYP Ent. 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "JYP Ent. 실적 발표일 2026년 8월 12일(2분기) · 2025년 영업이익 1,552억 원"
+description: "JYP Ent. 최근 실적은 2026년 8월 12일에 나왔다(2026년 2분기 잠정실적 공시). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "035900"
@@ -11,14 +11,32 @@ utm_source: "jyp-ent.-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/오디오물-출판-및-원판-녹음업/", "label": "오디오물 출판 및 원판 녹음업"}, {"url": "/종목/jyp-ent./", "label": "JYP Ent."}, {"label": "실적"}]
+faq: [{"q": "JYP Ent. 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 2분기)은 2026년 8월 12일에 발표됐다(잠정실적 공시). 3분기 실적은 지난해 2025년 11월 12일에 나왔다."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/jyp-ent./", "label": "JYP Ent. 주가"}, {"url": "/종목/jyp-ent./주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/jyp-ent./배당금/", "label": "배당금", "cur": false}, {"url": "/종목/jyp-ent./목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/jyp-ent./실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/에스엠/실적/", "label": "에스엠 실적"}, {"url": "/종목/와이지엔터테인먼트/실적/", "label": "와이지엔터테인먼트 실적"}, {"url": "/종목/하이브/실적/", "label": "하이브 실적"}, {"url": "/종목/큐브엔터/실적/", "label": "큐브엔터 실적"}, {"url": "/종목/알비더블유/실적/", "label": "알비더블유 실적"}]
 peers_head: "같은 업종(오디오물 출판 및 원판 녹음업) 다른 종목의 실적"
 ---
 
+JYP Ent.의 가장 최근 실적 발표는 2026년 8월 12일(2026년 2분기 잠정실적 공시)이었다.
+같은 기간 반기보고서는 8월 14일에 나왔다.
+3분기 실적은 지난해 2025년 11월 12일에 나왔다.
+
 JYP Ent.의 최근 연간 실적은 2023년 매출 5,665억 원·영업이익 1,694억 원, 2024년 매출 6,018억 원·영업이익 1,283억 원, 2025년 매출 8,219억 원·영업이익 1,552억 원이다.
 2026년 추정치(증권사 컨센서스)는 매출 8,219억 원·영업이익 1,524억 원이다.
+
+## JYP Ent. 실적 발표일
+
+| 기간 | 잠정실적 공시 | 정기보고서 제출 |
+|---|---|---|
+| 2026년 2분기 | 2026.08.12 | 2026.08.14 · 반기보고서 |
+| 2026년 1분기 | 2026.05.14 | 2026.05.15 · 분기보고서 |
+| 2025년 4분기 | — | 2026.03.18 · 사업보고서 |
+| 2025년 3분기 | 2025.11.12 | 2025.11.14 · 분기보고서 |
+| 2025년 2분기 | 2025.08.13 | 2025.08.14 · 반기보고서 |
+| 2025년 1분기 | — | 2025.05.14 · 분기보고서 |
+| 2024년 4분기 | — | 2025.03.17 · 사업보고서 |
+| 2024년 3분기 | — | 2024.11.13 · 분기보고서 |
 
 ## JYP Ent. 연간 실적
 
@@ -51,4 +69,4 @@ JYP Ent.의 최근 연간 실적은 2023년 매출 5,665억 원·영업이익 1,
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="JYP Ent. 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">529억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="80.2" width="52.3" height="175.8" rx="3"/><text class="ic-val" x="206.0" y="74.2" text-anchor="middle">408억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="75.4" width="52.3" height="180.6" rx="3"/><text class="ic-val" x="299.3" y="69.4" text-anchor="middle">419억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="112.0" width="52.3" height="144.0" rx="3"/><text class="ic-val" x="392.7" y="106.0" text-anchor="middle">334억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="122.4" width="52.3" height="133.6" rx="3"/><text class="ic-val" x="486.0" y="116.4" text-anchor="middle">310억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="62.5" width="52.3" height="193.5" rx="3"/><text class="ic-val" x="579.3" y="56.5" text-anchor="middle">449억</text></svg><figcaption>JYP Ent. 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

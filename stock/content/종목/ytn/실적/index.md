@@ -1,6 +1,6 @@
 ---
-title: "YTN 실적, 2025년 영업이익 -136억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "YTN 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "YTN 실적 발표일 2026년 8월 14일(2분기) · 2025년 영업이익 -136억 원"
+description: "YTN 최근 실적은 2026년 8월 14일에 나왔다(2026년 2분기 반기보고서 제출). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "040300"
@@ -11,13 +11,30 @@ utm_source: "ytn-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/영화,-비디오물,-방송프로그램-제작-및-배급업/", "label": "영화, 비디오물, 방송프로그램 제작 및 배급업"}, {"url": "/종목/ytn/", "label": "YTN"}, {"label": "실적"}]
+faq: [{"q": "YTN 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 2분기)은 2026년 8월 14일에 발표됐다(반기보고서 제출). 3분기 실적은 지난해 2025년 11월 14일에 나왔다."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/ytn/", "label": "YTN 주가"}, {"url": "/종목/ytn/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/ytn/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/ytn/실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/애니플러스/실적/", "label": "애니플러스 실적"}, {"url": "/종목/초록뱀미디어/실적/", "label": "초록뱀미디어 실적"}, {"url": "/종목/포바이포/실적/", "label": "포바이포 실적"}, {"url": "/종목/쇼박스/실적/", "label": "쇼박스 실적"}, {"url": "/종목/에피소드컴퍼니/실적/", "label": "에피소드컴퍼니 실적"}, {"url": "/종목/samg엔터/실적/", "label": "SAMG엔터 실적"}, {"url": "/종목/더핑크퐁컴퍼니/실적/", "label": "더핑크퐁컴퍼니 실적"}, {"url": "/종목/삼화네트웍스/실적/", "label": "삼화네트웍스 실적"}]
 peers_head: "같은 업종(영화, 비디오물, 방송프로그램 제작 및 배급업) 다른 종목의 실적"
 ---
 
+YTN의 가장 최근 실적 발표는 2026년 8월 14일(2026년 2분기 반기보고서 제출)이었다.
+3분기 실적은 지난해 2025년 11월 14일에 나왔다.
+
 YTN의 최근 연간 실적은 2023년 매출 1,305억 원·영업이익 -93억 원, 2024년 매출 1,312억 원·영업이익 -267억 원, 2025년 매출 1,342억 원·영업이익 -136억 원이다.
+
+## YTN 실적 발표일
+
+| 기간 | 실적이 나온 날(정기보고서 제출) |
+|---|---|
+| 2026년 2분기 | 2026.08.14 · 반기보고서 |
+| 2026년 1분기 | 2026.05.15 · 분기보고서 |
+| 2025년 4분기 | 2026.03.19 · 사업보고서 |
+| 2025년 3분기 | 2025.11.14 · 분기보고서 |
+| 2025년 2분기 | 2025.08.14 · 반기보고서 |
+| 2025년 1분기 | 2025.05.15 · 분기보고서 |
+| 2024년 4분기 | 2025.03.20 · 사업보고서 |
+| 2024년 3분기 | 2024.11.14 · 분기보고서 |
 
 ## YTN 연간 실적
 
@@ -50,4 +67,4 @@ YTN의 최근 연간 실적은 2023년 매출 1,305억 원·영업이익 -93억 
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="YTN 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="58.6" y2="58.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="58.6" width="52.3" height="80.6" rx="3"/><text class="ic-val" x="112.7" y="153.2" text-anchor="middle">-29억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="58.6" width="52.3" height="55.6" rx="3"/><text class="ic-val" x="206.0" y="128.2" text-anchor="middle">-20억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="30.6" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">11억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="58.6" width="52.3" height="197.4" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-71억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="58.6" width="52.3" height="22.2" rx="3"/><text class="ic-val" x="486.0" y="94.8" text-anchor="middle">-8억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>YTN 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

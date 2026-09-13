@@ -558,6 +558,9 @@ html.lf-open{overflow:hidden}
   background:var(--surface);font-size:.875rem;font-weight:600;color:var(--ink2);text-decoration:none}
 .sibs a:hover{border-color:var(--accent);color:var(--accent)}
 .sibs a[aria-current]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.faq dl{margin:0;border-top:1px solid var(--line)}
+.faq dt{margin:0;padding:.9rem 0 .25rem;font-weight:650;color:var(--ink)}
+.faq dd{margin:0;padding:0 0 .9rem;border-bottom:1px solid var(--line);color:var(--ink2);line-height:1.7}
 .ichart{margin:2rem 0}
 .ichart svg.ic{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
 .ic-grid{stroke:var(--line2);stroke-width:1}

@@ -1,6 +1,6 @@
 ---
-title: "EG 실적, 2025년 영업이익 -22억 원 — 이익이 늘던 해 주가도 올랐을까"
-description: "EG 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+title: "EG 실적 발표일 2026년 8월 14일(2분기) · 2025년 영업이익 -22억 원"
+description: "EG 최근 실적은 2026년 8월 14일에 나왔다(2026년 2분기 반기보고서 제출). 분기마다 실적이 나온 날과 연간 매출·영업이익·순이익, 그해 주가 등락을 나란히 놓았다."
 date: "2026-09-11"
 layout: "intent"
 code: "037370"
@@ -11,13 +11,30 @@ utm_source: "eg-실적"
 cta: {"book": "경제지표의 기본기"}
 cta_lead: "실적과 경기가 주가에 닿는 순서는"
 crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기초-화학물질-제조업/", "label": "기초 화학물질 제조업"}, {"url": "/종목/eg/", "label": "EG"}, {"label": "실적"}]
+faq: [{"q": "EG 실적 발표일은 언제인가요?", "a": "가장 최근 실적(2026년 2분기)은 2026년 8월 14일에 발표됐다(반기보고서 제출). 3분기 실적은 지난해 2025년 11월 13일에 나왔다."}]
 utm_medium: "intent"
 siblings: [{"url": "/종목/eg/", "label": "EG 주가"}, {"url": "/종목/eg/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/eg/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/eg/실적/", "label": "실적", "cur": true}]
 peers: [{"url": "/종목/피엔에이치테크/실적/", "label": "피엔에이치테크 실적"}, {"url": "/종목/한일화학/실적/", "label": "한일화학 실적"}, {"url": "/종목/램테크놀러지/실적/", "label": "램테크놀러지 실적"}, {"url": "/종목/씨큐브/실적/", "label": "씨큐브 실적"}, {"url": "/종목/나노실리칸첨단소재/실적/", "label": "나노실리칸첨단소재 실적"}, {"url": "/종목/카프로/실적/", "label": "카프로 실적"}, {"url": "/종목/이엠앤아이/실적/", "label": "이엠앤아이 실적"}, {"url": "/종목/태경케미컬/실적/", "label": "태경케미컬 실적"}]
 peers_head: "같은 업종(기초 화학물질 제조업) 다른 종목의 실적"
 ---
 
+EG의 가장 최근 실적 발표는 2026년 8월 14일(2026년 2분기 반기보고서 제출)이었다.
+3분기 실적은 지난해 2025년 11월 13일에 나왔다.
+
 EG의 최근 연간 실적은 2023년 매출 618억 원·영업이익 -144억 원, 2024년 매출 652억 원·영업이익 -55억 원, 2025년 매출 628억 원·영업이익 -22억 원이다.
+
+## EG 실적 발표일
+
+| 기간 | 실적이 나온 날(정기보고서 제출) |
+|---|---|
+| 2026년 2분기 | 2026.08.14 · 반기보고서 |
+| 2026년 1분기 | 2026.05.14 · 분기보고서 |
+| 2025년 4분기 | 2026.03.16 · 사업보고서 |
+| 2025년 3분기 | 2025.11.13 · 분기보고서 |
+| 2025년 2분기 | 2025.08.14 · 반기보고서 |
+| 2025년 1분기 | 2025.05.13 · 분기보고서 |
+| 2024년 4분기 | 2025.03.18 · 사업보고서 |
+| 2024년 3분기 | 2024.11.14 · 분기보고서 |
 
 ## EG 연간 실적
 
@@ -50,4 +67,4 @@ EG의 최근 연간 실적은 2023년 매출 618억 원·영업이익 -144억 �
 
 <figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="EG 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="154.7" y2="154.7"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="154.7" width="52.3" height="25.3" rx="3"/><text class="ic-val" x="112.7" y="194.0" text-anchor="middle">-2억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="154.7" width="52.3" height="25.3" rx="3"/><text class="ic-val" x="206.0" y="194.0" text-anchor="middle">-2억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="154.7" width="52.3" height="101.3" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-8억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="154.7" width="52.3" height="88.7" rx="3"/><text class="ic-val" x="392.7" y="257.3" text-anchor="middle">-7억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="126.7" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">10억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>EG 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
 
-실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다. 실적 발표일은 금융감독원 전자공시(DART)의 잠정실적 공시일과 정기보고서 제출일(2026년 9월 13일 받음)이다.

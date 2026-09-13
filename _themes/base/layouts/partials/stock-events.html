@@ -1,0 +1,13 @@
+{{/* 종목 허브의 최근 주요 공시 — 유상증자·무상증자·자사주(취득·처분·신탁·소각) · 재료 = data/stock_events.json (tools/intent.py · 전자공시)
+     ★2026-09-13 사용자 "우리도 그렇게 작업하면 되지" — 경쟁 사이트처럼 한 페이지가 "종목+유상증자·자사주" 같은 말까지 받게 넓힌다.
+     호출: partial "stock-events.html" (dict "code" .Params.code "name" 이름) · stock.html(격자 허브) · ihub.html(새 허브) 두 곳. */}}
+{{- with index (site.Data.stock_events | default dict) .code }}
+<section class="sec">
+  <div class="sec-h"><h2>{{ $.name }} 최근 주요 공시 — 유상증자·무상증자·자사주</h2></div>
+  <div class="tw"><table class="dt">
+    <thead><tr><th>결정일</th><th>구분</th><th>내용</th></tr></thead>
+    <tbody>{{ range . }}<tr><td>{{ .d }}</td><td>{{ if .u }}<a href="{{ .u }}">{{ .t }}</a>{{ else }}{{ .t }}{{ end }}</td><td>{{ .s }}</td></tr>{{ end }}</tbody>
+  </table></div>
+  <p class="note">금융감독원 전자공시(DART) 주요사항보고서·주식소각결정 공시에서 옮겼다. 정정 공시가 있으면 마지막 숫자로 적었다.</p>
+</section>
+{{- end }}

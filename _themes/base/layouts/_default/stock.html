@@ -43,6 +43,7 @@
     <ul class="links">{{ range . }}<li><a href="{{ index . 1 }}"><span>{{ $s.name }} {{ index . 0 }}</span><span class="v">보기</span></a></li>{{ end }}</ul>
   </section>
   {{- end }}
+  {{- partial "stock-events.html" (dict "code" .Params.code "name" $s.name) }}
   <section class="sec">
     <div class="sec-h"><h2>{{ $s.name }}에서 신호가 뜬 뒤</h2></div>
     <div class="txt">{{ .Content }}</div>

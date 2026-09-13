@@ -78,4 +78,11 @@
 {{- end }}
 <script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items) | jsonify | safeJS }}</script>
 {{- end }}
+{{- /* ★자주 묻는 것 — 2026-09-13. 네이버 웹문서 상위 종목 사이트 표본 14곳 중 7곳이 FAQPage 를 싣는다(RESEARCH_20260913_네이버_검색어자리_실측.md §1).
+     효과 근거는 약하지만 비용이 없고, 문답은 intent.html 이 화면에도 똑같이 보여 준다. */}}
+{{- with .Params.faq }}
+{{- $qs := slice }}
+{{- range . }}{{ $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end }}
+<script type="application/ld+json">{{ (dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $qs) | jsonify | safeJS }}</script>
+{{- end }}
 </head>
