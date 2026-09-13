@@ -1,0 +1,53 @@
+---
+title: "코텍 실적, 2025년 영업이익 378억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "코텍 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "052330"
+name: "코텍"
+intent: "실적"
+chip: "052330 · 코스닥 · 영상 및 음향기기 제조업 · 기준일 2026.09.11"
+utm_source: "코텍-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/영상-및-음향기기-제조업/", "label": "영상 및 음향기기 제조업"}, {"url": "/종목/코텍/", "label": "코텍"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/코텍/", "label": "코텍 주가"}, {"url": "/종목/코텍/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/코텍/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/코텍/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/에스텍/실적/", "label": "에스텍 실적"}, {"url": "/종목/엠씨넥스/실적/", "label": "엠씨넥스 실적"}, {"url": "/종목/토비스/실적/", "label": "토비스 실적"}, {"url": "/종목/아남전자/실적/", "label": "아남전자 실적"}, {"url": "/종목/tj미디어/실적/", "label": "TJ미디어 실적"}, {"url": "/종목/블루콤/실적/", "label": "블루콤 실적"}, {"url": "/종목/포커스에이아이/실적/", "label": "포커스에이아이 실적"}, {"url": "/종목/트루엔/실적/", "label": "트루엔 실적"}]
+peers_head: "같은 업종(영상 및 음향기기 제조업) 다른 종목의 실적"
+---
+
+코텍의 최근 연간 실적은 2023년 매출 3,271억 원·영업이익 48억 원, 2024년 매출 3,080억 원·영업이익 235억 원, 2025년 매출 3,968억 원·영업이익 378억 원이다.
+
+## 코텍 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,271억 원 | 3,080억 원 | 3,968억 원 | — |
+| 영업이익 | 48억 원 | 235억 원 | 378억 원 | — |
+| 당기순이익 | 77억 원 | 266억 원 | 283억 원 | — |
+| 영업이익률 | 1.5% | 7.7% | 9.5% | — |
+| ROE | 2.5% | 8.3% | 8.0% | — |
+| EPS | 509원 | 1,742원 | 1,655원 | — |
+| PER | 12.9배 | 4.5배 | 5.5배 | — |
+| PBR | 0.28배 | 0.30배 | 0.32배 | — |
+| 주당배당금 | 200원 | 250원 | 300원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 48억 원이고, 주가는 한 해 -28.0% 움직였다. 2024년은 영업이익 235억 원 (전년보다 +390%)이고, 주가는 한 해 +19.8% 움직였다. 2025년은 영업이익 378억 원 (전년보다 +61%)이고, 주가는 한 해 +14.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코텍 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="122.5" y2="122.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="122.5" width="104.5" height="133.5" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-28%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="94.5" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+20%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="51.5" width="104.5" height="71.0" rx="3"/><text class="ic-val" x="532.7" y="45.5" text-anchor="middle">+15%</text></svg><figcaption>코텍 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 코텍 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 944억 원 | 1,056억 원 | 1,125억 원 | 1,168억 원 | 1,296억 원 | — |
+| 영업이익 | 67억 원 | 82억 원 | 122억 원 | 154억 원 | 160억 원 | — |
+| 당기순이익 | 17억 원 | 58억 원 | 119억 원 | 157억 원 | 162억 원 | — |
+| 영업이익률 | 7.1% | 7.8% | 10.8% | 13.2% | 12.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코텍 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="160.5" width="52.3" height="95.5" rx="3"/><text class="ic-val" x="112.7" y="154.5" text-anchor="middle">67억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="139.2" width="52.3" height="116.8" rx="3"/><text class="ic-val" x="206.0" y="133.2" text-anchor="middle">82억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="82.2" width="52.3" height="173.8" rx="3"/><text class="ic-val" x="299.3" y="76.2" text-anchor="middle">122억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="36.5" width="52.3" height="219.4" rx="3"/><text class="ic-val" x="392.7" y="30.5" text-anchor="middle">154억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">160억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>코텍 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

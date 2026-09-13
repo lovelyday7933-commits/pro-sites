@@ -1,0 +1,54 @@
+---
+title: "하나마이크론 실적, 2025년 영업이익 1,277억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "하나마이크론 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "067310"
+name: "하나마이크론"
+intent: "실적"
+chip: "067310 · 코스닥 · 반도체 제조업 · 기준일 2026.09.11"
+utm_source: "하나마이크론-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/반도체-제조업/", "label": "반도체 제조업"}, {"url": "/종목/하나마이크론/", "label": "하나마이크론"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/하나마이크론/", "label": "하나마이크론 주가"}, {"url": "/종목/하나마이크론/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/하나마이크론/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/하나마이크론/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/하나마이크론/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/제주반도체/실적/", "label": "제주반도체 실적"}, {"url": "/종목/파두/실적/", "label": "파두 실적"}, {"url": "/종목/hd현대에너지솔루션/실적/", "label": "HD현대에너지솔루션 실적"}, {"url": "/종목/sfa반도체/실적/", "label": "SFA반도체 실적"}, {"url": "/종목/db하이텍/실적/", "label": "DB하이텍 실적"}, {"url": "/종목/하나머티리얼즈/실적/", "label": "하나머티리얼즈 실적"}, {"url": "/종목/미코/실적/", "label": "미코 실적"}, {"url": "/종목/lx세미콘/실적/", "label": "LX세미콘 실적"}]
+peers_head: "같은 업종(반도체 제조업) 다른 종목의 실적"
+---
+
+하나마이크론의 최근 연간 실적은 2023년 매출 9,680억 원·영업이익 579억 원, 2024년 매출 1조 2,507억 원·영업이익 1,068억 원, 2025년 매출 1조 5,344억 원·영업이익 1,277억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2조 4,942억 원·영업이익 4,168억 원이다.
+
+## 하나마이크론 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 9,680억 원 | 1조 2,507억 원 | 1조 5,344억 원 | 2조 4,942억 원 |
+| 영업이익 | 579억 원 | 1,068억 원 | 1,277억 원 | 4,168억 원 |
+| 당기순이익 | 10억 원 | -112억 원 | 656억 원 | 2,842억 원 |
+| 영업이익률 | 6.0% | 8.5% | 8.3% | 16.7% |
+| ROE | -4.7% | -7.0% | 9.9% | 44.9% |
+| EPS | -239원 | -382원 | 575원 | 3,574원 |
+| PER | -104.3배 | -24.2배 | 44.8배 | 9.6배 |
+| PBR | 4.57배 | 1.65배 | 4.29배 | 3.47배 |
+| 주당배당금 | 42원 | 70원 | 70원 | 140원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 579억 원이고, 주가는 한 해 +213.8% 움직였다. 2024년은 영업이익 1,068억 원 (전년보다 +84%)이고, 주가는 한 해 -62.9% 움직였다. 2025년은 영업이익 1,277억 원 (전년보다 +20%)이고, 주가는 한 해 +178.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="하나마이크론 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="204.2" y2="204.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="176.2" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+214%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="204.2" width="104.5" height="51.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-63%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="57.0" width="104.5" height="147.2" rx="3"/><text class="ic-val" x="532.7" y="51.0" text-anchor="middle">+179%</text></svg><figcaption>하나마이크론 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 하나마이크론 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3,402억 원 | 4,324억 원 | 4,501억 원 | 5,077억 원 | 6,832억 원 | 6,452억 원 |
+| 영업이익 | 302억 원 | 384억 원 | 473억 원 | 720억 원 | 1,423억 원 | 1,073억 원 |
+| 당기순이익 | 71억 원 | 218억 원 | 361억 원 | 728억 원 | 851억 원 | — |
+| 영업이익률 | 8.9% | 8.9% | 10.5% | 14.2% | 20.8% | 16.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="하나마이크론 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="207.6" width="52.3" height="48.4" rx="3"/><text class="ic-val" x="112.7" y="201.6" text-anchor="middle">302억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="194.5" width="52.3" height="61.5" rx="3"/><text class="ic-val" x="206.0" y="188.5" text-anchor="middle">384억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="180.2" width="52.3" height="75.8" rx="3"/><text class="ic-val" x="299.3" y="174.2" text-anchor="middle">473억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="140.6" width="52.3" height="115.4" rx="3"/><text class="ic-val" x="392.7" y="134.6" text-anchor="middle">720억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">1,423억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="84.1" width="52.3" height="171.9" rx="3"/><text class="ic-val" x="579.3" y="78.1" text-anchor="middle">1,073억</text></svg><figcaption>하나마이크론 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

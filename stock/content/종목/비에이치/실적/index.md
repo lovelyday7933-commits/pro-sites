@@ -1,0 +1,54 @@
+---
+title: "비에이치 실적, 2025년 영업이익 540억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "비에이치 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "090460"
+name: "비에이치"
+intent: "실적"
+chip: "090460 · 코스피 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "비에이치-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/비에이치/", "label": "비에이치"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/비에이치/", "label": "비에이치 주가"}, {"url": "/종목/비에이치/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/비에이치/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/비에이치/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/비에이치/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/솔루엠/실적/", "label": "솔루엠 실적"}, {"url": "/종목/파미셀/실적/", "label": "파미셀 실적"}, {"url": "/종목/솔루스첨단소재/실적/", "label": "솔루스첨단소재 실적"}, {"url": "/종목/티에프이/실적/", "label": "티에프이 실적"}, {"url": "/종목/씨엠티엑스/실적/", "label": "씨엠티엑스 실적"}, {"url": "/종목/자화전자/실적/", "label": "자화전자 실적"}, {"url": "/종목/에프에스티/실적/", "label": "에프에스티 실적"}, {"url": "/종목/ls머트리얼즈/실적/", "label": "LS머트리얼즈 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+비에이치의 최근 연간 실적은 2023년 매출 1조 5,920억 원·영업이익 848억 원, 2024년 매출 1조 7,544억 원·영업이익 871억 원, 2025년 매출 1조 7,927억 원·영업이익 540억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 8,848억 원·영업이익 925억 원이다.
+
+## 비에이치 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 5,920억 원 | 1조 7,544억 원 | 1조 7,927억 원 | 1조 8,848억 원 |
+| 영업이익 | 848억 원 | 871억 원 | 540억 원 | 925억 원 |
+| 당기순이익 | 849억 원 | 776억 원 | 406억 원 | 878억 원 |
+| 영업이익률 | 5.3% | 5.0% | 3.0% | 4.9% |
+| ROE | 15.1% | 9.9% | 4.2% | 10.0% |
+| EPS | 2,631원 | 1,945원 | 906원 | 2,336원 |
+| PER | 8.0배 | 8.9배 | 17.8배 | 8.1배 |
+| PBR | 1.05배 | 0.75배 | 0.70배 | 0.75배 |
+| 주당배당금 | 250원 | 250원 | 250원 | 275원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 848억 원이고, 주가는 한 해 -5.8% 움직였다. 2024년은 영업이익 871억 원 (전년보다 +3%)이고, 주가는 한 해 -17.9% 움직였다. 2025년은 영업이익 540억 원 (전년보다 -38%)이고, 주가는 한 해 -7.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="비에이치 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="73.9" rx="3"/><text class="ic-val" x="159.3" y="115.9" text-anchor="middle">-6%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-18%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="93.3" rx="3"/><text class="ic-val" x="532.7" y="135.3" text-anchor="middle">-7%</text></svg><figcaption>비에이치 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 비에이치 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3,897억 원 | 5,625억 원 | 5,080억 원 | 3,716억 원 | 4,142억 원 | 5,476억 원 |
+| 영업이익 | 160억 원 | 345억 원 | 288억 원 | 107억 원 | 79억 원 | 373억 원 |
+| 당기순이익 | 38억 원 | 400억 원 | 224억 원 | 261억 원 | 76억 원 | 333억 원 |
+| 영업이익률 | 4.1% | 6.1% | 5.7% | 2.9% | 1.9% | 6.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="비에이치 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="158.2" width="52.3" height="97.8" rx="3"/><text class="ic-val" x="112.7" y="152.2" text-anchor="middle">160억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="45.1" width="52.3" height="210.9" rx="3"/><text class="ic-val" x="206.0" y="39.1" text-anchor="middle">345억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="80.0" width="52.3" height="176.0" rx="3"/><text class="ic-val" x="299.3" y="74.0" text-anchor="middle">288억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="190.6" width="52.3" height="65.4" rx="3"/><text class="ic-val" x="392.7" y="184.6" text-anchor="middle">107억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="207.7" width="52.3" height="48.3" rx="3"/><text class="ic-val" x="486.0" y="201.7" text-anchor="middle">79억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">373억</text></svg><figcaption>비에이치 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

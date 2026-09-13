@@ -1,0 +1,54 @@
+---
+title: "현대로템 실적, 2025년 영업이익 1조 56억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "현대로템 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "064350"
+name: "현대로템"
+intent: "실적"
+chip: "064350 · 코스피 · 그외 기타 운송장비 제조업 · 기준일 2026.09.11"
+utm_source: "현대로템-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/그외-기타-운송장비-제조업/", "label": "그외 기타 운송장비 제조업"}, {"url": "/종목/현대로템/", "label": "현대로템"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/현대로템/", "label": "현대로템 주가"}, {"url": "/종목/현대로템/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/현대로템/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/현대로템/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/현대로템/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/일진하이솔루스/실적/", "label": "일진하이솔루스 실적"}, {"url": "/종목/이녹스/실적/", "label": "이녹스 실적"}, {"url": "/종목/알톤/실적/", "label": "알톤 실적"}, {"url": "/종목/kr모터스/실적/", "label": "KR모터스 실적"}]
+peers_head: "같은 업종(그외 기타 운송장비 제조업) 다른 종목의 실적"
+---
+
+현대로템의 최근 연간 실적은 2023년 매출 3조 5,874억 원·영업이익 2,100억 원, 2024년 매출 4조 3,766억 원·영업이익 4,566억 원, 2025년 매출 5조 8,390억 원·영업이익 1조 56억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6조 8,409억 원·영업이익 1조 829억 원이다.
+
+## 현대로템 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3조 5,874억 원 | 4조 3,766억 원 | 5조 8,390억 원 | 6조 8,409억 원 |
+| 영업이익 | 2,100억 원 | 4,566억 원 | 1조 56억 원 | 1조 829억 원 |
+| 당기순이익 | 1,568억 원 | 4,053억 원 | 7,705억 원 | 8,983억 원 |
+| 영업이익률 | 5.8% | 10.4% | 17.2% | 15.8% |
+| ROE | 10.1% | 21.9% | 30.1% | 25.7% |
+| EPS | 1,475원 | 3,728원 | 7,055원 | 8,202원 |
+| PER | 18.0배 | 13.3배 | 26.6배 | 15.1배 |
+| PBR | 1.73배 | 2.65배 | 6.66배 | 3.48배 |
+| 주당배당금 | 100원 | 200원 | 600원 | 703원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,100억 원이고, 주가는 한 해 -6.3% 움직였다. 2024년은 영업이익 4,566억 원 (전년보다 +117%)이고, 주가는 한 해 +86.8% 움직였다. 2025년은 영업이익 1조 56억 원 (전년보다 +120%)이고, 주가는 한 해 +278.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="현대로템 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="250.9" y2="250.9"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="250.9" width="104.5" height="5.1" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-6%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="181.3" width="104.5" height="69.6" rx="3"/><text class="ic-val" x="346.0" y="175.3" text-anchor="middle">+87%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="222.9" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+278%</text></svg><figcaption>현대로템 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 현대로템 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 4,176억 원 | 1조 6,196억 원 | 1조 6,256억 원 | 1조 4,575억 원 | 1조 6,061억 원 | 1조 8,166억 원 |
+| 영업이익 | 2,576억 원 | 2,777억 원 | 2,675억 원 | 2,242억 원 | 2,324억 원 | 2,899억 원 |
+| 당기순이익 | 1,895억 원 | 1,984억 원 | 2,254억 원 | 2,027억 원 | 1,863억 원 | 2,581억 원 |
+| 영업이익률 | 18.2% | 17.1% | 16.4% | 15.4% | 14.5% | 16.0% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="현대로템 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="53.4" width="52.3" height="202.6" rx="3"/><text class="ic-val" x="112.7" y="47.4" text-anchor="middle">2,576억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="37.6" width="52.3" height="218.4" rx="3"/><text class="ic-val" x="206.0" y="31.6" text-anchor="middle">2,777억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="45.6" width="52.3" height="210.4" rx="3"/><text class="ic-val" x="299.3" y="39.6" text-anchor="middle">2,675억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="79.7" width="52.3" height="176.3" rx="3"/><text class="ic-val" x="392.7" y="73.7" text-anchor="middle">2,242억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="73.2" width="52.3" height="182.8" rx="3"/><text class="ic-val" x="486.0" y="67.2" text-anchor="middle">2,324억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">2,899억</text></svg><figcaption>현대로템 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "삼성전자 실적, 2025년 영업이익 43조 6,011억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "삼성전자 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "005930"
+name: "삼성전자"
+intent: "실적"
+chip: "005930 · 코스피 · 통신 및 방송 장비 제조업 · 기준일 2026.09.11"
+utm_source: "삼성전자-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/통신-및-방송-장비-제조업/", "label": "통신 및 방송 장비 제조업"}, {"url": "/종목/삼성전자/", "label": "삼성전자"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/삼성전자/", "label": "삼성전자 주가"}, {"url": "/종목/삼성전자/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/삼성전자/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/삼성전자/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/삼성전자/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/lg전자/실적/", "label": "LG전자 실적"}, {"url": "/종목/한화비전/실적/", "label": "한화비전 실적"}, {"url": "/종목/rfhic/실적/", "label": "RFHIC 실적"}, {"url": "/종목/인텔리안테크/실적/", "label": "인텔리안테크 실적"}, {"url": "/종목/케이엠더블유/실적/", "label": "케이엠더블유 실적"}, {"url": "/종목/쏠리드/실적/", "label": "쏠리드 실적"}, {"url": "/종목/삼지전자/실적/", "label": "삼지전자 실적"}, {"url": "/종목/빛과전자/실적/", "label": "빛과전자 실적"}]
+peers_head: "같은 업종(통신 및 방송 장비 제조업) 다른 종목의 실적"
+---
+
+삼성전자의 최근 연간 실적은 2023년 매출 258조 9,355억 원·영업이익 6조 5,670억 원, 2024년 매출 300조 8,709억 원·영업이익 32조 7,260억 원, 2025년 매출 333조 6,059억 원·영업이익 43조 6,011억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 739조 6,375억 원·영업이익 391조 2,503억 원이다.
+
+## 삼성전자 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 258조 9,355억 원 | 300조 8,709억 원 | 333조 6,059억 원 | 739조 6,375억 원 |
+| 영업이익 | 6조 5,670억 원 | 32조 7,260억 원 | 43조 6,011억 원 | 391조 2,503억 원 |
+| 당기순이익 | 15조 4,871억 원 | 34조 4,514억 원 | 45조 2,068억 원 | 325조 8,598억 원 |
+| 영업이익률 | 2.5% | 10.9% | 13.1% | 52.9% |
+| ROE | 4.2% | 9.0% | 10.8% | 56.4% |
+| EPS | 2,131원 | 4,950원 | 6,564원 | 48,239원 |
+| PER | 36.8배 | 10.8배 | 18.3배 | 5.4배 |
+| PBR | 1.51배 | 0.92배 | 1.87배 | 2.37배 |
+| 주당배당금 | 1,444원 | 1,446원 | 1,668원 | 7,512원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 6조 5,670억 원이고, 주가는 한 해 +42.0% 움직였다. 2024년은 영업이익 32조 7,260억 원 (전년보다 +398%)이고, 주가는 한 해 -32.2% 움직였다. 2025년은 영업이익 43조 6,011억 원 (전년보다 +33%)이고, 주가는 한 해 +125.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼성전자 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="209.4" y2="209.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="148.7" width="104.5" height="60.7" rx="3"/><text class="ic-val" x="159.3" y="142.7" text-anchor="middle">+42%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="209.4" width="104.5" height="46.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-32%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="181.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+125%</text></svg><figcaption>삼성전자 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 삼성전자 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 74조 5,663억 원 | 86조 617억 원 | 93조 8,374억 원 | 133조 8,734억 원 | 171조 4,995억 원 | 206조 3,821억 원 |
+| 영업이익 | 4조 6,761억 원 | 12조 1,661억 원 | 20조 737억 원 | 57조 2,328억 원 | 89조 4,924억 원 | 113조 1,257억 원 |
+| 당기순이익 | 5조 1,164억 원 | 12조 2,257억 원 | 19조 6,417억 원 | 47조 2,253억 원 | 71조 6,245억 원 | 96조 2,798억 원 |
+| 영업이익률 | 6.3% | 14.1% | 21.4% | 42.8% | 52.2% | 54.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼성전자 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="246.6" width="52.3" height="9.4" rx="3"/><text class="ic-val" x="112.7" y="240.6" text-anchor="middle">4조 6,761억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="231.5" width="52.3" height="24.5" rx="3"/><text class="ic-val" x="206.0" y="225.5" text-anchor="middle">12조 1,661억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="215.5" width="52.3" height="40.5" rx="3"/><text class="ic-val" x="299.3" y="209.5" text-anchor="middle">20조 737억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="140.6" width="52.3" height="115.4" rx="3"/><text class="ic-val" x="392.7" y="134.6" text-anchor="middle">57조 2,328억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="75.6" width="52.3" height="180.4" rx="3"/><text class="ic-val" x="486.0" y="69.6" text-anchor="middle">89조 4,924억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">113조 1,257억</text></svg><figcaption>삼성전자 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

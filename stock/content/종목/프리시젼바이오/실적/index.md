@@ -1,0 +1,53 @@
+---
+title: "프리시젼바이오 실적, 2025년 영업이익 -54억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "프리시젼바이오 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "335810"
+name: "프리시젼바이오"
+intent: "실적"
+chip: "335810 · 코스닥 · 의료용 기기 제조업 · 기준일 2026.09.11"
+utm_source: "프리시젼바이오-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의료용-기기-제조업/", "label": "의료용 기기 제조업"}, {"url": "/종목/프리시젼바이오/", "label": "프리시젼바이오"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/프리시젼바이오/", "label": "프리시젼바이오 주가"}, {"url": "/종목/프리시젼바이오/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/프리시젼바이오/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/프리시젼바이오/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/세종메디칼/실적/", "label": "세종메디칼 실적"}, {"url": "/종목/파인메딕스/실적/", "label": "파인메딕스 실적"}, {"url": "/종목/진시스템/실적/", "label": "진시스템 실적"}, {"url": "/종목/씨유메디칼/실적/", "label": "씨유메디칼 실적"}, {"url": "/종목/덴티스/실적/", "label": "덴티스 실적"}, {"url": "/종목/멕아이씨에스/실적/", "label": "멕아이씨에스 실적"}, {"url": "/종목/제이피아이헬스케어/실적/", "label": "제이피아이헬스케어 실적"}, {"url": "/종목/라메디텍/실적/", "label": "라메디텍 실적"}]
+peers_head: "같은 업종(의료용 기기 제조업) 다른 종목의 실적"
+---
+
+프리시젼바이오의 최근 연간 실적은 2023년 매출 204억 원·영업이익 -48억 원, 2024년 매출 191억 원·영업이익 -54억 원, 2025년 매출 199억 원·영업이익 -54억 원이다.
+
+## 프리시젼바이오 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 204억 원 | 191억 원 | 199억 원 | — |
+| 영업이익 | -48억 원 | -54억 원 | -54억 원 | — |
+| 당기순이익 | -45억 원 | -73억 원 | -100억 원 | — |
+| 영업이익률 | -23.6% | -28.0% | -27.0% | — |
+| ROE | -13.7% | -25.3% | -34.3% | — |
+| EPS | -387원 | -629원 | -793원 | — |
+| PER | -12.3배 | -4.5배 | -3.4배 | — |
+| PBR | 1.73배 | 1.28배 | 1.46배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -48억 원이고, 주가는 한 해 -19.6% 움직였다. 2024년은 영업이익 -54억 원 (전년보다 -12%)이고, 주가는 한 해 -40.8% 움직였다. 2025년은 영업이익 -54억 원 (전년보다 0%)이고, 주가는 한 해 -6.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="프리시젼바이오 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="109.4" rx="3"/><text class="ic-val" x="159.3" y="151.4" text-anchor="middle">-20%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-41%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="33.6" rx="3"/><text class="ic-val" x="532.7" y="75.6" text-anchor="middle">-6%</text></svg><figcaption>프리시젼바이오 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 프리시젼바이오 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 49억 원 | 51억 원 | 53억 원 | 70억 원 | 62억 원 | — |
+| 영업이익 | -15억 원 | -10억 원 | -14억 원 | 0억 원 | -12억 원 | — |
+| 당기순이익 | -27억 원 | -15억 원 | -38억 원 | 1억 원 | -12억 원 | — |
+| 영업이익률 | -29.6% | -20.1% | -26.4% | 0.2% | -19.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="프리시젼바이오 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-15억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="152.0" rx="3"/><text class="ic-val" x="206.0" y="194.0" text-anchor="middle">-10억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="212.8" rx="3"/><text class="ic-val" x="299.3" y="254.8" text-anchor="middle">-14억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="1.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">0억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="182.4" rx="3"/><text class="ic-val" x="486.0" y="224.4" text-anchor="middle">-12억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>프리시젼바이오 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

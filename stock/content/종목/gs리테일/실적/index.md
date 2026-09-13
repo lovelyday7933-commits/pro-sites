@@ -1,0 +1,54 @@
+---
+title: "GS리테일 실적, 2025년 영업이익 2,921억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "GS리테일 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "007070"
+name: "GS리테일"
+intent: "실적"
+chip: "007070 · 코스피 · 종합 소매업 · 기준일 2026.09.11"
+utm_source: "gs리테일-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/종합-소매업/", "label": "종합 소매업"}, {"url": "/종목/gs리테일/", "label": "GS리테일"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/gs리테일/", "label": "GS리테일 주가"}, {"url": "/종목/gs리테일/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/gs리테일/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/gs리테일/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/gs리테일/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/현대백화점/실적/", "label": "현대백화점 실적"}, {"url": "/종목/이마트/실적/", "label": "이마트 실적"}, {"url": "/종목/bgf리테일/실적/", "label": "BGF리테일 실적"}, {"url": "/종목/롯데쇼핑/실적/", "label": "롯데쇼핑 실적"}, {"url": "/종목/신세계/실적/", "label": "신세계 실적"}, {"url": "/종목/현대그린푸드/실적/", "label": "현대그린푸드 실적"}, {"url": "/종목/한화갤러리아/실적/", "label": "한화갤러리아 실적"}, {"url": "/종목/광주신세계/실적/", "label": "광주신세계 실적"}]
+peers_head: "같은 업종(종합 소매업) 다른 종목의 실적"
+---
+
+GS리테일의 최근 연간 실적은 2023년 매출 11조 1,341억 원·영업이익 2,918억 원, 2024년 매출 11조 5,794억 원·영업이익 2,561억 원, 2025년 매출 11조 9,574억 원·영업이익 2,921억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 12조 5,145억 원·영업이익 3,627억 원이다.
+
+## GS리테일 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 11조 1,341억 원 | 11조 5,794억 원 | 11조 9,574억 원 | 12조 5,145억 원 |
+| 영업이익 | 2,918억 원 | 2,561억 원 | 2,921억 원 | 3,627억 원 |
+| 당기순이익 | 221억 원 | 98억 원 | 502억 원 | 2,220억 원 |
+| 영업이익률 | 2.6% | 2.2% | 2.4% | 2.9% |
+| ROE | 0.4% | 0.1% | 1.3% | 6.6% |
+| EPS | 169원 | 25원 | 519원 | 2,688원 |
+| PER | 116.8배 | 666.9배 | 38.7배 | 9.3배 |
+| PBR | 0.50배 | 0.43배 | 0.51배 | 0.60배 |
+| 주당배당금 | 500원 | 500원 | 600원 | 686원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,918억 원이고, 주가는 한 해 -18.1% 움직였다. 2024년은 영업이익 2,561억 원 (전년보다 -12%)이고, 주가는 한 해 -16.3% 움직였다. 2025년은 영업이익 2,921억 원 (전년보다 +14%)이고, 주가는 한 해 +21.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="GS리테일 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="152.6" y2="152.6"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="152.6" width="104.5" height="103.4" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-18%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="152.6" width="104.5" height="93.1" rx="3"/><text class="ic-val" x="346.0" y="259.6" text-anchor="middle">-16%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="124.6" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+22%</text></svg><figcaption>GS리테일 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## GS리테일 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2조 9,762억 원 | 3조 2,054억 원 | 3조 260억 원 | 2조 8,549억 원 | 3조 1,751억 원 | 3조 3,410억 원 |
+| 영업이익 | 858억 원 | 1,111억 원 | 533억 원 | 583억 원 | 1,094억 원 | 1,249억 원 |
+| 당기순이익 | 142억 원 | 903억 원 | -591억 원 | 425억 원 | 646억 원 | 807억 원 |
+| 영업이익률 | 2.9% | 3.5% | 1.8% | 2.0% | 3.5% | 3.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="GS리테일 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="99.4" width="52.3" height="156.6" rx="3"/><text class="ic-val" x="112.7" y="93.4" text-anchor="middle">858억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="53.2" width="52.3" height="202.8" rx="3"/><text class="ic-val" x="206.0" y="47.2" text-anchor="middle">1,111억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="158.7" width="52.3" height="97.3" rx="3"/><text class="ic-val" x="299.3" y="152.7" text-anchor="middle">533억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="149.6" width="52.3" height="106.4" rx="3"/><text class="ic-val" x="392.7" y="143.6" text-anchor="middle">583억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="56.3" width="52.3" height="199.7" rx="3"/><text class="ic-val" x="486.0" y="50.3" text-anchor="middle">1,094억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1,249억</text></svg><figcaption>GS리테일 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

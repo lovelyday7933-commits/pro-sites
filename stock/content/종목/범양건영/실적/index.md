@@ -1,0 +1,53 @@
+---
+title: "범양건영 실적, 2025년 영업이익 -513억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "범양건영 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "002410"
+name: "범양건영"
+intent: "실적"
+chip: "002410 · 코스피 · 건물 건설업 · 기준일 2026.09.11"
+utm_source: "범양건영-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/건물-건설업/", "label": "건물 건설업"}, {"url": "/종목/범양건영/", "label": "범양건영"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/범양건영/", "label": "범양건영 주가"}, {"url": "/종목/범양건영/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/범양건영/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/범양건영/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/sgc-ec/실적/", "label": "SGC E&C 실적"}, {"url": "/종목/이화공영/실적/", "label": "이화공영 실적"}, {"url": "/종목/대원/실적/", "label": "대원 실적"}, {"url": "/종목/삼일기업공사/실적/", "label": "삼일기업공사 실적"}, {"url": "/종목/상지건설/실적/", "label": "상지건설 실적"}, {"url": "/종목/서한/실적/", "label": "서한 실적"}, {"url": "/종목/남화토건/실적/", "label": "남화토건 실적"}, {"url": "/종목/까뮤이앤씨/실적/", "label": "까뮤이앤씨 실적"}]
+peers_head: "같은 업종(건물 건설업) 다른 종목의 실적"
+---
+
+범양건영의 최근 연간 실적은 2023년 매출 1,208억 원·영업이익 -104억 원, 2024년 매출 1,014억 원·영업이익 -382억 원, 2025년 매출 718억 원·영업이익 -513억 원이다.
+
+## 범양건영 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,208억 원 | 1,014억 원 | 718억 원 | — |
+| 영업이익 | -104억 원 | -382억 원 | -513억 원 | — |
+| 당기순이익 | -91억 원 | -463억 원 | -875억 원 | — |
+| 영업이익률 | -8.6% | -37.7% | -71.4% | — |
+| ROE | -13.7% | -114.8% | 344.1% | — |
+| EPS | -367원 | -1,829원 | -3,184원 | — |
+| PER | -5.7배 | -1.4배 | -0.6배 | — |
+| PBR | 0.84배 | 3.74배 | -0.76배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -104억 원이고, 주가는 한 해 -37.9% 움직였다. 2024년은 영업이익 -382억 원 (전년보다 -267%)이고, 주가는 한 해 +21.4% 움직였다. 2025년은 영업이익 -513억 원 (전년보다 -34%)이고, 주가는 한 해 -24.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="범양건영 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="110.4" y2="110.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="110.4" width="104.5" height="145.6" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-38%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="82.4" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+21%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="110.4" width="104.5" height="92.7" rx="3"/><text class="ic-val" x="532.7" y="217.1" text-anchor="middle">-24%</text></svg><figcaption>범양건영 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 범양건영 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 163억 원 | 129억 원 | 62억 원 | 77억 원 | 10억 원 | — |
+| 영업이익 | -231억 원 | -33억 원 | -245억 원 | 5억 원 | -5억 원 | — |
+| 당기순이익 | -225억 원 | -34억 원 | -526억 원 | -8억 원 | 9억 원 | — |
+| 영업이익률 | -141.5% | -25.8% | -395.7% | 6.8% | -46.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="범양건영 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="32.6" y2="32.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="32.6" width="52.3" height="210.7" rx="3"/><text class="ic-val" x="112.7" y="257.2" text-anchor="middle">-231억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="32.6" width="52.3" height="30.1" rx="3"/><text class="ic-val" x="206.0" y="76.7" text-anchor="middle">-33억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="32.6" width="52.3" height="223.4" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-245억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="4.6" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">5억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="32.6" width="52.3" height="4.6" rx="3"/><text class="ic-val" x="486.0" y="51.1" text-anchor="middle">-5억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>범양건영 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

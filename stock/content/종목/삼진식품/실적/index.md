@@ -1,0 +1,47 @@
+---
+title: "삼진식품 실적, 2025년 영업이익 60억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "삼진식품 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "0013V0"
+name: "삼진식품"
+intent: "실적"
+chip: "0013V0 · 코스닥 · 수산물 가공 및 저장 처리업 · 기준일 2026.09.11"
+utm_source: "삼진식품-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/수산물-가공-및-저장-처리업/", "label": "수산물 가공 및 저장 처리업"}, {"url": "/종목/삼진식품/", "label": "삼진식품"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/삼진식품/", "label": "삼진식품 주가"}, {"url": "/종목/삼진식품/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/삼진식품/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/사조오양/실적/", "label": "사조오양 실적"}, {"url": "/종목/한성기업/실적/", "label": "한성기업 실적"}, {"url": "/종목/사조씨푸드/실적/", "label": "사조씨푸드 실적"}, {"url": "/종목/사조산업/실적/", "label": "사조산업 실적"}, {"url": "/종목/사조대림/실적/", "label": "사조대림 실적"}]
+peers_head: "같은 업종(수산물 가공 및 저장 처리업) 다른 종목의 실적"
+---
+
+삼진식품의 최근 연간 실적은 2023년 매출 856억 원·영업이익 31억 원, 2024년 매출 964억 원·영업이익 48억 원, 2025년 매출 1,095억 원·영업이익 60억 원이다.
+
+## 삼진식품 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 856억 원 | 964억 원 | 1,095억 원 | — |
+| 영업이익 | 31억 원 | 48억 원 | 60억 원 | — |
+| 당기순이익 | 19억 원 | 10억 원 | 52억 원 | — |
+| 영업이익률 | 3.6% | 5.0% | 5.4% | — |
+| ROE | 10.8% | 33.3% | 22.3% | — |
+| EPS | 358원 | 194원 | 739원 | — |
+| PER | — | — | 18.8배 | — |
+| PBR | 0.00배 | 0.00배 | 3.29배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 삼진식품 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 204억 원 | 252억 원 | 334억 원 | 333억 원 | 215억 원 | — |
+| 영업이익 | 4억 원 | 16억 원 | 16억 원 | 39억 원 | -5억 원 | — |
+| 당기순이익 | 12억 원 | 10억 원 | 15억 원 | 29억 원 | -2억 원 | — |
+| 영업이익률 | 1.9% | 6.3% | 4.9% | 11.7% | -2.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼진식품 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="230.1" y2="230.1"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="209.4" width="52.3" height="20.7" rx="3"/><text class="ic-val" x="112.7" y="203.4" text-anchor="middle">4억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="147.2" width="52.3" height="82.9" rx="3"/><text class="ic-val" x="206.0" y="141.2" text-anchor="middle">16억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="147.2" width="52.3" height="82.9" rx="3"/><text class="ic-val" x="299.3" y="141.2" text-anchor="middle">16억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="202.1" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">39억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="230.1" width="52.3" height="25.9" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-5억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>삼진식품 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "엠엑스온 실적, 2025년 영업이익 -58억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "엠엑스온 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "347890"
+name: "엠엑스온"
+intent: "실적"
+chip: "347890 · 코스닥 · 측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외 · 기준일 2026.09.11"
+utm_source: "엠엑스온-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/측정,-시험,-항해,-제어-및-기타-정밀기기-제조업;-광학기기-제외/", "label": "측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외"}, {"url": "/종목/엠엑스온/", "label": "엠엑스온"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/엠엑스온/", "label": "엠엑스온 주가"}, {"url": "/종목/엠엑스온/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/엠엑스온/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/엠엑스온/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/센코/실적/", "label": "센코 실적"}, {"url": "/종목/빅텍/실적/", "label": "빅텍 실적"}, {"url": "/종목/위드텍/실적/", "label": "위드텍 실적"}, {"url": "/종목/스마트레이더시스템/실적/", "label": "스마트레이더시스템 실적"}, {"url": "/종목/피엠티/실적/", "label": "피엠티 실적"}, {"url": "/종목/피에스텍/실적/", "label": "피에스텍 실적"}, {"url": "/종목/3s/실적/", "label": "3S 실적"}, {"url": "/종목/웨이브일렉트로/실적/", "label": "웨이브일렉트로 실적"}]
+peers_head: "같은 업종(측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외) 다른 종목의 실적"
+---
+
+엠엑스온의 최근 연간 실적은 2023년 매출 330억 원·영업이익 56억 원, 2024년 매출 368억 원·영업이익 56억 원, 2025년 매출 623억 원·영업이익 -58억 원이다.
+
+## 엠엑스온 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 330억 원 | 368억 원 | 623억 원 | — |
+| 영업이익 | 56억 원 | 56억 원 | -58억 원 | — |
+| 당기순이익 | 63억 원 | 64억 원 | -28억 원 | — |
+| 영업이익률 | 17.0% | 15.3% | -9.4% | — |
+| ROE | 8.7% | 8.8% | 2.3% | — |
+| EPS | 376원 | 378원 | 101원 | — |
+| PER | 20.5배 | 14.4배 | 63.8배 | — |
+| PBR | 1.76배 | 1.20배 | 1.41배 | — |
+| 주당배당금 | 220원 | 220원 | 60원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 56억 원이고, 주가는 한 해 -3.5% 움직였다. 2024년은 영업이익 56억 원 (전년보다 0%)이고, 주가는 한 해 -29.4% 움직였다. 2025년은 영업이익 -58억 원 (전년보다 -204%)이고, 주가는 한 해 +18.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엠엑스온 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="115.3" y2="115.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="115.3" width="104.5" height="16.8" rx="3"/><text class="ic-val" x="159.3" y="146.1" text-anchor="middle">-4%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="115.3" width="104.5" height="140.7" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-29%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="87.3" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+18%</text></svg><figcaption>엠엑스온 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 엠엑스온 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 92억 원 | 74억 원 | 366억 원 | 360억 원 | 404억 원 | — |
+| 영업이익 | 12억 원 | 1억 원 | -82억 원 | 5억 원 | 3억 원 | — |
+| 당기순이익 | 15억 원 | -1억 원 | -58억 원 | 17억 원 | 14억 원 | — |
+| 영업이익률 | 12.8% | 0.9% | -22.5% | 1.4% | 0.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엠엑스온 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="57.1" y2="57.1"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="29.1" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">12억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="54.7" width="52.3" height="2.4" rx="3"/><text class="ic-val" x="206.0" y="48.7" text-anchor="middle">1억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="57.1" width="52.3" height="198.9" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-82억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="45.0" width="52.3" height="12.1" rx="3"/><text class="ic-val" x="392.7" y="39.0" text-anchor="middle">5억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="49.8" width="52.3" height="7.3" rx="3"/><text class="ic-val" x="486.0" y="43.8" text-anchor="middle">3억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>엠엑스온 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

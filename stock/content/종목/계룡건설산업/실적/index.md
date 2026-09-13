@@ -1,0 +1,53 @@
+---
+title: "계룡건설산업 실적, 2025년 영업이익 1,669억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "계룡건설산업 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "013580"
+name: "계룡건설산업"
+intent: "실적"
+chip: "013580 · 코스피 · 토목 건설업 · 기준일 2026.09.11"
+utm_source: "계룡건설산업-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/토목-건설업/", "label": "토목 건설업"}, {"url": "/종목/계룡건설산업/", "label": "계룡건설산업"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/계룡건설산업/", "label": "계룡건설산업 주가"}, {"url": "/종목/계룡건설산업/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/계룡건설산업/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/계룡건설산업/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/동부건설/실적/", "label": "동부건설 실적"}, {"url": "/종목/삼부토건/실적/", "label": "삼부토건 실적"}, {"url": "/종목/코오롱글로벌/실적/", "label": "코오롱글로벌 실적"}, {"url": "/종목/진흥기업/실적/", "label": "진흥기업 실적"}, {"url": "/종목/hl-di/실적/", "label": "HL D&I 실적"}, {"url": "/종목/동신건설/실적/", "label": "동신건설 실적"}, {"url": "/종목/태영건설/실적/", "label": "태영건설 실적"}, {"url": "/종목/일성건설/실적/", "label": "일성건설 실적"}]
+peers_head: "같은 업종(토목 건설업) 다른 종목의 실적"
+---
+
+계룡건설산업의 최근 연간 실적은 2023년 매출 2조 9,770억 원·영업이익 1,007억 원, 2024년 매출 3조 1,271억 원·영업이익 871억 원, 2025년 매출 2조 8,874억 원·영업이익 1,669억 원이다.
+
+## 계룡건설산업 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2조 9,770억 원 | 3조 1,271억 원 | 2조 8,874억 원 | — |
+| 영업이익 | 1,007억 원 | 871억 원 | 1,669억 원 | — |
+| 당기순이익 | 519억 원 | 524억 원 | 979억 원 | — |
+| 영업이익률 | 3.4% | 2.8% | 5.8% | — |
+| ROE | 6.1% | 5.6% | 11.1% | — |
+| EPS | 5,290원 | 5,189원 | 11,193원 | — |
+| PER | 2.7배 | 2.5배 | 1.8배 | — |
+| PBR | 0.16배 | 0.13배 | 0.19배 | — |
+| 주당배당금 | 400원 | 400원 | 700원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,007억 원이고, 주가는 한 해 -20.6% 움직였다. 2024년은 영업이익 871억 원 (전년보다 -14%)이고, 주가는 한 해 -10.8% 움직였다. 2025년은 영업이익 1,669억 원 (전년보다 +92%)이고, 주가는 한 해 +57.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="계룡건설산업 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="196.1" y2="196.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="196.1" width="104.5" height="59.9" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="196.1" width="104.5" height="31.4" rx="3"/><text class="ic-val" x="346.0" y="241.5" text-anchor="middle">-11%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="168.1" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+58%</text></svg><figcaption>계룡건설산업 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 계룡건설산업 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7,341억 원 | 6,617억 원 | 8,231억 원 | 6,707억 원 | 8,401억 원 | — |
+| 영업이익 | 490억 원 | 387억 원 | 481억 원 | 408억 원 | 690억 원 | — |
+| 당기순이익 | 255억 원 | 213억 원 | 346억 원 | 224억 원 | 388억 원 | — |
+| 영업이익률 | 6.7% | 5.8% | 5.8% | 6.1% | 8.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="계룡건설산업 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="94.1" width="52.3" height="161.9" rx="3"/><text class="ic-val" x="112.7" y="88.1" text-anchor="middle">490억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="128.1" width="52.3" height="127.9" rx="3"/><text class="ic-val" x="206.0" y="122.1" text-anchor="middle">387억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="97.1" width="52.3" height="158.9" rx="3"/><text class="ic-val" x="299.3" y="91.1" text-anchor="middle">481억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="121.2" width="52.3" height="134.8" rx="3"/><text class="ic-val" x="392.7" y="115.2" text-anchor="middle">408억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">690억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>계룡건설산업 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

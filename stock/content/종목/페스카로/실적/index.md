@@ -1,0 +1,48 @@
+---
+title: "페스카로 실적, 2025년 영업이익 9억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "페스카로 연간 매출·영업이익·순이익 2년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "0015S0"
+name: "페스카로"
+intent: "실적"
+chip: "0015S0 · 코스닥 · 그외 기타 전문, 과학 및 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "페스카로-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/그외-기타-전문,-과학-및-기술-서비스업/", "label": "그외 기타 전문, 과학 및 기술 서비스업"}, {"url": "/종목/페스카로/", "label": "페스카로"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/페스카로/", "label": "페스카로 주가"}, {"url": "/종목/페스카로/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/페스카로/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/소마젠/실적/", "label": "소마젠 실적"}, {"url": "/종목/그리드위즈/실적/", "label": "그리드위즈 실적"}, {"url": "/종목/피엔케이피부임상연구센타/실적/", "label": "피엔케이피부임상연구센타 실적"}, {"url": "/종목/마크로젠/실적/", "label": "마크로젠 실적"}, {"url": "/종목/파라택시스코리아/실적/", "label": "파라택시스코리아 실적"}, {"url": "/종목/지씨지놈/실적/", "label": "지씨지놈 실적"}, {"url": "/종목/우진엔텍/실적/", "label": "우진엔텍 실적"}, {"url": "/종목/아이텍/실적/", "label": "아이텍 실적"}]
+peers_head: "같은 업종(그외 기타 전문, 과학 및 기술 서비스업) 다른 종목의 실적"
+---
+
+페스카로의 최근 연간 실적은 2024년 매출 143억 원·영업이익 13억 원, 2025년 매출 166억 원·영업이익 9억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 434억 원·영업이익 65억 원이다.
+
+## 페스카로 연간 실적
+
+| 항목 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|
+| 매출액 | 143억 원 | 166억 원 | 434억 원 |
+| 영업이익 | 13억 원 | 9억 원 | 65억 원 |
+| 당기순이익 | -79억 원 | 26억 원 | 58억 원 |
+| 영업이익률 | 9.2% | 5.3% | 15.0% |
+| ROE | -46.7% | 5.4% | 8.8% |
+| EPS | -1,008원 | 304원 | 576원 |
+| PER | — | 49.4배 | 13.7배 |
+| PBR | 0.00배 | 2.38배 | 1.17배 |
+| 주당배당금 | — | — | — |
+
+## 페스카로 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 41억 원 | 45억 원 | 48억 원 | 66억 원 | 105억 원 | — |
+| 영업이익 | 1억 원 | 4억 원 | 3억 원 | 6억 원 | 5억 원 | — |
+| 당기순이익 | 3억 원 | 6억 원 | 13억 원 | 10억 원 | 14억 원 | — |
+| 영업이익률 | 2.4% | 7.8% | 6.9% | 8.7% | 5.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="페스카로 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="218.0" width="52.3" height="38.0" rx="3"/><text class="ic-val" x="112.7" y="212.0" text-anchor="middle">1억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="104.0" width="52.3" height="152.0" rx="3"/><text class="ic-val" x="206.0" y="98.0" text-anchor="middle">4억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="142.0" width="52.3" height="114.0" rx="3"/><text class="ic-val" x="299.3" y="136.0" text-anchor="middle">3억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">6억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="66.0" width="52.3" height="190.0" rx="3"/><text class="ic-val" x="486.0" y="60.0" text-anchor="middle">5억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>페스카로 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "신영증권 실적, 2026년 3월 결산 영업이익 1,958억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "신영증권 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "001720"
+name: "신영증권"
+intent: "실적"
+chip: "001720 · 코스피 · 금융 지원 서비스업 · 기준일 2026.09.11"
+utm_source: "신영증권-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/금융-지원-서비스업/", "label": "금융 지원 서비스업"}, {"url": "/종목/신영증권/", "label": "신영증권"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/신영증권/", "label": "신영증권 주가"}, {"url": "/종목/신영증권/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/신영증권/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/신영증권/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대신증권/실적/", "label": "대신증권 실적"}, {"url": "/종목/교보증권/실적/", "label": "교보증권 실적"}, {"url": "/종목/한화투자증권/실적/", "label": "한화투자증권 실적"}, {"url": "/종목/카카오페이/실적/", "label": "카카오페이 실적"}, {"url": "/종목/유안타증권/실적/", "label": "유안타증권 실적"}, {"url": "/종목/키움증권/실적/", "label": "키움증권 실적"}, {"url": "/종목/삼성증권/실적/", "label": "삼성증권 실적"}, {"url": "/종목/nh투자증권/실적/", "label": "NH투자증권 실적"}]
+peers_head: "같은 업종(금융 지원 서비스업) 다른 종목의 실적"
+---
+
+신영증권의 최근 연간 실적은 2024년 매출 2조 7,643억 원·영업이익 1,704억 원, 2025년 매출 2조 4,664억 원·영업이익 1,361억 원, 2026년 매출 3조 1,714억 원·영업이익 1,958억 원이다.
+
+## 신영증권 연간 실적
+
+| 항목 | 2024 | 2025 | 2026 | 2027(추정) |
+|---|---|---|---|---|
+| 매출액 | 2조 7,643억 원 | 2조 4,664억 원 | 3조 1,714억 원 | — |
+| 영업이익 | 1,704억 원 | 1,361억 원 | 1,958억 원 | — |
+| 당기순이익 | 1,494억 원 | 1,123억 원 | 1,561억 원 | — |
+| 영업이익률 | 6.2% | 5.5% | 6.2% | — |
+| ROE | 9.3% | 6.5% | 8.0% | — |
+| EPS | 8,677원 | 6,607원 | 9,073원 | — |
+| PER | 7.2배 | 11.4배 | 20.3배 | — |
+| PBR | 0.30배 | 0.33배 | 0.73배 | — |
+| 주당배당금 | 4,500원 | 5,000원 | 7,500원 | — |
+
+## 영업이익과 그해 주가
+
+2024년은 영업이익 1,704억 원이고, 주가는 한 해 +27.7% 움직였다. 2025년은 영업이익 1,361억 원 (전년보다 -20%)이고, 주가는 한 해 +76.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="신영증권 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="127.6" y="173.3" width="156.8" height="82.7" rx="3"/><text class="ic-val" x="206.0" y="167.3" text-anchor="middle">+28%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+76%</text></svg><figcaption>신영증권 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 신영증권 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 9,017억 원 | 4,585억 원 | 7,051억 원 | 1조 1,061억 원 | 1조 6,631억 원 | — |
+| 영업이익 | 757억 원 | 360억 원 | 370억 원 | 471억 원 | 1,211억 원 | — |
+| 당기순이익 | 611억 원 | 302억 원 | 256억 원 | 393억 원 | 943억 원 | — |
+| 영업이익률 | 8.4% | 7.9% | 5.2% | 4.2% | 7.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="신영증권 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="113.5" width="52.3" height="142.5" rx="3"/><text class="ic-val" x="112.7" y="107.5" text-anchor="middle">757억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="188.2" width="52.3" height="67.8" rx="3"/><text class="ic-val" x="206.0" y="182.2" text-anchor="middle">360억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="186.3" width="52.3" height="69.7" rx="3"/><text class="ic-val" x="299.3" y="180.3" text-anchor="middle">370억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="167.3" width="52.3" height="88.7" rx="3"/><text class="ic-val" x="392.7" y="161.3" text-anchor="middle">471억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">1,211억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>신영증권 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

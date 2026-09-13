@@ -1,0 +1,53 @@
+---
+title: "그리티 실적, 2025년 영업이익 79억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "그리티 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "204020"
+name: "그리티"
+intent: "실적"
+chip: "204020 · 코스닥 · 봉제의복 제조업 · 기준일 2026.09.11"
+utm_source: "그리티-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/봉제의복-제조업/", "label": "봉제의복 제조업"}, {"url": "/종목/그리티/", "label": "그리티"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/그리티/", "label": "그리티 주가"}, {"url": "/종목/그리티/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/그리티/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/그리티/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/씨싸이트/실적/", "label": "씨싸이트 실적"}, {"url": "/종목/메타랩스/실적/", "label": "메타랩스 실적"}, {"url": "/종목/뉴키즈온/실적/", "label": "뉴키즈온 실적"}, {"url": "/종목/좋은사람들/실적/", "label": "좋은사람들 실적"}, {"url": "/종목/비비안/실적/", "label": "비비안 실적"}, {"url": "/종목/배럴/실적/", "label": "배럴 실적"}, {"url": "/종목/티비에이치글로벌/실적/", "label": "티비에이치글로벌 실적"}, {"url": "/종목/형지엘리트/실적/", "label": "형지엘리트 실적"}]
+peers_head: "같은 업종(봉제의복 제조업) 다른 종목의 실적"
+---
+
+그리티의 최근 연간 실적은 2023년 매출 1,761억 원·영업이익 111억 원, 2024년 매출 1,947억 원·영업이익 123억 원, 2025년 매출 2,017억 원·영업이익 79억 원이다.
+
+## 그리티 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,761억 원 | 1,947억 원 | 2,017억 원 | — |
+| 영업이익 | 111억 원 | 123억 원 | 79억 원 | — |
+| 당기순이익 | 84억 원 | 97억 원 | 47억 원 | — |
+| 영업이익률 | 6.3% | 6.3% | 3.9% | — |
+| ROE | 11.7% | 12.3% | 5.7% | — |
+| EPS | 421원 | 482원 | 238원 | — |
+| PER | 7.2배 | 6.0배 | 9.2배 | — |
+| PBR | 0.80배 | 0.69배 | 0.50배 | — |
+| 주당배당금 | 100원 | 110원 | 115원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 111억 원이고, 주가는 한 해 +2.0% 움직였다. 2024년은 영업이익 123억 원 (전년보다 +11%)이고, 주가는 한 해 -4.9% 움직였다. 2025년은 영업이익 79억 원 (전년보다 -36%)이고, 주가는 한 해 -24.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="그리티 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="45.3" y2="45.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="17.3" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+2%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="45.3" width="104.5" height="42.3" rx="3"/><text class="ic-val" x="346.0" y="101.6" text-anchor="middle">-5%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="45.3" width="104.5" height="210.7" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-24%</text></svg><figcaption>그리티 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 그리티 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 621억 원 | 565억 원 | 421억 원 | 384억 원 | 599억 원 | — |
+| 영업이익 | 24억 원 | 36억 원 | 7억 원 | 6억 원 | 37억 원 | — |
+| 당기순이익 | 17억 원 | 24억 원 | -4억 원 | -4억 원 | 29억 원 | — |
+| 영업이익률 | 3.8% | 6.3% | 1.6% | 1.5% | 6.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="그리티 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="108.1" width="52.3" height="147.9" rx="3"/><text class="ic-val" x="112.7" y="102.1" text-anchor="middle">24억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="34.2" width="52.3" height="221.8" rx="3"/><text class="ic-val" x="206.0" y="28.2" text-anchor="middle">36억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="212.9" width="52.3" height="43.1" rx="3"/><text class="ic-val" x="299.3" y="206.9" text-anchor="middle">7억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="219.0" width="52.3" height="37.0" rx="3"/><text class="ic-val" x="392.7" y="213.0" text-anchor="middle">6억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">37억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>그리티 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

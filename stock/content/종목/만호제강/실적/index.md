@@ -1,0 +1,53 @@
+---
+title: "만호제강 실적, 2025년 6월 결산 영업이익 -120억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "만호제강 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "001080"
+name: "만호제강"
+intent: "실적"
+chip: "001080 · 코스피 · 1차 철강 제조업 · 기준일 2026.09.11"
+utm_source: "만호제강-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/1차-철강-제조업/", "label": "1차 철강 제조업"}, {"url": "/종목/만호제강/", "label": "만호제강"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/만호제강/", "label": "만호제강 주가"}, {"url": "/종목/만호제강/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/만호제강/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/만호제강/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/동국산업/실적/", "label": "동국산업 실적"}, {"url": "/종목/금강철강/실적/", "label": "금강철강 실적"}, {"url": "/종목/디씨엠/실적/", "label": "디씨엠 실적"}, {"url": "/종목/금강공업/실적/", "label": "금강공업 실적"}, {"url": "/종목/한국주철관공업/실적/", "label": "한국주철관공업 실적"}, {"url": "/종목/동국씨엠/실적/", "label": "동국씨엠 실적"}, {"url": "/종목/kbi동양철관/실적/", "label": "KBI동양철관 실적"}, {"url": "/종목/신스틸/실적/", "label": "신스틸 실적"}]
+peers_head: "같은 업종(1차 철강 제조업) 다른 종목의 실적"
+---
+
+만호제강의 최근 연간 실적은 2023년 매출 2,193억 원·영업이익 -124억 원, 2024년 매출 1,799억 원·영업이익 -308억 원, 2025년 매출 1,530억 원·영업이익 -120억 원이다.
+
+## 만호제강 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,193억 원 | 1,799억 원 | 1,530억 원 | — |
+| 영업이익 | -124억 원 | -308억 원 | -120억 원 | — |
+| 당기순이익 | -41억 원 | -444억 원 | -35억 원 | — |
+| 영업이익률 | -5.7% | -17.1% | -7.8% | — |
+| ROE | -1.8% | -22.1% | -1.9% | — |
+| EPS | -100원 | -1,069원 | -85원 | — |
+| PER | -43.8배 | -4.2배 | -30.4배 | — |
+| PBR | 0.57배 | 0.74배 | 0.47배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -124억 원이고, 주가는 한 해 +59.9% 움직였다. 2024년은 영업이익 -308억 원 (전년보다 -148%)이고, 주가는 한 해 -34.1% 움직였다. 2025년은 영업이익 -120억 원 (전년보다 +61%)이고, 주가는 한 해 +47.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="만호제강 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="173.2" y2="173.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="145.2" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+60%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="173.2" width="104.5" height="82.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-34%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="58.3" width="104.5" height="115.0" rx="3"/><text class="ic-val" x="532.7" y="52.3" text-anchor="middle">+47%</text></svg><figcaption>만호제강 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 만호제강 분기 실적
+
+| 항목 | 2025.03 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 371억 원 | 396억 원 | 367억 원 | 361억 원 | 377억 원 | — |
+| 영업이익 | -28억 원 | -6억 원 | -6억 원 | -37억 원 | 13억 원 | — |
+| 당기순이익 | -47억 원 | 3억 원 | 76억 원 | -50억 원 | 3억 원 | — |
+| 영업이익률 | -7.6% | -1.4% | -1.6% | -10.3% | 3.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="만호제강 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="87.3" y2="87.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.03</text><rect class="ic-bar dn" x="86.5" y="87.3" width="52.3" height="127.7" rx="3"/><text class="ic-val" x="112.7" y="229.0" text-anchor="middle">-28억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="179.9" y="87.3" width="52.3" height="27.4" rx="3"/><text class="ic-val" x="206.0" y="128.6" text-anchor="middle">-6억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="273.2" y="87.3" width="52.3" height="27.4" rx="3"/><text class="ic-val" x="299.3" y="128.6" text-anchor="middle">-6억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="366.5" y="87.3" width="52.3" height="168.7" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-37억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="59.3" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">13억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.06</text></svg><figcaption>만호제강 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

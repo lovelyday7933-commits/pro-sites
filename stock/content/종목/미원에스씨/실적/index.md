@@ -1,0 +1,53 @@
+---
+title: "미원에스씨 실적, 2025년 영업이익 655억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "미원에스씨 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "268280"
+name: "미원에스씨"
+intent: "실적"
+chip: "268280 · 코스피 · 기초 화학물질 제조업 · 기준일 2026.09.11"
+utm_source: "미원에스씨-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기초-화학물질-제조업/", "label": "기초 화학물질 제조업"}, {"url": "/종목/미원에스씨/", "label": "미원에스씨"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/미원에스씨/", "label": "미원에스씨 주가"}, {"url": "/종목/미원에스씨/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/미원에스씨/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/미원에스씨/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대한유화/실적/", "label": "대한유화 실적"}, {"url": "/종목/oci/실적/", "label": "OCI 실적"}, {"url": "/종목/금양/실적/", "label": "금양 실적"}, {"url": "/종목/애경케미칼/실적/", "label": "애경케미칼 실적"}, {"url": "/종목/동성화인텍/실적/", "label": "동성화인텍 실적"}, {"url": "/종목/엔켐/실적/", "label": "엔켐 실적"}, {"url": "/종목/성일하이텍/실적/", "label": "성일하이텍 실적"}, {"url": "/종목/천보/실적/", "label": "천보 실적"}]
+peers_head: "같은 업종(기초 화학물질 제조업) 다른 종목의 실적"
+---
+
+미원에스씨의 최근 연간 실적은 2023년 매출 4,377억 원·영업이익 225억 원, 2024년 매출 5,093억 원·영업이익 588억 원, 2025년 매출 5,321억 원·영업이익 655억 원이다.
+
+## 미원에스씨 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4,377억 원 | 5,093억 원 | 5,321억 원 | — |
+| 영업이익 | 225억 원 | 588억 원 | 655억 원 | — |
+| 당기순이익 | 186억 원 | 546억 원 | 613억 원 | — |
+| 영업이익률 | 5.2% | 11.5% | 12.3% | — |
+| ROE | 5.0% | 14.0% | 14.3% | — |
+| EPS | 3,681원 | 10,913원 | 12,261원 | — |
+| PER | 37.3배 | 13.7배 | 11.4배 | — |
+| PBR | 1.81배 | 1.79배 | 1.51배 | — |
+| 주당배당금 | 2,100원 | 2,500원 | 3,200원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 225억 원이고, 주가는 한 해 -10.8% 움직였다. 2024년은 영업이익 588억 원 (전년보다 +161%)이고, 주가는 한 해 +8.9% 움직였다. 2025년은 영업이익 655억 원 (전년보다 +11%)이고, 주가는 한 해 -6.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="미원에스씨 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="131.0" y2="131.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="131.0" width="104.5" height="125.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-11%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="103.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+9%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="131.0" width="104.5" height="72.1" rx="3"/><text class="ic-val" x="532.7" y="217.1" text-anchor="middle">-6%</text></svg><figcaption>미원에스씨 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 미원에스씨 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,348억 원 | 1,333억 원 | 1,261억 원 | 1,413억 원 | 1,628억 원 | — |
+| 영업이익 | 192억 원 | 182억 원 | 101억 원 | 193억 원 | 371억 원 | — |
+| 당기순이익 | 119억 원 | 178억 원 | 152억 원 | 215억 원 | 330억 원 | — |
+| 영업이익률 | 14.2% | 13.6% | 8.0% | 13.7% | 22.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="미원에스씨 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="138.0" width="52.3" height="118.0" rx="3"/><text class="ic-val" x="112.7" y="132.0" text-anchor="middle">192억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="144.2" width="52.3" height="111.8" rx="3"/><text class="ic-val" x="206.0" y="138.2" text-anchor="middle">182억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="193.9" width="52.3" height="62.1" rx="3"/><text class="ic-val" x="299.3" y="187.9" text-anchor="middle">101억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="137.4" width="52.3" height="118.6" rx="3"/><text class="ic-val" x="392.7" y="131.4" text-anchor="middle">193억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">371억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>미원에스씨 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

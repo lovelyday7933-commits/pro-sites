@@ -1,0 +1,54 @@
+---
+title: "LG전자 실적, 2025년 영업이익 2조 4,784억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "LG전자 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "066570"
+name: "LG전자"
+intent: "실적"
+chip: "066570 · 코스피 · 통신 및 방송 장비 제조업 · 기준일 2026.09.11"
+utm_source: "lg전자-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/통신-및-방송-장비-제조업/", "label": "통신 및 방송 장비 제조업"}, {"url": "/종목/lg전자/", "label": "LG전자"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/lg전자/", "label": "LG전자 주가"}, {"url": "/종목/lg전자/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/lg전자/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/lg전자/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/lg전자/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/한화비전/실적/", "label": "한화비전 실적"}, {"url": "/종목/rfhic/실적/", "label": "RFHIC 실적"}, {"url": "/종목/삼성전자/실적/", "label": "삼성전자 실적"}, {"url": "/종목/인텔리안테크/실적/", "label": "인텔리안테크 실적"}, {"url": "/종목/케이엠더블유/실적/", "label": "케이엠더블유 실적"}, {"url": "/종목/쏠리드/실적/", "label": "쏠리드 실적"}, {"url": "/종목/삼지전자/실적/", "label": "삼지전자 실적"}, {"url": "/종목/빛과전자/실적/", "label": "빛과전자 실적"}]
+peers_head: "같은 업종(통신 및 방송 장비 제조업) 다른 종목의 실적"
+---
+
+LG전자의 최근 연간 실적은 2023년 매출 82조 2,627억 원·영업이익 3조 6,533억 원, 2024년 매출 87조 7,282억 원·영업이익 3조 4,197억 원, 2025년 매출 89조 2,009억 원·영업이익 2조 4,784억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 96조 6,485억 원·영업이익 4조 6,395억 원이다.
+
+## LG전자 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 82조 2,627억 원 | 87조 7,282억 원 | 89조 2,009억 원 | 96조 6,485억 원 |
+| 영업이익 | 3조 6,533억 원 | 3조 4,197억 원 | 2조 4,784억 원 | 4조 6,395억 원 |
+| 당기순이익 | 1조 1,506억 원 | 5,914억 원 | 1조 2,204억 원 | 2조 8,479억 원 |
+| 영업이익률 | 4.4% | 3.9% | 2.8% | 4.8% |
+| ROE | 3.7% | 1.8% | 4.3% | 9.0% |
+| EPS | 3,942원 | 2,032원 | 5,321원 | 12,686원 |
+| PER | 25.8배 | 41.1배 | 17.3배 | 15.7배 |
+| PBR | 0.93배 | 0.72배 | 0.69배 | 1.34배 |
+| 주당배당금 | 800원 | 1,000원 | 1,350원 | 1,454원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 3조 6,533억 원이고, 주가는 한 해 +17.7% 움직였다. 2024년은 영업이익 3조 4,197억 원 (전년보다 -6%)이고, 주가는 한 해 -18.0% 움직였다. 2025년은 영업이익 2조 4,784억 원 (전년보다 -28%)이고, 주가는 한 해 +10.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LG전자 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="141.1" y2="141.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="113.1" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+18%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="141.1" width="104.5" height="114.9" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-18%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="76.8" width="104.5" height="64.3" rx="3"/><text class="ic-val" x="532.7" y="70.8" text-anchor="middle">+10%</text></svg><figcaption>LG전자 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## LG전자 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 20조 7,351억 원 | 21조 8,738억 원 | 23조 8,522억 원 | 23조 7,272억 원 | 23조 8,265억 원 | 24조 3,164억 원 |
+| 영업이익 | 6,394억 원 | 6,889억 원 | -1,090억 원 | 1조 6,737억 원 | 1조 5,791억 원 | 1조 586억 원 |
+| 당기순이익 | 6,096억 원 | 4,611억 원 | -7,259억 원 | 1조 51억 원 | 7,813억 원 | 6,038억 원 |
+| 영업이익률 | 3.1% | 3.1% | -0.5% | 7.0% | 6.6% | 4.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LG전자 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="242.1" y2="242.1"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="160.3" width="52.3" height="81.8" rx="3"/><text class="ic-val" x="112.7" y="154.3" text-anchor="middle">6,394억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="154.0" width="52.3" height="88.1" rx="3"/><text class="ic-val" x="206.0" y="148.0" text-anchor="middle">6,889억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="242.1" width="52.3" height="13.9" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-1,090억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="214.1" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">1조 6,737억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="40.1" width="52.3" height="202.0" rx="3"/><text class="ic-val" x="486.0" y="34.1" text-anchor="middle">1조 5,791억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="106.7" width="52.3" height="135.4" rx="3"/><text class="ic-val" x="579.3" y="100.7" text-anchor="middle">1조 586억</text></svg><figcaption>LG전자 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "신한지주 실적, 2025년 영업이익 7조 234억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "신한지주 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "055550"
+name: "신한지주"
+intent: "실적"
+chip: "055550 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "신한지주-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/신한지주/", "label": "신한지주"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/신한지주/", "label": "신한지주 주가"}, {"url": "/종목/신한지주/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/신한지주/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/신한지주/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/신한지주/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/kb금융/실적/", "label": "KB금융 실적"}, {"url": "/종목/sk/실적/", "label": "SK 실적"}, {"url": "/종목/하나금융지주/실적/", "label": "하나금융지주 실적"}, {"url": "/종목/hd한국조선해양/실적/", "label": "HD한국조선해양 실적"}, {"url": "/종목/우리금융지주/실적/", "label": "우리금융지주 실적"}, {"url": "/종목/메리츠금융지주/실적/", "label": "메리츠금융지주 실적"}, {"url": "/종목/sk스퀘어/실적/", "label": "SK스퀘어 실적"}, {"url": "/종목/hd현대/실적/", "label": "HD현대 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+신한지주의 최근 연간 실적은 2023년 매출 61조 3,326억 원·영업이익 6조 1,009억 원, 2024년 매출 74조 643억 원·영업이익 6조 4,587억 원, 2025년 매출 64조 6,820억 원·영업이익 7조 234억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 —·영업이익 8조 830억 원이다.
+
+## 신한지주 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 61조 3,326억 원 | 74조 643억 원 | 64조 6,820억 원 | — |
+| 영업이익 | 6조 1,009억 원 | 6조 4,587억 원 | 7조 234억 원 | 8조 830억 원 |
+| 당기순이익 | 4조 4,780억 원 | 4조 5,582억 원 | 5조 845억 원 | 5조 9,921억 원 |
+| 영업이익률 | 9.9% | 8.7% | 10.9% | — |
+| ROE | 8.4% | 8.1% | 8.7% | 9.9% |
+| EPS | 8,398원 | 8,740원 | 10,085원 | 12,446원 |
+| PER | 4.8배 | 5.5배 | 7.6배 | 9.1배 |
+| PBR | 0.38배 | 0.42배 | 0.63배 | 0.86배 |
+| 주당배당금 | 2,100원 | 2,160원 | 2,590원 | 3,050원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 6조 1,009억 원이고, 주가는 한 해 +14.1% 움직였다. 2024년은 영업이익 6조 4,587억 원 (전년보다 +6%)이고, 주가는 한 해 +18.7% 움직였다. 2025년은 영업이익 7조 234억 원 (전년보다 +9%)이고, 주가는 한 해 +61.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="신한지주 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="203.8" width="104.5" height="52.2" rx="3"/><text class="ic-val" x="159.3" y="197.8" text-anchor="middle">+14%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="186.6" width="104.5" height="69.4" rx="3"/><text class="ic-val" x="346.0" y="180.6" text-anchor="middle">+19%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+61%</text></svg><figcaption>신한지주 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 신한지주 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 14조 4,731억 원 | 9조 5,148억 원 | 15조 8,271억 원 | 14조 8,145억 원 | 15조 287억 원 | — |
+| 영업이익 | 2조 143억 원 | 1조 9,546억 원 | 1조 1,103억 원 | 2조 1,545억 원 | 2조 4,763억 원 | 2조 2,251억 원 |
+| 당기순이익 | 1조 5,772억 원 | 1조 4,522억 원 | 5,380억 원 | 1조 6,491억 원 | 1조 8,467억 원 | 1조 6,557억 원 |
+| 영업이익률 | 13.9% | 20.5% | 7.0% | 14.5% | 16.5% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="신한지주 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="70.5" width="52.3" height="185.5" rx="3"/><text class="ic-val" x="112.7" y="64.5" text-anchor="middle">2조 143억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="76.0" width="52.3" height="180.0" rx="3"/><text class="ic-val" x="206.0" y="70.0" text-anchor="middle">1조 9,546억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="153.8" width="52.3" height="102.2" rx="3"/><text class="ic-val" x="299.3" y="147.8" text-anchor="middle">1조 1,103억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="57.6" width="52.3" height="198.4" rx="3"/><text class="ic-val" x="392.7" y="51.6" text-anchor="middle">2조 1,545억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">2조 4,763억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="51.1" width="52.3" height="204.9" rx="3"/><text class="ic-val" x="579.3" y="45.1" text-anchor="middle">2조 2,251억</text></svg><figcaption>신한지주 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "쓰리에이로직스 실적, 2025년 영업이익 -27억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "쓰리에이로직스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "177900"
+name: "쓰리에이로직스"
+intent: "실적"
+chip: "177900 · 코스닥 · 반도체 제조업 · 기준일 2026.09.11"
+utm_source: "쓰리에이로직스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/반도체-제조업/", "label": "반도체 제조업"}, {"url": "/종목/쓰리에이로직스/", "label": "쓰리에이로직스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/쓰리에이로직스/", "label": "쓰리에이로직스 주가"}, {"url": "/종목/쓰리에이로직스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/쓰리에이로직스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/테크엘/실적/", "label": "테크엘 실적"}, {"url": "/종목/루멘스/실적/", "label": "루멘스 실적"}, {"url": "/종목/우리이앤엘하루틴/실적/", "label": "우리이앤엘하루틴 실적"}, {"url": "/종목/오디텍/실적/", "label": "오디텍 실적"}, {"url": "/종목/시그네틱스/실적/", "label": "시그네틱스 실적"}, {"url": "/종목/하이딥/실적/", "label": "하이딥 실적"}, {"url": "/종목/쏘닉스/실적/", "label": "쏘닉스 실적"}, {"url": "/종목/프로이천/실적/", "label": "프로이천 실적"}]
+peers_head: "같은 업종(반도체 제조업) 다른 종목의 실적"
+---
+
+쓰리에이로직스의 최근 연간 실적은 2023년 매출 142억 원·영업이익 -80억 원, 2024년 매출 181억 원·영업이익 17억 원, 2025년 매출 145억 원·영업이익 -27억 원이다.
+
+## 쓰리에이로직스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 142억 원 | 181억 원 | 145억 원 | — |
+| 영업이익 | -80억 원 | 17억 원 | -27억 원 | — |
+| 당기순이익 | -189억 원 | 86억 원 | -36억 원 | — |
+| 영업이익률 | -56.2% | 9.7% | -18.5% | — |
+| ROE | -109.5% | 24.6% | -7.5% | — |
+| EPS | -2,725원 | 1,150원 | -379원 | — |
+| PER | — | 6.7배 | -16.8배 | — |
+| PBR | 0.00배 | 1.45배 | 1.29배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 -27억 원 (전년보다 -259%)이고, 주가는 한 해 -17.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="쓰리에이로직스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-17%</text></svg><figcaption>쓰리에이로직스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 쓰리에이로직스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 45억 원 | 32억 원 | 27억 원 | 61억 원 | 54억 원 | — |
+| 영업이익 | -2억 원 | -4억 원 | -22억 원 | 3억 원 | -1억 원 | — |
+| 당기순이익 | -6억 원 | -5억 원 | -23억 원 | 4억 원 | -4억 원 | — |
+| 영업이익률 | -4.5% | -13.5% | -78.3% | 4.5% | -1.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="쓰리에이로직스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="55.4" y2="55.4"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="55.4" width="52.3" height="18.2" rx="3"/><text class="ic-val" x="112.7" y="87.6" text-anchor="middle">-2억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="55.4" width="52.3" height="36.5" rx="3"/><text class="ic-val" x="206.0" y="105.8" text-anchor="middle">-4억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="55.4" width="52.3" height="200.6" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-22억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="27.4" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">3억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="55.4" width="52.3" height="9.1" rx="3"/><text class="ic-val" x="486.0" y="78.5" text-anchor="middle">-1억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>쓰리에이로직스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

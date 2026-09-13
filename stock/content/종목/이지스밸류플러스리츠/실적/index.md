@@ -1,0 +1,53 @@
+---
+title: "이지스밸류플러스리츠 실적, 2026년 2월 결산 영업이익 146억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "이지스밸류플러스리츠 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "334890"
+name: "이지스밸류플러스리츠"
+intent: "실적"
+chip: "334890 · 코스피 · 부동산 임대 및 공급업 · 기준일 2026.09.11"
+utm_source: "이지스밸류플러스리츠-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/부동산-임대-및-공급업/", "label": "부동산 임대 및 공급업"}, {"url": "/종목/이지스밸류플러스리츠/", "label": "이지스밸류플러스리츠"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/이지스밸류플러스리츠/", "label": "이지스밸류플러스리츠 주가"}, {"url": "/종목/이지스밸류플러스리츠/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/이지스밸류플러스리츠/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/이지스밸류플러스리츠/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/kb스타리츠/실적/", "label": "KB스타리츠 실적"}, {"url": "/종목/제이알글로벌리츠/실적/", "label": "제이알글로벌리츠 실적"}, {"url": "/종목/신한서부티엔디리츠/실적/", "label": "신한서부티엔디리츠 실적"}, {"url": "/종목/이리츠코크렙/실적/", "label": "이리츠코크렙 실적"}, {"url": "/종목/디앤디플랫폼리츠/실적/", "label": "디앤디플랫폼리츠 실적"}, {"url": "/종목/코람코라이프인프라리츠/실적/", "label": "코람코라이프인프라리츠 실적"}, {"url": "/종목/nh올원리츠/실적/", "label": "NH올원리츠 실적"}, {"url": "/종목/자이에스앤디/실적/", "label": "자이에스앤디 실적"}]
+peers_head: "같은 업종(부동산 임대 및 공급업) 다른 종목의 실적"
+---
+
+이지스밸류플러스리츠의 최근 연간 실적은 2025년 매출 165억 원·영업이익 17억 원, 2025년 매출 218억 원·영업이익 166억 원, 2026년 매출 212억 원·영업이익 146억 원이다.
+
+## 이지스밸류플러스리츠 연간 실적
+
+| 항목 | 2025 | 2025 | 2026 | 2027(추정) |
+|---|---|---|---|---|
+| 매출액 | 165억 원 | 218억 원 | 212억 원 | — |
+| 영업이익 | 17억 원 | 166억 원 | 146억 원 | — |
+| 당기순이익 | -21억 원 | 124억 원 | 119억 원 | — |
+| 영업이익률 | 10.6% | 76.3% | 68.8% | — |
+| ROE | -0.5% | 3.1% | 2.9% | — |
+| EPS | -40원 | 238원 | 190원 | — |
+| PER | -108.2배 | 17.9배 | 22.0배 | — |
+| PBR | 0.59배 | 0.59배 | 0.64배 | — |
+| 주당배당금 | 171원 | 170원 | 162원 | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 17억 원이고, 주가는 한 해 -3.8% 움직였다. 2025년은 영업이익 166억 원이고, 주가는 한 해 -3.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="이지스밸류플러스리츠 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="127.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-4%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="407.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-4%</text></svg><figcaption>이지스밸류플러스리츠 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 이지스밸류플러스리츠 분기 실적
+
+| 항목 | 2025.05 | 2025.08 | 2025.11 | 2026.02 | 2026.05 | 2026.08(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 25억 원 | 193억 원 | 156억 원 | 56억 원 | 20억 원 | — |
+| 영업이익 | 16억 원 | 151억 원 | 137억 원 | 9억 원 | 2억 원 | — |
+| 당기순이익 | -5억 원 | 129억 원 | 121억 원 | -2억 원 | -12억 원 | — |
+| 영업이익률 | 63.4% | 78.0% | 87.4% | 16.5% | 11.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="이지스밸류플러스리츠 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.05</text><rect class="ic-bar up" x="86.5" y="231.8" width="52.3" height="24.2" rx="3"/><text class="ic-val" x="112.7" y="225.8" text-anchor="middle">16억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.08</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">151억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.11</text><rect class="ic-bar up" x="273.2" y="49.1" width="52.3" height="206.9" rx="3"/><text class="ic-val" x="299.3" y="43.1" text-anchor="middle">137억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.02</text><rect class="ic-bar up" x="366.5" y="242.4" width="52.3" height="13.6" rx="3"/><text class="ic-val" x="392.7" y="236.4" text-anchor="middle">9억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.05</text><rect class="ic-bar up" x="459.9" y="253.0" width="52.3" height="3.0" rx="3"/><text class="ic-val" x="486.0" y="247.0" text-anchor="middle">2억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.08</text></svg><figcaption>이지스밸류플러스리츠 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

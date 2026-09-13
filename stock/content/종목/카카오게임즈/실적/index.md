@@ -1,0 +1,54 @@
+---
+title: "카카오게임즈 실적, 2025년 영업이익 -396억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "카카오게임즈 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "293490"
+name: "카카오게임즈"
+intent: "실적"
+chip: "293490 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "카카오게임즈-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/카카오게임즈/", "label": "카카오게임즈"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/카카오게임즈/", "label": "카카오게임즈 주가"}, {"url": "/종목/카카오게임즈/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/카카오게임즈/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/카카오게임즈/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/카카오게임즈/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/스피어/실적/", "label": "스피어 실적"}, {"url": "/종목/더블유게임즈/실적/", "label": "더블유게임즈 실적"}, {"url": "/종목/넥슨게임즈/실적/", "label": "넥슨게임즈 실적"}, {"url": "/종목/클로봇/실적/", "label": "클로봇 실적"}, {"url": "/종목/안랩/실적/", "label": "안랩 실적"}, {"url": "/종목/루닛/실적/", "label": "루닛 실적"}, {"url": "/종목/가비아/실적/", "label": "가비아 실적"}, {"url": "/종목/위메이드/실적/", "label": "위메이드 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+카카오게임즈의 최근 연간 실적은 2023년 매출 7,258억 원·영업이익 754억 원, 2024년 매출 6,272억 원·영업이익 191억 원, 2025년 매출 4,650억 원·영업이익 -396억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 3,427억 원·영업이익 -876억 원이다.
+
+## 카카오게임즈 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7,258억 원 | 6,272억 원 | 4,650억 원 | 3,427억 원 |
+| 영업이익 | 754억 원 | 191억 원 | -396억 원 | -876억 원 |
+| 당기순이익 | -3,224억 원 | -1,281억 원 | -1,431억 원 | -1,476억 원 |
+| 영업이익률 | 10.4% | 3.0% | -8.5% | -25.6% |
+| ROE | -14.8% | -8.0% | -7.9% | -10.4% |
+| EPS | -2,774원 | -1,318원 | -1,186원 | -1,197원 |
+| PER | -9.3배 | -12.4배 | -12.6배 | -7.7배 |
+| PBR | 1.51배 | 1.00배 | 1.12배 | 0.91배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 754억 원이고, 주가는 한 해 -42.1% 움직였다. 2024년은 영업이익 191억 원 (전년보다 -75%)이고, 주가는 한 해 -36.6% 움직였다. 2025년은 영업이익 -396억 원 (전년보다 -307%)이고, 주가는 한 해 -9.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="카카오게임즈 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-42%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="198.4" rx="3"/><text class="ic-val" x="346.0" y="240.4" text-anchor="middle">-37%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="48.9" rx="3"/><text class="ic-val" x="532.7" y="90.9" text-anchor="middle">-9%</text></svg><figcaption>카카오게임즈 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 카카오게임즈 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,158억 원 | 1,275억 원 | 989억 원 | 829억 원 | 750억 원 | 791억 원 |
+| 영업이익 | -86억 원 | -54억 원 | -131억 원 | -255억 원 | -230억 원 | -242억 원 |
+| 당기순이익 | -336억 원 | 346억 원 | -1,107억 원 | -395억 원 | -570억 원 | -255억 원 |
+| 영업이익률 | -7.4% | -4.3% | -13.2% | -30.7% | -30.7% | -30.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="카카오게임즈 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="76.9" rx="3"/><text class="ic-val" x="112.7" y="118.9" text-anchor="middle">-86억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="48.3" rx="3"/><text class="ic-val" x="206.0" y="90.3" text-anchor="middle">-54억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="117.1" rx="3"/><text class="ic-val" x="299.3" y="159.1" text-anchor="middle">-131억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-255억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="205.6" rx="3"/><text class="ic-val" x="486.0" y="247.6" text-anchor="middle">-230억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar dn est" x="553.2" y="28.0" width="52.3" height="216.4" rx="3"/><text class="ic-val" x="579.3" y="258.4" text-anchor="middle">-242억</text></svg><figcaption>카카오게임즈 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

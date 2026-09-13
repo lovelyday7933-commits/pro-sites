@@ -1,0 +1,53 @@
+---
+title: "베노티앤알 실적, 2025년 영업이익 -54억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "베노티앤알 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "206400"
+name: "베노티앤알"
+intent: "실적"
+chip: "206400 · 코스닥 · 실내건축 및 건축마무리 공사업 · 기준일 2026.09.11"
+utm_source: "베노티앤알-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/실내건축-및-건축마무리-공사업/", "label": "실내건축 및 건축마무리 공사업"}, {"url": "/종목/베노티앤알/", "label": "베노티앤알"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/베노티앤알/", "label": "베노티앤알 주가"}, {"url": "/종목/베노티앤알/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/베노티앤알/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/베노티앤알/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/엑사이엔씨/실적/", "label": "엑사이엔씨 실적"}, {"url": "/종목/플래스크/실적/", "label": "플래스크 실적"}, {"url": "/종목/국보디자인/실적/", "label": "국보디자인 실적"}]
+peers_head: "같은 업종(실내건축 및 건축마무리 공사업) 다른 종목의 실적"
+---
+
+베노티앤알의 최근 연간 실적은 2023년 매출 99억 원·영업이익 -70억 원, 2024년 매출 253억 원·영업이익 -97억 원, 2025년 매출 48억 원·영업이익 -54억 원이다.
+
+## 베노티앤알 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 99억 원 | 253억 원 | 48억 원 | — |
+| 영업이익 | -70억 원 | -97억 원 | -54억 원 | — |
+| 당기순이익 | -79억 원 | -36억 원 | -240억 원 | — |
+| 영업이익률 | -70.7% | -38.4% | -112.3% | — |
+| ROE | -10.5% | -3.9% | -28.5% | — |
+| EPS | -266원 | -106원 | -635원 | — |
+| PER | -12.9배 | -27.4배 | -2.6배 | — |
+| PBR | 1.29배 | 1.14배 | 0.85배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -70억 원이고, 주가는 한 해 +42.7% 움직였다. 2024년은 영업이익 -97억 원 (전년보다 -39%)이고, 주가는 한 해 -15.2% 움직였다. 2025년은 영업이익 -54억 원 (전년보다 +44%)이고, 주가는 한 해 -44.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="베노티앤알 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="140.3" y2="140.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="112.3" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+43%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="140.3" width="104.5" height="39.9" rx="3"/><text class="ic-val" x="346.0" y="194.2" text-anchor="middle">-15%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="140.3" width="104.5" height="115.7" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-44%</text></svg><figcaption>베노티앤알 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 베노티앤알 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 15억 원 | 8억 원 | 10억 원 | 7억 원 | 9억 원 | — |
+| 영업이익 | 4억 원 | -17억 원 | -15억 원 | -19억 원 | -12억 원 | — |
+| 당기순이익 | 6억 원 | -26억 원 | -60억 원 | -38억 원 | -25억 원 | — |
+| 영업이익률 | 27.5% | -206.1% | -151.8% | -254.9% | -125.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="베노티앤알 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="67.7" y2="67.7"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="39.7" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">4억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="67.7" width="52.3" height="168.5" rx="3"/><text class="ic-val" x="206.0" y="250.2" text-anchor="middle">-17억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="67.7" width="52.3" height="148.7" rx="3"/><text class="ic-val" x="299.3" y="230.3" text-anchor="middle">-15억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="67.7" width="52.3" height="188.3" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-19억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="67.7" width="52.3" height="119.0" rx="3"/><text class="ic-val" x="486.0" y="200.6" text-anchor="middle">-12억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>베노티앤알 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

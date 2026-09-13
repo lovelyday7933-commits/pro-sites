@@ -1,0 +1,53 @@
+---
+title: "미래에셋벤처투자 실적, 2025년 영업이익 351억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "미래에셋벤처투자 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "100790"
+name: "미래에셋벤처투자"
+intent: "실적"
+chip: "100790 · 코스닥 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "미래에셋벤처투자-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/미래에셋벤처투자/", "label": "미래에셋벤처투자"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/미래에셋벤처투자/", "label": "미래에셋벤처투자 주가"}, {"url": "/종목/미래에셋벤처투자/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/미래에셋벤처투자/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/미래에셋벤처투자/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/gs피앤엘/실적/", "label": "GS피앤엘 실적"}, {"url": "/종목/snt홀딩스/실적/", "label": "SNT홀딩스 실적"}, {"url": "/종목/쿠쿠홀딩스/실적/", "label": "쿠쿠홀딩스 실적"}, {"url": "/종목/sk디스커버리/실적/", "label": "SK디스커버리 실적"}, {"url": "/종목/lx홀딩스/실적/", "label": "LX홀딩스 실적"}, {"url": "/종목/동아쏘시오홀딩스/실적/", "label": "동아쏘시오홀딩스 실적"}, {"url": "/종목/하림지주/실적/", "label": "하림지주 실적"}, {"url": "/종목/ff-홀딩스/실적/", "label": "F&F 홀딩스 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+미래에셋벤처투자의 최근 연간 실적은 2023년 매출 2,170억 원·영업이익 319억 원, 2024년 매출 2,339억 원·영업이익 157억 원, 2025년 매출 2,398억 원·영업이익 351억 원이다.
+
+## 미래에셋벤처투자 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,170억 원 | 2,339억 원 | 2,398억 원 | — |
+| 영업이익 | 319억 원 | 157억 원 | 351억 원 | — |
+| 당기순이익 | 245억 원 | 86억 원 | 309억 원 | — |
+| 영업이익률 | 14.7% | 6.7% | 14.6% | — |
+| ROE | 7.7% | 2.5% | 8.5% | — |
+| EPS | 457원 | 160원 | 582원 | — |
+| PER | 12.7배 | 28.6배 | 21.4배 | — |
+| PBR | 0.89배 | 0.69배 | 1.75배 | — |
+| 주당배당금 | — | 85원 | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 319억 원이고, 주가는 한 해 +35.4% 움직였다. 2024년은 영업이익 157억 원 (전년보다 -51%)이고, 주가는 한 해 -20.8% 움직였다. 2025년은 영업이익 351억 원 (전년보다 +124%)이고, 주가는 한 해 +171.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="미래에셋벤처투자 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="231.4" y2="231.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="189.6" width="104.5" height="41.9" rx="3"/><text class="ic-val" x="159.3" y="183.6" text-anchor="middle">+35%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="231.4" width="104.5" height="24.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-21%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="203.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+172%</text></svg><figcaption>미래에셋벤처투자 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 미래에셋벤처투자 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 859억 원 | 218억 원 | 1,138억 원 | 537억 원 | 861억 원 | — |
+| 영업이익 | 44억 원 | 98억 원 | 222억 원 | 151억 원 | 224억 원 | — |
+| 당기순이익 | 59억 원 | 72억 원 | 192억 원 | 112억 원 | 164억 원 | — |
+| 영업이익률 | 5.2% | 45.0% | 19.6% | 28.1% | 26.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="미래에셋벤처투자 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="211.2" width="52.3" height="44.8" rx="3"/><text class="ic-val" x="112.7" y="205.2" text-anchor="middle">44억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="156.2" width="52.3" height="99.8" rx="3"/><text class="ic-val" x="206.0" y="150.2" text-anchor="middle">98억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="30.0" width="52.3" height="226.0" rx="3"/><text class="ic-val" x="299.3" y="24.0" text-anchor="middle">222억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="102.3" width="52.3" height="153.7" rx="3"/><text class="ic-val" x="392.7" y="96.3" text-anchor="middle">151억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">224억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>미래에셋벤처투자 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

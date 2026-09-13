@@ -1,0 +1,53 @@
+---
+title: "휴스틸 실적, 2025년 영업이익 35억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "휴스틸 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "005010"
+name: "휴스틸"
+intent: "실적"
+chip: "005010 · 코스피 · 1차 철강 제조업 · 기준일 2026.09.11"
+utm_source: "휴스틸-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/1차-철강-제조업/", "label": "1차 철강 제조업"}, {"url": "/종목/휴스틸/", "label": "휴스틸"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/휴스틸/", "label": "휴스틸 주가"}, {"url": "/종목/휴스틸/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/휴스틸/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/휴스틸/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/현대비앤지스틸/실적/", "label": "현대비앤지스틸 실적"}, {"url": "/종목/포스코스틸리온/실적/", "label": "포스코스틸리온 실적"}, {"url": "/종목/대한제강/실적/", "label": "대한제강 실적"}, {"url": "/종목/tcc스틸/실적/", "label": "TCC스틸 실적"}, {"url": "/종목/simpac/실적/", "label": "SIMPAC 실적"}, {"url": "/종목/동국씨엠/실적/", "label": "동국씨엠 실적"}, {"url": "/종목/한국주철관공업/실적/", "label": "한국주철관공업 실적"}, {"url": "/종목/금강철강/실적/", "label": "금강철강 실적"}]
+peers_head: "같은 업종(1차 철강 제조업) 다른 종목의 실적"
+---
+
+휴스틸의 최근 연간 실적은 2023년 매출 7,648억 원·영업이익 1,232억 원, 2024년 매출 7,231억 원·영업이익 171억 원, 2025년 매출 6,125억 원·영업이익 35억 원이다.
+
+## 휴스틸 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7,648억 원 | 7,231억 원 | 6,125억 원 | — |
+| 영업이익 | 1,232억 원 | 171억 원 | 35억 원 | — |
+| 당기순이익 | 722억 원 | 223억 원 | -150억 원 | — |
+| 영업이익률 | 16.1% | 2.4% | 0.6% | — |
+| ROE | 7.5% | 2.1% | -1.4% | — |
+| EPS | 1,285원 | 397원 | -268원 | — |
+| PER | 3.9배 | 9.5배 | -15.0배 | — |
+| PBR | 0.28배 | 0.19배 | 0.21배 | — |
+| 주당배당금 | 250원 | 150원 | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,232억 원이고, 주가는 한 해 -1.7% 움직였다. 2024년은 영업이익 171억 원 (전년보다 -86%)이고, 주가는 한 해 -24.2% 움직였다. 2025년은 영업이익 35억 원 (전년보다 -80%)이고, 주가는 한 해 +6.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="휴스틸 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="73.1" y2="73.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="73.1" width="104.5" height="12.7" rx="3"/><text class="ic-val" x="159.3" y="99.7" text-anchor="middle">-2%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="73.1" width="104.5" height="182.9" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-24%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="45.1" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+6%</text></svg><figcaption>휴스틸 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 휴스틸 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,555억 원 | 1,621억 원 | 1,409억 원 | 1,479억 원 | 2,420억 원 | — |
+| 영업이익 | -27억 원 | 115억 원 | -48억 원 | -53억 원 | -8억 원 | — |
+| 당기순이익 | 36억 원 | 304억 원 | -466억 원 | -43억 원 | -143억 원 | — |
+| 영업이익률 | -1.8% | 7.1% | -3.4% | -3.5% | -0.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="휴스틸 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="184.1" y2="184.1"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="184.1" width="52.3" height="36.6" rx="3"/><text class="ic-val" x="112.7" y="234.7" text-anchor="middle">-27억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="156.1" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">115억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="184.1" width="52.3" height="65.1" rx="3"/><text class="ic-val" x="299.3" y="263.2" text-anchor="middle">-48억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="184.1" width="52.3" height="71.9" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-53억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="184.1" width="52.3" height="10.9" rx="3"/><text class="ic-val" x="486.0" y="208.9" text-anchor="middle">-8억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>휴스틸 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "한솔홀딩스 실적, 2025년 영업이익 226억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한솔홀딩스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "004150"
+name: "한솔홀딩스"
+intent: "실적"
+chip: "004150 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "한솔홀딩스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/한솔홀딩스/", "label": "한솔홀딩스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한솔홀딩스/", "label": "한솔홀딩스 주가"}, {"url": "/종목/한솔홀딩스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한솔홀딩스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한솔홀딩스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한솔홀딩스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/미원홀딩스/실적/", "label": "미원홀딩스 실적"}, {"url": "/종목/유비쿼스홀딩스/실적/", "label": "유비쿼스홀딩스 실적"}, {"url": "/종목/웅진/실적/", "label": "웅진 실적"}, {"url": "/종목/sv인베스트먼트/실적/", "label": "SV인베스트먼트 실적"}, {"url": "/종목/나우ib/실적/", "label": "나우IB 실적"}, {"url": "/종목/샘표/실적/", "label": "샘표 실적"}, {"url": "/종목/테라뷰/실적/", "label": "테라뷰 실적"}, {"url": "/종목/서연/실적/", "label": "서연 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+한솔홀딩스의 최근 연간 실적은 2023년 매출 4,431억 원·영업이익 40억 원, 2024년 매출 7,916억 원·영업이익 75억 원, 2025년 매출 1조 983억 원·영업이익 226억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 9,750억 원·영업이익 560억 원이다.
+
+## 한솔홀딩스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4,431억 원 | 7,916억 원 | 1조 983억 원 | 1조 9,750억 원 |
+| 영업이익 | 40억 원 | 75억 원 | 226억 원 | 560억 원 |
+| 당기순이익 | 50억 원 | 16억 원 | 89억 원 | 860억 원 |
+| 영업이익률 | 0.9% | 0.9% | 2.1% | 2.8% |
+| ROE | 1.3% | 0.4% | -0.1% | 12.9% |
+| EPS | 177원 | 48원 | -15원 | 1,852원 |
+| PER | 16.2배 | 48.8배 | -208.9배 | 1.9배 |
+| PBR | 0.21배 | 0.17배 | 0.23배 | 0.23배 |
+| 주당배당금 | 100원 | 120원 | 130원 | 150원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 40억 원이고, 주가는 한 해 -12.2% 움직였다. 2024년은 영업이익 75억 원 (전년보다 +88%)이고, 주가는 한 해 -18.1% 움직였다. 2025년은 영업이익 226억 원 (전년보다 +201%)이고, 주가는 한 해 +31.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한솔홀딩스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="172.7" y2="172.7"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="172.7" width="104.5" height="56.2" rx="3"/><text class="ic-val" x="159.3" y="242.9" text-anchor="middle">-12%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="172.7" width="104.5" height="83.3" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-18%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="144.7" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+31%</text></svg><figcaption>한솔홀딩스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한솔홀딩스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,786억 원 | 2,770억 원 | 2,661억 원 | 2,696억 원 | 4,167억 원 | — |
+| 영업이익 | 74억 원 | 73억 원 | -4억 원 | 79억 원 | 199억 원 | — |
+| 당기순이익 | 166억 원 | 49억 원 | -194억 원 | 116억 원 | 553억 원 | — |
+| 영업이익률 | 2.7% | 2.6% | -0.2% | 2.9% | 4.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한솔홀딩스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="251.5" y2="251.5"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="168.4" width="52.3" height="83.1" rx="3"/><text class="ic-val" x="112.7" y="162.4" text-anchor="middle">74억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="169.5" width="52.3" height="82.0" rx="3"/><text class="ic-val" x="206.0" y="163.5" text-anchor="middle">73억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="251.5" width="52.3" height="4.5" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-4억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="162.8" width="52.3" height="88.7" rx="3"/><text class="ic-val" x="392.7" y="156.8" text-anchor="middle">79억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="223.5" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">199억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>한솔홀딩스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "로스웰 실적, 2025년 영업이익 112억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "로스웰 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "900260"
+name: "로스웰"
+intent: "실적"
+chip: "900260 · 코스닥 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "로스웰-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/로스웰/", "label": "로스웰"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/로스웰/", "label": "로스웰 주가"}, {"url": "/종목/로스웰/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/로스웰/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/로스웰/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/컴퍼니케이/실적/", "label": "컴퍼니케이 실적"}, {"url": "/종목/스톤브릿지벤처스/실적/", "label": "스톤브릿지벤처스 실적"}, {"url": "/종목/크라운해태홀딩스/실적/", "label": "크라운해태홀딩스 실적"}, {"url": "/종목/티와이홀딩스/실적/", "label": "티와이홀딩스 실적"}, {"url": "/종목/lb인베스트먼트/실적/", "label": "LB인베스트먼트 실적"}, {"url": "/종목/ak홀딩스/실적/", "label": "AK홀딩스 실적"}, {"url": "/종목/cs홀딩스/실적/", "label": "CS홀딩스 실적"}, {"url": "/종목/경동인베스트/실적/", "label": "경동인베스트 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+로스웰의 최근 연간 실적은 2023년 매출 3,629억 원·영업이익 145억 원, 2024년 매출 5,327억 원·영업이익 204억 원, 2025년 매출 7,552억 원·영업이익 112억 원이다.
+
+## 로스웰 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,629억 원 | 5,327억 원 | 7,552억 원 | — |
+| 영업이익 | 145억 원 | 204억 원 | 112억 원 | — |
+| 당기순이익 | 150억 원 | 182억 원 | 197억 원 | — |
+| 영업이익률 | 4.0% | 3.8% | 1.5% | — |
+| ROE | 7.3% | 7.8% | 7.3% | — |
+| EPS | 416원 | 504원 | 518원 | — |
+| PER | 1.8배 | 1.1배 | 3.0배 | — |
+| PBR | 0.13배 | 0.08배 | 0.25배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 145억 원이고, 주가는 한 해 -37.7% 움직였다. 2024년은 영업이익 204억 원 (전년보다 +41%)이고, 주가는 한 해 -24.1% 움직였다. 2025년은 영업이익 112억 원 (전년보다 -45%)이고, 주가는 한 해 +172.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="로스웰 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="215.1" y2="215.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="215.1" width="104.5" height="40.9" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-38%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="215.1" width="104.5" height="26.1" rx="3"/><text class="ic-val" x="346.0" y="255.2" text-anchor="middle">-24%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="187.1" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+172%</text></svg><figcaption>로스웰 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 로스웰 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,288억 원 | 1,353억 원 | 3,708억 원 | 2,623억 원 | 2,342억 원 | — |
+| 영업이익 | 22억 원 | 19억 원 | 69억 원 | 71억 원 | 58억 원 | — |
+| 당기순이익 | 48억 원 | 27억 원 | 113억 원 | 90억 원 | 73억 원 | — |
+| 영업이익률 | 1.7% | 1.4% | 1.9% | 2.7% | 2.5% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="로스웰 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="185.4" width="52.3" height="70.6" rx="3"/><text class="ic-val" x="112.7" y="179.4" text-anchor="middle">22억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="195.0" width="52.3" height="61.0" rx="3"/><text class="ic-val" x="206.0" y="189.0" text-anchor="middle">19억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="34.4" width="52.3" height="221.6" rx="3"/><text class="ic-val" x="299.3" y="28.4" text-anchor="middle">69억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">71억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="69.7" width="52.3" height="186.3" rx="3"/><text class="ic-val" x="486.0" y="63.7" text-anchor="middle">58억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>로스웰 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

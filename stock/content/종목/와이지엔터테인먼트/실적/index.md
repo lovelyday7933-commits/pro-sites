@@ -1,0 +1,54 @@
+---
+title: "와이지엔터테인먼트 실적, 2025년 영업이익 713억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "와이지엔터테인먼트 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "122870"
+name: "와이지엔터테인먼트"
+intent: "실적"
+chip: "122870 · 코스닥 · 오디오물 출판 및 원판 녹음업 · 기준일 2026.09.11"
+utm_source: "와이지엔터테인먼트-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/오디오물-출판-및-원판-녹음업/", "label": "오디오물 출판 및 원판 녹음업"}, {"url": "/종목/와이지엔터테인먼트/", "label": "와이지엔터테인먼트"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/와이지엔터테인먼트/", "label": "와이지엔터테인먼트 주가"}, {"url": "/종목/와이지엔터테인먼트/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/와이지엔터테인먼트/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/와이지엔터테인먼트/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/와이지엔터테인먼트/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/jyp-ent./실적/", "label": "JYP Ent. 실적"}, {"url": "/종목/에스엠/실적/", "label": "에스엠 실적"}, {"url": "/종목/큐브엔터/실적/", "label": "큐브엔터 실적"}, {"url": "/종목/하이브/실적/", "label": "하이브 실적"}, {"url": "/종목/알비더블유/실적/", "label": "알비더블유 실적"}]
+peers_head: "같은 업종(오디오물 출판 및 원판 녹음업) 다른 종목의 실적"
+---
+
+와이지엔터테인먼트의 최근 연간 실적은 2023년 매출 5,692억 원·영업이익 869억 원, 2024년 매출 3,649억 원·영업이익 -206억 원, 2025년 매출 5,454억 원·영업이익 713억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6,329억 원·영업이익 775억 원이다.
+
+## 와이지엔터테인먼트 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 5,692억 원 | 3,649억 원 | 5,454억 원 | 6,329억 원 |
+| 영업이익 | 869억 원 | -206억 원 | 713억 원 | 775억 원 |
+| 당기순이익 | 770억 원 | 200억 원 | 537억 원 | 609억 원 |
+| 영업이익률 | 15.3% | -5.6% | 13.1% | 12.2% |
+| ROE | 14.0% | 3.9% | 7.4% | 9.1% |
+| EPS | 3,285원 | 991원 | 1,974원 | 2,614원 |
+| PER | 15.5배 | 46.2배 | 35.1배 | 16.6배 |
+| PBR | 2.02배 | 1.76배 | 2.51배 | 1.45배 |
+| 주당배당금 | 300원 | 250원 | 300원 | 316원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 869억 원이고, 주가는 한 해 +16.1% 움직였다. 2024년은 영업이익 -206억 원 (전년보다 -124%)이고, 주가는 한 해 -10.0% 움직였다. 2025년은 영업이익 713억 원 (전년보다 +446%)이고, 주가는 한 해 +51.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="와이지엔터테인먼트 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="218.9" y2="218.9"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="159.3" width="104.5" height="59.6" rx="3"/><text class="ic-val" x="159.3" y="153.3" text-anchor="middle">+16%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="218.9" width="104.5" height="37.1" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-10%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="190.9" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+52%</text></svg><figcaption>와이지엔터테인먼트 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 와이지엔터테인먼트 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,004억 원 | 1,731억 원 | 1,718억 원 | 1,471억 원 | 1,278억 원 | 1,669억 원 |
+| 영업이익 | 84억 원 | 311억 원 | 223억 원 | 194억 원 | 110억 원 | 216억 원 |
+| 당기순이익 | 112억 원 | 244억 원 | 79억 원 | 98억 원 | 75억 원 | 183억 원 |
+| 영업이익률 | 8.3% | 18.0% | 13.0% | 13.2% | 8.6% | 12.9% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="와이지엔터테인먼트 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="194.4" width="52.3" height="61.6" rx="3"/><text class="ic-val" x="112.7" y="188.4" text-anchor="middle">84억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">311억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="92.5" width="52.3" height="163.5" rx="3"/><text class="ic-val" x="299.3" y="86.5" text-anchor="middle">223억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="113.8" width="52.3" height="142.2" rx="3"/><text class="ic-val" x="392.7" y="107.8" text-anchor="middle">194억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="175.4" width="52.3" height="80.6" rx="3"/><text class="ic-val" x="486.0" y="169.4" text-anchor="middle">110억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="97.6" width="52.3" height="158.4" rx="3"/><text class="ic-val" x="579.3" y="91.6" text-anchor="middle">216억</text></svg><figcaption>와이지엔터테인먼트 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

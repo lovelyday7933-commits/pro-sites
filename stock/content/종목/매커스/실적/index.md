@@ -1,0 +1,54 @@
+---
+title: "매커스 실적, 2025년 영업이익 291억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "매커스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "093520"
+name: "매커스"
+intent: "실적"
+chip: "093520 · 코스닥 · 기계장비 및 관련 물품 도매업 · 기준일 2026.09.11"
+utm_source: "매커스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기계장비-및-관련-물품-도매업/", "label": "기계장비 및 관련 물품 도매업"}, {"url": "/종목/매커스/", "label": "매커스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/매커스/", "label": "매커스 주가"}, {"url": "/종목/매커스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/매커스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/매커스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/매커스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/에스티큐브/실적/", "label": "에스티큐브 실적"}, {"url": "/종목/원익/실적/", "label": "원익 실적"}, {"url": "/종목/유니퀘스트/실적/", "label": "유니퀘스트 실적"}, {"url": "/종목/다우데이타/실적/", "label": "다우데이타 실적"}, {"url": "/종목/신흥/실적/", "label": "신흥 실적"}, {"url": "/종목/에스에이엠티/실적/", "label": "에스에이엠티 실적"}, {"url": "/종목/혜인/실적/", "label": "혜인 실적"}, {"url": "/종목/데이타솔루션/실적/", "label": "데이타솔루션 실적"}]
+peers_head: "같은 업종(기계장비 및 관련 물품 도매업) 다른 종목의 실적"
+---
+
+매커스의 최근 연간 실적은 2023년 매출 1,754억 원·영업이익 264억 원, 2024년 매출 1,996억 원·영업이익 269억 원, 2025년 매출 2,272억 원·영업이익 291억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2,851억 원·영업이익 423억 원이다.
+
+## 매커스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,754억 원 | 1,996억 원 | 2,272억 원 | 2,851억 원 |
+| 영업이익 | 264억 원 | 269억 원 | 291억 원 | 423억 원 |
+| 당기순이익 | 204억 원 | 202억 원 | 231억 원 | 375억 원 |
+| 영업이익률 | 15.0% | 13.5% | 12.8% | 14.8% |
+| ROE | 20.7% | 18.6% | 19.3% | 27.3% |
+| EPS | 1,252원 | 1,240원 | 1,505원 | 2,959원 |
+| PER | 10.0배 | 6.6배 | 14.6배 | 9.1배 |
+| PBR | 1.26배 | 0.69배 | 1.52배 | 1.53배 |
+| 주당배당금 | 150원 | 200원 | 1,200원 | 1,400원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 264억 원이고, 주가는 한 해 +58.2% 움직였다. 2024년은 영업이익 269억 원 (전년보다 +2%)이고, 주가는 한 해 -34.2% 움직였다. 2025년은 영업이익 291억 원 (전년보다 +8%)이고, 주가는 한 해 +166.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="매커스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="217.2" y2="217.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="151.1" width="104.5" height="66.1" rx="3"/><text class="ic-val" x="159.3" y="145.1" text-anchor="middle">+58%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="217.2" width="104.5" height="38.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-34%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="189.2" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+167%</text></svg><figcaption>매커스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 매커스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 657억 원 | 493억 원 | 460억 원 | 553억 원 | 668억 원 | 671억 원 |
+| 영업이익 | 93억 원 | 39억 원 | 62억 원 | 91억 원 | 130억 원 | 83억 원 |
+| 당기순이익 | 77억 원 | 29억 원 | 49억 원 | 73억 원 | 142억 원 | — |
+| 영업이익률 | 14.2% | 7.8% | 13.6% | 16.4% | 19.5% | 12.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="매커스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="92.9" width="52.3" height="163.1" rx="3"/><text class="ic-val" x="112.7" y="86.9" text-anchor="middle">93억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="187.6" width="52.3" height="68.4" rx="3"/><text class="ic-val" x="206.0" y="181.6" text-anchor="middle">39억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="147.3" width="52.3" height="108.7" rx="3"/><text class="ic-val" x="299.3" y="141.3" text-anchor="middle">62억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="96.4" width="52.3" height="159.6" rx="3"/><text class="ic-val" x="392.7" y="90.4" text-anchor="middle">91억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">130억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="110.4" width="52.3" height="145.6" rx="3"/><text class="ic-val" x="579.3" y="104.4" text-anchor="middle">83억</text></svg><figcaption>매커스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

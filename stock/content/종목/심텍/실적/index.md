@@ -1,0 +1,54 @@
+---
+title: "심텍 실적, 2025년 영업이익 119억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "심텍 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "222800"
+name: "심텍"
+intent: "실적"
+chip: "222800 · 코스닥 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "심텍-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/심텍/", "label": "심텍"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/심텍/", "label": "심텍 주가"}, {"url": "/종목/심텍/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/심텍/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/심텍/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/심텍/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대덕전자/실적/", "label": "대덕전자 실적"}, {"url": "/종목/리노공업/실적/", "label": "리노공업 실적"}, {"url": "/종목/lg디스플레이/실적/", "label": "LG디스플레이 실적"}, {"url": "/종목/이수페타시스/실적/", "label": "이수페타시스 실적"}, {"url": "/종목/롯데에너지머티리얼즈/실적/", "label": "롯데에너지머티리얼즈 실적"}, {"url": "/종목/lg이노텍/실적/", "label": "LG이노텍 실적"}, {"url": "/종목/한화시스템/실적/", "label": "한화시스템 실적"}, {"url": "/종목/삼화콘덴서공업/실적/", "label": "삼화콘덴서공업 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+심텍의 최근 연간 실적은 2023년 매출 1조 419억 원·영업이익 -881억 원, 2024년 매출 1조 2,314억 원·영업이익 -470억 원, 2025년 매출 1조 4,106억 원·영업이익 119억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2조 884억 원·영업이익 2,560억 원이다.
+
+## 심텍 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 419억 원 | 1조 2,314억 원 | 1조 4,106억 원 | 2조 884억 원 |
+| 영업이익 | -881억 원 | -470억 원 | 119억 원 | 2,560억 원 |
+| 당기순이익 | -1,151억 원 | -310억 원 | -1,646억 원 | 1,945억 원 |
+| 영업이익률 | -8.5% | -3.8% | 0.8% | 12.3% |
+| ROE | -21.3% | -6.6% | -32.1% | 29.1% |
+| EPS | -3,606원 | -953원 | -4,955원 | 5,145원 |
+| PER | -10.7배 | -11.6배 | -10.0배 | 25.5배 |
+| PBR | 2.62배 | 0.79배 | 3.20배 | 6.64배 |
+| 주당배당금 | 160원 | 100원 | 100원 | 125원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -881억 원이고, 주가는 한 해 +45.6% 움직였다. 2024년은 영업이익 -470억 원 (전년보다 +47%)이고, 주가는 한 해 -71.4% 움직였다. 2025년은 영업이익 119억 원 (전년보다 +125%)이고, 주가는 한 해 +347.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="심텍 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="217.2" y2="217.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="192.3" width="104.5" height="24.8" rx="3"/><text class="ic-val" x="159.3" y="186.3" text-anchor="middle">+46%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="217.2" width="104.5" height="38.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-71%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="189.2" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+347%</text></svg><figcaption>심텍 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 심텍 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3,408억 원 | 3,728억 원 | 3,934억 원 | 4,224억 원 | 5,146억 원 | 5,556억 원 |
+| 영업이익 | 55억 원 | 124억 원 | 103억 원 | 137억 원 | 629억 원 | 837억 원 |
+| 당기순이익 | -187억 원 | 67억 원 | -1,168억 원 | 144억 원 | 449억 원 | 520억 원 |
+| 영업이익률 | 1.6% | 3.3% | 2.6% | 3.2% | 12.2% | 15.1% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="심텍 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="241.0" width="52.3" height="15.0" rx="3"/><text class="ic-val" x="112.7" y="235.0" text-anchor="middle">55억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="222.2" width="52.3" height="33.8" rx="3"/><text class="ic-val" x="206.0" y="216.2" text-anchor="middle">124억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="227.9" width="52.3" height="28.1" rx="3"/><text class="ic-val" x="299.3" y="221.9" text-anchor="middle">103억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="218.7" width="52.3" height="37.3" rx="3"/><text class="ic-val" x="392.7" y="212.7" text-anchor="middle">137억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="84.7" width="52.3" height="171.3" rx="3"/><text class="ic-val" x="486.0" y="78.7" text-anchor="middle">629억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">837억</text></svg><figcaption>심텍 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "산일전기 실적, 2025년 영업이익 1,786억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "산일전기 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "062040"
+name: "산일전기"
+intent: "실적"
+chip: "062040 · 코스피 · 전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업 · 기준일 2026.09.11"
+utm_source: "산일전기-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전동기,-발전기-및-전기-변환-·-공급-·-제어-장치-제조업/", "label": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업"}, {"url": "/종목/산일전기/", "label": "산일전기"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/산일전기/", "label": "산일전기 주가"}, {"url": "/종목/산일전기/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/산일전기/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/산일전기/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/두산퓨얼셀/실적/", "label": "두산퓨얼셀 실적"}, {"url": "/종목/우리기술/실적/", "label": "우리기술 실적"}, {"url": "/종목/에스피지/실적/", "label": "에스피지 실적"}, {"url": "/종목/효성중공업/실적/", "label": "효성중공업 실적"}, {"url": "/종목/hd현대일렉트릭/실적/", "label": "HD현대일렉트릭 실적"}, {"url": "/종목/엘에스일렉트릭/실적/", "label": "엘에스일렉트릭 실적"}, {"url": "/종목/지엔씨에너지/실적/", "label": "지엔씨에너지 실적"}, {"url": "/종목/제룡전기/실적/", "label": "제룡전기 실적"}]
+peers_head: "같은 업종(전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업) 다른 종목의 실적"
+---
+
+산일전기의 최근 연간 실적은 2023년 매출 2,145억 원·영업이익 466억 원, 2024년 매출 3,340억 원·영업이익 1,092억 원, 2025년 매출 5,019억 원·영업이익 1,786억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6,852억 원·영업이익 2,554억 원이다.
+
+## 산일전기 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,145억 원 | 3,340억 원 | 5,019억 원 | 6,852억 원 |
+| 영업이익 | 466억 원 | 1,092억 원 | 1,786억 원 | 2,554억 원 |
+| 당기순이익 | 391억 원 | 837억 원 | 1,489억 원 | 2,131억 원 |
+| 영업이익률 | 21.7% | 32.7% | 35.6% | 37.3% |
+| ROE | 46.2% | 29.9% | 29.2% | 31.8% |
+| EPS | 8,807원 | 3,214원 | 4,891원 | 6,983원 |
+| PER | — | 21.4배 | 26.6배 | 28.4배 |
+| PBR | 0.00배 | 4.80배 | 6.75배 | 8.01배 |
+| 주당배당금 | — | 420원 | 1,250원 | 1,596원 |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 1,786억 원 (전년보다 +64%)이고, 주가는 한 해 +89.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="산일전기 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+90%</text></svg><figcaption>산일전기 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 산일전기 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,283억 원 | 1,327억 원 | 1,421억 원 | 1,503억 원 | 1,642억 원 | 1,807억 원 |
+| 영업이익 | 462억 원 | 426억 원 | 524억 원 | 555억 원 | 620억 원 | 676억 원 |
+| 당기순이익 | 379억 원 | 368억 원 | 430억 원 | 459억 원 | 546억 원 | 561억 원 |
+| 영업이익률 | 36.0% | 32.1% | 36.8% | 36.9% | 37.8% | 37.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="산일전기 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="100.2" width="52.3" height="155.8" rx="3"/><text class="ic-val" x="112.7" y="94.2" text-anchor="middle">462억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="112.3" width="52.3" height="143.7" rx="3"/><text class="ic-val" x="206.0" y="106.3" text-anchor="middle">426억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="79.3" width="52.3" height="176.7" rx="3"/><text class="ic-val" x="299.3" y="73.3" text-anchor="middle">524억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="68.8" width="52.3" height="187.2" rx="3"/><text class="ic-val" x="392.7" y="62.8" text-anchor="middle">555억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="46.9" width="52.3" height="209.1" rx="3"/><text class="ic-val" x="486.0" y="40.9" text-anchor="middle">620억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">676억</text></svg><figcaption>산일전기 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

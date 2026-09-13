@@ -1,0 +1,53 @@
+---
+title: "티쓰리 실적, 2025년 영업이익 170억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "티쓰리 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "204610"
+name: "티쓰리"
+intent: "실적"
+chip: "204610 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "티쓰리-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/티쓰리/", "label": "티쓰리"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/티쓰리/", "label": "티쓰리 주가"}, {"url": "/종목/티쓰리/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/티쓰리/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/티쓰리/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/데브시스터즈/실적/", "label": "데브시스터즈 실적"}, {"url": "/종목/코난테크놀로지/실적/", "label": "코난테크놀로지 실적"}, {"url": "/종목/gc메디아이/실적/", "label": "GC메디아이 실적"}, {"url": "/종목/에스투더블유/실적/", "label": "에스투더블유 실적"}, {"url": "/종목/넥써쓰/실적/", "label": "넥써쓰 실적"}, {"url": "/종목/솔트룩스/실적/", "label": "솔트룩스 실적"}, {"url": "/종목/네오위즈홀딩스/실적/", "label": "네오위즈홀딩스 실적"}, {"url": "/종목/지어소프트/실적/", "label": "지어소프트 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+티쓰리의 최근 연간 실적은 2023년 매출 510억 원·영업이익 76억 원, 2024년 매출 593억 원·영업이익 105억 원, 2025년 매출 695억 원·영업이익 170억 원이다.
+
+## 티쓰리 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 510억 원 | 593억 원 | 695억 원 | — |
+| 영업이익 | 76억 원 | 105억 원 | 170억 원 | — |
+| 당기순이익 | -9억 원 | 126억 원 | 206억 원 | — |
+| 영업이익률 | 14.8% | 17.7% | 24.5% | — |
+| ROE | 5.8% | 12.0% | 17.7% | — |
+| EPS | 84원 | 175원 | 275원 | — |
+| PER | 14.6배 | 8.9배 | 6.7배 | — |
+| PBR | 0.82배 | 0.93배 | 1.01배 | — |
+| 주당배당금 | 60원 | 60원 | 140원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 76억 원이고, 주가는 한 해 -29.7% 움직였다. 2024년은 영업이익 105억 원 (전년보다 +38%)이고, 주가는 한 해 +26.3% 움직였다. 2025년은 영업이익 170억 원 (전년보다 +62%)이고, 주가는 한 해 +19.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="티쓰리 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="135.1" y2="135.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="135.1" width="104.5" height="120.9" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-30%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="107.1" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+26%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="57.7" width="104.5" height="77.5" rx="3"/><text class="ic-val" x="532.7" y="51.7" text-anchor="middle">+19%</text></svg><figcaption>티쓰리 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 티쓰리 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 197억 원 | 167억 원 | 171억 원 | 221억 원 | 258억 원 | — |
+| 영업이익 | 59억 원 | 30억 원 | 47억 원 | 58억 원 | 52억 원 | — |
+| 당기순이익 | 57억 원 | 32억 원 | 81억 원 | 64억 원 | 56억 원 | — |
+| 영업이익률 | 30.2% | 17.8% | 27.2% | 26.4% | 20.1% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="티쓰리 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">59억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="140.1" width="52.3" height="115.9" rx="3"/><text class="ic-val" x="206.0" y="134.1" text-anchor="middle">30억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="74.4" width="52.3" height="181.6" rx="3"/><text class="ic-val" x="299.3" y="68.4" text-anchor="middle">47억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="31.9" width="52.3" height="224.1" rx="3"/><text class="ic-val" x="392.7" y="25.9" text-anchor="middle">58억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="55.1" width="52.3" height="200.9" rx="3"/><text class="ic-val" x="486.0" y="49.1" text-anchor="middle">52억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>티쓰리 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

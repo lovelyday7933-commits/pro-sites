@@ -1,0 +1,53 @@
+---
+title: "티케이케미칼 실적, 2025년 영업이익 24억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "티케이케미칼 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "104480"
+name: "티케이케미칼"
+intent: "실적"
+chip: "104480 · 코스닥 · 화학섬유 제조업 · 기준일 2026.09.11"
+utm_source: "티케이케미칼-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/화학섬유-제조업/", "label": "화학섬유 제조업"}, {"url": "/종목/티케이케미칼/", "label": "티케이케미칼"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/티케이케미칼/", "label": "티케이케미칼 주가"}, {"url": "/종목/티케이케미칼/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/티케이케미칼/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/티케이케미칼/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대한화섬/실적/", "label": "대한화섬 실적"}, {"url": "/종목/휴비스/실적/", "label": "휴비스 실적"}, {"url": "/종목/레몬/실적/", "label": "레몬 실적"}, {"url": "/종목/씨앤투스/실적/", "label": "씨앤투스 실적"}, {"url": "/종목/hs효성첨단소재/실적/", "label": "HS효성첨단소재 실적"}, {"url": "/종목/폴라리스우노/실적/", "label": "폴라리스우노 실적"}, {"url": "/종목/태광산업/실적/", "label": "태광산업 실적"}, {"url": "/종목/효성티앤씨/실적/", "label": "효성티앤씨 실적"}]
+peers_head: "같은 업종(화학섬유 제조업) 다른 종목의 실적"
+---
+
+티케이케미칼의 최근 연간 실적은 2023년 매출 3,792억 원·영업이익 -43억 원, 2024년 매출 3,396억 원·영업이익 -16억 원, 2025년 매출 3,458억 원·영업이익 24억 원이다.
+
+## 티케이케미칼 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,792억 원 | 3,396억 원 | 3,458억 원 | — |
+| 영업이익 | -43억 원 | -16억 원 | 24억 원 | — |
+| 당기순이익 | -89억 원 | -1,117억 원 | 1,165억 원 | — |
+| 영업이익률 | -1.1% | -0.5% | 0.7% | — |
+| ROE | -0.9% | -10.8% | 9.9% | — |
+| EPS | -98원 | -1,228원 | 1,282원 | — |
+| PER | -18.2배 | -1.4배 | 1.2배 | — |
+| PBR | 0.17배 | 0.14배 | 0.12배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -43억 원이고, 주가는 한 해 -37.1% 움직였다. 2024년은 영업이익 -16억 원 (전년보다 +63%)이고, 주가는 한 해 -2.1% 움직였다. 2025년은 영업이익 24억 원 (전년보다 +250%)이고, 주가는 한 해 -10.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="티케이케미칼 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-37%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="12.8" rx="3"/><text class="ic-val" x="346.0" y="54.8" text-anchor="middle">-2%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="61.4" rx="3"/><text class="ic-val" x="532.7" y="103.4" text-anchor="middle">-10%</text></svg><figcaption>티케이케미칼 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 티케이케미칼 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 921억 원 | 920억 원 | 746억 원 | 1,048억 원 | 1,295억 원 | — |
+| 영업이익 | 4억 원 | 23억 원 | 12억 원 | 56억 원 | 215억 원 | — |
+| 당기순이익 | 481억 원 | 177억 원 | -107억 원 | 73억 원 | 411억 원 | — |
+| 영업이익률 | 0.5% | 2.5% | 1.6% | 5.4% | 16.6% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="티케이케미칼 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="251.8" width="52.3" height="4.2" rx="3"/><text class="ic-val" x="112.7" y="245.8" text-anchor="middle">4억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="231.6" width="52.3" height="24.4" rx="3"/><text class="ic-val" x="206.0" y="225.6" text-anchor="middle">23억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="243.3" width="52.3" height="12.7" rx="3"/><text class="ic-val" x="299.3" y="237.3" text-anchor="middle">12억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="196.6" width="52.3" height="59.4" rx="3"/><text class="ic-val" x="392.7" y="190.6" text-anchor="middle">56억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">215억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>티케이케미칼 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

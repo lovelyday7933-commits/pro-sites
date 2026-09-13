@@ -1,0 +1,53 @@
+---
+title: "클로봇 실적, 2025년 영업이익 -32억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "클로봇 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "466100"
+name: "클로봇"
+intent: "실적"
+chip: "466100 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "클로봇-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/클로봇/", "label": "클로봇"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/클로봇/", "label": "클로봇 주가"}, {"url": "/종목/클로봇/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/클로봇/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/넥슨게임즈/실적/", "label": "넥슨게임즈 실적"}, {"url": "/종목/안랩/실적/", "label": "안랩 실적"}, {"url": "/종목/루닛/실적/", "label": "루닛 실적"}, {"url": "/종목/가비아/실적/", "label": "가비아 실적"}, {"url": "/종목/카카오게임즈/실적/", "label": "카카오게임즈 실적"}, {"url": "/종목/위메이드/실적/", "label": "위메이드 실적"}, {"url": "/종목/스피어/실적/", "label": "스피어 실적"}, {"url": "/종목/코나아이/실적/", "label": "코나아이 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+클로봇의 최근 연간 실적은 2023년 매출 242억 원·영업이익 -58억 원, 2024년 매출 334억 원·영업이익 -75억 원, 2025년 매출 414억 원·영업이익 -32억 원이다.
+
+## 클로봇 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 242억 원 | 334억 원 | 414억 원 | — |
+| 영업이익 | -58억 원 | -75억 원 | -32억 원 | — |
+| 당기순이익 | -224억 원 | -67억 원 | -22억 원 | — |
+| 영업이익률 | -23.8% | -22.4% | -7.7% | — |
+| ROE | — | -15.7% | -3.6% | — |
+| EPS | -2,059원 | -313원 | -87원 | — |
+| PER | — | -27.0배 | -687.2배 | — |
+| PBR | 0.00배 | 3.65배 | 24.71배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 -32억 원 (전년보다 +57%)이고, 주가는 한 해 +607.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="클로봇 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+607%</text></svg><figcaption>클로봇 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 클로봇 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 78억 원 | 107억 원 | 179억 원 | 81억 원 | 89억 원 | — |
+| 영업이익 | -19억 원 | 8억 원 | 13억 원 | -25억 원 | -28억 원 | — |
+| 당기순이익 | -14억 원 | 12억 원 | 11억 원 | -22억 원 | -26억 원 | — |
+| 영업이익률 | -23.9% | 7.5% | 7.3% | -30.8% | -32.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="클로봇 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="100.3" y2="100.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="100.3" width="52.3" height="105.7" rx="3"/><text class="ic-val" x="112.7" y="220.0" text-anchor="middle">-19억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="55.8" width="52.3" height="44.5" rx="3"/><text class="ic-val" x="206.0" y="49.8" text-anchor="middle">8억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="72.3" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">13억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="100.3" width="52.3" height="139.0" rx="3"/><text class="ic-val" x="392.7" y="253.3" text-anchor="middle">-25억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="100.3" width="52.3" height="155.7" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-28억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>클로봇 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

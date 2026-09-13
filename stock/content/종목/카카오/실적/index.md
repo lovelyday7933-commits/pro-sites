@@ -1,0 +1,54 @@
+---
+title: "카카오 실적, 2025년 영업이익 7,320억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "카카오 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "035720"
+name: "카카오"
+intent: "실적"
+chip: "035720 · 코스피 · 자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업 · 기준일 2026.09.11"
+utm_source: "카카오-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자료처리,-호스팅,-포털-및-기타-인터넷-정보매개-서비스업/", "label": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업"}, {"url": "/종목/카카오/", "label": "카카오"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/카카오/", "label": "카카오 주가"}, {"url": "/종목/카카오/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/카카오/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/카카오/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/카카오/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/naver/실적/", "label": "NAVER 실적"}, {"url": "/종목/다우기술/실적/", "label": "다우기술 실적"}, {"url": "/종목/케이아이엔엑스/실적/", "label": "케이아이엔엑스 실적"}, {"url": "/종목/카페24/실적/", "label": "카페24 실적"}, {"url": "/종목/키다리스튜디오/실적/", "label": "키다리스튜디오 실적"}, {"url": "/종목/yg-plus/실적/", "label": "YG PLUS 실적"}, {"url": "/종목/사람인/실적/", "label": "사람인 실적"}, {"url": "/종목/탑코미디어/실적/", "label": "탑코미디어 실적"}]
+peers_head: "같은 업종(자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업) 다른 종목의 실적"
+---
+
+카카오의 최근 연간 실적은 2023년 매출 7조 5,570억 원·영업이익 4,609억 원, 2024년 매출 7조 8,640억 원·영업이익 4,953억 원, 2025년 매출 8조 991억 원·영업이익 7,320억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 8조 3,383억 원·영업이익 1조 367억 원이다.
+
+## 카카오 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7조 5,570억 원 | 7조 8,640억 원 | 8조 991억 원 | 8조 3,383억 원 |
+| 영업이익 | 4,609억 원 | 4,953억 원 | 7,320억 원 | 1조 367억 원 |
+| 당기순이익 | -1조 8,167억 원 | -1,619억 원 | 5,180억 원 | 6,682억 원 |
+| 영업이익률 | 6.1% | 6.3% | 9.0% | 12.4% |
+| ROE | -10.3% | 0.6% | 4.6% | 5.0% |
+| EPS | -2,276원 | 124원 | 1,110원 | 1,296원 |
+| PER | -23.9배 | 306.9배 | 54.1배 | 26.6배 |
+| PBR | 2.44배 | 1.65배 | 2.35배 | 1.29배 |
+| 주당배당금 | 61원 | 68원 | 75원 | 78원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 4,609억 원이고, 주가는 한 해 +2.3% 움직였다. 2024년은 영업이익 4,953억 원 (전년보다 +7%)이고, 주가는 한 해 -29.7% 움직였다. 2025년은 영업이익 7,320억 원 (전년보다 +48%)이고, 주가는 한 해 +57.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="카카오 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="178.3" y2="178.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="172.4" width="104.5" height="5.9" rx="3"/><text class="ic-val" x="159.3" y="166.4" text-anchor="middle">+2%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="178.3" width="104.5" height="77.7" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-30%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="150.3" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+57%</text></svg><figcaption>카카오 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 카카오 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 9,175억 원 | 2조 866억 원 | 2조 1,205억 원 | 1조 9,421억 원 | 2조 985억 원 | 2조 895억 원 |
+| 영업이익 | 2,039억 원 | 2,080억 원 | 2,327억 원 | 2,114억 원 | 2,770억 원 | 2,660억 원 |
+| 당기순이익 | 1,718억 원 | 1,929억 원 | -471억 원 | 2,268억 원 | 180억 원 | 2,530억 원 |
+| 영업이익률 | 10.6% | 10.0% | 11.0% | 10.9% | 13.2% | 12.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="카카오 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="88.2" width="52.3" height="167.8" rx="3"/><text class="ic-val" x="112.7" y="82.2" text-anchor="middle">2,039억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="84.8" width="52.3" height="171.2" rx="3"/><text class="ic-val" x="206.0" y="78.8" text-anchor="middle">2,080억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="64.5" width="52.3" height="191.5" rx="3"/><text class="ic-val" x="299.3" y="58.5" text-anchor="middle">2,327억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="82.0" width="52.3" height="174.0" rx="3"/><text class="ic-val" x="392.7" y="76.0" text-anchor="middle">2,114억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">2,770억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="37.1" width="52.3" height="218.9" rx="3"/><text class="ic-val" x="579.3" y="31.1" text-anchor="middle">2,660억</text></svg><figcaption>카카오 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

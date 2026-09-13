@@ -1,0 +1,53 @@
+---
+title: "민테크 실적, 2025년 영업이익 -88억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "민테크 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "452200"
+name: "민테크"
+intent: "실적"
+chip: "452200 · 코스닥 · 측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외 · 기준일 2026.09.11"
+utm_source: "민테크-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/측정,-시험,-항해,-제어-및-기타-정밀기기-제조업;-광학기기-제외/", "label": "측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외"}, {"url": "/종목/민테크/", "label": "민테크"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/민테크/", "label": "민테크 주가"}, {"url": "/종목/민테크/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/민테크/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/민테크/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/에스에이티/실적/", "label": "에스에이티 실적"}, {"url": "/종목/지슨/실적/", "label": "지슨 실적"}, {"url": "/종목/옴니시스템/실적/", "label": "옴니시스템 실적"}, {"url": "/종목/솔디펜스/실적/", "label": "솔디펜스 실적"}, {"url": "/종목/퓨런티어/실적/", "label": "퓨런티어 실적"}, {"url": "/종목/코셈/실적/", "label": "코셈 실적"}, {"url": "/종목/웨이브일렉트로/실적/", "label": "웨이브일렉트로 실적"}, {"url": "/종목/3s/실적/", "label": "3S 실적"}]
+peers_head: "같은 업종(측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외) 다른 종목의 실적"
+---
+
+민테크의 최근 연간 실적은 2023년 매출 175억 원·영업이익 -66억 원, 2024년 매출 209억 원·영업이익 -110억 원, 2025년 매출 210억 원·영업이익 -88억 원이다.
+
+## 민테크 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 175억 원 | 209억 원 | 210억 원 | — |
+| 영업이익 | -66억 원 | -110억 원 | -88억 원 | — |
+| 당기순이익 | -85억 원 | -145억 원 | -25억 원 | — |
+| 영업이익률 | -37.6% | -52.6% | -41.9% | — |
+| ROE | -876.1% | -62.6% | -7.8% | — |
+| EPS | -427원 | -617원 | -102원 | — |
+| PER | — | -7.8배 | -23.3배 | — |
+| PBR | 0.00배 | 3.79배 | 1.74배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 -88억 원 (전년보다 +20%)이고, 주가는 한 해 -50.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="민테크 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-51%</text></svg><figcaption>민테크 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 민테크 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 8억 원 | 104억 원 | 89억 원 | 16억 원 | 15억 원 | — |
+| 영업이익 | -35억 원 | 2억 원 | -13억 원 | -27억 원 | -24억 원 | — |
+| 당기순이익 | -6억 원 | 43억 원 | -18억 원 | -29억 원 | -26억 원 | — |
+| 영업이익률 | -434.9% | 1.6% | -15.0% | -165.8% | -152.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="민테크 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="40.3" y2="40.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="40.3" width="52.3" height="215.7" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-35억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="12.3" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">2억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="40.3" width="52.3" height="80.1" rx="3"/><text class="ic-val" x="299.3" y="134.4" text-anchor="middle">-13억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="40.3" width="52.3" height="166.4" rx="3"/><text class="ic-val" x="392.7" y="220.7" text-anchor="middle">-27억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="40.3" width="52.3" height="147.9" rx="3"/><text class="ic-val" x="486.0" y="202.2" text-anchor="middle">-24억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>민테크 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

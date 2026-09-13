@@ -1,0 +1,53 @@
+---
+title: "다우기술 실적, 2025년 영업이익 1조 5,593억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "다우기술 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "023590"
+name: "다우기술"
+intent: "실적"
+chip: "023590 · 코스피 · 자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업 · 기준일 2026.09.11"
+utm_source: "다우기술-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자료처리,-호스팅,-포털-및-기타-인터넷-정보매개-서비스업/", "label": "자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업"}, {"url": "/종목/다우기술/", "label": "다우기술"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/다우기술/", "label": "다우기술 주가"}, {"url": "/종목/다우기술/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/다우기술/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/다우기술/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/케이아이엔엑스/실적/", "label": "케이아이엔엑스 실적"}, {"url": "/종목/카페24/실적/", "label": "카페24 실적"}, {"url": "/종목/키다리스튜디오/실적/", "label": "키다리스튜디오 실적"}, {"url": "/종목/카카오/실적/", "label": "카카오 실적"}, {"url": "/종목/yg-plus/실적/", "label": "YG PLUS 실적"}, {"url": "/종목/사람인/실적/", "label": "사람인 실적"}, {"url": "/종목/탑코미디어/실적/", "label": "탑코미디어 실적"}, {"url": "/종목/플리토/실적/", "label": "플리토 실적"}]
+peers_head: "같은 업종(자료처리, 호스팅, 포털 및 기타 인터넷 정보매개 서비스업) 다른 종목의 실적"
+---
+
+다우기술의 최근 연간 실적은 2023년 매출 9조 8,551억 원·영업이익 6,399억 원, 2024년 매출 11조 6,258억 원·영업이익 1조 1,747억 원, 2025년 매출 17조 4,950억 원·영업이익 1조 5,593억 원이다.
+
+## 다우기술 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 9조 8,551억 원 | 11조 6,258억 원 | 17조 4,950억 원 | — |
+| 영업이익 | 6,399억 원 | 1조 1,747억 원 | 1조 5,593억 원 | — |
+| 당기순이익 | 4,900억 원 | 8,528억 원 | 1조 1,560억 원 | — |
+| 영업이익률 | 6.5% | 10.1% | 8.9% | — |
+| ROE | 9.3% | 13.2% | 15.9% | — |
+| EPS | 5,037원 | 7,931원 | 11,260원 | — |
+| PER | 3.5배 | 2.2배 | 3.5배 | — |
+| PBR | 0.31배 | 0.27배 | 0.49배 | — |
+| 주당배당금 | 700원 | 1,400원 | 1,800원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 6,399억 원이고, 주가는 한 해 -6.8% 움직였다. 2024년은 영업이익 1조 1,747억 원 (전년보다 +84%)이고, 주가는 한 해 -0.1% 움직였다. 2025년은 영업이익 1조 5,593억 원 (전년보다 +33%)이고, 주가는 한 해 +117.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="다우기술 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="243.5" y2="243.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="243.5" width="104.5" height="12.5" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-7%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="243.5" width="104.5" height="1.0" rx="3"/><text class="ic-val" x="346.0" y="257.7" text-anchor="middle">0%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="215.5" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+117%</text></svg><figcaption>다우기술 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 다우기술 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4조 5,953억 원 | 3조 4,656억 원 | 5조 6,866억 원 | 9조 4,826억 원 | 16조 1,850억 원 | — |
+| 영업이익 | 4,295억 원 | 4,268억 원 | 3,585억 원 | 6,413억 원 | 8,178억 원 | — |
+| 당기순이익 | 3,284억 원 | 3,293억 원 | 2,609억 원 | 4,872억 원 | 6,782억 원 | — |
+| 영업이익률 | 9.3% | 12.3% | 6.3% | 6.8% | 5.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="다우기술 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="136.3" width="52.3" height="119.7" rx="3"/><text class="ic-val" x="112.7" y="130.3" text-anchor="middle">4,295억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="137.0" width="52.3" height="119.0" rx="3"/><text class="ic-val" x="206.0" y="131.0" text-anchor="middle">4,268억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="156.1" width="52.3" height="99.9" rx="3"/><text class="ic-val" x="299.3" y="150.1" text-anchor="middle">3,585억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="77.2" width="52.3" height="178.8" rx="3"/><text class="ic-val" x="392.7" y="71.2" text-anchor="middle">6,413억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">8,178억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>다우기술 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

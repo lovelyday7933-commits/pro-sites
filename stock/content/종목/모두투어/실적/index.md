@@ -1,0 +1,54 @@
+---
+title: "모두투어 실적, 2025년 영업이익 74억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "모두투어 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "080160"
+name: "모두투어"
+intent: "실적"
+chip: "080160 · 코스닥 · 여행사 및 기타 여행보조 서비스업 · 기준일 2026.09.11"
+utm_source: "모두투어-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/여행사-및-기타-여행보조-서비스업/", "label": "여행사 및 기타 여행보조 서비스업"}, {"url": "/종목/모두투어/", "label": "모두투어"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/모두투어/", "label": "모두투어 주가"}, {"url": "/종목/모두투어/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/모두투어/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/모두투어/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/모두투어/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/레드캡투어/실적/", "label": "레드캡투어 실적"}, {"url": "/종목/하나투어/실적/", "label": "하나투어 실적"}, {"url": "/종목/참좋은여행/실적/", "label": "참좋은여행 실적"}, {"url": "/종목/노랑풍선/실적/", "label": "노랑풍선 실적"}, {"url": "/종목/롯데관광개발/실적/", "label": "롯데관광개발 실적"}]
+peers_head: "같은 업종(여행사 및 기타 여행보조 서비스업) 다른 종목의 실적"
+---
+
+모두투어의 최근 연간 실적은 2023년 매출 1,786억 원·영업이익 116억 원, 2024년 매출 2,505억 원·영업이익 49억 원, 2025년 매출 2,104억 원·영업이익 74억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,912억 원·영업이익 51억 원이다.
+
+## 모두투어 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,786억 원 | 2,505억 원 | 2,104억 원 | 1,912억 원 |
+| 영업이익 | 116억 원 | 49억 원 | 74억 원 | 51억 원 |
+| 당기순이익 | 132억 원 | 108억 원 | 145억 원 | 60억 원 |
+| 영업이익률 | 6.5% | 1.9% | 3.5% | 2.7% |
+| ROE | 16.3% | 15.3% | 17.7% | 6.1% |
+| EPS | 544원 | 575원 | 767원 | 307원 |
+| PER | 28.0배 | 16.9배 | 13.3배 | 30.9배 |
+| PBR | 3.81배 | 2.36배 | 2.01배 | 1.81배 |
+| 주당배당금 | 250원 | 250원 | — | 350원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 116억 원이고, 주가는 한 해 -10.6% 움직였다. 2024년은 영업이익 49억 원 (전년보다 -58%)이고, 주가는 한 해 -36.4% 움직였다. 2025년은 영업이익 74억 원 (전년보다 +51%)이고, 주가는 한 해 +5.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="모두투어 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="56.3" y2="56.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="56.3" width="104.5" height="58.3" rx="3"/><text class="ic-val" x="159.3" y="128.6" text-anchor="middle">-11%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="56.3" width="104.5" height="199.7" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-36%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="28.3" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+5%</text></svg><figcaption>모두투어 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 모두투어 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 397억 원 | 376억 원 | 678억 원 | 613억 원 | 422억 원 | 420억 원 |
+| 영업이익 | 27억 원 | -35억 원 | 2억 원 | 28억 원 | -9억 원 | 10억 원 |
+| 당기순이익 | 67억 원 | -15억 원 | 25억 원 | 46억 원 | -2억 원 | 10억 원 |
+| 영업이익률 | 6.8% | -9.2% | 0.4% | 4.6% | -2.0% | 2.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="모두투어 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="129.3" y2="129.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="31.6" width="52.3" height="97.7" rx="3"/><text class="ic-val" x="112.7" y="25.6" text-anchor="middle">27억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="129.3" width="52.3" height="126.7" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-35억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="122.1" width="52.3" height="7.2" rx="3"/><text class="ic-val" x="299.3" y="116.1" text-anchor="middle">2억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="101.3" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">28억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="129.3" width="52.3" height="32.6" rx="3"/><text class="ic-val" x="486.0" y="175.9" text-anchor="middle">-9억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="93.1" width="52.3" height="36.2" rx="3"/><text class="ic-val" x="579.3" y="87.1" text-anchor="middle">10억</text></svg><figcaption>모두투어 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "나래나노텍 실적, 2025년 영업이익 -88억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "나래나노텍 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "137080"
+name: "나래나노텍"
+intent: "실적"
+chip: "137080 · 코스닥 · 특수 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "나래나노텍-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/특수-목적용-기계-제조업/", "label": "특수 목적용 기계 제조업"}, {"url": "/종목/나래나노텍/", "label": "나래나노텍"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/나래나노텍/", "label": "나래나노텍 주가"}, {"url": "/종목/나래나노텍/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/나래나노텍/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/나래나노텍/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/화천기계/실적/", "label": "화천기계 실적"}, {"url": "/종목/디에이테크놀로지/실적/", "label": "디에이테크놀로지 실적"}, {"url": "/종목/레이저쎌/실적/", "label": "레이저쎌 실적"}, {"url": "/종목/티에스아이/실적/", "label": "티에스아이 실적"}, {"url": "/종목/한울반도체/실적/", "label": "한울반도체 실적"}, {"url": "/종목/다원넥스뷰/실적/", "label": "다원넥스뷰 실적"}, {"url": "/종목/모델솔루션/실적/", "label": "모델솔루션 실적"}, {"url": "/종목/우신시스템/실적/", "label": "우신시스템 실적"}]
+peers_head: "같은 업종(특수 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+나래나노텍의 최근 연간 실적은 2023년 매출 529억 원·영업이익 -150억 원, 2024년 매출 404억 원·영업이익 -221억 원, 2025년 매출 545억 원·영업이익 -88억 원이다.
+
+## 나래나노텍 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 529억 원 | 404억 원 | 545억 원 | — |
+| 영업이익 | -150억 원 | -221억 원 | -88억 원 | — |
+| 당기순이익 | -133억 원 | -171억 원 | 400억 원 | — |
+| 영업이익률 | -28.3% | -54.7% | -16.2% | — |
+| ROE | -13.2% | -20.2% | 41.5% | — |
+| EPS | -1,201원 | -1,550원 | 3,613원 | — |
+| PER | -5.2배 | -2.6배 | 1.1배 | — |
+| PBR | 0.75배 | 0.59배 | 0.37배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -150억 원이고, 주가는 한 해 -11.6% 움직였다. 2024년은 영업이익 -221억 원 (전년보다 -47%)이고, 주가는 한 해 -35.2% 움직였다. 2025년은 영업이익 -88억 원 (전년보다 +60%)이고, 주가는 한 해 -3.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="나래나노텍 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="75.3" rx="3"/><text class="ic-val" x="159.3" y="117.3" text-anchor="middle">-12%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-35%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="23.8" rx="3"/><text class="ic-val" x="532.7" y="65.8" text-anchor="middle">-4%</text></svg><figcaption>나래나노텍 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 나래나노텍 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 202억 원 | 102억 원 | 158억 원 | 173억 원 | 207억 원 | — |
+| 영업이익 | -28억 원 | -9억 원 | 4억 원 | 7억 원 | 30억 원 | — |
+| 당기순이익 | -42억 원 | -4억 원 | 499억 원 | 132억 원 | 28억 원 | — |
+| 영업이익률 | -14.0% | -8.4% | 2.2% | 3.8% | 14.5% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="나래나노텍 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="145.9" y2="145.9"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="145.9" width="52.3" height="110.1" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-28억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="145.9" width="52.3" height="35.4" rx="3"/><text class="ic-val" x="206.0" y="195.3" text-anchor="middle">-9억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="130.2" width="52.3" height="15.7" rx="3"/><text class="ic-val" x="299.3" y="124.2" text-anchor="middle">4억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="118.4" width="52.3" height="27.5" rx="3"/><text class="ic-val" x="392.7" y="112.4" text-anchor="middle">7억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="117.9" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">30억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>나래나노텍 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "LG생활건강 실적, 2025년 영업이익 1,707억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "LG생활건강 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "051900"
+name: "LG생활건강"
+intent: "실적"
+chip: "051900 · 코스피 · 기타 화학제품 제조업 · 기준일 2026.09.11"
+utm_source: "lg생활건강-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-화학제품-제조업/", "label": "기타 화학제품 제조업"}, {"url": "/종목/lg생활건강/", "label": "LG생활건강"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/lg생활건강/", "label": "LG생활건강 주가"}, {"url": "/종목/lg생활건강/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/lg생활건강/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/lg생활건강/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/lg생활건강/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/skc/실적/", "label": "SKC 실적"}, {"url": "/종목/케이씨씨/실적/", "label": "케이씨씨 실적"}, {"url": "/종목/한국콜마/실적/", "label": "한국콜마 실적"}, {"url": "/종목/코스맥스/실적/", "label": "코스맥스 실적"}, {"url": "/종목/한화/실적/", "label": "한화 실적"}, {"url": "/종목/솔브레인/실적/", "label": "솔브레인 실적"}, {"url": "/종목/아모레퍼시픽/실적/", "label": "아모레퍼시픽 실적"}, {"url": "/종목/달바글로벌/실적/", "label": "달바글로벌 실적"}]
+peers_head: "같은 업종(기타 화학제품 제조업) 다른 종목의 실적"
+---
+
+LG생활건강의 최근 연간 실적은 2023년 매출 6조 8,048억 원·영업이익 4,870억 원, 2024년 매출 6조 8,119억 원·영업이익 4,590억 원, 2025년 매출 6조 3,555억 원·영업이익 1,707억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6조 4,646억 원·영업이익 3,796억 원이다.
+
+## LG생활건강 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 6조 8,048억 원 | 6조 8,119억 원 | 6조 3,555억 원 | 6조 4,646억 원 |
+| 영업이익 | 4,870억 원 | 4,590억 원 | 1,707억 원 | 3,796억 원 |
+| 당기순이익 | 1,635억 원 | 2,039억 원 | -858억 원 | 2,422억 원 |
+| 영업이익률 | 7.2% | 6.7% | 2.7% | 5.9% |
+| ROE | 2.6% | 3.4% | -1.8% | 4.2% |
+| EPS | 8,057원 | 10,675원 | -5,688원 | 13,605원 |
+| PER | 44.1배 | 28.6배 | -45.4배 | 21.4배 |
+| PBR | 1.09배 | 0.92배 | 0.79배 | 0.86배 |
+| 주당배당금 | 3,500원 | 3,500원 | 2,000원 | 3,038원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 4,870억 원이고, 주가는 한 해 -50.8% 움직였다. 2024년은 영업이익 4,590억 원 (전년보다 -6%)이고, 주가는 한 해 -14.1% 움직였다. 2025년은 영업이익 1,707억 원 (전년보다 -63%)이고, 주가는 한 해 -15.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LG생활건강 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-51%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="63.2" rx="3"/><text class="ic-val" x="346.0" y="105.2" text-anchor="middle">-14%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="68.4" rx="3"/><text class="ic-val" x="532.7" y="110.4" text-anchor="middle">-15%</text></svg><figcaption>LG생활건강 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## LG생활건강 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 6,049억 원 | 1조 5,800억 원 | 1조 4,728억 원 | 1조 5,766억 원 | 1조 6,574억 원 | 1조 6,507억 원 |
+| 영업이익 | 548억 원 | 462억 원 | -727억 원 | 1,078억 원 | 1,028억 원 | 1,119억 원 |
+| 당기순이익 | 386억 원 | 234억 원 | -2,512억 원 | 887억 원 | 776억 원 | 720억 원 |
+| 영업이익률 | 3.4% | 2.9% | -4.9% | 6.8% | 6.2% | 6.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LG생활건강 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="166.2" y2="166.2"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="98.5" width="52.3" height="67.7" rx="3"/><text class="ic-val" x="112.7" y="92.5" text-anchor="middle">548억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="109.1" width="52.3" height="57.1" rx="3"/><text class="ic-val" x="206.0" y="103.1" text-anchor="middle">462억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="166.2" width="52.3" height="89.8" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-727억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="33.1" width="52.3" height="133.1" rx="3"/><text class="ic-val" x="392.7" y="27.1" text-anchor="middle">1,078억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="39.2" width="52.3" height="127.0" rx="3"/><text class="ic-val" x="486.0" y="33.2" text-anchor="middle">1,028억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="138.2" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1,119억</text></svg><figcaption>LG생활건강 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

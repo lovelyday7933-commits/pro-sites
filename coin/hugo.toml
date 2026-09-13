@@ -60,6 +60,11 @@ summaryLength = 40
 
 [outputs]
   home = ["html", "rss", "search"]
+  # ★2026-09-13 섹션·분류 RSS 를 끈다 — 종목 허브마다 index.xml 이 하나씩 붙어 배포 파일(상한 20,000)을 먹었다(주식 451개).
+  #   크론 워커·네이버 RSS 제출은 홈 index.xml 만 쓴다.
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
 
 # ★2026-09-13 헤더 메뉴 — 주식과 같이 이름으로 못박는다. 전에는 카테고리(리플·비트코인…)가 자동으로 메뉴가 됐다.
 #   카테고리는 /categories/ 에서 닿는다(푸터 "주제별"). identifier = 섹션 이름.

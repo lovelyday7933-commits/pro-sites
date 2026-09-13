@@ -16,6 +16,22 @@
     (dict "v" (lang.FormatNumber 0 $g.n_pages) "u" "장" "l" (printf "%s별 신호 페이지" $T) "s" (printf "%s×신호 %s개 가운데" $T (lang.FormatNumber 0 $g.n_measured)))
     (dict "v" (printf "%s~%s" (substr $g.period_from 0 4) (substr $g.period_to 0 4)) "l" "조사 기간" "s" (printf "%s마다 상장일부터" $T)))) }}
 <div class="site page">
+  {{- /* ★2026-09-13 격자 표에 없는 종목·코인까지 — 주식은 업종 인덱스, 코인은 전체 이름 목록(intent.py) */}}
+  {{- if eq $g.site "coin" }}
+  {{- with site.Data.intent_all }}
+  <section class="sec">
+    <div class="sec-h"><h2>전체 코인 {{ len . }}개 시세·전망·최고가</h2><p>아래 표는 신호를 20번 넘게 잰 코인만 담습니다. 여기서는 원화마켓 전체 코인으로 바로 갑니다.</p></div>
+    <p class="intent-more">{{ range . }}<a class="chip-a" href="{{ .url }}">{{ .name }}</a>{{ end }}</p>
+  </section>
+  {{- end }}
+  {{- else }}
+  {{- with site.GetPage "/업종" }}
+  <section class="sec">
+    <div class="sec-h"><h2>표에 없는 종목까지, 업종별 전체 종목</h2><p>아래 표는 신호를 20번 넘게 잰 {{ $g.n_stocks }}개 종목만 담습니다. 코스피·코스닥 전체 종목의 주가 전망·배당금·목표주가·실적은 업종별로 찾습니다.</p></div>
+    <p><a class="btn btn-primary" href="{{ .RelPermalink }}">업종별 전체 종목 보기</a></p>
+  </section>
+  {{- end }}
+  {{- end }}
   <section class="sec">
     <div class="sec-h"><h2>숫자 하나가 신호 한 가지의 결과입니다</h2></div>
     <div class="txt">{{ .Content }}</div>

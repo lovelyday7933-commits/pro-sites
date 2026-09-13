@@ -1,0 +1,53 @@
+---
+title: "라파스 실적, 2025년 영업이익 -30억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "라파스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "214260"
+name: "라파스"
+intent: "실적"
+chip: "214260 · 코스닥 · 기타 화학제품 제조업 · 기준일 2026.09.11"
+utm_source: "라파스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-화학제품-제조업/", "label": "기타 화학제품 제조업"}, {"url": "/종목/라파스/", "label": "라파스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/라파스/", "label": "라파스 주가"}, {"url": "/종목/라파스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/라파스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/라파스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/라이온켐텍/실적/", "label": "라이온켐텍 실적"}, {"url": "/종목/잉크테크/실적/", "label": "잉크테크 실적"}, {"url": "/종목/삐아/실적/", "label": "삐아 실적"}, {"url": "/종목/새빗켐/실적/", "label": "새빗켐 실적"}, {"url": "/종목/보락/실적/", "label": "보락 실적"}, {"url": "/종목/선진뷰티사이언스/실적/", "label": "선진뷰티사이언스 실적"}, {"url": "/종목/차ai헬스케어/실적/", "label": "차AI헬스케어 실적"}, {"url": "/종목/제이씨케미칼/실적/", "label": "제이씨케미칼 실적"}]
+peers_head: "같은 업종(기타 화학제품 제조업) 다른 종목의 실적"
+---
+
+라파스의 최근 연간 실적은 2023년 매출 279억 원·영업이익 -41억 원, 2024년 매출 272억 원·영업이익 -35억 원, 2025년 매출 310억 원·영업이익 -30억 원이다.
+
+## 라파스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 279억 원 | 272억 원 | 310억 원 | 338억 원 |
+| 영업이익 | -41억 원 | -35억 원 | -30억 원 | — |
+| 당기순이익 | -92억 원 | -58억 원 | -47억 원 | — |
+| 영업이익률 | -14.5% | -12.7% | -9.8% | — |
+| ROE | -25.0% | -16.2% | -15.0% | — |
+| EPS | -1,018원 | -544원 | -484원 | — |
+| PER | -18.9배 | -27.4배 | -27.1배 | — |
+| PBR | 5.43배 | 4.26배 | 3.89배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -41억 원이고, 주가는 한 해 +21.3% 움직였다. 2024년은 영업이익 -35억 원 (전년보다 +15%)이고, 주가는 한 해 -22.9% 움직였다. 2025년은 영업이익 -30억 원 (전년보다 +14%)이고, 주가는 한 해 -11.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="라파스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="137.9" y2="137.9"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="109.9" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="137.9" width="104.5" height="118.1" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-23%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="137.9" width="104.5" height="61.4" rx="3"/><text class="ic-val" x="532.7" y="213.2" text-anchor="middle">-12%</text></svg><figcaption>라파스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 라파스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 81억 원 | 96억 원 | 62억 원 | 68억 원 | 76억 원 | 93억 원 |
+| 영업이익 | -7억 원 | -6억 원 | -10억 원 | -5억 원 | -18억 원 | — |
+| 당기순이익 | -5억 원 | -12억 원 | -18억 원 | -8억 원 | -23억 원 | — |
+| 영업이익률 | -8.9% | -6.7% | -15.8% | -7.7% | -23.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="라파스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="88.7" rx="3"/><text class="ic-val" x="112.7" y="130.7" text-anchor="middle">-7억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="76.0" rx="3"/><text class="ic-val" x="206.0" y="118.0" text-anchor="middle">-6억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="126.7" rx="3"/><text class="ic-val" x="299.3" y="168.7" text-anchor="middle">-10억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="63.3" rx="3"/><text class="ic-val" x="392.7" y="105.3" text-anchor="middle">-5억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-18억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>라파스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

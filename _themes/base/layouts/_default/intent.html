@@ -1,0 +1,23 @@
+{{/* 검색어 칸 — /종목/<이름>/주가-전망·배당금·목표주가·실적/ · /코인/<이름>/전망·최고가/ (tools/intent.py 가 굽는다 · 2026-09-13)
+     ★사람이 실제로 치는 말(네이버 자동완성 실측)로 페이지를 만든다 — 과외상담.com 재실측의 결론.
+     ⛔이 템플릿은 site.RegularPages 를 돌지 않는다. 1만 장 × 전체 페이지 순회 = 빌드 시간 폭발.
+       옆·위로 가는 링크는 전부 intent.py 가 앞머리(siblings · peers · crumbs)에 미리 넣는다. */}}
+{{ define "main" }}
+{{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" .Params.chip "title" .Title "lead" .Description) }}
+<div class="site">{{ partial "ctainline.html" (dict "page" . "place" "intro" "lead" .Params.cta_lead) }}</div>
+<div class="site">
+<article class="post cell article">
+  {{- with .Params.siblings }}
+  <nav class="sibs" aria-label="{{ $.Params.name }} 더 보기">{{ range . }}<a href="{{ .url }}"{{ if .cur }} aria-current="page"{{ end }}>{{ .label }}</a>{{ end }}</nav>
+  {{- end }}
+  <div class="body">{{ .Content }}</div>
+  {{ partial "cta.html" . }}
+  {{- with .Params.peers }}
+  <section class="rel">
+    <h2>{{ $.Params.peers_head }}</h2>
+    <ul class="links">{{ range . }}<li><a href="{{ .url }}"><span>{{ .label }}</span></a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
+</article>
+</div>
+{{ end }}

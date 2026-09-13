@@ -1,0 +1,54 @@
+---
+title: "현대글로비스 실적, 2025년 영업이익 2조 730억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "현대글로비스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "086280"
+name: "현대글로비스"
+intent: "실적"
+chip: "086280 · 코스피 · 기타 운송관련 서비스업 · 기준일 2026.09.11"
+utm_source: "현대글로비스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-운송관련-서비스업/", "label": "기타 운송관련 서비스업"}, {"url": "/종목/현대글로비스/", "label": "현대글로비스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/현대글로비스/", "label": "현대글로비스 주가"}, {"url": "/종목/현대글로비스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/현대글로비스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/현대글로비스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/현대글로비스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/한국공항/실적/", "label": "한국공항 실적"}, {"url": "/종목/선광/실적/", "label": "선광 실적"}, {"url": "/종목/동방/실적/", "label": "동방 실적"}, {"url": "/종목/한솔로지스틱스/실적/", "label": "한솔로지스틱스 실적"}, {"url": "/종목/태웅로직스/실적/", "label": "태웅로직스 실적"}]
+peers_head: "같은 업종(기타 운송관련 서비스업) 다른 종목의 실적"
+---
+
+현대글로비스의 최근 연간 실적은 2023년 매출 25조 6,832억 원·영업이익 1조 5,540억 원, 2024년 매출 28조 4,074억 원·영업이익 1조 7,529억 원, 2025년 매출 29조 5,664억 원·영업이익 2조 730억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 33조 1,591억 원·영업이익 2조 1,592억 원이다.
+
+## 현대글로비스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 25조 6,832억 원 | 28조 4,074억 원 | 29조 5,664억 원 | 33조 1,591억 원 |
+| 영업이익 | 1조 5,540억 원 | 1조 7,529억 원 | 2조 730억 원 | 2조 1,592억 원 |
+| 당기순이익 | 1조 701억 원 | 1조 995억 원 | 1조 7,347억 원 | 1조 6,668억 원 |
+| 영업이익률 | 6.0% | 6.2% | 7.0% | 6.5% |
+| ROE | 14.5% | 13.2% | 18.1% | 15.2% |
+| EPS | 14,148원 | 14,585원 | 23,117원 | 22,193원 |
+| PER | 6.8배 | 8.1배 | 7.8배 | 9.4배 |
+| PBR | 0.93배 | 1.01배 | 1.31배 | 1.35배 |
+| 주당배당금 | 3,150원 | 3,700원 | 5,800원 | 6,300원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1조 5,540억 원이고, 주가는 한 해 +17.1% 움직였다. 2024년은 영업이익 1조 7,529억 원 (전년보다 +13%)이고, 주가는 한 해 +23.3% 움직였다. 2025년은 영업이익 2조 730억 원 (전년보다 +18%)이고, 주가는 한 해 +52.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="현대글로비스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="182.2" width="104.5" height="73.8" rx="3"/><text class="ic-val" x="159.3" y="176.2" text-anchor="middle">+17%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="155.6" width="104.5" height="100.4" rx="3"/><text class="ic-val" x="346.0" y="149.6" text-anchor="middle">+23%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+53%</text></svg><figcaption>현대글로비스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 현대글로비스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7조 5,160억 원 | 7조 3,551억 원 | 7조 4,720억 원 | 7조 8,127억 원 | 8조 7,054억 원 | 8조 4,255억 원 |
+| 영업이익 | 5,389억 원 | 5,240억 원 | 5,083억 원 | 5,215억 원 | 4,951억 원 | 5,704억 원 |
+| 당기순이익 | 5,034억 원 | 3,926억 원 | 4,404억 원 | 3,410억 원 | 3,692억 원 | 4,687억 원 |
+| 영업이익률 | 7.2% | 7.1% | 6.8% | 6.7% | 5.7% | 6.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="현대글로비스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="40.6" width="52.3" height="215.4" rx="3"/><text class="ic-val" x="112.7" y="34.6" text-anchor="middle">5,389억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="46.5" width="52.3" height="209.5" rx="3"/><text class="ic-val" x="206.0" y="40.5" text-anchor="middle">5,240억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="52.8" width="52.3" height="203.2" rx="3"/><text class="ic-val" x="299.3" y="46.8" text-anchor="middle">5,083억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="47.5" width="52.3" height="208.5" rx="3"/><text class="ic-val" x="392.7" y="41.5" text-anchor="middle">5,215억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="58.1" width="52.3" height="197.9" rx="3"/><text class="ic-val" x="486.0" y="52.1" text-anchor="middle">4,951억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">5,704억</text></svg><figcaption>현대글로비스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

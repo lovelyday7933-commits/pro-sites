@@ -1,0 +1,53 @@
+---
+title: "에쓰씨엔지니어링 실적, 2025년 영업이익 -50억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "에쓰씨엔지니어링 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "023960"
+name: "에쓰씨엔지니어링"
+intent: "실적"
+chip: "023960 · 코스피 · 토목 건설업 · 기준일 2026.09.11"
+utm_source: "에쓰씨엔지니어링-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/토목-건설업/", "label": "토목 건설업"}, {"url": "/종목/에쓰씨엔지니어링/", "label": "에쓰씨엔지니어링"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/에쓰씨엔지니어링/", "label": "에쓰씨엔지니어링 주가"}, {"url": "/종목/에쓰씨엔지니어링/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/에쓰씨엔지니어링/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/에쓰씨엔지니어링/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/특수건설/실적/", "label": "특수건설 실적"}, {"url": "/종목/남광토건/실적/", "label": "남광토건 실적"}, {"url": "/종목/일성건설/실적/", "label": "일성건설 실적"}, {"url": "/종목/동신건설/실적/", "label": "동신건설 실적"}, {"url": "/종목/hl-di/실적/", "label": "HL D&I 실적"}, {"url": "/종목/진흥기업/실적/", "label": "진흥기업 실적"}, {"url": "/종목/동부건설/실적/", "label": "동부건설 실적"}, {"url": "/종목/계룡건설산업/실적/", "label": "계룡건설산업 실적"}]
+peers_head: "같은 업종(토목 건설업) 다른 종목의 실적"
+---
+
+에쓰씨엔지니어링의 최근 연간 실적은 2023년 매출 1,360억 원·영업이익 10억 원, 2024년 매출 1,799억 원·영업이익 66억 원, 2025년 매출 1,723억 원·영업이익 -50억 원이다.
+
+## 에쓰씨엔지니어링 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,360억 원 | 1,799억 원 | 1,723억 원 | — |
+| 영업이익 | 10억 원 | 66억 원 | -50억 원 | — |
+| 당기순이익 | -24억 원 | 37억 원 | -48억 원 | — |
+| 영업이익률 | 0.7% | 3.6% | -2.9% | — |
+| ROE | -5.9% | 8.8% | -10.2% | — |
+| EPS | -75원 | 112원 | -130원 | — |
+| PER | -23.2배 | 11.9배 | -10.0배 | — |
+| PBR | 1.44배 | 1.02배 | 1.05배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 10억 원이고, 주가는 한 해 +9.0% 움직였다. 2024년은 영업이익 66억 원 (전년보다 +560%)이고, 주가는 한 해 -23.6% 움직였다. 2025년은 영업이익 -50억 원 (전년보다 -176%)이고, 주가는 한 해 -2.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에쓰씨엔지니어링 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="91.0" y2="91.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="63.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+9%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="91.0" width="104.5" height="165.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-24%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="91.0" width="104.5" height="14.7" rx="3"/><text class="ic-val" x="532.7" y="119.7" text-anchor="middle">-2%</text></svg><figcaption>에쓰씨엔지니어링 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 에쓰씨엔지니어링 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 435억 원 | 481억 원 | 447억 원 | 193억 원 | 138억 원 | — |
+| 영업이익 | 7억 원 | -52억 원 | 9억 원 | -18억 원 | -40억 원 | — |
+| 당기순이익 | 1억 원 | -47억 원 | 13억 원 | -31억 원 | -50억 원 | — |
+| 영업이익률 | 1.5% | -10.9% | 2.1% | -9.5% | -28.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에쓰씨엔지니어링 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="61.6" y2="61.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="35.5" width="52.3" height="26.2" rx="3"/><text class="ic-val" x="112.7" y="29.5" text-anchor="middle">7억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="61.6" width="52.3" height="194.4" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-52억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="33.6" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">9억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="61.6" width="52.3" height="67.3" rx="3"/><text class="ic-val" x="392.7" y="142.9" text-anchor="middle">-18억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="61.6" width="52.3" height="149.5" rx="3"/><text class="ic-val" x="486.0" y="225.1" text-anchor="middle">-40억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>에쓰씨엔지니어링 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

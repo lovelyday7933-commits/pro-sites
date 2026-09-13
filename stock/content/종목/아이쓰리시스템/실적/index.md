@@ -1,0 +1,54 @@
+---
+title: "아이쓰리시스템 실적, 2025년 영업이익 165억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "아이쓰리시스템 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "214430"
+name: "아이쓰리시스템"
+intent: "실적"
+chip: "214430 · 코스닥 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "아이쓰리시스템-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/아이쓰리시스템/", "label": "아이쓰리시스템"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/아이쓰리시스템/", "label": "아이쓰리시스템 주가"}, {"url": "/종목/아이쓰리시스템/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/아이쓰리시스템/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/아이쓰리시스템/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/타이거일렉/실적/", "label": "타이거일렉 실적"}, {"url": "/종목/오킨스전자/실적/", "label": "오킨스전자 실적"}, {"url": "/종목/드림텍/실적/", "label": "드림텍 실적"}, {"url": "/종목/마이크로컨텍솔/실적/", "label": "마이크로컨텍솔 실적"}, {"url": "/종목/한솔테크닉스/실적/", "label": "한솔테크닉스 실적"}, {"url": "/종목/이녹스첨단소재/실적/", "label": "이녹스첨단소재 실적"}, {"url": "/종목/월덱스/실적/", "label": "월덱스 실적"}, {"url": "/종목/hlb이노베이션/실적/", "label": "HLB이노베이션 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+아이쓰리시스템의 최근 연간 실적은 2023년 매출 1,215억 원·영업이익 122억 원, 2024년 매출 1,207억 원·영업이익 148억 원, 2025년 매출 1,243억 원·영업이익 165억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,455억 원·영업이익 201억 원이다.
+
+## 아이쓰리시스템 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,215억 원 | 1,207억 원 | 1,243억 원 | 1,455억 원 |
+| 영업이익 | 122억 원 | 148억 원 | 165억 원 | 201억 원 |
+| 당기순이익 | 126억 원 | 150억 원 | 188억 원 | 202억 원 |
+| 영업이익률 | 10.0% | 12.2% | 13.2% | 13.8% |
+| ROE | 14.9% | 15.3% | 15.3% | — |
+| EPS | 1,768원 | 2,106원 | 2,636원 | 2,764원 |
+| PER | 18.0배 | 21.4배 | 29.0배 | 21.7배 |
+| PBR | 2.45배 | 2.96배 | 4.00배 | — |
+| 주당배당금 | 350원 | 400원 | 450원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 122억 원이고, 주가는 한 해 +71.2% 움직였다. 2024년은 영업이익 148억 원 (전년보다 +21%)이고, 주가는 한 해 +41.7% 움직였다. 2025년은 영업이익 165억 원 (전년보다 +11%)이고, 주가는 한 해 +70.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="아이쓰리시스템 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+71%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="122.3" width="104.5" height="133.7" rx="3"/><text class="ic-val" x="346.0" y="116.3" text-anchor="middle">+42%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="31.7" width="104.5" height="224.3" rx="3"/><text class="ic-val" x="532.7" y="25.7" text-anchor="middle">+70%</text></svg><figcaption>아이쓰리시스템 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 아이쓰리시스템 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 253억 원 | 324억 원 | 285억 원 | 324억 원 | 395억 원 | — |
+| 영업이익 | 26억 원 | 42억 원 | 38억 원 | 44억 원 | 48억 원 | — |
+| 당기순이익 | 46억 원 | 33억 원 | 52억 원 | 49억 원 | 38억 원 | — |
+| 영업이익률 | 10.4% | 13.0% | 13.4% | 13.5% | 12.1% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="아이쓰리시스템 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="132.5" width="52.3" height="123.5" rx="3"/><text class="ic-val" x="112.7" y="126.5" text-anchor="middle">26억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="56.5" width="52.3" height="199.5" rx="3"/><text class="ic-val" x="206.0" y="50.5" text-anchor="middle">42억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="75.5" width="52.3" height="180.5" rx="3"/><text class="ic-val" x="299.3" y="69.5" text-anchor="middle">38억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="47.0" width="52.3" height="209.0" rx="3"/><text class="ic-val" x="392.7" y="41.0" text-anchor="middle">44억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">48억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>아이쓰리시스템 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "엘에스일렉트릭 실적, 2025년 영업이익 4,264억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "엘에스일렉트릭 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "010120"
+name: "엘에스일렉트릭"
+intent: "실적"
+chip: "010120 · 코스피 · 전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업 · 기준일 2026.09.11"
+utm_source: "엘에스일렉트릭-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전동기,-발전기-및-전기-변환-·-공급-·-제어-장치-제조업/", "label": "전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업"}, {"url": "/종목/엘에스일렉트릭/", "label": "엘에스일렉트릭"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/엘에스일렉트릭/", "label": "엘에스일렉트릭 주가"}, {"url": "/종목/엘에스일렉트릭/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/엘에스일렉트릭/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/엘에스일렉트릭/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/엘에스일렉트릭/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/hd현대일렉트릭/실적/", "label": "HD현대일렉트릭 실적"}, {"url": "/종목/효성중공업/실적/", "label": "효성중공업 실적"}, {"url": "/종목/산일전기/실적/", "label": "산일전기 실적"}, {"url": "/종목/두산퓨얼셀/실적/", "label": "두산퓨얼셀 실적"}, {"url": "/종목/우리기술/실적/", "label": "우리기술 실적"}, {"url": "/종목/에스피지/실적/", "label": "에스피지 실적"}, {"url": "/종목/지엔씨에너지/실적/", "label": "지엔씨에너지 실적"}, {"url": "/종목/제룡전기/실적/", "label": "제룡전기 실적"}]
+peers_head: "같은 업종(전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업) 다른 종목의 실적"
+---
+
+엘에스일렉트릭의 최근 연간 실적은 2023년 매출 4조 2,305억 원·영업이익 3,249억 원, 2024년 매출 4조 5,518억 원·영업이익 3,897억 원, 2025년 매출 4조 9,658억 원·영업이익 4,264억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6조 5,415억 원·영업이익 7,200억 원이다.
+
+## 엘에스일렉트릭 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4조 2,305억 원 | 4조 5,518억 원 | 4조 9,658억 원 | 6조 5,415억 원 |
+| 영업이익 | 3,249억 원 | 3,897억 원 | 4,264억 원 | 7,200억 원 |
+| 당기순이익 | 2,077억 원 | 2,422억 원 | 2,843억 원 | 5,359억 원 |
+| 영업이익률 | 7.7% | 8.6% | 8.6% | 11.0% |
+| ROE | 12.6% | 13.4% | 14.7% | 23.8% |
+| EPS | 1,373원 | 1,591원 | 1,911원 | 3,605원 |
+| PER | 10.7배 | 20.2배 | 48.1배 | 56.7배 |
+| PBR | 1.25배 | 2.60배 | 6.61배 | 12.27배 |
+| 주당배당금 | 560원 | 580원 | 600원 | 1,036원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 3,249억 원이고, 주가는 한 해 +29.8% 움직였다. 2024년은 영업이익 3,897억 원 (전년보다 +20%)이고, 주가는 한 해 +119.7% 움직였다. 2025년은 영업이익 4,264억 원 (전년보다 +9%)이고, 주가는 한 해 +186.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엘에스일렉트릭 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="219.5" width="104.5" height="36.5" rx="3"/><text class="ic-val" x="159.3" y="213.5" text-anchor="middle">+30%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="109.4" width="104.5" height="146.6" rx="3"/><text class="ic-val" x="346.0" y="103.4" text-anchor="middle">+120%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+186%</text></svg><figcaption>엘에스일렉트릭 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 엘에스일렉트릭 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 1,930억 원 | 1조 2,163억 원 | 1조 5,244억 원 | 1조 3,766억 원 | 1조 5,770억 원 | 1조 6,699억 원 |
+| 영업이익 | 1,086억 원 | 1,008억 원 | 1,297억 원 | 1,266억 원 | 1,785억 원 | 1,880억 원 |
+| 당기순이익 | 673억 원 | 659억 원 | 838억 원 | 1,190억 원 | 1,158억 원 | 1,366억 원 |
+| 영업이익률 | 9.1% | 8.3% | 8.5% | 9.2% | 11.3% | 11.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엘에스일렉트릭 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="124.3" width="52.3" height="131.7" rx="3"/><text class="ic-val" x="112.7" y="118.3" text-anchor="middle">1,086억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="133.8" width="52.3" height="122.2" rx="3"/><text class="ic-val" x="206.0" y="127.8" text-anchor="middle">1,008억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="98.7" width="52.3" height="157.3" rx="3"/><text class="ic-val" x="299.3" y="92.7" text-anchor="middle">1,297억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="102.5" width="52.3" height="153.5" rx="3"/><text class="ic-val" x="392.7" y="96.5" text-anchor="middle">1,266억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="39.5" width="52.3" height="216.5" rx="3"/><text class="ic-val" x="486.0" y="33.5" text-anchor="middle">1,785억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1,880억</text></svg><figcaption>엘에스일렉트릭 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

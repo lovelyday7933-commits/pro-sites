@@ -1,0 +1,53 @@
+---
+title: "한빛레이저 실적, 2025년 영업이익 20억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한빛레이저 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "452190"
+name: "한빛레이저"
+intent: "실적"
+chip: "452190 · 코스닥 · 특수 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "한빛레이저-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/특수-목적용-기계-제조업/", "label": "특수 목적용 기계 제조업"}, {"url": "/종목/한빛레이저/", "label": "한빛레이저"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한빛레이저/", "label": "한빛레이저 주가"}, {"url": "/종목/한빛레이저/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한빛레이저/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한빛레이저/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/hb솔루션/실적/", "label": "HB솔루션 실적"}, {"url": "/종목/대동기어/실적/", "label": "대동기어 실적"}, {"url": "/종목/현대에버다임/실적/", "label": "현대에버다임 실적"}, {"url": "/종목/넥사다이내믹스/실적/", "label": "넥사다이내믹스 실적"}, {"url": "/종목/라온로보틱스/실적/", "label": "라온로보틱스 실적"}, {"url": "/종목/디와이파워/실적/", "label": "디와이파워 실적"}, {"url": "/종목/톱텍/실적/", "label": "톱텍 실적"}, {"url": "/종목/코윈테크/실적/", "label": "코윈테크 실적"}]
+peers_head: "같은 업종(특수 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+한빛레이저의 최근 연간 실적은 2023년 매출 227억 원·영업이익 6억 원, 2024년 매출 185억 원·영업이익 -26억 원, 2025년 매출 242억 원·영업이익 20억 원이다.
+
+## 한빛레이저 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 227억 원 | 185억 원 | 242억 원 | — |
+| 영업이익 | 6억 원 | -26억 원 | 20억 원 | — |
+| 당기순이익 | -56억 원 | -21억 원 | 24억 원 | — |
+| 영업이익률 | 2.9% | -13.8% | 8.1% | — |
+| ROE | -28.7% | -8.2% | 8.3% | — |
+| EPS | -261원 | -93원 | 104원 | — |
+| PER | — | -33.5배 | 45.4배 | — |
+| PBR | 0.00배 | 2.57배 | 3.62배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 20억 원 (전년보다 +177%)이고, 주가는 한 해 +52.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한빛레이저 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+52%</text></svg><figcaption>한빛레이저 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한빛레이저 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 81억 원 | 52억 원 | 102억 원 | 63억 원 | 45억 원 | — |
+| 영업이익 | 9억 원 | -3억 원 | 26억 원 | 2억 원 | 5억 원 | — |
+| 당기순이익 | 9억 원 | -2억 원 | 29억 원 | 3억 원 | 5억 원 | — |
+| 영업이익률 | 11.5% | -6.5% | 25.5% | 2.7% | 11.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한빛레이저 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="232.4" y2="232.4"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="161.7" width="52.3" height="70.8" rx="3"/><text class="ic-val" x="112.7" y="155.7" text-anchor="middle">9억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="232.4" width="52.3" height="23.6" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-3억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="204.4" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">26억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="216.7" width="52.3" height="15.7" rx="3"/><text class="ic-val" x="392.7" y="210.7" text-anchor="middle">2억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="193.1" width="52.3" height="39.3" rx="3"/><text class="ic-val" x="486.0" y="187.1" text-anchor="middle">5억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>한빛레이저 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

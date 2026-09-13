@@ -1,0 +1,54 @@
+---
+title: "HD한국조선해양 실적, 2025년 영업이익 3조 9,045억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "HD한국조선해양 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "009540"
+name: "HD한국조선해양"
+intent: "실적"
+chip: "009540 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "hd한국조선해양-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/hd한국조선해양/", "label": "HD한국조선해양"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/hd한국조선해양/", "label": "HD한국조선해양 주가"}, {"url": "/종목/hd한국조선해양/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/hd한국조선해양/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/hd한국조선해양/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/hd한국조선해양/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/우리금융지주/실적/", "label": "우리금융지주 실적"}, {"url": "/종목/메리츠금융지주/실적/", "label": "메리츠금융지주 실적"}, {"url": "/종목/hd현대/실적/", "label": "HD현대 실적"}, {"url": "/종목/하나금융지주/실적/", "label": "하나금융지주 실적"}, {"url": "/종목/lg/실적/", "label": "LG 실적"}, {"url": "/종목/sk/실적/", "label": "SK 실적"}, {"url": "/종목/신한지주/실적/", "label": "신한지주 실적"}, {"url": "/종목/에코프로/실적/", "label": "에코프로 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+HD한국조선해양의 최근 연간 실적은 2023년 매출 21조 2,962억 원·영업이익 2,823억 원, 2024년 매출 25조 5,386억 원·영업이익 1조 4,341억 원, 2025년 매출 29조 9,332억 원·영업이익 3조 9,045억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 34조 4,961억 원·영업이익 6조 1,585억 원이다.
+
+## HD한국조선해양 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 21조 2,962억 원 | 25조 5,386억 원 | 29조 9,332억 원 | 34조 4,961억 원 |
+| 영업이익 | 2,823억 원 | 1조 4,341억 원 | 3조 9,045억 원 | 6조 1,585억 원 |
+| 당기순이익 | 1,449억 원 | 1조 4,546억 원 | 2조 9,284억 원 | 4조 9,253억 원 |
+| 영업이익률 | 1.3% | 5.6% | 13.0% | 17.9% |
+| ROE | 2.3% | 11.2% | 17.8% | 27.2% |
+| EPS | 3,133원 | 16,565원 | 30,639원 | 55,375원 |
+| PER | 38.6배 | 13.8배 | 13.3배 | 6.6배 |
+| PBR | 0.86배 | 1.45배 | 2.17배 | 1.66배 |
+| 주당배당금 | — | 5,100원 | 12,300원 | 17,283원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,823억 원이고, 주가는 한 해 +71.0% 움직였다. 2024년은 영업이익 1조 4,341억 원 (전년보다 +408%)이고, 주가는 한 해 +88.6% 움직였다. 2025년은 영업이익 3조 9,045억 원 (전년보다 +172%)이고, 주가는 한 해 +78.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HD한국조선해양 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="73.3" width="104.5" height="182.7" rx="3"/><text class="ic-val" x="159.3" y="67.3" text-anchor="middle">+71%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+89%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="53.9" width="104.5" height="202.1" rx="3"/><text class="ic-val" x="532.7" y="47.9" text-anchor="middle">+79%</text></svg><figcaption>HD한국조선해양 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## HD한국조선해양 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7조 4,284억 원 | 7조 5,814억 원 | 8조 1,517억 원 | 8조 1,409억 원 | 8조 9,270억 원 | 8조 5,719억 원 |
+| 영업이익 | 9,536억 원 | 1조 538억 원 | 1조 379억 원 | 1조 3,560억 원 | 1조 6,451억 원 | 1조 5,863억 원 |
+| 당기순이익 | 4,471억 원 | 8,767억 원 | 9,930억 원 | 1조 1,414억 원 | 1조 5,942억 원 | 1조 593억 원 |
+| 영업이익률 | 12.8% | 13.9% | 12.7% | 16.7% | 18.4% | 18.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HD한국조선해양 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="123.8" width="52.3" height="132.2" rx="3"/><text class="ic-val" x="112.7" y="117.8" text-anchor="middle">9,536억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="110.0" width="52.3" height="146.0" rx="3"/><text class="ic-val" x="206.0" y="104.0" text-anchor="middle">1조 538억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="112.2" width="52.3" height="143.8" rx="3"/><text class="ic-val" x="299.3" y="106.2" text-anchor="middle">1조 379억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="68.1" width="52.3" height="187.9" rx="3"/><text class="ic-val" x="392.7" y="62.1" text-anchor="middle">1조 3,560억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">1조 6,451억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="36.1" width="52.3" height="219.9" rx="3"/><text class="ic-val" x="579.3" y="30.1" text-anchor="middle">1조 5,863억</text></svg><figcaption>HD한국조선해양 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "PI첨단소재 실적, 2025년 영업이익 430억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "PI첨단소재 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "178920"
+name: "PI첨단소재"
+intent: "실적"
+chip: "178920 · 코스피 · 플라스틱제품 제조업 · 기준일 2026.09.11"
+utm_source: "pi첨단소재-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/플라스틱제품-제조업/", "label": "플라스틱제품 제조업"}, {"url": "/종목/pi첨단소재/", "label": "PI첨단소재"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/pi첨단소재/", "label": "PI첨단소재 주가"}, {"url": "/종목/pi첨단소재/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/pi첨단소재/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/pi첨단소재/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/pi첨단소재/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/동원시스템즈/실적/", "label": "동원시스템즈 실적"}, {"url": "/종목/펌텍코리아/실적/", "label": "펌텍코리아 실적"}, {"url": "/종목/율촌화학/실적/", "label": "율촌화학 실적"}, {"url": "/종목/lx하우시스/실적/", "label": "LX하우시스 실적"}, {"url": "/종목/상아프론테크/실적/", "label": "상아프론테크 실적"}, {"url": "/종목/백산/실적/", "label": "백산 실적"}, {"url": "/종목/삼영/실적/", "label": "삼영 실적"}, {"url": "/종목/미래나노텍/실적/", "label": "미래나노텍 실적"}]
+peers_head: "같은 업종(플라스틱제품 제조업) 다른 종목의 실적"
+---
+
+PI첨단소재의 최근 연간 실적은 2023년 매출 2,176억 원·영업이익 -39억 원, 2024년 매출 2,513억 원·영업이익 338억 원, 2025년 매출 2,634억 원·영업이익 430억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2,924억 원·영업이익 683억 원이다.
+
+## PI첨단소재 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,176억 원 | 2,513억 원 | 2,634억 원 | 2,924억 원 |
+| 영업이익 | -39억 원 | 338억 원 | 430억 원 | 683억 원 |
+| 당기순이익 | -18억 원 | 223억 원 | 304억 원 | 530억 원 |
+| 영업이익률 | -1.8% | 13.5% | 16.3% | 23.3% |
+| ROE | -0.6% | 6.8% | 8.8% | 14.1% |
+| EPS | -61원 | 758원 | 1,035원 | 1,803원 |
+| PER | -498.8배 | 22.3배 | 15.1배 | 10.4배 |
+| PBR | 2.84배 | 1.48배 | 1.29배 | 1.39배 |
+| 주당배당금 | — | 350원 | 350원 | 350원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -39억 원이고, 주가는 한 해 +5.5% 움직였다. 2024년은 영업이익 338억 원 (전년보다 +967%)이고, 주가는 한 해 -44.6% 움직였다. 2025년은 영업이익 430억 원 (전년보다 +27%)이고, 주가는 한 해 -7.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="PI첨단소재 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="53.2" y2="53.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="25.2" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+6%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="53.2" width="104.5" height="202.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-45%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="53.2" width="104.5" height="34.2" rx="3"/><text class="ic-val" x="532.7" y="101.3" text-anchor="middle">-8%</text></svg><figcaption>PI첨단소재 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## PI첨단소재 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 725억 원 | 684억 원 | 584억 원 | 641억 원 | 775억 원 | 793억 원 |
+| 영업이익 | 162억 원 | 116억 원 | 66억 원 | 140억 원 | 230억 원 | 197억 원 |
+| 당기순이익 | 117억 원 | 84억 원 | 44억 원 | 106억 원 | 175억 원 | 166억 원 |
+| 영업이익률 | 22.3% | 17.0% | 11.3% | 21.9% | 29.7% | 24.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="PI첨단소재 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="95.4" width="52.3" height="160.6" rx="3"/><text class="ic-val" x="112.7" y="89.4" text-anchor="middle">162억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="141.0" width="52.3" height="115.0" rx="3"/><text class="ic-val" x="206.0" y="135.0" text-anchor="middle">116억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="190.6" width="52.3" height="65.4" rx="3"/><text class="ic-val" x="299.3" y="184.6" text-anchor="middle">66억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="117.2" width="52.3" height="138.8" rx="3"/><text class="ic-val" x="392.7" y="111.2" text-anchor="middle">140억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">230억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="60.7" width="52.3" height="195.3" rx="3"/><text class="ic-val" x="579.3" y="54.7" text-anchor="middle">197억</text></svg><figcaption>PI첨단소재 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

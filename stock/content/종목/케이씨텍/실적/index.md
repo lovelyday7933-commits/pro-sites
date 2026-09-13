@@ -1,0 +1,54 @@
+---
+title: "케이씨텍 실적, 2025년 영업이익 600억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "케이씨텍 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "281820"
+name: "케이씨텍"
+intent: "실적"
+chip: "281820 · 코스피 · 측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외 · 기준일 2026.09.11"
+utm_source: "케이씨텍-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/측정,-시험,-항해,-제어-및-기타-정밀기기-제조업;-광학기기-제외/", "label": "측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외"}, {"url": "/종목/케이씨텍/", "label": "케이씨텍"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/케이씨텍/", "label": "케이씨텍 주가"}, {"url": "/종목/케이씨텍/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/케이씨텍/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/케이씨텍/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/케이씨텍/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/파크시스템스/실적/", "label": "파크시스템스 실적"}, {"url": "/종목/디아이/실적/", "label": "디아이 실적"}, {"url": "/종목/티에스이/실적/", "label": "티에스이 실적"}, {"url": "/종목/케이씨/실적/", "label": "케이씨 실적"}, {"url": "/종목/파이버프로/실적/", "label": "파이버프로 실적"}, {"url": "/종목/우진/실적/", "label": "우진 실적"}, {"url": "/종목/코메론/실적/", "label": "코메론 실적"}, {"url": "/종목/케이엔알시스템/실적/", "label": "케이엔알시스템 실적"}]
+peers_head: "같은 업종(측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외) 다른 종목의 실적"
+---
+
+케이씨텍의 최근 연간 실적은 2023년 매출 2,869억 원·영업이익 327억 원, 2024년 매출 3,854억 원·영업이익 498억 원, 2025년 매출 3,829억 원·영업이익 600억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6,528억 원·영업이익 1,462억 원이다.
+
+## 케이씨텍 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,869억 원 | 3,854억 원 | 3,829억 원 | 6,528억 원 |
+| 영업이익 | 327억 원 | 498억 원 | 600억 원 | 1,462억 원 |
+| 당기순이익 | 317억 원 | 527억 원 | 534억 원 | 1,300억 원 |
+| 영업이익률 | 11.4% | 12.9% | 15.7% | 22.4% |
+| ROE | 7.2% | 11.3% | 10.6% | 22.1% |
+| EPS | 1,520원 | 2,526원 | 2,578원 | 6,467원 |
+| PER | 17.6배 | 10.3배 | 15.4배 | 10.5배 |
+| PBR | 1.20배 | 1.07배 | 1.48배 | 2.09배 |
+| 주당배당금 | 180원 | 270원 | 450원 | 650원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 327억 원이고, 주가는 한 해 +81.1% 움직였다. 2024년은 영업이익 498억 원 (전년보다 +52%)이고, 주가는 한 해 -2.8% 움직였다. 2025년은 영업이익 600억 원 (전년보다 +20%)이고, 주가는 한 해 +52.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="케이씨텍 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="248.4" y2="248.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="220.4" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+81%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="248.4" width="104.5" height="7.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-3%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="106.5" width="104.5" height="141.9" rx="3"/><text class="ic-val" x="532.7" y="100.5" text-anchor="middle">+52%</text></svg><figcaption>케이씨텍 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 케이씨텍 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 975억 원 | 960억 원 | 1,117억 원 | 1,561억 원 | 1,127억 원 | 1,615억 원 |
+| 영업이익 | 156억 원 | 149억 원 | 217억 원 | 348억 원 | 235억 원 | 345억 원 |
+| 당기순이익 | 110억 원 | 150억 원 | 196억 원 | 316억 원 | 211억 원 | — |
+| 영업이익률 | 15.9% | 15.5% | 19.4% | 22.3% | 20.9% | 21.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="케이씨텍 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="153.8" width="52.3" height="102.2" rx="3"/><text class="ic-val" x="112.7" y="147.8" text-anchor="middle">156억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="158.4" width="52.3" height="97.6" rx="3"/><text class="ic-val" x="206.0" y="152.4" text-anchor="middle">149억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="113.8" width="52.3" height="142.2" rx="3"/><text class="ic-val" x="299.3" y="107.8" text-anchor="middle">217억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">348억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="102.0" width="52.3" height="154.0" rx="3"/><text class="ic-val" x="486.0" y="96.0" text-anchor="middle">235억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="30.0" width="52.3" height="226.0" rx="3"/><text class="ic-val" x="579.3" y="24.0" text-anchor="middle">345억</text></svg><figcaption>케이씨텍 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

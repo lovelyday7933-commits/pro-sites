@@ -1,0 +1,53 @@
+---
+title: "케이옥션 실적, 2025년 영업이익 -41억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "케이옥션 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "102370"
+name: "케이옥션"
+intent: "실적"
+chip: "102370 · 코스닥 · 상품 중개업 · 기준일 2026.09.11"
+utm_source: "케이옥션-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/상품-중개업/", "label": "상품 중개업"}, {"url": "/종목/케이옥션/", "label": "케이옥션"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/케이옥션/", "label": "케이옥션 주가"}, {"url": "/종목/케이옥션/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/케이옥션/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/케이옥션/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/이상네트웍스/실적/", "label": "이상네트웍스 실적"}, {"url": "/종목/서울옥션/실적/", "label": "서울옥션 실적"}, {"url": "/종목/케이티알파/실적/", "label": "케이티알파 실적"}, {"url": "/종목/골프존홀딩스/실적/", "label": "골프존홀딩스 실적"}, {"url": "/종목/디아이동일/실적/", "label": "디아이동일 실적"}, {"url": "/종목/lx인터내셔널/실적/", "label": "LX인터내셔널 실적"}, {"url": "/종목/포스코인터내셔널/실적/", "label": "포스코인터내셔널 실적"}]
+peers_head: "같은 업종(상품 중개업) 다른 종목의 실적"
+---
+
+케이옥션의 최근 연간 실적은 2023년 매출 122억 원·영업이익 -42억 원, 2024년 매출 195억 원·영업이익 -48억 원, 2025년 매출 123억 원·영업이익 -41억 원이다.
+
+## 케이옥션 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 122억 원 | 195억 원 | 123억 원 | — |
+| 영업이익 | -42억 원 | -48억 원 | -41억 원 | — |
+| 당기순이익 | -62억 원 | -71억 원 | -64억 원 | — |
+| 영업이익률 | -34.6% | -24.4% | -33.1% | — |
+| ROE | -4.2% | -5.2% | -4.7% | — |
+| EPS | -186원 | -218원 | -187원 | — |
+| PER | -33.9배 | -15.8배 | -18.9배 | — |
+| PBR | 1.38배 | 0.80배 | 0.87배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -42억 원이고, 주가는 한 해 +37.0% 움직였다. 2024년은 영업이익 -48억 원 (전년보다 -14%)이고, 주가는 한 해 -45.5% 움직였다. 2025년은 영업이익 -41억 원 (전년보다 +15%)이고, 주가는 한 해 +2.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="케이옥션 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="130.3" y2="130.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="102.3" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+37%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="130.3" width="104.5" height="125.7" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-45%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="122.3" width="104.5" height="8.0" rx="3"/><text class="ic-val" x="532.7" y="116.3" text-anchor="middle">+3%</text></svg><figcaption>케이옥션 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 케이옥션 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 22억 원 | 24억 원 | 33억 원 | 28억 원 | 40억 원 | — |
+| 영업이익 | -11억 원 | -14억 원 | -9억 원 | -3억 원 | 1억 원 | — |
+| 당기순이익 | -16억 원 | -13억 원 | -22억 원 | -5억 원 | 0억 원 | — |
+| 영업이익률 | -50.0% | -55.9% | -28.1% | -11.3% | 2.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="케이옥션 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="43.2" y2="43.2"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="43.2" width="52.3" height="167.2" rx="3"/><text class="ic-val" x="112.7" y="224.4" text-anchor="middle">-11억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="43.2" width="52.3" height="212.8" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-14억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="43.2" width="52.3" height="136.8" rx="3"/><text class="ic-val" x="299.3" y="194.0" text-anchor="middle">-9억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="43.2" width="52.3" height="45.6" rx="3"/><text class="ic-val" x="392.7" y="102.8" text-anchor="middle">-3억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="15.2" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">1억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>케이옥션 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

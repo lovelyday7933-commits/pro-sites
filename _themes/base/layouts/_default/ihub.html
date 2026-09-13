@@ -1,0 +1,24 @@
+{{/* 격자에 없는 종목·코인의 허브 — /종목/<이름>/ = "<이름> 주가" · /코인/<이름>/ = "<이름> 시세" (tools/intent.py · 2026-09-13)
+     격자 허브(stock.html)는 grid.json 을 읽지만, 이 허브는 앞머리만 읽는다(격자에 없는 종목이라 grid.json 에 자리가 없다).
+     아래 검색어 칸으로 내려가는 인덱스 페이지다(과외상담의 동 인덱스와 같은 역할 — 고아 없음). */}}
+{{ define "main" }}
+{{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" .Params.chip "title" .Title "lead" .Description) }}
+<div class="site">{{ partial "ctainline.html" (dict "page" . "place" "intro" "lead" (printf "%s 차트를 읽는 기준은" .Params.name)) }}</div>
+<div class="site page">
+  {{- with .Params.intents }}
+  <section class="sec">
+    <div class="sec-h"><h2>{{ $.Params.name }} 더 보기</h2></div>
+    <ul class="links">{{ range . }}<li><a href="{{ .url }}"><span>{{ $.Params.name }} {{ .label }}</span><span class="v">보기</span></a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
+  <section class="sec">
+    <div class="body">{{ .Content }}</div>
+  </section>
+  {{- with .Params.peers }}
+  <section class="sec">
+    <div class="sec-h"><h2>{{ $.Params.peers_head }}</h2></div>
+    <ul class="links">{{ range . }}<li><a href="{{ .url }}"><span>{{ .label }}</span></a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
+</div>
+{{ end }}

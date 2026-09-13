@@ -1,0 +1,53 @@
+---
+title: "우진 실적, 2025년 영업이익 142억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "우진 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "105840"
+name: "우진"
+intent: "실적"
+chip: "105840 · 코스피 · 측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외 · 기준일 2026.09.11"
+utm_source: "우진-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/측정,-시험,-항해,-제어-및-기타-정밀기기-제조업;-광학기기-제외/", "label": "측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외"}, {"url": "/종목/우진/", "label": "우진"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/우진/", "label": "우진 주가"}, {"url": "/종목/우진/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/우진/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/우진/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/파이버프로/실적/", "label": "파이버프로 실적"}, {"url": "/종목/케이씨/실적/", "label": "케이씨 실적"}, {"url": "/종목/코메론/실적/", "label": "코메론 실적"}, {"url": "/종목/케이엔알시스템/실적/", "label": "케이엔알시스템 실적"}, {"url": "/종목/에스오에스랩/실적/", "label": "에스오에스랩 실적"}, {"url": "/종목/미래산업/실적/", "label": "미래산업 실적"}, {"url": "/종목/이엘씨/실적/", "label": "이엘씨 실적"}, {"url": "/종목/디아이/실적/", "label": "디아이 실적"}]
+peers_head: "같은 업종(측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외) 다른 종목의 실적"
+---
+
+우진의 최근 연간 실적은 2023년 매출 1,291억 원·영업이익 154억 원, 2024년 매출 1,407억 원·영업이익 161억 원, 2025년 매출 1,504억 원·영업이익 142억 원이다.
+
+## 우진 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,291억 원 | 1,407억 원 | 1,504억 원 | — |
+| 영업이익 | 154억 원 | 161억 원 | 142억 원 | — |
+| 당기순이익 | 139억 원 | 168억 원 | 111억 원 | — |
+| 영업이익률 | 11.9% | 11.4% | 9.4% | — |
+| ROE | 7.2% | 7.6% | 4.5% | — |
+| EPS | 574원 | 670원 | 430원 | — |
+| PER | 16.2배 | 9.5배 | 39.7배 | — |
+| PBR | 1.09배 | 0.66배 | 1.73배 | — |
+| 주당배당금 | 200원 | 250원 | 300원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 154억 원이고, 주가는 한 해 +11.0% 움직였다. 2024년은 영업이익 161억 원 (전년보다 +5%)이고, 주가는 한 해 -31.5% 움직였다. 2025년은 영업이익 142억 원 (전년보다 -12%)이고, 주가는 한 해 +168.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="우진 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="220.0" y2="220.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="207.4" width="104.5" height="12.5" rx="3"/><text class="ic-val" x="159.3" y="201.4" text-anchor="middle">+11%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="220.0" width="104.5" height="36.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-32%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="192.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+168%</text></svg><figcaption>우진 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 우진 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 349억 원 | 476억 원 | 407억 원 | 372억 원 | 309억 원 | — |
+| 영업이익 | 38억 원 | 98억 원 | 12억 원 | 50억 원 | 8억 원 | — |
+| 당기순이익 | 20억 원 | 102억 원 | -1억 원 | 49억 원 | 3억 원 | — |
+| 영업이익률 | 11.0% | 20.7% | 2.9% | 13.4% | 2.6% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="우진 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="167.6" width="52.3" height="88.4" rx="3"/><text class="ic-val" x="112.7" y="161.6" text-anchor="middle">38억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">98억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="228.1" width="52.3" height="27.9" rx="3"/><text class="ic-val" x="299.3" y="222.1" text-anchor="middle">12억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="139.7" width="52.3" height="116.3" rx="3"/><text class="ic-val" x="392.7" y="133.7" text-anchor="middle">50억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="237.4" width="52.3" height="18.6" rx="3"/><text class="ic-val" x="486.0" y="231.4" text-anchor="middle">8억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>우진 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

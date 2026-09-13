@@ -1,0 +1,54 @@
+---
+title: "하이브 실적, 2025년 영업이익 493억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "하이브 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "352820"
+name: "하이브"
+intent: "실적"
+chip: "352820 · 코스피 · 오디오물 출판 및 원판 녹음업 · 기준일 2026.09.11"
+utm_source: "하이브-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/오디오물-출판-및-원판-녹음업/", "label": "오디오물 출판 및 원판 녹음업"}, {"url": "/종목/하이브/", "label": "하이브"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/하이브/", "label": "하이브 주가"}, {"url": "/종목/하이브/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/하이브/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/하이브/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/하이브/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/에스엠/실적/", "label": "에스엠 실적"}, {"url": "/종목/jyp-ent./실적/", "label": "JYP Ent. 실적"}, {"url": "/종목/와이지엔터테인먼트/실적/", "label": "와이지엔터테인먼트 실적"}, {"url": "/종목/큐브엔터/실적/", "label": "큐브엔터 실적"}, {"url": "/종목/알비더블유/실적/", "label": "알비더블유 실적"}]
+peers_head: "같은 업종(오디오물 출판 및 원판 녹음업) 다른 종목의 실적"
+---
+
+하이브의 최근 연간 실적은 2023년 매출 2조 1,781억 원·영업이익 2,956억 원, 2024년 매출 2조 2,556억 원·영업이익 1,840억 원, 2025년 매출 2조 6,499억 원·영업이익 493억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4조 8,809억 원·영업이익 2,860억 원이다.
+
+## 하이브 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2조 1,781억 원 | 2조 2,556억 원 | 2조 6,499억 원 | 4조 8,809억 원 |
+| 영업이익 | 2,956억 원 | 1,840억 원 | 493억 원 | 2,860억 원 |
+| 당기순이익 | 1,835억 원 | -34억 원 | -2,544억 원 | 2,004억 원 |
+| 영업이익률 | 13.6% | 8.2% | 1.9% | 5.9% |
+| ROE | 6.6% | 0.3% | -7.3% | 5.6% |
+| EPS | 4,504원 | 225원 | -5,673원 | 4,391원 |
+| PER | 51.8배 | 858.8배 | -58.2배 | 39.4배 |
+| PBR | 3.33배 | 2.50배 | 4.31배 | 2.12배 |
+| 주당배당금 | 700원 | 200원 | 500원 | 773원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,956억 원이고, 주가는 한 해 +34.6% 움직였다. 2024년은 영업이익 1,840억 원 (전년보다 -38%)이고, 주가는 한 해 -17.2% 움직였다. 2025년은 영업이익 493억 원 (전년보다 -73%)이고, 주가는 한 해 +70.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="하이브 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="211.4" y2="211.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="121.6" width="104.5" height="89.8" rx="3"/><text class="ic-val" x="159.3" y="115.6" text-anchor="middle">+35%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="211.4" width="104.5" height="44.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-17%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="183.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+71%</text></svg><figcaption>하이브 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 하이브 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7,056억 원 | 7,272억 원 | 7,164억 원 | 6,983억 원 | 1조 4,500억 원 | 1조 4,467억 원 |
+| 영업이익 | 659억 원 | -422억 원 | 40억 원 | -1,966억 원 | 1,709억 원 | 1,635억 원 |
+| 당기순이익 | 155억 원 | -520억 원 | -2,722억 원 | -1,567억 원 | 1,098억 원 | 1,298억 원 |
+| 영업이익률 | 9.3% | -5.8% | 0.6% | -28.1% | 11.8% | 11.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="하이브 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="134.0" y2="134.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="93.1" width="52.3" height="40.9" rx="3"/><text class="ic-val" x="112.7" y="87.1" text-anchor="middle">659억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="134.0" width="52.3" height="26.2" rx="3"/><text class="ic-val" x="206.0" y="174.2" text-anchor="middle">-422억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="131.5" width="52.3" height="2.5" rx="3"/><text class="ic-val" x="299.3" y="125.5" text-anchor="middle">40억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="134.0" width="52.3" height="122.0" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-1,966억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="106.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">1,709억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="32.6" width="52.3" height="101.4" rx="3"/><text class="ic-val" x="579.3" y="26.6" text-anchor="middle">1,635억</text></svg><figcaption>하이브 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

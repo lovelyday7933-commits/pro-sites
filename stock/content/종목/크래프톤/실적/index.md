@@ -1,0 +1,54 @@
+---
+title: "크래프톤 실적, 2025년 영업이익 1조 544억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "크래프톤 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "259960"
+name: "크래프톤"
+intent: "실적"
+chip: "259960 · 코스피 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "크래프톤-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/크래프톤/", "label": "크래프톤"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/크래프톤/", "label": "크래프톤 주가"}, {"url": "/종목/크래프톤/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/크래프톤/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/크래프톤/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/크래프톤/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/현대오토에버/실적/", "label": "현대오토에버 실적"}, {"url": "/종목/nc/실적/", "label": "NC 실적"}, {"url": "/종목/넷마블/실적/", "label": "넷마블 실적"}, {"url": "/종목/펄어비스/실적/", "label": "펄어비스 실적"}, {"url": "/종목/nhn/실적/", "label": "NHN 실적"}, {"url": "/종목/시프트업/실적/", "label": "시프트업 실적"}, {"url": "/종목/더블유게임즈/실적/", "label": "더블유게임즈 실적"}, {"url": "/종목/스피어/실적/", "label": "스피어 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+크래프톤의 최근 연간 실적은 2023년 매출 1조 9,106억 원·영업이익 7,680억 원, 2024년 매출 2조 7,098억 원·영업이익 1조 1,825억 원, 2025년 매출 3조 3,266억 원·영업이익 1조 544억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4조 8,470억 원·영업이익 1조 4,508억 원이다.
+
+## 크래프톤 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 9,106억 원 | 2조 7,098억 원 | 3조 3,266억 원 | 4조 8,470억 원 |
+| 영업이익 | 7,680억 원 | 1조 1,825억 원 | 1조 544억 원 | 1조 4,508억 원 |
+| 당기순이익 | 5,941억 원 | 1조 3,026억 원 | 7,337억 원 | 9,126억 원 |
+| 영업이익률 | 40.2% | 43.6% | 31.7% | 29.9% |
+| ROE | 11.2% | 21.1% | 10.6% | 12.3% |
+| EPS | 12,221원 | 27,162원 | 15,438원 | 19,619원 |
+| PER | 15.8배 | 11.5배 | 15.9배 | 10.8배 |
+| PBR | 1.61배 | 2.08배 | 1.56배 | 1.18배 |
+| 주당배당금 | — | — | 2,240원 | 2,431원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 7,680억 원이고, 주가는 한 해 +15.2% 움직였다. 2024년은 영업이익 1조 1,825억 원 (전년보다 +54%)이고, 주가는 한 해 +61.4% 움직였다. 2025년은 영업이익 1조 544억 원 (전년보다 -11%)이고, 주가는 한 해 -21.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="크래프톤 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="197.3" y2="197.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="155.3" width="104.5" height="42.0" rx="3"/><text class="ic-val" x="159.3" y="149.3" text-anchor="middle">+15%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="169.3" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+61%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="197.3" width="104.5" height="58.7" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-21%</text></svg><figcaption>크래프톤 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 크래프톤 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 6,620억 원 | 8,706억 원 | 9,197억 원 | 1조 3,714억 원 | 1조 2,902억 원 | 1조 2,055억 원 |
+| 영업이익 | 2,461억 원 | 3,486억 원 | 24억 원 | 5,616억 원 | 4,109억 원 | 3,345억 원 |
+| 당기순이익 | 155억 원 | 3,695억 원 | -227억 원 | 5,141억 원 | -299억 원 | 2,802억 원 |
+| 영업이익률 | 37.2% | 40.0% | 0.3% | 41.0% | 31.9% | 27.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="크래프톤 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="156.1" width="52.3" height="99.9" rx="3"/><text class="ic-val" x="112.7" y="150.1" text-anchor="middle">2,461억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="114.5" width="52.3" height="141.5" rx="3"/><text class="ic-val" x="206.0" y="108.5" text-anchor="middle">3,486억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="255.0" width="52.3" height="1.0" rx="3"/><text class="ic-val" x="299.3" y="249.0" text-anchor="middle">24억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">5,616억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="89.2" width="52.3" height="166.8" rx="3"/><text class="ic-val" x="486.0" y="83.2" text-anchor="middle">4,109억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="120.2" width="52.3" height="135.8" rx="3"/><text class="ic-val" x="579.3" y="114.2" text-anchor="middle">3,345억</text></svg><figcaption>크래프톤 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "LX인터내셔널 실적, 2025년 영업이익 2,922억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "LX인터내셔널 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "001120"
+name: "LX인터내셔널"
+intent: "실적"
+chip: "001120 · 코스피 · 상품 중개업 · 기준일 2026.09.11"
+utm_source: "lx인터내셔널-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/상품-중개업/", "label": "상품 중개업"}, {"url": "/종목/lx인터내셔널/", "label": "LX인터내셔널"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/lx인터내셔널/", "label": "LX인터내셔널 주가"}, {"url": "/종목/lx인터내셔널/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/lx인터내셔널/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/lx인터내셔널/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/lx인터내셔널/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/디아이동일/실적/", "label": "디아이동일 실적"}, {"url": "/종목/골프존홀딩스/실적/", "label": "골프존홀딩스 실적"}, {"url": "/종목/포스코인터내셔널/실적/", "label": "포스코인터내셔널 실적"}, {"url": "/종목/케이티알파/실적/", "label": "케이티알파 실적"}, {"url": "/종목/서울옥션/실적/", "label": "서울옥션 실적"}, {"url": "/종목/케이옥션/실적/", "label": "케이옥션 실적"}, {"url": "/종목/이상네트웍스/실적/", "label": "이상네트웍스 실적"}]
+peers_head: "같은 업종(상품 중개업) 다른 종목의 실적"
+---
+
+LX인터내셔널의 최근 연간 실적은 2023년 매출 14조 5,143억 원·영업이익 4,331억 원, 2024년 매출 16조 6,376억 원·영업이익 4,892억 원, 2025년 매출 16조 7,063억 원·영업이익 2,922억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 18조 8,307억 원·영업이익 4,662억 원이다.
+
+## LX인터내셔널 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 14조 5,143억 원 | 16조 6,376억 원 | 16조 7,063억 원 | 18조 8,307억 원 |
+| 영업이익 | 4,331억 원 | 4,892억 원 | 2,922억 원 | 4,662억 원 |
+| 당기순이익 | 1,934억 원 | 2,695억 원 | 1,583억 원 | 3,112억 원 |
+| 영업이익률 | 3.0% | 2.9% | 1.8% | 2.5% |
+| ROE | 5.2% | 7.1% | 5.2% | 9.5% |
+| EPS | 3,021원 | 4,533원 | 3,659원 | 7,001원 |
+| PER | 9.7배 | 6.0배 | 8.9배 | 5.8배 |
+| PBR | 0.47배 | 0.37배 | 0.42배 | 0.50배 |
+| 주당배당금 | 1,200원 | 2,000원 | 2,000원 | 2,267원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 4,331억 원이고, 주가는 한 해 -13.4% 움직였다. 2024년은 영업이익 4,892억 원 (전년보다 +13%)이고, 주가는 한 해 -8.0% 움직였다. 2025년은 영업이익 2,922억 원 (전년보다 -40%)이고, 주가는 한 해 +20.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LX인터내셔널 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="164.9" y2="164.9"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="164.9" width="104.5" height="91.1" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-13%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="164.9" width="104.5" height="54.3" rx="3"/><text class="ic-val" x="346.0" y="233.2" text-anchor="middle">-8%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="136.9" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+20%</text></svg><figcaption>LX인터내셔널 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## LX인터내셔널 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3조 8,302억 원 | 4조 5,077억 원 | 4조 3,201억 원 | 4조 2,113억 원 | 4조 7,763억 원 | 5조 584억 원 |
+| 영업이익 | 550억 원 | 648억 원 | 555억 원 | 1,089억 원 | 1,178억 원 | 1,219억 원 |
+| 당기순이익 | 562억 원 | 472억 원 | -556억 원 | 735억 원 | 788억 원 | 705억 원 |
+| 영업이익률 | 1.4% | 1.4% | 1.3% | 2.6% | 2.5% | 2.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LX인터내셔널 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="153.1" width="52.3" height="102.9" rx="3"/><text class="ic-val" x="112.7" y="147.1" text-anchor="middle">550억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="134.8" width="52.3" height="121.2" rx="3"/><text class="ic-val" x="206.0" y="128.8" text-anchor="middle">648억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="152.2" width="52.3" height="103.8" rx="3"/><text class="ic-val" x="299.3" y="146.2" text-anchor="middle">555억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="52.3" width="52.3" height="203.7" rx="3"/><text class="ic-val" x="392.7" y="46.3" text-anchor="middle">1,089억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="35.7" width="52.3" height="220.3" rx="3"/><text class="ic-val" x="486.0" y="29.7" text-anchor="middle">1,178억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1,219억</text></svg><figcaption>LX인터내셔널 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

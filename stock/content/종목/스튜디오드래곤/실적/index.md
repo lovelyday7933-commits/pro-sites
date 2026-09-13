@@ -1,0 +1,54 @@
+---
+title: "스튜디오드래곤 실적, 2025년 영업이익 304억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "스튜디오드래곤 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "253450"
+name: "스튜디오드래곤"
+intent: "실적"
+chip: "253450 · 코스닥 · 영화, 비디오물, 방송프로그램 제작 및 배급업 · 기준일 2026.09.11"
+utm_source: "스튜디오드래곤-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/영화,-비디오물,-방송프로그램-제작-및-배급업/", "label": "영화, 비디오물, 방송프로그램 제작 및 배급업"}, {"url": "/종목/스튜디오드래곤/", "label": "스튜디오드래곤"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/스튜디오드래곤/", "label": "스튜디오드래곤 주가"}, {"url": "/종목/스튜디오드래곤/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/스튜디오드래곤/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/스튜디오드래곤/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/스튜디오드래곤/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/cj-cgv/실적/", "label": "CJ CGV 실적"}, {"url": "/종목/더핑크퐁컴퍼니/실적/", "label": "더핑크퐁컴퍼니 실적"}, {"url": "/종목/samg엔터/실적/", "label": "SAMG엔터 실적"}, {"url": "/종목/쇼박스/실적/", "label": "쇼박스 실적"}, {"url": "/종목/애니플러스/실적/", "label": "애니플러스 실적"}, {"url": "/종목/ytn/실적/", "label": "YTN 실적"}, {"url": "/종목/초록뱀미디어/실적/", "label": "초록뱀미디어 실적"}, {"url": "/종목/포바이포/실적/", "label": "포바이포 실적"}]
+peers_head: "같은 업종(영화, 비디오물, 방송프로그램 제작 및 배급업) 다른 종목의 실적"
+---
+
+스튜디오드래곤의 최근 연간 실적은 2023년 매출 7,531억 원·영업이익 559억 원, 2024년 매출 5,501억 원·영업이익 364억 원, 2025년 매출 5,307억 원·영업이익 304억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5,849억 원·영업이익 474억 원이다.
+
+## 스튜디오드래곤 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7,531억 원 | 5,501억 원 | 5,307억 원 | 5,849억 원 |
+| 영업이익 | 559억 원 | 364억 원 | 304억 원 | 474억 원 |
+| 당기순이익 | 301억 원 | 335억 원 | 103억 원 | 347억 원 |
+| 영업이익률 | 7.4% | 6.6% | 5.7% | 8.1% |
+| ROE | 4.4% | 4.6% | 1.3% | 4.4% |
+| EPS | 1,001원 | 1,114원 | 343원 | 1,187원 |
+| PER | 51.5배 | 38.6배 | 124.5배 | 18.1배 |
+| PBR | 2.19배 | 1.75배 | 1.61배 | 0.77배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 559억 원이고, 주가는 한 해 -40.1% 움직였다. 2024년은 영업이익 364억 원 (전년보다 -35%)이고, 주가는 한 해 -16.4% 움직였다. 2025년은 영업이익 304억 원 (전년보다 -16%)이고, 주가는 한 해 -0.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="스튜디오드래곤 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-40%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="93.3" rx="3"/><text class="ic-val" x="346.0" y="135.3" text-anchor="middle">-16%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="4.0" rx="3"/><text class="ic-val" x="532.7" y="46.0" text-anchor="middle">-1%</text></svg><figcaption>스튜디오드래곤 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 스튜디오드래곤 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,145억 원 | 1,365억 원 | 1,459억 원 | 1,553억 원 | 1,453억 원 | 1,418억 원 |
+| 영업이익 | -29억 원 | 105억 원 | 185억 원 | 64억 원 | 154억 원 | 136억 원 |
+| 당기순이익 | -37억 원 | 89억 원 | 28억 원 | 66억 원 | 130억 원 | 108억 원 |
+| 영업이익률 | -2.5% | 7.7% | 12.7% | 4.1% | 10.6% | 9.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="스튜디오드래곤 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="225.1" y2="225.1"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="225.1" width="52.3" height="30.9" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-29억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="113.2" width="52.3" height="111.9" rx="3"/><text class="ic-val" x="206.0" y="107.2" text-anchor="middle">105억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="197.1" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">185억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="156.9" width="52.3" height="68.2" rx="3"/><text class="ic-val" x="392.7" y="150.9" text-anchor="middle">64억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="61.0" width="52.3" height="164.1" rx="3"/><text class="ic-val" x="486.0" y="55.0" text-anchor="middle">154억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="80.2" width="52.3" height="144.9" rx="3"/><text class="ic-val" x="579.3" y="74.2" text-anchor="middle">136억</text></svg><figcaption>스튜디오드래곤 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

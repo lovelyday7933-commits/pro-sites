@@ -1,0 +1,53 @@
+---
+title: "링크드 실적, 2025년 영업이익 -72억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "링크드 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "193250"
+name: "링크드"
+intent: "실적"
+chip: "193250 · 코스닥 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "링크드-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/링크드/", "label": "링크드"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/링크드/", "label": "링크드 주가"}, {"url": "/종목/링크드/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/링크드/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/링크드/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/알엔투테크놀로지/실적/", "label": "알엔투테크놀로지 실적"}, {"url": "/종목/엣지파운드리/실적/", "label": "엣지파운드리 실적"}, {"url": "/종목/성우테크론/실적/", "label": "성우테크론 실적"}, {"url": "/종목/아이에이/실적/", "label": "아이에이 실적"}, {"url": "/종목/sk폴리텍/실적/", "label": "S&K폴리텍 실적"}, {"url": "/종목/아이씨에이치/실적/", "label": "아이씨에이치 실적"}, {"url": "/종목/파버나인/실적/", "label": "파버나인 실적"}, {"url": "/종목/씨엔플러스/실적/", "label": "씨엔플러스 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+링크드의 최근 연간 실적은 2023년 매출 202억 원·영업이익 -44억 원, 2024년 매출 141억 원·영업이익 -61억 원, 2025년 매출 105억 원·영업이익 -72억 원이다.
+
+## 링크드 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 202억 원 | 141억 원 | 105억 원 | — |
+| 영업이익 | -44억 원 | -61억 원 | -72억 원 | — |
+| 당기순이익 | -127억 원 | -176억 원 | -30억 원 | — |
+| 영업이익률 | -21.9% | -43.0% | -69.0% | — |
+| ROE | -16.1% | -25.6% | -4.4% | — |
+| EPS | -1,082원 | -1,368원 | -211원 | — |
+| PER | -3.8배 | -2.1배 | -9.7배 | — |
+| PBR | 0.71배 | 0.59배 | 0.45배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -44억 원이고, 주가는 한 해 -33.4% 움직였다. 2024년은 영업이익 -61억 원 (전년보다 -39%)이고, 주가는 한 해 -30.6% 움직였다. 2025년은 영업이익 -72억 원 (전년보다 -18%)이고, 주가는 한 해 -28.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="링크드 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-33%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="209.2" rx="3"/><text class="ic-val" x="346.0" y="251.2" text-anchor="middle">-31%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="194.3" rx="3"/><text class="ic-val" x="532.7" y="236.3" text-anchor="middle">-28%</text></svg><figcaption>링크드 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 링크드 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 25억 원 | 20억 원 | 35억 원 | 24억 원 | 41억 원 | — |
+| 영업이익 | -17억 원 | -20억 원 | -19억 원 | -23억 원 | -24억 원 | — |
+| 당기순이익 | -117억 원 | -8억 원 | 93억 원 | -16억 원 | 30억 원 | — |
+| 영업이익률 | -69.9% | -97.7% | -54.9% | -97.6% | -59.9% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="링크드 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="161.5" rx="3"/><text class="ic-val" x="112.7" y="203.5" text-anchor="middle">-17억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="190.0" rx="3"/><text class="ic-val" x="206.0" y="232.0" text-anchor="middle">-20억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="180.5" rx="3"/><text class="ic-val" x="299.3" y="222.5" text-anchor="middle">-19억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="218.5" rx="3"/><text class="ic-val" x="392.7" y="260.5" text-anchor="middle">-23억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-24억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>링크드 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

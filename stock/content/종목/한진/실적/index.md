@@ -1,0 +1,54 @@
+---
+title: "한진 실적, 2025년 영업이익 1,122억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한진 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "002320"
+name: "한진"
+intent: "실적"
+chip: "002320 · 코스피 · 도로 화물 운송업 · 기준일 2026.09.11"
+utm_source: "한진-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/도로-화물-운송업/", "label": "도로 화물 운송업"}, {"url": "/종목/한진/", "label": "한진"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한진/", "label": "한진 주가"}, {"url": "/종목/한진/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한진/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한진/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한진/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/세방/실적/", "label": "세방 실적"}, {"url": "/종목/케이씨티시/실적/", "label": "케이씨티시 실적"}, {"url": "/종목/인터지스/실적/", "label": "인터지스 실적"}, {"url": "/종목/cj대한통운/실적/", "label": "CJ대한통운 실적"}, {"url": "/종목/한익스프레스/실적/", "label": "한익스프레스 실적"}, {"url": "/종목/삼일/실적/", "label": "삼일 실적"}]
+peers_head: "같은 업종(도로 화물 운송업) 다른 종목의 실적"
+---
+
+한진의 최근 연간 실적은 2023년 매출 2조 8,075억 원·영업이익 1,225억 원, 2024년 매출 3조 155억 원·영업이익 1,001억 원, 2025년 매출 3조 649억 원·영업이익 1,122억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 3조 1,975억 원·영업이익 745억 원이다.
+
+## 한진 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2조 8,075억 원 | 3조 155억 원 | 3조 649억 원 | 3조 1,975억 원 |
+| 영업이익 | 1,225억 원 | 1,001억 원 | 1,122억 원 | 745억 원 |
+| 당기순이익 | 261억 원 | -4억 원 | 10억 원 | -105억 원 |
+| 영업이익률 | 4.4% | 3.3% | 3.7% | 2.3% |
+| ROE | 1.9% | -0.3% | -0.1% | -0.8% |
+| EPS | 1,748원 | -286원 | -103원 | -775원 |
+| PER | 14.2배 | -66.4배 | -191.2배 | -18.9배 |
+| PBR | 0.25배 | 0.20배 | 0.21배 | 0.16배 |
+| 주당배당금 | 600원 | 600원 | 600원 | 600원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,225억 원이고, 주가는 한 해 +18.1% 움직였다. 2024년은 영업이익 1,001억 원 (전년보다 -18%)이고, 주가는 한 해 -23.5% 움직였다. 2025년은 영업이익 1,122억 원 (전년보다 +12%)이고, 주가는 한 해 +3.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한진 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="127.1" y2="127.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="99.1" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+18%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="127.1" width="104.5" height="128.9" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-24%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="106.8" width="104.5" height="20.2" rx="3"/><text class="ic-val" x="532.7" y="100.8" text-anchor="middle">+4%</text></svg><figcaption>한진 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한진 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7,408억 원 | 7,993억 원 | 7,957억 원 | 7,790억 원 | 8,641억 원 | 8,110억 원 |
+| 영업이익 | 370억 원 | 308억 원 | 171억 원 | 198억 원 | 298억 원 | 300억 원 |
+| 당기순이익 | 112억 원 | -22억 원 | -85억 원 | -23억 원 | 30억 원 | — |
+| 영업이익률 | 5.0% | 3.9% | 2.1% | 2.5% | 3.5% | 3.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한진 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">370억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="66.2" width="52.3" height="189.8" rx="3"/><text class="ic-val" x="206.0" y="60.2" text-anchor="middle">308억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="150.6" width="52.3" height="105.4" rx="3"/><text class="ic-val" x="299.3" y="144.6" text-anchor="middle">171억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="134.0" width="52.3" height="122.0" rx="3"/><text class="ic-val" x="392.7" y="128.0" text-anchor="middle">198억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="72.4" width="52.3" height="183.6" rx="3"/><text class="ic-val" x="486.0" y="66.4" text-anchor="middle">298억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="71.1" width="52.3" height="184.9" rx="3"/><text class="ic-val" x="579.3" y="65.1" text-anchor="middle">300억</text></svg><figcaption>한진 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

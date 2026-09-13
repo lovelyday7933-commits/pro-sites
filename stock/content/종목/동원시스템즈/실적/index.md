@@ -1,0 +1,53 @@
+---
+title: "동원시스템즈 실적, 2025년 영업이익 662억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "동원시스템즈 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "014820"
+name: "동원시스템즈"
+intent: "실적"
+chip: "014820 · 코스피 · 플라스틱제품 제조업 · 기준일 2026.09.11"
+utm_source: "동원시스템즈-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/플라스틱제품-제조업/", "label": "플라스틱제품 제조업"}, {"url": "/종목/동원시스템즈/", "label": "동원시스템즈"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/동원시스템즈/", "label": "동원시스템즈 주가"}, {"url": "/종목/동원시스템즈/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/동원시스템즈/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/동원시스템즈/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/펌텍코리아/실적/", "label": "펌텍코리아 실적"}, {"url": "/종목/pi첨단소재/실적/", "label": "PI첨단소재 실적"}, {"url": "/종목/율촌화학/실적/", "label": "율촌화학 실적"}, {"url": "/종목/lx하우시스/실적/", "label": "LX하우시스 실적"}, {"url": "/종목/상아프론테크/실적/", "label": "상아프론테크 실적"}, {"url": "/종목/백산/실적/", "label": "백산 실적"}, {"url": "/종목/삼영/실적/", "label": "삼영 실적"}, {"url": "/종목/미래나노텍/실적/", "label": "미래나노텍 실적"}]
+peers_head: "같은 업종(플라스틱제품 제조업) 다른 종목의 실적"
+---
+
+동원시스템즈의 최근 연간 실적은 2023년 매출 1조 2,767억 원·영업이익 809억 원, 2024년 매출 1조 3,343억 원·영업이익 919억 원, 2025년 매출 1조 3,729억 원·영업이익 662억 원이다.
+
+## 동원시스템즈 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 2,767억 원 | 1조 3,343억 원 | 1조 3,729억 원 | — |
+| 영업이익 | 809억 원 | 919억 원 | 662억 원 | — |
+| 당기순이익 | 644억 원 | 725억 원 | 537억 원 | — |
+| 영업이익률 | 6.3% | 6.9% | 4.8% | — |
+| ROE | 8.6% | 9.0% | 6.3% | — |
+| EPS | 2,195원 | 2,475원 | 1,835원 | — |
+| PER | 15.7배 | 16.3배 | 13.7배 | — |
+| PBR | 1.31배 | 1.41배 | 0.85배 | — |
+| 주당배당금 | 600원 | 600원 | 600원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 809억 원이고, 주가는 한 해 -15.0% 움직였다. 2024년은 영업이익 919억 원 (전년보다 +14%)이고, 주가는 한 해 +16.8% 움직였다. 2025년은 영업이익 662억 원 (전년보다 -28%)이고, 주가는 한 해 -37.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="동원시스템즈 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="98.1" y2="98.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="98.1" width="104.5" height="62.7" rx="3"/><text class="ic-val" x="159.3" y="174.8" text-anchor="middle">-15%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="70.1" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+17%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="98.1" width="104.5" height="157.9" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-38%</text></svg><figcaption>동원시스템즈 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 동원시스템즈 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3,663억 원 | 3,564억 원 | 3,134억 원 | 3,378억 원 | 4,022억 원 | — |
+| 영업이익 | 259억 원 | 202억 원 | 75억 원 | 130억 원 | 314억 원 | — |
+| 당기순이익 | 158억 원 | 153억 원 | 120억 원 | 162억 원 | 199억 원 | — |
+| 영업이익률 | 7.1% | 5.7% | 2.4% | 3.9% | 7.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="동원시스템즈 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="67.9" width="52.3" height="188.1" rx="3"/><text class="ic-val" x="112.7" y="61.9" text-anchor="middle">259억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="109.3" width="52.3" height="146.7" rx="3"/><text class="ic-val" x="206.0" y="103.3" text-anchor="middle">202억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="201.5" width="52.3" height="54.5" rx="3"/><text class="ic-val" x="299.3" y="195.5" text-anchor="middle">75억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="161.6" width="52.3" height="94.4" rx="3"/><text class="ic-val" x="392.7" y="155.6" text-anchor="middle">130억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">314억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>동원시스템즈 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

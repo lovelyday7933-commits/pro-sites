@@ -1,0 +1,54 @@
+---
+title: "하나금융지주 실적, 2025년 영업이익 5조 3,509억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "하나금융지주 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "086790"
+name: "하나금융지주"
+intent: "실적"
+chip: "086790 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "하나금융지주-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/하나금융지주/", "label": "하나금융지주"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/하나금융지주/", "label": "하나금융지주 주가"}, {"url": "/종목/하나금융지주/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/하나금융지주/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/하나금융지주/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/하나금융지주/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/sk/실적/", "label": "SK 실적"}, {"url": "/종목/신한지주/실적/", "label": "신한지주 실적"}, {"url": "/종목/hd한국조선해양/실적/", "label": "HD한국조선해양 실적"}, {"url": "/종목/우리금융지주/실적/", "label": "우리금융지주 실적"}, {"url": "/종목/kb금융/실적/", "label": "KB금융 실적"}, {"url": "/종목/메리츠금융지주/실적/", "label": "메리츠금융지주 실적"}, {"url": "/종목/hd현대/실적/", "label": "HD현대 실적"}, {"url": "/종목/lg/실적/", "label": "LG 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+하나금융지주의 최근 연간 실적은 2023년 매출 69조 6,936억 원·영업이익 4조 6,934억 원, 2024년 매출 81조 6,143억 원·영업이익 4조 8,552억 원, 2025년 매출 68조 9,436억 원·영업이익 5조 3,509억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 —·영업이익 5조 9,870억 원이다.
+
+## 하나금융지주 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 69조 6,936억 원 | 81조 6,143억 원 | 68조 9,436억 원 | — |
+| 영업이익 | 4조 6,934억 원 | 4조 8,552억 원 | 5조 3,509억 원 | 5조 9,870억 원 |
+| 당기순이익 | 3조 4,684억 원 | 3조 7,685억 원 | 4조 366억 원 | 4조 4,808억 원 |
+| 영업이익률 | 6.7% | 6.0% | 7.8% | — |
+| ROE | 9.0% | 9.1% | 9.2% | 9.6% |
+| EPS | 11,613원 | 12,872원 | 14,110원 | 16,128원 |
+| PER | 3.7배 | 4.4배 | 6.7배 | 8.5배 |
+| PBR | 0.32배 | 0.37배 | 0.57배 | 0.77배 |
+| 주당배당금 | 3,400원 | 3,600원 | 4,105원 | 4,653원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 4조 6,934억 원이고, 주가는 한 해 +3.2% 움직였다. 2024년은 영업이익 4조 8,552억 원 (전년보다 +3%)이고, 주가는 한 해 +30.9% 움직였다. 2025년은 영업이익 5조 3,509억 원 (전년보다 +10%)이고, 주가는 한 해 +65.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="하나금융지주 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="244.9" width="104.5" height="11.1" rx="3"/><text class="ic-val" x="159.3" y="238.9" text-anchor="middle">+3%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="148.8" width="104.5" height="107.2" rx="3"/><text class="ic-val" x="346.0" y="142.8" text-anchor="middle">+31%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+66%</text></svg><figcaption>하나금융지주 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 하나금융지주 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 23조 9,818억 원 | 10조 8,930억 원 | 17조 1,488억 원 | 29조 48억 원 | 27조 2,590억 원 | — |
+| 영업이익 | 1조 4,933억 원 | 1조 4,782억 원 | 8,904억 원 | 1조 6,536억 원 | 1조 5,944억 원 | 1조 6,662억 원 |
+| 당기순이익 | 1조 1,848억 원 | 1조 1,358억 원 | 5,776억 원 | 1조 2,307억 원 | 1조 2,061억 원 | 1조 2,577억 원 |
+| 영업이익률 | 6.2% | 13.6% | 5.2% | 5.7% | 5.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="하나금융지주 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="51.7" width="52.3" height="204.3" rx="3"/><text class="ic-val" x="112.7" y="45.7" text-anchor="middle">1조 4,933억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="53.7" width="52.3" height="202.3" rx="3"/><text class="ic-val" x="206.0" y="47.7" text-anchor="middle">1조 4,782억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="134.2" width="52.3" height="121.8" rx="3"/><text class="ic-val" x="299.3" y="128.2" text-anchor="middle">8,904억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="29.7" width="52.3" height="226.3" rx="3"/><text class="ic-val" x="392.7" y="23.7" text-anchor="middle">1조 6,536억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="37.8" width="52.3" height="218.2" rx="3"/><text class="ic-val" x="486.0" y="31.8" text-anchor="middle">1조 5,944억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1조 6,662억</text></svg><figcaption>하나금융지주 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

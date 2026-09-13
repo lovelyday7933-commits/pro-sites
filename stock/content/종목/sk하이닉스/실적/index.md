@@ -1,0 +1,54 @@
+---
+title: "SK하이닉스 실적, 2025년 영업이익 47조 2,063억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "SK하이닉스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "000660"
+name: "SK하이닉스"
+intent: "실적"
+chip: "000660 · 코스피 · 반도체 제조업 · 기준일 2026.09.11"
+utm_source: "sk하이닉스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/반도체-제조업/", "label": "반도체 제조업"}, {"url": "/종목/sk하이닉스/", "label": "SK하이닉스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/sk하이닉스/", "label": "SK하이닉스 주가"}, {"url": "/종목/sk하이닉스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/sk하이닉스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/sk하이닉스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/sk하이닉스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/db하이텍/실적/", "label": "DB하이텍 실적"}, {"url": "/종목/파두/실적/", "label": "파두 실적"}, {"url": "/종목/제주반도체/실적/", "label": "제주반도체 실적"}, {"url": "/종목/하나마이크론/실적/", "label": "하나마이크론 실적"}, {"url": "/종목/hd현대에너지솔루션/실적/", "label": "HD현대에너지솔루션 실적"}, {"url": "/종목/sfa반도체/실적/", "label": "SFA반도체 실적"}, {"url": "/종목/하나머티리얼즈/실적/", "label": "하나머티리얼즈 실적"}, {"url": "/종목/미코/실적/", "label": "미코 실적"}]
+peers_head: "같은 업종(반도체 제조업) 다른 종목의 실적"
+---
+
+SK하이닉스의 최근 연간 실적은 2023년 매출 32조 7,657억 원·영업이익 -7조 7,303억 원, 2024년 매출 66조 1,930억 원·영업이익 23조 4,673억 원, 2025년 매출 97조 1,467억 원·영업이익 47조 2,063억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 344조 2,818억 원·영업이익 265조 2,552억 원이다.
+
+## SK하이닉스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 32조 7,657억 원 | 66조 1,930억 원 | 97조 1,467억 원 | 344조 2,818억 원 |
+| 영업이익 | -7조 7,303억 원 | 23조 4,673억 원 | 47조 2,063억 원 | 265조 2,552억 원 |
+| 당기순이익 | -9조 1,375억 원 | 19조 7,969억 원 | 42조 9,479억 원 | 253조 360억 원 |
+| 영업이익률 | -23.6% | 35.5% | 48.6% | 77.0% |
+| ROE | -15.6% | 31.1% | 44.1% | 102.0% |
+| EPS | -12,517원 | 27,182원 | 58,955원 | 349,573원 |
+| PER | -11.3배 | 6.4배 | 11.0배 | 5.2배 |
+| PBR | 1.82배 | 1.62배 | 3.79배 | 3.47배 |
+| 주당배당금 | 1,200원 | 2,204원 | 3,000원 | 10,269원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -7조 7,303억 원이고, 주가는 한 해 +88.7% 움직였다. 2024년은 영업이익 23조 4,673억 원 (전년보다 +404%)이고, 주가는 한 해 +22.9% 움직였다. 2025년은 영업이익 47조 2,063억 원 (전년보다 +101%)이고, 주가는 한 해 +274.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK하이닉스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="182.3" width="104.5" height="73.7" rx="3"/><text class="ic-val" x="159.3" y="176.3" text-anchor="middle">+89%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="237.0" width="104.5" height="19.0" rx="3"/><text class="ic-val" x="346.0" y="231.0" text-anchor="middle">+23%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+274%</text></svg><figcaption>SK하이닉스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## SK하이닉스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 22조 2,320억 원 | 24조 4,489억 원 | 32조 8,267억 원 | 52조 5,763억 원 | 79조 3,187억 원 | 99조 7,388억 원 |
+| 영업이익 | 9조 2,129억 원 | 11조 3,834억 원 | 19조 1,696억 원 | 37조 6,103억 원 | 60조 5,426억 원 | 78조 3,161억 원 |
+| 당기순이익 | 6조 9,962억 원 | 12조 5,975억 원 | 15조 2,460억 원 | 40조 3,459억 원 | 93조 9,226억 원 | 62조 953억 원 |
+| 영업이익률 | 41.4% | 46.6% | 58.4% | 71.5% | 76.3% | 78.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK하이닉스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="229.2" width="52.3" height="26.8" rx="3"/><text class="ic-val" x="112.7" y="223.2" text-anchor="middle">9조 2,129억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="222.9" width="52.3" height="33.1" rx="3"/><text class="ic-val" x="206.0" y="216.9" text-anchor="middle">11조 3,834억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="200.2" width="52.3" height="55.8" rx="3"/><text class="ic-val" x="299.3" y="194.2" text-anchor="middle">19조 1,696억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="146.5" width="52.3" height="109.5" rx="3"/><text class="ic-val" x="392.7" y="140.5" text-anchor="middle">37조 6,103억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="79.7" width="52.3" height="176.3" rx="3"/><text class="ic-val" x="486.0" y="73.7" text-anchor="middle">60조 5,426억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">78조 3,161억</text></svg><figcaption>SK하이닉스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

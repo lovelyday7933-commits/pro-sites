@@ -1,0 +1,53 @@
+---
+title: "에스디바이오센서 실적, 2025년 영업이익 -809억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "에스디바이오센서 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "137310"
+name: "에스디바이오센서"
+intent: "실적"
+chip: "137310 · 코스피 · 의료용 기기 제조업 · 기준일 2026.09.11"
+utm_source: "에스디바이오센서-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의료용-기기-제조업/", "label": "의료용 기기 제조업"}, {"url": "/종목/에스디바이오센서/", "label": "에스디바이오센서"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/에스디바이오센서/", "label": "에스디바이오센서 주가"}, {"url": "/종목/에스디바이오센서/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/에스디바이오센서/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/에스디바이오센서/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/인바디/실적/", "label": "인바디 실적"}, {"url": "/종목/리브스메드/실적/", "label": "리브스메드 실적"}, {"url": "/종목/큐리옥스바이오시스템즈/실적/", "label": "큐리옥스바이오시스템즈 실적"}, {"url": "/종목/씨어스/실적/", "label": "씨어스 실적"}, {"url": "/종목/아이센스/실적/", "label": "아이센스 실적"}, {"url": "/종목/원텍/실적/", "label": "원텍 실적"}, {"url": "/종목/코스모로보틱스/실적/", "label": "코스모로보틱스 실적"}, {"url": "/종목/덴티움/실적/", "label": "덴티움 실적"}]
+peers_head: "같은 업종(의료용 기기 제조업) 다른 종목의 실적"
+---
+
+에스디바이오센서의 최근 연간 실적은 2023년 매출 6,557억 원·영업이익 -2,481억 원, 2024년 매출 6,946억 원·영업이익 -541억 원, 2025년 매출 7,106억 원·영업이익 -809억 원이다.
+
+## 에스디바이오센서 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 6,557억 원 | 6,946억 원 | 7,106억 원 | — |
+| 영업이익 | -2,481억 원 | -541억 원 | -809억 원 | — |
+| 당기순이익 | -4,679억 원 | -981억 원 | -5,134억 원 | — |
+| 영업이익률 | -37.8% | -7.8% | -11.4% | — |
+| ROE | -16.2% | -3.4% | -19.5% | — |
+| EPS | -4,137원 | -791원 | -4,193원 | — |
+| PER | -2.8배 | -13.0배 | -2.1배 | — |
+| PBR | 0.50배 | 0.42배 | 0.46배 | — |
+| 주당배당금 | — | 200원 | 200원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -2,481억 원이고, 주가는 한 해 -62.1% 움직였다. 2024년은 영업이익 -541억 원 (전년보다 +78%)이고, 주가는 한 해 -10.1% 움직였다. 2025년은 영업이익 -809억 원 (전년보다 -50%)이고, 주가는 한 해 -13.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에스디바이오센서 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-62%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="37.3" rx="3"/><text class="ic-val" x="346.0" y="79.3" text-anchor="middle">-10%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="49.3" rx="3"/><text class="ic-val" x="532.7" y="91.3" text-anchor="middle">-13%</text></svg><figcaption>에스디바이오센서 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 에스디바이오센서 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,665억 원 | 1,642억 원 | 1,946억 원 | 1,935억 원 | 1,865억 원 | — |
+| 영업이익 | -206억 원 | -140억 원 | -318억 원 | -116억 원 | -73억 원 | — |
+| 당기순이익 | 2,751억 원 | -99억 원 | -7,598억 원 | 223억 원 | 163억 원 | — |
+| 영업이익률 | -12.4% | -8.5% | -16.4% | -6.0% | -3.9% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에스디바이오센서 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="147.7" rx="3"/><text class="ic-val" x="112.7" y="189.7" text-anchor="middle">-206억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="100.4" rx="3"/><text class="ic-val" x="206.0" y="142.4" text-anchor="middle">-140억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-318억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="83.2" rx="3"/><text class="ic-val" x="392.7" y="125.2" text-anchor="middle">-116억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="52.3" rx="3"/><text class="ic-val" x="486.0" y="94.3" text-anchor="middle">-73억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>에스디바이오센서 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

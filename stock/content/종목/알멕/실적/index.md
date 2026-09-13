@@ -1,0 +1,54 @@
+---
+title: "알멕 실적, 2025년 영업이익 62억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "알멕 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "354320"
+name: "알멕"
+intent: "실적"
+chip: "354320 · 코스닥 · 1차 비철금속 제조업 · 기준일 2026.09.11"
+utm_source: "알멕-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/1차-비철금속-제조업/", "label": "1차 비철금속 제조업"}, {"url": "/종목/알멕/", "label": "알멕"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/알멕/", "label": "알멕 주가"}, {"url": "/종목/알멕/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/알멕/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/알멕/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/kbi메탈/실적/", "label": "KBI메탈 실적"}, {"url": "/종목/알루코/실적/", "label": "알루코 실적"}, {"url": "/종목/이구산업/실적/", "label": "이구산업 실적"}, {"url": "/종목/남선알미늄/실적/", "label": "남선알미늄 실적"}, {"url": "/종목/조일알미늄/실적/", "label": "조일알미늄 실적"}, {"url": "/종목/에이치브이엠/실적/", "label": "에이치브이엠 실적"}, {"url": "/종목/대창/실적/", "label": "대창 실적"}, {"url": "/종목/황금에스티/실적/", "label": "황금에스티 실적"}]
+peers_head: "같은 업종(1차 비철금속 제조업) 다른 종목의 실적"
+---
+
+알멕의 최근 연간 실적은 2023년 매출 2,160억 원·영업이익 159억 원, 2024년 매출 1,569억 원·영업이익 -27억 원, 2025년 매출 1,878억 원·영업이익 62억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2,265억 원·영업이익 154억 원이다.
+
+## 알멕 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,160억 원 | 1,569억 원 | 1,878억 원 | 2,265억 원 |
+| 영업이익 | 159억 원 | -27억 원 | 62억 원 | 154억 원 |
+| 당기순이익 | -66억 원 | -24억 원 | -61억 원 | 84억 원 |
+| 영업이익률 | 7.3% | -1.8% | 3.3% | 6.8% |
+| ROE | -6.5% | 0.5% | -0.9% | 5.4% |
+| EPS | -1,147원 | 102원 | -205원 | 1,314원 |
+| PER | -40.4배 | 250.3배 | -98.2배 | 30.3배 |
+| PBR | 2.23배 | 1.16배 | 0.86배 | 1.60배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2024년은 영업이익 -27억 원 (전년보다 -117%)이고, 주가는 한 해 -44.6% 움직였다. 2025년은 영업이익 62억 원 (전년보다 +330%)이고, 주가는 한 해 -21.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="알멕 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="127.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-45%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="407.6" y="28.0" width="156.8" height="109.6" rx="3"/><text class="ic-val" x="486.0" y="151.6" text-anchor="middle">-21%</text></svg><figcaption>알멕 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 알멕 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 485억 원 | 445억 원 | 442억 원 | 507억 원 | 552억 원 | — |
+| 영업이익 | 28억 원 | 22억 원 | -6억 원 | 28억 원 | 26억 원 | — |
+| 당기순이익 | -5억 원 | -2억 원 | -53억 원 | 31억 원 | 35억 원 | — |
+| 영업이익률 | 5.8% | 5.0% | -1.3% | 5.5% | 4.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="알멕 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="215.8" y2="215.8"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="187.8" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">28억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="68.2" width="52.3" height="147.5" rx="3"/><text class="ic-val" x="206.0" y="62.2" text-anchor="middle">22억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="215.8" width="52.3" height="40.2" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-6억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="187.8" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">28억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="41.4" width="52.3" height="174.4" rx="3"/><text class="ic-val" x="486.0" y="35.4" text-anchor="middle">26억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>알멕 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

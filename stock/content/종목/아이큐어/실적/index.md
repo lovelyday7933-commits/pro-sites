@@ -1,0 +1,53 @@
+---
+title: "아이큐어 실적, 2025년 영업이익 -120억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "아이큐어 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "175250"
+name: "아이큐어"
+intent: "실적"
+chip: "175250 · 코스닥 · 기타 화학제품 제조업 · 기준일 2026.09.11"
+utm_source: "아이큐어-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-화학제품-제조업/", "label": "기타 화학제품 제조업"}, {"url": "/종목/아이큐어/", "label": "아이큐어"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/아이큐어/", "label": "아이큐어 주가"}, {"url": "/종목/아이큐어/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/아이큐어/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/아이큐어/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/그린케미칼/실적/", "label": "그린케미칼 실적"}, {"url": "/종목/현대바이오랜드/실적/", "label": "현대바이오랜드 실적"}, {"url": "/종목/켐트로스/실적/", "label": "켐트로스 실적"}, {"url": "/종목/토니모리/실적/", "label": "토니모리 실적"}, {"url": "/종목/hdc현대ep/실적/", "label": "HDC현대EP 실적"}, {"url": "/종목/제이아이테크/실적/", "label": "제이아이테크 실적"}, {"url": "/종목/엔에프씨/실적/", "label": "엔에프씨 실적"}, {"url": "/종목/엘케이켐/실적/", "label": "엘케이켐 실적"}]
+peers_head: "같은 업종(기타 화학제품 제조업) 다른 종목의 실적"
+---
+
+아이큐어의 최근 연간 실적은 2023년 매출 568억 원·영업이익 -225억 원, 2024년 매출 507억 원·영업이익 -152억 원, 2025년 매출 834억 원·영업이익 -120억 원이다.
+
+## 아이큐어 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 568억 원 | 507억 원 | 834억 원 | — |
+| 영업이익 | -225억 원 | -152억 원 | -120억 원 | — |
+| 당기순이익 | -322억 원 | 2억 원 | -345억 원 | — |
+| 영업이익률 | -39.7% | -29.9% | -14.3% | — |
+| ROE | -42.8% | 2.1% | -79.2% | — |
+| EPS | -833원 | 32원 | -895원 | — |
+| PER | -3.3배 | 75.3배 | -3.2배 | — |
+| PBR | 1.83배 | 1.53배 | 4.07배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -225억 원이고, 주가는 한 해 -18.2% 움직였다. 2024년은 영업이익 -152억 원 (전년보다 +32%)이고, 주가는 한 해 -13.2% 움직였다. 2025년은 영업이익 -120억 원 (전년보다 +21%)이고, 주가는 한 해 +19.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="아이큐어 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="146.2" y2="146.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="146.2" width="104.5" height="109.8" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-18%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="146.2" width="104.5" height="79.5" rx="3"/><text class="ic-val" x="346.0" y="239.6" text-anchor="middle">-13%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="118.2" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+20%</text></svg><figcaption>아이큐어 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 아이큐어 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 213억 원 | 251억 원 | 109억 원 | 322억 원 | 377억 원 | — |
+| 영업이익 | -25억 원 | -33억 원 | -18억 원 | 2억 원 | 24억 원 | — |
+| 당기순이익 | -81억 원 | -39억 원 | -184억 원 | -7억 원 | 23억 원 | — |
+| 영업이익률 | -11.9% | -12.9% | -17.0% | 0.7% | 6.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="아이큐어 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="124.0" y2="124.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="124.0" width="52.3" height="100.0" rx="3"/><text class="ic-val" x="112.7" y="238.0" text-anchor="middle">-25억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="124.0" width="52.3" height="132.0" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-33억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="124.0" width="52.3" height="72.0" rx="3"/><text class="ic-val" x="299.3" y="210.0" text-anchor="middle">-18억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="116.0" width="52.3" height="8.0" rx="3"/><text class="ic-val" x="392.7" y="110.0" text-anchor="middle">2억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="96.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">24억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>아이큐어 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

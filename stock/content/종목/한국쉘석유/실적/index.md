@@ -1,0 +1,53 @@
+---
+title: "한국쉘석유 실적, 2025년 영업이익 528억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한국쉘석유 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "002960"
+name: "한국쉘석유"
+intent: "실적"
+chip: "002960 · 코스피 · 석유 정제품 제조업 · 기준일 2026.09.11"
+utm_source: "한국쉘석유-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/석유-정제품-제조업/", "label": "석유 정제품 제조업"}, {"url": "/종목/한국쉘석유/", "label": "한국쉘석유"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한국쉘석유/", "label": "한국쉘석유 주가"}, {"url": "/종목/한국쉘석유/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한국쉘석유/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한국쉘석유/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/미창석유공업/실적/", "label": "미창석유공업 실적"}, {"url": "/종목/극동유화/실적/", "label": "극동유화 실적"}, {"url": "/종목/s-oil/실적/", "label": "S-Oil 실적"}, {"url": "/종목/sk이노베이션/실적/", "label": "SK이노베이션 실적"}]
+peers_head: "같은 업종(석유 정제품 제조업) 다른 종목의 실적"
+---
+
+한국쉘석유의 최근 연간 실적은 2023년 매출 3,205억 원·영업이익 423억 원, 2024년 매출 3,272억 원·영업이익 460억 원, 2025년 매출 3,450억 원·영업이익 528억 원이다.
+
+## 한국쉘석유 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,205억 원 | 3,272억 원 | 3,450억 원 | — |
+| 영업이익 | 423억 원 | 460억 원 | 528억 원 | — |
+| 당기순이익 | 374억 원 | 367억 원 | 482억 원 | — |
+| 영업이익률 | 13.2% | 14.1% | 15.3% | — |
+| ROE | 31.3% | 28.9% | 36.0% | — |
+| EPS | 28,753원 | 28,196원 | 37,098원 | — |
+| PER | 7.9배 | 11.3배 | 12.1배 | — |
+| PBR | 2.33배 | 3.25배 | 4.17배 | — |
+| 주당배당금 | 25,000원 | 27,000원 | 36,000원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 423억 원이고, 주가는 한 해 -3.2% 움직였다. 2024년은 영업이익 460억 원 (전년보다 +9%)이고, 주가는 한 해 +40.9% 움직였다. 2025년은 영업이익 528억 원 (전년보다 +15%)이고, 주가는 한 해 +41.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국쉘석유 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="239.6" y2="239.6"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="239.6" width="104.5" height="16.4" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-3%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="30.6" width="104.5" height="209.0" rx="3"/><text class="ic-val" x="346.0" y="24.6" text-anchor="middle">+41%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="211.6" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+41%</text></svg><figcaption>한국쉘석유 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한국쉘석유 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 905억 원 | 861억 원 | 784억 원 | 913억 원 | 955억 원 | — |
+| 영업이익 | 144억 원 | 143억 원 | 95억 원 | 160억 원 | 156억 원 | — |
+| 당기순이익 | 115억 원 | 123억 원 | 121억 원 | 140억 원 | 128억 원 | — |
+| 영업이익률 | 15.9% | 16.6% | 12.2% | 17.5% | 16.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국쉘석유 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="50.8" width="52.3" height="205.2" rx="3"/><text class="ic-val" x="112.7" y="44.8" text-anchor="middle">144억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="52.2" width="52.3" height="203.8" rx="3"/><text class="ic-val" x="206.0" y="46.2" text-anchor="middle">143억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="120.6" width="52.3" height="135.4" rx="3"/><text class="ic-val" x="299.3" y="114.6" text-anchor="middle">95억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">160억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="33.7" width="52.3" height="222.3" rx="3"/><text class="ic-val" x="486.0" y="27.7" text-anchor="middle">156억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>한국쉘석유 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

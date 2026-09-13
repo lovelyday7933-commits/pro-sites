@@ -1,0 +1,54 @@
+---
+title: "리노공업 실적, 2025년 영업이익 1,770억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "리노공업 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "058470"
+name: "리노공업"
+intent: "실적"
+chip: "058470 · 코스닥 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "리노공업-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/리노공업/", "label": "리노공업"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/리노공업/", "label": "리노공업 주가"}, {"url": "/종목/리노공업/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/리노공업/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/리노공업/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/리노공업/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/심텍/실적/", "label": "심텍 실적"}, {"url": "/종목/대덕전자/실적/", "label": "대덕전자 실적"}, {"url": "/종목/lg디스플레이/실적/", "label": "LG디스플레이 실적"}, {"url": "/종목/이수페타시스/실적/", "label": "이수페타시스 실적"}, {"url": "/종목/롯데에너지머티리얼즈/실적/", "label": "롯데에너지머티리얼즈 실적"}, {"url": "/종목/lg이노텍/실적/", "label": "LG이노텍 실적"}, {"url": "/종목/한화시스템/실적/", "label": "한화시스템 실적"}, {"url": "/종목/삼화콘덴서공업/실적/", "label": "삼화콘덴서공업 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+리노공업의 최근 연간 실적은 2023년 매출 2,556억 원·영업이익 1,144억 원, 2024년 매출 2,782억 원·영업이익 1,242억 원, 2025년 매출 3,725억 원·영업이익 1,770억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4,608억 원·영업이익 2,251억 원이다.
+
+## 리노공업 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,556억 원 | 2,782억 원 | 3,725억 원 | 4,608억 원 |
+| 영업이익 | 1,144억 원 | 1,242억 원 | 1,770억 원 | 2,251억 원 |
+| 당기순이익 | 1,109억 원 | 1,133억 원 | 1,520억 원 | 1,939억 원 |
+| 영업이익률 | 44.8% | 44.6% | 47.5% | 48.8% |
+| ROE | 21.1% | 19.2% | 22.4% | 24.3% |
+| EPS | 1,455원 | 1,486원 | 1,994원 | 2,545원 |
+| PER | 27.8배 | 25.8배 | 30.2배 | 26.1배 |
+| PBR | 5.52배 | 4.67배 | 6.26배 | 5.83배 |
+| 주당배당금 | 600원 | 600원 | 800원 | 910원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,144억 원이고, 주가는 한 해 +30.2% 움직였다. 2024년은 영업이익 1,242억 원 (전년보다 +9%)이고, 주가는 한 해 -5.4% 움직였다. 2025년은 영업이익 1,770억 원 (전년보다 +43%)이고, 주가는 한 해 +57.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="리노공업 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="236.4" y2="236.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="126.2" width="104.5" height="110.2" rx="3"/><text class="ic-val" x="159.3" y="120.2" text-anchor="middle">+30%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="236.4" width="104.5" height="19.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-5%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="208.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+57%</text></svg><figcaption>리노공업 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 리노공업 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,125억 원 | 968억 원 | 848억 원 | 998억 원 | 1,432억 원 | 1,146억 원 |
+| 영업이익 | 534억 원 | 483억 원 | 404억 원 | 473억 원 | 735억 원 | 561억 원 |
+| 당기순이익 | 411억 원 | 419억 원 | 396억 원 | 404억 원 | 659억 원 | 495억 원 |
+| 영업이익률 | 47.5% | 49.8% | 47.6% | 47.4% | 51.3% | 49.0% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="리노공업 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="90.4" width="52.3" height="165.6" rx="3"/><text class="ic-val" x="112.7" y="84.4" text-anchor="middle">534억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="106.2" width="52.3" height="149.8" rx="3"/><text class="ic-val" x="206.0" y="100.2" text-anchor="middle">483억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="130.7" width="52.3" height="125.3" rx="3"/><text class="ic-val" x="299.3" y="124.7" text-anchor="middle">404억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="109.3" width="52.3" height="146.7" rx="3"/><text class="ic-val" x="392.7" y="103.3" text-anchor="middle">473억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">735억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="82.0" width="52.3" height="174.0" rx="3"/><text class="ic-val" x="579.3" y="76.0" text-anchor="middle">561억</text></svg><figcaption>리노공업 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "두산에너빌리티 실적, 2025년 영업이익 7,627억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "두산에너빌리티 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "034020"
+name: "두산에너빌리티"
+intent: "실적"
+chip: "034020 · 코스피 · 일반 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "두산에너빌리티-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/일반-목적용-기계-제조업/", "label": "일반 목적용 기계 제조업"}, {"url": "/종목/두산에너빌리티/", "label": "두산에너빌리티"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/두산에너빌리티/", "label": "두산에너빌리티 주가"}, {"url": "/종목/두산에너빌리티/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/두산에너빌리티/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/두산에너빌리티/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/두산에너빌리티/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/한화엔진/실적/", "label": "한화엔진 실적"}, {"url": "/종목/한온시스템/실적/", "label": "한온시스템 실적"}, {"url": "/종목/현대엘리베이터/실적/", "label": "현대엘리베이터 실적"}, {"url": "/종목/현대무벡스/실적/", "label": "현대무벡스 실적"}, {"url": "/종목/비에이치아이/실적/", "label": "비에이치아이 실적"}, {"url": "/종목/hd현대마린엔진/실적/", "label": "HD현대마린엔진 실적"}, {"url": "/종목/stx엔진/실적/", "label": "STX엔진 실적"}, {"url": "/종목/snt에너지/실적/", "label": "SNT에너지 실적"}]
+peers_head: "같은 업종(일반 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+두산에너빌리티의 최근 연간 실적은 2023년 매출 17조 5,899억 원·영업이익 1조 4,673억 원, 2024년 매출 16조 2,331억 원·영업이익 1조 176억 원, 2025년 매출 17조 579억 원·영업이익 7,627억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 18조 3,496억 원·영업이익 1조 1,308억 원이다.
+
+## 두산에너빌리티 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 17조 5,899억 원 | 16조 2,331억 원 | 17조 579억 원 | 18조 3,496억 원 |
+| 영업이익 | 1조 4,673억 원 | 1조 176억 원 | 7,627억 원 | 1조 1,308억 원 |
+| 당기순이익 | 5,175억 원 | 3,947억 원 | 2,052억 원 | 5,308억 원 |
+| 영업이익률 | 8.3% | 6.3% | 4.5% | 6.2% |
+| ROE | 0.8% | 1.5% | 1.1% | 4.0% |
+| EPS | 87원 | 174원 | 132원 | 499원 |
+| PER | 183.0배 | 101.0배 | 569.1배 | 182.1배 |
+| PBR | 1.43배 | 1.50배 | 6.19배 | 7.01배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1조 4,673억 원이고, 주가는 한 해 +3.2% 움직였다. 2024년은 영업이익 1조 176억 원 (전년보다 -31%)이고, 주가는 한 해 +10.4% 움직였다. 2025년은 영업이익 7,627억 원 (전년보다 -25%)이고, 주가는 한 해 +329.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="두산에너빌리티 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="253.8" width="104.5" height="2.2" rx="3"/><text class="ic-val" x="159.3" y="247.8" text-anchor="middle">+3%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="248.8" width="104.5" height="7.2" rx="3"/><text class="ic-val" x="346.0" y="242.8" text-anchor="middle">+10%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+329%</text></svg><figcaption>두산에너빌리티 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 두산에너빌리티 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4조 5,690억 원 | 3조 8,804억 원 | 4조 8,599억 원 | 4조 2,611억 원 | 4조 7,248억 원 | 4조 3,513억 원 |
+| 영업이익 | 2,711억 원 | 1,371억 원 | 2,121억 원 | 2,335억 원 | 3,143억 원 | 2,482억 원 |
+| 당기순이익 | 1,978억 원 | -240억 원 | 525억 원 | 602억 원 | 2,264억 원 | 1,018억 원 |
+| 영업이익률 | 5.9% | 3.5% | 4.4% | 5.5% | 6.7% | 5.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="두산에너빌리티 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="59.3" width="52.3" height="196.7" rx="3"/><text class="ic-val" x="112.7" y="53.3" text-anchor="middle">2,711억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="156.5" width="52.3" height="99.5" rx="3"/><text class="ic-val" x="206.0" y="150.5" text-anchor="middle">1,371억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="102.1" width="52.3" height="153.9" rx="3"/><text class="ic-val" x="299.3" y="96.1" text-anchor="middle">2,121억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="86.6" width="52.3" height="169.4" rx="3"/><text class="ic-val" x="392.7" y="80.6" text-anchor="middle">2,335억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">3,143억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="76.0" width="52.3" height="180.0" rx="3"/><text class="ic-val" x="579.3" y="70.0" text-anchor="middle">2,482억</text></svg><figcaption>두산에너빌리티 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

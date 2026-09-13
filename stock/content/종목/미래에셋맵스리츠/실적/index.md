@@ -1,0 +1,53 @@
+---
+title: "미래에셋맵스리츠 실적, 2026년 5월 결산 영업이익 48억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "미래에셋맵스리츠 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "357250"
+name: "미래에셋맵스리츠"
+intent: "실적"
+chip: "357250 · 코스피 · 부동산 임대 및 공급업 · 기준일 2026.09.11"
+utm_source: "미래에셋맵스리츠-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/부동산-임대-및-공급업/", "label": "부동산 임대 및 공급업"}, {"url": "/종목/미래에셋맵스리츠/", "label": "미래에셋맵스리츠"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/미래에셋맵스리츠/", "label": "미래에셋맵스리츠 주가"}, {"url": "/종목/미래에셋맵스리츠/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/미래에셋맵스리츠/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/미래에셋맵스리츠/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/부방/실적/", "label": "부방 실적"}, {"url": "/종목/미래에셋글로벌리츠/실적/", "label": "미래에셋글로벌리츠 실적"}, {"url": "/종목/케이탑리츠/실적/", "label": "케이탑리츠 실적"}, {"url": "/종목/디티씨/실적/", "label": "디티씨 실적"}, {"url": "/종목/nh프라임리츠/실적/", "label": "NH프라임리츠 실적"}, {"url": "/종목/마스턴프리미어리츠/실적/", "label": "마스턴프리미어리츠 실적"}, {"url": "/종목/sk디앤디/실적/", "label": "SK디앤디 실적"}, {"url": "/종목/코람코더원리츠/실적/", "label": "코람코더원리츠 실적"}]
+peers_head: "같은 업종(부동산 임대 및 공급업) 다른 종목의 실적"
+---
+
+미래에셋맵스리츠의 최근 연간 실적은 2025년 매출 70억 원·영업이익 47억 원, 2025년 매출 69억 원·영업이익 41억 원, 2026년 매출 69억 원·영업이익 48억 원이다.
+
+## 미래에셋맵스리츠 연간 실적
+
+| 항목 | 2025 | 2025 | 2026 | 2027(추정) |
+|---|---|---|---|---|
+| 매출액 | 70억 원 | 69억 원 | 69억 원 | — |
+| 영업이익 | 47억 원 | 41억 원 | 48억 원 | — |
+| 당기순이익 | 17억 원 | 3억 원 | 9억 원 | — |
+| 영업이익률 | 67.8% | 59.1% | 69.1% | — |
+| ROE | 1.7% | 0.3% | 0.9% | — |
+| EPS | 70원 | 10원 | 36원 | — |
+| PER | 39.3배 | 254.9배 | 55.3배 | — |
+| PBR | 0.69배 | 0.69배 | 0.52배 | — |
+| 주당배당금 | 137원 | 112원 | 120원 | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 47억 원이고, 주가는 한 해 +6.3% 움직였다. 2025년은 영업이익 41억 원이고, 주가는 한 해 +6.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="미래에셋맵스리츠 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="127.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">+6%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+6%</text></svg><figcaption>미래에셋맵스리츠 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 미래에셋맵스리츠 분기 실적
+
+| 항목 | 2025.05 | 2025.08 | 2025.11 | 2026.02 | 2026.05 | 2026.06(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 33억 원 | 36억 원 | 33억 원 | 36억 원 | 33억 원 | — |
+| 영업이익 | 21억 원 | 20억 원 | 21억 원 | 26억 원 | 22억 원 | — |
+| 당기순이익 | 3억 원 | 0억 원 | 3억 원 | 6억 원 | 3억 원 | — |
+| 영업이익률 | 64.0% | 54.7% | 63.9% | 70.5% | 67.5% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="미래에셋맵스리츠 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.05</text><rect class="ic-bar up" x="86.5" y="71.8" width="52.3" height="184.2" rx="3"/><text class="ic-val" x="112.7" y="65.8" text-anchor="middle">21억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.08</text><rect class="ic-bar up" x="179.9" y="80.6" width="52.3" height="175.4" rx="3"/><text class="ic-val" x="206.0" y="74.6" text-anchor="middle">20억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.11</text><rect class="ic-bar up" x="273.2" y="71.8" width="52.3" height="184.2" rx="3"/><text class="ic-val" x="299.3" y="65.8" text-anchor="middle">21억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.02</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">26억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.05</text><rect class="ic-bar up" x="459.9" y="63.1" width="52.3" height="192.9" rx="3"/><text class="ic-val" x="486.0" y="57.1" text-anchor="middle">22억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.06</text></svg><figcaption>미래에셋맵스리츠 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

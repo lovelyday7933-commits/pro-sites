@@ -1,0 +1,53 @@
+---
+title: "프레스티지바이오파마 실적, 2025년 6월 결산 영업이익 -674억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "프레스티지바이오파마 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "950210"
+name: "프레스티지바이오파마"
+intent: "실적"
+chip: "950210 · 코스피 · 자연과학 및 공학 연구개발업 · 기준일 2026.09.11"
+utm_source: "프레스티지바이오파마-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자연과학-및-공학-연구개발업/", "label": "자연과학 및 공학 연구개발업"}, {"url": "/종목/프레스티지바이오파마/", "label": "프레스티지바이오파마"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/프레스티지바이오파마/", "label": "프레스티지바이오파마 주가"}, {"url": "/종목/프레스티지바이오파마/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/프레스티지바이오파마/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/프레스티지바이오파마/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/큐로셀/실적/", "label": "큐로셀 실적"}, {"url": "/종목/인벤티지랩/실적/", "label": "인벤티지랩 실적"}, {"url": "/종목/신라젠/실적/", "label": "신라젠 실적"}, {"url": "/종목/프로티나/실적/", "label": "프로티나 실적"}, {"url": "/종목/에이프릴바이오/실적/", "label": "에이프릴바이오 실적"}, {"url": "/종목/툴젠/실적/", "label": "툴젠 실적"}, {"url": "/종목/페니트리움바이오/실적/", "label": "페니트리움바이오 실적"}, {"url": "/종목/지노믹트리/실적/", "label": "지노믹트리 실적"}]
+peers_head: "같은 업종(자연과학 및 공학 연구개발업) 다른 종목의 실적"
+---
+
+프레스티지바이오파마의 최근 연간 실적은 2023년 매출 2억 원·영업이익 -696억 원, 2024년 매출 7억 원·영업이익 -628억 원, 2025년 매출 143억 원·영업이익 -674억 원이다.
+
+## 프레스티지바이오파마 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2억 원 | 7억 원 | 143억 원 | — |
+| 영업이익 | -696억 원 | -628억 원 | -674억 원 | — |
+| 당기순이익 | -29억 원 | -551억 원 | 42억 원 | — |
+| 영업이익률 | -42988.3% | -9111.2% | -470.1% | — |
+| ROE | 4.0% | -7.4% | 5.2% | — |
+| EPS | 292원 | -548원 | 371원 | — |
+| PER | 32.3배 | -15.8배 | 39.6배 | — |
+| PBR | 1.26배 | 1.18배 | 2.15배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -696억 원이고, 주가는 한 해 +29.3% 움직였다. 2024년은 영업이익 -628억 원 (전년보다 +10%)이고, 주가는 한 해 +59.4% 움직였다. 2025년은 영업이익 -674억 원 (전년보다 -7%)이고, 주가는 한 해 -15.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="프레스티지바이오파마 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="210.1" y2="210.1"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="120.2" width="104.5" height="90.0" rx="3"/><text class="ic-val" x="159.3" y="114.2" text-anchor="middle">+29%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="182.1" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+59%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="210.1" width="104.5" height="45.9" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-15%</text></svg><figcaption>프레스티지바이오파마 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 프레스티지바이오파마 분기 실적
+
+| 항목 | 2025.03 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 33억 원 | 55억 원 | 23억 원 | 77억 원 | 5억 원 | — |
+| 영업이익 | -153억 원 | -143억 원 | -243억 원 | -187억 원 | -264억 원 | — |
+| 당기순이익 | 462억 원 | -91억 원 | -202억 원 | -201억 원 | -294억 원 | — |
+| 영업이익률 | -459.5% | -259.0% | -1051.5% | -242.4% | -5175.1% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="프레스티지바이오파마 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.03</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="132.1" rx="3"/><text class="ic-val" x="112.7" y="174.1" text-anchor="middle">-153억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="123.5" rx="3"/><text class="ic-val" x="206.0" y="165.5" text-anchor="middle">-143억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="209.9" rx="3"/><text class="ic-val" x="299.3" y="251.9" text-anchor="middle">-243억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="161.5" rx="3"/><text class="ic-val" x="392.7" y="203.5" text-anchor="middle">-187억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-264억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.06</text></svg><figcaption>프레스티지바이오파마 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

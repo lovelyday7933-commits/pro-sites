@@ -1,0 +1,29 @@
+{{- /* 홈 RSS(/index.xml) — ★2026-09-13 글(posts)만 · 발행일 최신 50편.
+     Hugo 기본 RSS 는 사이트의 모든 일반 페이지를 넣는다 → 격자·검색어 칸이 늘면서 16.5MB · 9,223항목이 됐다.
+     이 파일을 크론 워커(ops/cron-build · 새 글 감지)와 네이버 서치어드바이저 RSS 가 읽는다 — 둘 다 "새 글"만 알면 된다.
+     ⛔항목 모양(<item><title><link><pubDate><guid><description>)은 기본 템플릿과 같게 둔다(워커가 <item>·<link> 를 정규식으로 읽는다). */ -}}
+{{- $pages := (where site.RegularPages "Section" "posts").ByPublishDate.Reverse | first 50 -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ site.Title }} 최신 글</description>
+    <language>{{ site.Language.LanguageCode }}</language>
+    {{- with $pages }}{{ with index . 0 }}
+    <lastBuildDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+    {{- end }}{{ end }}
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Description | default .Summary | plainify | htmlEscape }}</description>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

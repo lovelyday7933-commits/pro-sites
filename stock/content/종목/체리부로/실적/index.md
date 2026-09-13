@@ -1,0 +1,53 @@
+---
+title: "체리부로 실적, 2025년 영업이익 285억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "체리부로 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "066360"
+name: "체리부로"
+intent: "실적"
+chip: "066360 · 코스닥 · 도축, 육류 가공 및 저장 처리업 · 기준일 2026.09.11"
+utm_source: "체리부로-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/도축,-육류-가공-및-저장-처리업/", "label": "도축, 육류 가공 및 저장 처리업"}, {"url": "/종목/체리부로/", "label": "체리부로"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/체리부로/", "label": "체리부로 주가"}, {"url": "/종목/체리부로/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/체리부로/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/체리부로/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/마니커에프앤지/실적/", "label": "마니커에프앤지 실적"}, {"url": "/종목/마니커/실적/", "label": "마니커 실적"}, {"url": "/종목/동우팜투테이블/실적/", "label": "동우팜투테이블 실적"}, {"url": "/종목/정다운/실적/", "label": "정다운 실적"}, {"url": "/종목/우리손에프앤지/실적/", "label": "우리손에프앤지 실적"}, {"url": "/종목/하림/실적/", "label": "하림 실적"}]
+peers_head: "같은 업종(도축, 육류 가공 및 저장 처리업) 다른 종목의 실적"
+---
+
+체리부로의 최근 연간 실적은 2023년 매출 3,990억 원·영업이익 210억 원, 2024년 매출 3,829억 원·영업이익 29억 원, 2025년 매출 4,054억 원·영업이익 285억 원이다.
+
+## 체리부로 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,990억 원 | 3,829억 원 | 4,054억 원 | — |
+| 영업이익 | 210억 원 | 29억 원 | 285억 원 | — |
+| 당기순이익 | 150억 원 | -90억 원 | 286억 원 | — |
+| 영업이익률 | 5.3% | 0.8% | 7.0% | — |
+| ROE | 18.3% | -11.4% | 27.0% | — |
+| EPS | 583원 | -379원 | 993원 | — |
+| PER | 4.7배 | -4.1배 | 1.5배 | — |
+| PBR | 0.78배 | 0.49배 | 0.36배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 210억 원이고, 주가는 한 해 +25.9% 움직였다. 2024년은 영업이익 29억 원 (전년보다 -86%)이고, 주가는 한 해 -42.8% 움직였다. 2025년은 영업이익 285억 원 (전년보다 +883%)이고, 주가는 한 해 -3.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="체리부로 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="114.0" y2="114.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="86.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+26%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="114.0" width="104.5" height="142.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-43%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="114.0" width="104.5" height="11.1" rx="3"/><text class="ic-val" x="532.7" y="139.1" text-anchor="middle">-3%</text></svg><figcaption>체리부로 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 체리부로 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,056억 원 | 1,085억 원 | 1,002억 원 | 947억 원 | 1,120억 원 | — |
+| 영업이익 | 82억 원 | 57억 원 | 113억 원 | 32억 원 | 83억 원 | — |
+| 당기순이익 | 96억 원 | 32억 원 | 141억 원 | 0억 원 | 51억 원 | — |
+| 영업이익률 | 7.8% | 5.3% | 11.3% | 3.4% | 7.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="체리부로 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="90.5" width="52.3" height="165.5" rx="3"/><text class="ic-val" x="112.7" y="84.5" text-anchor="middle">82억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="141.0" width="52.3" height="115.0" rx="3"/><text class="ic-val" x="206.0" y="135.0" text-anchor="middle">57억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">113억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="191.4" width="52.3" height="64.6" rx="3"/><text class="ic-val" x="392.7" y="185.4" text-anchor="middle">32억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="88.5" width="52.3" height="167.5" rx="3"/><text class="ic-val" x="486.0" y="82.5" text-anchor="middle">83억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>체리부로 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "호텔신라 실적, 2025년 영업이익 135억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "호텔신라 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "008770"
+name: "호텔신라"
+intent: "실적"
+chip: "008770 · 코스피 · 기타 상품 전문 소매업 · 기준일 2026.09.11"
+utm_source: "호텔신라-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-상품-전문-소매업/", "label": "기타 상품 전문 소매업"}, {"url": "/종목/호텔신라/", "label": "호텔신라"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/호텔신라/", "label": "호텔신라 주가"}, {"url": "/종목/호텔신라/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/호텔신라/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/호텔신라/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/호텔신라/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/큐렉소/실적/", "label": "큐렉소 실적"}, {"url": "/종목/한국가구/실적/", "label": "한국가구 실적"}]
+peers_head: "같은 업종(기타 상품 전문 소매업) 다른 종목의 실적"
+---
+
+호텔신라의 최근 연간 실적은 2023년 매출 3조 5,685억 원·영업이익 912억 원, 2024년 매출 3조 9,476억 원·영업이익 -52억 원, 2025년 매출 4조 683억 원·영업이익 135억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4조 123억 원·영업이익 1,976억 원이다.
+
+## 호텔신라 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3조 5,685억 원 | 3조 9,476억 원 | 4조 683억 원 | 4조 123억 원 |
+| 영업이익 | 912억 원 | -52억 원 | 135억 원 | 1,976억 원 |
+| 당기순이익 | 860억 원 | -615억 원 | -1,728억 원 | 1,142억 원 |
+| 영업이익률 | 2.6% | -0.1% | 0.3% | 4.9% |
+| ROE | 15.0% | -6.5% | -14.5% | 9.9% |
+| EPS | 2,149원 | -1,538원 | -4,321원 | 2,878원 |
+| PER | 30.4배 | -24.0배 | -10.3배 | 14.3배 |
+| PBR | 4.07배 | 1.09배 | 1.53배 | 1.27배 |
+| 주당배당금 | 200원 | — | — | 200원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 912억 원이고, 주가는 한 해 -21.3% 움직였다. 2024년은 영업이익 -52억 원 (전년보다 -106%)이고, 주가는 한 해 -43.6% 움직였다. 2025년은 영업이익 135억 원 (전년보다 +360%)이고, 주가는 한 해 +20.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="호텔신라 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="101.8" y2="101.8"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="101.8" width="104.5" height="75.4" rx="3"/><text class="ic-val" x="159.3" y="191.2" text-anchor="middle">-21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="101.8" width="104.5" height="154.2" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-44%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="73.8" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+21%</text></svg><figcaption>호텔신라 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 호텔신라 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 254억 원 | 1조 257억 원 | 1조 454억 원 | 1조 535억 원 | 9,718억 원 | 9,846억 원 |
+| 영업이익 | 87억 원 | 114억 원 | -41억 원 | 204억 원 | 611억 원 | 636억 원 |
+| 당기순이익 | -9억 원 | -1,492억 원 | -166억 원 | 60억 원 | 214억 원 | 404억 원 |
+| 영업이익률 | 0.8% | 1.1% | -0.4% | 1.9% | 6.3% | 6.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="호텔신라 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="242.2" y2="242.2"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="212.9" width="52.3" height="29.3" rx="3"/><text class="ic-val" x="112.7" y="206.9" text-anchor="middle">87억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="203.8" width="52.3" height="38.4" rx="3"/><text class="ic-val" x="206.0" y="197.8" text-anchor="middle">114억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="242.2" width="52.3" height="13.8" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-41억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="173.5" width="52.3" height="68.7" rx="3"/><text class="ic-val" x="392.7" y="167.5" text-anchor="middle">204억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="36.4" width="52.3" height="205.8" rx="3"/><text class="ic-val" x="486.0" y="30.4" text-anchor="middle">611억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="214.2" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">636억</text></svg><figcaption>호텔신라 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

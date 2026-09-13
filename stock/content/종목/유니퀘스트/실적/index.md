@@ -1,0 +1,53 @@
+---
+title: "유니퀘스트 실적, 2025년 영업이익 367억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "유니퀘스트 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "077500"
+name: "유니퀘스트"
+intent: "실적"
+chip: "077500 · 코스피 · 기계장비 및 관련 물품 도매업 · 기준일 2026.09.11"
+utm_source: "유니퀘스트-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기계장비-및-관련-물품-도매업/", "label": "기계장비 및 관련 물품 도매업"}, {"url": "/종목/유니퀘스트/", "label": "유니퀘스트"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/유니퀘스트/", "label": "유니퀘스트 주가"}, {"url": "/종목/유니퀘스트/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/유니퀘스트/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/유니퀘스트/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/원익/실적/", "label": "원익 실적"}, {"url": "/종목/신흥/실적/", "label": "신흥 실적"}, {"url": "/종목/혜인/실적/", "label": "혜인 실적"}, {"url": "/종목/데이타솔루션/실적/", "label": "데이타솔루션 실적"}, {"url": "/종목/서플러스글로벌/실적/", "label": "서플러스글로벌 실적"}, {"url": "/종목/매커스/실적/", "label": "매커스 실적"}, {"url": "/종목/신일전자/실적/", "label": "신일전자 실적"}, {"url": "/종목/제이씨현시스템/실적/", "label": "제이씨현시스템 실적"}]
+peers_head: "같은 업종(기계장비 및 관련 물품 도매업) 다른 종목의 실적"
+---
+
+유니퀘스트의 최근 연간 실적은 2023년 매출 6,659억 원·영업이익 340억 원, 2024년 매출 7,105억 원·영업이익 341억 원, 2025년 매출 7,300억 원·영업이익 367억 원이다.
+
+## 유니퀘스트 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 6,659억 원 | 7,105억 원 | 7,300억 원 | — |
+| 영업이익 | 340억 원 | 341억 원 | 367억 원 | — |
+| 당기순이익 | 163억 원 | 49억 원 | 193억 원 | — |
+| 영업이익률 | 5.1% | 4.8% | 5.0% | — |
+| ROE | 6.9% | 2.4% | 8.6% | — |
+| EPS | 752원 | 243원 | 955원 | — |
+| PER | 8.1배 | 27.4배 | 6.9배 | — |
+| PBR | 0.61배 | 0.62배 | 0.58배 | — |
+| 주당배당금 | 200원 | 100원 | 200원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 340억 원이고, 주가는 한 해 +47.4% 움직였다. 2024년은 영업이익 341억 원 (전년보다 0%)이고, 주가는 한 해 +9.4% 움직였다. 2025년은 영업이익 367억 원 (전년보다 +8%)이고, 주가는 한 해 -0.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="유니퀘스트 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="252.4" y2="252.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="224.4" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+47%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="208.0" width="104.5" height="44.4" rx="3"/><text class="ic-val" x="346.0" y="202.0" text-anchor="middle">+9%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="252.4" width="104.5" height="3.6" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-1%</text></svg><figcaption>유니퀘스트 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 유니퀘스트 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,649억 원 | 1,763억 원 | 2,120억 원 | 1,690억 원 | 2,163억 원 | — |
+| 영업이익 | 74억 원 | 98억 원 | 97억 원 | 115억 원 | 166억 원 | — |
+| 당기순이익 | 50억 원 | 60억 원 | 19억 원 | 89억 원 | 129억 원 | — |
+| 영업이익률 | 4.5% | 5.6% | 4.6% | 6.8% | 7.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="유니퀘스트 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="154.4" width="52.3" height="101.6" rx="3"/><text class="ic-val" x="112.7" y="148.4" text-anchor="middle">74억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="121.4" width="52.3" height="134.6" rx="3"/><text class="ic-val" x="206.0" y="115.4" text-anchor="middle">98억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="122.8" width="52.3" height="133.2" rx="3"/><text class="ic-val" x="299.3" y="116.8" text-anchor="middle">97억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="98.0" width="52.3" height="158.0" rx="3"/><text class="ic-val" x="392.7" y="92.0" text-anchor="middle">115억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">166억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>유니퀘스트 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

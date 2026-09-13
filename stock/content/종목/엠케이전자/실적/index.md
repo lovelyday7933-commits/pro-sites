@@ -1,0 +1,54 @@
+---
+title: "엠케이전자 실적, 2025년 영업이익 142억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "엠케이전자 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "033160"
+name: "엠케이전자"
+intent: "실적"
+chip: "033160 · 코스닥 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "엠케이전자-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/엠케이전자/", "label": "엠케이전자"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/엠케이전자/", "label": "엠케이전자 주가"}, {"url": "/종목/엠케이전자/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/엠케이전자/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/엠케이전자/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/엠케이전자/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/디케이티/실적/", "label": "디케이티 실적"}, {"url": "/종목/파인엠텍/실적/", "label": "파인엠텍 실적"}, {"url": "/종목/시노펙스/실적/", "label": "시노펙스 실적"}, {"url": "/종목/ps일렉트로닉스/실적/", "label": "PS일렉트로닉스 실적"}, {"url": "/종목/아모텍/실적/", "label": "아모텍 실적"}, {"url": "/종목/파트론/실적/", "label": "파트론 실적"}, {"url": "/종목/이녹스첨단소재/실적/", "label": "이녹스첨단소재 실적"}, {"url": "/종목/kh바텍/실적/", "label": "KH바텍 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+엠케이전자의 최근 연간 실적은 2023년 매출 1조 1,170억 원·영업이익 465억 원, 2024년 매출 1조 1,706억 원·영업이익 561억 원, 2025년 매출 1조 4,038억 원·영업이익 142억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2조 114억 원·영업이익 1,153억 원이다.
+
+## 엠케이전자 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 1,170억 원 | 1조 1,706억 원 | 1조 4,038억 원 | 2조 114억 원 |
+| 영업이익 | 465억 원 | 561억 원 | 142억 원 | 1,153억 원 |
+| 당기순이익 | -391억 원 | -377억 원 | 138억 원 | — |
+| 영업이익률 | 4.2% | 4.8% | 1.0% | 5.7% |
+| ROE | -9.2% | -7.5% | 0.4% | — |
+| EPS | -1,602원 | -1,218원 | 60원 | 2,740원 |
+| PER | -7.6배 | -5.4배 | 140.1배 | 4.8배 |
+| PBR | 0.69배 | 0.40배 | 0.48배 | — |
+| 주당배당금 | 100원 | 100원 | 120원 | 120원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 465억 원이고, 주가는 한 해 +9.2% 움직였다. 2024년은 영업이익 561억 원 (전년보다 +21%)이고, 주가는 한 해 -46.2% 움직였다. 2025년은 영업이익 142억 원 (전년보다 -75%)이고, 주가는 한 해 +27.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엠케이전자 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="113.4" y2="113.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="85.0" width="104.5" height="28.4" rx="3"/><text class="ic-val" x="159.3" y="79.0" text-anchor="middle">+9%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="113.4" width="104.5" height="142.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-46%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="85.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+28%</text></svg><figcaption>엠케이전자 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 엠케이전자 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3,007억 원 | 3,769억 원 | 4,071억 원 | 4,501억 원 | 4,890억 원 | 5,046억 원 |
+| 영업이익 | 88억 원 | -64억 원 | 100억 원 | 151억 원 | 252억 원 | 285억 원 |
+| 당기순이익 | 63억 원 | -79억 원 | 100억 원 | 115억 원 | 332억 원 | — |
+| 영업이익률 | 2.9% | -1.7% | 2.5% | 3.4% | 5.2% | 5.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엠케이전자 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="214.2" y2="214.2"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="156.7" width="52.3" height="57.5" rx="3"/><text class="ic-val" x="112.7" y="150.7" text-anchor="middle">88억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="214.2" width="52.3" height="41.8" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-64억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="148.9" width="52.3" height="65.3" rx="3"/><text class="ic-val" x="299.3" y="142.9" text-anchor="middle">100억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="115.5" width="52.3" height="98.6" rx="3"/><text class="ic-val" x="392.7" y="109.5" text-anchor="middle">151억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="49.6" width="52.3" height="164.6" rx="3"/><text class="ic-val" x="486.0" y="43.6" text-anchor="middle">252억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="186.2" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">285억</text></svg><figcaption>엠케이전자 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

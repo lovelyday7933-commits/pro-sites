@@ -1,0 +1,54 @@
+---
+title: "솔루엠 실적, 2025년 영업이익 465억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "솔루엠 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "248070"
+name: "솔루엠"
+intent: "실적"
+chip: "248070 · 코스피 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "솔루엠-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/솔루엠/", "label": "솔루엠"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/솔루엠/", "label": "솔루엠 주가"}, {"url": "/종목/솔루엠/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/솔루엠/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/솔루엠/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/솔루엠/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/솔루스첨단소재/실적/", "label": "솔루스첨단소재 실적"}, {"url": "/종목/비에이치/실적/", "label": "비에이치 실적"}, {"url": "/종목/자화전자/실적/", "label": "자화전자 실적"}, {"url": "/종목/에프에스티/실적/", "label": "에프에스티 실적"}, {"url": "/종목/파미셀/실적/", "label": "파미셀 실적"}, {"url": "/종목/티에프이/실적/", "label": "티에프이 실적"}, {"url": "/종목/씨엠티엑스/실적/", "label": "씨엠티엑스 실적"}, {"url": "/종목/hlb이노베이션/실적/", "label": "HLB이노베이션 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+솔루엠의 최근 연간 실적은 2023년 매출 1조 9,511억 원·영업이익 1,545억 원, 2024년 매출 1조 5,944억 원·영업이익 691억 원, 2025년 매출 1조 7,002억 원·영업이익 465억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 9,450억 원·영업이익 750억 원이다.
+
+## 솔루엠 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 9,511억 원 | 1조 5,944억 원 | 1조 7,002억 원 | 1조 9,450억 원 |
+| 영업이익 | 1,545억 원 | 691억 원 | 465억 원 | 750억 원 |
+| 당기순이익 | 1,194억 원 | 377억 원 | 142억 원 | 390억 원 |
+| 영업이익률 | 7.9% | 4.3% | 2.7% | 3.9% |
+| ROE | 34.8% | 9.5% | 2.7% | 7.6% |
+| EPS | 2,407원 | 790원 | 259원 | 803원 |
+| PER | 11.3배 | 24.3배 | 64.1배 | 16.1배 |
+| PBR | 3.33배 | 2.12배 | 1.66배 | 1.17배 |
+| 주당배당금 | — | — | 75원 | 100원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,545억 원이고, 주가는 한 해 +56.9% 움직였다. 2024년은 영업이익 691억 원 (전년보다 -55%)이고, 주가는 한 해 -29.6% 움직였다. 2025년은 영업이익 465억 원 (전년보다 -33%)이고, 주가는 한 해 -13.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="솔루엠 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="177.9" y2="177.9"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="149.9" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+57%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="177.9" width="104.5" height="78.1" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-30%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="177.9" width="104.5" height="35.9" rx="3"/><text class="ic-val" x="532.7" y="227.9" text-anchor="middle">-14%</text></svg><figcaption>솔루엠 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 솔루엠 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4,026억 원 | 4,726억 원 | 4,277억 원 | 4,782억 원 | 4,918억 원 | 5,260억 원 |
+| 영업이익 | 122억 원 | 148억 원 | 81억 원 | 217억 원 | 218억 원 | 180억 원 |
+| 당기순이익 | 102억 원 | 64억 원 | -49억 원 | 47억 원 | 54억 원 | 110억 원 |
+| 영업이익률 | 3.0% | 3.1% | 1.9% | 4.5% | 4.4% | 3.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="솔루엠 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="128.4" width="52.3" height="127.6" rx="3"/><text class="ic-val" x="112.7" y="122.4" text-anchor="middle">122억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="101.2" width="52.3" height="154.8" rx="3"/><text class="ic-val" x="206.0" y="95.2" text-anchor="middle">148억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="171.3" width="52.3" height="84.7" rx="3"/><text class="ic-val" x="299.3" y="165.3" text-anchor="middle">81억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="29.0" width="52.3" height="227.0" rx="3"/><text class="ic-val" x="392.7" y="23.0" text-anchor="middle">217억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">218억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="67.7" width="52.3" height="188.3" rx="3"/><text class="ic-val" x="579.3" y="61.7" text-anchor="middle">180억</text></svg><figcaption>솔루엠 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

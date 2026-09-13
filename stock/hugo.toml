@@ -60,6 +60,11 @@ summaryLength = 40
 
 [outputs]
   home = ["html", "rss", "search"]
+  # ★2026-09-13 섹션·분류 RSS 를 끈다 — 종목 허브마다 index.xml 이 하나씩 붙어 배포 파일(상한 20,000)을 먹었다(주식 451개).
+  #   크론 워커·네이버 RSS 제출은 홈 index.xml 만 쓴다.
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
 
 # ★2026-09-11 — 헤더 메뉴를 이름으로 못박는다.
 #   전에는 섹션 nav + 글 + 카테고리(term)를 자동으로 늘어놔서 "종목 · 신호 · 글 · 차트 신호 · 종목 실측"
@@ -72,6 +77,11 @@ summaryLength = 40
     name = "종목별 실측"
     url = "/종목/"
     weight = 10
+  [[menus.main]]
+    identifier = "업종"
+    name = "업종별 종목"
+    url = "/업종/"
+    weight = 15
   [[menus.main]]
     identifier = "신호"
     name = "신호별 실측"

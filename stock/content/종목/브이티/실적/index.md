@@ -1,0 +1,54 @@
+---
+title: "브이티 실적, 2025년 영업이익 829억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "브이티 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "018290"
+name: "브이티"
+intent: "실적"
+chip: "018290 · 코스닥 · 기타 화학제품 제조업 · 기준일 2026.09.11"
+utm_source: "브이티-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-화학제품-제조업/", "label": "기타 화학제품 제조업"}, {"url": "/종목/브이티/", "label": "브이티"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/브이티/", "label": "브이티 주가"}, {"url": "/종목/브이티/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/브이티/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/브이티/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/브이티/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/코스모화학/실적/", "label": "코스모화학 실적"}, {"url": "/종목/켐트로닉스/실적/", "label": "켐트로닉스 실적"}, {"url": "/종목/한국화장품제조/실적/", "label": "한국화장품제조 실적"}, {"url": "/종목/에코프로에이치엔/실적/", "label": "에코프로에이치엔 실적"}, {"url": "/종목/네오팜/실적/", "label": "네오팜 실적"}, {"url": "/종목/애경산업/실적/", "label": "애경산업 실적"}, {"url": "/종목/한국알콜/실적/", "label": "한국알콜 실적"}, {"url": "/종목/씨앤씨인터내셔널/실적/", "label": "씨앤씨인터내셔널 실적"}]
+peers_head: "같은 업종(기타 화학제품 제조업) 다른 종목의 실적"
+---
+
+브이티의 최근 연간 실적은 2023년 매출 2,955억 원·영업이익 455억 원, 2024년 매출 4,317억 원·영업이익 1,109억 원, 2025년 매출 4,372억 원·영업이익 829억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5,230억 원·영업이익 600억 원이다.
+
+## 브이티 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,955억 원 | 4,317억 원 | 4,372억 원 | 5,230억 원 |
+| 영업이익 | 455억 원 | 1,109억 원 | 829억 원 | 600억 원 |
+| 당기순이익 | 317억 원 | 1,040억 원 | 642억 원 | 470억 원 |
+| 영업이익률 | 15.4% | 25.7% | 18.9% | 11.5% |
+| ROE | 28.0% | 56.1% | 25.7% | 17.0% |
+| EPS | 776원 | 2,739원 | 1,713원 | 1,288원 |
+| PER | 21.0배 | 14.6배 | 10.2배 | 9.1배 |
+| PBR | 4.99배 | 6.10배 | 2.50배 | 1.38배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 455억 원이고, 주가는 한 해 +210.9% 움직였다. 2024년은 영업이익 1,109억 원 (전년보다 +144%)이고, 주가는 한 해 +145.1% 움직였다. 2025년은 영업이익 829억 원 (전년보다 -25%)이고, 주가는 한 해 -56.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="브이티 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="208.0" y2="208.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="180.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+211%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="84.1" width="104.5" height="123.9" rx="3"/><text class="ic-val" x="346.0" y="78.1" text-anchor="middle">+145%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="208.0" width="104.5" height="48.0" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-56%</text></svg><figcaption>브이티 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 브이티 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,115억 원 | 1,102억 원 | 1,150억 원 | 1,143억 원 | 1,317억 원 | 1,220억 원 |
+| 영업이익 | 291억 원 | 121억 원 | 127억 원 | 173억 원 | 107억 원 | 170억 원 |
+| 당기순이익 | 213억 원 | 88억 원 | 108억 원 | 184억 원 | 32억 원 | 130억 원 |
+| 영업이익률 | 26.1% | 11.0% | 11.0% | 15.2% | 8.1% | 13.9% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="브이티 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">291억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="161.2" width="52.3" height="94.8" rx="3"/><text class="ic-val" x="206.0" y="155.2" text-anchor="middle">121억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="156.5" width="52.3" height="99.5" rx="3"/><text class="ic-val" x="299.3" y="150.5" text-anchor="middle">127억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="120.5" width="52.3" height="135.5" rx="3"/><text class="ic-val" x="392.7" y="114.5" text-anchor="middle">173억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="172.2" width="52.3" height="83.8" rx="3"/><text class="ic-val" x="486.0" y="166.2" text-anchor="middle">107억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="122.8" width="52.3" height="133.2" rx="3"/><text class="ic-val" x="579.3" y="116.8" text-anchor="middle">170억</text></svg><figcaption>브이티 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

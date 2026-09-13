@@ -1,0 +1,54 @@
+---
+title: "테스 실적, 2025년 영업이익 578억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "테스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "095610"
+name: "테스"
+intent: "실적"
+chip: "095610 · 코스닥 · 특수 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "테스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/특수-목적용-기계-제조업/", "label": "특수 목적용 기계 제조업"}, {"url": "/종목/테스/", "label": "테스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/테스/", "label": "테스 주가"}, {"url": "/종목/테스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/테스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/테스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/테스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/유진테크/실적/", "label": "유진테크 실적"}, {"url": "/종목/피에스케이홀딩스/실적/", "label": "피에스케이홀딩스 실적"}, {"url": "/종목/피에스케이/실적/", "label": "피에스케이 실적"}, {"url": "/종목/고영/실적/", "label": "고영 실적"}, {"url": "/종목/hpsp/실적/", "label": "HPSP 실적"}, {"url": "/종목/테크윙/실적/", "label": "테크윙 실적"}, {"url": "/종목/두산로보틱스/실적/", "label": "두산로보틱스 실적"}, {"url": "/종목/로보티즈/실적/", "label": "로보티즈 실적"}]
+peers_head: "같은 업종(특수 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+테스의 최근 연간 실적은 2023년 매출 1,469억 원·영업이익 -59억 원, 2024년 매출 2,401억 원·영업이익 385억 원, 2025년 매출 3,511억 원·영업이익 578억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4,804억 원·영업이익 1,047억 원이다.
+
+## 테스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,469억 원 | 2,401억 원 | 3,511억 원 | 4,804억 원 |
+| 영업이익 | -59억 원 | 385억 원 | 578억 원 | 1,047억 원 |
+| 당기순이익 | 16억 원 | 427억 원 | 569억 원 | 1,084억 원 |
+| 영업이익률 | -4.0% | 16.0% | 16.5% | 21.8% |
+| ROE | 0.5% | 13.6% | 15.8% | 24.6% |
+| EPS | 79원 | 2,158원 | 2,885원 | 5,658원 |
+| PER | 253.7배 | 7.2배 | 15.4배 | 25.4배 |
+| PBR | 1.18배 | 0.82배 | 2.02배 | 5.09배 |
+| 주당배당금 | 500원 | 600원 | 850원 | 979원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -59억 원이고, 주가는 한 해 +28.0% 움직였다. 2024년은 영업이익 385억 원 (전년보다 +753%)이고, 주가는 한 해 -22.9% 움직였다. 2025년은 영업이익 578억 원 (전년보다 +50%)이고, 주가는 한 해 +187.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="테스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="231.2" y2="231.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="200.8" width="104.5" height="30.4" rx="3"/><text class="ic-val" x="159.3" y="194.8" text-anchor="middle">+28%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="231.2" width="104.5" height="24.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-23%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="203.2" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+187%</text></svg><figcaption>테스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 테스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 821억 원 | 676억 원 | 1,170억 원 | 972억 원 | 1,237억 원 | 1,227억 원 |
+| 영업이익 | 204억 원 | 84억 원 | 128억 원 | 222억 원 | 260억 원 | 290억 원 |
+| 당기순이익 | 189억 원 | 121억 원 | 101억 원 | 246억 원 | 340억 원 | 262억 원 |
+| 영업이익률 | 24.8% | 12.5% | 10.9% | 22.8% | 21.0% | 23.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="테스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="95.6" width="52.3" height="160.4" rx="3"/><text class="ic-val" x="112.7" y="89.6" text-anchor="middle">204억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="190.0" width="52.3" height="66.0" rx="3"/><text class="ic-val" x="206.0" y="184.0" text-anchor="middle">84억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="155.4" width="52.3" height="100.6" rx="3"/><text class="ic-val" x="299.3" y="149.4" text-anchor="middle">128억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="81.5" width="52.3" height="174.5" rx="3"/><text class="ic-val" x="392.7" y="75.5" text-anchor="middle">222억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="51.6" width="52.3" height="204.4" rx="3"/><text class="ic-val" x="486.0" y="45.6" text-anchor="middle">260억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">290억</text></svg><figcaption>테스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

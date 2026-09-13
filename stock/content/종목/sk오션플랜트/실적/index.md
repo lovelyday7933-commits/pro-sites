@@ -1,0 +1,54 @@
+---
+title: "SK오션플랜트 실적, 2025년 영업이익 595억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "SK오션플랜트 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "100090"
+name: "SK오션플랜트"
+intent: "실적"
+chip: "100090 · 코스피 · 1차 철강 제조업 · 기준일 2026.09.11"
+utm_source: "sk오션플랜트-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/1차-철강-제조업/", "label": "1차 철강 제조업"}, {"url": "/종목/sk오션플랜트/", "label": "SK오션플랜트"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/sk오션플랜트/", "label": "SK오션플랜트 주가"}, {"url": "/종목/sk오션플랜트/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/sk오션플랜트/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/sk오션플랜트/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/sk오션플랜트/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/태광/실적/", "label": "태광 실적"}, {"url": "/종목/성광벤드/실적/", "label": "성광벤드 실적"}, {"url": "/종목/세아홀딩스/실적/", "label": "세아홀딩스 실적"}, {"url": "/종목/kg스틸/실적/", "label": "KG스틸 실적"}, {"url": "/종목/포스코엠텍/실적/", "label": "포스코엠텍 실적"}, {"url": "/종목/동국제강/실적/", "label": "동국제강 실적"}, {"url": "/종목/고려제강/실적/", "label": "고려제강 실적"}, {"url": "/종목/세아제강/실적/", "label": "세아제강 실적"}]
+peers_head: "같은 업종(1차 철강 제조업) 다른 종목의 실적"
+---
+
+SK오션플랜트의 최근 연간 실적은 2023년 매출 9,258억 원·영업이익 756억 원, 2024년 매출 6,626억 원·영업이익 418억 원, 2025년 매출 9,654억 원·영업이익 595억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6,458억 원·영업이익 574억 원이다.
+
+## SK오션플랜트 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 9,258억 원 | 6,626억 원 | 9,654억 원 | 6,458억 원 |
+| 영업이익 | 756억 원 | 418억 원 | 595억 원 | 574억 원 |
+| 당기순이익 | 575억 원 | 169억 원 | 375억 원 | 367억 원 |
+| 영업이익률 | 8.2% | 6.3% | 6.2% | 8.9% |
+| ROE | 9.5% | 2.3% | 5.0% | 4.4% |
+| EPS | 1,041원 | 277원 | 625원 | 588원 |
+| PER | 19.0배 | 46.5배 | 32.4배 | 21.2배 |
+| PBR | 1.68배 | 1.07배 | 1.55배 | 0.92배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 756억 원이고, 주가는 한 해 -1.6% 움직였다. 2024년은 영업이익 418억 원 (전년보다 -45%)이고, 주가는 한 해 -34.9% 움직였다. 2025년은 영업이익 595억 원 (전년보다 +42%)이고, 주가는 한 해 +57.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK오션플랜트 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="169.7" y2="169.7"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="169.7" width="104.5" height="4.1" rx="3"/><text class="ic-val" x="159.3" y="187.8" text-anchor="middle">-2%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="169.7" width="104.5" height="86.3" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-35%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="141.7" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+57%</text></svg><figcaption>SK오션플랜트 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## SK오션플랜트 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,406억 원 | 2,932억 원 | 1,745억 원 | 1,747억 원 | 1,705억 원 | 1,556억 원 |
+| 영업이익 | 156억 원 | 193억 원 | 137억 원 | 169억 원 | 193억 원 | 112억 원 |
+| 당기순이익 | 85억 원 | 111억 원 | 137억 원 | 99억 원 | 138억 원 | 43억 원 |
+| 영업이익률 | 6.5% | 6.6% | 7.8% | 9.7% | 11.3% | 7.2% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK오션플랜트 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="71.7" width="52.3" height="184.3" rx="3"/><text class="ic-val" x="112.7" y="65.7" text-anchor="middle">156억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">193억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="94.2" width="52.3" height="161.8" rx="3"/><text class="ic-val" x="299.3" y="88.2" text-anchor="middle">137억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="56.4" width="52.3" height="199.6" rx="3"/><text class="ic-val" x="392.7" y="50.4" text-anchor="middle">169억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">193억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="123.7" width="52.3" height="132.3" rx="3"/><text class="ic-val" x="579.3" y="117.7" text-anchor="middle">112억</text></svg><figcaption>SK오션플랜트 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

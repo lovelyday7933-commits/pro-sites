@@ -1,0 +1,25 @@
+{{/* /업종/<업종>/ — 그 업종 종목 전부(시가총액 순)와 종목마다 주가 전망·배당금·목표주가·실적 링크 (tools/intent.py · 2026-09-13) */}}
+{{ define "main" }}
+{{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" (printf "종목 %d개 · 시가총액 순" (len .Params.stocks)) "title" .Title "lead" .Description) }}
+<div class="site page">
+  <section class="sec">
+    <div class="tw">
+      <table class="dt sector">
+        <thead><tr><th>종목</th><th>시장</th><th>시가총액</th><th>더 보기</th></tr></thead>
+        <tbody>
+          {{- range .Params.stocks }}
+          <tr>
+            <td><a href="{{ .url }}">{{ .name }}</a></td>
+            <td>{{ .market }}</td>
+            <td>{{ .cap }}</td>
+            <td class="lk">{{ range $i, $l := .links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.label }}</a>{{ end }}</td>
+          </tr>
+          {{- end }}
+        </tbody>
+      </table>
+    </div>
+    <p class="note">시가총액은 네이버 증권 공개 자료, 업종은 KRX 상장법인목록 기준입니다.</p>
+  </section>
+  <p><a class="btn btn-ghost" href="/업종/">다른 업종 보기</a></p>
+</div>
+{{ end }}

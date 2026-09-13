@@ -1,0 +1,54 @@
+---
+title: "DL 실적, 2025년 영업이익 2,985억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "DL 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "000210"
+name: "DL"
+intent: "실적"
+chip: "000210 · 코스피 · 기초 화학물질 제조업 · 기준일 2026.09.11"
+utm_source: "dl-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기초-화학물질-제조업/", "label": "기초 화학물질 제조업"}, {"url": "/종목/dl/", "label": "DL"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/dl/", "label": "DL 주가"}, {"url": "/종목/dl/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/dl/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/dl/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/dl/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/롯데정밀화학/실적/", "label": "롯데정밀화학 실적"}, {"url": "/종목/후성/실적/", "label": "후성 실적"}, {"url": "/종목/원익홀딩스/실적/", "label": "원익홀딩스 실적"}, {"url": "/종목/oci/실적/", "label": "OCI 실적"}, {"url": "/종목/이수스페셜티케미컬/실적/", "label": "이수스페셜티케미컬 실적"}, {"url": "/종목/미원에스씨/실적/", "label": "미원에스씨 실적"}, {"url": "/종목/대한유화/실적/", "label": "대한유화 실적"}, {"url": "/종목/동진쎄미켐/실적/", "label": "동진쎄미켐 실적"}]
+peers_head: "같은 업종(기초 화학물질 제조업) 다른 종목의 실적"
+---
+
+DL의 최근 연간 실적은 2023년 매출 5조 178억 원·영업이익 1,507억 원, 2024년 매출 5조 6,154억 원·영업이익 4,125억 원, 2025년 매출 5조 3,267억 원·영업이익 2,985억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5조 5,386억 원·영업이익 6,496억 원이다.
+
+## DL 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 5조 178억 원 | 5조 6,154억 원 | 5조 3,267억 원 | 5조 5,386억 원 |
+| 영업이익 | 1,507억 원 | 4,125억 원 | 2,985억 원 | 6,496억 원 |
+| 당기순이익 | -1,210억 원 | 948억 원 | -963억 원 | 2,921억 원 |
+| 영업이익률 | 3.0% | 7.3% | 5.6% | 11.7% |
+| ROE | -3.4% | 2.2% | -2.2% | 6.2% |
+| EPS | -5,894원 | 3,947원 | -3,887원 | 11,589원 |
+| PER | -8.7배 | 8.0배 | -9.7배 | 4.8배 |
+| PBR | 0.30배 | 0.17배 | 0.21배 | 0.28배 |
+| 주당배당금 | 1,000원 | 1,000원 | — | 1,150원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,507억 원이고, 주가는 한 해 -13.2% 움직였다. 2024년은 영업이익 4,125억 원 (전년보다 +174%)이고, 주가는 한 해 -38.5% 움직였다. 2025년은 영업이익 2,985억 원 (전년보다 -28%)이고, 주가는 한 해 +19.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="DL 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="103.7" y2="103.7"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="103.7" width="104.5" height="52.1" rx="3"/><text class="ic-val" x="159.3" y="169.8" text-anchor="middle">-13%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="103.7" width="104.5" height="152.3" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-39%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="75.7" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+19%</text></svg><figcaption>DL 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## DL 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 3,217억 원 | 1조 3,880억 원 | 1조 2,304억 원 | 1조 2,828억 원 | 1조 6,679억 원 | 1조 4,546억 원 |
+| 영업이익 | 720억 원 | 1,094억 원 | 118억 원 | 1,129억 원 | 2,565억 원 | 1,904억 원 |
+| 당기순이익 | -843억 원 | 250억 원 | -175억 원 | 121억 원 | 1,527억 원 | 1,158억 원 |
+| 영업이익률 | 5.5% | 7.9% | 1.0% | 8.8% | 15.4% | 13.1% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="DL 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="192.0" width="52.3" height="64.0" rx="3"/><text class="ic-val" x="112.7" y="186.0" text-anchor="middle">720억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="158.8" width="52.3" height="97.2" rx="3"/><text class="ic-val" x="206.0" y="152.8" text-anchor="middle">1,094억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="245.5" width="52.3" height="10.5" rx="3"/><text class="ic-val" x="299.3" y="239.5" text-anchor="middle">118억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="155.6" width="52.3" height="100.4" rx="3"/><text class="ic-val" x="392.7" y="149.6" text-anchor="middle">1,129억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">2,565억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="86.8" width="52.3" height="169.2" rx="3"/><text class="ic-val" x="579.3" y="80.8" text-anchor="middle">1,904억</text></svg><figcaption>DL 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "오리온 실적, 2025년 영업이익 5,583억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "오리온 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "271560"
+name: "오리온"
+intent: "실적"
+chip: "271560 · 코스피 · 기타 식품 제조업 · 기준일 2026.09.11"
+utm_source: "오리온-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-식품-제조업/", "label": "기타 식품 제조업"}, {"url": "/종목/오리온/", "label": "오리온"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/오리온/", "label": "오리온 주가"}, {"url": "/종목/오리온/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/오리온/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/오리온/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/오리온/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/cj제일제당/실적/", "label": "CJ제일제당 실적"}, {"url": "/종목/농심/실적/", "label": "농심 실적"}, {"url": "/종목/삼양식품/실적/", "label": "삼양식품 실적"}, {"url": "/종목/오뚜기/실적/", "label": "오뚜기 실적"}, {"url": "/종목/롯데웰푸드/실적/", "label": "롯데웰푸드 실적"}, {"url": "/종목/대상/실적/", "label": "대상 실적"}, {"url": "/종목/삼양사/실적/", "label": "삼양사 실적"}, {"url": "/종목/풀무원/실적/", "label": "풀무원 실적"}]
+peers_head: "같은 업종(기타 식품 제조업) 다른 종목의 실적"
+---
+
+오리온의 최근 연간 실적은 2023년 매출 2조 9,124억 원·영업이익 4,924억 원, 2024년 매출 3조 1,043억 원·영업이익 5,436억 원, 2025년 매출 3조 3,324억 원·영업이익 5,583억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 3조 7,958억 원·영업이익 6,454억 원이다.
+
+## 오리온 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2조 9,124억 원 | 3조 1,043억 원 | 3조 3,324억 원 | 3조 7,958억 원 |
+| 영업이익 | 4,924억 원 | 5,436억 원 | 5,583억 원 | 6,454억 원 |
+| 당기순이익 | 3,850억 원 | 5,332억 원 | 3,906억 원 | 4,859억 원 |
+| 영업이익률 | 16.9% | 17.5% | 16.8% | 17.0% |
+| ROE | 13.9% | 16.6% | 10.5% | 12.1% |
+| EPS | 9,527원 | 13,269원 | 9,680원 | 12,079원 |
+| PER | 12.2배 | 7.7배 | 10.9배 | 9.9배 |
+| PBR | 1.60배 | 1.17배 | 1.10배 | 1.15배 |
+| 주당배당금 | 1,250원 | 2,500원 | 3,500원 | 3,983원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 4,924억 원이고, 주가는 한 해 -9.3% 움직였다. 2024년은 영업이익 5,436억 원 (전년보다 +10%)이고, 주가는 한 해 -11.8% 움직였다. 2025년은 영업이익 5,583억 원 (전년보다 +3%)이고, 주가는 한 해 +3.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="오리온 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="76.9" y2="76.9"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="76.9" width="104.5" height="141.1" rx="3"/><text class="ic-val" x="159.3" y="232.0" text-anchor="middle">-9%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="76.9" width="104.5" height="179.1" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-12%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="48.9" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+3%</text></svg><figcaption>오리온 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 오리온 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7,772억 원 | 8,289억 원 | 9,246억 원 | 9,304억 원 | 8,936억 원 | 9,388억 원 |
+| 영업이익 | 1,215억 원 | 1,379억 원 | 1,676억 원 | 1,655억 원 | 1,326억 원 | 1,578억 원 |
+| 당기순이익 | 717억 원 | 1,050억 원 | 1,078억 원 | 1,268억 원 | 866억 원 | 1,158억 원 |
+| 영업이익률 | 15.6% | 16.6% | 18.1% | 17.8% | 14.8% | 16.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="오리온 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="90.7" width="52.3" height="165.3" rx="3"/><text class="ic-val" x="112.7" y="84.7" text-anchor="middle">1,215억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="68.4" width="52.3" height="187.6" rx="3"/><text class="ic-val" x="206.0" y="62.4" text-anchor="middle">1,379억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">1,676억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="30.9" width="52.3" height="225.1" rx="3"/><text class="ic-val" x="392.7" y="24.9" text-anchor="middle">1,655억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="75.6" width="52.3" height="180.4" rx="3"/><text class="ic-val" x="486.0" y="69.6" text-anchor="middle">1,326억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="41.3" width="52.3" height="214.7" rx="3"/><text class="ic-val" x="579.3" y="35.3" text-anchor="middle">1,578억</text></svg><figcaption>오리온 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "키이스트 실적, 2025년 영업이익 -39억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "키이스트 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "054780"
+name: "키이스트"
+intent: "실적"
+chip: "054780 · 코스닥 · 영화, 비디오물, 방송프로그램 제작 및 배급업 · 기준일 2026.09.11"
+utm_source: "키이스트-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/영화,-비디오물,-방송프로그램-제작-및-배급업/", "label": "영화, 비디오물, 방송프로그램 제작 및 배급업"}, {"url": "/종목/키이스트/", "label": "키이스트"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/키이스트/", "label": "키이스트 주가"}, {"url": "/종목/키이스트/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/키이스트/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/키이스트/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/코퍼스코리아/실적/", "label": "코퍼스코리아 실적"}, {"url": "/종목/new/실적/", "label": "NEW 실적"}, {"url": "/종목/닷밀/실적/", "label": "닷밀 실적"}, {"url": "/종목/덱스터/실적/", "label": "덱스터 실적"}, {"url": "/종목/에이스토리/실적/", "label": "에이스토리 실적"}, {"url": "/종목/콘텐트리중앙/실적/", "label": "콘텐트리중앙 실적"}, {"url": "/종목/아티스트스튜디오/실적/", "label": "아티스트스튜디오 실적"}, {"url": "/종목/자이언트스텝/실적/", "label": "자이언트스텝 실적"}]
+peers_head: "같은 업종(영화, 비디오물, 방송프로그램 제작 및 배급업) 다른 종목의 실적"
+---
+
+키이스트의 최근 연간 실적은 2023년 매출 520억 원·영업이익 -15억 원, 2024년 매출 758억 원·영업이익 7억 원, 2025년 매출 157억 원·영업이익 -39억 원이다.
+
+## 키이스트 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 520억 원 | 758억 원 | 157억 원 | — |
+| 영업이익 | -15억 원 | 7억 원 | -39억 원 | — |
+| 당기순이익 | -54억 원 | -110억 원 | -26억 원 | — |
+| 영업이익률 | -2.8% | 0.9% | -25.1% | — |
+| ROE | -9.2% | -21.8% | -6.5% | — |
+| EPS | -276원 | -562원 | -135원 | — |
+| PER | -26.8배 | -8.9배 | -23.9배 | — |
+| PBR | 2.47배 | 2.33배 | 1.61배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -15억 원이고, 주가는 한 해 -20.9% 움직였다. 2024년은 영업이익 7억 원 (전년보다 +147%)이고, 주가는 한 해 -32.2% 움직였다. 2025년은 영업이익 -39억 원 (전년보다 -657%)이고, 주가는 한 해 -36.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="키이스트 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="132.2" rx="3"/><text class="ic-val" x="159.3" y="174.2" text-anchor="middle">-21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="203.9" rx="3"/><text class="ic-val" x="346.0" y="245.9" text-anchor="middle">-32%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-36%</text></svg><figcaption>키이스트 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 키이스트 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 30억 원 | 36억 원 | 46억 원 | 85억 원 | 107억 원 | — |
+| 영업이익 | -13억 원 | -10억 원 | -6억 원 | -10억 원 | -10억 원 | — |
+| 당기순이익 | -14억 원 | -11억 원 | 4억 원 | -5억 원 | -17억 원 | — |
+| 영업이익률 | -42.6% | -27.9% | -13.0% | -11.5% | -9.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="키이스트 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-13억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="175.4" rx="3"/><text class="ic-val" x="206.0" y="217.4" text-anchor="middle">-10억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="105.2" rx="3"/><text class="ic-val" x="299.3" y="147.2" text-anchor="middle">-6억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="175.4" rx="3"/><text class="ic-val" x="392.7" y="217.4" text-anchor="middle">-10억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="175.4" rx="3"/><text class="ic-val" x="486.0" y="217.4" text-anchor="middle">-10억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>키이스트 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

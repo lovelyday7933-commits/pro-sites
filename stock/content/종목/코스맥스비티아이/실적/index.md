@@ -1,0 +1,53 @@
+---
+title: "코스맥스비티아이 실적, 2025년 영업이익 270억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "코스맥스비티아이 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "044820"
+name: "코스맥스비티아이"
+intent: "실적"
+chip: "044820 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "코스맥스비티아이-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/코스맥스비티아이/", "label": "코스맥스비티아이"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/코스맥스비티아이/", "label": "코스맥스비티아이 주가"}, {"url": "/종목/코스맥스비티아이/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/코스맥스비티아이/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/코스맥스비티아이/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/노루홀딩스/실적/", "label": "노루홀딩스 실적"}, {"url": "/종목/한국캐피탈/실적/", "label": "한국캐피탈 실적"}, {"url": "/종목/비츠로테크/실적/", "label": "비츠로테크 실적"}, {"url": "/종목/해성산업/실적/", "label": "해성산업 실적"}, {"url": "/종목/하이트진로홀딩스/실적/", "label": "하이트진로홀딩스 실적"}, {"url": "/종목/hs효성/실적/", "label": "HS효성 실적"}, {"url": "/종목/서연/실적/", "label": "서연 실적"}, {"url": "/종목/샘표/실적/", "label": "샘표 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+코스맥스비티아이의 최근 연간 실적은 2023년 매출 6,286억 원·영업이익 202억 원, 2024년 매출 5,976억 원·영업이익 168억 원, 2025년 매출 6,452억 원·영업이익 270억 원이다.
+
+## 코스맥스비티아이 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 6,286억 원 | 5,976억 원 | 6,452억 원 | — |
+| 영업이익 | 202억 원 | 168억 원 | 270억 원 | — |
+| 당기순이익 | 25억 원 | 80억 원 | 187억 원 | — |
+| 영업이익률 | 3.2% | 2.8% | 4.2% | — |
+| ROE | 3.4% | 6.8% | 11.1% | — |
+| EPS | 944원 | 1,713원 | 3,041원 | — |
+| PER | 11.3배 | 5.0배 | 4.5배 | — |
+| PBR | 0.44배 | 0.33배 | 0.47배 | — |
+| 주당배당금 | 350원 | 450원 | 780원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 202억 원이고, 주가는 한 해 +19.8% 움직였다. 2024년은 영업이익 168억 원 (전년보다 -17%)이고, 주가는 한 해 -18.5% 움직였다. 2025년은 영업이익 270억 원 (전년보다 +61%)이고, 주가는 한 해 +56.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코스맥스비티아이 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="199.8" y2="199.8"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="139.7" width="104.5" height="60.1" rx="3"/><text class="ic-val" x="159.3" y="133.7" text-anchor="middle">+20%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="199.8" width="104.5" height="56.2" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-19%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="171.8" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+57%</text></svg><figcaption>코스맥스비티아이 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 코스맥스비티아이 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,637억 원 | 1,535억 원 | 1,737억 원 | 2,052억 원 | 2,390억 원 | — |
+| 영업이익 | 99억 원 | 32억 원 | 74억 원 | 164억 원 | 163억 원 | — |
+| 당기순이익 | 73억 원 | -77억 원 | 205억 원 | 192억 원 | 466억 원 | — |
+| 영업이익률 | 6.0% | 2.1% | 4.2% | 8.0% | 6.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코스맥스비티아이 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="118.4" width="52.3" height="137.6" rx="3"/><text class="ic-val" x="112.7" y="112.4" text-anchor="middle">99억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="211.5" width="52.3" height="44.5" rx="3"/><text class="ic-val" x="206.0" y="205.5" text-anchor="middle">32억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="153.1" width="52.3" height="102.9" rx="3"/><text class="ic-val" x="299.3" y="147.1" text-anchor="middle">74억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">164억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="29.4" width="52.3" height="226.6" rx="3"/><text class="ic-val" x="486.0" y="23.4" text-anchor="middle">163억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>코스맥스비티아이 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

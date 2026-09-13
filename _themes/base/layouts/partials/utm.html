@@ -14,7 +14,7 @@
   {{- $source = "404" }}{{ $medium = "404" }}
 {{- else if $p.Params.utm_source }}
   {{- $source = $p.Params.utm_source }}
-  {{- $medium = cond (eq $p.Kind "page") "cell" "hub" }}
+  {{- $medium = $p.Params.utm_medium | default (cond (eq $p.Kind "page") "cell" "hub") }}{{/* intent.py = "intent" · "ihub" · "sector" */}}
 {{- else if $p.IsPage }}
   {{- $source = $p.File.ContentBaseName }}
   {{- $medium = cond (eq $p.Layout "standalone") "page" "post" }}

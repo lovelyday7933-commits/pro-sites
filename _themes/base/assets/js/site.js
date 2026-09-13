@@ -74,13 +74,13 @@
             if (s.n.toLowerCase().indexOf(q) > -1) rows.push({ t: s.n, s: '신호 · ' + thing + ' ' + s.m + '개', u: s.u });
           });
           hit.slice(0, 30).forEach(function (h) {
-            rows.push({ t: h[1].n, s: h[1].c + ' · 신호 ' + h[1].k + '가지', u: h[1].u });
+            rows.push({ t: h[1].n, s: h[1].c + (h[1].k ? ' · 신호 ' + h[1].k + '가지' : ' · ' + (h[1].x || '')), u: h[1].u });
           });
         }
         list.textContent = '';
         if (!rows.length) {
           list.appendChild(el('li', 'empty', '"' + input.value.trim() + '" 에 맞는 ' + thing + '이 없습니다. 지금은 ' +
-            j.stocks.length + '개 ' + thing + '을 잽니다.'));
+            j.stocks.length + '개 ' + thing + '을 찾을 수 있습니다.'));
           return;
         }
         sel = Math.min(sel, rows.length - 1);

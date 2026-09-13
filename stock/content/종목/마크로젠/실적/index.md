@@ -1,0 +1,53 @@
+---
+title: "마크로젠 실적, 2025년 영업이익 2억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "마크로젠 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "038290"
+name: "마크로젠"
+intent: "실적"
+chip: "038290 · 코스닥 · 그외 기타 전문, 과학 및 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "마크로젠-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/그외-기타-전문,-과학-및-기술-서비스업/", "label": "그외 기타 전문, 과학 및 기술 서비스업"}, {"url": "/종목/마크로젠/", "label": "마크로젠"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/마크로젠/", "label": "마크로젠 주가"}, {"url": "/종목/마크로젠/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/마크로젠/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/마크로젠/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/지씨지놈/실적/", "label": "지씨지놈 실적"}, {"url": "/종목/우진엔텍/실적/", "label": "우진엔텍 실적"}, {"url": "/종목/아이텍/실적/", "label": "아이텍 실적"}, {"url": "/종목/그리드위즈/실적/", "label": "그리드위즈 실적"}, {"url": "/종목/큐알티/실적/", "label": "큐알티 실적"}, {"url": "/종목/페스카로/실적/", "label": "페스카로 실적"}, {"url": "/종목/지씨셀/실적/", "label": "지씨셀 실적"}, {"url": "/종목/소마젠/실적/", "label": "소마젠 실적"}]
+peers_head: "같은 업종(그외 기타 전문, 과학 및 기술 서비스업) 다른 종목의 실적"
+---
+
+마크로젠의 최근 연간 실적은 2023년 매출 1,328억 원·영업이익 -4억 원, 2024년 매출 1,358억 원·영업이익 -65억 원, 2025년 매출 1,953억 원·영업이익 2억 원이다.
+
+## 마크로젠 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,328억 원 | 1,358억 원 | 1,953억 원 | — |
+| 영업이익 | -4억 원 | -65억 원 | 2억 원 | — |
+| 당기순이익 | -168억 원 | -78억 원 | -2억 원 | — |
+| 영업이익률 | -0.3% | -4.8% | 0.1% | — |
+| ROE | -9.9% | -4.8% | 1.3% | — |
+| EPS | -1,551원 | -701원 | 187원 | — |
+| PER | -13.5배 | -23.5배 | 90.1배 | — |
+| PBR | 1.32배 | 1.11배 | 1.16배 | — |
+| 주당배당금 | 300원 | 300원 | 500원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -4억 원이고, 주가는 한 해 +9.7% 움직였다. 2024년은 영업이익 -65억 원 (전년보다 -1525%)이고, 주가는 한 해 -21.5% 움직였다. 2025년은 영업이익 2억 원 (전년보다 +103%)이고, 주가는 한 해 +2.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="마크로젠 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="98.6" y2="98.6"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="70.6" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+10%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="98.6" width="104.5" height="157.4" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-22%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="81.3" width="104.5" height="17.3" rx="3"/><text class="ic-val" x="532.7" y="75.3" text-anchor="middle">+2%</text></svg><figcaption>마크로젠 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 마크로젠 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 490억 원 | 491억 원 | 563억 원 | 453억 원 | 510억 원 | — |
+| 영업이익 | -15억 원 | 11억 원 | 36억 원 | -5억 원 | 7억 원 | — |
+| 당기순이익 | -23억 원 | 21억 원 | 31억 원 | -8억 원 | 43억 원 | — |
+| 영업이익률 | -3.1% | 2.3% | 6.5% | -1.1% | 1.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="마크로젠 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="188.9" y2="188.9"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="188.9" width="52.3" height="67.1" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-15억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="139.8" width="52.3" height="49.2" rx="3"/><text class="ic-val" x="206.0" y="133.8" text-anchor="middle">11억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="160.9" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">36억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="188.9" width="52.3" height="22.4" rx="3"/><text class="ic-val" x="392.7" y="225.3" text-anchor="middle">-5억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="157.6" width="52.3" height="31.3" rx="3"/><text class="ic-val" x="486.0" y="151.6" text-anchor="middle">7억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>마크로젠 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

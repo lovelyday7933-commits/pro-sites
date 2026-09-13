@@ -1,0 +1,54 @@
+---
+title: "팬오션 실적, 2025년 영업이익 4,919억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "팬오션 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "028670"
+name: "팬오션"
+intent: "실적"
+chip: "028670 · 코스피 · 해상 운송업 · 기준일 2026.09.11"
+utm_source: "팬오션-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/해상-운송업/", "label": "해상 운송업"}, {"url": "/종목/팬오션/", "label": "팬오션"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/팬오션/", "label": "팬오션 주가"}, {"url": "/종목/팬오션/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/팬오션/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/팬오션/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/팬오션/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대한해운/실적/", "label": "대한해운 실적"}, {"url": "/종목/hmm/실적/", "label": "HMM 실적"}, {"url": "/종목/흥아해운/실적/", "label": "흥아해운 실적"}, {"url": "/종목/kss해운/실적/", "label": "KSS해운 실적"}, {"url": "/종목/stx그린로지스/실적/", "label": "STX그린로지스 실적"}]
+peers_head: "같은 업종(해상 운송업) 다른 종목의 실적"
+---
+
+팬오션의 최근 연간 실적은 2023년 매출 4조 3,610억 원·영업이익 3,859억 원, 2024년 매출 5조 1,612억 원·영업이익 4,712억 원, 2025년 매출 5조 4,329억 원·영업이익 4,919억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 6조 9,167억 원·영업이익 6,763억 원이다.
+
+## 팬오션 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4조 3,610억 원 | 5조 1,612억 원 | 5조 4,329억 원 | 6조 9,167억 원 |
+| 영업이익 | 3,859억 원 | 4,712억 원 | 4,919억 원 | 6,763억 원 |
+| 당기순이익 | 2,450억 원 | 2,681억 원 | 3,014억 원 | 4,702억 원 |
+| 영업이익률 | 8.8% | 9.1% | 9.1% | 9.8% |
+| ROE | 5.3% | 5.2% | 5.3% | 7.8% |
+| EPS | 458원 | 502원 | 564원 | 880원 |
+| PER | 8.2배 | 6.6배 | 6.8배 | 6.9배 |
+| PBR | 0.42배 | 0.31배 | 0.36배 | 0.51배 |
+| 주당배당금 | 85원 | 120원 | 150원 | 178원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 3,859억 원이고, 주가는 한 해 -34.8% 움직였다. 2024년은 영업이익 4,712억 원 (전년보다 +22%)이고, 주가는 한 해 -11.6% 움직였다. 2025년은 영업이익 4,919억 원 (전년보다 +4%)이고, 주가는 한 해 +16.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="팬오션 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="101.8" y2="101.8"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="101.8" width="104.5" height="154.2" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-35%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="101.8" width="104.5" height="51.6" rx="3"/><text class="ic-val" x="346.0" y="167.4" text-anchor="middle">-12%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="73.8" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+17%</text></svg><figcaption>팬오션 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 팬오션 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 2,936억 원 | 1조 2,695억 원 | 1조 4,763억 원 | 1조 5,089억 원 | 1조 9,137억 원 | 1조 7,490억 원 |
+| 영업이익 | 1,230억 원 | 1,252억 원 | 1,304억 원 | 1,409억 원 | 1,937억 원 | 1,768억 원 |
+| 당기순이익 | 1,228억 원 | 579억 원 | 487억 원 | 945억 원 | 1,374억 원 | 1,457억 원 |
+| 영업이익률 | 9.5% | 9.9% | 8.8% | 9.3% | 10.1% | 10.1% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="팬오션 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="111.2" width="52.3" height="144.8" rx="3"/><text class="ic-val" x="112.7" y="105.2" text-anchor="middle">1,230억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="108.6" width="52.3" height="147.4" rx="3"/><text class="ic-val" x="206.0" y="102.6" text-anchor="middle">1,252억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="102.5" width="52.3" height="153.5" rx="3"/><text class="ic-val" x="299.3" y="96.5" text-anchor="middle">1,304억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="90.1" width="52.3" height="165.9" rx="3"/><text class="ic-val" x="392.7" y="84.1" text-anchor="middle">1,409억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">1,937억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="47.9" width="52.3" height="208.1" rx="3"/><text class="ic-val" x="579.3" y="41.9" text-anchor="middle">1,768억</text></svg><figcaption>팬오션 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

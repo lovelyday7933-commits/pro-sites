@@ -1,0 +1,52 @@
+---
+title: "코리안리 주가 전망, 지금과 닮은 자리 11번 뒤 20거래일은 어땠을까"
+description: "코리안리 주가가 지금처럼 1년 범위 맨 위쪽에 있던 날 507번을 모았다. 20거래일 뒤 중앙값 +0.2%, 평소 +1.0%. 가장 나빴던 때까지 같이 본다."
+date: "2026-09-11"
+layout: "intent"
+code: "003690"
+name: "코리안리"
+intent: "주가 전망"
+chip: "003690 · 코스피 · 재 보험업 · 기준일 2026.09.11"
+utm_source: "코리안리-주가전망"
+cta: {"book": "차트의 정석 제1권"}
+cta_lead: "코리안리처럼 지금 자리를 읽는 기준은"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/재-보험업/", "label": "재 보험업"}, {"url": "/종목/코리안리/", "label": "코리안리"}, {"label": "주가 전망"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/코리안리/", "label": "코리안리 주가"}, {"url": "/종목/코리안리/주가-전망/", "label": "주가 전망", "cur": true}, {"url": "/종목/코리안리/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/코리안리/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/코리안리/실적/", "label": "실적", "cur": false}]
+peers: []
+peers_head: "같은 업종(재 보험업) 다른 종목의 주가 전망"
+---
+
+코리안리 종가는 2026년 9월 11일 기준 14,900원이다. 최근 1년(250거래일) 최저 10,460원·최고 15,470원 사이에서 1년 범위 맨 위쪽(상위 20%)에 있고, 60일 평균선 위, 최근 20거래일은 +1.6%다.
+
+## 코리안리 주가, 지금과 닮았던 날은 507번이었다
+
+2020년 1월 7일부터 기준일까지 1년 범위 안 위치 · 60일 평균선 위아래 · 최근 20거래일 오르내림이 지금과 같았던 날을 찾았다. 507번, 서로 20거래일 넘게 떨어진 구간으로 묶으면 11번이다.
+
+그 뒤 20거래일 수익률 중앙값은 +0.2%, 오른 비율은 52%였다. 평소(같은 기간 모든 날)에 샀을 때는 +1.0%·57%였다. 이 자리 뒤는 평소보다 못한 쪽으로 기울었다.
+
+|  | 표본 | 중앙값 | 오른 비율 | 하위 25% | 상위 25% | 가장 나빴던 |
+|---|---|---|---|---|---|---|
+| 닮은 자리 · 20거래일 뒤 | 507 | +0.2% | 52% | -2.9% | +3.9% | -14.1% |
+| 평소 · 20거래일 뒤 | 1,621 | +1.0% | 57% | -3.2% | +5.7% | -30.8% |
+| 닮은 자리 · 60거래일 뒤 | 492 | +2.5% | 65% | -1.8% | +9.1% | -22.3% |
+| 평소 · 60거래일 뒤 | 1,581 | +3.2% | 67% | -2.1% | +10.9% | -22.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코리안리 주가 최근 3년과 지금과 닮았던 날"><line class="ic-grid" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="60" y="260.0" text-anchor="end">5,056</text><line class="ic-grid" x1="66" x2="626" y1="137.0" y2="137.0"/><text class="ic-ax" x="60" y="141.0" text-anchor="end">9,978</text><line class="ic-grid" x1="66" x2="626" y1="18.0" y2="18.0"/><text class="ic-ax" x="60" y="22.0" text-anchor="end">14,900</text><text class="ic-ax" x="136.9" y="282" text-anchor="middle">2024</text><text class="ic-ax" x="319.9" y="282" text-anchor="middle">2025</text><text class="ic-ax" x="499.1" y="282" text-anchor="middle">2026</text><path class="ic-line" d="M66.0,256.0 L69.7,246.7 L73.5,243.4 L77.2,242.0 L80.9,238.0 L84.7,234.0 L88.4,229.0 L92.1,229.0 L95.9,226.6 L99.6,220.8 L103.3,225.4 L107.1,227.3 L110.8,223.1 L114.5,219.4 L118.3,216.3 L122.0,220.0 L125.7,223.7 L129.5,232.5 L133.2,231.7 L136.9,234.2 L140.7,232.8 L144.4,234.6 L148.1,231.3 L151.9,222.7 L155.6,214.5 L159.3,213.5 L163.1,213.7 L166.8,213.9 L170.5,213.1 L174.3,206.9 L178.0,206.9 L181.7,207.3 L185.5,213.3 L189.2,221.3 L192.9,213.3 L196.7,210.2 L200.4,212.0 L204.1,214.5 L207.9,213.7 L211.6,212.5 L215.3,212.9 L219.1,219.6 L222.8,217.4 L226.5,215.7 L230.3,214.3 L234.0,215.1 L237.7,210.0 L241.5,209.6 L245.2,216.5 L248.9,209.6 L252.7,195.8 L256.4,199.3 L260.1,199.5 L263.9,207.1 L267.6,206.9 L271.3,207.7 L275.1,205.7 L278.8,205.7 L282.5,194.0 L286.3,186.2 L290.0,181.9 L293.7,187.5 L297.5,184.8 L301.2,184.1 L304.9,179.3 L308.7,183.4 L312.4,186.3 L316.1,181.9 L319.9,188.0 L323.6,183.6 L327.3,181.2 L331.1,179.0 L334.8,180.5 L338.5,181.0 L342.3,179.5 L346.0,183.9 L349.7,182.2 L353.5,182.9 L357.2,181.4 L360.9,180.7 L364.7,198.8 L368.4,192.8 L372.1,186.0 L375.9,186.3 L379.6,184.1 L383.3,182.2 L387.1,159.0 L390.8,151.0 L394.5,138.2 L398.3,132.8 L402.0,129.7 L405.7,130.7 L409.5,127.8 L413.2,97.8 L416.9,111.6 L420.7,124.6 L424.4,124.4 L428.1,117.4 L431.9,119.1 L435.6,123.4 L439.3,111.3 L443.1,108.9 L446.8,111.3 L450.5,105.3 L454.3,114.7 L458.0,117.1 L461.7,116.9 L465.5,114.2 L469.2,124.9 L472.9,97.3 L476.7,106.2 L480.4,107.9 L484.1,97.3 L487.9,106.5 L491.6,98.0 L495.3,99.0 L499.1,99.5 L502.8,106.5 L506.5,113.3 L510.3,110.1 L514.0,93.7 L517.7,83.0 L521.5,49.9 L525.2,33.2 L528.9,61.3 L532.7,46.8 L536.4,61.5 L540.1,55.5 L543.9,83.3 L547.6,91.7 L551.3,83.8 L555.1,82.8 L558.8,79.7 L562.5,90.0 L566.3,29.6 L570.0,41.5 L573.7,61.5 L577.5,62.0 L581.2,41.5 L584.9,78.2 L588.7,69.7 L592.4,46.0 L596.1,42.7 L599.9,45.8 L603.6,51.8 L607.3,24.5 L611.1,23.6 L614.8,26.7 L618.5,24.3 L622.3,27.7 L626.0,18.0"/><circle class="ic-dot" cx="77.2" cy="242.0" r="3.2"/><circle class="ic-dot" cx="80.9" cy="238.0" r="3.2"/><circle class="ic-dot" cx="84.7" cy="234.0" r="3.2"/><circle class="ic-dot" cx="88.4" cy="229.0" r="3.2"/><circle class="ic-dot" cx="92.1" cy="229.0" r="3.2"/><circle class="ic-dot" cx="95.9" cy="226.6" r="3.2"/><circle class="ic-dot" cx="99.6" cy="220.8" r="3.2"/><circle class="ic-dot" cx="103.3" cy="225.4" r="3.2"/><circle class="ic-dot" cx="107.1" cy="227.3" r="3.2"/><circle class="ic-dot" cx="110.8" cy="223.1" r="3.2"/><circle class="ic-dot" cx="114.5" cy="219.4" r="3.2"/><circle class="ic-dot" cx="118.3" cy="216.3" r="3.2"/><circle class="ic-dot" cx="122.0" cy="220.0" r="3.2"/><circle class="ic-dot" cx="125.7" cy="223.7" r="3.2"/><circle class="ic-dot" cx="151.9" cy="222.7" r="3.2"/><circle class="ic-dot" cx="155.6" cy="214.5" r="3.2"/><circle class="ic-dot" cx="159.3" cy="213.5" r="3.2"/><circle class="ic-dot" cx="163.1" cy="213.7" r="3.2"/><circle class="ic-dot" cx="166.8" cy="213.9" r="3.2"/><circle class="ic-dot" cx="170.5" cy="213.1" r="3.2"/><circle class="ic-dot" cx="174.3" cy="206.9" r="3.2"/><circle class="ic-dot" cx="178.0" cy="206.9" r="3.2"/><circle class="ic-dot" cx="181.7" cy="207.3" r="3.2"/><circle class="ic-dot" cx="192.9" cy="213.3" r="3.2"/><circle class="ic-dot" cx="200.4" cy="212.0" r="3.2"/><circle class="ic-dot" cx="204.1" cy="214.5" r="3.2"/><circle class="ic-dot" cx="234.0" cy="215.1" r="3.2"/><circle class="ic-dot" cx="237.7" cy="210.0" r="3.2"/><circle class="ic-dot" cx="241.5" cy="209.6" r="3.2"/><circle class="ic-dot" cx="245.2" cy="216.5" r="3.2"/><circle class="ic-dot" cx="248.9" cy="209.6" r="3.2"/><circle class="ic-dot" cx="252.7" cy="195.8" r="3.2"/><circle class="ic-dot" cx="256.4" cy="199.3" r="3.2"/><circle class="ic-dot" cx="260.1" cy="199.5" r="3.2"/><circle class="ic-dot" cx="267.6" cy="206.9" r="3.2"/><circle class="ic-dot" cx="278.8" cy="205.7" r="3.2"/><circle class="ic-dot" cx="282.5" cy="194.0" r="3.2"/><circle class="ic-dot" cx="286.3" cy="186.2" r="3.2"/><circle class="ic-dot" cx="290.0" cy="181.9" r="3.2"/><circle class="ic-dot" cx="293.7" cy="187.5" r="3.2"/><circle class="ic-dot" cx="297.5" cy="184.8" r="3.2"/><circle class="ic-dot" cx="301.2" cy="184.1" r="3.2"/><circle class="ic-dot" cx="304.9" cy="179.3" r="3.2"/><circle class="ic-dot" cx="308.7" cy="183.4" r="3.2"/><circle class="ic-dot" cx="312.4" cy="186.3" r="3.2"/><circle class="ic-dot" cx="316.1" cy="181.9" r="3.2"/><circle class="ic-dot" cx="319.9" cy="188.0" r="3.2"/><circle class="ic-dot" cx="323.6" cy="183.6" r="3.2"/><circle class="ic-dot" cx="327.3" cy="181.2" r="3.2"/><circle class="ic-dot" cx="331.1" cy="179.0" r="3.2"/><circle class="ic-dot" cx="334.8" cy="180.5" r="3.2"/><circle class="ic-dot" cx="338.5" cy="181.0" r="3.2"/><circle class="ic-dot" cx="342.3" cy="179.5" r="3.2"/><circle class="ic-dot" cx="346.0" cy="183.9" r="3.2"/><circle class="ic-dot" cx="357.2" cy="181.4" r="3.2"/><circle class="ic-dot" cx="360.9" cy="180.7" r="3.2"/><circle class="ic-dot" cx="379.6" cy="184.1" r="3.2"/><circle class="ic-dot" cx="383.3" cy="182.2" r="3.2"/><circle class="ic-dot" cx="387.1" cy="159.0" r="3.2"/><circle class="ic-dot" cx="390.8" cy="151.0" r="3.2"/><circle class="ic-dot" cx="394.5" cy="138.2" r="3.2"/><circle class="ic-dot" cx="398.3" cy="132.8" r="3.2"/><circle class="ic-dot" cx="402.0" cy="129.7" r="3.2"/><circle class="ic-dot" cx="405.7" cy="130.7" r="3.2"/><circle class="ic-dot" cx="409.5" cy="127.8" r="3.2"/><circle class="ic-dot" cx="413.2" cy="97.8" r="3.2"/><circle class="ic-dot" cx="416.9" cy="111.6" r="3.2"/><circle class="ic-dot" cx="420.7" cy="124.6" r="3.2"/><circle class="ic-dot" cx="424.4" cy="124.4" r="3.2"/><circle class="ic-dot" cx="435.6" cy="123.4" r="3.2"/><circle class="ic-dot" cx="439.3" cy="111.3" r="3.2"/><circle class="ic-dot" cx="443.1" cy="108.9" r="3.2"/><circle class="ic-dot" cx="446.8" cy="111.3" r="3.2"/><circle class="ic-dot" cx="450.5" cy="105.3" r="3.2"/><circle class="ic-dot" cx="454.3" cy="114.7" r="3.2"/><circle class="ic-dot" cx="461.7" cy="116.9" r="3.2"/><circle class="ic-dot" cx="469.2" cy="124.9" r="3.2"/><circle class="ic-dot" cx="472.9" cy="97.3" r="3.2"/><circle class="ic-dot" cx="476.7" cy="106.2" r="3.2"/><circle class="ic-dot" cx="480.4" cy="107.9" r="3.2"/><circle class="ic-dot" cx="484.1" cy="97.3" r="3.2"/><circle class="ic-dot" cx="487.9" cy="106.5" r="3.2"/><circle class="ic-dot" cx="491.6" cy="98.0" r="3.2"/><circle class="ic-dot" cx="495.3" cy="99.0" r="3.2"/><circle class="ic-dot" cx="499.1" cy="99.5" r="3.2"/><circle class="ic-dot" cx="502.8" cy="106.5" r="3.2"/><circle class="ic-dot" cx="514.0" cy="93.7" r="3.2"/><circle class="ic-dot" cx="517.7" cy="83.0" r="3.2"/><circle class="ic-dot" cx="521.5" cy="49.9" r="3.2"/><circle class="ic-dot" cx="525.2" cy="33.2" r="3.2"/><circle class="ic-dot" cx="528.9" cy="61.3" r="3.2"/><circle class="ic-dot" cx="532.7" cy="46.8" r="3.2"/><circle class="ic-dot" cx="566.3" cy="29.6" r="3.2"/><circle class="ic-dot" cx="570.0" cy="41.5" r="3.2"/><circle class="ic-dot" cx="573.7" cy="61.5" r="3.2"/><circle class="ic-dot" cx="577.5" cy="62.0" r="3.2"/><circle class="ic-dot" cx="581.2" cy="41.5" r="3.2"/><circle class="ic-dot" cx="592.4" cy="46.0" r="3.2"/><circle class="ic-dot" cx="596.1" cy="42.7" r="3.2"/><circle class="ic-dot" cx="599.9" cy="45.8" r="3.2"/><circle class="ic-dot" cx="603.6" cy="51.8" r="3.2"/><circle class="ic-dot" cx="607.3" cy="24.5" r="3.2"/><circle class="ic-dot" cx="611.1" cy="23.6" r="3.2"/><circle class="ic-now" cx="626.0" cy="18.0" r="5"/></svg><figcaption>코리안리 주가 최근 3년(주간 종가). 점 = 지금과 닮았던 날, 큰 점 = 기준일 2026.09.11.</figcaption></figure>
+
+## 닮은 자리에서도 크게 떨어진 때가 있었다
+
+가장 나빴던 때는 2020년 12월 22일이었다. 그날 뒤 20거래일 동안 -14.1% 움직였다. 하위 25%만 봐도 -2.9%였다.
+
+## 최근에 닮았던 구간
+
+| 구간 시작 | 그날 종가 | 20거래일 뒤 | 60거래일 뒤 |
+|---|---|---|---|
+| 2026.05.15 | 13,130원 | +6.6% | +9.6% |
+| 2025.05.02 | 8,150원 | +16.6% | +30.8% |
+| 2024.07.12 | 6,789원 | +1.8% | +5.9% |
+| 2024.02.01 | 6,628원 | +3.5% | +3.6% |
+| 2023.08.31 | 5,729원 | +3.2% | +14.5% |
+| 2023.05.16 | 5,707원 | -8.9% | -11.4% |
+
+모두 2026년 9월 11일까지의 지난 기록이다. 다음 20거래일이 이렇게 된다는 뜻은 아니다. 거래가 얇았던 날과 하루 30%를 넘게 튄 날은 뺐다.

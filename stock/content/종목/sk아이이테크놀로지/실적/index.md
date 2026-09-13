@@ -1,0 +1,54 @@
+---
+title: "SK아이이테크놀로지 실적, 2025년 영업이익 -2,464억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "SK아이이테크놀로지 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "361610"
+name: "SK아이이테크놀로지"
+intent: "실적"
+chip: "361610 · 코스피 · 일차전지 및 이차전지 제조업 · 기준일 2026.09.11"
+utm_source: "sk아이이테크놀로지-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/일차전지-및-이차전지-제조업/", "label": "일차전지 및 이차전지 제조업"}, {"url": "/종목/sk아이이테크놀로지/", "label": "SK아이이테크놀로지"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/sk아이이테크놀로지/", "label": "SK아이이테크놀로지 주가"}, {"url": "/종목/sk아이이테크놀로지/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/sk아이이테크놀로지/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/sk아이이테크놀로지/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/sk아이이테크놀로지/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/비츠로셀/실적/", "label": "비츠로셀 실적"}, {"url": "/종목/세방전지/실적/", "label": "세방전지 실적"}, {"url": "/종목/에코프로머티/실적/", "label": "에코프로머티 실적"}, {"url": "/종목/dn오토모티브/실적/", "label": "DN오토모티브 실적"}, {"url": "/종목/피노/실적/", "label": "피노 실적"}, {"url": "/종목/비나텍/실적/", "label": "비나텍 실적"}, {"url": "/종목/엘앤에프/실적/", "label": "엘앤에프 실적"}, {"url": "/종목/더블유씨피/실적/", "label": "더블유씨피 실적"}]
+peers_head: "같은 업종(일차전지 및 이차전지 제조업) 다른 종목의 실적"
+---
+
+SK아이이테크놀로지의 최근 연간 실적은 2023년 매출 6,483억 원·영업이익 501억 원, 2024년 매출 2,179억 원·영업이익 -2,910억 원, 2025년 매출 2,619억 원·영업이익 -2,464억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,634억 원·영업이익 -2,309억 원이다.
+
+## SK아이이테크놀로지 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 6,483억 원 | 2,179억 원 | 2,619억 원 | 1,634억 원 |
+| 영업이익 | 501억 원 | -2,910억 원 | -2,464억 원 | -2,309억 원 |
+| 당기순이익 | 822억 원 | -2,466억 원 | -2,114억 원 | -8,976억 원 |
+| 영업이익률 | 7.7% | -133.6% | -94.1% | -141.3% |
+| ROE | 3.6% | -10.4% | -8.6% | -43.3% |
+| EPS | 1,152원 | -3,459원 | -2,799원 | -10,975원 |
+| PER | 68.5배 | -6.5배 | -8.9배 | -1.5배 |
+| PBR | 2.33배 | 0.69배 | 0.79배 | 0.88배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 501억 원이고, 주가는 한 해 +48.9% 움직였다. 2024년은 영업이익 -2,910억 원 (전년보다 -681%)이고, 주가는 한 해 -71.4% 움직였다. 2025년은 영업이익 -2,464억 원 (전년보다 +15%)이고, 주가는 한 해 +11.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK아이이테크놀로지 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="120.6" y2="120.6"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="92.6" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+49%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="120.6" width="104.5" height="135.4" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-71%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="99.6" width="104.5" height="21.0" rx="3"/><text class="ic-val" x="532.7" y="93.6" text-anchor="middle">+11%</text></svg><figcaption>SK아이이테크놀로지 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## SK아이이테크놀로지 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 827억 원 | 791억 원 | 418억 원 | 359억 원 | 395억 원 | 390억 원 |
+| 영업이익 | -537억 원 | -472억 원 | -758억 원 | -732억 원 | -634억 원 | -526억 원 |
+| 당기순이익 | -190억 원 | -401억 원 | -1,307억 원 | -818억 원 | -1조 3,278억 원 | -662억 원 |
+| 영업이익률 | -64.9% | -59.7% | -181.2% | -204.1% | -160.5% | -135.1% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK아이이테크놀로지 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="161.5" rx="3"/><text class="ic-val" x="112.7" y="203.5" text-anchor="middle">-537억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="142.0" rx="3"/><text class="ic-val" x="206.0" y="184.0" text-anchor="middle">-472억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-758억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="220.2" rx="3"/><text class="ic-val" x="392.7" y="262.2" text-anchor="middle">-732억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="190.7" rx="3"/><text class="ic-val" x="486.0" y="232.7" text-anchor="middle">-634억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar dn est" x="553.2" y="28.0" width="52.3" height="158.2" rx="3"/><text class="ic-val" x="579.3" y="200.2" text-anchor="middle">-526억</text></svg><figcaption>SK아이이테크놀로지 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

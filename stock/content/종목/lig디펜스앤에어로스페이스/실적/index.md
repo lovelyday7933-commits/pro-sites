@@ -1,0 +1,54 @@
+---
+title: "LIG디펜스앤에어로스페이스 실적, 2025년 영업이익 3,194억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "LIG디펜스앤에어로스페이스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "079550"
+name: "LIG디펜스앤에어로스페이스"
+intent: "실적"
+chip: "079550 · 코스피 · 무기 및 총포탄 제조업 · 기준일 2026.09.11"
+utm_source: "lig디펜스앤에어로스페이스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/무기-및-총포탄-제조업/", "label": "무기 및 총포탄 제조업"}, {"url": "/종목/lig디펜스앤에어로스페이스/", "label": "LIG디펜스앤에어로스페이스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/lig디펜스앤에어로스페이스/", "label": "LIG디펜스앤에어로스페이스 주가"}, {"url": "/종목/lig디펜스앤에어로스페이스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/lig디펜스앤에어로스페이스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/lig디펜스앤에어로스페이스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/lig디펜스앤에어로스페이스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/퍼스텍/실적/", "label": "퍼스텍 실적"}, {"url": "/종목/삼양컴텍/실적/", "label": "삼양컴텍 실적"}]
+peers_head: "같은 업종(무기 및 총포탄 제조업) 다른 종목의 실적"
+---
+
+LIG디펜스앤에어로스페이스의 최근 연간 실적은 2023년 매출 2조 3,086억 원·영업이익 1,864억 원, 2024년 매출 3조 2,763억 원·영업이익 2,234억 원, 2025년 매출 4조 3,069억 원·영업이익 3,194억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5조 1,232억 원·영업이익 4,487억 원이다.
+
+## LIG디펜스앤에어로스페이스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2조 3,086억 원 | 3조 2,763억 원 | 4조 3,069억 원 | 5조 1,232억 원 |
+| 영업이익 | 1,864억 원 | 2,234억 원 | 3,194억 원 | 4,487억 원 |
+| 당기순이익 | 1,750억 원 | 2,128억 원 | 2,375억 원 | 3,477억 원 |
+| 영업이익률 | 8.1% | 6.8% | 7.4% | 8.8% |
+| ROE | 17.6% | 19.4% | 19.2% | 22.7% |
+| EPS | 7,953원 | 9,974원 | 11,516원 | 16,469원 |
+| PER | 16.4배 | 22.1배 | 36.6배 | 41.2배 |
+| PBR | 2.70배 | 3.97배 | 6.43배 | 8.73배 |
+| 주당배당금 | 1,950원 | 2,400원 | 2,950원 | 3,420원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,864억 원이고, 주가는 한 해 +41.5% 움직였다. 2024년은 영업이익 2,234억 원 (전년보다 +20%)이고, 주가는 한 해 +69.0% 움직였다. 2025년은 영업이익 3,194억 원 (전년보다 +43%)이고, 주가는 한 해 +90.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LIG디펜스앤에어로스페이스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="151.8" width="104.5" height="104.2" rx="3"/><text class="ic-val" x="159.3" y="145.8" text-anchor="middle">+42%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="83.1" width="104.5" height="172.9" rx="3"/><text class="ic-val" x="346.0" y="77.1" text-anchor="middle">+69%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+91%</text></svg><figcaption>LIG디펜스앤에어로스페이스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## LIG디펜스앤에어로스페이스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 9,454억 원 | 1조 492억 원 | 1조 4,048억 원 | 1조 1,679억 원 | 1조 1,101억 원 | 1조 2,457억 원 |
+| 영업이익 | 816억 원 | 896억 원 | 387억 원 | 1,711억 원 | 1,057억 원 | 1,065억 원 |
+| 당기순이익 | 1,035억 원 | 542억 원 | -1억 원 | 1,354억 원 | 782억 원 | 884억 원 |
+| 영업이익률 | 8.6% | 8.5% | 2.8% | 14.7% | 9.5% | 8.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LIG디펜스앤에어로스페이스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="147.3" width="52.3" height="108.7" rx="3"/><text class="ic-val" x="112.7" y="141.3" text-anchor="middle">816억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="136.6" width="52.3" height="119.4" rx="3"/><text class="ic-val" x="206.0" y="130.6" text-anchor="middle">896억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="204.4" width="52.3" height="51.6" rx="3"/><text class="ic-val" x="299.3" y="198.4" text-anchor="middle">387억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">1,711억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="115.1" width="52.3" height="140.9" rx="3"/><text class="ic-val" x="486.0" y="109.1" text-anchor="middle">1,057억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="114.1" width="52.3" height="141.9" rx="3"/><text class="ic-val" x="579.3" y="108.1" text-anchor="middle">1,065억</text></svg><figcaption>LIG디펜스앤에어로스페이스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

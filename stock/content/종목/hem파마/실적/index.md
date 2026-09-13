@@ -1,0 +1,54 @@
+---
+title: "HEM파마 실적, 2025년 영업이익 -156억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "HEM파마 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "376270"
+name: "HEM파마"
+intent: "실적"
+chip: "376270 · 코스닥 · 자연과학 및 공학 연구개발업 · 기준일 2026.09.11"
+utm_source: "hem파마-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자연과학-및-공학-연구개발업/", "label": "자연과학 및 공학 연구개발업"}, {"url": "/종목/hem파마/", "label": "HEM파마"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/hem파마/", "label": "HEM파마 주가"}, {"url": "/종목/hem파마/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/hem파마/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/hem파마/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/지노믹트리/실적/", "label": "지노믹트리 실적"}, {"url": "/종목/인투셀/실적/", "label": "인투셀 실적"}, {"url": "/종목/이뮨온시아/실적/", "label": "이뮨온시아 실적"}, {"url": "/종목/아이엠바이오로직스/실적/", "label": "아이엠바이오로직스 실적"}, {"url": "/종목/툴젠/실적/", "label": "툴젠 실적"}, {"url": "/종목/hlb제약/실적/", "label": "HLB제약 실적"}, {"url": "/종목/프로티나/실적/", "label": "프로티나 실적"}, {"url": "/종목/신라젠/실적/", "label": "신라젠 실적"}]
+peers_head: "같은 업종(자연과학 및 공학 연구개발업) 다른 종목의 실적"
+---
+
+HEM파마의 최근 연간 실적은 2023년 매출 53억 원·영업이익 -118억 원, 2024년 매출 151억 원·영업이익 -77억 원, 2025년 매출 130억 원·영업이익 -156억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 456억 원·영업이익 -18억 원이다.
+
+## HEM파마 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 53억 원 | 151억 원 | 130억 원 | 456억 원 |
+| 영업이익 | -118억 원 | -77억 원 | -156억 원 | -18억 원 |
+| 당기순이익 | -117억 원 | -76억 원 | -237억 원 | -17억 원 |
+| 영업이익률 | -220.1% | -51.0% | -120.1% | -3.9% |
+| ROE | -62.0% | -35.2% | -153.3% | -42.0% |
+| EPS | -1,934원 | -1,200원 | -3,384원 | -236원 |
+| PER | — | -13.8배 | -13.6배 | -149.2배 |
+| PBR | 0.00배 | 4.39배 | 65.72배 | 81.86배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 -156억 원 (전년보다 -103%)이고, 주가는 한 해 +177.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HEM파마 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+178%</text></svg><figcaption>HEM파마 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## HEM파마 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 28억 원 | 30억 원 | 37억 원 | 49억 원 | 46억 원 | 108억 원 |
+| 영업이익 | -29억 원 | -36억 원 | -68억 원 | -38억 원 | -29억 원 | 2억 원 |
+| 당기순이익 | -33억 원 | -35억 원 | -146억 원 | -40억 원 | 14억 원 | — |
+| 영업이익률 | -102.1% | -120.4% | -184.1% | -77.8% | -62.5% | 1.9% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HEM파마 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="34.5" y2="34.5"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="34.5" width="52.3" height="94.5" rx="3"/><text class="ic-val" x="112.7" y="143.0" text-anchor="middle">-29억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="34.5" width="52.3" height="117.3" rx="3"/><text class="ic-val" x="206.0" y="165.8" text-anchor="middle">-36억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="34.5" width="52.3" height="221.5" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-68억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="34.5" width="52.3" height="123.8" rx="3"/><text class="ic-val" x="392.7" y="172.3" text-anchor="middle">-38억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="34.5" width="52.3" height="94.5" rx="3"/><text class="ic-val" x="486.0" y="143.0" text-anchor="middle">-29억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="6.5" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">2억</text></svg><figcaption>HEM파마 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

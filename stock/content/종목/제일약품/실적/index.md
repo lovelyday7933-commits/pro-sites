@@ -1,0 +1,53 @@
+---
+title: "제일약품 실적, 2025년 영업이익 207억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "제일약품 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "271980"
+name: "제일약품"
+intent: "실적"
+chip: "271980 · 코스피 · 의약품 제조업 · 기준일 2026.09.11"
+utm_source: "제일약품-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의약품-제조업/", "label": "의약품 제조업"}, {"url": "/종목/제일약품/", "label": "제일약품"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/제일약품/", "label": "제일약품 주가"}, {"url": "/종목/제일약품/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/제일약품/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/제일약품/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/하나제약/실적/", "label": "하나제약 실적"}, {"url": "/종목/동화약품/실적/", "label": "동화약품 실적"}, {"url": "/종목/일양약품/실적/", "label": "일양약품 실적"}, {"url": "/종목/삼일제약/실적/", "label": "삼일제약 실적"}, {"url": "/종목/경동제약/실적/", "label": "경동제약 실적"}, {"url": "/종목/대한약품/실적/", "label": "대한약품 실적"}, {"url": "/종목/셀비온/실적/", "label": "셀비온 실적"}, {"url": "/종목/동성제약/실적/", "label": "동성제약 실적"}]
+peers_head: "같은 업종(의약품 제조업) 다른 종목의 실적"
+---
+
+제일약품의 최근 연간 실적은 2023년 매출 7,264억 원·영업이익 87억 원, 2024년 매출 7,045억 원·영업이익 -189억 원, 2025년 매출 5,672억 원·영업이익 207억 원이다.
+
+## 제일약품 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7,264억 원 | 7,045억 원 | 5,672억 원 | — |
+| 영업이익 | 87억 원 | -189억 원 | 207억 원 | — |
+| 당기순이익 | 52억 원 | -301억 원 | 320억 원 | — |
+| 영업이익률 | 1.2% | -2.7% | 3.6% | — |
+| ROE | 3.2% | -17.3% | 11.7% | — |
+| EPS | 340원 | -2,038원 | 1,590원 | — |
+| PER | 50.2배 | -5.6배 | 9.5배 | — |
+| PBR | 1.57배 | 0.88배 | 1.05배 | — |
+| 주당배당금 | 50원 | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 87억 원이고, 주가는 한 해 -18.6% 움직였다. 2024년은 영업이익 -189억 원 (전년보다 -317%)이고, 주가는 한 해 -33.3% 움직였다. 2025년은 영업이익 207억 원 (전년보다 +210%)이고, 주가는 한 해 +32.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="제일약품 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="141.2" y2="141.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="141.2" width="104.5" height="63.9" rx="3"/><text class="ic-val" x="159.3" y="219.2" text-anchor="middle">-19%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="141.2" width="104.5" height="114.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-33%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="113.2" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+33%</text></svg><figcaption>제일약품 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 제일약품 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,376억 원 | 1,348억 원 | 1,318억 원 | 1,303억 원 | 1,466억 원 | — |
+| 영업이익 | 47억 원 | 98억 원 | 5억 원 | 4억 원 | -70억 원 | — |
+| 당기순이익 | 30억 원 | 159억 원 | 95억 원 | 32억 원 | -67억 원 | — |
+| 영업이익률 | 3.4% | 7.3% | 0.4% | 0.3% | -4.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="제일약품 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="161.0" y2="161.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="97.2" width="52.3" height="63.8" rx="3"/><text class="ic-val" x="112.7" y="91.2" text-anchor="middle">47억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="133.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">98억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="154.2" width="52.3" height="6.8" rx="3"/><text class="ic-val" x="299.3" y="148.2" text-anchor="middle">5억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="155.6" width="52.3" height="5.4" rx="3"/><text class="ic-val" x="392.7" y="149.6" text-anchor="middle">4억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="161.0" width="52.3" height="95.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-70억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>제일약품 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

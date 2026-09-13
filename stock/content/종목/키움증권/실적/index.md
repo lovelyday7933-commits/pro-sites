@@ -1,0 +1,54 @@
+---
+title: "키움증권 실적, 2025년 영업이익 1조 4,882억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "키움증권 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "039490"
+name: "키움증권"
+intent: "실적"
+chip: "039490 · 코스피 · 금융 지원 서비스업 · 기준일 2026.09.11"
+utm_source: "키움증권-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/금융-지원-서비스업/", "label": "금융 지원 서비스업"}, {"url": "/종목/키움증권/", "label": "키움증권"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/키움증권/", "label": "키움증권 주가"}, {"url": "/종목/키움증권/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/키움증권/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/키움증권/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/키움증권/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/삼성증권/실적/", "label": "삼성증권 실적"}, {"url": "/종목/카카오페이/실적/", "label": "카카오페이 실적"}, {"url": "/종목/nh투자증권/실적/", "label": "NH투자증권 실적"}, {"url": "/종목/미래에셋증권/실적/", "label": "미래에셋증권 실적"}, {"url": "/종목/신영증권/실적/", "label": "신영증권 실적"}, {"url": "/종목/대신증권/실적/", "label": "대신증권 실적"}, {"url": "/종목/교보증권/실적/", "label": "교보증권 실적"}, {"url": "/종목/한화투자증권/실적/", "label": "한화투자증권 실적"}]
+peers_head: "같은 업종(금융 지원 서비스업) 다른 종목의 실적"
+---
+
+키움증권의 최근 연간 실적은 2023년 매출 9조 5,448억 원·영업이익 5,647억 원, 2024년 매출 11조 2,803억 원·영업이익 1조 982억 원, 2025년 매출 17조 1,217억 원·영업이익 1조 4,882억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 36조 9,379억 원·영업이익 2조 2,917억 원이다.
+
+## 키움증권 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 9조 5,448억 원 | 11조 2,803억 원 | 17조 1,217억 원 | 36조 9,379억 원 |
+| 영업이익 | 5,647억 원 | 1조 982억 원 | 1조 4,882억 원 | 2조 2,917억 원 |
+| 당기순이익 | 4,407억 원 | 8,349억 원 | 1조 1,150억 원 | 1조 8,246억 원 |
+| 영업이익률 | 5.9% | 9.7% | 8.7% | 6.2% |
+| ROE | 9.3% | 16.0% | 18.1% | 25.0% |
+| EPS | 15,021원 | 29,304원 | 40,504원 | 69,205원 |
+| PER | 6.6배 | 4.0배 | 7.2배 | 4.0배 |
+| PBR | 0.56배 | 0.55배 | 1.14배 | 0.91배 |
+| 주당배당금 | 3,000원 | 7,500원 | 11,500원 | 18,806원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 5,647억 원이고, 주가는 한 해 +18.5% 움직였다. 2024년은 영업이익 1조 982억 원 (전년보다 +94%)이고, 주가는 한 해 +16.8% 움직였다. 2025년은 영업이익 1조 4,882억 원 (전년보다 +36%)이고, 주가는 한 해 +149.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="키움증권 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="227.8" width="104.5" height="28.2" rx="3"/><text class="ic-val" x="159.3" y="221.8" text-anchor="middle">+18%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="230.3" width="104.5" height="25.7" rx="3"/><text class="ic-val" x="346.0" y="224.3" text-anchor="middle">+17%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+149%</text></svg><figcaption>키움증권 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 키움증권 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4조 5,057억 원 | 3조 3,699억 원 | 5조 5,862억 원 | 9조 3,960억 원 | 16조 732억 원 | — |
+| 영업이익 | 4,083억 원 | 4,089억 원 | 3,456억 원 | 6,212억 원 | 7,890억 원 | 5,229억 원 |
+| 당기순이익 | 3,101억 원 | 3,224억 원 | 2,469억 원 | 4,774억 원 | 6,806억 원 | 4,059억 원 |
+| 영업이익률 | 9.1% | 12.1% | 6.2% | 6.6% | 4.9% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="키움증권 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="138.0" width="52.3" height="118.0" rx="3"/><text class="ic-val" x="112.7" y="132.0" text-anchor="middle">4,083억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="137.8" width="52.3" height="118.2" rx="3"/><text class="ic-val" x="206.0" y="131.8" text-anchor="middle">4,089억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="156.1" width="52.3" height="99.9" rx="3"/><text class="ic-val" x="299.3" y="150.1" text-anchor="middle">3,456억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="76.5" width="52.3" height="179.5" rx="3"/><text class="ic-val" x="392.7" y="70.5" text-anchor="middle">6,212억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">7,890억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="104.9" width="52.3" height="151.1" rx="3"/><text class="ic-val" x="579.3" y="98.9" text-anchor="middle">5,229억</text></svg><figcaption>키움증권 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

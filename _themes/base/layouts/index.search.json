@@ -5,6 +5,8 @@
 {{- $g := site.Data.grid -}}
 {{- $st := slice -}}
 {{- range $code, $s := $g.stocks }}{{ $st = $st | append (dict "n" $s.name "c" $code "u" $s.url "k" $s.n_sig) }}{{ end -}}
+{{- /* ★2026-09-13 격자에 없는 종목·코인도 찾게 한다(intent.py → data/intent_search.json · x = 있는 검색어 칸) */ -}}
+{{- range (site.Data.intent_search | default slice) }}{{ $st = $st | append (dict "n" .n "c" .c "u" .u "k" 0 "x" .x) }}{{ end -}}
 {{- $sg := slice -}}
 {{- range $g.order }}{{ $x := index $g.signals . }}{{ $sg = $sg | append (dict "n" $x.label "u" $x.url "m" $x.measured) }}{{ end -}}
 {{- dict "stocks" $st "signals" $sg | jsonify -}}

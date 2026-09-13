@@ -1,0 +1,54 @@
+---
+title: "이수페타시스 실적, 2025년 영업이익 2,047억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "이수페타시스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "007660"
+name: "이수페타시스"
+intent: "실적"
+chip: "007660 · 코스피 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "이수페타시스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/이수페타시스/", "label": "이수페타시스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/이수페타시스/", "label": "이수페타시스 주가"}, {"url": "/종목/이수페타시스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/이수페타시스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/이수페타시스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/이수페타시스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/lg이노텍/실적/", "label": "LG이노텍 실적"}, {"url": "/종목/리노공업/실적/", "label": "리노공업 실적"}, {"url": "/종목/심텍/실적/", "label": "심텍 실적"}, {"url": "/종목/대덕전자/실적/", "label": "대덕전자 실적"}, {"url": "/종목/한화시스템/실적/", "label": "한화시스템 실적"}, {"url": "/종목/lg디스플레이/실적/", "label": "LG디스플레이 실적"}, {"url": "/종목/두산/실적/", "label": "두산 실적"}, {"url": "/종목/롯데에너지머티리얼즈/실적/", "label": "롯데에너지머티리얼즈 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+이수페타시스의 최근 연간 실적은 2023년 매출 6,753억 원·영업이익 622억 원, 2024년 매출 8,369억 원·영업이익 1,019억 원, 2025년 매출 1조 880억 원·영업이익 2,047억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 6,259억 원·영업이익 3,495억 원이다.
+
+## 이수페타시스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 6,753억 원 | 8,369억 원 | 1조 880억 원 | 1조 6,259억 원 |
+| 영업이익 | 622억 원 | 1,019억 원 | 2,047억 원 | 3,495억 원 |
+| 당기순이익 | 477억 원 | 740억 원 | 1,605억 원 | 2,764억 원 |
+| 영업이익률 | 9.2% | 12.2% | 18.8% | 21.5% |
+| ROE | 19.5% | 24.9% | 29.6% | 31.1% |
+| EPS | 719원 | 1,116원 | 2,257원 | 3,765원 |
+| PER | 39.8배 | 23.8배 | 52.8배 | 29.2배 |
+| PBR | 7.12배 | 5.39배 | 11.58배 | 7.91배 |
+| 주당배당금 | 95원 | 143원 | 230원 | 233원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 622억 원이고, 주가는 한 해 +423.1% 움직였다. 2024년은 영업이익 1,019억 원 (전년보다 +64%)이고, 주가는 한 해 -7.1% 움직였다. 2025년은 영업이익 2,047억 원 (전년보다 +101%)이고, 주가는 한 해 +348.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="이수페타시스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="252.2" y2="252.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="224.2" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+423%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="252.2" width="104.5" height="3.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-7%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="67.7" width="104.5" height="184.5" rx="3"/><text class="ic-val" x="532.7" y="61.7" text-anchor="middle">+348%</text></svg><figcaption>이수페타시스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 이수페타시스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,414억 원 | 2,961억 원 | 2,980억 원 | 3,403억 원 | 3,799억 원 | 4,319억 원 |
+| 영업이익 | 421억 원 | 584억 원 | 565억 원 | 672억 원 | 771억 원 | 961억 원 |
+| 당기순이익 | 314억 원 | 472억 원 | 436억 원 | 504억 원 | 597억 원 | 807억 원 |
+| 영업이익률 | 17.4% | 19.7% | 19.0% | 19.8% | 20.3% | 22.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="이수페타시스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="156.1" width="52.3" height="99.9" rx="3"/><text class="ic-val" x="112.7" y="150.1" text-anchor="middle">421억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="117.4" width="52.3" height="138.6" rx="3"/><text class="ic-val" x="206.0" y="111.4" text-anchor="middle">584억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="122.0" width="52.3" height="134.0" rx="3"/><text class="ic-val" x="299.3" y="116.0" text-anchor="middle">565억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="96.6" width="52.3" height="159.4" rx="3"/><text class="ic-val" x="392.7" y="90.6" text-anchor="middle">672억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="73.1" width="52.3" height="182.9" rx="3"/><text class="ic-val" x="486.0" y="67.1" text-anchor="middle">771억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">961억</text></svg><figcaption>이수페타시스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

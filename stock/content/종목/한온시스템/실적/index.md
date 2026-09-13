@@ -1,0 +1,54 @@
+---
+title: "한온시스템 실적, 2025년 영업이익 2,704억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한온시스템 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "018880"
+name: "한온시스템"
+intent: "실적"
+chip: "018880 · 코스피 · 일반 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "한온시스템-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/일반-목적용-기계-제조업/", "label": "일반 목적용 기계 제조업"}, {"url": "/종목/한온시스템/", "label": "한온시스템"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한온시스템/", "label": "한온시스템 주가"}, {"url": "/종목/한온시스템/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한온시스템/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한온시스템/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한온시스템/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/한화엔진/실적/", "label": "한화엔진 실적"}, {"url": "/종목/현대엘리베이터/실적/", "label": "현대엘리베이터 실적"}, {"url": "/종목/현대무벡스/실적/", "label": "현대무벡스 실적"}, {"url": "/종목/비에이치아이/실적/", "label": "비에이치아이 실적"}, {"url": "/종목/hd현대마린엔진/실적/", "label": "HD현대마린엔진 실적"}, {"url": "/종목/stx엔진/실적/", "label": "STX엔진 실적"}, {"url": "/종목/snt에너지/실적/", "label": "SNT에너지 실적"}, {"url": "/종목/유니슨/실적/", "label": "유니슨 실적"}]
+peers_head: "같은 업종(일반 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+한온시스템의 최근 연간 실적은 2023년 매출 9조 5,216억 원·영업이익 2,836억 원, 2024년 매출 9조 9,987억 원·영업이익 955억 원, 2025년 매출 10조 8,837억 원·영업이익 2,704억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 11조 3,387억 원·영업이익 4,270억 원이다.
+
+## 한온시스템 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 9조 5,216억 원 | 9조 9,987억 원 | 10조 8,837억 원 | 11조 3,387억 원 |
+| 영업이익 | 2,836억 원 | 955억 원 | 2,704억 원 | 4,270억 원 |
+| 당기순이익 | 589억 원 | -3,586억 원 | -1,973억 원 | 2,546억 원 |
+| 영업이익률 | 3.0% | 0.9% | 2.5% | 3.8% |
+| ROE | 2.2% | -13.9% | -6.0% | 6.4% |
+| EPS | 84원 | -594원 | -257원 | 245원 |
+| PER | 80.7배 | -6.3배 | -11.6배 | 14.3배 |
+| PBR | 1.73배 | 1.01배 | 0.81배 | 0.88배 |
+| 주당배당금 | 278원 | — | — | 70원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,836억 원이고, 주가는 한 해 -9.9% 움직였다. 2024년은 영업이익 955억 원 (전년보다 -66%)이고, 주가는 한 해 -45.0% 움직였다. 2025년은 영업이익 2,704억 원 (전년보다 +183%)이고, 주가는 한 해 -20.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한온시스템 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="50.1" rx="3"/><text class="ic-val" x="159.3" y="92.1" text-anchor="middle">-10%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-45%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="103.6" rx="3"/><text class="ic-val" x="532.7" y="145.6" text-anchor="middle">-20%</text></svg><figcaption>한온시스템 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한온시스템 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2조 8,582억 원 | 2조 7,057억 원 | 2조 7,025억 원 | 2조 7,482억 원 | 2조 8,752억 원 | 2조 8,340억 원 |
+| 영업이익 | 643억 원 | 953억 원 | 897억 원 | 972억 원 | 1,037억 원 | 1,089억 원 |
+| 당기순이익 | -151억 원 | 553억 원 | -2,149억 원 | 675억 원 | 873억 원 | 634억 원 |
+| 영업이익률 | 2.2% | 3.5% | 3.3% | 3.5% | 3.6% | 3.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한온시스템 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="121.4" width="52.3" height="134.6" rx="3"/><text class="ic-val" x="112.7" y="115.4" text-anchor="middle">643억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="56.5" width="52.3" height="199.5" rx="3"/><text class="ic-val" x="206.0" y="50.5" text-anchor="middle">953억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="68.2" width="52.3" height="187.8" rx="3"/><text class="ic-val" x="299.3" y="62.2" text-anchor="middle">897억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="52.5" width="52.3" height="203.5" rx="3"/><text class="ic-val" x="392.7" y="46.5" text-anchor="middle">972억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="38.9" width="52.3" height="217.1" rx="3"/><text class="ic-val" x="486.0" y="32.9" text-anchor="middle">1,037억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1,089억</text></svg><figcaption>한온시스템 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

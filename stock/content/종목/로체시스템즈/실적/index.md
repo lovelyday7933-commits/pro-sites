@@ -1,0 +1,54 @@
+---
+title: "로체시스템즈 실적, 2025년 영업이익 144억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "로체시스템즈 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "071280"
+name: "로체시스템즈"
+intent: "실적"
+chip: "071280 · 코스닥 · 특수 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "로체시스템즈-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/특수-목적용-기계-제조업/", "label": "특수 목적용 기계 제조업"}, {"url": "/종목/로체시스템즈/", "label": "로체시스템즈"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/로체시스템즈/", "label": "로체시스템즈 주가"}, {"url": "/종목/로체시스템즈/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/로체시스템즈/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/로체시스템즈/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/비아트론/실적/", "label": "비아트론 실적"}, {"url": "/종목/디에스케이/실적/", "label": "디에스케이 실적"}, {"url": "/종목/워트/실적/", "label": "워트 실적"}, {"url": "/종목/엠플러스/실적/", "label": "엠플러스 실적"}, {"url": "/종목/오로스테크놀로지/실적/", "label": "오로스테크놀로지 실적"}, {"url": "/종목/하나기술/실적/", "label": "하나기술 실적"}, {"url": "/종목/코윈테크/실적/", "label": "코윈테크 실적"}, {"url": "/종목/수산세보틱스/실적/", "label": "수산세보틱스 실적"}]
+peers_head: "같은 업종(특수 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+로체시스템즈의 최근 연간 실적은 2023년 매출 1,053억 원·영업이익 119억 원, 2024년 매출 1,601억 원·영업이익 198억 원, 2025년 매출 1,249억 원·영업이익 144억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,958억 원·영업이익 233억 원이다.
+
+## 로체시스템즈 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,053억 원 | 1,601억 원 | 1,249억 원 | 1,958억 원 |
+| 영업이익 | 119억 원 | 198억 원 | 144억 원 | 233억 원 |
+| 당기순이익 | 89억 원 | 121억 원 | 123억 원 | 195억 원 |
+| 영업이익률 | 11.3% | 12.3% | 11.6% | 11.9% |
+| ROE | 8.2% | 10.4% | 9.4% | 13.2% |
+| EPS | 580원 | 792원 | 801원 | 1,275원 |
+| PER | 10.8배 | 22.3배 | 11.0배 | 5.6배 |
+| PBR | 0.83배 | 2.16배 | 0.98배 | 0.70배 |
+| 주당배당금 | 50원 | 50원 | 50원 | 50원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 119억 원이고, 주가는 한 해 -21.8% 움직였다. 2024년은 영업이익 198억 원 (전년보다 +66%)이고, 주가는 한 해 +183.9% 움직였다. 2025년은 영업이익 144억 원 (전년보다 -27%)이고, 주가는 한 해 -50.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="로체시스템즈 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="207.2" y2="207.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="207.2" width="104.5" height="21.3" rx="3"/><text class="ic-val" x="159.3" y="242.5" text-anchor="middle">-22%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="179.2" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+184%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="207.2" width="104.5" height="48.8" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-50%</text></svg><figcaption>로체시스템즈 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 로체시스템즈 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 363억 원 | 169억 원 | 415억 원 | 400억 원 | 469억 원 | — |
+| 영업이익 | 49억 원 | 20억 원 | 24억 원 | 43억 원 | 75억 원 | — |
+| 당기순이익 | 46억 원 | 14억 원 | 24억 원 | 34억 원 | 65억 원 | — |
+| 영업이익률 | 13.6% | 12.0% | 5.8% | 10.7% | 16.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="로체시스템즈 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="107.0" width="52.3" height="149.0" rx="3"/><text class="ic-val" x="112.7" y="101.0" text-anchor="middle">49억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="195.2" width="52.3" height="60.8" rx="3"/><text class="ic-val" x="206.0" y="189.2" text-anchor="middle">20억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="183.0" width="52.3" height="73.0" rx="3"/><text class="ic-val" x="299.3" y="177.0" text-anchor="middle">24억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="125.3" width="52.3" height="130.7" rx="3"/><text class="ic-val" x="392.7" y="119.3" text-anchor="middle">43억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">75억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>로체시스템즈 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

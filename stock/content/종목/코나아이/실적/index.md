@@ -1,0 +1,54 @@
+---
+title: "코나아이 실적, 2025년 영업이익 889억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "코나아이 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "052400"
+name: "코나아이"
+intent: "실적"
+chip: "052400 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "코나아이-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/코나아이/", "label": "코나아이"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/코나아이/", "label": "코나아이 주가"}, {"url": "/종목/코나아이/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/코나아이/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/코나아이/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/코나아이/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/위메이드/실적/", "label": "위메이드 실적"}, {"url": "/종목/엑스게이트/실적/", "label": "엑스게이트 실적"}, {"url": "/종목/가비아/실적/", "label": "가비아 실적"}, {"url": "/종목/soop/실적/", "label": "SOOP 실적"}, {"url": "/종목/디어유/실적/", "label": "디어유 실적"}, {"url": "/종목/컴투스/실적/", "label": "컴투스 실적"}, {"url": "/종목/마키나락스/실적/", "label": "마키나락스 실적"}, {"url": "/종목/한컴/실적/", "label": "한컴 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+코나아이의 최근 연간 실적은 2023년 매출 2,802억 원·영업이익 337억 원, 2024년 매출 2,363억 원·영업이익 334억 원, 2025년 매출 3,092억 원·영업이익 889억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 3,479억 원·영업이익 1,098억 원이다.
+
+## 코나아이 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,802억 원 | 2,363억 원 | 3,092억 원 | 3,479억 원 |
+| 영업이익 | 337억 원 | 334억 원 | 889억 원 | 1,098억 원 |
+| 당기순이익 | 289억 원 | 302억 원 | 745억 원 | 913억 원 |
+| 영업이익률 | 12.0% | 14.1% | 28.8% | 31.6% |
+| ROE | 18.2% | 16.2% | 32.6% | 31.0% |
+| EPS | 1,945원 | 2,029원 | 5,110원 | 6,269원 |
+| PER | 9.2배 | 13.6배 | 8.9배 | 5.6배 |
+| PBR | 1.37배 | 2.02배 | 2.52배 | 1.50배 |
+| 주당배당금 | 500원 | 680원 | 1,200원 | 1,538원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 337억 원이고, 주가는 한 해 +9.8% 움직였다. 2024년은 영업이익 334억 원 (전년보다 -1%)이고, 주가는 한 해 +54.5% 움직였다. 2025년은 영업이익 889억 원 (전년보다 +166%)이고, 주가는 한 해 +64.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코나아이 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="221.1" width="104.5" height="34.9" rx="3"/><text class="ic-val" x="159.3" y="215.1" text-anchor="middle">+10%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="62.5" width="104.5" height="193.5" rx="3"/><text class="ic-val" x="346.0" y="56.5" text-anchor="middle">+54%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+64%</text></svg><figcaption>코나아이 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 코나아이 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 672억 원 | 933억 원 | 904억 원 | 770억 원 | 846억 원 | 1,078억 원 |
+| 영업이익 | 172억 원 | 302억 원 | 288억 원 | 248억 원 | 214억 원 | 374억 원 |
+| 당기순이익 | 156억 원 | 301억 원 | 199억 원 | 234억 원 | 225억 원 | — |
+| 영업이익률 | 25.6% | 32.4% | 31.9% | 32.2% | 25.3% | 34.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="코나아이 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="151.1" width="52.3" height="104.9" rx="3"/><text class="ic-val" x="112.7" y="145.1" text-anchor="middle">172억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="71.9" width="52.3" height="184.1" rx="3"/><text class="ic-val" x="206.0" y="65.9" text-anchor="middle">302억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="80.4" width="52.3" height="175.6" rx="3"/><text class="ic-val" x="299.3" y="74.4" text-anchor="middle">288억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="104.8" width="52.3" height="151.2" rx="3"/><text class="ic-val" x="392.7" y="98.8" text-anchor="middle">248억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="125.5" width="52.3" height="130.5" rx="3"/><text class="ic-val" x="486.0" y="119.5" text-anchor="middle">214억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">374억</text></svg><figcaption>코나아이 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

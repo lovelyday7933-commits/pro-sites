@@ -1,0 +1,47 @@
+---
+title: "티엠씨 실적, 2025년 영업이익 64억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "티엠씨 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "217590"
+name: "티엠씨"
+intent: "실적"
+chip: "217590 · 코스피 · 절연선 및 케이블 제조업 · 기준일 2026.09.11"
+utm_source: "티엠씨-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/절연선-및-케이블-제조업/", "label": "절연선 및 케이블 제조업"}, {"url": "/종목/티엠씨/", "label": "티엠씨"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/티엠씨/", "label": "티엠씨 주가"}, {"url": "/종목/티엠씨/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/티엠씨/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/티씨머티리얼즈/실적/", "label": "티씨머티리얼즈 실적"}, {"url": "/종목/키스트론/실적/", "label": "키스트론 실적"}, {"url": "/종목/대원전선/실적/", "label": "대원전선 실적"}, {"url": "/종목/대한광통신/실적/", "label": "대한광통신 실적"}, {"url": "/종목/일진전기/실적/", "label": "일진전기 실적"}, {"url": "/종목/대한전선/실적/", "label": "대한전선 실적"}, {"url": "/종목/가온전선/실적/", "label": "가온전선 실적"}]
+peers_head: "같은 업종(절연선 및 케이블 제조업) 다른 종목의 실적"
+---
+
+티엠씨의 최근 연간 실적은 2023년 매출 3,723억 원·영업이익 120억 원, 2024년 매출 3,757억 원·영업이익 109억 원, 2025년 매출 3,409억 원·영업이익 64억 원이다.
+
+## 티엠씨 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,723억 원 | 3,757억 원 | 3,409억 원 | — |
+| 영업이익 | 120억 원 | 109억 원 | 64억 원 | — |
+| 당기순이익 | 68억 원 | 92억 원 | -6억 원 | — |
+| 영업이익률 | 3.2% | 2.9% | 1.9% | — |
+| ROE | 10.1% | 12.7% | -0.5% | — |
+| EPS | 351원 | 479원 | -22원 | — |
+| PER | — | — | -681.8배 | — |
+| PBR | 0.00배 | 0.00배 | 3.26배 | — |
+| 주당배당금 | — | — | 50원 | — |
+
+## 티엠씨 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 901억 원 | 798억 원 | 759억 원 | 939억 원 | 1,064억 원 | — |
+| 영업이익 | 22억 원 | 14억 원 | -21억 원 | 10억 원 | 13억 원 | — |
+| 당기순이익 | -13억 원 | 12억 원 | -31억 원 | 18억 원 | 18억 원 | — |
+| 영업이익률 | 2.5% | 1.8% | -2.8% | 1.0% | 1.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="티엠씨 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="144.7" y2="144.7"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="116.7" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">22억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="70.4" width="52.3" height="74.2" rx="3"/><text class="ic-val" x="206.0" y="64.4" text-anchor="middle">14억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="144.7" width="52.3" height="111.3" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-21억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="91.6" width="52.3" height="53.0" rx="3"/><text class="ic-val" x="392.7" y="85.6" text-anchor="middle">10억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="75.7" width="52.3" height="68.9" rx="3"/><text class="ic-val" x="486.0" y="69.7" text-anchor="middle">13억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>티엠씨 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

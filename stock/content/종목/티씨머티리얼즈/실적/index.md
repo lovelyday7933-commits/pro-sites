@@ -1,0 +1,48 @@
+---
+title: "티씨머티리얼즈 실적, 2025년 영업이익 68억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "티씨머티리얼즈 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "125020"
+name: "티씨머티리얼즈"
+intent: "실적"
+chip: "125020 · 코스닥 · 절연선 및 케이블 제조업 · 기준일 2026.09.11"
+utm_source: "티씨머티리얼즈-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/절연선-및-케이블-제조업/", "label": "절연선 및 케이블 제조업"}, {"url": "/종목/티씨머티리얼즈/", "label": "티씨머티리얼즈"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/티씨머티리얼즈/", "label": "티씨머티리얼즈 주가"}, {"url": "/종목/티씨머티리얼즈/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/티씨머티리얼즈/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/티엠씨/실적/", "label": "티엠씨 실적"}, {"url": "/종목/키스트론/실적/", "label": "키스트론 실적"}, {"url": "/종목/대원전선/실적/", "label": "대원전선 실적"}, {"url": "/종목/대한광통신/실적/", "label": "대한광통신 실적"}, {"url": "/종목/일진전기/실적/", "label": "일진전기 실적"}, {"url": "/종목/대한전선/실적/", "label": "대한전선 실적"}, {"url": "/종목/가온전선/실적/", "label": "가온전선 실적"}]
+peers_head: "같은 업종(절연선 및 케이블 제조업) 다른 종목의 실적"
+---
+
+티씨머티리얼즈의 최근 연간 실적은 2023년 매출 2,521억 원·영업이익 87억 원, 2024년 매출 3,039억 원·영업이익 109억 원, 2025년 매출 2,991억 원·영업이익 68억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4,799억 원·영업이익 213억 원이다.
+
+## 티씨머티리얼즈 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,521억 원 | 3,039억 원 | 2,991억 원 | 4,799억 원 |
+| 영업이익 | 87억 원 | 109억 원 | 68억 원 | 213억 원 |
+| 당기순이익 | 131억 원 | 63억 원 | 17억 원 | 165억 원 |
+| 영업이익률 | 3.5% | 3.6% | 2.3% | 4.4% |
+| ROE | 35.4% | 12.5% | 2.5% | — |
+| EPS | 415원 | 186원 | 49원 | 471원 |
+| PER | — | — | 83.4배 | 13.1배 |
+| PBR | 0.00배 | 0.00배 | 1.83배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 티씨머티리얼즈 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 769억 원 | 781억 원 | 762억 원 | 1,014억 원 | 1,238억 원 | 1,253억 원 |
+| 영업이익 | 14억 원 | 19억 원 | 11억 원 | 64억 원 | 38억 원 | 52억 원 |
+| 당기순이익 | -32억 원 | 16억 원 | 14억 원 | 49억 원 | 26억 원 | 42억 원 |
+| 영업이익률 | 1.9% | 2.5% | 1.4% | 6.3% | 3.1% | 4.2% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="티씨머티리얼즈 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="206.1" width="52.3" height="49.9" rx="3"/><text class="ic-val" x="112.7" y="200.1" text-anchor="middle">14억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="188.3" width="52.3" height="67.7" rx="3"/><text class="ic-val" x="206.0" y="182.3" text-anchor="middle">19억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="216.8" width="52.3" height="39.2" rx="3"/><text class="ic-val" x="299.3" y="210.8" text-anchor="middle">11억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">64억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="120.6" width="52.3" height="135.4" rx="3"/><text class="ic-val" x="486.0" y="114.6" text-anchor="middle">38억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="70.8" width="52.3" height="185.2" rx="3"/><text class="ic-val" x="579.3" y="64.8" text-anchor="middle">52억</text></svg><figcaption>티씨머티리얼즈 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "디와이덕양 실적, 2025년 영업이익 32억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "디와이덕양 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "024900"
+name: "디와이덕양"
+intent: "실적"
+chip: "024900 · 코스피 · 자동차 신품 부품 제조업 · 기준일 2026.09.11"
+utm_source: "디와이덕양-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자동차-신품-부품-제조업/", "label": "자동차 신품 부품 제조업"}, {"url": "/종목/디와이덕양/", "label": "디와이덕양"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/디와이덕양/", "label": "디와이덕양 주가"}, {"url": "/종목/디와이덕양/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/디와이덕양/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/디와이덕양/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/구영테크/실적/", "label": "구영테크 실적"}, {"url": "/종목/평화산업/실적/", "label": "평화산업 실적"}, {"url": "/종목/sgg/실적/", "label": "SG&G 실적"}, {"url": "/종목/에스제이엠/실적/", "label": "에스제이엠 실적"}, {"url": "/종목/경창산업/실적/", "label": "경창산업 실적"}, {"url": "/종목/화승알앤에이/실적/", "label": "화승알앤에이 실적"}, {"url": "/종목/이닉스/실적/", "label": "이닉스 실적"}, {"url": "/종목/새론오토모티브/실적/", "label": "새론오토모티브 실적"}]
+peers_head: "같은 업종(자동차 신품 부품 제조업) 다른 종목의 실적"
+---
+
+디와이덕양의 최근 연간 실적은 2023년 매출 1조 8,759억 원·영업이익 277억 원, 2024년 매출 1조 8,833억 원·영업이익 82억 원, 2025년 매출 1조 7,381억 원·영업이익 32억 원이다.
+
+## 디와이덕양 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 8,759억 원 | 1조 8,833억 원 | 1조 7,381억 원 | — |
+| 영업이익 | 277억 원 | 82억 원 | 32억 원 | — |
+| 당기순이익 | 45억 원 | 167억 원 | 12억 원 | — |
+| 영업이익률 | 1.5% | 0.4% | 0.2% | — |
+| ROE | 13.8% | 16.8% | 1.1% | — |
+| EPS | 381원 | 517원 | 38원 | — |
+| PER | 15.5배 | 5.8배 | 54.5배 | — |
+| PBR | 2.02배 | 0.91배 | 0.56배 | — |
+| 주당배당금 | 50원 | 50원 | 60원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 277억 원이고, 주가는 한 해 +147.2% 움직였다. 2024년은 영업이익 82억 원 (전년보다 -70%)이고, 주가는 한 해 -49.7% 움직였다. 2025년은 영업이익 32억 원 (전년보다 -61%)이고, 주가는 한 해 -30.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="디와이덕양 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="198.5" y2="198.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="170.5" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+147%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="198.5" width="104.5" height="57.5" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-50%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="198.5" width="104.5" height="35.0" rx="3"/><text class="ic-val" x="532.7" y="247.5" text-anchor="middle">-30%</text></svg><figcaption>디와이덕양 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 디와이덕양 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4,506억 원 | 4,137억 원 | 4,388억 원 | 4,281억 원 | 4,148억 원 | — |
+| 영업이익 | -6억 원 | -36억 원 | 44억 원 | 26억 원 | -79억 원 | — |
+| 당기순이익 | -35억 원 | -5억 원 | 20억 원 | 38억 원 | -27억 원 | — |
+| 영업이익률 | -0.1% | -0.9% | 1.0% | 0.6% | -1.9% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="디와이덕양 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="109.6" y2="109.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="109.6" width="52.3" height="11.1" rx="3"/><text class="ic-val" x="112.7" y="134.7" text-anchor="middle">-6억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="109.6" width="52.3" height="66.7" rx="3"/><text class="ic-val" x="206.0" y="190.3" text-anchor="middle">-36억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="81.6" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">44억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="61.4" width="52.3" height="48.2" rx="3"/><text class="ic-val" x="392.7" y="55.4" text-anchor="middle">26억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="109.6" width="52.3" height="146.4" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-79억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>디와이덕양 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "한국카본 실적, 2025년 영업이익 1,310억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한국카본 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "017960"
+name: "한국카본"
+intent: "실적"
+chip: "017960 · 코스피 · 구조용 금속제품, 탱크 및 증기발생기 제조업 · 기준일 2026.09.11"
+utm_source: "한국카본-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/구조용-금속제품,-탱크-및-증기발생기-제조업/", "label": "구조용 금속제품, 탱크 및 증기발생기 제조업"}, {"url": "/종목/한국카본/", "label": "한국카본"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한국카본/", "label": "한국카본 주가"}, {"url": "/종목/한국카본/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한국카본/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한국카본/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한국카본/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/씨에스윈드/실적/", "label": "씨에스윈드 실적"}, {"url": "/종목/보성파워텍/실적/", "label": "보성파워텍 실적"}, {"url": "/종목/한텍/실적/", "label": "한텍 실적"}, {"url": "/종목/삼목에스폼/실적/", "label": "삼목에스폼 실적"}, {"url": "/종목/우양에이치씨/실적/", "label": "우양에이치씨 실적"}, {"url": "/종목/제룡산업/실적/", "label": "제룡산업 실적"}, {"url": "/종목/에스와이/실적/", "label": "에스와이 실적"}, {"url": "/종목/삼영엠텍/실적/", "label": "삼영엠텍 실적"}]
+peers_head: "같은 업종(구조용 금속제품, 탱크 및 증기발생기 제조업) 다른 종목의 실적"
+---
+
+한국카본의 최근 연간 실적은 2023년 매출 5,944억 원·영업이익 165억 원, 2024년 매출 7,417억 원·영업이익 454억 원, 2025년 매출 9,088억 원·영업이익 1,310억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 9,459억 원·영업이익 1,817억 원이다.
+
+## 한국카본 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 5,944억 원 | 7,417억 원 | 9,088억 원 | 9,459억 원 |
+| 영업이익 | 165억 원 | 454억 원 | 1,310억 원 | 1,817억 원 |
+| 당기순이익 | -134억 원 | 203억 원 | 1,017억 원 | 1,172억 원 |
+| 영업이익률 | 2.8% | 6.1% | 14.4% | 19.2% |
+| ROE | -3.1% | 4.4% | 19.3% | 18.4% |
+| EPS | -293원 | 391원 | 1,960원 | 2,265원 |
+| PER | -39.8배 | 30.0배 | 15.2배 | 9.6배 |
+| PBR | 1.26배 | 1.22배 | 2.59배 | 1.62배 |
+| 주당배당금 | 110원 | 130원 | 320원 | 312원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 165억 원이고, 주가는 한 해 +5.3% 움직였다. 2024년은 영업이익 454억 원 (전년보다 +175%)이고, 주가는 한 해 +0.9% 움직였다. 2025년은 영업이익 1,310억 원 (전년보다 +189%)이고, 주가는 한 해 +154.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국카본 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="248.1" width="104.5" height="7.9" rx="3"/><text class="ic-val" x="159.3" y="242.1" text-anchor="middle">+5%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="254.6" width="104.5" height="1.4" rx="3"/><text class="ic-val" x="346.0" y="248.6" text-anchor="middle">+1%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+154%</text></svg><figcaption>한국카본 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한국카본 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,313억 원 | 2,211억 원 | 2,318억 원 | 2,118억 원 | 2,434억 원 | 2,358억 원 |
+| 영업이익 | 316억 원 | 299억 원 | 383억 원 | 411억 원 | 504억 원 | 435억 원 |
+| 당기순이익 | 294억 원 | 157억 원 | 349억 원 | 155억 원 | 366억 원 | 285억 원 |
+| 영업이익률 | 13.7% | 13.5% | 16.5% | 19.4% | 20.7% | 18.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국카본 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="113.0" width="52.3" height="143.0" rx="3"/><text class="ic-val" x="112.7" y="107.0" text-anchor="middle">316억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="120.7" width="52.3" height="135.3" rx="3"/><text class="ic-val" x="206.0" y="114.7" text-anchor="middle">299억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="82.7" width="52.3" height="173.3" rx="3"/><text class="ic-val" x="299.3" y="76.7" text-anchor="middle">383억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="70.1" width="52.3" height="185.9" rx="3"/><text class="ic-val" x="392.7" y="64.1" text-anchor="middle">411억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">504억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="59.2" width="52.3" height="196.8" rx="3"/><text class="ic-val" x="579.3" y="53.2" text-anchor="middle">435억</text></svg><figcaption>한국카본 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

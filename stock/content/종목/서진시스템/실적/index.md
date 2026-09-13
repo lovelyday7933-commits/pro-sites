@@ -1,0 +1,54 @@
+---
+title: "서진시스템 실적, 2025년 영업이익 11억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "서진시스템 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "178320"
+name: "서진시스템"
+intent: "실적"
+chip: "178320 · 코스닥 · 기타 전기장비 제조업 · 기준일 2026.09.11"
+utm_source: "서진시스템-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-전기장비-제조업/", "label": "기타 전기장비 제조업"}, {"url": "/종목/서진시스템/", "label": "서진시스템"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/서진시스템/", "label": "서진시스템 주가"}, {"url": "/종목/서진시스템/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/서진시스템/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/서진시스템/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/서진시스템/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대아티아이/실적/", "label": "대아티아이 실적"}, {"url": "/종목/강원에너지/실적/", "label": "강원에너지 실적"}, {"url": "/종목/액스비스/실적/", "label": "액스비스 실적"}, {"url": "/종목/티에이치엔/실적/", "label": "티에이치엔 실적"}, {"url": "/종목/로보로보/실적/", "label": "로보로보 실적"}, {"url": "/종목/서남/실적/", "label": "서남 실적"}, {"url": "/종목/aps이노베이션/실적/", "label": "APS이노베이션 실적"}, {"url": "/종목/에이프로/실적/", "label": "에이프로 실적"}]
+peers_head: "같은 업종(기타 전기장비 제조업) 다른 종목의 실적"
+---
+
+서진시스템의 최근 연간 실적은 2023년 매출 7,787억 원·영업이익 490억 원, 2024년 매출 1조 2,138억 원·영업이익 1,087억 원, 2025년 매출 1조 663억 원·영업이익 11억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 8,407억 원·영업이익 635억 원이다.
+
+## 서진시스템 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7,787억 원 | 1조 2,138억 원 | 1조 663억 원 | 1조 8,407억 원 |
+| 영업이익 | 490억 원 | 1,087억 원 | 11억 원 | 635억 원 |
+| 당기순이익 | -227억 원 | 839억 원 | -1,024억 원 | -37억 원 |
+| 영업이익률 | 6.3% | 9.0% | 0.1% | 3.5% |
+| ROE | -4.3% | 12.3% | -12.6% | -0.5% |
+| EPS | -600원 | 1,686원 | -1,800원 | -58원 |
+| PER | -30.2배 | 15.9배 | -14.1배 | -620.5배 |
+| PBR | 1.35배 | 1.74배 | 1.93배 | 2.96배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 490억 원이고, 주가는 한 해 +3.7% 움직였다. 2024년은 영업이익 1,087억 원 (전년보다 +122%)이고, 주가는 한 해 +48.0% 움직였다. 2025년은 영업이익 11억 원 (전년보다 -99%)이고, 주가는 한 해 -5.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="서진시스템 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="231.5" y2="231.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="216.0" width="104.5" height="15.5" rx="3"/><text class="ic-val" x="159.3" y="210.0" text-anchor="middle">+4%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="203.5" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+48%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="231.5" width="104.5" height="24.5" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-6%</text></svg><figcaption>서진시스템 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 서진시스템 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,586억 원 | 2,155억 원 | 3,110억 원 | 2,802억 원 | 4,102억 원 | 5,452억 원 |
+| 영업이익 | -60억 원 | -373억 원 | 235억 원 | -330억 원 | -194억 원 | 483억 원 |
+| 당기순이익 | -812억 원 | -480억 원 | 256억 원 | -205억 원 | -402억 원 | 246억 원 |
+| 영업이익률 | -2.3% | -17.3% | 7.6% | -11.8% | -4.7% | 8.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="서진시스템 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="156.6" y2="156.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="156.6" width="52.3" height="16.0" rx="3"/><text class="ic-val" x="112.7" y="186.6" text-anchor="middle">-60억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="156.6" width="52.3" height="99.4" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-373억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="94.1" width="52.3" height="62.6" rx="3"/><text class="ic-val" x="299.3" y="88.1" text-anchor="middle">235억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="156.6" width="52.3" height="87.9" rx="3"/><text class="ic-val" x="392.7" y="258.5" text-anchor="middle">-330억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="156.6" width="52.3" height="51.7" rx="3"/><text class="ic-val" x="486.0" y="222.3" text-anchor="middle">-194억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="128.6" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">483억</text></svg><figcaption>서진시스템 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "부국증권 실적, 2025년 영업이익 568억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "부국증권 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "001270"
+name: "부국증권"
+intent: "실적"
+chip: "001270 · 코스피 · 금융 지원 서비스업 · 기준일 2026.09.11"
+utm_source: "부국증권-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/금융-지원-서비스업/", "label": "금융 지원 서비스업"}, {"url": "/종목/부국증권/", "label": "부국증권"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/부국증권/", "label": "부국증권 주가"}, {"url": "/종목/부국증권/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/부국증권/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/현대차증권/실적/", "label": "현대차증권 실적"}, {"url": "/종목/sk증권/실적/", "label": "SK증권 실적"}, {"url": "/종목/nhn-kcp/실적/", "label": "NHN KCP 실적"}, {"url": "/종목/db증권/실적/", "label": "DB증권 실적"}, {"url": "/종목/유진증권/실적/", "label": "유진증권 실적"}, {"url": "/종목/글로벌텍스프리/실적/", "label": "글로벌텍스프리 실적"}, {"url": "/종목/ls증권/실적/", "label": "LS증권 실적"}, {"url": "/종목/헥토파이낸셜/실적/", "label": "헥토파이낸셜 실적"}]
+peers_head: "같은 업종(금융 지원 서비스업) 다른 종목의 실적"
+---
+
+부국증권의 최근 연간 실적은 2023년 매출 8,150억 원·영업이익 691억 원, 2024년 매출 7,792억 원·영업이익 367억 원, 2025년 매출 9,655억 원·영업이익 568억 원이다.
+
+## 부국증권 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 8,150억 원 | 7,792억 원 | 9,655억 원 | — |
+| 영업이익 | 691억 원 | 367억 원 | 568억 원 | — |
+| 당기순이익 | 573억 원 | 310억 원 | 456억 원 | — |
+| 영업이익률 | 8.5% | 4.7% | 5.9% | — |
+| ROE | 7.9% | 4.0% | 5.7% | — |
+| EPS | 4,286원 | 2,315원 | 3,413원 | — |
+| PER | 5.1배 | 11.8배 | 16.4배 | — |
+| PBR | 0.25배 | 0.32배 | 0.60배 | — |
+| 주당배당금 | 1,500원 | 1,500원 | 2,400원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 691억 원이고, 주가는 한 해 +19.6% 움직였다. 2024년은 영업이익 367억 원 (전년보다 -47%)이고, 주가는 한 해 +25.8% 움직였다. 2025년은 영업이익 568억 원 (전년보다 +55%)이고, 주가는 한 해 +105.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="부국증권 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="213.6" width="104.5" height="42.4" rx="3"/><text class="ic-val" x="159.3" y="207.6" text-anchor="middle">+20%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="200.0" width="104.5" height="56.0" rx="3"/><text class="ic-val" x="346.0" y="194.0" text-anchor="middle">+26%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+105%</text></svg><figcaption>부국증권 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 부국증권 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,628억 원 | 2,085억 원 | 3,010억 원 | 4,796억 원 | 5,831억 원 | — |
+| 영업이익 | 205억 원 | 139억 원 | 0억 원 | 156억 원 | 245억 원 | — |
+| 당기순이익 | 178억 원 | 105억 원 | -10억 원 | 128억 원 | 244억 원 | — |
+| 영업이익률 | 7.8% | 6.7% | 0.0% | 3.3% | 4.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="부국증권 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="65.2" width="52.3" height="190.8" rx="3"/><text class="ic-val" x="112.7" y="59.2" text-anchor="middle">205억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="126.6" width="52.3" height="129.4" rx="3"/><text class="ic-val" x="206.0" y="120.6" text-anchor="middle">139억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="256.0" width="52.3" height="1.0" rx="3"/><text class="ic-val" x="299.3" y="250.0" text-anchor="middle">0억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="110.8" width="52.3" height="145.2" rx="3"/><text class="ic-val" x="392.7" y="104.8" text-anchor="middle">156억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">245억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>부국증권 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

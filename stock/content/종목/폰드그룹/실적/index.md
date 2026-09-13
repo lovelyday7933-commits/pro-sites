@@ -1,0 +1,54 @@
+---
+title: "폰드그룹 실적, 2025년 영업이익 574억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "폰드그룹 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "472850"
+name: "폰드그룹"
+intent: "실적"
+chip: "472850 · 코스닥 · 섬유, 의복, 신발 및 가죽제품 소매업 · 기준일 2026.09.11"
+utm_source: "폰드그룹-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/섬유,-의복,-신발-및-가죽제품-소매업/", "label": "섬유, 의복, 신발 및 가죽제품 소매업"}, {"url": "/종목/폰드그룹/", "label": "폰드그룹"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/폰드그룹/", "label": "폰드그룹 주가"}, {"url": "/종목/폰드그룹/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/폰드그룹/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/폰드그룹/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/에이유브랜즈/실적/", "label": "에이유브랜즈 실적"}, {"url": "/종목/신세계인터내셔날/실적/", "label": "신세계인터내셔날 실적"}, {"url": "/종목/모다이노칩/실적/", "label": "모다이노칩 실적"}, {"url": "/종목/로젠/실적/", "label": "로젠 실적"}, {"url": "/종목/피스피스스튜디오/실적/", "label": "피스피스스튜디오 실적"}, {"url": "/종목/포니링크/실적/", "label": "포니링크 실적"}, {"url": "/종목/한세엠케이/실적/", "label": "한세엠케이 실적"}, {"url": "/종목/토박스코리아/실적/", "label": "토박스코리아 실적"}]
+peers_head: "같은 업종(섬유, 의복, 신발 및 가죽제품 소매업) 다른 종목의 실적"
+---
+
+폰드그룹의 최근 연간 실적은 2023년 매출 28억 원·영업이익 7억 원, 2024년 매출 3,687억 원·영업이익 413억 원, 2025년 매출 4,856억 원·영업이익 574억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5,870억 원·영업이익 781억 원이다.
+
+## 폰드그룹 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 28억 원 | 3,687억 원 | 4,856억 원 | 5,870억 원 |
+| 영업이익 | 7억 원 | 413억 원 | 574억 원 | 781억 원 |
+| 당기순이익 | 2억 원 | 272억 원 | 442억 원 | 550억 원 |
+| 영업이익률 | 24.0% | 11.2% | 11.8% | 13.3% |
+| ROE | — | 12.6% | 15.5% | 16.6% |
+| EPS | 32원 | 437원 | 600원 | 723원 |
+| PER | — | 6.7배 | 9.4배 | 6.7배 |
+| PBR | 0.00배 | 0.80배 | 1.39배 | 1.04배 |
+| 주당배당금 | — | 140원 | 157원 | 210원 |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 574억 원 (전년보다 +39%)이고, 주가는 한 해 +241.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="폰드그룹 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+242%</text></svg><figcaption>폰드그룹 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 폰드그룹 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,120억 원 | 908억 원 | 1,762억 원 | 1,169억 원 | 1,492억 원 | — |
+| 영업이익 | 158억 원 | 71억 원 | 201억 원 | 170억 원 | 217억 원 | — |
+| 당기순이익 | 113억 원 | 54억 원 | 182억 원 | 123억 원 | 163억 원 | — |
+| 영업이익률 | 14.1% | 7.8% | 11.4% | 14.5% | 14.6% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="폰드그룹 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="90.0" width="52.3" height="166.0" rx="3"/><text class="ic-val" x="112.7" y="84.0" text-anchor="middle">158억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="181.4" width="52.3" height="74.6" rx="3"/><text class="ic-val" x="206.0" y="175.4" text-anchor="middle">71억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="44.8" width="52.3" height="211.2" rx="3"/><text class="ic-val" x="299.3" y="38.8" text-anchor="middle">201억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="77.4" width="52.3" height="178.6" rx="3"/><text class="ic-val" x="392.7" y="71.4" text-anchor="middle">170억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">217억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>폰드그룹 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

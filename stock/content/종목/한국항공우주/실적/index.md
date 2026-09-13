@@ -1,0 +1,54 @@
+---
+title: "한국항공우주 실적, 2025년 영업이익 2,692억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한국항공우주 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "047810"
+name: "한국항공우주"
+intent: "실적"
+chip: "047810 · 코스피 · 항공기,우주선 및 부품 제조업 · 기준일 2026.09.11"
+utm_source: "한국항공우주-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/항공기,우주선-및-부품-제조업/", "label": "항공기,우주선 및 부품 제조업"}, {"url": "/종목/한국항공우주/", "label": "한국항공우주"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한국항공우주/", "label": "한국항공우주 주가"}, {"url": "/종목/한국항공우주/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한국항공우주/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한국항공우주/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한국항공우주/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/한화에어로스페이스/실적/", "label": "한화에어로스페이스 실적"}, {"url": "/종목/쎄트렉아이/실적/", "label": "쎄트렉아이 실적"}, {"url": "/종목/비츠로넥스텍/실적/", "label": "비츠로넥스텍 실적"}, {"url": "/종목/아스트/실적/", "label": "아스트 실적"}, {"url": "/종목/이노스페이스/실적/", "label": "이노스페이스 실적"}, {"url": "/종목/켄코아에어로스페이스/실적/", "label": "켄코아에어로스페이스 실적"}, {"url": "/종목/나라스페이스테크놀로지/실적/", "label": "나라스페이스테크놀로지 실적"}, {"url": "/종목/루미르/실적/", "label": "루미르 실적"}]
+peers_head: "같은 업종(항공기,우주선 및 부품 제조업) 다른 종목의 실적"
+---
+
+한국항공우주의 최근 연간 실적은 2023년 매출 3조 8,193억 원·영업이익 2,475억 원, 2024년 매출 3조 6,337억 원·영업이익 2,407억 원, 2025년 매출 3조 6,964억 원·영업이익 2,692억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5조 3,948억 원·영업이익 3,570억 원이다.
+
+## 한국항공우주 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3조 8,193억 원 | 3조 6,337억 원 | 3조 6,964억 원 | 5조 3,948억 원 |
+| 영업이익 | 2,475억 원 | 2,407억 원 | 2,692억 원 | 3,570억 원 |
+| 당기순이익 | 2,214억 원 | 1,709억 원 | 1,873억 원 | 2,427억 원 |
+| 영업이익률 | 6.5% | 6.6% | 7.3% | 6.6% |
+| ROE | 14.8% | 10.4% | 10.5% | 12.5% |
+| EPS | 2,298원 | 1,765원 | 1,907원 | 2,475원 |
+| PER | 21.8배 | 31.1배 | 60.0배 | 52.7배 |
+| PBR | 3.05배 | 3.14배 | 6.09배 | 6.24배 |
+| 주당배당금 | 500원 | 500원 | 500원 | 674원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,475억 원이고, 주가는 한 해 -1.8% 움직였다. 2024년은 영업이익 2,407억 원 (전년보다 -3%)이고, 주가는 한 해 +9.8% 움직였다. 2025년은 영업이익 2,692억 원 (전년보다 +12%)이고, 주가는 한 해 +108.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국항공우주 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="252.3" y2="252.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="252.3" width="104.5" height="3.7" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-2%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="232.1" width="104.5" height="20.3" rx="3"/><text class="ic-val" x="346.0" y="226.1" text-anchor="middle">+10%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="224.3" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+108%</text></svg><figcaption>한국항공우주 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한국항공우주 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 8,283억 원 | 7,021억 원 | 1조 4,667억 원 | 1조 927억 원 | 1조 1,679억 원 | 1조 2,915억 원 |
+| 영업이익 | 852억 원 | 602억 원 | 770억 원 | 671억 원 | 484억 원 | 872억 원 |
+| 당기순이익 | 571억 원 | 390억 원 | 621억 원 | 413억 원 | 370억 원 | 656억 원 |
+| 영업이익률 | 10.3% | 8.6% | 5.2% | 6.1% | 4.2% | 6.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국항공우주 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="33.2" width="52.3" height="222.8" rx="3"/><text class="ic-val" x="112.7" y="27.2" text-anchor="middle">852억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="98.6" width="52.3" height="157.4" rx="3"/><text class="ic-val" x="206.0" y="92.6" text-anchor="middle">602억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="54.7" width="52.3" height="201.3" rx="3"/><text class="ic-val" x="299.3" y="48.7" text-anchor="middle">770억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="80.6" width="52.3" height="175.4" rx="3"/><text class="ic-val" x="392.7" y="74.6" text-anchor="middle">671억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="129.4" width="52.3" height="126.6" rx="3"/><text class="ic-val" x="486.0" y="123.4" text-anchor="middle">484억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">872억</text></svg><figcaption>한국항공우주 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

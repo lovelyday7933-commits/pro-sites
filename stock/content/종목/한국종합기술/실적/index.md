@@ -1,0 +1,53 @@
+---
+title: "한국종합기술 실적, 2025년 영업이익 60억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한국종합기술 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "023350"
+name: "한국종합기술"
+intent: "실적"
+chip: "023350 · 코스피 · 건축기술, 엔지니어링 및 관련 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "한국종합기술-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/건축기술,-엔지니어링-및-관련-기술-서비스업/", "label": "건축기술, 엔지니어링 및 관련 기술 서비스업"}, {"url": "/종목/한국종합기술/", "label": "한국종합기술"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한국종합기술/", "label": "한국종합기술 주가"}, {"url": "/종목/한국종합기술/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한국종합기술/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한국종합기술/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/유신/실적/", "label": "유신 실적"}, {"url": "/종목/희림/실적/", "label": "희림 실적"}, {"url": "/종목/앱튼/실적/", "label": "앱튼 실적"}, {"url": "/종목/한성크린텍/실적/", "label": "한성크린텍 실적"}, {"url": "/종목/성도이엔지/실적/", "label": "성도이엔지 실적"}, {"url": "/종목/제이오/실적/", "label": "제이오 실적"}, {"url": "/종목/도화엔지니어링/실적/", "label": "도화엔지니어링 실적"}, {"url": "/종목/한미글로벌/실적/", "label": "한미글로벌 실적"}]
+peers_head: "같은 업종(건축기술, 엔지니어링 및 관련 기술 서비스업) 다른 종목의 실적"
+---
+
+한국종합기술의 최근 연간 실적은 2023년 매출 3,769억 원·영업이익 40억 원, 2024년 매출 3,989억 원·영업이익 9억 원, 2025년 매출 4,129억 원·영업이익 60억 원이다.
+
+## 한국종합기술 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,769억 원 | 3,989억 원 | 4,129억 원 | — |
+| 영업이익 | 40억 원 | 9억 원 | 60억 원 | — |
+| 당기순이익 | 133억 원 | 62억 원 | 85억 원 | — |
+| 영업이익률 | 1.1% | 0.2% | 1.5% | — |
+| ROE | 8.7% | 4.0% | 5.2% | — |
+| EPS | 1,218원 | 569원 | 780원 | — |
+| PER | 4.8배 | 10.3배 | 6.2배 | — |
+| PBR | 0.39배 | 0.39배 | 0.29배 | — |
+| 주당배당금 | 100원 | 100원 | 150원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 40억 원이고, 주가는 한 해 -13.4% 움직였다. 2024년은 영업이익 9억 원 (전년보다 -78%)이고, 주가는 한 해 +0.7% 움직였다. 2025년은 영업이익 60억 원 (전년보다 +567%)이고, 주가는 한 해 -17.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국종합기술 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="36.5" y2="36.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="36.5" width="104.5" height="165.6" rx="3"/><text class="ic-val" x="159.3" y="216.1" text-anchor="middle">-13%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="8.5" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+1%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="36.5" width="104.5" height="219.5" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-18%</text></svg><figcaption>한국종합기술 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한국종합기술 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,018억 원 | 1,023억 원 | 1,225억 원 | 987억 원 | 996억 원 | — |
+| 영업이익 | 31억 원 | 12억 원 | 42억 원 | 40억 원 | 4억 원 | — |
+| 당기순이익 | 25억 원 | 18억 원 | 58억 원 | 40억 원 | 18억 원 | — |
+| 영업이익률 | 3.0% | 1.2% | 3.4% | 4.0% | 0.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한국종합기술 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="87.7" width="52.3" height="168.3" rx="3"/><text class="ic-val" x="112.7" y="81.7" text-anchor="middle">31억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="190.9" width="52.3" height="65.1" rx="3"/><text class="ic-val" x="206.0" y="184.9" text-anchor="middle">12억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">42억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="38.9" width="52.3" height="217.1" rx="3"/><text class="ic-val" x="392.7" y="32.9" text-anchor="middle">40억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="234.3" width="52.3" height="21.7" rx="3"/><text class="ic-val" x="486.0" y="228.3" text-anchor="middle">4억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>한국종합기술 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

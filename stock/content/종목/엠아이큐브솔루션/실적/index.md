@@ -1,0 +1,53 @@
+---
+title: "엠아이큐브솔루션 실적, 2025년 영업이익 9억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "엠아이큐브솔루션 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "373170"
+name: "엠아이큐브솔루션"
+intent: "실적"
+chip: "373170 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "엠아이큐브솔루션-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/엠아이큐브솔루션/", "label": "엠아이큐브솔루션"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/엠아이큐브솔루션/", "label": "엠아이큐브솔루션 주가"}, {"url": "/종목/엠아이큐브솔루션/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/엠아이큐브솔루션/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/신테카바이오/실적/", "label": "신테카바이오 실적"}, {"url": "/종목/심플랫폼/실적/", "label": "심플랫폼 실적"}, {"url": "/종목/유라클/실적/", "label": "유라클 실적"}, {"url": "/종목/플래티어/실적/", "label": "플래티어 실적"}, {"url": "/종목/한싹/실적/", "label": "한싹 실적"}, {"url": "/종목/싸이버원/실적/", "label": "싸이버원 실적"}, {"url": "/종목/디지캡/실적/", "label": "디지캡 실적"}, {"url": "/종목/바이브컴퍼니/실적/", "label": "바이브컴퍼니 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+엠아이큐브솔루션의 최근 연간 실적은 2023년 매출 242억 원·영업이익 18억 원, 2024년 매출 296억 원·영업이익 -11억 원, 2025년 매출 256억 원·영업이익 9억 원이다.
+
+## 엠아이큐브솔루션 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 242억 원 | 296억 원 | 256억 원 | — |
+| 영업이익 | 18억 원 | -11억 원 | 9억 원 | — |
+| 당기순이익 | 25억 원 | -1억 원 | 16억 원 | — |
+| 영업이익률 | 7.3% | -3.6% | 3.5% | — |
+| ROE | 17.7% | -0.6% | 7.1% | — |
+| EPS | 200원 | -9원 | 108원 | — |
+| PER | 25.2배 | -242.9배 | 21.6배 | — |
+| PBR | 3.28배 | 1.57배 | 1.49배 | — |
+| 주당배당금 | 67원 | — | 67원 | — |
+
+## 영업이익과 그해 주가
+
+2024년은 영업이익 -11억 원 (전년보다 -161%)이고, 주가는 한 해 -54.5% 움직였다. 2025년은 영업이익 9억 원 (전년보다 +182%)이고, 주가는 한 해 +1.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엠아이큐브솔루션 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="34.5" y2="34.5"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="127.6" y="34.5" width="156.8" height="221.5" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-55%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="6.5" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+2%</text></svg><figcaption>엠아이큐브솔루션 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 엠아이큐브솔루션 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 74억 원 | 61억 원 | 61억 원 | 44억 원 | 58억 원 | — |
+| 영업이익 | -2억 원 | 2억 원 | 16억 원 | -8억 원 | -3억 원 | — |
+| 당기순이익 | 0억 원 | 4억 원 | 18억 원 | -7억 원 | -2억 원 | — |
+| 영업이익률 | -3.2% | 2.6% | 26.1% | -18.9% | -5.5% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="엠아이큐브솔루션 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="180.0" y2="180.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="180.0" width="52.3" height="19.0" rx="3"/><text class="ic-val" x="112.7" y="213.0" text-anchor="middle">-2억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="161.0" width="52.3" height="19.0" rx="3"/><text class="ic-val" x="206.0" y="155.0" text-anchor="middle">2억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="152.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">16억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="180.0" width="52.3" height="76.0" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-8억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="180.0" width="52.3" height="28.5" rx="3"/><text class="ic-val" x="486.0" y="222.5" text-anchor="middle">-3억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>엠아이큐브솔루션 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "신도리코 실적, 2025년 영업이익 62억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "신도리코 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "029530"
+name: "신도리코"
+intent: "실적"
+chip: "029530 · 코스피 · 컴퓨터 및 주변장치 제조업 · 기준일 2026.09.11"
+utm_source: "신도리코-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/컴퓨터-및-주변장치-제조업/", "label": "컴퓨터 및 주변장치 제조업"}, {"url": "/종목/신도리코/", "label": "신도리코"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/신도리코/", "label": "신도리코 주가"}, {"url": "/종목/신도리코/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/신도리코/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/신도리코/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/빅솔론/실적/", "label": "빅솔론 실적"}, {"url": "/종목/아이디피/실적/", "label": "아이디피 실적"}, {"url": "/종목/코츠테크놀로지/실적/", "label": "코츠테크놀로지 실적"}, {"url": "/종목/푸른로보틱스/실적/", "label": "푸른로보틱스 실적"}, {"url": "/종목/앱코/실적/", "label": "앱코 실적"}, {"url": "/종목/포인트모바일/실적/", "label": "포인트모바일 실적"}, {"url": "/종목/에이루트/실적/", "label": "에이루트 실적"}, {"url": "/종목/딜리/실적/", "label": "딜리 실적"}]
+peers_head: "같은 업종(컴퓨터 및 주변장치 제조업) 다른 종목의 실적"
+---
+
+신도리코의 최근 연간 실적은 2023년 매출 4,026억 원·영업이익 301억 원, 2024년 매출 3,410억 원·영업이익 202억 원, 2025년 매출 3,173억 원·영업이익 62억 원이다.
+
+## 신도리코 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4,026억 원 | 3,410억 원 | 3,173억 원 | — |
+| 영업이익 | 301억 원 | 202억 원 | 62억 원 | — |
+| 당기순이익 | 550억 원 | 732억 원 | 201억 원 | — |
+| 영업이익률 | 7.5% | 5.9% | 2.0% | — |
+| ROE | 5.7% | 7.1% | 1.9% | — |
+| EPS | 5,455원 | 7,261원 | 1,991원 | — |
+| PER | 6.0배 | 5.2배 | 24.4배 | — |
+| PBR | 0.28배 | 0.30배 | 0.39배 | — |
+| 주당배당금 | 1,500원 | 1,500원 | 1,000원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 301억 원이고, 주가는 한 해 +1.1% 움직였다. 2024년은 영업이익 202억 원 (전년보다 -33%)이고, 주가는 한 해 +14.7% 움직였다. 2025년은 영업이익 62억 원 (전년보다 -69%)이고, 주가는 한 해 +29.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="신도리코 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="247.7" width="104.5" height="8.3" rx="3"/><text class="ic-val" x="159.3" y="241.7" text-anchor="middle">+1%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="142.9" width="104.5" height="113.1" rx="3"/><text class="ic-val" x="346.0" y="136.9" text-anchor="middle">+15%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+30%</text></svg><figcaption>신도리코 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 신도리코 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 712억 원 | 804억 원 | 867억 원 | 852억 원 | 713억 원 | — |
+| 영업이익 | -18억 원 | 15억 원 | 32억 원 | 29억 원 | -88억 원 | — |
+| 당기순이익 | -146억 원 | 135억 원 | 80억 원 | 194억 원 | -22억 원 | — |
+| 영업이익률 | -2.5% | 1.8% | 3.6% | 3.4% | -12.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="신도리코 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="88.8" y2="88.8"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="88.8" width="52.3" height="34.2" rx="3"/><text class="ic-val" x="112.7" y="137.0" text-anchor="middle">-18억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="60.3" width="52.3" height="28.5" rx="3"/><text class="ic-val" x="206.0" y="54.3" text-anchor="middle">15억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="60.8" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">32억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="33.7" width="52.3" height="55.1" rx="3"/><text class="ic-val" x="392.7" y="27.7" text-anchor="middle">29억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="88.8" width="52.3" height="167.2" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-88억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>신도리코 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

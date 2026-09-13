@@ -1,0 +1,53 @@
+---
+title: "우리손에프앤지 실적, 2025년 영업이익 327억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "우리손에프앤지 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "073560"
+name: "우리손에프앤지"
+intent: "실적"
+chip: "073560 · 코스닥 · 도축, 육류 가공 및 저장 처리업 · 기준일 2026.09.11"
+utm_source: "우리손에프앤지-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/도축,-육류-가공-및-저장-처리업/", "label": "도축, 육류 가공 및 저장 처리업"}, {"url": "/종목/우리손에프앤지/", "label": "우리손에프앤지"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/우리손에프앤지/", "label": "우리손에프앤지 주가"}, {"url": "/종목/우리손에프앤지/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/우리손에프앤지/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/우리손에프앤지/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/정다운/실적/", "label": "정다운 실적"}, {"url": "/종목/동우팜투테이블/실적/", "label": "동우팜투테이블 실적"}, {"url": "/종목/마니커/실적/", "label": "마니커 실적"}, {"url": "/종목/하림/실적/", "label": "하림 실적"}, {"url": "/종목/체리부로/실적/", "label": "체리부로 실적"}, {"url": "/종목/마니커에프앤지/실적/", "label": "마니커에프앤지 실적"}]
+peers_head: "같은 업종(도축, 육류 가공 및 저장 처리업) 다른 종목의 실적"
+---
+
+우리손에프앤지의 최근 연간 실적은 2023년 매출 2,793억 원·영업이익 46억 원, 2024년 매출 2,927억 원·영업이익 275억 원, 2025년 매출 2,871억 원·영업이익 327억 원이다.
+
+## 우리손에프앤지 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2,793억 원 | 2,927억 원 | 2,871억 원 | — |
+| 영업이익 | 46억 원 | 275억 원 | 327억 원 | — |
+| 당기순이익 | 17억 원 | 156억 원 | 236억 원 | — |
+| 영업이익률 | 1.7% | 9.4% | 11.4% | — |
+| ROE | 0.6% | 5.3% | 7.4% | — |
+| EPS | 22원 | 218원 | 344원 | — |
+| PER | 68.3배 | 5.7배 | 4.4배 | — |
+| PBR | 0.42배 | 0.27배 | 0.31배 | — |
+| 주당배당금 | 25원 | 70원 | 150원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 46억 원이고, 주가는 한 해 -14.9% 움직였다. 2024년은 영업이익 275억 원 (전년보다 +498%)이고, 주가는 한 해 -18.3% 움직였다. 2025년은 영업이익 327억 원 (전년보다 +19%)이고, 주가는 한 해 +20.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="우리손에프앤지 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="149.7" y2="149.7"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="149.7" width="104.5" height="86.6" rx="3"/><text class="ic-val" x="159.3" y="250.3" text-anchor="middle">-15%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="149.7" width="104.5" height="106.3" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-18%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="121.7" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+21%</text></svg><figcaption>우리손에프앤지 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 우리손에프앤지 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 708억 원 | 714억 원 | 753억 원 | 711억 원 | 770억 원 | — |
+| 영업이익 | 165억 원 | 186억 원 | -32억 원 | 27억 원 | 170억 원 | — |
+| 당기순이익 | 112억 원 | 160억 원 | -26억 원 | 8억 원 | 125억 원 | — |
+| 영업이익률 | 23.4% | 26.1% | -4.3% | 3.7% | 22.1% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="우리손에프앤지 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="222.5" y2="222.5"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="50.0" width="52.3" height="172.6" rx="3"/><text class="ic-val" x="112.7" y="44.0" text-anchor="middle">165억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="194.5" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">186억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="222.5" width="52.3" height="33.5" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-32억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="194.3" width="52.3" height="28.2" rx="3"/><text class="ic-val" x="392.7" y="188.3" text-anchor="middle">27억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="44.7" width="52.3" height="177.8" rx="3"/><text class="ic-val" x="486.0" y="38.7" text-anchor="middle">170억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>우리손에프앤지 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

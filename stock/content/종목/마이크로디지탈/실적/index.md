@@ -1,0 +1,53 @@
+---
+title: "마이크로디지탈 실적, 2025년 영업이익 -92억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "마이크로디지탈 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "305090"
+name: "마이크로디지탈"
+intent: "실적"
+chip: "305090 · 코스닥 · 의료용 기기 제조업 · 기준일 2026.09.11"
+utm_source: "마이크로디지탈-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의료용-기기-제조업/", "label": "의료용 기기 제조업"}, {"url": "/종목/마이크로디지탈/", "label": "마이크로디지탈"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/마이크로디지탈/", "label": "마이크로디지탈 주가"}, {"url": "/종목/마이크로디지탈/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/마이크로디지탈/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/마이크로디지탈/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/알파ai/실적/", "label": "알파AI 실적"}, {"url": "/종목/노을/실적/", "label": "노을 실적"}, {"url": "/종목/플라즈맵/실적/", "label": "플라즈맵 실적"}, {"url": "/종목/비스토스/실적/", "label": "비스토스 실적"}, {"url": "/종목/롤링스톤/실적/", "label": "롤링스톤 실적"}, {"url": "/종목/에스지헬스케어/실적/", "label": "에스지헬스케어 실적"}, {"url": "/종목/한국비티비/실적/", "label": "한국비티비 실적"}, {"url": "/종목/라메디텍/실적/", "label": "라메디텍 실적"}]
+peers_head: "같은 업종(의료용 기기 제조업) 다른 종목의 실적"
+---
+
+마이크로디지탈의 최근 연간 실적은 2023년 매출 108억 원·영업이익 9억 원, 2024년 매출 115억 원·영업이익 3억 원, 2025년 매출 128억 원·영업이익 -92억 원이다.
+
+## 마이크로디지탈 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 108억 원 | 115억 원 | 128억 원 | — |
+| 영업이익 | 9억 원 | 3억 원 | -92억 원 | — |
+| 당기순이익 | 6억 원 | 5억 원 | -131억 원 | — |
+| 영업이익률 | 8.1% | 2.4% | -71.4% | — |
+| ROE | 8.3% | 2.4% | -45.3% | — |
+| EPS | 38원 | 28원 | -719원 | — |
+| PER | 189.0배 | 356.1배 | -15.0배 | — |
+| PBR | 12.83배 | 5.82배 | 7.02배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 9억 원이고, 주가는 한 해 +106.7% 움직였다. 2024년은 영업이익 3억 원 (전년보다 -67%)이고, 주가는 한 해 +39.2% 움직였다. 2025년은 영업이익 -92억 원 (전년보다 -3167%)이고, 주가는 한 해 +9.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="마이크로디지탈 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+107%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="172.2" width="104.5" height="83.8" rx="3"/><text class="ic-val" x="346.0" y="166.2" text-anchor="middle">+39%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="236.4" width="104.5" height="19.6" rx="3"/><text class="ic-val" x="532.7" y="230.4" text-anchor="middle">+9%</text></svg><figcaption>마이크로디지탈 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 마이크로디지탈 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 32억 원 | 40억 원 | 25억 원 | 25억 원 | 11억 원 | — |
+| 영업이익 | -21억 원 | 1억 원 | -68억 원 | -39억 원 | -53억 원 | — |
+| 당기순이익 | -34억 원 | -2억 원 | -79억 원 | -43억 원 | -81억 원 | — |
+| 영업이익률 | -65.0% | 2.9% | -275.1% | -155.2% | -467.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="마이크로디지탈 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="31.3" y2="31.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="31.3" width="52.3" height="69.4" rx="3"/><text class="ic-val" x="112.7" y="114.7" text-anchor="middle">-21억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="3.3" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">1억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="31.3" width="52.3" height="224.7" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-68억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="31.3" width="52.3" height="128.9" rx="3"/><text class="ic-val" x="392.7" y="174.2" text-anchor="middle">-39억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="31.3" width="52.3" height="175.1" rx="3"/><text class="ic-val" x="486.0" y="220.4" text-anchor="middle">-53억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>마이크로디지탈 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

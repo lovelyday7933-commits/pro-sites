@@ -36,6 +36,13 @@
     (dict "v" (printf "%v / %d" $s.beat20 (len $rows)) "l" "평소보다 나았던 신호" "s" (printf "20%s 뒤 기준" $D))
     (dict "v" (printf "%+.2f" $top.e20) "u" "%p" "cls" (cond (ge $top.e20 0.0) "up" "dn") "l" "가장 나았던 신호" "s" $top.label))) }}
 <div class="site page">
+  {{- /* ★2026-09-13 검색어 칸 — 사람이 치는 말(주가 전망·배당금·목표주가·실적 / 전망·최고가)로 내려가는 길. 재료 = data/intent_index.json (intent.py) */}}
+  {{- with index (site.Data.intent_index | default dict) .Params.code }}
+  <section class="sec">
+    <div class="sec-h"><h2>{{ $s.name }} 더 보기</h2></div>
+    <ul class="links">{{ range . }}<li><a href="{{ index . 1 }}"><span>{{ $s.name }} {{ index . 0 }}</span><span class="v">보기</span></a></li>{{ end }}</ul>
+  </section>
+  {{- end }}
   <section class="sec">
     <div class="sec-h"><h2>{{ $s.name }}에서 신호가 뜬 뒤</h2></div>
     <div class="txt">{{ .Content }}</div>

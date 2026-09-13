@@ -1,0 +1,47 @@
+---
+title: "뉴키즈온 실적, 2025년 영업이익 7억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "뉴키즈온 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "462310"
+name: "뉴키즈온"
+intent: "실적"
+chip: "462310 · 코스닥 · 봉제의복 제조업 · 기준일 2026.09.11"
+utm_source: "뉴키즈온-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/봉제의복-제조업/", "label": "봉제의복 제조업"}, {"url": "/종목/뉴키즈온/", "label": "뉴키즈온"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/뉴키즈온/", "label": "뉴키즈온 주가"}, {"url": "/종목/뉴키즈온/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/뉴키즈온/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/메타랩스/실적/", "label": "메타랩스 실적"}, {"url": "/종목/비비안/실적/", "label": "비비안 실적"}, {"url": "/종목/그리티/실적/", "label": "그리티 실적"}, {"url": "/종목/배럴/실적/", "label": "배럴 실적"}, {"url": "/종목/씨싸이트/실적/", "label": "씨싸이트 실적"}, {"url": "/종목/형지엘리트/실적/", "label": "형지엘리트 실적"}, {"url": "/종목/에스티오/실적/", "label": "에스티오 실적"}, {"url": "/종목/지엔코/실적/", "label": "지엔코 실적"}]
+peers_head: "같은 업종(봉제의복 제조업) 다른 종목의 실적"
+---
+
+뉴키즈온의 최근 연간 실적은 2023년 매출 459억 원·영업이익 26억 원, 2024년 매출 504억 원·영업이익 45억 원, 2025년 매출 490억 원·영업이익 7억 원이다.
+
+## 뉴키즈온 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 459억 원 | 504억 원 | 490억 원 | — |
+| 영업이익 | 26억 원 | 45억 원 | 7억 원 | — |
+| 당기순이익 | 14억 원 | 22억 원 | -40억 원 | — |
+| 영업이익률 | 5.7% | 9.0% | 1.5% | — |
+| ROE | 8.6% | 8.3% | -10.3% | — |
+| EPS | 188원 | 278원 | -511원 | — |
+| PER | — | — | -11.2배 | — |
+| PBR | 0.00배 | 0.00배 | 1.02배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 뉴키즈온 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 124억 원 | 70억 원 | 179억 원 | 103억 원 | 168억 원 | — |
+| 영업이익 | 2억 원 | -14억 원 | 13억 원 | -5억 원 | 16억 원 | — |
+| 당기순이익 | -36억 원 | -12억 원 | 2억 원 | -5억 원 | 13억 원 | — |
+| 영업이익률 | 1.5% | -20.2% | 7.2% | -4.9% | 9.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="뉴키즈온 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="149.6" y2="149.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="134.4" width="52.3" height="15.2" rx="3"/><text class="ic-val" x="112.7" y="128.4" text-anchor="middle">2억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="149.6" width="52.3" height="106.4" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-14억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="50.8" width="52.3" height="98.8" rx="3"/><text class="ic-val" x="299.3" y="44.8" text-anchor="middle">13억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="149.6" width="52.3" height="38.0" rx="3"/><text class="ic-val" x="392.7" y="201.6" text-anchor="middle">-5억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="121.6" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">16억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>뉴키즈온 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

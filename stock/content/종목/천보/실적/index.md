@@ -1,0 +1,54 @@
+---
+title: "천보 실적, 2025년 영업이익 37억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "천보 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "278280"
+name: "천보"
+intent: "실적"
+chip: "278280 · 코스닥 · 기초 화학물질 제조업 · 기준일 2026.09.11"
+utm_source: "천보-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기초-화학물질-제조업/", "label": "기초 화학물질 제조업"}, {"url": "/종목/천보/", "label": "천보"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/천보/", "label": "천보 주가"}, {"url": "/종목/천보/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/천보/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/천보/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/천보/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/성일하이텍/실적/", "label": "성일하이텍 실적"}, {"url": "/종목/엔켐/실적/", "label": "엔켐 실적"}, {"url": "/종목/동성화인텍/실적/", "label": "동성화인텍 실적"}, {"url": "/종목/애경케미칼/실적/", "label": "애경케미칼 실적"}, {"url": "/종목/유니드/실적/", "label": "유니드 실적"}, {"url": "/종목/kpx홀딩스/실적/", "label": "KPX홀딩스 실적"}, {"url": "/종목/원익머트리얼즈/실적/", "label": "원익머트리얼즈 실적"}, {"url": "/종목/엘티씨/실적/", "label": "엘티씨 실적"}]
+peers_head: "같은 업종(기초 화학물질 제조업) 다른 종목의 실적"
+---
+
+천보의 최근 연간 실적은 2023년 매출 1,827억 원·영업이익 -80억 원, 2024년 매출 1,449억 원·영업이익 -228억 원, 2025년 매출 1,338억 원·영업이익 37억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2,016억 원·영업이익 -91억 원이다.
+
+## 천보 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,827억 원 | 1,449억 원 | 1,338억 원 | 2,016억 원 |
+| 영업이익 | -80억 원 | -228억 원 | 37억 원 | -91억 원 |
+| 당기순이익 | -455억 원 | -323억 원 | -600억 원 | -257억 원 |
+| 영업이익률 | -4.4% | -15.7% | 2.8% | -4.5% |
+| ROE | -13.1% | -8.3% | -14.6% | -5.9% |
+| EPS | -4,175원 | -2,740원 | -5,710원 | -1,988원 |
+| PER | -26.4배 | -13.3배 | -8.6배 | -19.2배 |
+| PBR | 3.69배 | 0.99배 | 1.35배 | 1.17배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -80억 원이고, 주가는 한 해 -49.5% 움직였다. 2024년은 영업이익 -228억 원 (전년보다 -185%)이고, 주가는 한 해 -67.0% 움직였다. 2025년은 영업이익 37억 원 (전년보다 +116%)이고, 주가는 한 해 +35.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="천보 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="106.5" y2="106.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="106.5" width="104.5" height="110.4" rx="3"/><text class="ic-val" x="159.3" y="231.0" text-anchor="middle">-50%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="106.5" width="104.5" height="149.5" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-67%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="78.5" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+35%</text></svg><figcaption>천보 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 천보 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 331억 원 | 306억 원 | 346억 원 | 408억 원 | 510억 원 | 506억 원 |
+| 영업이익 | 29억 원 | 6억 원 | -25억 원 | -34억 원 | -38억 원 | -33억 원 |
+| 당기순이익 | -59억 원 | -35억 원 | -512억 원 | -95억 원 | -28억 원 | -41억 원 |
+| 영업이익률 | 8.7% | 1.8% | -7.4% | -8.4% | -7.5% | -6.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="천보 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="126.7" y2="126.7"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="98.7" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">29억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="106.3" width="52.3" height="20.4" rx="3"/><text class="ic-val" x="206.0" y="100.3" text-anchor="middle">6억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="126.7" width="52.3" height="85.1" rx="3"/><text class="ic-val" x="299.3" y="225.8" text-anchor="middle">-25억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="126.7" width="52.3" height="115.7" rx="3"/><text class="ic-val" x="392.7" y="256.4" text-anchor="middle">-34억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="126.7" width="52.3" height="129.3" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-38억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar dn est" x="553.2" y="126.7" width="52.3" height="112.3" rx="3"/><text class="ic-val" x="579.3" y="253.0" text-anchor="middle">-33억</text></svg><figcaption>천보 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "한스바이오메드 실적, 2025년 9월 결산 영업이익 -259억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한스바이오메드 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "042520"
+name: "한스바이오메드"
+intent: "실적"
+chip: "042520 · 코스닥 · 의료용품 및 기타 의약 관련제품 제조업 · 기준일 2026.09.11"
+utm_source: "한스바이오메드-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의료용품-및-기타-의약-관련제품-제조업/", "label": "의료용품 및 기타 의약 관련제품 제조업"}, {"url": "/종목/한스바이오메드/", "label": "한스바이오메드"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한스바이오메드/", "label": "한스바이오메드 주가"}, {"url": "/종목/한스바이오메드/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한스바이오메드/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한스바이오메드/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한스바이오메드/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/hlb생명과학/실적/", "label": "HLB생명과학 실적"}, {"url": "/종목/바이오니아/실적/", "label": "바이오니아 실적"}, {"url": "/종목/제테마/실적/", "label": "제테마 실적"}, {"url": "/종목/바디텍메드/실적/", "label": "바디텍메드 실적"}, {"url": "/종목/앱클론/실적/", "label": "앱클론 실적"}, {"url": "/종목/티앤엘/실적/", "label": "티앤엘 실적"}, {"url": "/종목/나이벡/실적/", "label": "나이벡 실적"}, {"url": "/종목/바이오노트/실적/", "label": "바이오노트 실적"}]
+peers_head: "같은 업종(의료용품 및 기타 의약 관련제품 제조업) 다른 종목의 실적"
+---
+
+한스바이오메드의 최근 연간 실적은 2023년 매출 780억 원·영업이익 -42억 원, 2024년 매출 811억 원·영업이익 6억 원, 2025년 매출 898억 원·영업이익 -259억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,399억 원·영업이익 155억 원이다.
+
+## 한스바이오메드 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 780억 원 | 811억 원 | 898억 원 | 1,399억 원 |
+| 영업이익 | -42억 원 | 6억 원 | -259억 원 | 155억 원 |
+| 당기순이익 | -241억 원 | -78억 원 | -321억 원 | 114억 원 |
+| 영업이익률 | -5.3% | 0.8% | -28.8% | 11.1% |
+| ROE | -48.6% | -12.4% | -62.3% | 24.9% |
+| EPS | -2,047원 | -535원 | -2,317원 | 861원 |
+| PER | -8.8배 | -18.4배 | -7.8배 | 22.9배 |
+| PBR | 4.22배 | 1.91배 | 7.00배 | 4.40배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -42억 원이고, 주가는 한 해 +49.2% 움직였다. 2024년은 영업이익 6억 원 (전년보다 +114%)이고, 주가는 한 해 -39.9% 움직였다. 2025년은 영업이익 -259억 원 (전년보다 -4417%)이고, 주가는 한 해 +212.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한스바이오메드 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="220.0" y2="220.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="175.6" width="104.5" height="44.4" rx="3"/><text class="ic-val" x="159.3" y="169.6" text-anchor="middle">+49%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="220.0" width="104.5" height="36.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-40%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="192.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+213%</text></svg><figcaption>한스바이오메드 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한스바이오메드 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 220억 원 | 237억 원 | 303억 원 | 345억 원 | 363억 원 | 388억 원 |
+| 영업이익 | 0억 원 | -270억 원 | 21억 원 | 44억 원 | 41억 원 | 49억 원 |
+| 당기순이익 | -34억 원 | -279억 원 | 19억 원 | 37억 원 | 18억 원 | 31억 원 |
+| 영업이익률 | 0.2% | -113.6% | 6.8% | 12.9% | 11.3% | 12.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한스바이오메드 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="63.0" y2="63.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="63.0" width="52.3" height="1.0" rx="3"/><text class="ic-val" x="112.7" y="57.0" text-anchor="middle">0억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="63.0" width="52.3" height="193.0" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-270억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="48.0" width="52.3" height="15.0" rx="3"/><text class="ic-val" x="299.3" y="42.0" text-anchor="middle">21억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="31.6" width="52.3" height="31.4" rx="3"/><text class="ic-val" x="392.7" y="25.6" text-anchor="middle">44억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="33.7" width="52.3" height="29.3" rx="3"/><text class="ic-val" x="486.0" y="27.7" text-anchor="middle">41억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="35.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">49억</text></svg><figcaption>한스바이오메드 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "삼성FN리츠 실적, 2026년 4월 결산 영업이익 89억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "삼성FN리츠 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "448730"
+name: "삼성FN리츠"
+intent: "실적"
+chip: "448730 · 코스피 · 부동산 임대 및 공급업 · 기준일 2026.09.11"
+utm_source: "삼성fn리츠-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/부동산-임대-및-공급업/", "label": "부동산 임대 및 공급업"}, {"url": "/종목/삼성fn리츠/", "label": "삼성FN리츠"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/삼성fn리츠/", "label": "삼성FN리츠 주가"}, {"url": "/종목/삼성fn리츠/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/삼성fn리츠/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/삼성fn리츠/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/자이에스앤디/실적/", "label": "자이에스앤디 실적"}, {"url": "/종목/코람코라이프인프라리츠/실적/", "label": "코람코라이프인프라리츠 실적"}, {"url": "/종목/신한알파리츠/실적/", "label": "신한알파리츠 실적"}, {"url": "/종목/esr켄달스퀘어리츠/실적/", "label": "ESR켄달스퀘어리츠 실적"}, {"url": "/종목/이지스밸류플러스리츠/실적/", "label": "이지스밸류플러스리츠 실적"}, {"url": "/종목/한화리츠/실적/", "label": "한화리츠 실적"}, {"url": "/종목/kb스타리츠/실적/", "label": "KB스타리츠 실적"}, {"url": "/종목/제이알글로벌리츠/실적/", "label": "제이알글로벌리츠 실적"}]
+peers_head: "같은 업종(부동산 임대 및 공급업) 다른 종목의 실적"
+---
+
+삼성FN리츠의 최근 연간 실적은 2025년 매출 122억 원·영업이익 74억 원, 2026년 매출 122억 원·영업이익 86억 원, 2026년 매출 134억 원·영업이익 89억 원이다.
+
+## 삼성FN리츠 연간 실적
+
+| 항목 | 2025 | 2026 | 2026 | 2027(추정) |
+|---|---|---|---|---|
+| 매출액 | 122억 원 | 122억 원 | 134억 원 | — |
+| 영업이익 | 74억 원 | 86억 원 | 89억 원 | — |
+| 당기순이익 | 31억 원 | 43억 원 | 33억 원 | — |
+| 영업이익률 | 60.5% | 70.3% | 66.7% | — |
+| ROE | 0.7% | 1.1% | 0.8% | — |
+| EPS | 34원 | 47원 | 36원 | — |
+| PER | 134.6배 | 103.8배 | 174.0배 | — |
+| PBR | 1.02배 | 1.11배 | 1.41배 | — |
+| 주당배당금 | 69원 | 69원 | 69원 | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 74억 원이고, 주가는 한 해 +2.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼성FN리츠 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+2%</text></svg><figcaption>삼성FN리츠 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 삼성FN리츠 분기 실적
+
+| 항목 | 2025.04 | 2025.07 | 2025.10 | 2026.01 | 2026.04 | 2026.07(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 118억 원 | 122억 원 | 122억 원 | 122억 원 | 134억 원 | — |
+| 영업이익 | 82억 원 | 75억 원 | 74억 원 | 86억 원 | 89억 원 | — |
+| 당기순이익 | 35억 원 | 31억 원 | 31억 원 | 43억 원 | 33억 원 | — |
+| 영업이익률 | 69.5% | 62.1% | 60.5% | 70.3% | 66.7% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼성FN리츠 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.04</text><rect class="ic-bar up" x="86.5" y="45.9" width="52.3" height="210.1" rx="3"/><text class="ic-val" x="112.7" y="39.9" text-anchor="middle">82억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.07</text><rect class="ic-bar up" x="179.9" y="63.9" width="52.3" height="192.1" rx="3"/><text class="ic-val" x="206.0" y="57.9" text-anchor="middle">75억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.10</text><rect class="ic-bar up" x="273.2" y="66.4" width="52.3" height="189.6" rx="3"/><text class="ic-val" x="299.3" y="60.4" text-anchor="middle">74억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.01</text><rect class="ic-bar up" x="366.5" y="35.7" width="52.3" height="220.3" rx="3"/><text class="ic-val" x="392.7" y="29.7" text-anchor="middle">86억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.04</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">89억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.07</text></svg><figcaption>삼성FN리츠 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

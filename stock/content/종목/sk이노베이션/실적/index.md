@@ -1,0 +1,54 @@
+---
+title: "SK이노베이션 실적, 2025년 영업이익 4,487억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "SK이노베이션 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "096770"
+name: "SK이노베이션"
+intent: "실적"
+chip: "096770 · 코스피 · 석유 정제품 제조업 · 기준일 2026.09.11"
+utm_source: "sk이노베이션-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/석유-정제품-제조업/", "label": "석유 정제품 제조업"}, {"url": "/종목/sk이노베이션/", "label": "SK이노베이션"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/sk이노베이션/", "label": "SK이노베이션 주가"}, {"url": "/종목/sk이노베이션/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/sk이노베이션/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/sk이노베이션/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/sk이노베이션/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/s-oil/실적/", "label": "S-Oil 실적"}, {"url": "/종목/한국쉘석유/실적/", "label": "한국쉘석유 실적"}, {"url": "/종목/미창석유공업/실적/", "label": "미창석유공업 실적"}, {"url": "/종목/극동유화/실적/", "label": "극동유화 실적"}]
+peers_head: "같은 업종(석유 정제품 제조업) 다른 종목의 실적"
+---
+
+SK이노베이션의 최근 연간 실적은 2023년 매출 77조 2,885억 원·영업이익 1조 9,039억 원, 2024년 매출 74조 2,696억 원·영업이익 3,557억 원, 2025년 매출 80조 2,961억 원·영업이익 4,487억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 104조 1,172억 원·영업이익 8조 7,325억 원이다.
+
+## SK이노베이션 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 77조 2,885억 원 | 74조 2,696억 원 | 80조 2,961억 원 | 104조 1,172억 원 |
+| 영업이익 | 1조 9,039억 원 | 3,557억 원 | 4,487억 원 | 8조 7,325억 원 |
+| 당기순이익 | 5,549억 원 | -2조 3,725억 원 | -5조 4,364억 원 | 3조 1,785억 원 |
+| 영업이익률 | 2.5% | 0.5% | 0.6% | 8.4% |
+| ROE | 1.2% | -9.7% | -14.4% | 12.2% |
+| EPS | 2,624원 | -21,236원 | -21,056원 | 17,090원 |
+| PER | 53.5배 | -5.3배 | -4.8배 | 8.5배 |
+| PBR | 0.61배 | 0.68배 | 0.78배 | 0.95배 |
+| 주당배당금 | — | 2,000원 | — | 2,600원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1조 9,039억 원이고, 주가는 한 해 -7.4% 움직였다. 2024년은 영업이익 3,557억 원 (전년보다 -81%)이고, 주가는 한 해 -20.2% 움직였다. 2025년은 영업이익 4,487억 원 (전년보다 +26%)이고, 주가는 한 해 -9.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK이노베이션 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="83.8" rx="3"/><text class="ic-val" x="159.3" y="125.8" text-anchor="middle">-7%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-20%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="109.0" rx="3"/><text class="ic-val" x="532.7" y="151.0" text-anchor="middle">-10%</text></svg><figcaption>SK이노베이션 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## SK이노베이션 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 19조 4,532억 원 | 20조 5,332억 원 | 19조 3,097억 원 | 24조 2,121억 원 | 29조 1,572억 원 | 26조 1,092억 원 |
+| 영업이익 | -4,016억 원 | 5,735억 원 | 3,374억 원 | 2조 1,622억 원 | 3조 4,873억 원 | 1조 7,066억 원 |
+| 당기순이익 | -1조 322억 원 | -943억 원 | -4조 1,844억 원 | 8,961억 원 | 735억 원 | 1조 713억 원 |
+| 영업이익률 | -2.1% | 2.8% | 1.8% | 8.9% | 12.0% | 6.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="SK이노베이션 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="232.5" y2="232.5"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="232.5" width="52.3" height="23.5" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-4,016억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="198.8" width="52.3" height="33.6" rx="3"/><text class="ic-val" x="206.0" y="192.8" text-anchor="middle">5,735억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="212.7" width="52.3" height="19.8" rx="3"/><text class="ic-val" x="299.3" y="206.7" text-anchor="middle">3,374억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="105.7" width="52.3" height="126.8" rx="3"/><text class="ic-val" x="392.7" y="99.7" text-anchor="middle">2조 1,622억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="204.5" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">3조 4,873억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="132.4" width="52.3" height="100.1" rx="3"/><text class="ic-val" x="579.3" y="126.4" text-anchor="middle">1조 7,066억</text></svg><figcaption>SK이노베이션 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

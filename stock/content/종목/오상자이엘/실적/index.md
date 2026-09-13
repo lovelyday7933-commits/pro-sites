@@ -1,0 +1,53 @@
+---
+title: "오상자이엘 실적, 2025년 영업이익 110억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "오상자이엘 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "053980"
+name: "오상자이엘"
+intent: "실적"
+chip: "053980 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "오상자이엘-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/오상자이엘/", "label": "오상자이엘"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/오상자이엘/", "label": "오상자이엘 주가"}, {"url": "/종목/오상자이엘/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/오상자이엘/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/오상자이엘/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/액토즈소프트/실적/", "label": "액토즈소프트 실적"}, {"url": "/종목/코어라인소프트/실적/", "label": "코어라인소프트 실적"}, {"url": "/종목/다산디엠씨/실적/", "label": "다산디엠씨 실적"}, {"url": "/종목/파수ai/실적/", "label": "파수AI 실적"}, {"url": "/종목/시큐레터/실적/", "label": "시큐레터 실적"}, {"url": "/종목/사이냅소프트/실적/", "label": "사이냅소프트 실적"}, {"url": "/종목/비아이매트릭스/실적/", "label": "비아이매트릭스 실적"}, {"url": "/종목/포시에스/실적/", "label": "포시에스 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+오상자이엘의 최근 연간 실적은 2023년 매출 1,033억 원·영업이익 63억 원, 2024년 매출 1,169억 원·영업이익 80억 원, 2025년 매출 1,364억 원·영업이익 110억 원이다.
+
+## 오상자이엘 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,033억 원 | 1,169억 원 | 1,364억 원 | — |
+| 영업이익 | 63억 원 | 80억 원 | 110억 원 | — |
+| 당기순이익 | 239억 원 | 64억 원 | 104억 원 | — |
+| 영업이익률 | 6.1% | 6.8% | 8.1% | — |
+| ROE | 28.4% | 6.4% | 9.7% | — |
+| EPS | 1,257원 | 335원 | 546원 | — |
+| PER | 4.4배 | 10.0배 | 6.3배 | — |
+| PBR | 1.09배 | 0.61배 | 0.60배 | — |
+| 주당배당금 | — | 300원 | 150원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 63억 원이고, 주가는 한 해 +20.9% 움직였다. 2024년은 영업이익 80억 원 (전년보다 +27%)이고, 주가는 한 해 -39.5% 움직였다. 2025년은 영업이익 110억 원 (전년보다 +38%)이고, 주가는 한 해 +2.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="오상자이엘 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="107.0" y2="107.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="79.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="107.0" width="104.5" height="149.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-39%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="99.2" width="104.5" height="7.9" rx="3"/><text class="ic-val" x="532.7" y="93.2" text-anchor="middle">+2%</text></svg><figcaption>오상자이엘 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 오상자이엘 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 353억 원 | 308억 원 | 416억 원 | 285억 원 | 294억 원 | — |
+| 영업이익 | 31억 원 | 29억 원 | 23억 원 | 23억 원 | 21억 원 | — |
+| 당기순이익 | 18억 원 | 35억 원 | 18억 원 | 22억 원 | 39억 원 | — |
+| 영업이익률 | 8.7% | 9.5% | 5.4% | 7.9% | 7.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="오상자이엘 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">31억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="42.7" width="52.3" height="213.3" rx="3"/><text class="ic-val" x="206.0" y="36.7" text-anchor="middle">29억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="86.8" width="52.3" height="169.2" rx="3"/><text class="ic-val" x="299.3" y="80.8" text-anchor="middle">23억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="86.8" width="52.3" height="169.2" rx="3"/><text class="ic-val" x="392.7" y="80.8" text-anchor="middle">23억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="101.5" width="52.3" height="154.5" rx="3"/><text class="ic-val" x="486.0" y="95.5" text-anchor="middle">21억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>오상자이엘 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,48 @@
+---
+title: "지씨지놈 실적, 2025년 영업이익 12억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "지씨지놈 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "340450"
+name: "지씨지놈"
+intent: "실적"
+chip: "340450 · 코스닥 · 그외 기타 전문, 과학 및 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "지씨지놈-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/그외-기타-전문,-과학-및-기술-서비스업/", "label": "그외 기타 전문, 과학 및 기술 서비스업"}, {"url": "/종목/지씨지놈/", "label": "지씨지놈"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/지씨지놈/", "label": "지씨지놈 주가"}, {"url": "/종목/지씨지놈/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/지씨지놈/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/우진엔텍/실적/", "label": "우진엔텍 실적"}, {"url": "/종목/마크로젠/실적/", "label": "마크로젠 실적"}, {"url": "/종목/아이텍/실적/", "label": "아이텍 실적"}, {"url": "/종목/큐알티/실적/", "label": "큐알티 실적"}, {"url": "/종목/그리드위즈/실적/", "label": "그리드위즈 실적"}, {"url": "/종목/지씨셀/실적/", "label": "지씨셀 실적"}, {"url": "/종목/페스카로/실적/", "label": "페스카로 실적"}, {"url": "/종목/네패스아크/실적/", "label": "네패스아크 실적"}]
+peers_head: "같은 업종(그외 기타 전문, 과학 및 기술 서비스업) 다른 종목의 실적"
+---
+
+지씨지놈의 최근 연간 실적은 2023년 매출 273억 원·영업이익 2억 원, 2024년 매출 259억 원·영업이익 -12억 원, 2025년 매출 315억 원·영업이익 12억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 383억 원·영업이익 31억 원이다.
+
+## 지씨지놈 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 273억 원 | 259억 원 | 315억 원 | 383억 원 |
+| 영업이익 | 2억 원 | -12억 원 | 12억 원 | 31억 원 |
+| 당기순이익 | -6억 원 | -13억 원 | 40억 원 | 62억 원 |
+| 영업이익률 | 0.6% | -4.8% | 3.9% | 8.2% |
+| ROE | -2.1% | -4.3% | 7.3% | 7.6% |
+| EPS | -30원 | -69원 | 184원 | 262원 |
+| PER | — | — | 37.0배 | 22.2배 |
+| PBR | 0.00배 | 0.00배 | 2.06배 | 1.64배 |
+| 주당배당금 | — | — | — | 50원 |
+
+## 지씨지놈 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 78억 원 | 88억 원 | 81억 원 | 74억 원 | 83억 원 | 117억 원 |
+| 영업이익 | 3억 원 | 8억 원 | 2억 원 | 1억 원 | 4억 원 | 17억 원 |
+| 당기순이익 | -1억 원 | 14억 원 | 24억 원 | 8억 원 | 8억 원 | — |
+| 영업이익률 | 3.7% | 8.8% | 2.5% | 1.9% | 5.2% | 14.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="지씨지놈 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="215.8" width="52.3" height="40.2" rx="3"/><text class="ic-val" x="112.7" y="209.8" text-anchor="middle">3억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="148.7" width="52.3" height="107.3" rx="3"/><text class="ic-val" x="206.0" y="142.7" text-anchor="middle">8억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="229.2" width="52.3" height="26.8" rx="3"/><text class="ic-val" x="299.3" y="223.2" text-anchor="middle">2억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="242.6" width="52.3" height="13.4" rx="3"/><text class="ic-val" x="392.7" y="236.6" text-anchor="middle">1억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="202.4" width="52.3" height="53.6" rx="3"/><text class="ic-val" x="486.0" y="196.4" text-anchor="middle">4억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">17억</text></svg><figcaption>지씨지놈 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "에이프릴바이오 실적, 2025년 영업이익 -73억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "에이프릴바이오 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "397030"
+name: "에이프릴바이오"
+intent: "실적"
+chip: "397030 · 코스닥 · 자연과학 및 공학 연구개발업 · 기준일 2026.09.11"
+utm_source: "에이프릴바이오-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자연과학-및-공학-연구개발업/", "label": "자연과학 및 공학 연구개발업"}, {"url": "/종목/에이프릴바이오/", "label": "에이프릴바이오"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/에이프릴바이오/", "label": "에이프릴바이오 주가"}, {"url": "/종목/에이프릴바이오/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/에이프릴바이오/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/에이프릴바이오/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/에이프릴바이오/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/페니트리움바이오/실적/", "label": "페니트리움바이오 실적"}, {"url": "/종목/지아이이노베이션/실적/", "label": "지아이이노베이션 실적"}, {"url": "/종목/프레스티지바이오파마/실적/", "label": "프레스티지바이오파마 실적"}, {"url": "/종목/큐로셀/실적/", "label": "큐로셀 실적"}, {"url": "/종목/인벤티지랩/실적/", "label": "인벤티지랩 실적"}, {"url": "/종목/온코닉테라퓨틱스/실적/", "label": "온코닉테라퓨틱스 실적"}, {"url": "/종목/신라젠/실적/", "label": "신라젠 실적"}, {"url": "/종목/프로티나/실적/", "label": "프로티나 실적"}]
+peers_head: "같은 업종(자연과학 및 공학 연구개발업) 다른 종목의 실적"
+---
+
+에이프릴바이오의 최근 연간 실적은 2022년 매출 2억 원·영업이익 -115억 원, 2024년 매출 275억 원·영업이익 169억 원, 2025년 매출 22억 원·영업이익 -73억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 80억 원·영업이익 -50억 원이다.
+
+## 에이프릴바이오 연간 실적
+
+| 항목 | 2022 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 2억 원 | 275억 원 | 22억 원 | 80억 원 |
+| 영업이익 | -115억 원 | 169억 원 | -73억 원 | -50억 원 |
+| 당기순이익 | -90억 원 | 200억 원 | -97억 원 | -60억 원 |
+| 영업이익률 | -5737.1% | 61.3% | -334.4% | -62.5% |
+| ROE | -14.2% | 26.9% | -10.4% | -6.5% |
+| EPS | -458원 | 913원 | -429원 | -219원 |
+| PER | -19.2배 | 17.8배 | -127.9배 | -78.2배 |
+| PBR | 2.68배 | 3.99배 | 13.23배 | 6.38배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2024년은 영업이익 169억 원이고, 주가는 한 해 -3.9% 움직였다. 2025년은 영업이익 -73억 원 (전년보다 -143%)이고, 주가는 한 해 +238.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에이프릴바이오 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="252.4" y2="252.4"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="127.6" y="252.4" width="156.8" height="3.6" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-4%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="224.4" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+239%</text></svg><figcaption>에이프릴바이오 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 에이프릴바이오 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | — | — | — | 7억 원 | — | — |
+| 영업이익 | -27억 원 | -25억 원 | -20억 원 | -22억 원 | -29억 원 | — |
+| 당기순이익 | -31억 원 | -50억 원 | -23억 원 | 2억 원 | -20억 원 | — |
+| 영업이익률 | — | — | — | -302.3% | — | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에이프릴바이오 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="212.3" rx="3"/><text class="ic-val" x="112.7" y="254.3" text-anchor="middle">-27억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="196.6" rx="3"/><text class="ic-val" x="206.0" y="238.6" text-anchor="middle">-25억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="157.2" rx="3"/><text class="ic-val" x="299.3" y="199.2" text-anchor="middle">-20억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="173.0" rx="3"/><text class="ic-val" x="392.7" y="215.0" text-anchor="middle">-22억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-29억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>에이프릴바이오 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

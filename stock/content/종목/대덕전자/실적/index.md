@@ -1,0 +1,54 @@
+---
+title: "대덕전자 실적, 2025년 영업이익 491억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "대덕전자 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "353200"
+name: "대덕전자"
+intent: "실적"
+chip: "353200 · 코스피 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "대덕전자-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/대덕전자/", "label": "대덕전자"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/대덕전자/", "label": "대덕전자 주가"}, {"url": "/종목/대덕전자/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/대덕전자/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/대덕전자/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/대덕전자/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/심텍/실적/", "label": "심텍 실적"}, {"url": "/종목/리노공업/실적/", "label": "리노공업 실적"}, {"url": "/종목/lg디스플레이/실적/", "label": "LG디스플레이 실적"}, {"url": "/종목/이수페타시스/실적/", "label": "이수페타시스 실적"}, {"url": "/종목/롯데에너지머티리얼즈/실적/", "label": "롯데에너지머티리얼즈 실적"}, {"url": "/종목/lg이노텍/실적/", "label": "LG이노텍 실적"}, {"url": "/종목/한화시스템/실적/", "label": "한화시스템 실적"}, {"url": "/종목/삼화콘덴서공업/실적/", "label": "삼화콘덴서공업 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+대덕전자의 최근 연간 실적은 2023년 매출 9,097억 원·영업이익 237억 원, 2024년 매출 8,921억 원·영업이익 113억 원, 2025년 매출 1조 653억 원·영업이익 491억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 6,029억 원·영업이익 2,763억 원이다.
+
+## 대덕전자 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 9,097억 원 | 8,921억 원 | 1조 653억 원 | 1조 6,029억 원 |
+| 영업이익 | 237억 원 | 113억 원 | 491억 원 | 2,763억 원 |
+| 당기순이익 | 254억 원 | 238억 원 | 476억 원 | 2,304억 원 |
+| 영업이익률 | 2.6% | 1.3% | 4.6% | 17.2% |
+| ROE | 2.9% | 2.7% | 5.4% | 23.1% |
+| EPS | 493원 | 461원 | 924원 | 4,471원 |
+| PER | 54.9배 | 33.6배 | 51.0배 | 22.4배 |
+| PBR | 1.60배 | 0.91배 | 2.70배 | 4.68배 |
+| 주당배당금 | 300원 | 400원 | 500원 | 505원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 237억 원이고, 주가는 한 해 +43.1% 움직였다. 2024년은 영업이익 113억 원 (전년보다 -52%)이고, 주가는 한 해 -42.7% 움직였다. 2025년은 영업이익 491억 원 (전년보다 +335%)이고, 주가는 한 해 +203.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="대덕전자 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="216.5" y2="216.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="176.6" width="104.5" height="39.9" rx="3"/><text class="ic-val" x="159.3" y="170.6" text-anchor="middle">+43%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="216.5" width="104.5" height="39.5" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-43%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="188.5" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+204%</text></svg><figcaption>대덕전자 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 대덕전자 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,459억 원 | 2,862억 원 | 3,179억 원 | 3,463억 원 | 4,010억 원 | 4,152억 원 |
+| 영업이익 | 19억 원 | 244억 원 | 289억 원 | 513억 원 | 703억 원 | 766억 원 |
+| 당기순이익 | 44억 원 | 233억 원 | 256억 원 | 455억 원 | 577억 원 | 546억 원 |
+| 영업이익률 | 0.8% | 8.5% | 9.1% | 14.8% | 17.5% | 18.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="대덕전자 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="250.3" width="52.3" height="5.7" rx="3"/><text class="ic-val" x="112.7" y="244.3" text-anchor="middle">19억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="183.4" width="52.3" height="72.6" rx="3"/><text class="ic-val" x="206.0" y="177.4" text-anchor="middle">244억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="170.0" width="52.3" height="86.0" rx="3"/><text class="ic-val" x="299.3" y="164.0" text-anchor="middle">289억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="103.3" width="52.3" height="152.7" rx="3"/><text class="ic-val" x="392.7" y="97.3" text-anchor="middle">513억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="46.8" width="52.3" height="209.2" rx="3"/><text class="ic-val" x="486.0" y="40.8" text-anchor="middle">703억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">766억</text></svg><figcaption>대덕전자 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

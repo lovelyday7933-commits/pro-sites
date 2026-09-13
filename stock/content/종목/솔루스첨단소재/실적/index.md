@@ -1,0 +1,54 @@
+---
+title: "솔루스첨단소재 실적, 2025년 영업이익 -733억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "솔루스첨단소재 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "336370"
+name: "솔루스첨단소재"
+intent: "실적"
+chip: "336370 · 코스피 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "솔루스첨단소재-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/솔루스첨단소재/", "label": "솔루스첨단소재"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/솔루스첨단소재/", "label": "솔루스첨단소재 주가"}, {"url": "/종목/솔루스첨단소재/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/솔루스첨단소재/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/솔루스첨단소재/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/솔루스첨단소재/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/자화전자/실적/", "label": "자화전자 실적"}, {"url": "/종목/솔루엠/실적/", "label": "솔루엠 실적"}, {"url": "/종목/에프에스티/실적/", "label": "에프에스티 실적"}, {"url": "/종목/비에이치/실적/", "label": "비에이치 실적"}, {"url": "/종목/hlb이노베이션/실적/", "label": "HLB이노베이션 실적"}, {"url": "/종목/파미셀/실적/", "label": "파미셀 실적"}, {"url": "/종목/티에프이/실적/", "label": "티에프이 실적"}, {"url": "/종목/씨엠티엑스/실적/", "label": "씨엠티엑스 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+솔루스첨단소재의 최근 연간 실적은 2023년 매출 4,294억 원·영업이익 -732억 원, 2024년 매출 5,709억 원·영업이익 -544억 원, 2025년 매출 6,161억 원·영업이익 -733억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5,556억 원·영업이익 -754억 원이다.
+
+## 솔루스첨단소재 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4,294억 원 | 5,709억 원 | 6,161억 원 | 5,556억 원 |
+| 영업이익 | -732억 원 | -544억 원 | -733억 원 | -754억 원 |
+| 당기순이익 | 1,268억 원 | -427억 원 | -1,384억 원 | -186억 원 |
+| 영업이익률 | -17.1% | -9.5% | -11.9% | -13.6% |
+| ROE | 29.3% | 0.6% | -9.2% | 15.1% |
+| EPS | 2,063원 | 51원 | -736원 | 1,206원 |
+| PER | 6.4배 | 160.6배 | -9.9배 | 7.0배 |
+| PBR | 1.64배 | 0.97배 | 0.96배 | 1.01배 |
+| 주당배당금 | 50원 | 10원 | 10원 | 10원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -732억 원이고, 주가는 한 해 -11.7% 움직였다. 2024년은 영업이익 -544억 원 (전년보다 +26%)이고, 주가는 한 해 -38.1% 움직였다. 2025년은 영업이익 -733억 원 (전년보다 -35%)이고, 주가는 한 해 -11.0% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="솔루스첨단소재 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="69.8" rx="3"/><text class="ic-val" x="159.3" y="111.8" text-anchor="middle">-12%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-38%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="65.7" rx="3"/><text class="ic-val" x="532.7" y="107.7" text-anchor="middle">-11%</text></svg><figcaption>솔루스첨단소재 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 솔루스첨단소재 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 778억 원 | 1,451억 원 | 1,695억 원 | 1,926억 원 | 1,019억 원 | 1,212억 원 |
+| 영업이익 | -208억 원 | -212억 원 | -219억 원 | -221억 원 | -217억 원 | -198억 원 |
+| 당기순이익 | -523억 원 | -291억 원 | -250억 원 | -29억 원 | 593억 원 | -145억 원 |
+| 영업이익률 | -26.8% | -14.6% | -12.9% | -11.4% | -21.3% | -16.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="솔루스첨단소재 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="214.6" rx="3"/><text class="ic-val" x="112.7" y="256.6" text-anchor="middle">-208억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="218.7" rx="3"/><text class="ic-val" x="206.0" y="260.7" text-anchor="middle">-212억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="225.9" rx="3"/><text class="ic-val" x="299.3" y="267.9" text-anchor="middle">-219억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="270.0" text-anchor="middle">-221억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="223.9" rx="3"/><text class="ic-val" x="486.0" y="265.9" text-anchor="middle">-217억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar dn est" x="553.2" y="28.0" width="52.3" height="204.3" rx="3"/><text class="ic-val" x="579.3" y="246.3" text-anchor="middle">-198억</text></svg><figcaption>솔루스첨단소재 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

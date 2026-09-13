@@ -1,0 +1,53 @@
+---
+title: "한양이엔지 실적, 2025년 영업이익 537억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한양이엔지 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "045100"
+name: "한양이엔지"
+intent: "실적"
+chip: "045100 · 코스닥 · 건축기술, 엔지니어링 및 관련 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "한양이엔지-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/건축기술,-엔지니어링-및-관련-기술-서비스업/", "label": "건축기술, 엔지니어링 및 관련 기술 서비스업"}, {"url": "/종목/한양이엔지/", "label": "한양이엔지"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한양이엔지/", "label": "한양이엔지 주가"}, {"url": "/종목/한양이엔지/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한양이엔지/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한양이엔지/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/세미파이브/실적/", "label": "세미파이브 실적"}, {"url": "/종목/한전산업/실적/", "label": "한전산업 실적"}, {"url": "/종목/한미글로벌/실적/", "label": "한미글로벌 실적"}, {"url": "/종목/도화엔지니어링/실적/", "label": "도화엔지니어링 실적"}, {"url": "/종목/제이오/실적/", "label": "제이오 실적"}, {"url": "/종목/성도이엔지/실적/", "label": "성도이엔지 실적"}, {"url": "/종목/한성크린텍/실적/", "label": "한성크린텍 실적"}, {"url": "/종목/포스코dx/실적/", "label": "포스코DX 실적"}]
+peers_head: "같은 업종(건축기술, 엔지니어링 및 관련 기술 서비스업) 다른 종목의 실적"
+---
+
+한양이엔지의 최근 연간 실적은 2023년 매출 1조 262억 원·영업이익 851억 원, 2024년 매출 1조 1,863억 원·영업이익 862억 원, 2025년 매출 1조 1,182억 원·영업이익 537억 원이다.
+
+## 한양이엔지 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 262억 원 | 1조 1,863억 원 | 1조 1,182억 원 | — |
+| 영업이익 | 851억 원 | 862억 원 | 537억 원 | — |
+| 당기순이익 | 774억 원 | 764억 원 | 417억 원 | — |
+| 영업이익률 | 8.3% | 7.3% | 4.8% | — |
+| ROE | 15.4% | 13.4% | 6.8% | — |
+| EPS | 4,298원 | 4,242원 | 2,320원 | — |
+| PER | 3.6배 | 3.9배 | 9.2배 | — |
+| PBR | 0.49배 | 0.46배 | 0.56배 | — |
+| 주당배당금 | 600원 | 650원 | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 851억 원이고, 주가는 한 해 +7.3% 움직였다. 2024년은 영업이익 862억 원 (전년보다 +1%)이고, 주가는 한 해 +6.9% 움직였다. 2025년은 영업이익 537억 원 (전년보다 -38%)이고, 주가는 한 해 +28.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한양이엔지 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="198.6" width="104.5" height="57.4" rx="3"/><text class="ic-val" x="159.3" y="192.6" text-anchor="middle">+7%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="201.4" width="104.5" height="54.6" rx="3"/><text class="ic-val" x="346.0" y="195.4" text-anchor="middle">+7%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+29%</text></svg><figcaption>한양이엔지 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한양이엔지 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,900억 원 | 2,517억 원 | 3,074억 원 | 3,414억 원 | 3,547억 원 | — |
+| 영업이익 | 201억 원 | 121억 원 | 97억 원 | 223억 원 | 285억 원 | — |
+| 당기순이익 | 163억 원 | 79억 원 | 84억 원 | 260억 원 | 219억 원 | — |
+| 영업이익률 | 6.9% | 4.8% | 3.1% | 6.5% | 8.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한양이엔지 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="95.2" width="52.3" height="160.8" rx="3"/><text class="ic-val" x="112.7" y="89.2" text-anchor="middle">201억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="159.2" width="52.3" height="96.8" rx="3"/><text class="ic-val" x="206.0" y="153.2" text-anchor="middle">121억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="178.4" width="52.3" height="77.6" rx="3"/><text class="ic-val" x="299.3" y="172.4" text-anchor="middle">97억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="77.6" width="52.3" height="178.4" rx="3"/><text class="ic-val" x="392.7" y="71.6" text-anchor="middle">223억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">285억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>한양이엔지 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,53 @@
+---
+title: "뷰노 실적, 2025년 영업이익 -49억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "뷰노 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "338220"
+name: "뷰노"
+intent: "실적"
+chip: "338220 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "뷰노-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/뷰노/", "label": "뷰노"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/뷰노/", "label": "뷰노 주가"}, {"url": "/종목/뷰노/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/뷰노/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/뷰노/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/인지소프트/실적/", "label": "인지소프트 실적"}, {"url": "/종목/와이즈넛/실적/", "label": "와이즈넛 실적"}, {"url": "/종목/한국전자인증/실적/", "label": "한국전자인증 실적"}, {"url": "/종목/위메이드플레이/실적/", "label": "위메이드플레이 실적"}, {"url": "/종목/뉴엔ai/실적/", "label": "뉴엔AI 실적"}, {"url": "/종목/아우토크립트/실적/", "label": "아우토크립트 실적"}, {"url": "/종목/마음ai/실적/", "label": "마음AI 실적"}, {"url": "/종목/비트컴퓨터/실적/", "label": "비트컴퓨터 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+뷰노의 최근 연간 실적은 2023년 매출 133억 원·영업이익 -157억 원, 2024년 매출 259억 원·영업이익 -125억 원, 2025년 매출 348억 원·영업이익 -49억 원이다.
+
+## 뷰노 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 133억 원 | 259억 원 | 348억 원 | — |
+| 영업이익 | -157억 원 | -125억 원 | -49억 원 | — |
+| 당기순이익 | -156억 원 | -130억 원 | -58억 원 | — |
+| 영업이익률 | -118.1% | -48.1% | -14.2% | — |
+| ROE | -131.8% | -72.9% | -17.3% | — |
+| EPS | -1,181원 | -938원 | -413원 | — |
+| PER | -35.6배 | -25.8배 | -54.1배 | — |
+| PBR | 115.96배 | 11.01배 | 8.67배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -157억 원이고, 주가는 한 해 +573.1% 움직였다. 2024년은 영업이익 -125억 원 (전년보다 +20%)이고, 주가는 한 해 -42.4% 움직였다. 2025년은 영업이익 -49억 원 (전년보다 +61%)이고, 주가는 한 해 -7.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="뷰노 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="240.3" y2="240.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="212.3" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+573%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="240.3" width="104.5" height="15.7" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-42%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="240.3" width="104.5" height="2.8" rx="3"/><text class="ic-val" x="532.7" y="257.1" text-anchor="middle">-8%</text></svg><figcaption>뷰노 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 뷰노 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 93억 원 | 108억 원 | 72억 원 | 60억 원 | 61억 원 | — |
+| 영업이익 | -2억 원 | 10억 원 | -24억 원 | -41억 원 | -42억 원 | — |
+| 당기순이익 | -8억 원 | 10억 원 | -27억 원 | -40억 원 | -54억 원 | — |
+| 영업이익률 | -1.8% | 9.4% | -32.5% | -67.9% | -68.9% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="뷰노 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="71.8" y2="71.8"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="71.8" width="52.3" height="8.8" rx="3"/><text class="ic-val" x="112.7" y="94.6" text-anchor="middle">-2억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="43.8" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">10억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="71.8" width="52.3" height="105.2" rx="3"/><text class="ic-val" x="299.3" y="191.1" text-anchor="middle">-24억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="71.8" width="52.3" height="179.8" rx="3"/><text class="ic-val" x="392.7" y="265.6" text-anchor="middle">-41억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="71.8" width="52.3" height="184.2" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-42억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>뷰노 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

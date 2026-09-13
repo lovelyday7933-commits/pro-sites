@@ -1,0 +1,54 @@
+---
+title: "한전기술 실적, 2025년 영업이익 355억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한전기술 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "052690"
+name: "한전기술"
+intent: "실적"
+chip: "052690 · 코스피 · 건축기술, 엔지니어링 및 관련 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "한전기술-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/건축기술,-엔지니어링-및-관련-기술-서비스업/", "label": "건축기술, 엔지니어링 및 관련 기술 서비스업"}, {"url": "/종목/한전기술/", "label": "한전기술"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한전기술/", "label": "한전기술 주가"}, {"url": "/종목/한전기술/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/한전기술/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한전기술/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/한전기술/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/삼성ea/실적/", "label": "삼성E&A 실적"}, {"url": "/종목/포스코dx/실적/", "label": "포스코DX 실적"}, {"url": "/종목/hd현대마린솔루션/실적/", "label": "HD현대마린솔루션 실적"}, {"url": "/종목/한양이엔지/실적/", "label": "한양이엔지 실적"}, {"url": "/종목/세미파이브/실적/", "label": "세미파이브 실적"}, {"url": "/종목/한전산업/실적/", "label": "한전산업 실적"}, {"url": "/종목/한미글로벌/실적/", "label": "한미글로벌 실적"}, {"url": "/종목/도화엔지니어링/실적/", "label": "도화엔지니어링 실적"}]
+peers_head: "같은 업종(건축기술, 엔지니어링 및 관련 기술 서비스업) 다른 종목의 실적"
+---
+
+한전기술의 최근 연간 실적은 2023년 매출 5,451억 원·영업이익 286억 원, 2024년 매출 5,695억 원·영업이익 709억 원, 2025년 매출 5,188억 원·영업이익 355억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5,749억 원·영업이익 635억 원이다.
+
+## 한전기술 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 5,451억 원 | 5,695억 원 | 5,188억 원 | 5,749억 원 |
+| 영업이익 | 286억 원 | 709억 원 | 355억 원 | 635억 원 |
+| 당기순이익 | 327억 원 | 585억 원 | 854억 원 | 575억 원 |
+| 영업이익률 | 5.2% | 12.5% | 6.8% | 11.1% |
+| ROE | 6.0% | 10.4% | 14.2% | 9.1% |
+| EPS | 854원 | 1,531원 | 2,234원 | 1,492원 |
+| PER | 72.7배 | 34.6배 | 40.3배 | 101.9배 |
+| PBR | 4.32배 | 3.49배 | 5.48배 | 9.22배 |
+| 주당배당금 | 515원 | 999원 | 1,347원 | 992원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 286억 원이고, 주가는 한 해 +13.7% 움직였다. 2024년은 영업이익 709억 원 (전년보다 +148%)이고, 주가는 한 해 -14.7% 움직였다. 2025년은 영업이익 355억 원 (전년보다 -50%)이고, 주가는 한 해 +69.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한전기술 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="216.4" y2="216.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="179.4" width="104.5" height="37.1" rx="3"/><text class="ic-val" x="159.3" y="173.4" text-anchor="middle">+14%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="216.4" width="104.5" height="39.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-15%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="188.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+70%</text></svg><figcaption>한전기술 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 한전기술 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,062억 원 | 1,146억 원 | 2,055억 원 | 1,133억 원 | 1,033억 원 | 1,340억 원 |
+| 영업이익 | -5억 원 | 123억 원 | 264억 원 | 141억 원 | 30억 원 | 152억 원 |
+| 당기순이익 | 3억 원 | 113억 원 | 79억 원 | 141억 원 | 27억 원 | 133억 원 |
+| 영업이익률 | -0.5% | 10.7% | 12.9% | 12.4% | 2.9% | 11.3% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한전기술 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="251.8" y2="251.8"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="251.8" width="52.3" height="4.2" rx="3"/><text class="ic-val" x="112.7" y="270.0" text-anchor="middle">-5억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="147.5" width="52.3" height="104.3" rx="3"/><text class="ic-val" x="206.0" y="141.5" text-anchor="middle">123억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="223.8" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">264억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="132.3" width="52.3" height="119.5" rx="3"/><text class="ic-val" x="392.7" y="126.3" text-anchor="middle">141억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="226.3" width="52.3" height="25.4" rx="3"/><text class="ic-val" x="486.0" y="220.3" text-anchor="middle">30억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="122.9" width="52.3" height="128.8" rx="3"/><text class="ic-val" x="579.3" y="116.9" text-anchor="middle">152억</text></svg><figcaption>한전기술 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

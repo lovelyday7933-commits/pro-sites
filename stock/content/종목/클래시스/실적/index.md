@@ -1,0 +1,54 @@
+---
+title: "클래시스 실적, 2025년 영업이익 1,706억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "클래시스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "214150"
+name: "클래시스"
+intent: "실적"
+chip: "214150 · 코스닥 · 의료용 기기 제조업 · 기준일 2026.09.11"
+utm_source: "클래시스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의료용-기기-제조업/", "label": "의료용 기기 제조업"}, {"url": "/종목/클래시스/", "label": "클래시스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/클래시스/", "label": "클래시스 주가"}, {"url": "/종목/클래시스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/클래시스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/클래시스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/클래시스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/씨어스/실적/", "label": "씨어스 실적"}, {"url": "/종목/큐리옥스바이오시스템즈/실적/", "label": "큐리옥스바이오시스템즈 실적"}, {"url": "/종목/리브스메드/실적/", "label": "리브스메드 실적"}, {"url": "/종목/인바디/실적/", "label": "인바디 실적"}, {"url": "/종목/에스디바이오센서/실적/", "label": "에스디바이오센서 실적"}, {"url": "/종목/아이센스/실적/", "label": "아이센스 실적"}, {"url": "/종목/원텍/실적/", "label": "원텍 실적"}, {"url": "/종목/코스모로보틱스/실적/", "label": "코스모로보틱스 실적"}]
+peers_head: "같은 업종(의료용 기기 제조업) 다른 종목의 실적"
+---
+
+클래시스의 최근 연간 실적은 2023년 매출 1,801억 원·영업이익 896억 원, 2024년 매출 2,429억 원·영업이익 1,224억 원, 2025년 매출 3,368억 원·영업이익 1,706억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4,401억 원·영업이익 1,925억 원이다.
+
+## 클래시스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,801억 원 | 2,429억 원 | 3,368억 원 | 4,401억 원 |
+| 영업이익 | 896억 원 | 1,224억 원 | 1,706억 원 | 1,925억 원 |
+| 당기순이익 | 742억 원 | 975억 원 | 1,320억 원 | 1,512억 원 |
+| 영업이익률 | 49.8% | 50.4% | 50.6% | 43.7% |
+| ROE | 28.9% | 26.5% | 26.2% | 25.9% |
+| EPS | 1,146원 | 1,517원 | 2,014원 | 2,355원 |
+| PER | 32.9배 | 31.4배 | 27.1배 | 13.6배 |
+| PBR | 8.52배 | 6.88배 | 6.42배 | 3.30배 |
+| 주당배당금 | 200원 | 257원 | 1,000원 | 895원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 896억 원이고, 주가는 한 해 +105.2% 움직였다. 2024년은 영업이익 1,224억 원 (전년보다 +37%)이고, 주가는 한 해 +26.2% 움직였다. 2025년은 영업이익 1,706억 원 (전년보다 +39%)이고, 주가는 한 해 +14.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="클래시스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+105%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="199.1" width="104.5" height="56.9" rx="3"/><text class="ic-val" x="346.0" y="193.1" text-anchor="middle">+26%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="224.8" width="104.5" height="31.2" rx="3"/><text class="ic-val" x="532.7" y="218.8" text-anchor="middle">+14%</text></svg><figcaption>클래시스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 클래시스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 833억 원 | 830억 원 | 934억 원 | 872억 원 | 1,055억 원 | 1,154억 원 |
+| 영업이익 | 430억 원 | 376억 원 | 512억 원 | 372억 원 | 439억 원 | 506억 원 |
+| 당기순이익 | 265억 원 | 331억 원 | 427억 원 | 332억 원 | 255억 원 | 413억 원 |
+| 영업이익률 | 51.6% | 45.3% | 54.8% | 42.7% | 41.6% | 43.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="클래시스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="64.5" width="52.3" height="191.5" rx="3"/><text class="ic-val" x="112.7" y="58.5" text-anchor="middle">430억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="88.6" width="52.3" height="167.4" rx="3"/><text class="ic-val" x="206.0" y="82.6" text-anchor="middle">376억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">512억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="90.3" width="52.3" height="165.7" rx="3"/><text class="ic-val" x="392.7" y="84.3" text-anchor="middle">372억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="60.5" width="52.3" height="195.5" rx="3"/><text class="ic-val" x="486.0" y="54.5" text-anchor="middle">439억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="30.7" width="52.3" height="225.3" rx="3"/><text class="ic-val" x="579.3" y="24.7" text-anchor="middle">506억</text></svg><figcaption>클래시스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

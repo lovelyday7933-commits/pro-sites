@@ -1,0 +1,54 @@
+---
+title: "대주전자재료 실적, 2025년 영업이익 207억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "대주전자재료 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "078600"
+name: "대주전자재료"
+intent: "실적"
+chip: "078600 · 코스닥 · 전자부품 제조업 · 기준일 2026.09.11"
+utm_source: "대주전자재료-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/전자부품-제조업/", "label": "전자부품 제조업"}, {"url": "/종목/대주전자재료/", "label": "대주전자재료"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/대주전자재료/", "label": "대주전자재료 주가"}, {"url": "/종목/대주전자재료/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/대주전자재료/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/대주전자재료/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/대주전자재료/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/제이앤티씨/실적/", "label": "제이앤티씨 실적"}, {"url": "/종목/성호전자/실적/", "label": "성호전자 실적"}, {"url": "/종목/삼화콘덴서공업/실적/", "label": "삼화콘덴서공업 실적"}, {"url": "/종목/코리아써키트/실적/", "label": "코리아써키트 실적"}, {"url": "/종목/샘씨엔에스/실적/", "label": "샘씨엔에스 실적"}, {"url": "/종목/티엘비/실적/", "label": "티엘비 실적"}, {"url": "/종목/에스앤에스텍/실적/", "label": "에스앤에스텍 실적"}, {"url": "/종목/해성디에스/실적/", "label": "해성디에스 실적"}]
+peers_head: "같은 업종(전자부품 제조업) 다른 종목의 실적"
+---
+
+대주전자재료의 최근 연간 실적은 2023년 매출 1,850억 원·영업이익 62억 원, 2024년 매출 2,193억 원·영업이익 294억 원, 2025년 매출 2,546억 원·영업이익 207억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4,116억 원·영업이익 397억 원이다.
+
+## 대주전자재료 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,850억 원 | 2,193억 원 | 2,546억 원 | 4,116억 원 |
+| 영업이익 | 62억 원 | 294억 원 | 207억 원 | 397억 원 |
+| 당기순이익 | 6억 원 | 364억 원 | 209억 원 | 220억 원 |
+| 영업이익률 | 3.4% | 13.4% | 8.1% | 9.6% |
+| ROE | 0.5% | 19.3% | 8.6% | 8.0% |
+| EPS | 45원 | 2,382원 | 1,335원 | 1,369원 |
+| PER | 1924.3배 | 31.4배 | 47.6배 | 62.1배 |
+| PBR | 8.22배 | 4.94배 | 3.79배 | 4.63배 |
+| 주당배당금 | — | 100원 | 100원 | 100원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 62억 원이고, 주가는 한 해 +21.7% 움직였다. 2024년은 영업이익 294억 원 (전년보다 +374%)이고, 주가는 한 해 -13.4% 움직였다. 2025년은 영업이익 207억 원 (전년보다 -30%)이고, 주가는 한 해 -15.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="대주전자재료 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="162.4" y2="162.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="134.4" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+22%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="162.4" width="104.5" height="83.2" rx="3"/><text class="ic-val" x="346.0" y="259.6" text-anchor="middle">-13%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="162.4" width="104.5" height="93.6" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-15%</text></svg><figcaption>대주전자재료 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 대주전자재료 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 634억 원 | 636억 원 | 736억 원 | 909억 원 | 1,006억 원 | 1,079억 원 |
+| 영업이익 | 53억 원 | 60억 원 | 46억 원 | 92억 원 | 68억 원 | 107억 원 |
+| 당기순이익 | 43억 원 | 65억 원 | 33억 원 | -35억 원 | 43억 원 | — |
+| 영업이익률 | 8.4% | 9.4% | 6.2% | 10.2% | 6.7% | 9.9% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="대주전자재료 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="143.1" width="52.3" height="112.9" rx="3"/><text class="ic-val" x="112.7" y="137.1" text-anchor="middle">53억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="128.1" width="52.3" height="127.9" rx="3"/><text class="ic-val" x="206.0" y="122.1" text-anchor="middle">60억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="158.0" width="52.3" height="98.0" rx="3"/><text class="ic-val" x="299.3" y="152.0" text-anchor="middle">46억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="60.0" width="52.3" height="196.0" rx="3"/><text class="ic-val" x="392.7" y="54.0" text-anchor="middle">92억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="111.1" width="52.3" height="144.9" rx="3"/><text class="ic-val" x="486.0" y="105.1" text-anchor="middle">68억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">107억</text></svg><figcaption>대주전자재료 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

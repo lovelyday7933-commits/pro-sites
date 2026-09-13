@@ -1,0 +1,53 @@
+---
+title: "리드코프 실적, 2025년 영업이익 109억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "리드코프 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "012700"
+name: "리드코프"
+intent: "실적"
+chip: "012700 · 코스닥 · 기타 전문 도매업 · 기준일 2026.09.11"
+utm_source: "리드코프-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-전문-도매업/", "label": "기타 전문 도매업"}, {"url": "/종목/리드코프/", "label": "리드코프"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/리드코프/", "label": "리드코프 주가"}, {"url": "/종목/리드코프/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/리드코프/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/리드코프/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/블루엠텍/실적/", "label": "블루엠텍 실적"}, {"url": "/종목/대원미디어/실적/", "label": "대원미디어 실적"}, {"url": "/종목/아이로보틱스/실적/", "label": "아이로보틱스 실적"}, {"url": "/종목/중앙에너비스/실적/", "label": "중앙에너비스 실적"}, {"url": "/종목/홈캐스트/실적/", "label": "홈캐스트 실적"}, {"url": "/종목/코스리거글로벌/실적/", "label": "코스리거글로벌 실적"}, {"url": "/종목/hc홈센타/실적/", "label": "HC홈센타 실적"}, {"url": "/종목/원익큐브/실적/", "label": "원익큐브 실적"}]
+peers_head: "같은 업종(기타 전문 도매업) 다른 종목의 실적"
+---
+
+리드코프의 최근 연간 실적은 2023년 매출 4,906억 원·영업이익 -135억 원, 2024년 매출 4,205억 원·영업이익 216억 원, 2025년 매출 3,877억 원·영업이익 109억 원이다.
+
+## 리드코프 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4,906억 원 | 4,205억 원 | 3,877억 원 | — |
+| 영업이익 | -135억 원 | 216억 원 | 109억 원 | — |
+| 당기순이익 | 90억 원 | 96억 원 | 117억 원 | — |
+| 영업이익률 | -2.8% | 5.1% | 2.8% | — |
+| ROE | 2.1% | 2.3% | 3.1% | — |
+| EPS | 339원 | 365원 | 505원 | — |
+| PER | 18.0배 | 11.0배 | 7.4배 | — |
+| PBR | 0.37배 | 0.25배 | 0.22배 | — |
+| 주당배당금 | 200원 | 100원 | 150원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -135억 원이고, 주가는 한 해 -17.1% 움직였다. 2024년은 영업이익 216억 원 (전년보다 +260%)이고, 주가는 한 해 -34.2% 움직였다. 2025년은 영업이익 109억 원 (전년보다 -50%)이고, 주가는 한 해 -7.2% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="리드코프 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="114.0" rx="3"/><text class="ic-val" x="159.3" y="156.0" text-anchor="middle">-17%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-34%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="48.1" rx="3"/><text class="ic-val" x="532.7" y="90.1" text-anchor="middle">-7%</text></svg><figcaption>리드코프 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 리드코프 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 901억 원 | 1,048억 원 | 1,099억 원 | 1,071억 원 | 1,132억 원 | — |
+| 영업이익 | 24억 원 | 3억 원 | 46억 원 | 18억 원 | 24억 원 | — |
+| 당기순이익 | 133억 원 | 0억 원 | 29억 원 | 20억 원 | 45억 원 | — |
+| 영업이익률 | 2.7% | 0.3% | 4.1% | 1.7% | 2.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="리드코프 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="137.0" width="52.3" height="119.0" rx="3"/><text class="ic-val" x="112.7" y="131.0" text-anchor="middle">24억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="241.1" width="52.3" height="14.9" rx="3"/><text class="ic-val" x="206.0" y="235.1" text-anchor="middle">3억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">46억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="166.8" width="52.3" height="89.2" rx="3"/><text class="ic-val" x="392.7" y="160.8" text-anchor="middle">18억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="137.0" width="52.3" height="119.0" rx="3"/><text class="ic-val" x="486.0" y="131.0" text-anchor="middle">24억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>리드코프 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

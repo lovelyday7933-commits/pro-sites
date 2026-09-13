@@ -1,0 +1,54 @@
+---
+title: "삼성카드 실적, 2025년 영업이익 8,537억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "삼성카드 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "029780"
+name: "삼성카드"
+intent: "실적"
+chip: "029780 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "삼성카드-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/삼성카드/", "label": "삼성카드"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/삼성카드/", "label": "삼성카드 주가"}, {"url": "/종목/삼성카드/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/삼성카드/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/삼성카드/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/삼성카드/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/bnk금융지주/실적/", "label": "BNK금융지주 실적"}, {"url": "/종목/jb금융지주/실적/", "label": "JB금융지주 실적"}, {"url": "/종목/oci홀딩스/실적/", "label": "OCI홀딩스 실적"}, {"url": "/종목/cj/실적/", "label": "CJ 실적"}, {"url": "/종목/한미사이언스/실적/", "label": "한미사이언스 실적"}, {"url": "/종목/삼성에피스홀딩스/실적/", "label": "삼성에피스홀딩스 실적"}, {"url": "/종목/한진칼/실적/", "label": "한진칼 실적"}, {"url": "/종목/im금융지주/실적/", "label": "iM금융지주 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+삼성카드의 최근 연간 실적은 2023년 매출 4조 42억 원·영업이익 8,100억 원, 2024년 매출 4조 3,832억 원·영업이익 8,854억 원, 2025년 매출 4조 3,829억 원·영업이익 8,537억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4조 6,925억 원·영업이익 8,148억 원이다.
+
+## 삼성카드 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4조 42억 원 | 4조 3,832억 원 | 4조 3,829억 원 | 4조 6,925억 원 |
+| 영업이익 | 8,100억 원 | 8,854억 원 | 8,537억 원 | 8,148억 원 |
+| 당기순이익 | 6,094억 원 | 6,646억 원 | 6,459억 원 | 6,068억 원 |
+| 영업이익률 | 20.2% | 20.2% | 19.5% | 17.4% |
+| ROE | 7.6% | 8.0% | 7.5% | 6.9% |
+| EPS | 5,260원 | 5,736원 | 5,575원 | 5,262원 |
+| PER | 6.2배 | 6.9배 | 10.0배 | 8.7배 |
+| PBR | 0.42배 | 0.50배 | 0.67배 | 0.54배 |
+| 주당배당금 | 2,500원 | 2,800원 | 2,800원 | 2,800원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 8,100억 원이고, 주가는 한 해 +9.5% 움직였다. 2024년은 영업이익 8,854억 원 (전년보다 +9%)이고, 주가는 한 해 +21.9% 움직였다. 2025년은 영업이익 8,537억 원 (전년보다 -4%)이고, 주가는 한 해 +41.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼성카드 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="204.2" width="104.5" height="51.8" rx="3"/><text class="ic-val" x="159.3" y="198.2" text-anchor="middle">+9%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="136.0" width="104.5" height="120.0" rx="3"/><text class="ic-val" x="346.0" y="130.0" text-anchor="middle">+22%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+42%</text></svg><figcaption>삼성카드 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 삼성카드 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 2,468억 원 | 1조 901억 원 | 1조 504억 원 | 1조 2,858억 원 | 1조 1,775억 원 | 1조 1,153억 원 |
+| 영업이익 | 2,005억 원 | 2,136억 원 | 1,946억 원 | 2,100억 원 | 2,086억 원 | 2,060억 원 |
+| 당기순이익 | 1,512억 원 | 1,617억 원 | 1,486억 원 | 1,563억 원 | 1,542억 원 | 1,543억 원 |
+| 영업이익률 | 16.1% | 19.6% | 18.5% | 16.3% | 17.7% | 18.5% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="삼성카드 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="42.0" width="52.3" height="214.0" rx="3"/><text class="ic-val" x="112.7" y="36.0" text-anchor="middle">2,005억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">2,136억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="48.3" width="52.3" height="207.7" rx="3"/><text class="ic-val" x="299.3" y="42.3" text-anchor="middle">1,946억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="31.8" width="52.3" height="224.2" rx="3"/><text class="ic-val" x="392.7" y="25.8" text-anchor="middle">2,100억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="33.3" width="52.3" height="222.7" rx="3"/><text class="ic-val" x="486.0" y="27.3" text-anchor="middle">2,086억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="36.1" width="52.3" height="219.9" rx="3"/><text class="ic-val" x="579.3" y="30.1" text-anchor="middle">2,060억</text></svg><figcaption>삼성카드 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

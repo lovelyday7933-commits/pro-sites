@@ -1,0 +1,53 @@
+---
+title: "에이스테크 실적, 2025년 영업이익 -222억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "에이스테크 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "088800"
+name: "에이스테크"
+intent: "실적"
+chip: "088800 · 코스닥 · 통신 및 방송 장비 제조업 · 기준일 2026.09.11"
+utm_source: "에이스테크-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/통신-및-방송-장비-제조업/", "label": "통신 및 방송 장비 제조업"}, {"url": "/종목/에이스테크/", "label": "에이스테크"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/에이스테크/", "label": "에이스테크 주가"}, {"url": "/종목/에이스테크/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/에이스테크/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/에이스테크/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/유비쿼스/실적/", "label": "유비쿼스 실적"}, {"url": "/종목/에치에프알/실적/", "label": "에치에프알 실적"}, {"url": "/종목/라이콤/실적/", "label": "라이콤 실적"}, {"url": "/종목/ap위성/실적/", "label": "AP위성 실적"}, {"url": "/종목/코맥스/실적/", "label": "코맥스 실적"}, {"url": "/종목/아이디스/실적/", "label": "아이디스 실적"}, {"url": "/종목/슈프리마에이치큐/실적/", "label": "슈프리마에이치큐 실적"}, {"url": "/종목/오늘이엔엠/실적/", "label": "오늘이엔엠 실적"}]
+peers_head: "같은 업종(통신 및 방송 장비 제조업) 다른 종목의 실적"
+---
+
+에이스테크의 최근 연간 실적은 2023년 매출 1,400억 원·영업이익 -623억 원, 2024년 매출 1,451억 원·영업이익 -311억 원, 2025년 매출 1,784억 원·영업이익 -222억 원이다.
+
+## 에이스테크 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,400억 원 | 1,451억 원 | 1,784억 원 | — |
+| 영업이익 | -623억 원 | -311억 원 | -222억 원 | — |
+| 당기순이익 | -788억 원 | -408억 원 | -291억 원 | — |
+| 영업이익률 | -44.5% | -21.5% | -12.4% | — |
+| ROE | -172.2% | -67.3% | -34.6% | — |
+| EPS | -3,720원 | -1,259원 | -378원 | — |
+| PER | -1.7배 | -1.7배 | -7.8배 | — |
+| PBR | 6.66배 | 1.72배 | 3.20배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -623억 원이고, 주가는 한 해 -65.6% 움직였다. 2024년은 영업이익 -311억 원 (전년보다 +50%)이고, 주가는 한 해 -65.3% 움직였다. 2025년은 영업이익 -222억 원 (전년보다 +29%)이고, 주가는 한 해 +34.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에이스테크 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="106.0" y2="106.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="106.0" width="104.5" height="150.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-66%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="106.0" width="104.5" height="149.4" rx="3"/><text class="ic-val" x="346.0" y="269.4" text-anchor="middle">-65%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="78.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+34%</text></svg><figcaption>에이스테크 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 에이스테크 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 461억 원 | 379억 원 | 414억 원 | 332억 원 | 287억 원 | — |
+| 영업이익 | -50억 원 | -43억 원 | -110억 원 | -41억 원 | -81억 원 | — |
+| 당기순이익 | -129억 원 | -34억 원 | -94억 원 | -37억 원 | -95억 원 | — |
+| 영업이익률 | -10.8% | -11.2% | -26.6% | -12.3% | -28.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="에이스테크 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="103.6" rx="3"/><text class="ic-val" x="112.7" y="145.6" text-anchor="middle">-50억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="89.1" rx="3"/><text class="ic-val" x="206.0" y="131.1" text-anchor="middle">-43억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-110억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="85.0" rx="3"/><text class="ic-val" x="392.7" y="127.0" text-anchor="middle">-41억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="167.9" rx="3"/><text class="ic-val" x="486.0" y="209.9" text-anchor="middle">-81억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>에이스테크 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

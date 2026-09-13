@@ -1,0 +1,53 @@
+---
+title: "무학 실적, 2025년 영업이익 102억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "무학 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "033920"
+name: "무학"
+intent: "실적"
+chip: "033920 · 코스피 · 알코올음료 제조업 · 기준일 2026.09.11"
+utm_source: "무학-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/알코올음료-제조업/", "label": "알코올음료 제조업"}, {"url": "/종목/무학/", "label": "무학"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/무학/", "label": "무학 주가"}, {"url": "/종목/무학/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/무학/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/무학/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/진로발효/실적/", "label": "진로발효 실적"}, {"url": "/종목/풍국주정/실적/", "label": "풍국주정 실적"}, {"url": "/종목/창해에탄올/실적/", "label": "창해에탄올 실적"}, {"url": "/종목/국순당/실적/", "label": "국순당 실적"}, {"url": "/종목/하이트진로/실적/", "label": "하이트진로 실적"}, {"url": "/종목/보해양조/실적/", "label": "보해양조 실적"}, {"url": "/종목/mh에탄올/실적/", "label": "MH에탄올 실적"}, {"url": "/종목/한울앤제주/실적/", "label": "한울앤제주 실적"}]
+peers_head: "같은 업종(알코올음료 제조업) 다른 종목의 실적"
+---
+
+무학의 최근 연간 실적은 2023년 매출 1,466억 원·영업이익 162억 원, 2024년 매출 1,521억 원·영업이익 169억 원, 2025년 매출 1,438억 원·영업이익 102억 원이다.
+
+## 무학 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,466억 원 | 1,521억 원 | 1,438억 원 | — |
+| 영업이익 | 162억 원 | 169억 원 | 102억 원 | — |
+| 당기순이익 | 654억 원 | 484억 원 | 503억 원 | — |
+| 영업이익률 | 11.0% | 11.1% | 7.1% | — |
+| ROE | 12.8% | 8.7% | 8.5% | — |
+| EPS | 2,296원 | 1,699원 | 1,766원 | — |
+| PER | 2.3배 | 3.7배 | 5.3배 | — |
+| PBR | 0.26배 | 0.29배 | 0.42배 | — |
+| 주당배당금 | 230원 | 520원 | 566원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 162억 원이고, 주가는 한 해 +8.6% 움직였다. 2024년은 영업이익 169억 원 (전년보다 +4%)이고, 주가는 한 해 +17.9% 움직였다. 2025년은 영업이익 102억 원 (전년보다 -40%)이고, 주가는 한 해 +49.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="무학 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="216.4" width="104.5" height="39.6" rx="3"/><text class="ic-val" x="159.3" y="210.4" text-anchor="middle">+9%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="173.5" width="104.5" height="82.5" rx="3"/><text class="ic-val" x="346.0" y="167.5" text-anchor="middle">+18%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+50%</text></svg><figcaption>무학 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 무학 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 387억 원 | 328억 원 | 349억 원 | 357억 원 | 379억 원 | — |
+| 영업이익 | 42억 원 | 9억 원 | 22억 원 | 7억 원 | 24억 원 | — |
+| 당기순이익 | 195억 원 | 101억 원 | 95억 원 | -116억 원 | 255억 원 | — |
+| 영업이익률 | 10.7% | 2.8% | 6.2% | 1.9% | 6.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="무학 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="112.7" y="22.0" text-anchor="middle">42억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="207.1" width="52.3" height="48.9" rx="3"/><text class="ic-val" x="206.0" y="201.1" text-anchor="middle">9억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="136.6" width="52.3" height="119.4" rx="3"/><text class="ic-val" x="299.3" y="130.6" text-anchor="middle">22억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="218.0" width="52.3" height="38.0" rx="3"/><text class="ic-val" x="392.7" y="212.0" text-anchor="middle">7억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="125.7" width="52.3" height="130.3" rx="3"/><text class="ic-val" x="486.0" y="119.7" text-anchor="middle">24억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>무학 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "농심 실적, 2025년 영업이익 1,839억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "농심 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "004370"
+name: "농심"
+intent: "실적"
+chip: "004370 · 코스피 · 기타 식품 제조업 · 기준일 2026.09.11"
+utm_source: "농심-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-식품-제조업/", "label": "기타 식품 제조업"}, {"url": "/종목/농심/", "label": "농심"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/농심/", "label": "농심 주가"}, {"url": "/종목/농심/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/농심/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/농심/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/농심/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/cj제일제당/실적/", "label": "CJ제일제당 실적"}, {"url": "/종목/오리온/실적/", "label": "오리온 실적"}, {"url": "/종목/오뚜기/실적/", "label": "오뚜기 실적"}, {"url": "/종목/롯데웰푸드/실적/", "label": "롯데웰푸드 실적"}, {"url": "/종목/삼양식품/실적/", "label": "삼양식품 실적"}, {"url": "/종목/대상/실적/", "label": "대상 실적"}, {"url": "/종목/삼양사/실적/", "label": "삼양사 실적"}, {"url": "/종목/풀무원/실적/", "label": "풀무원 실적"}]
+peers_head: "같은 업종(기타 식품 제조업) 다른 종목의 실적"
+---
+
+농심의 최근 연간 실적은 2023년 매출 3조 4,106억 원·영업이익 2,121억 원, 2024년 매출 3조 4,387억 원·영업이익 1,631억 원, 2025년 매출 3조 5,143억 원·영업이익 1,839억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 3조 7,575억 원·영업이익 2,323억 원이다.
+
+## 농심 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3조 4,106억 원 | 3조 4,387억 원 | 3조 5,143억 원 | 3조 7,575억 원 |
+| 영업이익 | 2,121억 원 | 1,631억 원 | 1,839억 원 | 2,323억 원 |
+| 당기순이익 | 1,715억 원 | 1,576억 원 | 1,701억 원 | 2,082억 원 |
+| 영업이익률 | 6.2% | 4.7% | 5.2% | 6.2% |
+| ROE | 7.3% | 6.2% | 6.2% | 7.1% |
+| EPS | 28,262원 | 25,861원 | 27,970원 | 34,201원 |
+| PER | 14.4배 | 14.5배 | 15.5배 | 12.1배 |
+| PBR | 0.97배 | 0.85배 | 0.92배 | 0.83배 |
+| 주당배당금 | 5,000원 | 5,000원 | 6,000원 | 6,208원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,121억 원이고, 주가는 한 해 +14.0% 움직였다. 2024년은 영업이익 1,631억 원 (전년보다 -23%)이고, 주가는 한 해 -8.1% 움직였다. 2025년은 영업이익 1,839억 원 (전년보다 +13%)이고, 주가는 한 해 +15.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="농심 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="178.2" y2="178.2"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="43.7" width="104.5" height="134.5" rx="3"/><text class="ic-val" x="159.3" y="37.7" text-anchor="middle">+14%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="178.2" width="104.5" height="77.8" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-8%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="150.2" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+16%</text></svg><figcaption>농심 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 농심 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 8,677억 원 | 8,712억 원 | 8,824억 원 | 9,340억 원 | 9,561억 원 | 9,309억 원 |
+| 영업이익 | 402억 원 | 544억 원 | 334억 원 | 674억 원 | 593억 원 | 621억 원 |
+| 당기순이익 | 364억 원 | 506억 원 | 309억 원 | 607억 원 | 547억 원 | 537억 원 |
+| 영업이익률 | 4.6% | 6.2% | 3.8% | 7.2% | 6.2% | 6.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="농심 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="120.0" width="52.3" height="136.0" rx="3"/><text class="ic-val" x="112.7" y="114.0" text-anchor="middle">402억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="72.0" width="52.3" height="184.0" rx="3"/><text class="ic-val" x="206.0" y="66.0" text-anchor="middle">544억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="143.0" width="52.3" height="113.0" rx="3"/><text class="ic-val" x="299.3" y="137.0" text-anchor="middle">334억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">674억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="55.4" width="52.3" height="200.6" rx="3"/><text class="ic-val" x="486.0" y="49.4" text-anchor="middle">593억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="45.9" width="52.3" height="210.1" rx="3"/><text class="ic-val" x="579.3" y="39.9" text-anchor="middle">621억</text></svg><figcaption>농심 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

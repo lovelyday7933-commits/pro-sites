@@ -1,0 +1,53 @@
+---
+title: "폴라리스세원 실적, 2025년 영업이익 34억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "폴라리스세원 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "234100"
+name: "폴라리스세원"
+intent: "실적"
+chip: "234100 · 코스닥 · 자동차 신품 부품 제조업 · 기준일 2026.09.11"
+utm_source: "폴라리스세원-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자동차-신품-부품-제조업/", "label": "자동차 신품 부품 제조업"}, {"url": "/종목/폴라리스세원/", "label": "폴라리스세원"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/폴라리스세원/", "label": "폴라리스세원 주가"}, {"url": "/종목/폴라리스세원/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/폴라리스세원/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/폴라리스세원/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/오리엔트정공/실적/", "label": "오리엔트정공 실적"}, {"url": "/종목/우리산업홀딩스/실적/", "label": "우리산업홀딩스 실적"}, {"url": "/종목/유니켐/실적/", "label": "유니켐 실적"}, {"url": "/종목/서진오토모티브/실적/", "label": "서진오토모티브 실적"}, {"url": "/종목/영화금속/실적/", "label": "영화금속 실적"}, {"url": "/종목/부산주공/실적/", "label": "부산주공 실적"}, {"url": "/종목/상신브레이크/실적/", "label": "상신브레이크 실적"}, {"url": "/종목/아진전자부품/실적/", "label": "아진전자부품 실적"}]
+peers_head: "같은 업종(자동차 신품 부품 제조업) 다른 종목의 실적"
+---
+
+폴라리스세원의 최근 연간 실적은 2023년 매출 1,604억 원·영업이익 74억 원, 2024년 매출 2,046억 원·영업이익 12억 원, 2025년 매출 2,426억 원·영업이익 34억 원이다.
+
+## 폴라리스세원 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,604억 원 | 2,046억 원 | 2,426억 원 | — |
+| 영업이익 | 74억 원 | 12억 원 | 34억 원 | — |
+| 당기순이익 | 122억 원 | 138억 원 | 30억 원 | — |
+| 영업이익률 | 4.6% | 0.6% | 1.4% | — |
+| ROE | 3.0% | 4.8% | 0.2% | — |
+| EPS | 417원 | 734원 | 31원 | — |
+| PER | 21.9배 | 7.5배 | 169.3배 | — |
+| PBR | 0.65배 | 0.39배 | 0.40배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 74억 원이고, 주가는 한 해 -1.0% 움직였다. 2024년은 영업이익 12억 원 (전년보다 -84%)이고, 주가는 한 해 -40.1% 움직였다. 2025년은 영업이익 34억 원 (전년보다 +183%)이고, 주가는 한 해 -4.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="폴라리스세원 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="5.9" rx="3"/><text class="ic-val" x="159.3" y="47.9" text-anchor="middle">-1%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-40%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="23.4" rx="3"/><text class="ic-val" x="532.7" y="65.4" text-anchor="middle">-4%</text></svg><figcaption>폴라리스세원 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 폴라리스세원 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 600억 원 | 634억 원 | 643억 원 | 545억 원 | 624억 원 | — |
+| 영업이익 | 16억 원 | 26억 원 | -17억 원 | 12억 원 | 10억 원 | — |
+| 당기순이익 | 18억 원 | 32억 원 | -30억 원 | 36억 원 | 12억 원 | — |
+| 영업이익률 | 2.7% | 4.1% | -2.6% | 2.2% | 1.6% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="폴라리스세원 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="165.9" y2="165.9"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="81.0" width="52.3" height="84.8" rx="3"/><text class="ic-val" x="112.7" y="75.0" text-anchor="middle">16억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="137.9" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">26억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="165.9" width="52.3" height="90.1" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-17억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="102.2" width="52.3" height="63.6" rx="3"/><text class="ic-val" x="392.7" y="96.2" text-anchor="middle">12억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="112.8" width="52.3" height="53.0" rx="3"/><text class="ic-val" x="486.0" y="106.8" text-anchor="middle">10억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>폴라리스세원 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

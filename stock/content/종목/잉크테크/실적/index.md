@@ -1,0 +1,53 @@
+---
+title: "잉크테크 실적, 2025년 영업이익 8억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "잉크테크 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "049550"
+name: "잉크테크"
+intent: "실적"
+chip: "049550 · 코스닥 · 기타 화학제품 제조업 · 기준일 2026.09.11"
+utm_source: "잉크테크-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-화학제품-제조업/", "label": "기타 화학제품 제조업"}, {"url": "/종목/잉크테크/", "label": "잉크테크"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/잉크테크/", "label": "잉크테크 주가"}, {"url": "/종목/잉크테크/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/잉크테크/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/잉크테크/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/라파스/실적/", "label": "라파스 실적"}, {"url": "/종목/라이온켐텍/실적/", "label": "라이온켐텍 실적"}, {"url": "/종목/삐아/실적/", "label": "삐아 실적"}, {"url": "/종목/보락/실적/", "label": "보락 실적"}, {"url": "/종목/새빗켐/실적/", "label": "새빗켐 실적"}, {"url": "/종목/에스디생명공학/실적/", "label": "에스디생명공학 실적"}, {"url": "/종목/삼양케이씨아이/실적/", "label": "삼양케이씨아이 실적"}, {"url": "/종목/선진뷰티사이언스/실적/", "label": "선진뷰티사이언스 실적"}]
+peers_head: "같은 업종(기타 화학제품 제조업) 다른 종목의 실적"
+---
+
+잉크테크의 최근 연간 실적은 2023년 매출 628억 원·영업이익 38억 원, 2024년 매출 739억 원·영업이익 27억 원, 2025년 매출 775억 원·영업이익 8억 원이다.
+
+## 잉크테크 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 628억 원 | 739억 원 | 775억 원 | — |
+| 영업이익 | 38억 원 | 27억 원 | 8억 원 | — |
+| 당기순이익 | 37억 원 | 31억 원 | 25억 원 | — |
+| 영업이익률 | 6.1% | 3.7% | 1.0% | — |
+| ROE | 5.2% | 4.1% | 3.2% | — |
+| EPS | 189원 | 157원 | 128원 | — |
+| PER | 21.8배 | 22.9배 | 25.1배 | — |
+| PBR | 1.10배 | 0.93배 | 0.81배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 38억 원이고, 주가는 한 해 -16.0% 움직였다. 2024년은 영업이익 27억 원 (전년보다 -29%)이고, 주가는 한 해 -12.6% 움직였다. 2025년은 영업이익 8억 원 (전년보다 -70%)이고, 주가는 한 해 -10.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="잉크테크 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-16%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="179.8" rx="3"/><text class="ic-val" x="346.0" y="221.8" text-anchor="middle">-13%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="152.4" rx="3"/><text class="ic-val" x="532.7" y="194.4" text-anchor="middle">-11%</text></svg><figcaption>잉크테크 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 잉크테크 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 184억 원 | 194억 원 | 220억 원 | 219억 원 | 233억 원 | — |
+| 영업이익 | 0억 원 | -18억 원 | 22억 원 | 20억 원 | 24억 원 | — |
+| 당기순이익 | -10억 원 | -21억 원 | 58억 원 | 17억 원 | 21억 원 | — |
+| 영업이익률 | -0.2% | -9.3% | 10.0% | 9.1% | 10.2% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="잉크테크 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="158.3" y2="158.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="158.3" width="52.3" height="1.0" rx="3"/><text class="ic-val" x="112.7" y="152.3" text-anchor="middle">0억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="158.3" width="52.3" height="97.7" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-18억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="38.9" width="52.3" height="119.4" rx="3"/><text class="ic-val" x="299.3" y="32.9" text-anchor="middle">22억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="49.7" width="52.3" height="108.6" rx="3"/><text class="ic-val" x="392.7" y="43.7" text-anchor="middle">20억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="130.3" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">24억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>잉크테크 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

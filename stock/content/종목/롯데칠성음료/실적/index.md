@@ -1,0 +1,54 @@
+---
+title: "롯데칠성음료 실적, 2025년 영업이익 1,672억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "롯데칠성음료 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "005300"
+name: "롯데칠성음료"
+intent: "실적"
+chip: "005300 · 코스피 · 비알코올음료 및 얼음 제조업 · 기준일 2026.09.11"
+utm_source: "롯데칠성음료-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/비알코올음료-및-얼음-제조업/", "label": "비알코올음료 및 얼음 제조업"}, {"url": "/종목/롯데칠성음료/", "label": "롯데칠성음료"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/롯데칠성음료/", "label": "롯데칠성음료 주가"}, {"url": "/종목/롯데칠성음료/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/롯데칠성음료/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/롯데칠성음료/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/롯데칠성음료/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/흥국에프엔비/실적/", "label": "흥국에프엔비 실적"}]
+peers_head: "같은 업종(비알코올음료 및 얼음 제조업) 다른 종목의 실적"
+---
+
+롯데칠성음료의 최근 연간 실적은 2023년 매출 3조 2,247억 원·영업이익 2,107억 원, 2024년 매출 4조 245억 원·영업이익 1,849억 원, 2025년 매출 3조 9,711억 원·영업이익 1,672억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4조 1,009억 원·영업이익 2,001억 원이다.
+
+## 롯데칠성음료 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3조 2,247억 원 | 4조 245억 원 | 3조 9,711억 원 | 4조 1,009억 원 |
+| 영업이익 | 2,107억 원 | 1,849억 원 | 1,672억 원 | 2,001억 원 |
+| 당기순이익 | 1,665억 원 | 600억 원 | 512억 원 | 1,038억 원 |
+| 영업이익률 | 6.5% | 4.6% | 4.2% | 4.9% |
+| ROE | 11.6% | 4.0% | 3.1% | 6.3% |
+| EPS | 16,499원 | 5,878원 | 4,697원 | 9,797원 |
+| PER | 8.9배 | 19.1배 | 29.6배 | 10.0배 |
+| PBR | 1.01배 | 0.75배 | 0.92배 | 0.62배 |
+| 주당배당금 | 3,400원 | 3,400원 | 3,400원 | 3,418원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,107억 원이고, 주가는 한 해 -16.7% 움직였다. 2024년은 영업이익 1,849억 원 (전년보다 -12%)이고, 주가는 한 해 -23.6% 움직였다. 2025년은 영업이익 1,672억 원 (전년보다 -10%)이고, 주가는 한 해 +24.3% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="롯데칠성음료 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="143.6" y2="143.6"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="143.6" width="104.5" height="79.5" rx="3"/><text class="ic-val" x="159.3" y="237.2" text-anchor="middle">-17%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="143.6" width="104.5" height="112.4" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-24%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="115.6" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+24%</text></svg><figcaption>롯데칠성음료 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 롯데칠성음료 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 873억 원 | 1조 792억 원 | 8,943억 원 | 9,525억 원 | 1조 1,129억 원 | 1조 1,078억 원 |
+| 영업이익 | 624억 원 | 918억 원 | -120억 원 | 478억 원 | 558억 원 | 858억 원 |
+| 당기순이익 | 277억 원 | 620억 원 | -439억 원 | 253억 원 | 282억 원 | 501억 원 |
+| 영업이익률 | 5.7% | 8.5% | -1.4% | 5.0% | 5.0% | 7.8% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="롯데칠성음료 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="229.6" y2="229.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="92.6" width="52.3" height="137.1" rx="3"/><text class="ic-val" x="112.7" y="86.6" text-anchor="middle">624억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="201.6" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">918억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="229.6" width="52.3" height="26.4" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-120억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="124.6" width="52.3" height="105.0" rx="3"/><text class="ic-val" x="392.7" y="118.6" text-anchor="middle">478억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="107.1" width="52.3" height="122.6" rx="3"/><text class="ic-val" x="486.0" y="101.1" text-anchor="middle">558억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="41.2" width="52.3" height="188.5" rx="3"/><text class="ic-val" x="579.3" y="35.2" text-anchor="middle">858억</text></svg><figcaption>롯데칠성음료 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

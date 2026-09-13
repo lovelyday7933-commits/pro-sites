@@ -1,0 +1,53 @@
+---
+title: "남해화학 실적, 2025년 영업이익 431억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "남해화학 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "025860"
+name: "남해화학"
+intent: "실적"
+chip: "025860 · 코스피 · 비료, 농약 및 살균, 살충제 제조업 · 기준일 2026.09.11"
+utm_source: "남해화학-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/비료,-농약-및-살균,-살충제-제조업/", "label": "비료, 농약 및 살균, 살충제 제조업"}, {"url": "/종목/남해화학/", "label": "남해화학"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/남해화학/", "label": "남해화학 주가"}, {"url": "/종목/남해화학/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/남해화학/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/남해화학/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/경농/실적/", "label": "경농 실적"}, {"url": "/종목/동방아그로/실적/", "label": "동방아그로 실적"}, {"url": "/종목/조비/실적/", "label": "조비 실적"}, {"url": "/종목/sb성보/실적/", "label": "SB성보 실적"}, {"url": "/종목/효성오앤비/실적/", "label": "효성오앤비 실적"}, {"url": "/종목/누보/실적/", "label": "누보 실적"}, {"url": "/종목/인바이오/실적/", "label": "인바이오 실적"}]
+peers_head: "같은 업종(비료, 농약 및 살균, 살충제 제조업) 다른 종목의 실적"
+---
+
+남해화학의 최근 연간 실적은 2023년 매출 1조 5,881억 원·영업이익 111억 원, 2024년 매출 1조 5,191억 원·영업이익 363억 원, 2025년 매출 1조 6,044억 원·영업이익 431억 원이다.
+
+## 남해화학 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 5,881억 원 | 1조 5,191억 원 | 1조 6,044억 원 | — |
+| 영업이익 | 111억 원 | 363억 원 | 431억 원 | — |
+| 당기순이익 | 107억 원 | 215억 원 | 269억 원 | — |
+| 영업이익률 | 0.7% | 2.4% | 2.7% | — |
+| ROE | 2.3% | 4.8% | 5.4% | — |
+| EPS | 241원 | 506원 | 587원 | — |
+| PER | 30.7배 | 12.1배 | 11.3배 | — |
+| PBR | 0.70배 | 0.56배 | 0.58배 | — |
+| 주당배당금 | 60원 | 80원 | 90원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 111억 원이고, 주가는 한 해 -13.0% 움직였다. 2024년은 영업이익 363억 원 (전년보다 +227%)이고, 주가는 한 해 -17.2% 움직였다. 2025년은 영업이익 431억 원 (전년보다 +19%)이고, 주가는 한 해 +8.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="남해화학 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="104.4" y2="104.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="104.4" width="104.5" height="115.2" rx="3"/><text class="ic-val" x="159.3" y="233.6" text-anchor="middle">-13%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="104.4" width="104.5" height="151.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-17%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="76.4" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+9%</text></svg><figcaption>남해화학 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 남해화학 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4,262억 원 | 3,603억 원 | 3,802억 원 | 4,930억 원 | 5,049억 원 | — |
+| 영업이익 | 142억 원 | 157억 원 | -74억 원 | -1억 원 | 129억 원 | — |
+| 당기순이익 | 94억 원 | 97억 원 | -58억 원 | -25억 원 | 83억 원 | — |
+| 영업이익률 | 3.3% | 4.3% | -1.9% | 0.0% | 2.6% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="남해화학 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="183.0" y2="183.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="42.8" width="52.3" height="140.2" rx="3"/><text class="ic-val" x="112.7" y="36.8" text-anchor="middle">142억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="155.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">157억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="183.0" width="52.3" height="73.0" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-74억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="183.0" width="52.3" height="1.0" rx="3"/><text class="ic-val" x="392.7" y="197.9" text-anchor="middle">-1억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="55.6" width="52.3" height="127.3" rx="3"/><text class="ic-val" x="486.0" y="49.6" text-anchor="middle">129억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>남해화학 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

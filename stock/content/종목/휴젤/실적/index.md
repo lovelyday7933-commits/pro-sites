@@ -1,0 +1,54 @@
+---
+title: "휴젤 실적, 2025년 영업이익 2,009억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "휴젤 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "145020"
+name: "휴젤"
+intent: "실적"
+chip: "145020 · 코스닥 · 기초 의약물질 제조업 · 기준일 2026.09.11"
+utm_source: "휴젤-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기초-의약물질-제조업/", "label": "기초 의약물질 제조업"}, {"url": "/종목/휴젤/", "label": "휴젤"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/휴젤/", "label": "휴젤 주가"}, {"url": "/종목/휴젤/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/휴젤/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/휴젤/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/휴젤/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/sk바이오사이언스/실적/", "label": "SK바이오사이언스 실적"}, {"url": "/종목/펩트론/실적/", "label": "펩트론 실적"}, {"url": "/종목/에이비엘바이오/실적/", "label": "에이비엘바이오 실적"}, {"url": "/종목/케어젠/실적/", "label": "케어젠 실적"}, {"url": "/종목/네이처셀/실적/", "label": "네이처셀 실적"}, {"url": "/종목/코오롱티슈진/실적/", "label": "코오롱티슈진 실적"}, {"url": "/종목/오름테라퓨틱/실적/", "label": "오름테라퓨틱 실적"}, {"url": "/종목/차바이오텍/실적/", "label": "차바이오텍 실적"}]
+peers_head: "같은 업종(기초 의약물질 제조업) 다른 종목의 실적"
+---
+
+휴젤의 최근 연간 실적은 2023년 매출 3,197억 원·영업이익 1,178억 원, 2024년 매출 3,730억 원·영업이익 1,662억 원, 2025년 매출 4,251억 원·영업이익 2,009억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 5,382억 원·영업이익 2,191억 원이다.
+
+## 휴젤 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3,197억 원 | 3,730억 원 | 4,251억 원 | 5,382억 원 |
+| 영업이익 | 1,178억 원 | 1,662억 원 | 2,009억 원 | 2,191억 원 |
+| 당기순이익 | 977억 원 | 1,431억 원 | 1,470억 원 | 1,809억 원 |
+| 영업이익률 | 36.8% | 44.6% | 47.2% | 40.7% |
+| ROE | 12.1% | 17.5% | 16.1% | 16.8% |
+| EPS | 7,517원 | 10,985원 | 11,348원 | 14,078원 |
+| PER | 19.9배 | 25.5배 | 20.3배 | 16.4배 |
+| PBR | 2.18배 | 3.76배 | 2.62배 | 2.26배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,178억 원이고, 주가는 한 해 +10.7% 움직였다. 2024년은 영업이익 1,662억 원 (전년보다 +41%)이고, 주가는 한 해 +87.8% 움직였다. 2025년은 영업이익 2,009억 원 (전년보다 +21%)이고, 주가는 한 해 -17.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="휴젤 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="217.5" y2="217.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="194.3" width="104.5" height="23.2" rx="3"/><text class="ic-val" x="159.3" y="188.3" text-anchor="middle">+11%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="189.5" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+88%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="217.5" width="104.5" height="38.5" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-18%</text></svg><figcaption>휴젤 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 휴젤 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1,103억 원 | 1,059억 원 | 1,191억 원 | 1,166억 원 | 1,379억 원 | 1,352억 원 |
+| 영업이익 | 567억 원 | 474억 원 | 578억 원 | 476억 원 | 560억 원 | 550억 원 |
+| 당기순이익 | 382억 원 | 380억 원 | 398억 원 | 406억 원 | 447억 원 | 449억 원 |
+| 영업이익률 | 51.4% | 44.8% | 48.5% | 40.8% | 40.6% | 40.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="휴젤 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="32.3" width="52.3" height="223.7" rx="3"/><text class="ic-val" x="112.7" y="26.3" text-anchor="middle">567억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="69.0" width="52.3" height="187.0" rx="3"/><text class="ic-val" x="206.0" y="63.0" text-anchor="middle">474억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">578억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="68.2" width="52.3" height="187.8" rx="3"/><text class="ic-val" x="392.7" y="62.2" text-anchor="middle">476억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="35.1" width="52.3" height="220.9" rx="3"/><text class="ic-val" x="486.0" y="29.1" text-anchor="middle">560억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="39.0" width="52.3" height="217.0" rx="3"/><text class="ic-val" x="579.3" y="33.0" text-anchor="middle">550억</text></svg><figcaption>휴젤 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "휴메딕스 실적, 2025년 영업이익 423억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "휴메딕스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "200670"
+name: "휴메딕스"
+intent: "실적"
+chip: "200670 · 코스닥 · 의약품 제조업 · 기준일 2026.09.11"
+utm_source: "휴메딕스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/의약품-제조업/", "label": "의약품 제조업"}, {"url": "/종목/휴메딕스/", "label": "휴메딕스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/휴메딕스/", "label": "휴메딕스 주가"}, {"url": "/종목/휴메딕스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/휴메딕스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/휴메딕스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/휴메딕스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/일성아이에스/실적/", "label": "일성아이에스 실적"}, {"url": "/종목/유나이티드/실적/", "label": "유나이티드 실적"}, {"url": "/종목/휴온스글로벌/실적/", "label": "휴온스글로벌 실적"}, {"url": "/종목/현대약품/실적/", "label": "현대약품 실적"}, {"url": "/종목/광동제약/실적/", "label": "광동제약 실적"}, {"url": "/종목/유바이오로직스/실적/", "label": "유바이오로직스 실적"}, {"url": "/종목/에스바이오메딕스/실적/", "label": "에스바이오메딕스 실적"}, {"url": "/종목/삼진제약/실적/", "label": "삼진제약 실적"}]
+peers_head: "같은 업종(의약품 제조업) 다른 종목의 실적"
+---
+
+휴메딕스의 최근 연간 실적은 2023년 매출 1,523억 원·영업이익 373억 원, 2024년 매출 1,619억 원·영업이익 431억 원, 2025년 매출 1,701억 원·영업이익 423억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,949억 원·영업이익 449억 원이다.
+
+## 휴메딕스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1,523억 원 | 1,619억 원 | 1,701억 원 | 1,949억 원 |
+| 영업이익 | 373억 원 | 431억 원 | 423억 원 | 449억 원 |
+| 당기순이익 | 248억 원 | 393억 원 | 518억 원 | 428억 원 |
+| 영업이익률 | 24.5% | 26.6% | 24.9% | 23.1% |
+| ROE | 14.7% | 18.4% | 19.6% | 13.6% |
+| EPS | 2,314원 | 3,496원 | 4,611원 | 3,832원 |
+| PER | 14.6배 | 12.1배 | 8.8배 | 6.8배 |
+| PBR | 1.77배 | 1.91배 | 1.49배 | 0.85배 |
+| 주당배당금 | 525원 | 630원 | 920원 | 920원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 373억 원이고, 주가는 한 해 +21.8% 움직였다. 2024년은 영업이익 431억 원 (전년보다 +16%)이고, 주가는 한 해 +25.2% 움직였다. 2025년은 영업이익 423억 원 (전년보다 -2%)이고, 주가는 한 해 -4.5% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="휴메딕스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="221.5" y2="221.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="53.7" width="104.5" height="167.8" rx="3"/><text class="ic-val" x="159.3" y="47.7" text-anchor="middle">+22%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="193.5" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+25%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="221.5" width="104.5" height="34.5" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-4%</text></svg><figcaption>휴메딕스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 휴메딕스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 430억 원 | 409억 원 | 460억 원 | 405억 원 | 504억 원 | 512억 원 |
+| 영업이익 | 108억 원 | 90억 원 | 111억 원 | 89억 원 | 117억 원 | 123억 원 |
+| 당기순이익 | 79억 원 | 227억 원 | 78억 원 | 130억 원 | 24억 원 | 106억 원 |
+| 영업이익률 | 25.1% | 21.9% | 24.2% | 22.0% | 23.2% | 23.9% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="휴메딕스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="55.8" width="52.3" height="200.2" rx="3"/><text class="ic-val" x="112.7" y="49.8" text-anchor="middle">108억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="89.2" width="52.3" height="166.8" rx="3"/><text class="ic-val" x="206.0" y="83.2" text-anchor="middle">90억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="50.2" width="52.3" height="205.8" rx="3"/><text class="ic-val" x="299.3" y="44.2" text-anchor="middle">111억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="91.0" width="52.3" height="165.0" rx="3"/><text class="ic-val" x="392.7" y="85.0" text-anchor="middle">89억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="39.1" width="52.3" height="216.9" rx="3"/><text class="ic-val" x="486.0" y="33.1" text-anchor="middle">117억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">123억</text></svg><figcaption>휴메딕스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

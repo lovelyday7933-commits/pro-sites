@@ -1,0 +1,53 @@
+---
+title: "이리츠코크렙 실적, 2026년 6월 결산 영업이익 183억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "이리츠코크렙 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "088260"
+name: "이리츠코크렙"
+intent: "실적"
+chip: "088260 · 코스피 · 부동산 임대 및 공급업 · 기준일 2026.09.11"
+utm_source: "이리츠코크렙-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/부동산-임대-및-공급업/", "label": "부동산 임대 및 공급업"}, {"url": "/종목/이리츠코크렙/", "label": "이리츠코크렙"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/이리츠코크렙/", "label": "이리츠코크렙 주가"}, {"url": "/종목/이리츠코크렙/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/이리츠코크렙/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/이리츠코크렙/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/디앤디플랫폼리츠/실적/", "label": "디앤디플랫폼리츠 실적"}, {"url": "/종목/신한서부티엔디리츠/실적/", "label": "신한서부티엔디리츠 실적"}, {"url": "/종목/제이알글로벌리츠/실적/", "label": "제이알글로벌리츠 실적"}, {"url": "/종목/kb스타리츠/실적/", "label": "KB스타리츠 실적"}, {"url": "/종목/이지스밸류플러스리츠/실적/", "label": "이지스밸류플러스리츠 실적"}, {"url": "/종목/nh올원리츠/실적/", "label": "NH올원리츠 실적"}, {"url": "/종목/이지스레지던스리츠/실적/", "label": "이지스레지던스리츠 실적"}, {"url": "/종목/코람코라이프인프라리츠/실적/", "label": "코람코라이프인프라리츠 실적"}]
+peers_head: "같은 업종(부동산 임대 및 공급업) 다른 종목의 실적"
+---
+
+이리츠코크렙의 최근 연간 실적은 2025년 매출 229억 원·영업이익 178억 원, 2025년 매출 232억 원·영업이익 182억 원, 2026년 매출 233억 원·영업이익 183억 원이다.
+
+## 이리츠코크렙 연간 실적
+
+| 항목 | 2025 | 2025 | 2026 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 229억 원 | 232억 원 | 233억 원 | — |
+| 영업이익 | 178억 원 | 182억 원 | 183억 원 | — |
+| 당기순이익 | 66억 원 | 70억 원 | 68억 원 | — |
+| 영업이익률 | 77.9% | 78.3% | 78.5% | — |
+| ROE | 2.9% | 3.2% | 3.1% | — |
+| EPS | 104원 | 110원 | 107원 | — |
+| PER | 42.8배 | 41.9배 | 31.9배 | — |
+| PBR | 1.28배 | 1.36배 | 1.02배 | — |
+| 주당배당금 | 174원 | 176원 | 173원 | — |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 178억 원이고, 주가는 한 해 +12.1% 움직였다. 2025년은 영업이익 182억 원이고, 주가는 한 해 +12.1% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="이리츠코크렙 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="127.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">+12%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+12%</text></svg><figcaption>이리츠코크렙 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 이리츠코크렙 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 114억 원 | 116억 원 | 117억 원 | 117억 원 | 117억 원 | — |
+| 영업이익 | 89억 원 | 90억 원 | 92억 원 | 92억 원 | 92억 원 | — |
+| 당기순이익 | 35억 원 | 35억 원 | 35억 원 | 34억 원 | 33억 원 | — |
+| 영업이익률 | 78.0% | 78.2% | 78.4% | 78.5% | 78.5% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="이리츠코크렙 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="35.4" width="52.3" height="220.6" rx="3"/><text class="ic-val" x="112.7" y="29.4" text-anchor="middle">89억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="33.0" width="52.3" height="223.0" rx="3"/><text class="ic-val" x="206.0" y="27.0" text-anchor="middle">90억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">92억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">92억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">92억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>이리츠코크렙 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

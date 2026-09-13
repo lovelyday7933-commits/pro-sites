@@ -1,0 +1,53 @@
+---
+title: "AK홀딩스 실적, 2025년 영업이익 -1,479억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "AK홀딩스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "006840"
+name: "AK홀딩스"
+intent: "실적"
+chip: "006840 · 코스피 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "ak홀딩스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/ak홀딩스/", "label": "AK홀딩스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/ak홀딩스/", "label": "AK홀딩스 주가"}, {"url": "/종목/ak홀딩스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/ak홀딩스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/ak홀딩스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/lb인베스트먼트/실적/", "label": "LB인베스트먼트 실적"}, {"url": "/종목/티와이홀딩스/실적/", "label": "티와이홀딩스 실적"}, {"url": "/종목/경동인베스트/실적/", "label": "경동인베스트 실적"}, {"url": "/종목/컴퍼니케이/실적/", "label": "컴퍼니케이 실적"}, {"url": "/종목/디와이/실적/", "label": "디와이 실적"}, {"url": "/종목/로스웰/실적/", "label": "로스웰 실적"}, {"url": "/종목/스톤브릿지벤처스/실적/", "label": "스톤브릿지벤처스 실적"}, {"url": "/종목/크라운해태홀딩스/실적/", "label": "크라운해태홀딩스 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+AK홀딩스의 최근 연간 실적은 2023년 매출 4조 4,797억 원·영업이익 2,791억 원, 2024년 매출 3조 8,101억 원·영업이익 511억 원, 2025년 매출 3조 2,357억 원·영업이익 -1,479억 원이다.
+
+## AK홀딩스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 4조 4,797억 원 | 3조 8,101억 원 | 3조 2,357억 원 | — |
+| 영업이익 | 2,791억 원 | 511억 원 | -1,479억 원 | — |
+| 당기순이익 | 1,304억 원 | -166억 원 | -1,747억 원 | — |
+| 영업이익률 | 6.2% | 1.3% | -4.6% | — |
+| ROE | 6.2% | -2.0% | -25.5% | — |
+| EPS | 2,600원 | -819원 | -9,008원 | — |
+| PER | 6.6배 | -11.8배 | -1.0배 | — |
+| PBR | 0.39배 | 0.24배 | 0.28배 | — |
+| 주당배당금 | 200원 | 400원 | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 2,791억 원이고, 주가는 한 해 -0.6% 움직였다. 2024년은 영업이익 511억 원 (전년보다 -82%)이고, 주가는 한 해 -43.6% 움직였다. 2025년은 영업이익 -1,479억 원 (전년보다 -389%)이고, 주가는 한 해 -9.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="AK홀딩스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="3.0" rx="3"/><text class="ic-val" x="159.3" y="45.0" text-anchor="middle">-1%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-44%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="50.4" rx="3"/><text class="ic-val" x="532.7" y="92.4" text-anchor="middle">-10%</text></svg><figcaption>AK홀딩스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## AK홀딩스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 7,607억 원 | 9,634억 원 | 3,894억 원 | 9,377억 원 | 1조 255억 원 | — |
+| 영업이익 | -474억 원 | -558억 원 | -403억 원 | 672억 원 | -9억 원 | — |
+| 당기순이익 | -219억 원 | -917억 원 | -561억 원 | 1,210억 원 | -48억 원 | — |
+| 영업이익률 | -6.2% | -5.8% | -10.4% | 7.2% | -0.1% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="AK홀딩스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="152.6" y2="152.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="152.6" width="52.3" height="87.9" rx="3"/><text class="ic-val" x="112.7" y="254.4" text-anchor="middle">-474억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="152.6" width="52.3" height="103.4" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-558억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="152.6" width="52.3" height="74.7" rx="3"/><text class="ic-val" x="299.3" y="241.3" text-anchor="middle">-403억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="124.6" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">672억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="152.6" width="52.3" height="1.7" rx="3"/><text class="ic-val" x="486.0" y="168.2" text-anchor="middle">-9억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>AK홀딩스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

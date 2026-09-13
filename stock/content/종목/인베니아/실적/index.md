@@ -1,0 +1,53 @@
+---
+title: "인베니아 실적, 2025년 영업이익 -86억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "인베니아 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "079950"
+name: "인베니아"
+intent: "실적"
+chip: "079950 · 코스닥 · 특수 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "인베니아-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/특수-목적용-기계-제조업/", "label": "특수 목적용 기계 제조업"}, {"url": "/종목/인베니아/", "label": "인베니아"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/인베니아/", "label": "인베니아 주가"}, {"url": "/종목/인베니아/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/인베니아/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/인베니아/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/케이지에이/실적/", "label": "케이지에이 실적"}, {"url": "/종목/루트k/실적/", "label": "루트K 실적"}, {"url": "/종목/스페코/실적/", "label": "스페코 실적"}, {"url": "/종목/참엔지니어링/실적/", "label": "참엔지니어링 실적"}, {"url": "/종목/ks인더스트리/실적/", "label": "KS인더스트리 실적"}, {"url": "/종목/한국정밀기계/실적/", "label": "한국정밀기계 실적"}, {"url": "/종목/피엔티엠에스/실적/", "label": "피엔티엠에스 실적"}, {"url": "/종목/신도기연/실적/", "label": "신도기연 실적"}]
+peers_head: "같은 업종(특수 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+인베니아의 최근 연간 실적은 2023년 매출 227억 원·영업이익 -141억 원, 2024년 매출 218억 원·영업이익 -109억 원, 2025년 매출 184억 원·영업이익 -86억 원이다.
+
+## 인베니아 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 227억 원 | 218억 원 | 184억 원 | — |
+| 영업이익 | -141억 원 | -109억 원 | -86억 원 | — |
+| 당기순이익 | -175억 원 | -100억 원 | -127억 원 | — |
+| 영업이익률 | -62.3% | -49.7% | -46.7% | — |
+| ROE | -40.0% | -33.6% | -62.6% | — |
+| EPS | -2,342원 | -1,346원 | -1,704원 | — |
+| PER | -1.5배 | -1.6배 | -0.7배 | — |
+| PBR | 0.71배 | 0.61배 | 0.54배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -141억 원이고, 주가는 한 해 -21.0% 움직였다. 2024년은 영업이익 -109억 원 (전년보다 +23%)이고, 주가는 한 해 -38.1% 움직였다. 2025년은 영업이익 -86억 원 (전년보다 +21%)이고, 주가는 한 해 -44.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="인베니아 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="107.1" rx="3"/><text class="ic-val" x="159.3" y="149.1" text-anchor="middle">-21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="194.3" rx="3"/><text class="ic-val" x="346.0" y="236.3" text-anchor="middle">-38%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="532.7" y="270.0" text-anchor="middle">-45%</text></svg><figcaption>인베니아 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 인베니아 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 29억 원 | 13억 원 | 119억 원 | 140억 원 | 26억 원 | — |
+| 영업이익 | -6억 원 | -32억 원 | -22억 원 | 2억 원 | -26억 원 | — |
+| 당기순이익 | -29억 원 | -32억 원 | -31억 원 | 22억 원 | -28억 원 | — |
+| 영업이익률 | -19.8% | -256.9% | -18.5% | 1.4% | -101.0% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="인베니아 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="41.4" y2="41.4"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="41.4" width="52.3" height="40.2" rx="3"/><text class="ic-val" x="112.7" y="95.6" text-anchor="middle">-6억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="41.4" width="52.3" height="214.6" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-32억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="41.4" width="52.3" height="147.5" rx="3"/><text class="ic-val" x="299.3" y="202.9" text-anchor="middle">-22억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="13.4" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">2억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="41.4" width="52.3" height="174.4" rx="3"/><text class="ic-val" x="486.0" y="229.8" text-anchor="middle">-26억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>인베니아 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

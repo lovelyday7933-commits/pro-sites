@@ -1,0 +1,53 @@
+---
+title: "위세아이텍 실적, 2025년 영업이익 8억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "위세아이텍 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "065370"
+name: "위세아이텍"
+intent: "실적"
+chip: "065370 · 코스닥 · 소프트웨어 개발 및 공급업 · 기준일 2026.09.11"
+utm_source: "위세아이텍-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/소프트웨어-개발-및-공급업/", "label": "소프트웨어 개발 및 공급업"}, {"url": "/종목/위세아이텍/", "label": "위세아이텍"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/위세아이텍/", "label": "위세아이텍 주가"}, {"url": "/종목/위세아이텍/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/위세아이텍/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/위세아이텍/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/핀텔/실적/", "label": "핀텔 실적"}, {"url": "/종목/오픈놀/실적/", "label": "오픈놀 실적"}, {"url": "/종목/이노뎁/실적/", "label": "이노뎁 실적"}, {"url": "/종목/밸로프/실적/", "label": "밸로프 실적"}, {"url": "/종목/유비온/실적/", "label": "유비온 실적"}, {"url": "/종목/아이티아이즈/실적/", "label": "아이티아이즈 실적"}, {"url": "/종목/알티캐스트/실적/", "label": "알티캐스트 실적"}, {"url": "/종목/에스에스알/실적/", "label": "에스에스알 실적"}]
+peers_head: "같은 업종(소프트웨어 개발 및 공급업) 다른 종목의 실적"
+---
+
+위세아이텍의 최근 연간 실적은 2023년 매출 276억 원·영업이익 -29억 원, 2024년 매출 350억 원·영업이익 9억 원, 2025년 매출 383억 원·영업이익 8억 원이다.
+
+## 위세아이텍 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 276억 원 | 350억 원 | 383억 원 | — |
+| 영업이익 | -29억 원 | 9억 원 | 8억 원 | — |
+| 당기순이익 | -33억 원 | -4억 원 | 15억 원 | — |
+| 영업이익률 | -10.4% | 2.6% | 2.0% | — |
+| ROE | -10.9% | -1.3% | 4.7% | — |
+| EPS | -451원 | -55원 | 197원 | — |
+| PER | -18.0배 | -100.9배 | 28.1배 | — |
+| PBR | 1.72배 | 1.26배 | 1.24배 | — |
+| 주당배당금 | 150원 | 150원 | 150원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -29억 원이고, 주가는 한 해 -26.4% 움직였다. 2024년은 영업이익 9억 원 (전년보다 +131%)이고, 주가는 한 해 -31.0% 움직였다. 2025년은 영업이익 8억 원 (전년보다 -11%)이고, 주가는 한 해 -0.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="위세아이텍 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="28.0" width="104.5" height="194.0" rx="3"/><text class="ic-val" x="159.3" y="236.0" text-anchor="middle">-26%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-31%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="28.0" width="104.5" height="6.6" rx="3"/><text class="ic-val" x="532.7" y="48.6" text-anchor="middle">-1%</text></svg><figcaption>위세아이텍 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 위세아이텍 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 76억 원 | 91억 원 | 155억 원 | 79억 원 | 99억 원 | — |
+| 영업이익 | 5억 원 | 12억 원 | 2억 원 | 4억 원 | -9억 원 | — |
+| 당기순이익 | 10억 원 | 7억 원 | 13억 원 | -3억 원 | 3억 원 | — |
+| 영업이익률 | 6.2% | 12.9% | 1.4% | 4.9% | -8.6% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="위세아이텍 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="158.3" y2="158.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="104.0" width="52.3" height="54.3" rx="3"/><text class="ic-val" x="112.7" y="98.0" text-anchor="middle">5억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="28.0" width="52.3" height="130.3" rx="3"/><text class="ic-val" x="206.0" y="22.0" text-anchor="middle">12억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="136.6" width="52.3" height="21.7" rx="3"/><text class="ic-val" x="299.3" y="130.6" text-anchor="middle">2억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="114.9" width="52.3" height="43.4" rx="3"/><text class="ic-val" x="392.7" y="108.9" text-anchor="middle">4억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="158.3" width="52.3" height="97.7" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-9억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>위세아이텍 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

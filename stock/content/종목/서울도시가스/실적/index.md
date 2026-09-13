@@ -1,0 +1,53 @@
+---
+title: "서울도시가스 실적, 2025년 영업이익 174억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "서울도시가스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "017390"
+name: "서울도시가스"
+intent: "실적"
+chip: "017390 · 코스피 · 연료용 가스 제조 및 배관공급업 · 기준일 2026.09.11"
+utm_source: "서울도시가스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/연료용-가스-제조-및-배관공급업/", "label": "연료용 가스 제조 및 배관공급업"}, {"url": "/종목/서울도시가스/", "label": "서울도시가스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/서울도시가스/", "label": "서울도시가스 주가"}, {"url": "/종목/서울도시가스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/서울도시가스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/덕양에너젠/실적/", "label": "덕양에너젠 실적"}, {"url": "/종목/대성에너지/실적/", "label": "대성에너지 실적"}, {"url": "/종목/삼천리/실적/", "label": "삼천리 실적"}, {"url": "/종목/한진중공업홀딩스/실적/", "label": "한진중공업홀딩스 실적"}, {"url": "/종목/경동도시가스/실적/", "label": "경동도시가스 실적"}, {"url": "/종목/인천도시가스/실적/", "label": "인천도시가스 실적"}, {"url": "/종목/지에스이/실적/", "label": "지에스이 실적"}, {"url": "/종목/한국가스공사/실적/", "label": "한국가스공사 실적"}]
+peers_head: "같은 업종(연료용 가스 제조 및 배관공급업) 다른 종목의 실적"
+---
+
+서울도시가스의 최근 연간 실적은 2023년 매출 1조 7,174억 원·영업이익 -32억 원, 2024년 매출 1조 7,038억 원·영업이익 -103억 원, 2025년 매출 1조 8,280억 원·영업이익 174억 원이다.
+
+## 서울도시가스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 7,174억 원 | 1조 7,038억 원 | 1조 8,280억 원 | — |
+| 영업이익 | -32억 원 | -103억 원 | 174억 원 | — |
+| 당기순이익 | 205억 원 | 343억 원 | 310억 원 | — |
+| 영업이익률 | -0.2% | -0.6% | 0.9% | — |
+| ROE | 1.9% | 3.1% | 2.8% | — |
+| EPS | 4,029원 | 6,778원 | 6,187원 | — |
+| PER | 15.3배 | 7.3배 | 10.1배 | — |
+| PBR | 0.23배 | 0.18배 | 0.22배 | — |
+| 주당배당금 | 2,250원 | 2,500원 | 2,750원 | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -32억 원이고, 주가는 한 해 -85.5% 움직였다. 2024년은 영업이익 -103억 원 (전년보다 -222%)이고, 주가는 한 해 -19.4% 움직였다. 2025년은 영업이익 174억 원 (전년보다 +269%)이고, 주가는 한 해 +25.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="서울도시가스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="81.0" y2="81.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="81.0" width="104.5" height="175.0" rx="3"/><text class="ic-val" x="159.3" y="270.0" text-anchor="middle">-85%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="81.0" width="104.5" height="39.8" rx="3"/><text class="ic-val" x="346.0" y="134.8" text-anchor="middle">-19%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="53.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+26%</text></svg><figcaption>서울도시가스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 서울도시가스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,991억 원 | 1,963억 원 | 5,437억 원 | 7,695억 원 | 2,755억 원 | — |
+| 영업이익 | 24억 원 | -134억 원 | 35억 원 | 220억 원 | -23억 원 | — |
+| 당기순이익 | 73억 원 | -74억 원 | 57억 원 | 216억 원 | 26억 원 | — |
+| 영업이익률 | 0.8% | -6.8% | 0.7% | 2.9% | -0.8% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="서울도시가스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="169.7" y2="169.7"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="154.2" width="52.3" height="15.5" rx="3"/><text class="ic-val" x="112.7" y="148.2" text-anchor="middle">24억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="169.7" width="52.3" height="86.3" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-134억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="147.2" width="52.3" height="22.5" rx="3"/><text class="ic-val" x="299.3" y="141.2" text-anchor="middle">35억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="28.0" width="52.3" height="141.7" rx="3"/><text class="ic-val" x="392.7" y="22.0" text-anchor="middle">220억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="169.7" width="52.3" height="14.8" rx="3"/><text class="ic-val" x="486.0" y="198.5" text-anchor="middle">-23억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>서울도시가스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

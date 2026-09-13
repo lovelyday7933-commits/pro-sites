@@ -1,0 +1,54 @@
+---
+title: "LX세미콘 실적, 2025년 영업이익 1,089억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "LX세미콘 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "108320"
+name: "LX세미콘"
+intent: "실적"
+chip: "108320 · 코스피 · 반도체 제조업 · 기준일 2026.09.11"
+utm_source: "lx세미콘-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/반도체-제조업/", "label": "반도체 제조업"}, {"url": "/종목/lx세미콘/", "label": "LX세미콘"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/lx세미콘/", "label": "LX세미콘 주가"}, {"url": "/종목/lx세미콘/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/lx세미콘/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/lx세미콘/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/lx세미콘/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/서울반도체/실적/", "label": "서울반도체 실적"}, {"url": "/종목/동운아나텍/실적/", "label": "동운아나텍 실적"}, {"url": "/종목/네패스/실적/", "label": "네패스 실적"}, {"url": "/종목/미코/실적/", "label": "미코 실적"}, {"url": "/종목/가온칩스/실적/", "label": "가온칩스 실적"}, {"url": "/종목/광전자/실적/", "label": "광전자 실적"}, {"url": "/종목/덕산하이메탈/실적/", "label": "덕산하이메탈 실적"}, {"url": "/종목/메카로/실적/", "label": "메카로 실적"}]
+peers_head: "같은 업종(반도체 제조업) 다른 종목의 실적"
+---
+
+LX세미콘의 최근 연간 실적은 2023년 매출 1조 9,014억 원·영업이익 1,290억 원, 2024년 매출 1조 8,656억 원·영업이익 1,671억 원, 2025년 매출 1조 6,391억 원·영업이익 1,089억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1조 5,473억 원·영업이익 746억 원이다.
+
+## LX세미콘 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 9,014억 원 | 1조 8,656억 원 | 1조 6,391억 원 | 1조 5,473억 원 |
+| 영업이익 | 1,290억 원 | 1,671억 원 | 1,089억 원 | 746억 원 |
+| 당기순이익 | 1,012억 원 | 1,305억 원 | 826억 원 | 623억 원 |
+| 영업이익률 | 6.8% | 9.0% | 6.6% | 4.8% |
+| ROE | 10.5% | 12.7% | 7.5% | 5.5% |
+| EPS | 6,222원 | 8,024원 | 5,081원 | 3,843원 |
+| PER | 13.9배 | 7.1배 | 9.7배 | 9.4배 |
+| PBR | 1.45배 | 0.86배 | 0.71배 | 0.51배 |
+| 주당배당금 | 1,800원 | 2,400원 | 1,500원 | 1,309원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 1,290억 원이고, 주가는 한 해 +21.1% 움직였다. 2024년은 영업이익 1,671억 원 (전년보다 +30%)이고, 주가는 한 해 -34.4% 움직였다. 2025년은 영업이익 1,089억 원 (전년보다 -35%)이고, 주가는 한 해 -13.6% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LX세미콘 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="114.5" y2="114.5"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="86.5" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+21%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="114.5" width="104.5" height="141.5" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-34%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar dn" x="480.4" y="114.5" width="104.5" height="55.9" rx="3"/><text class="ic-val" x="532.7" y="184.5" text-anchor="middle">-14%</text></svg><figcaption>LX세미콘 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## LX세미콘 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 3,786억 원 | 3,944억 원 | 3,898억 원 | 3,888억 원 | 4,012억 원 | 3,843억 원 |
+| 영업이익 | 102억 원 | 140억 원 | 249억 원 | 206억 원 | 220억 원 | 176억 원 |
+| 당기순이익 | 83억 원 | 101억 원 | 189억 원 | 112억 원 | 179억 원 | 169억 원 |
+| 영업이익률 | 2.7% | 3.6% | 6.4% | 5.3% | 5.5% | 4.6% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="LX세미콘 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="162.6" width="52.3" height="93.4" rx="3"/><text class="ic-val" x="112.7" y="156.6" text-anchor="middle">102억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="127.8" width="52.3" height="128.2" rx="3"/><text class="ic-val" x="206.0" y="121.8" text-anchor="middle">140억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">249억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="67.4" width="52.3" height="188.6" rx="3"/><text class="ic-val" x="392.7" y="61.4" text-anchor="middle">206억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="54.6" width="52.3" height="201.4" rx="3"/><text class="ic-val" x="486.0" y="48.6" text-anchor="middle">220억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="94.8" width="52.3" height="161.2" rx="3"/><text class="ic-val" x="579.3" y="88.8" text-anchor="middle">176억</text></svg><figcaption>LX세미콘 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "파두 실적, 2025년 영업이익 -655억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "파두 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "440110"
+name: "파두"
+intent: "실적"
+chip: "440110 · 코스닥 · 반도체 제조업 · 기준일 2026.09.11"
+utm_source: "파두-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/반도체-제조업/", "label": "반도체 제조업"}, {"url": "/종목/파두/", "label": "파두"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/파두/", "label": "파두 주가"}, {"url": "/종목/파두/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/파두/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/파두/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/파두/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/제주반도체/실적/", "label": "제주반도체 실적"}, {"url": "/종목/db하이텍/실적/", "label": "DB하이텍 실적"}, {"url": "/종목/하나마이크론/실적/", "label": "하나마이크론 실적"}, {"url": "/종목/hd현대에너지솔루션/실적/", "label": "HD현대에너지솔루션 실적"}, {"url": "/종목/sfa반도체/실적/", "label": "SFA반도체 실적"}, {"url": "/종목/하나머티리얼즈/실적/", "label": "하나머티리얼즈 실적"}, {"url": "/종목/미코/실적/", "label": "미코 실적"}, {"url": "/종목/lx세미콘/실적/", "label": "LX세미콘 실적"}]
+peers_head: "같은 업종(반도체 제조업) 다른 종목의 실적"
+---
+
+파두의 최근 연간 실적은 2023년 매출 225억 원·영업이익 -586억 원, 2024년 매출 435억 원·영업이익 -950억 원, 2025년 매출 924억 원·영업이익 -655억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 3,853억 원·영업이익 880억 원이다.
+
+## 파두 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 225억 원 | 435억 원 | 924억 원 | 3,853억 원 |
+| 영업이익 | -586억 원 | -950억 원 | -655억 원 | 880억 원 |
+| 당기순이익 | -568억 원 | -915억 원 | -762억 원 | 490억 원 |
+| 영업이익률 | -260.6% | -218.5% | -70.8% | 22.8% |
+| ROE | -50.2% | -64.5% | -131.1% | 109.5% |
+| EPS | -1,272원 | -1,842원 | -1,530원 | 978원 |
+| PER | -18.4배 | -8.1배 | -13.9배 | 70.0배 |
+| PBR | 6.15배 | 7.69배 | 54.39배 | 48.89배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2024년은 영업이익 -950억 원 (전년보다 -62%)이고, 주가는 한 해 -35.8% 움직였다. 2025년은 영업이익 -655억 원 (전년보다 +31%)이고, 주가는 한 해 +41.7% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="파두 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="150.7" y2="150.7"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="127.6" y="150.7" width="156.8" height="105.3" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-36%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="122.7" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+42%</text></svg><figcaption>파두 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 파두 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 237억 원 | 256억 원 | 239억 원 | 595억 원 | 732억 원 | 1,184억 원 |
+| 영업이익 | -126억 원 | -114억 원 | -295억 원 | 77억 원 | 162억 원 | 321억 원 |
+| 당기순이익 | -148억 원 | -109억 원 | -384억 원 | 102억 원 | -601억 원 | 325억 원 |
+| 영업이익률 | -53.1% | -44.6% | -123.5% | 12.9% | 22.2% | 27.1% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="파두 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="146.8" y2="146.8"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="146.8" width="52.3" height="46.6" rx="3"/><text class="ic-val" x="112.7" y="207.4" text-anchor="middle">-126억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="146.8" width="52.3" height="42.2" rx="3"/><text class="ic-val" x="206.0" y="203.0" text-anchor="middle">-114억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="146.8" width="52.3" height="109.2" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-295억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="118.3" width="52.3" height="28.5" rx="3"/><text class="ic-val" x="392.7" y="112.3" text-anchor="middle">77억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="86.9" width="52.3" height="60.0" rx="3"/><text class="ic-val" x="486.0" y="80.9" text-anchor="middle">162억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="118.8" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">321억</text></svg><figcaption>파두 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

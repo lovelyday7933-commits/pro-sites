@@ -1,0 +1,53 @@
+---
+title: "디아이씨 실적, 2025년 영업이익 186억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "디아이씨 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "092200"
+name: "디아이씨"
+intent: "실적"
+chip: "092200 · 코스피 · 자동차 신품 부품 제조업 · 기준일 2026.09.11"
+utm_source: "디아이씨-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자동차-신품-부품-제조업/", "label": "자동차 신품 부품 제조업"}, {"url": "/종목/디아이씨/", "label": "디아이씨"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/디아이씨/", "label": "디아이씨 주가"}, {"url": "/종목/디아이씨/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/디아이씨/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/디아이씨/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/대원산업/실적/", "label": "대원산업 실적"}, {"url": "/종목/신성에스티/실적/", "label": "신성에스티 실적"}, {"url": "/종목/모토닉/실적/", "label": "모토닉 실적"}, {"url": "/종목/sjg세종/실적/", "label": "SJG세종 실적"}, {"url": "/종목/네오티스/실적/", "label": "네오티스 실적"}, {"url": "/종목/피에이치에이/실적/", "label": "피에이치에이 실적"}, {"url": "/종목/대창단조/실적/", "label": "대창단조 실적"}, {"url": "/종목/dh오토넥스/실적/", "label": "DH오토넥스 실적"}]
+peers_head: "같은 업종(자동차 신품 부품 제조업) 다른 종목의 실적"
+---
+
+디아이씨의 최근 연간 실적은 2023년 매출 7,287억 원·영업이익 361억 원, 2024년 매출 7,191억 원·영업이익 218억 원, 2025년 매출 7,573억 원·영업이익 186억 원이다.
+
+## 디아이씨 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 7,287억 원 | 7,191억 원 | 7,573억 원 | — |
+| 영업이익 | 361억 원 | 218억 원 | 186억 원 | — |
+| 당기순이익 | 210억 원 | 166억 원 | -48억 원 | — |
+| 영업이익률 | 5.0% | 3.0% | 2.5% | — |
+| ROE | 31.1% | 10.0% | -7.2% | — |
+| EPS | 944원 | 366원 | -271원 | — |
+| PER | 5.3배 | 10.1배 | -53.2배 | — |
+| PBR | 1.44배 | 0.96배 | 3.94배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 361억 원이고, 주가는 한 해 +47.8% 움직였다. 2024년은 영업이익 218억 원 (전년보다 -40%)이고, 주가는 한 해 -26.1% 움직였다. 2025년은 영업이익 186억 원 (전년보다 -15%)이고, 주가는 한 해 +291.8% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="디아이씨 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="237.3" y2="237.3"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="203.0" width="104.5" height="34.3" rx="3"/><text class="ic-val" x="159.3" y="197.0" text-anchor="middle">+48%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="237.3" width="104.5" height="18.7" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-26%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="209.3" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+292%</text></svg><figcaption>디아이씨 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 디아이씨 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 2,066억 원 | 1,888억 원 | 1,688억 원 | 1,652억 원 | 1,966억 원 | — |
+| 영업이익 | 83억 원 | 47억 원 | -27억 원 | 28억 원 | 87억 원 | — |
+| 당기순이익 | -5억 원 | 25억 원 | -94억 원 | 11억 원 | 54억 원 | — |
+| 영업이익률 | 4.0% | 2.5% | -1.6% | 1.7% | 4.4% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="디아이씨 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="202.0" y2="202.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="36.0" width="52.3" height="166.0" rx="3"/><text class="ic-val" x="112.7" y="30.0" text-anchor="middle">83억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="108.0" width="52.3" height="94.0" rx="3"/><text class="ic-val" x="206.0" y="102.0" text-anchor="middle">47억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="202.0" width="52.3" height="54.0" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-27억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="146.0" width="52.3" height="56.0" rx="3"/><text class="ic-val" x="392.7" y="140.0" text-anchor="middle">28억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="28.0" width="52.3" height="174.0" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">87억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>디아이씨 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "HD현대마린솔루션 실적, 2025년 영업이익 3,501억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "HD현대마린솔루션 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "443060"
+name: "HD현대마린솔루션"
+intent: "실적"
+chip: "443060 · 코스피 · 건축기술, 엔지니어링 및 관련 기술 서비스업 · 기준일 2026.09.11"
+utm_source: "hd현대마린솔루션-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/건축기술,-엔지니어링-및-관련-기술-서비스업/", "label": "건축기술, 엔지니어링 및 관련 기술 서비스업"}, {"url": "/종목/hd현대마린솔루션/", "label": "HD현대마린솔루션"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/hd현대마린솔루션/", "label": "HD현대마린솔루션 주가"}, {"url": "/종목/hd현대마린솔루션/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/hd현대마린솔루션/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/hd현대마린솔루션/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/hd현대마린솔루션/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/삼성ea/실적/", "label": "삼성E&A 실적"}, {"url": "/종목/한전기술/실적/", "label": "한전기술 실적"}, {"url": "/종목/포스코dx/실적/", "label": "포스코DX 실적"}, {"url": "/종목/한양이엔지/실적/", "label": "한양이엔지 실적"}, {"url": "/종목/세미파이브/실적/", "label": "세미파이브 실적"}, {"url": "/종목/한전산업/실적/", "label": "한전산업 실적"}, {"url": "/종목/한미글로벌/실적/", "label": "한미글로벌 실적"}, {"url": "/종목/도화엔지니어링/실적/", "label": "도화엔지니어링 실적"}]
+peers_head: "같은 업종(건축기술, 엔지니어링 및 관련 기술 서비스업) 다른 종목의 실적"
+---
+
+HD현대마린솔루션의 최근 연간 실적은 2023년 매출 1조 4,305억 원·영업이익 2,015억 원, 2024년 매출 1조 7,455억 원·영업이익 2,717억 원, 2025년 매출 1조 9,827억 원·영업이익 3,501억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2조 3,321억 원·영업이익 4,149억 원이다.
+
+## HD현대마린솔루션 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 4,305억 원 | 1조 7,455억 원 | 1조 9,827억 원 | 2조 3,321억 원 |
+| 영업이익 | 2,015억 원 | 2,717억 원 | 3,501억 원 | 4,149억 원 |
+| 당기순이익 | 1,511억 원 | 2,279억 원 | 2,696억 원 | 3,507억 원 |
+| 영업이익률 | 14.1% | 15.6% | 17.7% | 17.8% |
+| ROE | 71.6% | 45.0% | 33.7% | 38.4% |
+| EPS | 3,778원 | 5,302원 | 6,013원 | 7,821원 |
+| PER | — | 30.4배 | 32.2배 | 31.6배 |
+| PBR | 0.00배 | 9.35배 | 10.52배 | 11.05배 |
+| 주당배당금 | — | 3,150원 | 3,950원 | 5,415원 |
+
+## 영업이익과 그해 주가
+
+2025년은 영업이익 3,501억 원 (전년보다 +29%)이고, 주가는 한 해 +19.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HD현대마린솔루션 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="189.2" y="28.0" width="313.6" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+20%</text></svg><figcaption>HD현대마린솔루션 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## HD현대마린솔루션 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 4,677억 원 | 5,132억 원 | 5,162억 원 | 5,746억 원 | 5,804억 원 | 5,889억 원 |
+| 영업이익 | 830억 원 | 936억 원 | 905억 원 | 934억 원 | 976억 원 | 1,063억 원 |
+| 당기순이익 | 530억 원 | 798억 원 | 735억 원 | 981억 원 | 830억 원 | 857억 원 |
+| 영업이익률 | 17.8% | 18.2% | 17.5% | 16.2% | 16.8% | 18.0% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HD현대마린솔루션 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="78.0" width="52.3" height="178.0" rx="3"/><text class="ic-val" x="112.7" y="72.0" text-anchor="middle">830억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="55.2" width="52.3" height="200.8" rx="3"/><text class="ic-val" x="206.0" y="49.2" text-anchor="middle">936억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="61.9" width="52.3" height="194.1" rx="3"/><text class="ic-val" x="299.3" y="55.9" text-anchor="middle">905억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="55.7" width="52.3" height="200.3" rx="3"/><text class="ic-val" x="392.7" y="49.7" text-anchor="middle">934억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="46.7" width="52.3" height="209.3" rx="3"/><text class="ic-val" x="486.0" y="40.7" text-anchor="middle">976억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">1,063억</text></svg><figcaption>HD현대마린솔루션 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

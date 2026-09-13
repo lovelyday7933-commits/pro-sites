@@ -1,0 +1,54 @@
+---
+title: "리가켐바이오 실적, 2025년 영업이익 -1,065억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "리가켐바이오 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "141080"
+name: "리가켐바이오"
+intent: "실적"
+chip: "141080 · 코스닥 · 자연과학 및 공학 연구개발업 · 기준일 2026.09.11"
+utm_source: "리가켐바이오-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/자연과학-및-공학-연구개발업/", "label": "자연과학 및 공학 연구개발업"}, {"url": "/종목/리가켐바이오/", "label": "리가켐바이오"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/리가켐바이오/", "label": "리가켐바이오 주가"}, {"url": "/종목/리가켐바이오/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/리가켐바이오/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/리가켐바이오/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/리가켐바이오/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/보로노이/실적/", "label": "보로노이 실적"}, {"url": "/종목/올릭스/실적/", "label": "올릭스 실적"}, {"url": "/종목/메지온/실적/", "label": "메지온 실적"}, {"url": "/종목/디앤디파마텍/실적/", "label": "디앤디파마텍 실적"}, {"url": "/종목/에스케이바이오팜/실적/", "label": "에스케이바이오팜 실적"}, {"url": "/종목/에임드바이오/실적/", "label": "에임드바이오 실적"}, {"url": "/종목/제이에스링크/실적/", "label": "제이에스링크 실적"}, {"url": "/종목/큐리언트/실적/", "label": "큐리언트 실적"}]
+peers_head: "같은 업종(자연과학 및 공학 연구개발업) 다른 종목의 실적"
+---
+
+리가켐바이오의 최근 연간 실적은 2023년 매출 341억 원·영업이익 -808억 원, 2024년 매출 1,259억 원·영업이익 -209억 원, 2025년 매출 1,416억 원·영업이익 -1,065억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,742억 원·영업이익 -1,216억 원이다.
+
+## 리가켐바이오 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 341억 원 | 1,259억 원 | 1,416억 원 | 1,742억 원 |
+| 영업이익 | -808억 원 | -209억 원 | -1,065억 원 | -1,216억 원 |
+| 당기순이익 | -737억 원 | 78억 원 | -916억 원 | -1,108억 원 |
+| 영업이익률 | -236.7% | -16.6% | -75.2% | -69.8% |
+| ROE | -40.1% | 2.0% | -13.2% | -21.5% |
+| EPS | -2,634원 | 225원 | -2,029원 | -2,942원 |
+| PER | -24.7배 | 483.6배 | -85.6배 | -29.0배 |
+| PBR | 12.40배 | 6.42배 | 12.47배 | 6.30배 |
+| 주당배당금 | — | — | — | — |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -808억 원이고, 주가는 한 해 +51.7% 움직였다. 2024년은 영업이익 -209억 원 (전년보다 +74%)이고, 주가는 한 해 +67.7% 움직였다. 2025년은 영업이익 -1,065억 원 (전년보다 -410%)이고, 주가는 한 해 +59.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="리가켐바이오 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="81.9" width="104.5" height="174.1" rx="3"/><text class="ic-val" x="159.3" y="75.9" text-anchor="middle">+52%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar up" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">+68%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="56.1" width="104.5" height="199.9" rx="3"/><text class="ic-val" x="532.7" y="50.1" text-anchor="middle">+59%</text></svg><figcaption>리가켐바이오 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 리가켐바이오 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 326억 원 | 414억 원 | 160억 원 | 359억 원 | 55억 원 | — |
+| 영업이익 | -216억 원 | -232억 원 | -731억 원 | -374억 원 | -720억 원 | — |
+| 당기순이익 | -381억 원 | -153억 원 | -646억 원 | -333억 원 | -681억 원 | — |
+| 영업이익률 | -66.1% | -56.0% | -458.4% | -104.3% | -1300.9% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="리가켐바이오 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="28.0" y2="28.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="28.0" width="52.3" height="67.4" rx="3"/><text class="ic-val" x="112.7" y="109.4" text-anchor="middle">-216억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="28.0" width="52.3" height="72.4" rx="3"/><text class="ic-val" x="206.0" y="114.4" text-anchor="middle">-232억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar dn" x="273.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="299.3" y="270.0" text-anchor="middle">-731억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="28.0" width="52.3" height="116.7" rx="3"/><text class="ic-val" x="392.7" y="158.7" text-anchor="middle">-374억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="28.0" width="52.3" height="224.6" rx="3"/><text class="ic-val" x="486.0" y="266.6" text-anchor="middle">-720억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>리가켐바이오 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

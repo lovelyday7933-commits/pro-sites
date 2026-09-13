@@ -1,0 +1,47 @@
+---
+title: "한패스 실적, 2025년 영업이익 82억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "한패스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "408470"
+name: "한패스"
+intent: "실적"
+chip: "408470 · 코스닥 · 기타 금융업 · 기준일 2026.09.11"
+utm_source: "한패스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기타-금융업/", "label": "기타 금융업"}, {"url": "/종목/한패스/", "label": "한패스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/한패스/", "label": "한패스 주가"}, {"url": "/종목/한패스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/한패스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/윙입푸드/실적/", "label": "윙입푸드 실적"}, {"url": "/종목/hb인베스트먼트/실적/", "label": "HB인베스트먼트 실적"}, {"url": "/종목/오가닉티코스메틱/실적/", "label": "오가닉티코스메틱 실적"}, {"url": "/종목/크리스탈신소재/실적/", "label": "크리스탈신소재 실적"}, {"url": "/종목/aps/실적/", "label": "APS 실적"}, {"url": "/종목/헝셩그룹/실적/", "label": "헝셩그룹 실적"}, {"url": "/종목/cs홀딩스/실적/", "label": "CS홀딩스 실적"}, {"url": "/종목/큐캐피탈/실적/", "label": "큐캐피탈 실적"}]
+peers_head: "같은 업종(기타 금융업) 다른 종목의 실적"
+---
+
+한패스의 최근 연간 실적은 2023년 매출 290억 원·영업이익 17억 원, 2024년 매출 553억 원·영업이익 52억 원, 2025년 매출 664억 원·영업이익 82억 원이다.
+
+## 한패스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 290억 원 | 553억 원 | 664억 원 | — |
+| 영업이익 | 17억 원 | 52억 원 | 82억 원 | — |
+| 당기순이익 | 4억 원 | 44억 원 | 66억 원 | — |
+| 영업이익률 | 6.0% | 9.4% | 12.4% | — |
+| ROE | 12.3% | -14.3% | 94.2% | — |
+| EPS | 55원 | 503원 | 708원 | — |
+| PER | — | — | — | — |
+| PBR | 0.00배 | 0.00배 | 0.00배 | — |
+| 주당배당금 | — | — | — | — |
+
+## 한패스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 169억 원 | 148억 원 | 197억 원 | 171억 원 | 144억 원 | — |
+| 영업이익 | 18억 원 | 11억 원 | 27억 원 | -7억 원 | -32억 원 | — |
+| 당기순이익 | -3억 원 | 26억 원 | 26억 원 | 7억 원 | -49억 원 | — |
+| 영업이익률 | 10.5% | 7.2% | 13.6% | -4.4% | -22.3% | — |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="한패스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="132.3" y2="132.3"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="62.8" width="52.3" height="69.6" rx="3"/><text class="ic-val" x="112.7" y="56.8" text-anchor="middle">18억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="89.8" width="52.3" height="42.5" rx="3"/><text class="ic-val" x="206.0" y="83.8" text-anchor="middle">11억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="104.3" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">27억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="132.3" width="52.3" height="27.1" rx="3"/><text class="ic-val" x="392.7" y="173.4" text-anchor="middle">-7억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="132.3" width="52.3" height="123.7" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-32억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text></svg><figcaption>한패스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

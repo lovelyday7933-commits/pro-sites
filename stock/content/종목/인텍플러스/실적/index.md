@@ -1,0 +1,54 @@
+---
+title: "인텍플러스 실적, 2025년 영업이익 -37억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "인텍플러스 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "064290"
+name: "인텍플러스"
+intent: "실적"
+chip: "064290 · 코스닥 · 특수 목적용 기계 제조업 · 기준일 2026.09.11"
+utm_source: "인텍플러스-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/특수-목적용-기계-제조업/", "label": "특수 목적용 기계 제조업"}, {"url": "/종목/인텍플러스/", "label": "인텍플러스"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/인텍플러스/", "label": "인텍플러스 주가"}, {"url": "/종목/인텍플러스/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/인텍플러스/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/인텍플러스/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/인텍플러스/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/예스티/실적/", "label": "예스티 실적"}, {"url": "/종목/전진건설로봇/실적/", "label": "전진건설로봇 실적"}, {"url": "/종목/선익시스템/실적/", "label": "선익시스템 실적"}, {"url": "/종목/sfa넥셀/실적/", "label": "SFA넥셀 실적"}, {"url": "/종목/피엔티/실적/", "label": "피엔티 실적"}, {"url": "/종목/프로텍/실적/", "label": "프로텍 실적"}, {"url": "/종목/휴림로봇/실적/", "label": "휴림로봇 실적"}, {"url": "/종목/필옵틱스/실적/", "label": "필옵틱스 실적"}]
+peers_head: "같은 업종(특수 목적용 기계 제조업) 다른 종목의 실적"
+---
+
+인텍플러스의 최근 연간 실적은 2023년 매출 748억 원·영업이익 -111억 원, 2024년 매출 839억 원·영업이익 -156억 원, 2025년 매출 898억 원·영업이익 -37억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 1,060억 원·영업이익 79억 원이다.
+
+## 인텍플러스 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 748억 원 | 839억 원 | 898억 원 | 1,060억 원 |
+| 영업이익 | -111억 원 | -156억 원 | -37억 원 | 79억 원 |
+| 당기순이익 | -108억 원 | -119억 원 | -33억 원 | 60억 원 |
+| 영업이익률 | -14.8% | -18.6% | -4.2% | 7.5% |
+| ROE | -17.5% | -23.4% | -7.2% | 12.5% |
+| EPS | -844원 | -923원 | -257원 | 467원 |
+| PER | -35.8배 | -10.9배 | -50.4배 | 104.5배 |
+| PBR | 6.69배 | 2.73배 | 3.45배 | 11.92배 |
+| 주당배당금 | — | — | — | 57원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 -111억 원이고, 주가는 한 해 +120.0% 움직였다. 2024년은 영업이익 -156억 원 (전년보다 -41%)이고, 주가는 한 해 -66.8% 움직였다. 2025년은 영업이익 -37억 원 (전년보다 +76%)이고, 주가는 한 해 +29.4% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="인텍플러스 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="174.4" y2="174.4"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar up" x="107.1" y="28.0" width="104.5" height="146.4" rx="3"/><text class="ic-val" x="159.3" y="22.0" text-anchor="middle">+120%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="174.4" width="104.5" height="81.6" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-67%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="138.5" width="104.5" height="35.9" rx="3"/><text class="ic-val" x="532.7" y="132.5" text-anchor="middle">+29%</text></svg><figcaption>인텍플러스 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 인텍플러스 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 251억 원 | 99억 원 | 403억 원 | 128억 원 | 90억 원 | 249억 원 |
+| 영업이익 | 16억 원 | -49억 원 | 41억 원 | -19억 원 | -51억 원 | 5억 원 |
+| 당기순이익 | 10억 원 | -50억 원 | 56억 원 | -14억 원 | -61억 원 | 25억 원 |
+| 영업이익률 | 6.3% | -49.5% | 10.1% | -14.9% | -57.1% | 1.9% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="인텍플러스 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="129.6" y2="129.6"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="90.0" width="52.3" height="39.7" rx="3"/><text class="ic-val" x="112.7" y="84.0" text-anchor="middle">16억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="129.6" width="52.3" height="121.4" rx="3"/><text class="ic-val" x="206.0" y="265.0" text-anchor="middle">-49억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="28.0" width="52.3" height="101.6" rx="3"/><text class="ic-val" x="299.3" y="22.0" text-anchor="middle">41억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar dn" x="366.5" y="129.6" width="52.3" height="47.1" rx="3"/><text class="ic-val" x="392.7" y="190.7" text-anchor="middle">-19억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar dn" x="459.9" y="129.6" width="52.3" height="126.4" rx="3"/><text class="ic-val" x="486.0" y="270.0" text-anchor="middle">-51억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="117.2" width="52.3" height="12.4" rx="3"/><text class="ic-val" x="579.3" y="111.2" text-anchor="middle">5억</text></svg><figcaption>인텍플러스 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

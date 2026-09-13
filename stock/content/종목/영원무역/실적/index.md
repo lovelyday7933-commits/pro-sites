@@ -1,0 +1,54 @@
+---
+title: "영원무역 실적, 2025년 영업이익 5,144억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "영원무역 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "111770"
+name: "영원무역"
+intent: "실적"
+chip: "111770 · 코스피 · 상품 종합 도매업 · 기준일 2026.09.11"
+utm_source: "영원무역-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/상품-종합-도매업/", "label": "상품 종합 도매업"}, {"url": "/종목/영원무역/", "label": "영원무역"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/영원무역/", "label": "영원무역 주가"}, {"url": "/종목/영원무역/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/영원무역/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/영원무역/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/영원무역/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/실리콘투/실적/", "label": "실리콘투 실적"}, {"url": "/종목/현대코퍼레이션/실적/", "label": "현대코퍼레이션 실적"}, {"url": "/종목/아이마켓코리아/실적/", "label": "아이마켓코리아 실적"}, {"url": "/종목/ls네트웍스/실적/", "label": "LS네트웍스 실적"}, {"url": "/종목/더본코리아/실적/", "label": "더본코리아 실적"}, {"url": "/종목/gs글로벌/실적/", "label": "GS글로벌 실적"}, {"url": "/종목/화승인더스트리/실적/", "label": "화승인더스트리 실적"}, {"url": "/종목/stx/실적/", "label": "STX 실적"}]
+peers_head: "같은 업종(상품 종합 도매업) 다른 종목의 실적"
+---
+
+영원무역의 최근 연간 실적은 2023년 매출 3조 6,044억 원·영업이익 6,371억 원, 2024년 매출 3조 5,178억 원·영업이익 3,156억 원, 2025년 매출 4조 636억 원·영업이익 5,144억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 4조 5,224억 원·영업이익 6,425억 원이다.
+
+## 영원무역 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 3조 6,044억 원 | 3조 5,178억 원 | 4조 636억 원 | 4조 5,224억 원 |
+| 영업이익 | 6,371억 원 | 3,156억 원 | 5,144억 원 | 6,425억 원 |
+| 당기순이익 | 5,331억 원 | 2,945억 원 | 4,263억 원 | 5,608억 원 |
+| 영업이익률 | 17.7% | 9.0% | 12.7% | 14.2% |
+| ROE | 17.0% | 12.3% | 12.7% | 13.9% |
+| EPS | 11,644원 | 9,637원 | 11,109원 | 13,648원 |
+| PER | 3.9배 | 4.4배 | 7.4배 | 5.3배 |
+| PBR | 0.62배 | 0.49배 | 0.85배 | 0.67배 |
+| 주당배당금 | 1,300원 | 1,400원 | 2,100원 | 3,531원 |
+
+## 영업이익과 그해 주가
+
+2023년은 영업이익 6,371억 원이고, 주가는 한 해 -2.9% 움직였다. 2024년은 영업이익 3,156억 원 (전년보다 -50%)이고, 주가는 한 해 -7.0% 움직였다. 2025년은 영업이익 5,144억 원 (전년보다 +63%)이고, 주가는 한 해 +92.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="영원무역 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="240.0" y2="240.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023년</text><rect class="ic-bar dn" x="107.1" y="240.0" width="104.5" height="6.6" rx="3"/><text class="ic-val" x="159.3" y="260.6" text-anchor="middle">-3%</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="293.7" y="240.0" width="104.5" height="16.0" rx="3"/><text class="ic-val" x="346.0" y="270.0" text-anchor="middle">-7%</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="480.4" y="28.0" width="104.5" height="212.0" rx="3"/><text class="ic-val" x="532.7" y="22.0" text-anchor="middle">+93%</text></svg><figcaption>영원무역 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## 영원무역 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 1조 382억 원 | 1조 2,047억 원 | 1조 93억 원 | 8,958억 원 | 1조 2,317억 원 | 1조 3,496억 원 |
+| 영업이익 | 1,457억 원 | 1,812억 원 | 1,052억 원 | 1,204억 원 | 1,756억 원 | 2,117억 원 |
+| 당기순이익 | 1,001억 원 | 1,530억 원 | 1,029억 원 | 1,497억 원 | 1,553억 원 | 1,425억 원 |
+| 영업이익률 | 14.0% | 15.0% | 10.4% | 13.4% | 14.2% | 15.7% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="영원무역 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar up" x="86.5" y="99.1" width="52.3" height="156.9" rx="3"/><text class="ic-val" x="112.7" y="93.1" text-anchor="middle">1,457억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar up" x="179.9" y="60.8" width="52.3" height="195.2" rx="3"/><text class="ic-val" x="206.0" y="54.8" text-anchor="middle">1,812억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="142.7" width="52.3" height="113.3" rx="3"/><text class="ic-val" x="299.3" y="136.7" text-anchor="middle">1,052억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="126.3" width="52.3" height="129.7" rx="3"/><text class="ic-val" x="392.7" y="120.3" text-anchor="middle">1,204억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="66.9" width="52.3" height="189.1" rx="3"/><text class="ic-val" x="486.0" y="60.9" text-anchor="middle">1,756억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="228.0" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">2,117억</text></svg><figcaption>영원무역 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.

@@ -1,0 +1,54 @@
+---
+title: "OCI 실적, 2025년 영업이익 4억 원 — 이익이 늘던 해 주가도 올랐을까"
+description: "OCI 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다."
+date: "2026-09-11"
+layout: "intent"
+code: "456040"
+name: "OCI"
+intent: "실적"
+chip: "456040 · 코스피 · 기초 화학물질 제조업 · 기준일 2026.09.11"
+utm_source: "oci-실적"
+cta: {"book": "경제지표의 기본기"}
+cta_lead: "실적과 경기가 주가에 닿는 순서는"
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/업종/", "label": "업종별 종목"}, {"url": "/업종/기초-화학물질-제조업/", "label": "기초 화학물질 제조업"}, {"url": "/종목/oci/", "label": "OCI"}, {"label": "실적"}]
+utm_medium: "intent"
+siblings: [{"url": "/종목/oci/", "label": "OCI 주가"}, {"url": "/종목/oci/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/종목/oci/배당금/", "label": "배당금", "cur": false}, {"url": "/종목/oci/목표주가/", "label": "목표주가", "cur": false}, {"url": "/종목/oci/실적/", "label": "실적", "cur": true}]
+peers: [{"url": "/종목/미원에스씨/실적/", "label": "미원에스씨 실적"}, {"url": "/종목/대한유화/실적/", "label": "대한유화 실적"}, {"url": "/종목/금양/실적/", "label": "금양 실적"}, {"url": "/종목/애경케미칼/실적/", "label": "애경케미칼 실적"}, {"url": "/종목/동성화인텍/실적/", "label": "동성화인텍 실적"}, {"url": "/종목/엔켐/실적/", "label": "엔켐 실적"}, {"url": "/종목/성일하이텍/실적/", "label": "성일하이텍 실적"}, {"url": "/종목/천보/실적/", "label": "천보 실적"}]
+peers_head: "같은 업종(기초 화학물질 제조업) 다른 종목의 실적"
+---
+
+OCI의 최근 연간 실적은 2023년 매출 1조 2,888억 원·영업이익 575억 원, 2024년 매출 2조 2,153억 원·영업이익 1,105억 원, 2025년 매출 2조 94억 원·영업이익 4억 원이다.
+2026년 추정치(증권사 컨센서스)는 매출 2조 1,865억 원·영업이익 1,648억 원이다.
+
+## OCI 연간 실적
+
+| 항목 | 2023 | 2024 | 2025 | 2026(추정) |
+|---|---|---|---|---|
+| 매출액 | 1조 2,888억 원 | 2조 2,153억 원 | 2조 94억 원 | 2조 1,865억 원 |
+| 영업이익 | 575억 원 | 1,105억 원 | 4억 원 | 1,648억 원 |
+| 당기순이익 | 363억 원 | 897억 원 | -685억 원 | 1,200억 원 |
+| 영업이익률 | 4.5% | 5.0% | 0.0% | 7.5% |
+| ROE | — | 8.8% | -5.4% | 9.7% |
+| EPS | 7,303원 | 10,841원 | -6,994원 | 12,816원 |
+| PER | 15.2배 | 5.4배 | -8.5배 | 6.3배 |
+| PBR | 0.92배 | 0.43배 | 0.47배 | 0.57배 |
+| 주당배당금 | 2,000원 | 2,200원 | — | — |
+
+## 영업이익과 그해 주가
+
+2024년은 영업이익 1,105억 원 (전년보다 +92%)이고, 주가는 한 해 -47.4% 움직였다. 2025년은 영업이익 4억 원 (전년보다 -100%)이고, 주가는 한 해 +1.9% 움직였다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="OCI 연도별 주가 등락"><line class="ic-zero" x1="66" x2="626" y1="36.7" y2="36.7"/><text class="ic-ax" x="206.0" y="282" text-anchor="middle">2024년</text><rect class="ic-bar dn" x="127.6" y="36.7" width="156.8" height="219.3" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-47%</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">2025년</text><rect class="ic-bar up" x="407.6" y="28.0" width="156.8" height="8.7" rx="3"/><text class="ic-val" x="486.0" y="22.0" text-anchor="middle">+2%</text></svg><figcaption>OCI 연도별 주가 등락(전년 마지막 종가 → 그해 마지막 종가, 수정주가).</figcaption></figure>
+
+## OCI 분기 실적
+
+| 항목 | 2025.06 | 2025.09 | 2025.12 | 2026.03 | 2026.06 | 2026.09(추정) |
+|---|---|---|---|---|---|---|
+| 매출액 | 5,270억 원 | 4,764억 원 | 4,673억 원 | 5,066억 원 | 5,350억 원 | 5,701억 원 |
+| 영업이익 | -23억 원 | -103억 원 | 28억 원 | 278억 원 | 433억 원 | 480억 원 |
+| 당기순이익 | -24억 원 | -522억 원 | 35억 원 | 248억 원 | 298억 원 | 272억 원 |
+| 영업이익률 | -0.4% | -2.2% | 0.6% | 5.5% | 8.1% | 8.4% |
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="OCI 분기 영업이익"><line class="ic-zero" x1="66" x2="626" y1="215.7" y2="215.7"/><text class="ic-ax" x="112.7" y="282" text-anchor="middle">25.06</text><rect class="ic-bar dn" x="86.5" y="215.7" width="52.3" height="9.0" rx="3"/><text class="ic-val" x="112.7" y="238.7" text-anchor="middle">-23억</text><text class="ic-ax" x="206.0" y="282" text-anchor="middle">25.09</text><rect class="ic-bar dn" x="179.9" y="215.7" width="52.3" height="40.3" rx="3"/><text class="ic-val" x="206.0" y="270.0" text-anchor="middle">-103억</text><text class="ic-ax" x="299.3" y="282" text-anchor="middle">25.12</text><rect class="ic-bar up" x="273.2" y="204.8" width="52.3" height="11.0" rx="3"/><text class="ic-val" x="299.3" y="198.8" text-anchor="middle">28억</text><text class="ic-ax" x="392.7" y="282" text-anchor="middle">26.03</text><rect class="ic-bar up" x="366.5" y="107.0" width="52.3" height="108.7" rx="3"/><text class="ic-val" x="392.7" y="101.0" text-anchor="middle">278억</text><text class="ic-ax" x="486.0" y="282" text-anchor="middle">26.06</text><rect class="ic-bar up" x="459.9" y="46.4" width="52.3" height="169.3" rx="3"/><text class="ic-val" x="486.0" y="40.4" text-anchor="middle">433억</text><text class="ic-ax" x="579.3" y="282" text-anchor="middle">26.09</text><rect class="ic-bar up est" x="553.2" y="28.0" width="52.3" height="187.7" rx="3"/><text class="ic-val" x="579.3" y="22.0" text-anchor="middle">480억</text></svg><figcaption>OCI 분기 영업이익(억 원). 흐린 막대 = 증권사 추정.</figcaption></figure>
+
+실적 숫자는 네이버 증권이 공개하는 기업 실적 자료(연결 기준 · 추정치는 증권사 컨센서스)를 2026년 9월 13일에 받아 옮겼다. 주가 등락은 수정주가로 계산했다.
