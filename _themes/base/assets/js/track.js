@@ -26,6 +26,7 @@
   } catch (e) { vid = vid || rid(); sid = sid || rid(); }
 
   var pv = rid(), t0 = Date.now();
+  window.__pt = { pv: pv };   // leadform.js 가 신청 한 건을 이 방문 줄에 잇는다
 
   /* 신청 버튼 자리 — 링크의 utm_medium 끝말로 가른다(ctahref.html). 끝말이 없으면 글 끝 책 안내. */
   var FORM = /proreport\.co\.kr\/f\//, kind = '';

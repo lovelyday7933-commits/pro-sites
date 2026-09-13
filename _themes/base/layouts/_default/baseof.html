@@ -48,5 +48,11 @@
   {{- $tr := resources.Get "js/track.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $tr.RelPermalink }}" defer></script>
   {{- end }}
+  {{- /* ★2026-09-13 페이지 안 신청 창 — 신청 버튼을 누르면 새 탭 대신 이 페이지 위에서 받는다(/admin/f · /admin/fe · /admin/lead).
+       track.js 뒤에 둔다(방문 번호 window.__pt 를 읽는다). 창을 못 띄우면 원래 링크로 간다. */}}
+  {{- if site.Params.ctaURL }}
+  {{- $lf := resources.Get "js/leadform.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $lf.RelPermalink }}" defer></script>
+  {{- end }}
 </body>
 </html>

@@ -503,3 +503,51 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 .series{margin:3rem 0 0}
 .series h2{margin:0 0 .6rem;font-size:1rem;letter-spacing:-.02em;font-weight:650}
 .series ol.links{counter-reset:s}
+
+/* ── 페이지 안 신청 창 (2026-09-13 · leadform.js) ─────────────────────── */
+html.lf-open{overflow:hidden}
+.lf{width:min(32rem,calc(100vw - 1.5rem));max-height:min(46rem,calc(100dvh - 2rem));margin:auto;padding:0;border:1px solid var(--line);border-radius:18px;
+  background:var(--surface);color:var(--ink);box-shadow:0 24px 70px -20px rgba(0,0,0,.45);overflow:hidden}
+.lf[open]{display:flex;flex-direction:column}
+.lf::backdrop{background:rgba(0,0,0,.5);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px)}
+.lf-top{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;padding:1.1rem 1.25rem .9rem;border-bottom:1px solid var(--line2)}
+.lf-eyebrow{margin:0;font-size:.75rem;font-weight:600;color:var(--accent);letter-spacing:.02em}
+.lf-top h2{margin:.15rem 0 0;font-size:1.15rem;line-height:1.35;letter-spacing:-.02em;text-wrap:balance}
+.lf-x{flex:none;width:36px;height:36px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--mute);font-size:1.3rem;line-height:1;cursor:pointer}
+.lf-x:hover{color:var(--ink)}
+.lf-body{padding:1rem 1.25rem 1.25rem;overflow:auto;overscroll-behavior:contain}
+.lf-form{display:grid;gap:1.1rem}
+.lf-q{display:grid;gap:.45rem}
+.lf-t{margin:0;font-size:.92rem;font-weight:650;color:var(--ink)}
+.lf-d{margin:0;font-size:.84rem;line-height:1.6;color:var(--mute);white-space:pre-line}
+.lf-q input[type=text],.lf-q input[type=tel],.lf-q input[type=email],.lf-q input[type=number],.lf-q input[type=date],.lf-q textarea{
+  width:100%;box-sizing:border-box;height:46px;padding:0 .9rem;border:1px solid var(--line);border-radius:11px;background:var(--bg);color:var(--ink);font:inherit;font-size:1rem}
+.lf-q textarea{height:auto;min-height:6rem;padding:.7rem .9rem}
+.lf-q input:focus,.lf-q textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.lf-opts{display:flex;flex-wrap:wrap;gap:.45rem}
+.lf-opt{position:relative;display:inline-flex;align-items:center;gap:.45rem;min-height:40px;padding:0 .85rem;border:1px solid var(--line);border-radius:10px;
+  background:var(--bg);font-size:.9rem;cursor:pointer;user-select:none}
+.lf-opt input{margin:0;accent-color:var(--accent-bg)}
+.lf-opt:has(input:checked){border-color:var(--accent);background:var(--accent-soft);color:var(--ink);font-weight:600}
+.lf-opt:has(input:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+.lf-terms{max-height:7.5rem;overflow:auto;padding:.65rem .8rem;border:1px solid var(--line2);border-radius:10px;background:var(--surface2);
+  font-size:.8rem;line-height:1.6;color:var(--ink2);white-space:pre-line}
+.lf-agree{display:inline-flex;align-items:center;gap:.5rem;font-size:.9rem;font-weight:600;cursor:pointer}
+.lf-agree input{width:18px;height:18px;margin:0;accent-color:var(--accent-bg)}
+.lf-err{margin:0;min-height:0;font-size:.8rem;color:#d4380d}
+.lf-err:empty{display:none}
+.lf-submit{display:inline-flex;align-items:center;justify-content:center;width:100%;height:50px;border:0;border-radius:12px;background:var(--accent-bg);
+  color:var(--accent-ink);font:inherit;font-size:1rem;font-weight:700;cursor:pointer;text-decoration:none}
+.lf-submit:hover{background:var(--accent-bg2)}
+.lf-submit:disabled{opacity:.6;cursor:progress}
+.lf-status{margin:-.4rem 0 0;font-size:.84rem;color:#d4380d;text-align:center}
+.lf-status:empty{display:none}
+.lf-alt{margin:-.3rem 0 0;text-align:center;font-size:.8rem}
+.lf-alt a{color:var(--mute)}
+.lf-hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+.lf-done{display:grid;gap:.7rem;padding:1.2rem 0 .2rem;text-align:center}
+.lf-done-t{margin:0;font-size:1.2rem;font-weight:700}
+@media(max-width:34rem){
+  .lf{width:100vw;max-width:100vw;max-height:92dvh;margin:auto 0 0;border-radius:18px 18px 0 0;border-bottom:0}
+}
+@media (prefers-color-scheme:dark){.lf-err,.lf-status{color:#ff8a7a}}
