@@ -4,13 +4,13 @@
        옆·위로 가는 링크는 전부 intent.py 가 앞머리(siblings · peers · crumbs)에 미리 넣는다. */}}
 {{ define "main" }}
 {{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" .Params.chip "title" .Title "lead" .Description) }}
-<div class="site">{{ partial "ctainline.html" (dict "page" . "place" "intro" "lead" .Params.cta_lead) }}</div>
+{{- partial "cta/hook.html" . }}
 <div class="site">
 <article class="post cell article">
   {{- with .Params.siblings }}
   <nav class="sibs" aria-label="{{ $.Params.name }} 더 보기">{{ range . }}<a href="{{ .url }}"{{ if .cur }} aria-current="page"{{ end }}>{{ .label }}</a>{{ end }}</nav>
   {{- end }}
-  <div class="body">{{ .Content }}</div>
+  <div class="body">{{ (partial "cta/body.html" (dict "page" . "content" .Content "argue" true)).html }}</div>
   {{- /* 자주 묻는 것 — 앞머리 faq(intent.py 가 전자공시 날짜로 만든다) · head.html 이 같은 내용을 FAQPage 구조화 데이터로 싣는다.
        화면에 없는 문답을 구조화 데이터에만 넣지 않는다(2026-09-13). */}}
   {{- with .Params.faq }}

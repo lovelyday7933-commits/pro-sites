@@ -6,6 +6,7 @@
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "label" "업종별 종목"))
     "chip" (printf "업종 %d개 · 종목 %s개 · 코스피·코스닥" (len .Params.sectors) (lang.FormatNumber 0 $n))
     "title" .Title "lead" .Description "find" "/종목/") }}
+{{- partial "cta/hook.html" . }}
 <div class="site page">
   <section class="sec">
     <div class="sec-h"><h2>업종 {{ len .Params.sectors }}개</h2><p>종목 수가 많은 업종부터 놓았습니다. 괄호 안은 그 업종에서 시가총액이 큰 종목입니다.</p></div>
@@ -14,6 +15,7 @@
       <li><a href="{{ .url }}"><span>{{ .name }}<small class="mut"> {{ delimit .top " · " }}</small></span><span class="v">{{ .count }}개</span></a></li>
       {{- end }}
     </ul>
+    {{- partial "cta/argue.html" . }}
   </section>
 </div>
 {{ end }}

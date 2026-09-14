@@ -9,6 +9,7 @@
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "label" "신호별 실측"))
     "chip" (printf "신호 %d가지 · %s %d개 · 기준일 %s" (int $g.n_signals) $T (int $g.n_stocks) $g.as_of)
     "title" .Title "lead" .Description) }}
+{{- partial "cta/hook.html" . }}
 {{- partial "kpi.html" (dict "head" "잰 범위" "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
     (dict "v" (int $g.n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·RSI·거래량 등")
     (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" (printf "잰 %s" $T) "s" "일봉 전 기간")
@@ -37,6 +38,7 @@
     {{- end }}
   </div>
 
+  {{- partial "cta/argue.html" . }}
   {{- $rel := slice }}
   {{- range where site.RegularPages "Section" "posts" }}{{ if hasPrefix (.Params.cell | default "") "signal:" }}{{ $rel = $rel | append . }}{{ end }}{{ end }}
   {{- with $rel }}

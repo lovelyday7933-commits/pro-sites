@@ -1,0 +1,22 @@
+{{/* 문구 변형 하나 고르기 (2026-09-14 CTA 개편)
+     인자 dict: list(문장 slice) · seed(주소|자리 — 같은 페이지는 늘 같은 변형) · slots(칸 이름 → 말)
+     ★칸이 비는 변형은 건너뛰고 다음 변형을 본다(예: 배당락일이 없는 종목은 {ex} 문장을 쓰지 않는다). 전부 비면 "".
+     ⛔문장을 여기서 고치지 않는다 — 문구는 codex(sites/<사이트>/data/copy.json · tools/cta_copy.py 검사). */}}
+{{- $list := .list | default slice }}
+{{- $n := len $list }}
+{{- $out := "" }}
+{{- if $n }}
+  {{- $h := mod (hash.FNV32a .seed) $n }}
+  {{- range $i := seq 0 (sub $n 1) }}
+    {{- if not $out }}
+      {{- $s := index $list (mod (add $h $i) $n) }}
+      {{- $ok := true }}{{ $f := $s }}
+      {{- range findRE `\{\w+\}` $s }}
+        {{- $v := index $.slots (strings.TrimSuffix "}" (strings.TrimPrefix "{" .)) }}
+        {{- if $v }}{{ $f = replace $f . (string $v) }}{{ else }}{{ $ok = false }}{{ end }}
+      {{- end }}
+      {{- if $ok }}{{ $out = $f }}{{ end }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- return $out }}

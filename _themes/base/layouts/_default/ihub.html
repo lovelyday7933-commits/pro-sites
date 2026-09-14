@@ -3,7 +3,7 @@
      아래 검색어 칸으로 내려가는 인덱스 페이지다(과외상담의 동 인덱스와 같은 역할 — 고아 없음). */}}
 {{ define "main" }}
 {{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" .Params.chip "title" .Title "lead" .Description) }}
-<div class="site">{{ partial "ctainline.html" (dict "page" . "place" "intro" "lead" (printf "%s 차트를 읽는 기준은" .Params.name)) }}</div>
+{{- partial "cta/hook.html" . }}
 <div class="site page">
   {{- with .Params.intents }}
   <section class="sec">
@@ -14,6 +14,7 @@
   {{- if .Params.code }}{{ partial "stock-events.html" (dict "code" .Params.code "name" .Params.name) }}{{ end }}
   <section class="sec">
     <div class="body">{{ .Content }}</div>
+    {{- partial "cta/argue.html" . }}
   </section>
   {{- with .Params.peers }}
   <section class="sec">

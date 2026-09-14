@@ -11,6 +11,7 @@
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" "/신호/" "label" "신호별 실측") (dict "label" $s.label))
     "chip" (printf "잰 %s %v개 · 기준일 %s" $T $s.measured $g.as_of)
     "title" .Title "lead" ($s.meaning | default .Description)) }}
+{{- partial "cta/hook.html" . }}
 {{- $dist := partial "hist.html" (dict "sig" $s "w" 900 "h" 200 "aria" (printf "%s %s별 20%s 뒤 차이 분포" $s.label $T $D)) }}
 {{- partial "kpi.html" (dict "head" (printf "%s 실측 요약" $s.label) "sub" (printf "기준일 %s" $g.as_of)
     "distTitle" (printf "%s별 20%s 뒤 평소와 차이 — 막대 하나가 %v%%p 구간, 높이는 %s 수" $T $D $s.hist.step $T)
@@ -24,6 +25,7 @@
   <section class="sec">
     <div class="sec-h"><h2>{{ $s.label }} 뜻, 그리고 실제로는</h2></div>
     <div class="txt">{{ .Content }}</div>
+    {{- range (partialCached "cta/ctx.html" . .RelPermalink).states }}{{ if and .text (eq .at "__signal") }}<p class="state" data-nofp>{{ .text }}</p>{{ end }}{{ end }}
   </section>
 
   <section class="sec">
@@ -65,6 +67,7 @@
     {{- if lt $s.pages $s.measured }}
     <p class="note">"신호 부족"은 신호는 20번 넘게 떴지만 20{{ $D }} 또는 60{{ $D }} 뒤를 셀 수 있는 신호가 20번이 안 돼서 개별 페이지를 만들지 않은 {{ $T }}입니다. 분포와 순위에는 넣었습니다.</p>
     {{- end }}
+    {{- partial "cta/argue.html" . }}
   </section>
 
   {{- $key := .Params.signal_key }}

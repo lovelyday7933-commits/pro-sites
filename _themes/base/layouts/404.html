@@ -5,6 +5,7 @@
 {{ define "main" }}
 {{- partial "pagehead.html" (dict "title" "주소를 찾지 못했습니다"
     "lead" "주소가 바뀌었거나, 글이 아직 공개되지 않았을 수 있습니다." "flat" true) }}
+{{- partial "cta/hook.html" . }}
 <div class="site page">
   <section class="sec">
     <div class="sec-h"><span class="tag">바로가기</span><h2>여기서 다시 찾아보세요</h2></div>

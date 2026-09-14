@@ -26,5 +26,7 @@
   {{- $source = printf "%s-%s" $p.Data.Singular $p.Title }}{{ $medium = "list" }}
 {{- end }}
 {{/* 공백은 뺀다. urlquery 가 공백을 + 로 바꾸고 CSV 에 "차트의+정석+제1권" 처럼 남는다. */}}
-{{- $book := $p.Params.cta.book | default site.Params.defaultCTA.book | default "" }}
-{{- return dict "source" (replace $source " " "-") "medium" $medium "campaign" (replace $book " " "-") }}
+{{- /* ★2026-09-14 campaign 기본값 = 제안 선택지(copy.offer.form_option) — 버튼마다 ctahref.html 에 campaign 을 준다(책 버튼 = 그 책).
+     ⛔옛 기본값(앞머리 cta.book · hugo.toml defaultCTA)은 1.1만 쪽이 책에 없는 내용을 약속했다(후킹.md §3-2) → tools/bookmap.py */}}
+{{- $camp := site.Data.copy.offer.form_option | default "" }}
+{{- return dict "source" (replace $source " " "-") "medium" $medium "campaign" (replace $camp " " "-") }}

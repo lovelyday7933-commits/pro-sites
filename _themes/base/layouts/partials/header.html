@@ -30,8 +30,9 @@
       <span>{{ .thing | default "종목" }} 찾기</span><kbd>/</kbd>
     </button>
     {{- end }}
-    {{- if site.Params.ctaURL }}
-    <a class="btn btn-primary" href="{{ partial "ctahref.html" (dict "page" . "place" "top") }}" target="_blank" rel="noopener nofollow">무료 책 신청</a>
+    {{- /* ★2026-09-14 버튼 말 통일 — 헤더·떠 있는 버튼·바닥 링크·첫 화면·본문 끝이 같은 말(copy.offer.button). 09-13 까지 6가지였다 */}}
+    {{- if and site.Params.ctaURL site.Data.copy }}
+    <a class="btn btn-primary" href="{{ partial "ctahref.html" (dict "page" . "place" "top" "campaign" site.Data.copy.offer.form_option) }}" target="_blank" rel="noopener nofollow">{{ site.Data.copy.offer.button }}</a>
     {{- end }}
   </div>
 </header>

@@ -19,6 +19,7 @@
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" (printf "/%s/" $SEC) "label" (printf "%s별 실측" $T)) (dict "label" $s.name))
     "chip" (printf "%s · %s ~ %s 일봉 · 기준일 %s" .Params.code $s.from $s.to $g.as_of)
     "title" .Title "lead" .Description) }}
+{{- partial "cta/hook.html" . }}
 {{- with index site.Data.charts .Params.code }}
 <div class="site">
   <section class="panel">
@@ -75,6 +76,7 @@
     </div>
     {{- range $rows }}{{ if .why }}<p class="note">{{ .label }} — {{ .why }}.</p>{{ end }}{{ end }}
     <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 순위는 같은 신호를 잰 {{ $T }}들 사이의 자리이고, 모두 지나간 기간의 결과입니다.</p>
+    {{- partial "cta/argue.html" . }}
   </section>
 
   {{- $code := .Params.code }}

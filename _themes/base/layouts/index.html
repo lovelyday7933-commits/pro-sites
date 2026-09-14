@@ -40,6 +40,7 @@
     {{- end }}
   </div>
 </section>
+{{- partial "cta/hook.html" . }}
 
 <div class="site page">
   {{- with $g }}
@@ -97,6 +98,7 @@
       <div></div>
     </div>
     <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 단위 %p · 20{{ $D }} 수익률 중앙값끼리 뺀 값입니다. {{ $T }}마다 그 {{ $T }}의 기간으로 따로 쟀고, 모두 지나간 기간의 결과입니다.</p>
+    {{- partial "cta/argue.html" $ }}{{/* ⛔with $g 안이라 . 은 grid 다 — 페이지는 $ */}}
   </section>
 
   <section class="sec">

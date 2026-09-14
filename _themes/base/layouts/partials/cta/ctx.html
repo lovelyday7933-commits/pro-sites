@@ -1,0 +1,146 @@
+{{/* 신청 유도 층의 페이지 맥락 (2026-09-14 CTA 개편 · 명세 _ref/홈페이지_개선_결론_20260914.md · 정본 CLAUDE.md 2-B)
+     partialCached "cta/ctx.html" . .RelPermalink 로 부른다(첫 화면 후킹·본문 논증·바닥 카드가 같은 값을 쓴다).
+     돌려주는 dict
+       kind   문구 종류(copy.hook 키) · akind 본문 논증 종류(copy.argue 키 · "" = 논증 없음) · br 갈래
+       slots  칸 이름 → 말(단위까지 붙인 것) · steps [{label v}] 좁혀지는 계단(마지막 v = "?") · q 궁금증 한 줄 · ask 받기 한 줄
+       live   지금 시세 "stock:005930" | "coin:XRP" | "" · name · close(기준일 종가 말) · asof
+       book   {book form ch title} 책 짝(tools/bookmap.py) | nil · states [{at text}] 섹션 끝 한 줄(제목 조각 at 이 든 섹션 끝에 붙는다)
+     ⛔숫자는 전부 grid.json · hooks.json(intent.py) · proof.json — 여기서 만들어 내지 않는다.
+     ⛔갈래 문턱은 페이지 본문과 같아야 한다(셀 = cell.py band ±1.0%p·순위 90/10 · 전망 = intent.py 본문 문턱으로 br). */}}
+{{- $p := . }}
+{{- $c := site.Data.copy }}
+{{- $g := site.Data.grid }}
+{{- $bm := site.Data.bookmap }}
+{{- $coin := eq site.Params.site "coin" }}
+{{- $D := cond $coin "일" "거래일" }}
+{{- $slots := dict "thing" (cond $coin "코인" "종목") "day20" (printf "20%s" $D) "day60" (printf "60%s" $D) }}
+{{- with $g }}
+  {{- $beat := 0 }}{{ range .signals }}{{ $beat = add $beat (int .beat20) }}{{ end }}
+  {{- $slots = merge $slots (dict "n_stocks" (printf "%s개" (lang.FormatNumber 0 .n_stocks)) "n_signals" (printf "%v가지" .n_signals)
+      "pairs" (printf "%s개" (lang.FormatNumber 0 .n_measured)) "beat_pairs" (printf "%s개" (lang.FormatNumber 0 $beat))) }}
+{{- end }}
+{{- $kind := "other" }}{{ $akind := "" }}{{ $br := "" }}{{ $code := "" }}{{ $name := "" }}{{ $close := "" }}{{ $asof := "" }}
+{{- $book := index $bm.kind "other" }}
+{{- $states := slice }}
+{{- $seed := $p.RelPermalink }}
+{{- $L := $p.Layout }}
+{{- $IK := dict "주가 전망" "outlook" "전망" "outlook" "배당금" "dividend" "실적" "earnings" "목표주가" "target" "최고가" "high" }}
+{{- $A := $c.argue }}
+
+{{- if $p.IsHome }}
+  {{- $kind = "home" }}{{ $akind = "home" }}{{ $book = index $bm.kind "home" }}
+
+{{- else if eq $L "cell" }}
+  {{- $code = $p.Params.code }}{{ $key := $p.Params.signal_key }}
+  {{- $st := index $g.stocks $code }}{{ $sg := index $g.signals $key }}{{ $e := index $st.sig $key }}
+  {{- $e20 := float $e.e20 }}{{ $e60 := float $e.e60 }}
+  {{- $kind = "cell" }}{{ $akind = "cell" }}{{ $name = $st.name }}
+  {{- /* ⛔갈래 문턱 = 셀 본문(tools/cell.py band ±1.0%p · 순위 상위 = pct 90 이상 · 하위 = 10 이하)과 같게 — 본문이 "평소와 비슷했다"인데 한 줄이 "나았다"면 안 된다 */}}
+  {{- $b20 := cond (gt $e20 1.0) "up" (cond (lt $e20 -1.0) "down" "flat") }}{{ $b60 := cond (gt $e60 1.0) "up" (cond (lt $e60 -1.0) "down" "flat") }}
+  {{- $br = index (dict "up" "better" "down" "worse" "flat" "flat") $b20 }}
+  {{- $rk := cond (ge (int $e.pct) 90) "top" (cond (le (int $e.pct) 10) "bottom" "mid") }}
+  {{- $slots = merge $slots (dict "name" $st.name "signal" $sg.label "n" (printf "%v번" $e.n) "e20" (printf "%+.2f%%p" $e20) "e60" (printf "%+.2f%%p" $e60)
+      "total" (printf "%v개" $sg.measured) "beat" (printf "%v개" $sg.beat20)) }}
+  {{- if eq $rk "top" }}{{ $slots = merge $slots (dict "rank" (printf "%v번째" $e.rank)) }}{{ end }}{{/* 본문이 순위 숫자를 말하는 건 상위일 때뿐 */}}
+  {{- with index $bm.sig $key }}{{ $book = . }}{{ end }}
+  {{- $a := $A.cell }}
+  {{- $s60 := "" }}
+  {{- if and (eq $b20 $b60) (ne $b20 "flat") }}{{ $s60 = "same" }}{{ else if and (ne $b20 $b60) (ne $b20 "flat") (ne $b60 "flat") }}{{ $s60 = "flip" }}{{ end }}
+  {{- $states = $states
+      | append (dict "at" "뒤엔 어땠나" "text" (partial "cta/pick.html" (dict "list" (index $a.state20 $br) "seed" (print $seed "|s20") "slots" $slots)))
+      | append (dict "at" "까지 기다리면" "text" (cond (ne $s60 "") (partial "cta/pick.html" (dict "list" (index $a.state60 (default "same" $s60)) "seed" (print $seed "|s60") "slots" $slots)) ""))
+      | append (dict "at" "가장 나빴던 때" "text" (partial "cta/pick.html" (dict "list" $a.state_fail "seed" (print $seed "|sf") "slots" $slots)))
+      | append (dict "at" "중에선 어디쯤" "text" (partial "cta/pick.html" (dict "list" (index $a.state_rank $rk) "seed" (print $seed "|sr") "slots" $slots)) "argue" true) }}
+
+{{- else if eq $L "stock" }}
+  {{- $code = $p.Params.code }}{{ $st := index $g.stocks $code }}
+  {{- $kind = "hub" }}{{ $akind = "hub" }}{{ $name = $st.name }}
+  {{- $top := "" }}{{ $best := -999.0 }}
+  {{- range $k, $v := $st.sig }}{{ if gt (float $v.e20) $best }}{{ $best = float $v.e20 }}{{ $top = (index $g.signals $k).label }}{{ end }}{{ end }}
+  {{- $nsig := len $st.sig }}
+  {{- $br = cond (ge (mul (int $st.beat20) 2) $nsig) "many" "few" }}
+  {{- $slots = merge $slots (dict "name" $st.name "n_sig" (printf "%d가지" $nsig) "beat20" (printf "%v가지" $st.beat20) "top" $top) }}
+  {{- $book = index $bm.kind "hub" }}
+
+{{- else if eq $L "signal" }}
+  {{- $key := $p.Params.signal_key }}{{ $sg := index $g.signals $key }}
+  {{- $kind = "signal" }}{{ $akind = "signal" }}
+  {{- $br = cond (ge (float $sg.beat20_rate) 50.0) "many" "few" }}
+  {{- $slots = merge $slots (dict "signal" $sg.label "total" (printf "%v개" $sg.measured) "beat" (printf "%v개" $sg.beat20) "rate" (printf "%.1f%%" (float $sg.beat20_rate))) }}
+  {{- with index $bm.sig $key }}{{ $book = . }}{{ end }}
+  {{- $states = $states | append (dict "at" "__signal" "text" (partial "cta/pick.html" (dict "list" (index $A.signal.state_mean $br) "seed" (print $seed "|sm") "slots" $slots))) }}
+
+{{- else if in (slice "signals" "stocks") $L }}
+  {{- $kind = "home" }}{{ $akind = "home" }}{{ $book = index $bm.kind $L }}
+
+{{- else if eq $L "intent" }}
+  {{- $code = $p.Params.code }}{{ $name = $p.Params.name }}{{ $ik := $p.Params.intent }}
+  {{- $kind = index $IK $ik | default "other" }}{{ $akind = $kind }}
+  {{- $slots = merge $slots (dict "name" $name) }}
+  {{- with index $bm.kind $kind }}{{ $book = . }}{{ end }}
+  {{- with $bm.big4 }}{{ with index . $code }}{{ with index . $kind }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
+  {{- $h := dict }}{{ with site.Data.hooks }}{{ with index . $code }}{{ with index . $ik }}{{ $h = . }}{{ end }}{{ end }}{{ end }}
+  {{- $slots = merge $slots $h }}
+  {{- $br = $h.br | default "" }}{{ $close = $h.close | default "" }}{{ $asof = $h.asof | default "" }}
+  {{- $a := index $A $kind }}
+  {{- if eq $kind "outlook" }}
+    {{- if $br }}{{ $states = $states | append (dict "at" "닮았던 날은" "text" (partial "cta/pick.html" (dict "list" (index $a.state_days $br) "seed" (print $seed "|sd") "slots" $slots))) }}{{ end }}
+    {{- $states = $states | append (dict "at" "크게 떨어진 때" "text" (partial "cta/pick.html" (dict "list" $a.state_worst "seed" (print $seed "|sw") "slots" $slots))) }}
+  {{- else if and (eq $kind "dividend") (eq $br "has") }}
+    {{- $states = $states | append (dict "at" "배당 일정" "text" (partial "cta/pick.html" (dict "list" $a.state_sched "seed" (print $seed "|ss") "slots" $slots)))
+        | append (dict "at" "연도별 배당" "text" (partial "cta/pick.html" (dict "list" $a.state_years "seed" (print $seed "|sy") "slots" $slots))) }}
+  {{- else if eq $kind "earnings" }}
+    {{- if $br }}{{ $states = $states | append (dict "at" "영업이익과 그해 주가" "text" (partial "cta/pick.html" (dict "list" (index $a.state_pairs $br) "seed" (print $seed "|sp") "slots" $slots))) }}
+    {{- else }}{{ $kind = "other" }}{{ end }}
+  {{- else if eq $kind "target" }}
+    {{- if $br }}{{ $states = $states | append (dict "at" "목표주가와 최근 1년 주가" "text" (partial "cta/pick.html" (dict "list" (index $a.state_range $br) "seed" (print $seed "|sg") "slots" $slots))) }}{{ end }}
+  {{- else if eq $kind "high" }}
+    {{- if $br }}{{ $states = $states | append (dict "at" "되찾은" "text" (partial "cta/pick.html" (dict "list" (index $a.state_recs $br) "seed" (print $seed "|sc") "slots" $slots))) }}{{ end }}
+  {{- end }}
+
+{{- else if eq $L "ihub" }}
+  {{- $code = $p.Params.code }}{{ $name = $p.Params.name }}
+  {{- $kind = "ihub" }}{{ $akind = "ihub" }}
+  {{- $slots = merge $slots (dict "name" $name) }}
+  {{- $book = index $bm.kind "ihub" }}
+  {{- with $bm.big4 }}{{ with index . $code }}{{ with .ihub }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
+  {{- with site.Data.hooks }}{{ with index . $code }}{{ with .ihub }}{{ $slots = merge $slots . }}{{ $close = .close }}{{ $asof = .asof }}{{ end }}{{ end }}{{ end }}
+
+{{- else if in (slice "sector" "sectors") $L }}
+  {{- $kind = "sector" }}{{ $akind = "sector" }}{{ $book = index $bm.kind "sector" | default $book }}
+  {{- if eq $L "sector" }}
+    {{- $slots = merge $slots (dict "count" (printf "%d개" (len $p.Params.stocks))) }}
+    {{- with $p.Params.crumbs }}{{ with (index (last 1 .) 0).label }}{{ $slots = merge $slots (dict "sector" .) }}{{ end }}{{ end }}
+  {{- end }}
+
+{{- else if and $p.IsPage (eq $p.Section "posts") }}
+  {{- $kind = "post" }}{{ $akind = "post" }}
+  {{- with $p.Params.cta }}{{ $book = dict "book" .book "form" .book "ch" (.chapter | default "") "title" "" }}{{ end }}
+{{- end }}
+
+{{- /* 종류별 문구가 없는 사이트(코인엔 배당금·업종이 없다) → 기타 */}}
+{{- if not (index $c.hook $kind) }}{{ $kind = "other" }}{{ end }}
+{{- if and $akind (not (index $A $akind)) }}{{ $akind = "" }}{{ end }}
+
+{{- /* 궁금증 한 줄 — 갈래가 있는 종류는 그 갈래 · 칸이 비면 다음 변형 · 끝내 비면 기타 */}}
+{{- $hq := index $c.hook $kind }}
+{{- $qlist := $hq }}{{ if reflect.IsMap $hq }}{{ $qlist = index $hq $br | default slice }}{{ end }}
+{{- $q := partial "cta/pick.html" (dict "list" $qlist "seed" (print $seed "|q") "slots" $slots) }}
+{{- if not $q }}{{ $q = partial "cta/pick.html" (dict "list" $c.hook.other "seed" (print $seed "|q") "slots" $slots) }}{{ end }}
+
+{{- /* 좁혀지는 계단 — 종류별 계단이 없으면 사이트 전체 계단(home) · 칸이 빈 계단은 뺀다 · 숫자 계단이 2개 미만이면 없음 */}}
+{{- $sk := $kind }}{{ if not (index $c.steps $sk) }}{{ $sk = "home" }}{{ end }}
+{{- if and (eq $sk "other") (not (index $c.steps "other")) }}{{ $sk = "home" }}{{ end }}
+{{- $steps := slice }}{{ $nnum := 0 }}
+{{- range index $c.steps $sk }}
+  {{- $lab := partial "cta/pick.html" (dict "list" (slice .label) "seed" "" "slots" $slots) }}{{/* 이름표 속 칸("그 뒤 {day20}") */}}
+  {{- if .slot }}{{ with index $slots .slot }}{{ $steps = $steps | append (dict "label" $lab "v" .) }}{{ end }}
+  {{- else }}{{ $steps = $steps | append (dict "label" $lab "v" "?") }}{{ end }}
+{{- end }}
+{{- range $steps }}{{ if ne .v "?" }}{{ $nnum = add $nnum 1 }}{{ end }}{{ end }}
+{{- if lt $nnum 2 }}{{ $steps = slice }}{{ end }}
+
+{{- $live := "" }}{{ if $code }}{{ $live = printf "%s:%s" (cond $coin "coin" "stock") $code }}{{ end }}
+{{- $ask := partial "cta/pick.html" (dict "list" $c.offer.ask "seed" (print $seed "|ask") "slots" $slots) }}
+{{- return dict "kind" $kind "akind" $akind "br" $br "slots" $slots "steps" $steps "q" $q "ask" $ask "live" $live "code" $code "name" $name
+    "close" $close "asof" $asof "book" $book "states" $states "seed" $seed "coin" $coin }}

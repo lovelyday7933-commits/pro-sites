@@ -1,6 +1,7 @@
 {{/* 글 목록 · 주제별 · 태그. 격자 허브는 여기를 타지 않는다(layout: stocks/stock/signals/signal). */}}
 {{ define "main" }}
 {{- partial "pagehead.html" (dict "crumbs" (partial "crumbs.html" .) "title" .Title "lead" .Description "flat" true) }}
+{{- partial "cta/hook.html" . }}
 <div class="site page">
   {{- with .Content }}<section class="sec"><div class="txt">{{ . }}</div></section>{{ end }}
   {{- if eq .Kind "taxonomy" }}

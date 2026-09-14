@@ -28,7 +28,9 @@
   var pv = rid(), t0 = Date.now();
   window.__pt = { pv: pv };   // leadform.js 가 신청 한 건을 이 방문 줄에 잇는다
 
-  /* 신청 버튼 자리 — 링크의 utm_medium 끝말로 가른다(ctahref.html). 끝말이 없으면 글 끝 책 안내. */
+  /* 신청 버튼 자리 — 링크의 utm_medium 끝말로 가른다(ctahref.html). 끝말이 없으면 바닥 카드.
+     ★2026-09-14 CTA 개편: hook(첫 화면 후킹) · argue(본문 논증 끝) · bottom(바닥 카드) · top · float · foot.
+       intro·inline(09-13 도입부 안내·본문 중간 절반 비교)은 끝났다. seen 의 proof = "확인서 보기"를 열어 봄(후킹 단계 기록). */
   var FORM = /proreport\.co\.kr\/f\//, kind = '';
   function placeOf(a) {
     var m = /[?&]utm_medium=([^&]+)/.exec(a.href), med = m ? decodeURIComponent(m[1]) : '';
@@ -36,7 +38,7 @@
     if (!kind) kind = PLACES.test(tail) ? parts.slice(0, -1).join('-') : med;
     return PLACES.test(tail) ? tail : 'bottom';
   }
-  var PLACES = /^(top|float|intro|inline|foot)$/;
+  var PLACES = /^(top|float|hook|argue|bottom|foot)$/;
 
   var seen = {}, seenMs = 0, clicks = {}, clickMs = 0, clickSc = 0, scrollMax = 0, active = 0, lastAct = t0;
   var vis = document.visibilityState === 'visible', since = t0, acc = 0, sent = 0, lastSent = 0;
@@ -88,7 +90,6 @@
   function start() {
     var links = document.querySelectorAll('a[href]'), io;
     for (var i = 0; i < links.length; i++) if (FORM.test(links[i].href)) placeOf(links[i]);
-    hasInline = document.querySelector('.cta-inline:not(.cta-intro)') ? 1 : 0;
     onScroll();
 
     if ('IntersectionObserver' in window) {
@@ -112,9 +113,18 @@
     for (var j = 0; j < links.length; j++) {
       var a = links[j];
       if (!FORM.test(a.href)) continue;
-      var place = placeOf(a), box = (place === 'inline' || place === 'intro') ? (a.closest('.cta-inline') || a) : place === 'bottom' ? (a.closest('.cta') || a) : a;
+      var place = placeOf(a), box = place === 'hook' ? (a.closest('.hook') || a) : place === 'argue' ? (a.closest('.argue') || a) : place === 'bottom' ? (a.closest('.cta') || a) : a;
+      if (box.hasAttribute('data-pt')) { bind(a, place); continue; }   // 한 상자에 버튼 두 개(본문 끝·바닥 카드의 제안·책) — 봄은 상자 하나로 센다
       box.setAttribute('data-pt', place);
       if (io) io.observe(box);
+      bind(a, place);
+    }
+    document.querySelectorAll('.hk-doc').forEach(function (b) {
+      b.addEventListener('click', function () { if (!seen.proof) { seen.proof = 1; send('seen', true); } });   // 확인서를 열어 봄 = 신청 누름이 아니라 봄 칸에 센다(누름 합계가 부풀지 않게)
+    });
+    send('start', true);
+  }
+  function bind(a, place) {
       a.addEventListener('click', (function (pl, link) {
         return function () {
           clicks[pl] = 1;
@@ -128,8 +138,6 @@
           send('click', true);
         };
       })(place, a));
-    }
-    send('start', true);
   }
 
   window.addEventListener('scroll', function () { onScroll(); touch(); }, { passive: true });

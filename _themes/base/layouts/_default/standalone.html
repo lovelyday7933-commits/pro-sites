@@ -9,6 +9,7 @@
 {{ define "main" }}
 {{- partial "pagehead.html" (dict "crumbs" (partial "crumbs.html" .) "title" .Title
     "meta" (cond (ne .Params.effective nil) (printf "시행일 %v" .Params.effective) "") "flat" true) }}
+{{- partial "cta/hook.html" . }}
 <div class="site">
 <article class="post article">
   <div class="body">{{ .Content }}</div>

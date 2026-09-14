@@ -57,8 +57,10 @@
   function build(def, link) {
     var f = def.form, answers = {}, touched = false, answered = {};
     var qs = (f.questions || []).filter(function (q) { return q.type !== 'statement' || q.title; });
+    /* 누른 버튼의 약속 = utm_campaign(제안 선택지 또는 책 이름 · ctahref.html) → 첫 선택 칸 미리 체크 */
     var book = '';
     try { book = decodeURIComponent((/[?&]utm_campaign=([^&]+)/.exec(link.href) || [])[1] || '').replace(/-/g, ' '); } catch (e) {}
+    var coinName = link.getAttribute('data-coin') || '';   // 코인 페이지에서 누르면 "들고 있거나 보는 코인" 칸에 그 코인을 미리 적는다(고칠 수 있다)
 
     var form = el('form', { class: 'lf-form', novalidate: '' });
     var hp = el('input', { type: 'text', name: 'website', tabindex: '-1', autocomplete: 'off', class: 'lf-hp', 'aria-hidden': 'true' });
@@ -110,14 +112,17 @@
         if (q.description) box.appendChild(el('p', { class: 'lf-d', text: q.description }));
       } else {
         var multi = q.type === 'long_text';
+        var pre0 = (q.id === 'q_mycoin' && coinName) ? coinName : '';
         var input = el(multi ? 'textarea' : 'input', {
           id: id, name: q.id, 'aria-describedby': id + '-err',
           type: multi ? null : (q.type === 'phone' ? 'tel' : q.type === 'email' ? 'email' : q.type === 'number' ? 'number' : q.type === 'date' ? 'date' : 'text'),
           inputmode: q.type === 'phone' ? 'numeric' : null,
           autocomplete: q.type === 'phone' ? 'tel' : (q.id === 'q_first' || /성함|이름/.test(q.title)) ? 'name' : 'off',
           placeholder: q.type === 'phone' ? '010-0000-0000' : (q.description || ''),
-          maxlength: multi ? '2000' : '100'
+          maxlength: multi ? '2000' : '100',
+          value: pre0 || null
         });
+        if (pre0) answers[q.id] = pre0;
         input.addEventListener('input', function () {
           if (q.type === 'phone') input.value = fmtPhone(input.value);
           answers[q.id] = input.value.trim();
@@ -131,10 +136,12 @@
     });
 
     var status = el('p', { class: 'lf-status', role: 'status' });
-    var btn = el('button', { type: 'submit', class: 'lf-submit', text: (f.intro && f.intro.button && f.intro.button !== '시작') ? f.intro.button : '무료로 신청하기' });
+    var btn = el('button', { type: 'submit', class: 'lf-submit', text: (f.intro && f.intro.button && f.intro.button !== '시작') ? f.intro.button : '신청하기' });
     form.appendChild(btn);
     form.appendChild(status);
-    form.appendChild(el('p', { class: 'lf-alt' }, [el('a', { href: link.href, target: '_blank', rel: 'noopener nofollow', text: '신청 페이지에서 따로 하기' })]));
+    /* ⛔2026-09-14 "신청 페이지에서 따로 하기"는 보내기에 실패했을 때만 보인다 — 신청 양식 서버의 옛 제목·선택지(사이트 전용 정의 전)가 평소엔 보이지 않게 */
+    var alt = el('p', { class: 'lf-alt', hidden: '' }, [el('a', { href: link.href, target: '_blank', rel: 'noopener nofollow', text: '신청 페이지에서 따로 하기' })]);
+    form.appendChild(alt);
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
@@ -161,14 +168,15 @@
       }).then(function (r) { return r.json(); }).then(function (j) {
         if (!j || !j.ok) throw new Error((j && j.error) || 'fail');
         cur.done = true;
+        var outro = (f.outro_plain && !answers.q_mycoin) ? f.outro_plain : (f.outro || {});   // 코인을 안 적었으면 "남겨 주신 코인을…"을 쓰지 않는다
         form.replaceWith(el('div', { class: 'lf-done' }, [
-          el('p', { class: 'lf-done-t', text: (f.outro && f.outro.title) || '신청이 끝났습니다' }),
-          el('p', { class: 'lf-d', text: (f.outro && f.outro.description) || '' }),
+          el('p', { class: 'lf-done-t', text: outro.title || '신청이 끝났습니다' }),
+          el('p', { class: 'lf-d', text: outro.description || '' }),
           el('button', { type: 'button', class: 'lf-submit', text: '닫기' })
         ]));
         dlg.querySelector('.lf-done .lf-submit').addEventListener('click', function () { dlg.close(); });
       }).catch(function (x) {
-        btn.disabled = false; btn.textContent = '다시 보내기';
+        btn.disabled = false; btn.textContent = '다시 보내기'; alt.hidden = false;
         status.textContent = (x && x.message && x.message !== 'fail' && x.message.length < 80) ? x.message : '보내지 못했습니다. 잠시 뒤 다시 누르거나 아래 신청 페이지에서 해 주세요.';
       });
     });
@@ -179,7 +187,7 @@
     if (dlg) return dlg;
     dlg = el('dialog', { class: 'lf', 'aria-labelledby': 'lf-title' }, [
       el('div', { class: 'lf-top' }, [
-        el('div', {}, [el('p', { class: 'lf-eyebrow', text: '무료 자료 신청' }), el('h2', { id: 'lf-title', text: '' })]),
+        el('div', {}, [el('p', { class: 'lf-eyebrow', text: '' }), el('h2', { id: 'lf-title', text: '' })]),
         el('button', { type: 'button', class: 'lf-x', 'aria-label': '닫기', text: '×' })
       ]),
       el('div', { class: 'lf-body' })
@@ -204,11 +212,12 @@
     try { new URL(link.href).searchParams.forEach(function (v, k) { if (/^utm_/.test(k)) utm[k.slice(4)] = v; }); } catch (x) {}
     var med = utm.medium || '', tail = med.split('-').pop();
     cur = { slug: slug, fsid: rid(), pv: (window.__pt && window.__pt.pv) || '', utm: utm, t0: Date.now(), step: 0, done: false,
-      place: /^(top|float|intro|inline|foot)$/.test(tail) ? tail : 'bottom' };
+      place: /^(top|float|hook|argue|bottom|foot)$/.test(tail) ? tail : 'bottom' };
     var body = d.querySelector('.lf-body');
     body.textContent = '';
     body.appendChild(el('p', { class: 'lf-d', text: '신청 창을 불러오는 중…' }));
-    d.querySelector('#lf-title').textContent = '자료 신청';
+    d.querySelector('#lf-title').textContent = '신청';
+    d.querySelector('.lf-eyebrow').textContent = '';
     document.documentElement.classList.add('lf-open');
     d.showModal();
     ev('open');
@@ -220,7 +229,8 @@
       if (!def || !def.form || !def.form.questions) throw new Error('def');
       defs[slug] = def;
       if (cur !== mine) return;
-      d.querySelector('#lf-title').textContent = String((def.form.intro && def.form.intro.title) || def.form.title || '자료 신청').replace(/\s*\n\s*/g, ' ');
+      d.querySelector('#lf-title').textContent = String((def.form.intro && def.form.intro.title) || def.form.title || '신청').replace(/\s*\n\s*/g, ' ');
+      d.querySelector('.lf-eyebrow').textContent = def.form.eyebrow || '';
       body.textContent = '';
       body.appendChild(build(def, link));
       var firstInput = body.querySelector('input:not(.lf-hp), textarea');

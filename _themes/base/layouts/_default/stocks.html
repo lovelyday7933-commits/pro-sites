@@ -10,6 +10,7 @@
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "label" (printf "%s별 실측" $T)))
     "chip" (printf "%s %d개 · 신호 %d가지 · 기준일 %s" $T (int $g.n_stocks) (int $g.n_signals) $g.as_of)
     "title" .Title "lead" .Description) }}
+{{- partial "cta/hook.html" . }}
 {{- partial "kpi.html" (dict "head" "잰 범위" "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
     (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" $T "s" (cond (eq $g.site "coin") "원화마켓 일봉" "일봉 전 기간"))
     (dict "v" (int $g.n_signals) "u" "가지" "l" "차트 신호" "s" "골든크로스·RSI·거래량 등")
@@ -67,6 +68,7 @@
       </table>
     </div>
     <p class="note">— 표시는 그 {{ $T }}에서 신호가 20번이 안 돼서 재지 않은 자리입니다. 모두 지나간 기간의 결과이고, 다음 신호도 이렇게 된다는 뜻은 아닙니다.</p>
+    {{- partial "cta/argue.html" . }}
   </section>
 </div>
 <script>

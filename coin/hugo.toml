@@ -36,17 +36,8 @@ summaryLength = 40
   # 이 링크 하나로 주식/코인 세그먼트가 갈린다.
   ctaURL = "https://proreport.co.kr/f/c6b7o13b"
 
-  # ★기본 책 안내 — 글이 자기 책을 지정하지 않은 페이지에 붙는다.
-  # ⛔반드시 N:1 책이어야 한다. 1:1(종목책)을 기본값으로 깔면 §4 를 어긴다.
-  # ⚠️book10 은 config.json 에서 sites=["stock","coin"] 로 코인에 명시 허용된 N:1 이라 골랐다.
-  #   사용자가 다른 책을 원하면 여기만 바꾼다.
-  # ⛔question 은 두지 않는다 — 템플릿 기본값("더 알아보기")을 쓴다.
-  #   조건절로 늘린 문구는 사람이 쓰는 말이 아니다(사용자 2026-09-10).
-  [params.defaultCTA]
-    book = "경제지표의 기본기"
-    note = "금리·환율·유동성이 위험자산에 닿는 경로를 순서대로 정리했습니다."
-
-# ⛔위 [params.defaultCTA] 표 아래에 params 값을 쓰면 defaultCTA 안으로 들어간다 — 표 이름으로 다시 연다.
+  # ⛔2026-09-14 [params.defaultCTA](기본 책 안내)를 뺐다 — 페이지 종류·신호별 책·장은 data/bookmap.json(tools/bookmap.py · 책 본문 대조),
+  #   신청 유도 문구는 data/copy.json(codex · tools/cta_copy.py), 공증 기록은 data/proof.json(tools/proof.py). 템플릿 = partials/cta/*.
 [params.home]
   # 홈 찾기 칸 아래 바로가기 — 코인 코드. grid.json 에 없는 코드는 템플릿이 건너뛴다.
   quick = ["BTC", "XRP", "ETH", "SOL", "DOGE"]

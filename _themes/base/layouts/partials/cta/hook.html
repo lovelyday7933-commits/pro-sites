@@ -1,0 +1,67 @@
+{{/* 첫 화면 후킹 부품 (2026-09-14 CTA 개편 · 모든 페이지 · 제목 바로 아래)
+     사용자 09-14: *"cta는 유튜브 영상에서 이루어지고, 저 링크는 그저 그 전환 도구일 뿐 … 홈페이지 자체가 유튜브와 같은 힘을 가져야 한다"*
+                  *"수익률 자랑이 필요하기는 해" · "승률도 얼마인지 공개해도 됨" · "하려면 다 떠야 하는 거 아님?"*
+     순서(감사 반영 · 레퍼런스 6개 전부 결과 숫자 먼저): ① 궁금증 한 줄 + 지금 시세 ② 공증 수익률·승률 ③ 기록이 좁혀지는 계단("왜" · 마지막 "?")
+       ④ 받기 한 줄(배달 주소 꼴) + 버튼 + "수익률을 보장하지 않습니다."
+     ⛔data-nofp — lastmod 지문에서 뺀다(문구·공증 숫자가 바뀌어도 2만 쪽 수정일이 바뀌지 않게 · tools/lastmod.py).
+     ⛔회사·방·사무소 이름 0 — 공증 기록 이름은 proof.json label("코인 선물 추천 111회")만 · 이미지는 이름·인장 가린 것(tools/proof.py).
+     움직임(숫자 올라감·기록 돌림·지금 시세·확인서 창) = assets/js/hook.js. 스크립트가 없어도 숫자는 다 보인다. */}}
+{{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
+{{- $c := site.Data.copy }}
+{{- $pr := site.Data.proof }}
+{{- if and site.Params.ctaURL $c }}
+<section class="hook" data-nofp aria-label="{{ $c.proof.kicker }}">
+  <div class="site">
+    <div class="hk">
+      <div class="hk-head">
+        {{- with $x.q }}<p class="hk-q">{{ . }}</p>{{ end }}
+        {{- with $x.live }}
+        <p class="hk-live" data-live="{{ . }}"{{ if not $x.close }} hidden{{ end }}>
+          <span class="hk-live-n">{{ $x.name }}</span>
+          <b class="hk-live-p">{{ $x.close }}</b>
+          <span class="hk-live-r"></span>
+          <small class="hk-live-t">{{ with $x.asof }}{{ . }} 종가{{ end }}</small>
+        </p>
+        {{- end }}
+      </div>
+      {{- with $pr }}
+      <div class="hk-proof"{{ if gt (len .records) 1 }} data-rot="{{ len .records }}"{{ end }}>
+        {{- range $i, $r := .records }}
+        <div class="hk-rec"{{ if $i }} hidden{{ end }}>
+          <p class="hk-kick"><span>{{ $c.proof.kicker }}</span><span class="hk-lab">{{ $r.label }}</span></p>
+          <div class="hk-nums">
+            <div class="hk-n"><b class="up"><span data-count="{{ $r.total }}" data-dec="2">{{ lang.FormatNumber 2 $r.total }}</span><small>%</small></b><span>{{ $c.proof.total_label }}</span></div>
+            <div class="hk-n"><b><span data-count="{{ $r.win_rate }}" data-dec="{{ cond (eq (float $r.win_rate) (math.Floor (float $r.win_rate))) 0 1 }}">{{ lang.FormatNumber (cond (eq (float $r.win_rate) (math.Floor (float $r.win_rate))) 0 1) $r.win_rate }}</span><small>%</small></b><span>{{ $c.proof.win_label }} · {{ $r.wins }}/{{ $r.entries }}</span></div>
+            <div class="hk-n hk-per"><b class="hk-period">{{ $r.from }}~{{ $r.to }}</b><span>{{ $c.proof.recent_label }}{{ with $r.leverage }} · 선물 {{ . }}배 기준{{ end }}</span></div>
+          </div>
+          <button type="button" class="hk-doc" data-img="{{ $r.img | relURL }}" data-label="{{ $r.label }}">{{ $c.proof.doc_button }}</button>
+        </div>
+        {{- end }}
+        {{- if gt (len .records) 1 }}
+        <div class="hk-dots" role="tablist" aria-label="기록 고르기">{{ range $i, $r := .records }}<button type="button" role="tab" aria-label="{{ $r.label }}"{{ if not $i }} aria-selected="true"{{ end }}></button>{{ end }}</div>
+        {{- end }}
+      </div>
+      {{- end }}
+      {{- with $x.steps }}
+      <ol class="hk-steps">
+        {{- range . }}
+        <li{{ if eq .v "?" }} class="hk-last"{{ end }}><span>{{ .label }}</span><b>{{ .v }}</b></li>
+        {{- end }}
+      </ol>
+      {{- end }}
+      <div class="hk-cta">
+        <p class="hk-ask">{{ $x.ask }}</p>
+        <a class="hk-go" href="{{ partial "ctahref.html" (dict "page" . "place" "hook" "campaign" $c.offer.form_option) }}"{{ if $x.coin }} data-coin="{{ $x.name }}"{{ end }} target="_blank" rel="noopener nofollow">{{ $c.offer.button }}</a>
+        <p class="hk-fine">{{ $c.disclaimer }}</p>
+      </div>
+    </div>
+  </div>
+  {{- with $pr }}
+  <dialog class="hk-dlg" aria-label="{{ $c.proof.kicker }}">
+    <div class="hk-dlg-top"><p></p><button type="button" class="lf-x" aria-label="닫기">×</button></div>
+    <div class="hk-dlg-body" data-alt="{{ $c.proof.kicker }}"></div>
+    <p class="hk-dlg-note">{{ $c.disclaimer }} 발행 {{ .issued }} · 집계 {{ .as_of }}까지</p>
+  </dialog>
+  {{- end }}
+</section>
+{{- end }}

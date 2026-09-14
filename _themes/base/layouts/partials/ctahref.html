@@ -1,7 +1,11 @@
-{{/* 신청 링크 주소 하나. 인자 = dict "page" <페이지> "place" <"" | "top" | "float">.
-     place 가 있으면 medium 뒤에 붙인다(cell-top · post-float …) — 어느 버튼이 신청을 만들었는지
-     CSV 의 medium 열에서 갈라 볼 수 있다. source 는 건드리지 않는다(페이지 귀속이 제일 중요하다). */}}
+{{/* 신청 링크 주소 하나. 인자 = dict "page" <페이지> "place" <"hook"|"argue"|"bottom"|"top"|"float"|"foot"> [ "campaign" <신청 창 선택지 이름> ].
+     place 는 medium 뒤에 붙인다(intent-hook · post-float …) — 어느 버튼이 신청을 만들었는지 CSV 의 medium 열에서 갈라 볼 수 있다.
+     ★campaign(2026-09-14) = 누른 버튼의 약속 = 신청 창 첫 칸에서 미리 체크할 선택지(leadform.js 가 글자만 비교한다 · 띄어쓰기는 - ).
+       제안 버튼 = copy.offer.form_option · 책 버튼 = bookmap form. 없으면 예전처럼 페이지 책(utm.html).
+     source 는 건드리지 않는다(페이지 귀속이 제일 중요하다). */}}
 {{- $u := partial "utm.html" .page }}
 {{- $m := $u.medium }}
 {{- with .place }}{{ $m = printf "%s-%s" $m . }}{{ end }}
-{{- return printf "%s?utm_source=%s&utm_medium=%s&utm_campaign=%s" site.Params.ctaURL (urlquery $u.source) (urlquery $m) (urlquery $u.campaign) }}
+{{- $camp := $u.campaign }}
+{{- with .campaign }}{{ $camp = replace . " " "-" }}{{ end }}
+{{- return printf "%s?utm_source=%s&utm_medium=%s&utm_campaign=%s" site.Params.ctaURL (urlquery $u.source) (urlquery $m) (urlquery $camp) }}

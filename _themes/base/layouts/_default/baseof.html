@@ -22,10 +22,10 @@
 
   {{- /* 떠 있는 신청 버튼 — 레퍼런스(쿠키 9:00): "문의 받기 위한 버튼, 저건 모든 페이지에 탑재된 거야".
        출처 표시 medium 에 "-float" 가 붙어 CSV 에서 본문 버튼과 갈라 볼 수 있다. */}}
-  {{- if site.Params.ctaURL }}
-  <a class="fab" href="{{ partial "ctahref.html" (dict "page" . "place" "float") }}" target="_blank" rel="noopener nofollow">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-    무료 책 신청
+  {{- if and site.Params.ctaURL site.Data.copy }}
+  <a class="fab" href="{{ partial "ctahref.html" (dict "page" . "place" "float" "campaign" site.Data.copy.offer.form_option) }}" target="_blank" rel="noopener nofollow">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+    {{ site.Data.copy.offer.button }}
   </a>
   {{- end }}
 
@@ -43,6 +43,9 @@
   {{- end }}
   {{- $js := resources.Get "js/site.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $js.RelPermalink }}" defer></script>
+  {{- /* ★2026-09-14 첫 화면 후킹 부품의 움직임(숫자 올라감 · 공증 기록 돌림 · 확인서 창 · 지금 시세) */}}
+  {{- $hk := resources.Get "js/hook.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $hk.RelPermalink }}" defer></script>
   {{- /* ★2026-09-13 방문 기록 — 체류·스크롤·신청 안내 봄/누름 → /admin/c (ops/admin-worker). 쿠키·IP 없음. 404 는 뺀다. */}}
   {{- if ne .Kind "404" }}
   {{- $tr := resources.Get "js/track.js" | resources.Minify | resources.Fingerprint }}

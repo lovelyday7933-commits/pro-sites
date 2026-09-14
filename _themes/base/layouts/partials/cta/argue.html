@@ -1,0 +1,32 @@
+{{/* 본문 논증 끝 (2026-09-14 CTA 개편) — 착지 명제 → 브릿지 → (주식) 좁힘 기준 네 줄 + 이름을 가리는 이유 / (코인) 전문가에게 묻는 이유 → 두 갈래
+     사용자 09-14: *"유튜브 영상에서 쉼 없이 타당성과 합리성을 어필하고 최종적으로 저 링크로 인입을 받는 구조"*
+                  (코인) *"스스로 공부하는 것도 좋지만 전문가의 조언이 필요할 때 … 책도 주고 전문가 상담도 받아 보고"* → 조정안 승인
+     인자 = 페이지. 문구 = codex(copy.json argue) · 기준 첫 줄 crit1 = 이 페이지 종류가 방금 보인 기록.
+     ⛔data-nofp · ⛔종목·코인 이름 0(가리는 이유 문장) · 필수 문구 1 */}}
+{{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
+{{- $c := site.Data.copy }}
+{{- $a := index $c.argue $x.akind }}
+{{- if and site.Params.ctaURL $a }}
+{{- $land := partial "cta/pick.html" (dict "list" $a.land "seed" (print $x.seed "|land") "slots" $x.slots) }}
+{{- $bridge := partial "cta/pick.html" (dict "list" $a.bridge "seed" (print $x.seed "|bridge") "slots" $x.slots) }}
+<section class="argue" data-nofp>
+  {{- with $land }}<p class="ar-land">{{ . }}</p>{{ end }}
+  {{- with $bridge }}<p class="ar-bridge">{{ . }}</p>{{ end }}
+  {{- if $x.coin }}
+  {{- with partial "cta/pick.html" (dict "list" $c.argue.expert "seed" (print $x.seed "|expert") "slots" $x.slots) }}<p class="ar-expert">{{ . }}</p>{{ end }}
+  {{- else }}
+  <ol class="ar-crit">
+    {{- with $a.crit1 }}<li>{{ . }}</li>{{ end }}
+    {{- range $c.argue.criteria_common }}<li>{{ . }}</li>{{ end }}
+  </ol>
+  {{- with partial "cta/pick.html" (dict "list" $c.argue.hide "seed" (print $x.seed "|hide") "slots" $x.slots) }}<p class="ar-hide">{{ . }}</p>{{ end }}
+  {{- end }}
+  <div class="ar-go">
+    <a class="ar-offer" href="{{ partial "ctahref.html" (dict "page" . "place" "argue" "campaign" $c.offer.form_option) }}"{{ if $x.coin }} data-coin="{{ $x.name }}"{{ end }} target="_blank" rel="noopener nofollow">{{ $c.argue.go_offer }}</a>
+    {{- with $x.book }}{{ if .book }}
+    <a class="ar-book" href="{{ partial "ctahref.html" (dict "page" $ "place" "argue" "campaign" .form) }}" target="_blank" rel="noopener nofollow">{{ replace (replace $c.argue.go_book "{book}" .book) (cond (ne .ch "") "{chapter}" " {chapter}") .ch }}</a>
+    {{- end }}{{ end }}
+  </div>
+  <p class="ar-fine">{{ $c.disclaimer }}</p>
+</section>
+{{- end }}

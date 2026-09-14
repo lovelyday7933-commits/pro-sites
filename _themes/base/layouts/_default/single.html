@@ -7,20 +7,16 @@
     "title" .Title "lead" .Description
     "meta" (printf "%s · 약 %.0f분" (.PublishDate.Format "2006년 1월 2일") $mins)
     "flat" true) }}
+{{- /* ★2026-09-14 첫 화면 후킹 부품(제목 바로 아래 · 목차보다 먼저) — 09-13 "도입부 신청 안내" 한 줄을 대신한다 */}}
+{{- partial "cta/hook.html" . }}
 <div class="site">
 <article class="post article">
-  {{- /* ★도입부 신청 안내 — 제목 바로 아래, 목차보다 먼저(휴대폰 첫 화면 안). 모든 글. */}}
-  {{- partial "ctainline.html" (dict "page" . "place" "intro" "lead" "이 글이 기대는 판단 기준은" "tail" "차근차근 정리했습니다") }}
   {{- if gt (len .TableOfContents) 60 }}
   <nav class="toc"><b>이 글에서 다루는 것</b>{{ .TableOfContents }}</nav>
   {{- end }}
-  {{- $parts := split .Content "<h2" }}
-  {{- if and (partial "abgroup.html" .) (ge (len $parts) 4) }}
-  {{- $lead := "이 글에서 다룬 이야기는" }}
-  <div class="body">{{ index $parts 0 | safeHTML }}{{ range $i, $x := after 1 $parts }}{{ if eq $i 2 }}{{ partial "ctainline.html" (dict "page" $ "lead" $lead "tail" "더 자세히 정리했습니다") }}{{ end }}{{ printf "<h2%s" $x | safeHTML }}{{ end }}</div>
-  {{- else }}
+  {{- /* ⛔2026-09-14 본문 중간 안내 절반 비교(abgroup)는 끝났다 — 본문 끝 논증(두 갈래)으로 바꿨다 */}}
   <div class="body">{{ .Content }}</div>
-  {{- end }}
+  {{- partial "cta/argue.html" . }}
 
   {{- /* ★같은 책으로 이어지는 글 — 한 주제를 꾸준히 쓴다는 신호(주제 집중도)이자 책 신청으로 가는 길(2026-09-13) */}}
   {{- with .Params.cta.book }}
