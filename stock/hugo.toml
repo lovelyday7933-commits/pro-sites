@@ -58,8 +58,43 @@ summaryLength = 40
   isPlainText = true
   notAlternative = true
 
+# ★2026-09-14 사이트맵을 종류별로 나눈다 — sitemap.xml 은 목차가 되고 아래 파일을 가리킨다(layouts/sitemap.xml).
+#   서치콘솔·서치어드바이저에서 종류마다 색인 비율을 보려고(09-27 판정). 주소는 그대로 · 파일 +8.
+[outputFormats.smposts]
+  mediaType = "application/xml"
+  baseName = "sitemap-posts"
+  notAlternative = true
+[outputFormats.smhubs]
+  mediaType = "application/xml"
+  baseName = "sitemap-hubs"
+  notAlternative = true
+[outputFormats.smdividend]
+  mediaType = "application/xml"
+  baseName = "sitemap-dividend"
+  notAlternative = true
+[outputFormats.smearnings]
+  mediaType = "application/xml"
+  baseName = "sitemap-earnings"
+  notAlternative = true
+[outputFormats.smoutlook]
+  mediaType = "application/xml"
+  baseName = "sitemap-outlook"
+  notAlternative = true
+[outputFormats.smtarget]
+  mediaType = "application/xml"
+  baseName = "sitemap-target"
+  notAlternative = true
+[outputFormats.smsignals]
+  mediaType = "application/xml"
+  baseName = "sitemap-signals"
+  notAlternative = true
+[outputFormats.smetc]
+  mediaType = "application/xml"
+  baseName = "sitemap-etc"
+  notAlternative = true
+
 [outputs]
-  home = ["html", "rss", "search"]
+  home = ["html", "rss", "search", "smposts", "smhubs", "smdividend", "smearnings", "smoutlook", "smtarget", "smsignals", "smetc"]
   # ★2026-09-13 섹션·분류 RSS 를 끈다 — 종목 허브마다 index.xml 이 하나씩 붙어 배포 파일(상한 20,000)을 먹었다(주식 451개).
   #   크론 워커·네이버 RSS 제출은 홈 index.xml 만 쓴다.
   section = ["html"]

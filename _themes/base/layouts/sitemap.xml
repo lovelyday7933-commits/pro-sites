@@ -1,0 +1,10 @@
+{{- /* sitemap.xml = 목차(sitemapindex) — 종류별 파일을 가리킨다 (2026-09-14)
+     robots.txt 의 Sitemap 줄·서치콘솔·서치어드바이저에 이미 제출된 주소가 이 파일이라 이름은 그대로 둔다.
+     종류별 파일 = hugo.toml [outputFormats.sm*] (홈 출력) · 틀 = layouts/index.sm*.xml · 주소 목록 = partials/sitemap-urls.html
+     ⛔tools/indexnow.py 가 이 목차를 따라 하위 파일까지 읽는다. */ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- range site.Home.OutputFormats }}{{ if hasPrefix .Name "sm" }}
+  <sitemap><loc>{{ .Permalink }}</loc></sitemap>
+{{- end }}{{ end }}
+</sitemapindex>

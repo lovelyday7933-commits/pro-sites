@@ -1,0 +1,15 @@
+{{- /* 사이트맵 종류 — 한 페이지가 어느 사이트맵 파일에 들어가나 (2026-09-14)
+     ★왜: 사이트맵 한 장(주식 1.6만 주소)으로는 서치콘솔·서치어드바이저에서 "어느 칸이 색인되나"가 안 보인다.
+       09-27 판정(먹히는 칸은 늘리고 안 먹히는 칸은 합친다)에 종류별 색인 비율이 필요해서 파일을 나눈다.
+     ⛔주소는 바꾸지 않는다 — 들어가는 파일만 나뉜다. 모든 페이지는 정확히 한 파일에 들어간다(etc 가 나머지). */ -}}
+{{- $k := "etc" -}}
+{{- if eq .Section "posts" -}}
+  {{- $k = "posts" -}}
+{{- else if .Params.intent -}}
+  {{- $k = index (dict "배당금" "dividend" "실적" "earnings" "주가 전망" "outlook" "전망" "outlook" "목표주가" "target" "최고가" "high") .Params.intent | default "etc" -}}
+{{- else if in (slice "stock" "ihub") .Layout -}}
+  {{- $k = "hubs" -}}
+{{- else if in (slice "cell" "signal" "signals") .Layout -}}
+  {{- $k = "signals" -}}
+{{- end -}}
+{{- return $k -}}
