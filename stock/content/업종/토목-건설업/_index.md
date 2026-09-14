@@ -1,7 +1,7 @@
 ---
 title: "토목 건설업 업종 종목 15개 주가 전망·배당금·목표주가·실적"
 description: "토목 건설업 업종 코스피·코스닥 15개 종목(시가총액 순). 현대건설·DL이앤씨·HJ중공업·태영건설·코오롱글로벌 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-토목-건설업"

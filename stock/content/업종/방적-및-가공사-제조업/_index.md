@@ -1,7 +1,7 @@
 ---
 title: "방적 및 가공사 제조업 업종 종목 2개 주가 전망·배당금·목표주가·실적"
 description: "방적 및 가공사 제조업 업종 코스피·코스닥 2개 종목(시가총액 순). 일신방직·전방 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-방적-및-가공사-제조업"

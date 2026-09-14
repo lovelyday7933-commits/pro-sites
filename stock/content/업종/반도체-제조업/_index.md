@@ -1,7 +1,7 @@
 ---
 title: "반도체 제조업 업종 종목 71개 주가 전망·배당금·목표주가·실적"
 description: "반도체 제조업 업종 코스피·코스닥 71개 종목(시가총액 순). SK하이닉스·DB하이텍·파두·제주반도체·하나마이크론 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-반도체-제조업"

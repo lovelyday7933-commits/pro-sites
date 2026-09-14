@@ -1,7 +1,7 @@
 ---
 title: "기타 식품 제조업 업종 종목 34개 주가 전망·배당금·목표주가·실적"
 description: "기타 식품 제조업 업종 코스피·코스닥 34개 종목(시가총액 순). 삼양식품·오리온·CJ제일제당·농심·오뚜기 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-기타-식품-제조업"

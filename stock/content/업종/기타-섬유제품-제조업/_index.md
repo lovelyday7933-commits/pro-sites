@@ -1,7 +1,7 @@
 ---
 title: "기타 섬유제품 제조업 업종 종목 3개 주가 전망·배당금·목표주가·실적"
 description: "기타 섬유제품 제조업 업종 코스피·코스닥 3개 종목(시가총액 순). 셀바이오휴먼텍·케이엠·GH신소재 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-기타-섬유제품-제조업"

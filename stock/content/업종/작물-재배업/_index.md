@@ -1,7 +1,7 @@
 ---
 title: "작물 재배업 업종 종목 2개 주가 전망·배당금·목표주가·실적"
 description: "작물 재배업 업종 코스피·코스닥 2개 종목(시가총액 순). NH농우바이오·아시아종묘 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-작물-재배업"

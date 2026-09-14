@@ -1,7 +1,7 @@
 ---
 title: "기타 금융업 업종 종목 99개 주가 전망·배당금·목표주가·실적"
 description: "기타 금융업 업종 코스피·코스닥 99개 종목(시가총액 순). SK스퀘어·KB금융·신한지주·SK·하나금융지주 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-기타-금융업"

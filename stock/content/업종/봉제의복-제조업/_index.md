@@ -1,7 +1,7 @@
 ---
 title: "봉제의복 제조업 업종 종목 28개 주가 전망·배당금·목표주가·실적"
 description: "봉제의복 제조업 업종 코스피·코스닥 28개 종목(시가총액 순). F&F·LF·한세실업·한섬·BYC 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-봉제의복-제조업"

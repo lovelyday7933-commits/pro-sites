@@ -1,7 +1,7 @@
 ---
 title: "석유 정제품 제조업 업종 종목 5개 주가 전망·배당금·목표주가·실적"
 description: "석유 정제품 제조업 업종 코스피·코스닥 5개 종목(시가총액 순). SK이노베이션·S-Oil·한국쉘석유·미창석유공업·극동유화 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-석유-정제품-제조업"

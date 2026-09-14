@@ -1,7 +1,7 @@
 ---
 title: "전자부품 제조업 업종 종목 132개 주가 전망·배당금·목표주가·실적"
 description: "전자부품 제조업 업종 코스피·코스닥 132개 종목(시가총액 순). 삼성전기·두산·한화시스템·LG이노텍·이수페타시스 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-전자부품-제조업"

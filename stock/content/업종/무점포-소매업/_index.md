@@ -1,7 +1,7 @@
 ---
 title: "무점포 소매업 업종 종목 4개 주가 전망·배당금·목표주가·실적"
 description: "무점포 소매업 업종 코스피·코스닥 4개 종목(시가총액 순). 그래디언트·푸드나무·예스24·엑시온그룹 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-무점포-소매업"

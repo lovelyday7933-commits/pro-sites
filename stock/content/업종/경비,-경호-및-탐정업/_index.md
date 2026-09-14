@@ -1,7 +1,7 @@
 ---
 title: "경비, 경호 및 탐정업 업종 종목 1개 주가 전망·배당금·목표주가·실적"
 description: "경비, 경호 및 탐정업 업종 코스피·코스닥 1개 종목(시가총액 순). 에스원 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-경비,-경호-및-탐정업"

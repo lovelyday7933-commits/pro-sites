@@ -1,7 +1,7 @@
 ---
 title: "기타 사업지원 서비스업 업종 종목 8개 주가 전망·배당금·목표주가·실적"
 description: "기타 사업지원 서비스업 업종 코스피·코스닥 8개 종목(시가총액 순). 한국기업평가·효성 ITX·고려신용정보·메쎄이상·NICE인프라 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-기타-사업지원-서비스업"

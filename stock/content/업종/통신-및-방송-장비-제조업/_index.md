@@ -1,7 +1,7 @@
 ---
 title: "통신 및 방송 장비 제조업 업종 종목 61개 주가 전망·배당금·목표주가·실적"
 description: "통신 및 방송 장비 제조업 업종 코스피·코스닥 61개 종목(시가총액 순). 삼성전자·LG전자·한화비전·RFHIC·인텔리안테크 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-통신-및-방송-장비-제조업"

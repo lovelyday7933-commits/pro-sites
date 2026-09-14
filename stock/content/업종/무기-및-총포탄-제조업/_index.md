@@ -1,7 +1,7 @@
 ---
 title: "무기 및 총포탄 제조업 업종 종목 3개 주가 전망·배당금·목표주가·실적"
 description: "무기 및 총포탄 제조업 업종 코스피·코스닥 3개 종목(시가총액 순). LIG디펜스앤에어로스페이스·퍼스텍·삼양컴텍 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-무기-및-총포탄-제조업"

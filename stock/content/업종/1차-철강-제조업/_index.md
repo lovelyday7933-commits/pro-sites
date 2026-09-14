@@ -1,7 +1,7 @@
 ---
 title: "1차 철강 제조업 업종 종목 59개 주가 전망·배당금·목표주가·실적"
 description: "1차 철강 제조업 업종 코스피·코스닥 59개 종목(시가총액 순). POSCO홀딩스·현대제철·세아베스틸지주·성광벤드·SK오션플랜트 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-1차-철강-제조업"

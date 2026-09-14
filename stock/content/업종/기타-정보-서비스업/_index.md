@@ -1,7 +1,7 @@
 ---
 title: "기타 정보 서비스업 업종 종목 19개 주가 전망·배당금·목표주가·실적"
 description: "기타 정보 서비스업 업종 코스피·코스닥 19개 종목(시가총액 순). NICE평가정보·쿠콘·리파인·에프앤가이드·헥토이노베이션 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-기타-정보-서비스업"

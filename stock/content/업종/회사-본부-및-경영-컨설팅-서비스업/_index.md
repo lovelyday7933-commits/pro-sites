@@ -1,7 +1,7 @@
 ---
 title: "회사 본부 및 경영 컨설팅 서비스업 업종 종목 11개 주가 전망·배당금·목표주가·실적"
 description: "회사 본부 및 경영 컨설팅 서비스업 업종 코스피·코스닥 11개 종목(시가총액 순). 솔브레인홀딩스·녹십자홀딩스·NICE·아세아·INVENI 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-회사-본부-및-경영-컨설팅-서비스업"

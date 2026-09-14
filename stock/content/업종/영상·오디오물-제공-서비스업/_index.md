@@ -1,7 +1,7 @@
 ---
 title: "영상·오디오물 제공 서비스업 업종 종목 3개 주가 전망·배당금·목표주가·실적"
 description: "영상·오디오물 제공 서비스업 업종 코스피·코스닥 3개 종목(시가총액 순). 드림어스컴퍼니·KT지니뮤직·iMBC 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-영상·오디오물-제공-서비스업"

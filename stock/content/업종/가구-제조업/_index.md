@@ -1,7 +1,7 @@
 ---
 title: "가구 제조업 업종 종목 9개 주가 전망·배당금·목표주가·실적"
 description: "가구 제조업 업종 코스피·코스닥 9개 종목(시가총액 순). 에이스침대·퍼시스·지누스·현대리바트·시디즈 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-가구-제조업"

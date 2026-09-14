@@ -1,7 +1,7 @@
 ---
 title: "연료 소매업 업종 종목 3개 주가 전망·배당금·목표주가·실적"
 description: "연료 소매업 업종 코스피·코스닥 3개 종목(시가총액 순). 대성산업·우양피앤엘·위즈코프 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-연료-소매업"

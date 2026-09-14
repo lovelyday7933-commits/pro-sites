@@ -1,7 +1,7 @@
 ---
 title: "보험업 업종 종목 10개 주가 전망·배당금·목표주가·실적"
 description: "보험업 업종 코스피·코스닥 10개 종목(시가총액 순). 삼성생명·삼성화재해상보험·DB손해보험·한화생명·현대해상 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-보험업"

@@ -1,7 +1,7 @@
 ---
 title: "해상 운송업 업종 종목 6개 주가 전망·배당금·목표주가·실적"
 description: "해상 운송업 업종 코스피·코스닥 6개 종목(시가총액 순). HMM·팬오션·대한해운·흥아해운·KSS해운 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-해상-운송업"

@@ -1,7 +1,7 @@
 ---
 title: "광고업 업종 종목 18개 주가 전망·배당금·목표주가·실적"
 description: "광고업 업종 코스피·코스닥 18개 종목(시가총액 순). 제일기획·이노션·KT나스미디어·SM C&C·HS애드 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-광고업"

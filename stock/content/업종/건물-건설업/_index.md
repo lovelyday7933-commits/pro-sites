@@ -1,7 +1,7 @@
 ---
 title: "건물 건설업 업종 종목 24개 주가 전망·배당금·목표주가·실적"
 description: "건물 건설업 업종 코스피·코스닥 24개 종목(시가총액 순). 대우건설·GS건설·SK이터닉스·IPARK현대산업개발·금호건설 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-건물-건설업"

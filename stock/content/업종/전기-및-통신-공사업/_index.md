@@ -1,7 +1,7 @@
 ---
 title: "전기 및 통신 공사업 업종 종목 8개 주가 전망·배당금·목표주가·실적"
 description: "전기 및 통신 공사업 업종 코스피·코스닥 8개 종목(시가총액 순). 한전KPS·LS마린솔루션·수산인더스트리·금화피에스시·HDC랩스 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-전기-및-통신-공사업"

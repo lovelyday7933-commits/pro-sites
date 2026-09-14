@@ -1,7 +1,7 @@
 ---
 title: "산업용 기계 및 장비 임대업 업종 종목 1개 주가 전망·배당금·목표주가·실적"
 description: "산업용 기계 및 장비 임대업 업종 코스피·코스닥 1개 종목(시가총액 순). AJ네트웍스 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-산업용-기계-및-장비-임대업"

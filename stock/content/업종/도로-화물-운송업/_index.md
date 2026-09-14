@@ -1,7 +1,7 @@
 ---
 title: "도로 화물 운송업 업종 종목 7개 주가 전망·배당금·목표주가·실적"
 description: "도로 화물 운송업 업종 코스피·코스닥 7개 종목(시가총액 순). CJ대한통운·세방·한진·케이씨티시·인터지스 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-도로-화물-운송업"

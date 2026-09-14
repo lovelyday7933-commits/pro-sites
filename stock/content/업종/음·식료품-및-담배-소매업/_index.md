@@ -1,7 +1,7 @@
 ---
 title: "음·식료품 및 담배 소매업 업종 종목 1개 주가 전망·배당금·목표주가·실적"
 description: "음·식료품 및 담배 소매업 업종 코스피·코스닥 1개 종목(시가총액 순). 큐로홀딩스 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-음·식료품-및-담배-소매업"

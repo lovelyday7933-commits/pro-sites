@@ -1,7 +1,7 @@
 ---
 title: "텔레비전 방송업 업종 종목 9개 주가 전망·배당금·목표주가·실적"
 description: "텔레비전 방송업 업종 코스피·코스닥 9개 종목(시가총액 순). CJ ENM·SBS·케이티스카이라이프·LG헬로비전·KX 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-텔레비전-방송업"

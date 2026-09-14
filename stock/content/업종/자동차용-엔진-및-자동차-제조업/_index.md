@@ -1,7 +1,7 @@
 ---
 title: "자동차용 엔진 및 자동차 제조업 업종 종목 4개 주가 전망·배당금·목표주가·실적"
 description: "자동차용 엔진 및 자동차 제조업 업종 코스피·코스닥 4개 종목(시가총액 순). 현대자동차·기아·KG모빌리티·DYP 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-자동차용-엔진-및-자동차-제조업"

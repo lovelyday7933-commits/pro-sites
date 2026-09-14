@@ -1,7 +1,7 @@
 ---
 title: "기타 과학기술 서비스업 업종 종목 5개 주가 전망·배당금·목표주가·실적"
 description: "기타 과학기술 서비스업 업종 코스피·코스닥 5개 종목(시가총액 순). DXVX·오르비텍·지구홀딩스·에이치시티·디티앤씨 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-기타-과학기술-서비스업"

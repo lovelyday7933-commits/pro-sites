@@ -1,7 +1,7 @@
 ---
 title: "어로 어업 업종 종목 2개 주가 전망·배당금·목표주가·실적"
 description: "어로 어업 업종 코스피·코스닥 2개 종목(시가총액 순). 신라교역·동원수산 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-어로-어업"

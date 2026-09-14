@@ -1,7 +1,7 @@
 ---
 title: "상품 중개업 업종 종목 8개 주가 전망·배당금·목표주가·실적"
 description: "상품 중개업 업종 코스피·코스닥 8개 종목(시가총액 순). 포스코인터내셔널·LX인터내셔널·디아이동일·골프존홀딩스·케이티알파 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-상품-중개업"

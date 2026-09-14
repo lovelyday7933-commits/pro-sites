@@ -1,7 +1,7 @@
 ---
 title: "고무제품 제조업 업종 종목 8개 주가 전망·배당금·목표주가·실적"
 description: "고무제품 제조업 업종 코스피·코스닥 8개 종목(시가총액 순). 한국타이어앤테크놀로지·금호타이어·넥센타이어·넥센·DRB동일 등."
-date: "2026-09-13"
+date: "2026-09-14"
 layout: "sector"
 utm_medium: "sector"
 utm_source: "sector-고무제품-제조업"
