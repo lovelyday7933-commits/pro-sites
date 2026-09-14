@@ -45,7 +45,7 @@
       {{- with $x.steps }}
       <ol class="hk-steps">
         {{- range . }}
-        <li{{ if eq .v "?" }} class="hk-last"{{ end }}><span>{{ .label }}</span><b>{{ .v }}</b></li>
+        <li{{ if eq .v "?" }} class="hk-last"{{ end }}{{ with .slot }} data-slot="{{ . }}"{{ end }}><span>{{ .label }}</span><b>{{ .v }}</b></li>
         {{- end }}
       </ol>
       {{- end }}

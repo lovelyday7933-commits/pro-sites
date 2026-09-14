@@ -229,8 +229,18 @@
       if (!def || !def.form || !def.form.questions) throw new Error('def');
       defs[slug] = def;
       if (cur !== mine) return;
-      d.querySelector('#lf-title').textContent = String((def.form.intro && def.form.intro.title) || def.form.title || '신청').replace(/\s*\n\s*/g, ' ');
-      d.querySelector('.lf-eyebrow').textContent = def.form.eyebrow || '';
+      var title = String((def.form.intro && def.form.intro.title) || def.form.title || '신청').replace(/\s*\n\s*/g, ' '), eyebrow = def.form.eyebrow || '';
+      /* 책 버튼으로 열면 제목도 그 책으로(09-14 회의론자 심사: 『주식의 기본기』 제6장을 눌렀는데 "선별 종목 받아 보기"가 떴다)
+         제안 선택지 = 사이트 정의의 첫 선택지(o_site0 · 관리 워커 LOCAL_DEFS) · 그 밖의 campaign = 책 이름 */
+      var q0 = def.form.questions.filter(function (q) { return q.type === 'multi_choice'; })[0];
+      var offer = q0 && q0.options && q0.options[0] && q0.options[0].id === 'o_site0' ? q0.options[0].label : '';
+      var bookText = (link.textContent || '').replace(/\s+/g, ' ').trim();
+      if (offer && utm.campaign && String(utm.campaign).replace(/-/g, ' ') !== offer && bookText.indexOf('『') === 0) {
+        title = bookText.indexOf('무료') < 0 ? bookText + ' 무료로 받기' : bookText;
+        eyebrow = '';
+      }
+      d.querySelector('#lf-title').textContent = title;
+      d.querySelector('.lf-eyebrow').textContent = eyebrow;
       body.textContent = '';
       body.appendChild(build(def, link));
       var firstInput = body.querySelector('input:not(.lf-hp), textarea');

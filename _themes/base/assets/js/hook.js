@@ -110,6 +110,17 @@
     live.querySelector('.hk-live-t').textContent = label;
     live.hidden = false;
     live.classList.add('on');
+    /* 계단의 "현재와 +88.2%"(목표주가) · "지금은 -62.6%"(코인 최고가)는 기준일 종가로 구운 값 — 지금 시세가 뜨면 같은 시세로 다시 잰다
+       (09-14 회의론자 심사: 같은 박스의 지금 시세와 계산이 안 맞았다) */
+    function num(li) { var b = li && li.querySelector('b'); return b ? parseFloat(b.textContent.replace(/[^\d.]/g, '')) : NaN; }
+    function pct(li, v) { var b = li && li.querySelector('b'); if (b && isFinite(v)) b.textContent = (v > 0 ? '+' : v < 0 ? '-' : '') + Math.abs(v).toFixed(1) + '%'; }
+    var st = box.querySelector('.hk-steps');
+    if (st) {
+      var tgt = st.querySelector('li[data-slot="tgt"]'), gap = st.querySelector('li[data-slot="gap"]');
+      if (tgt && gap && num(tgt) > 0) pct(gap, (num(tgt) / p - 1) * 100);
+      var ath = st.querySelector('li[data-slot="ath"]'), below = st.querySelector('li[data-slot="below"]');
+      if (ath && below && num(ath) > 0) pct(below, (p / num(ath) - 1) * 100);
+    }
   }
   function hm() { var d = new Date(); return ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2); }
   function get(u) {

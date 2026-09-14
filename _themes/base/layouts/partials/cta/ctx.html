@@ -134,7 +134,7 @@
 {{- $steps := slice }}{{ $nnum := 0 }}
 {{- range index $c.steps $sk }}
   {{- $lab := partial "cta/pick.html" (dict "list" (slice .label) "seed" "" "slots" $slots) }}{{/* 이름표 속 칸("그 뒤 {day20}") */}}
-  {{- if .slot }}{{ with index $slots .slot }}{{ $steps = $steps | append (dict "label" $lab "v" .) }}{{ end }}
+  {{- if .slot }}{{ $sl := .slot }}{{ with index $slots .slot }}{{ $steps = $steps | append (dict "label" $lab "v" . "slot" $sl) }}{{ end }}
   {{- else }}{{ $steps = $steps | append (dict "label" $lab "v" "?") }}{{ end }}
 {{- end }}
 {{- range $steps }}{{ if ne .v "?" }}{{ $nnum = add $nnum 1 }}{{ end }}{{ end }}
