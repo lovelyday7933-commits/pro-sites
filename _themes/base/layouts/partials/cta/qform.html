@@ -27,18 +27,23 @@
   {{- if eq $place "float" }}
   <div class="qf-more">
   {{- end }}
+  {{- /* ★09-15 밤 사용자 "모바일에서도 책 표지가 더 확실하게 보여야 … 존나 작게 보여 이게 뭐 주긴 주는거여 싶은 그런 느낌" —
+       표지가 선택 칸 안 44px 였다(휴대폰은 버튼 아래 44px). → 선택 칸 위에 책 카드 하나: 큰 표지 · 무료 책 · 제목 · 이 페이지 장이 들어 있는 목차 3줄. 누르면 "무료 책 받기"가 체크된다. */}}
+  {{- if and $pv.cover (ne $place "float") }}
+  <div class="qf-book">
+    <span class="qf-cv"><img src="{{ $pv.cover | relURL }}" width="{{ $pv.w }}" height="{{ $pv.h }}" alt="『{{ $bk }}』 표지" loading="{{ if eq $place "hook" }}eager{{ else }}lazy{{ end }}" decoding="async"></span>
+    <div class="qf-bk">
+      <p class="qf-free">무료 책</p>
+      {{- /* 제목은 첫 낱말 뒤에서만 꺾는다("『미국주식 이 / 책으로 끝낸다』" 방지) — 나머지를 한 덩어리(.nw)로 */}}
+      {{- $bw := split $bk " " }}
+      <p class="qf-pv-t">『{{ if gt (len $bw) 1 }}{{ index $bw 0 }} <span class="nw">{{ delimit (after 1 $bw) " " }}』</span>{{ else }}{{ $bk }}』{{ end }}</p>
+      <ol class="qf-toc">{{ range $pv.lines }}<li{{ if .on }} class="on"{{ end }}><span>{{ .ch }}</span> {{ .t }}</li>{{ end }}</ol>
+    </div>
+  </div>
+  {{- end }}
   <div class="qf-opts" role="group" aria-label="받고 싶은 것">
     <div class="qf-opt">
       <label><input type="checkbox" name="o" value="무료 책 받기" checked><span class="qf-ot">무료 책 받기</span></label>
-      {{- if and $pv.cover (ne $place "float") }}
-      <div class="qf-pv">
-        <img src="{{ $pv.cover | relURL }}" width="{{ $pv.w }}" height="{{ $pv.h }}" alt="『{{ $bk }}』 표지" loading="lazy" decoding="async">
-        <div>
-          <p class="qf-pv-t">『{{ $bk }}』</p>
-          <ol class="qf-toc">{{ range $pv.lines }}<li{{ if .on }} class="on"{{ end }}><span>{{ .ch }}</span> {{ .t }}</li>{{ end }}</ol>
-        </div>
-      </div>
-      {{- end }}
     </div>
     <div class="qf-opt">
       <label><input type="checkbox" name="o" value="무료 1:1 상담" checked><span class="qf-ot">무료 1:1 상담</span></label>
@@ -68,19 +73,8 @@
   </div>
   {{- else }}
   <button type="submit" class="qf-go">신청하기</button>
-  {{- /* 휴대폰 = 선택지를 두 칸 나란히로 줄이고 받을 것 미리보기를 버튼 아래로(번호 칸을 첫 화면 안으로 · 09-15 캡처: 휴대폰 번호 칸이 1,240px) */}}
-  <div class="qf-pvm">
-    {{- if $pv.cover }}
-    <div class="qf-pv">
-      <img src="{{ $pv.cover | relURL }}" width="{{ $pv.w }}" height="{{ $pv.h }}" alt="『{{ $bk }}』 표지" loading="lazy" decoding="async">
-      <div>
-        <p class="qf-pv-t">무료 책 『{{ $bk }}』</p>
-        <ol class="qf-toc">{{ range $pv.lines }}<li{{ if .on }} class="on"{{ end }}><span>{{ .ch }}</span> {{ .t }}</li>{{ end }}</ol>
-      </div>
-    </div>
-    {{- end }}
-    <p class="qf-sub">무료 1:1 상담 · {{ $sub | safeHTML }}</p>
-  </div>
+  {{- /* 휴대폰 = 선택 칸 안 상담 한 줄을 숨기고 버튼 아래에 한 줄로(선택 칸 두 개를 나란히 짧게) · 책 미리보기는 09-15 밤부터 위 책 카드 하나 */}}
+  <p class="qf-sub qf-pvm">무료 1:1 상담 · {{ $sub | safeHTML }}</p>
   {{- end }}
   <p class="qf-status" role="status"></p>
   <p class="qf-fine">{{ site.Data.copy.disclaimer }}</p>

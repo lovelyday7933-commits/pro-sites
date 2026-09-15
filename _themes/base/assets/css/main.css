@@ -708,14 +708,22 @@ html.lf-open{overflow:hidden}
 .qf-opt input{width:20px;height:20px;margin:0;flex:none;accent-color:var(--accent-bg)}
 .qf-ot{font-size:1rem;font-weight:750;letter-spacing:-.02em;color:var(--ink)}
 .qf-sub{font-size:.85rem;line-height:1.5;color:var(--ink2)}
-.qf-pv{display:grid;grid-template-columns:44px minmax(0,1fr);gap:.6rem;align-items:start}
-.qf-pv img{width:44px;height:auto;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.25)}
-.qf-pv-t{font-size:.8rem;font-weight:700;color:var(--ink);line-height:1.35}
-.qf-toc{margin:.2rem 0 0;padding:0;list-style:none;display:grid;gap:.12rem}
-.qf-toc li{margin:0;font-size:.74rem;line-height:1.4;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+/* 받을 책 카드 — 09-15 밤 사용자 "책 표지가 존나 작게 보여 이게 뭐 주긴 주는거여" · 옛 표지 44px → 카드 표지 약 116~128px(파일 360px) */
+.qf-book{display:grid;grid-template-columns:8rem minmax(0,1fr);gap:1.05rem;align-items:center;padding:.9rem 1rem;border:1px solid var(--line);border-radius:14px;
+  background:linear-gradient(135deg,var(--accent-soft),transparent 72%),var(--surface);cursor:pointer}
+.qf-cv{position:relative;display:block;border-radius:3px 7px 7px 3px;overflow:hidden;box-shadow:0 18px 28px -14px rgba(0,0,0,.7),0 3px 9px rgba(0,0,0,.3)}
+.qf-cv img{display:block;width:100%;height:auto}
+.qf-cv::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(0,0,0,.32) 0,rgba(255,255,255,.2) 2.4%,rgba(0,0,0,.1) 5%,rgba(255,255,255,0) 10%)}
+.qf-bk{display:grid;gap:.4rem;min-width:0}
+.qf-free{justify-self:start;padding:.2rem .6rem;border-radius:999px;background:var(--accent-bg);color:var(--accent-ink);font-size:.8rem;font-weight:800;line-height:1.3}
+.qf-pv-t{font-size:1.06rem;font-weight:800;line-height:1.35;letter-spacing:-.02em;color:var(--ink);text-wrap:balance}
+.qf-toc{margin:.05rem 0 0;padding:.45rem 0 0;list-style:none;display:grid;gap:.22rem;border-top:1px solid var(--line)}
+.qf-toc li{margin:0;font-size:.82rem;line-height:1.45;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .qf-toc li span{font-weight:650;color:var(--ink2)}
-.qf-toc li.on{color:var(--ink);font-weight:600}
+.qf-toc li.on{color:var(--ink);font-weight:650;white-space:normal}
 .qf-toc li.on span{color:var(--accent)}
+.qbar .qf-book{display:none}
 .qf-multi{font-size:.75rem;color:var(--mute);margin-top:-.2rem!important}
 .qf-in{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:.5rem}
 .qf input[type=tel],.qf input[type=text]:not(.lf-hp){width:100%;box-sizing:border-box;height:50px;padding:0 .9rem;border:1px solid var(--line);border-radius:12px;
@@ -779,8 +787,11 @@ html.lf-open{overflow:hidden}
   .qf-opt{padding:.55rem .55rem}
   .qf-opt label{gap:.4rem}
   .qf-ot{font-size:.93rem}
-  .qf-opt .qf-pv,.qf-opt .qf-sub{display:none}
-  .qf-pvm{display:grid;gap:.45rem;padding:.6rem .7rem;border:1px dashed var(--line);border-radius:12px}
+  .qf-opt .qf-sub{display:none}
+  .qf-pvm{display:block;text-align:center}
+  .qf-book{grid-template-columns:7.4rem minmax(0,1fr);gap:.9rem;padding:.8rem .85rem}
+  .qf-pv-t{font-size:1rem}
+  .qf-toc li{font-size:.8rem}
   .qbar .qf-bar-t{display:none}
   .qbar .qf-line{grid-template-columns:minmax(0,1fr) auto}
 }

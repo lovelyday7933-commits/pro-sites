@@ -382,6 +382,12 @@
     }
     var phone = fm.querySelector('input[name="phone"]'), name = fm.querySelector('input[name="name"]'), agree = fm.querySelector('input[name="agree"]');
     var status = fm.querySelector('.qf-status'), go = fm.querySelector('.qf-go'), terms = fm.querySelector('.qf-terms'), tbtn = fm.querySelector('.qf-terms-btn');
+    var book = fm.querySelector('.qf-book');   // 09-15 밤 받을 책 카드 — 누르면 "무료 책 받기"를 체크하고 번호 칸으로
+    if (book) book.addEventListener('click', function () {
+      var c = fm.querySelector('input[name="o"][value="무료 책 받기"]');
+      if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change', { bubbles: true })); }
+      if (phone && !phone.value) phone.focus();
+    });
     function begin() {
       if (st.started) return;
       st.started = true; st.t0 = Date.now();
