@@ -119,6 +119,19 @@
       if (io) io.observe(box);
       bind(a, place);
     }
+    /* ★09-15 페이지에 펼친 번호 칸(form.qf · data-place = hook·bottom·float) — 봄 = 폼이 화면 절반 1초 · 누름 = 폼에 처음 손댐(칸 누름)
+       링크가 아니라 폼이라 위 링크 반복에 안 걸린다. */
+    document.querySelectorAll('form.qf').forEach(function (f) {
+      var pl = f.getAttribute('data-place') || 'bottom';
+      if (!kind) { var m = /[?&]utm_medium=([^&]+)/.exec(f.getAttribute('data-href') || ''); if (m) { var ps = decodeURIComponent(m[1]).split('-'); kind = PLACES.test(ps[ps.length - 1]) ? ps.slice(0, -1).join('-') : ps.join('-'); } }
+      if (pl !== 'float' && !f.hasAttribute('data-pt')) { f.setAttribute('data-pt', pl); if (io) io.observe(f); }
+      f.addEventListener('focusin', function () {
+        if (clicks[pl]) return;
+        clicks[pl] = 1;
+        if (!clickMs) { clickMs = Date.now() - t0; clickSc = nowPct(); }
+        send('click', true);
+      });
+    });
     document.querySelectorAll('.hk-doc').forEach(function (b) {
       b.addEventListener('click', function () { if (!seen.proof) { seen.proof = 1; send('seen', true); } });   // 확인서를 열어 봄 = 신청 누름이 아니라 봄 칸에 센다(누름 합계가 부풀지 않게)
     });

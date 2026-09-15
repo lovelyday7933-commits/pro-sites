@@ -286,4 +286,175 @@
     var a = e.target.closest && e.target.closest('a[href]');
     if (a && FORM.test(a.href)) open(a, e);
   });
+
+  /* ══ 페이지에 펼친 번호 칸 (★2026-09-15 CTA 통합 구성 `CTA_통합구성_정본_20260915.md` §4 · partials/cta/qform.html) ══════════
+     첫 화면(hook) · 본문 끝(bottom) · 화면 아래 띠(float) 세 곳이 같은 코드를 쓴다.
+     · 정의(칸 id·동의 글)는 창과 같은 /admin/f/<슬러그>(5분 기억)를 **처음 손댈 때** 한 번 부른다 — 페이지뷰마다 부르지 않는다(워커 무료 한도).
+     · 제출은 창과 같은 /admin/lead · 보던 책(data-book)·종목(data-subject)은 book·subject 로 보낸다(텔레그램·저장 답에만).
+     · 단계 기록 /admin/fe = start(첫 손댐) · answer(칸 채움) · invalid · abandon(채우다 떠남) — 창의 open 은 없다(펼쳐져 있으니).
+     · 신청이 끝나면 이 페이지의 다른 번호 칸·아래 띠를 모두 "신청이 끝났습니다"로 바꾼다 · 고르지 않은 쪽은 한 번 눌러 함께 받게 한다(add). */
+  var qforms = Array.prototype.slice.call(document.querySelectorAll('form.qf'));
+  if (!qforms.length) return;
+  var TALK = '무료 1:1 상담', BOOK = '무료 책 받기';
+  var qdefs = {}, sentOnce = null;
+  function qdef(slug) {
+    if (!qdefs[slug]) qdefs[slug] = fetch('/admin/f/' + slug, { credentials: 'omit' }).then(function (r) {
+      if (!r.ok) throw new Error('def ' + r.status);
+      return r.json();
+    }).then(function (d) { if (!d || !d.form || !d.form.questions) throw new Error('def'); return d; })
+      .catch(function (e) { qdefs[slug] = null; throw e; });
+    return qdefs[slug];
+  }
+  function utmOf(href) {
+    var u = {};
+    try { new URL(href).searchParams.forEach(function (v, k) { if (/^utm_/.test(k)) u[k.slice(4)] = v; }); } catch (e) {}
+    return u;
+  }
+  function qfe(st, name, extra) {
+    var o = { pv: (window.__pt && window.__pt.pv) || '', slug: st.slug, fsid: st.fsid, e: name, place: st.place, p: location.pathname, utm: st.utm, step: st.step };
+    for (var k in extra || {}) o[k] = extra[k];
+    beacon('/admin/fe', o);
+  }
+  function doneHtml(fm, chosen) {
+    var other = chosen.length === 1 ? (chosen[0] === TALK ? BOOK : TALK) : '';
+    var box = el('div', { class: 'qf-done', role: 'status' }, [
+      el('p', { class: 'qf-done-t', text: '신청이 끝났습니다' }),
+      el('p', { class: 'qf-done-d', text: '남겨 주신 번호로 연락드리겠습니다.' })
+    ]);
+    if (other && sentOnce) {
+      var b = el('button', { type: 'button', class: 'qf-add', text: other === TALK ? '무료 1:1 상담도 함께 받기' : '무료 책도 함께 받기' });
+      b.addEventListener('click', function () {
+        b.disabled = true; b.textContent = '보내는 중…';
+        submitQuick(sentOnce.st, [other], sentOnce.phone, sentOnce.name, true).then(function () {
+          document.querySelectorAll('.qf-add').forEach(function (x) { x.replaceWith(el('p', { class: 'qf-done-d', text: (other === TALK ? '무료 1:1 상담' : '무료 책') + '도 함께 신청했습니다.' })); });
+        }).catch(function () { b.disabled = false; b.textContent = '다시 누르기'; });
+      });
+      box.appendChild(b);
+    }
+    return box;
+  }
+  function markAllDone(chosen) {
+    document.documentElement.classList.add('qf-sent');
+    qforms.forEach(function (f) {
+      if (f.__done) return;
+      f.__done = true;
+      if (f.__st && f.__st.started && !f.__st.sent) f.__st.sent = true;   // 다른 칸에서 끝났으면 "떠남"으로 세지 않는다
+      f.replaceWith(doneHtml(f, chosen));
+    });
+    var bar = document.querySelector('.qbar');
+    if (bar) bar.hidden = true;
+  }
+  function submitQuick(st, chosen, phone, name, add) {
+    return qdef(st.slug).then(function (def) {
+      var qs = def.form.questions, ans = {};
+      var qc = qs.filter(function (q) { return q.type === 'multi_choice'; })[0];
+      var qp = qs.filter(function (q) { return q.type === 'phone'; })[0];
+      var qn = qs.filter(function (q) { return q.type === 'short_text'; })[0];
+      var qa = qs.filter(function (q) { return q.type === 'consent'; });
+      if (!qc || !qp || !qn || !qa.length) throw new Error('def shape');
+      ans[qc.id] = chosen; ans[qp.id] = phone; ans[qn.id] = name;
+      qa.forEach(function (q) { ans[q.id] = true; });
+      return fetch('/admin/lead', {
+        method: 'POST', credentials: 'omit', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ pv: (window.__pt && window.__pt.pv) || '', slug: st.slug, fsid: add ? rid() : st.fsid, place: st.place, p: location.pathname,
+          t: document.title.slice(0, 140), utm: st.utm, answers: ans, dur: Math.round((Date.now() - (st.t0 || Date.now())) / 1000), hp: st.hp.value,
+          book: st.book, subject: st.subject, add: add ? 1 : 0 })
+      }).then(function (r) { return r.json(); }).then(function (j) {
+        if (!j || !j.ok) throw new Error((j && j.error) || 'fail');
+        return j;
+      });
+    });
+  }
+  function termsText(def) {
+    var qa = def.form.questions.filter(function (q) { return q.type === 'consent'; });
+    return qa.map(function (q) { return q.description || ''; }).join('\n\n');
+  }
+
+  qforms.forEach(function (fm) {
+    var st = { slug: fm.getAttribute('data-slug'), place: fm.getAttribute('data-place'), utm: utmOf(fm.getAttribute('data-href') || ''),
+      book: fm.getAttribute('data-book') || '', subject: fm.getAttribute('data-subject') || '', fsid: rid(), step: 0, started: false, sent: false,
+      hp: fm.querySelector('.lf-hp') };
+    fm.__st = st;
+    if (st.place === 'float') {   // 펼친 띠를 다시 접는 단추(휴대폰은 Esc 가 없다)
+      var x = el('button', { type: 'button', class: 'qbar-x', 'aria-label': '접기', text: '×' });
+      x.addEventListener('click', function () { fm.closest('.qbar').classList.remove('open'); if (document.activeElement) document.activeElement.blur(); });
+      fm.insertBefore(x, fm.firstChild);
+    }
+    var phone = fm.querySelector('input[name="phone"]'), name = fm.querySelector('input[name="name"]'), agree = fm.querySelector('input[name="agree"]');
+    var status = fm.querySelector('.qf-status'), go = fm.querySelector('.qf-go'), terms = fm.querySelector('.qf-terms'), tbtn = fm.querySelector('.qf-terms-btn');
+    function begin() {
+      if (st.started) return;
+      st.started = true; st.t0 = Date.now();
+      qfe(st, 'start');
+      qdef(st.slug).catch(function () {});   // 미리 불러 둔다(제출이 빨라지게)
+    }
+    fm.addEventListener('focusin', function () {
+      begin();
+      if (st.place === 'float') fm.closest('.qbar').classList.add('open');
+    });
+    fm.addEventListener('change', begin);
+    phone.addEventListener('input', function () { phone.value = fmtPhone(phone.value); status.textContent = ''; });
+    phone.addEventListener('blur', function () { if (/^01[016789]-\d{3,4}-\d{4}$/.test(phone.value) && st.step < 2) { st.step = 2; qfe(st, 'answer', { qi: 1 }); } });
+    name.addEventListener('blur', function () { if (name.value.trim() && st.step < 3) { st.step = 3; qfe(st, 'answer', { qi: 2 }); } });
+    tbtn.addEventListener('click', function () {
+      var open = terms.hidden;
+      tbtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      if (!open) { terms.hidden = true; return; }
+      terms.hidden = false;
+      if (!terms.textContent) {
+        terms.textContent = '불러오는 중…';
+        qdef(st.slug).then(function (d) { terms.textContent = termsText(d); }).catch(function () { terms.textContent = '안내를 불러오지 못했습니다. 잠시 뒤 다시 눌러 주세요.'; });
+      }
+    });
+    fm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      begin();
+      var chosen = Array.prototype.filter.call(fm.querySelectorAll('input[name="o"]'), function (x) { return x.checked; }).map(function (x) { return x.value; });
+      var ph = fmtPhone(phone.value), nm = name.value.trim(), miss = null;
+      if (!chosen.length) miss = ['받고 싶은 것을 하나 이상 골라 주세요.', fm.querySelector('input[name="o"]')];
+      else if (!/^01[016789]-\d{3,4}-\d{4}$/.test(ph)) miss = ['휴대폰 번호를 확인해 주세요 (예: 010-1234-5678)', phone];
+      else if (!nm) miss = ['이름을 적어 주세요.', name];
+      else if (!agree.checked) miss = ['동의에 체크해 주세요.', agree];
+      if (miss) {
+        if (st.place === 'float') fm.closest('.qbar').classList.add('open');
+        status.textContent = miss[0]; miss[1].focus();
+        qfe(st, 'invalid', { qid: miss[1].name || '' });
+        return;
+      }
+      go.disabled = true; var label = go.textContent; go.textContent = '보내는 중…'; status.textContent = '';
+      submitQuick(st, chosen, ph, nm, false).then(function () {
+        st.sent = true;
+        sentOnce = { st: st, phone: ph, name: nm };
+        markAllDone(chosen);
+      }).catch(function (x) {
+        go.disabled = false; go.textContent = label;
+        status.textContent = (x && x.message && x.message !== 'fail' && x.message.length < 80 && !/^def/.test(x.message)) ? x.message : '보내지 못했습니다. 잠시 뒤 다시 눌러 주세요.';
+      });
+    });
+  });
+  window.addEventListener('pagehide', function () {
+    qforms.forEach(function (f) { var st = f.__st; if (st && st.started && !st.sent) { st.sent = true; qfe(st, 'abandon'); } });
+  });
+
+  /* 화면 아래 신청 띠 — 페이지의 번호 칸(첫 화면·본문 끝)이 하나라도 화면에 보이면 숨기고, 안 보이면 띄운다 */
+  var bar = document.querySelector('.qbar');
+  var inPage = qforms.filter(function (f) { return f.getAttribute('data-place') !== 'float'; });
+  if (bar && 'IntersectionObserver' in window) {
+    var onScreen = new Set(), past = false;
+    var bio = new IntersectionObserver(function (es) {
+      es.forEach(function (en) {
+        if (en.isIntersecting) onScreen.add(en.target); else onScreen.delete(en.target);
+        if (!en.isIntersecting && en.boundingClientRect.bottom < 0) past = true;
+      });
+      if (document.documentElement.classList.contains('qf-sent')) { bar.hidden = true; return; }
+      if (bar.classList.contains('open')) return;
+      bar.hidden = onScreen.size > 0 || (!past && window.scrollY < 300);
+    });
+    inPage.forEach(function (f) { bio.observe(f); });
+    window.addEventListener('scroll', function () {
+      if (document.documentElement.classList.contains('qf-sent') || bar.classList.contains('open')) return;
+      if (onScreen.size === 0 && window.scrollY >= 300) bar.hidden = false;
+    }, { passive: true });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') bar.classList.remove('open'); });
+  }
 })();

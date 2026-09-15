@@ -64,7 +64,7 @@
     var body = dlg.querySelector('.hk-dlg-body'), cap = dlg.querySelector('.hk-dlg-top p'), img = document.createElement('img');
     img.alt = body.getAttribute('data-alt') || ''; img.decoding = 'async';   // 주소 없는 img 를 HTML 에 두지 않는다 — 열 때 만든다
     body.appendChild(img);
-    box.querySelectorAll('.hk-doc').forEach(function (b) {
+    document.querySelectorAll('.hk-doc').forEach(function (b) {   // 09-15 본문 끝 카드의 확인서 그림(.cta-doc)도 같은 창으로
       b.addEventListener('click', function () {
         img.src = b.getAttribute('data-img');
         cap.textContent = b.getAttribute('data-label') || '';
@@ -76,19 +76,10 @@
     dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
     dlg.addEventListener('close', function () { document.documentElement.classList.remove('lf-open'); });
   } else {
-    box.querySelectorAll('.hk-doc').forEach(function (b) { b.addEventListener('click', function () { window.open(b.getAttribute('data-img'), '_blank', 'noopener'); }); });
+    document.querySelectorAll('.hk-doc').forEach(function (b) { b.addEventListener('click', function () { window.open(b.getAttribute('data-img'), '_blank', 'noopener'); }); });
   }
 
-  /* 떠 있는 버튼은 같은 말의 버튼(첫 화면·본문 끝·바닥 카드)이 화면에 보일 때 숨긴다 — 휴대폰에서 받기 한 줄을 가리던 것(09-14 캡처) */
-  var fab = document.querySelector('.fab');
-  if (fab && 'IntersectionObserver' in window) {
-    var onScreen = new Set();
-    var fio = new IntersectionObserver(function (es) {
-      es.forEach(function (en) { if (en.isIntersecting) onScreen.add(en.target); else onScreen.delete(en.target); });
-      fab.classList.toggle('fab-off', onScreen.size > 0);
-    });
-    document.querySelectorAll('.hk-cta, .ar-go, .cta-go').forEach(function (el) { fio.observe(el); });
-  }
+  /* 09-15 떠 있는 버튼(.fab)은 화면 아래 신청 띠(.qbar · leadform.js)로 바뀌었다 */
 
   /* ④ 지금 시세 */
   var live = box.querySelector('[data-live]');

@@ -688,3 +688,94 @@ html.lf-open{overflow:hidden}
 .argue .ar-fine{margin-top:.7rem;font-size:.72rem;color:var(--mute)}
 .sec .argue{max-width:52rem}
 @media(max-width:44rem){.argue{padding:1.2rem 1.05rem 1.05rem}.argue .ar-go a{width:100%;white-space:normal;text-align:center}}
+
+/* ══ 페이지에 펼친 번호 칸 (★2026-09-15 CTA 통합 구성 · partials/cta/qform.html · assets/js/leadform.js) ══════════════
+   첫 화면(.qf-hook) · 본문 끝(.qf-bottom) · 화면 아래 띠(.qbar .qf-float) — 버튼 대신 칸을 바로 펼친다(광고주 랜딩 5곳 중 4곳).
+   ⛔글자 크기 16px 아래로 내리지 않는다(아이폰이 입력칸을 누르면 화면을 확대한다). */
+.hk-cta{display:block}
+.hk-cta .hk-ask{margin-bottom:.75rem}
+.qf{position:relative;display:grid;gap:.6rem;margin:0}
+.qf p{margin:0}
+.qf-opts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.5rem}
+.qf-opt{display:grid;gap:.45rem;align-content:start;padding:.6rem .75rem .65rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);transition:border-color .15s,background .15s}
+.qf-opt:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.qf-opt label{display:flex;align-items:center;gap:.5rem;cursor:pointer;user-select:none}
+.qf-opt input{width:20px;height:20px;margin:0;flex:none;accent-color:var(--accent-bg)}
+.qf-ot{font-size:1rem;font-weight:750;letter-spacing:-.02em;color:var(--ink)}
+.qf-sub{font-size:.85rem;line-height:1.5;color:var(--ink2)}
+.qf-pv{display:grid;grid-template-columns:44px minmax(0,1fr);gap:.6rem;align-items:start}
+.qf-pv img{width:44px;height:auto;border-radius:4px;box-shadow:0 1px 3px rgba(0,0,0,.25)}
+.qf-pv-t{font-size:.8rem;font-weight:700;color:var(--ink);line-height:1.35}
+.qf-toc{margin:.2rem 0 0;padding:0;list-style:none;display:grid;gap:.12rem}
+.qf-toc li{margin:0;font-size:.74rem;line-height:1.4;color:var(--mute);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.qf-toc li span{font-weight:650;color:var(--ink2)}
+.qf-toc li.on{color:var(--ink);font-weight:600}
+.qf-toc li.on span{color:var(--accent)}
+.qf-multi{font-size:.75rem;color:var(--mute);margin-top:-.2rem!important}
+.qf-in{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:.5rem}
+.qf input[type=tel],.qf input[type=text]:not(.lf-hp){width:100%;box-sizing:border-box;height:50px;padding:0 .9rem;border:1px solid var(--line);border-radius:12px;
+  background:var(--surface);color:var(--ink);font:inherit;font-size:16px}
+.qf input[type=tel]:focus,.qf input[type=text]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.qf-agree{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.qf-agree label{display:flex;align-items:center;gap:.5rem;font-size:.84rem;font-weight:600;color:var(--ink2);cursor:pointer}
+.qf-agree input{width:18px;height:18px;margin:0;flex:none;accent-color:var(--accent-bg)}
+.qf-terms-btn{flex:none;padding:.2rem .1rem;border:0;background:none;color:var(--mute);font:inherit;font-size:.8rem;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.qf-terms{max-height:9rem;overflow:auto;padding:.6rem .75rem;border:1px solid var(--line2);border-radius:10px;background:var(--surface2);
+  font-size:.78rem;line-height:1.6;color:var(--ink2);white-space:pre-line}
+.qf-go{display:inline-flex;align-items:center;justify-content:center;width:100%;height:52px;border:0;border-radius:12px;background:var(--accent-bg);
+  color:var(--accent-ink);font:inherit;font-size:1.05rem;font-weight:750;cursor:pointer;transition:background .15s}
+.qf-go:hover{background:var(--accent-bg2)}
+.qf-go:disabled{opacity:.6;cursor:progress}
+.qf-status{font-size:.84rem;color:#d4380d;text-align:center}
+.qf-status:empty{display:none}
+.qf-fine{font-size:.72rem;color:var(--mute)}
+.qf-done{display:grid;gap:.45rem;padding:1rem;border:1px solid var(--accent);border-radius:12px;background:var(--accent-soft);text-align:center}
+.qf-done p{margin:0}
+.qf-done-t{font-size:1.1rem;font-weight:750;color:var(--ink)}
+.qf-done-d{font-size:.9rem;color:var(--ink2)}
+.qf-add{justify-self:center;margin-top:.2rem;height:44px;padding:0 1.2rem;border:1px solid var(--accent);border-radius:11px;background:var(--surface);
+  color:var(--accent);font:inherit;font-size:.95rem;font-weight:700;cursor:pointer}
+@media (prefers-color-scheme:dark){.qf-status{color:#ff8a7a}}
+
+/* 본문 끝 카드 — 한 줄 질문·확인서 그림 | 번호 칸 */
+.cta{grid-template-columns:minmax(0,1fr) minmax(0,27rem);align-items:start}
+.cta-proof{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.9rem}
+.cta-doc{display:grid;gap:.3rem;width:8.5rem;padding:.4rem;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-align:left;text-decoration:none!important;cursor:pointer}
+.cta-doc img{display:block;width:100%;height:5.2rem;object-fit:cover;object-position:top;border-radius:6px;background:#fff}
+.cta-doc span{font-size:.72rem;line-height:1.35;color:var(--ink2)}
+.cta-doc b{display:block;font-size:.8rem;color:var(--upt)}
+@media(max-width:52rem){.cta{grid-template-columns:minmax(0,1fr)}}
+
+/* 화면 아래 신청 띠 */
+.qbar{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:.5rem .75rem calc(.5rem + env(safe-area-inset-bottom));
+  background:color-mix(in srgb,var(--surface) 94%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);
+  border-top:1px solid var(--line);box-shadow:0 -10px 30px -12px rgba(0,0,0,.25)}
+.qbar .qf{max-width:44rem;margin:0 auto;gap:.5rem}
+.qbar .qf-more{display:none}
+.qbar.open .qf-more{display:grid;gap:.5rem;max-height:60dvh;overflow:auto;padding:.2rem 0 .1rem}
+.qbar .qf-opt{padding:.5rem .65rem}
+.qbar .qf-line{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:.5rem}
+.qbar .qf-bar-t{font-size:.85rem;font-weight:750;color:var(--ink);white-space:nowrap}
+.qbar input[type=tel]{height:46px}
+.qbar .qf-go{width:auto;height:46px;padding:0 1.25rem}
+.qbar .qf-fine{display:none}
+.qbar.open .qf-fine{display:block}
+.qbar-x{display:none;justify-self:end;width:32px;height:32px;margin-bottom:-.2rem;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--mute);font-size:1.2rem;line-height:1;cursor:pointer}
+.qbar.open .qbar-x{display:block}
+.qf-pvm{display:none}
+@media(max-width:44rem){
+  /* 휴대폰: 첫 화면 = 질문 → 번호 칸 → 공증 기록 → 계단(번호 칸을 첫 화면 안으로 · 광고주 랜딩 번호 칸 396~742px) */
+  .hk{grid-template-areas:"head" "cta" "proof" "steps"}
+  .hk-cta{margin-top:.6rem;padding-top:.65rem}
+  .hk-cta .hk-ask{margin-bottom:.45rem;font-size:.98rem}
+  .qf{gap:.5rem}
+  .qf-multi{margin-top:-.25rem!important}
+  .qf-opts{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.4rem}
+  .qf-opt{padding:.55rem .55rem}
+  .qf-opt label{gap:.4rem}
+  .qf-ot{font-size:.93rem}
+  .qf-opt .qf-pv,.qf-opt .qf-sub{display:none}
+  .qf-pvm{display:grid;gap:.45rem;padding:.6rem .7rem;border:1px dashed var(--line);border-radius:12px}
+  .qbar .qf-bar-t{display:none}
+  .qbar .qf-line{grid-template-columns:minmax(0,1fr) auto}
+}

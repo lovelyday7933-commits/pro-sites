@@ -1,7 +1,7 @@
-{{/* 바닥 카드 (2026-09-14 CTA 개편 — 두 갈래 짧게 다시 · "신청 양식으로 이동합니다" 삭제)
-     ★모든 페이지에서 한 번 나온다(baseof · single · cell · intent). 갈래 ① 제안(주식 = 지금 선별된 종목과 근거 · 코인 = 내 코인 확인하기 · 사용자 09-14 "내 코인 묻기는 말이 어색하고, 내코인 확인하기 정도로")
-       ② 그 페이지 주제를 다루는 책 장(tools/bookmap.py · 글은 codex 가 정한 cta).
-     ⛔옛 판(책 한 권 + "책 신청하기" · 헌법 제16조 "남은 질문 하나와 책 대목")은 약속과 신청 창이 어긋났다(후킹.md §3-1 · 버튼 말 6가지).
+{{/* 바닥 카드 (2026-09-14 CTA 개편 → ★2026-09-15 CTA 통합 구성 §4 ⑤)
+     ★모든 페이지에서 한 번 나온다(baseof · single · cell · intent).
+     09-15: 버튼 두 개(제안·책) 대신 = 한 줄 질문 + 공증 확인서 이미지(그 사이트 기록) + **번호 칸을 한 번 더 펼친 폼**(partials/cta/qform.html)
+       근거 = 광고주 랜딩(올브릿지)이 같은 폼을 페이지에 3번 반복 · 우리 기록 버튼만으로 누름 0(`CTA_통합구성_정본_20260915.md` §1).
      ⛔조건절("…싶다면")로 늘리지 마라(사용자 09-10 "사람이 쓰는 말이 아니야").
      ⛔class "cta" 는 track.js 가 "바닥 카드 봄"을 세는 자리다 — 바꾸지 마라. data-nofp = lastmod 지문에서 뺀다. */}}
 {{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
@@ -11,13 +11,17 @@
   <div class="cta-t">
     <p class="bq">{{ partial "cta/pick.html" (dict "list" $c.bottom.q "seed" (print $x.seed "|bottom") "slots" $x.slots) }}</p>
     <p class="note">{{ $c.bottom.sub }}</p>
+    {{- with site.Data.proof }}
+    <div class="cta-proof">
+      {{- range .records }}
+      <button type="button" class="hk-doc cta-doc" data-img="{{ .img | relURL }}" data-label="{{ .label }}">
+        <img src="{{ .img | relURL }}" alt="{{ $c.proof.kicker }} — {{ .label }}" loading="lazy" decoding="async">
+        <span>{{ .label }}<b>{{ $c.proof.total_label }} {{ lang.FormatNumber 2 .total }}%</b></span>
+      </button>
+      {{- end }}
+    </div>
+    {{- end }}
   </div>
-  <div class="cta-go">
-    <a class="go" href="{{ partial "ctahref.html" (dict "page" . "place" "bottom" "campaign" $c.offer.form_option) }}"{{ if $x.coin }} data-coin="{{ $x.name }}"{{ end }} target="_blank" rel="noopener nofollow">{{ $c.offer.button }}</a>
-    {{- with $x.book }}{{ if .book }}
-    <a class="go go-book" href="{{ partial "ctahref.html" (dict "page" $ "place" "bottom" "campaign" .form) }}" target="_blank" rel="noopener nofollow">『{{ .book }}』{{ with .ch }} {{ . }}{{ end }}</a>
-    {{- end }}{{ end }}
-  </div>
-  <p class="fine">{{ $c.disclaimer }}</p>
+  {{ partial "cta/qform.html" (dict "page" . "x" $x "place" "bottom") }}
 </aside>
 {{- end }}

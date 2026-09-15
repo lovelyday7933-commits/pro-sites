@@ -49,10 +49,10 @@
         {{- end }}
       </ol>
       {{- end }}
+      {{- /* ★09-15 통합 구성 — 버튼 대신 번호 칸을 바로 펼친다(우리 기록: 버튼만으로 검색 방문 25 · 누름 0 / 광고주 랜딩 5곳 중 4곳 첫 화면 폼) */}}
       <div class="hk-cta">
         <p class="hk-ask">{{ $x.ask }}</p>
-        <a class="hk-go" href="{{ partial "ctahref.html" (dict "page" . "place" "hook" "campaign" $c.offer.form_option) }}"{{ if $x.coin }} data-coin="{{ $x.name }}"{{ end }} target="_blank" rel="noopener nofollow">{{ $c.offer.button }}</a>
-        <p class="hk-fine">{{ $c.disclaimer }}</p>
+        {{ partial "cta/qform.html" (dict "page" . "x" $x "place" "hook") }}
       </div>
     </div>
   </div>
