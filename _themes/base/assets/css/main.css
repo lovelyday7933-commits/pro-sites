@@ -147,7 +147,7 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 }
 
 /* ── 섹션 — 상자를 없애고 선과 여백으로 나눈다 ────────────── */
-.page{padding:.5rem 0 1rem}
+.page{padding-block:.5rem 1rem}
 .sec{margin:0;padding:3rem 0 0}
 .sec+.sec{margin-top:3rem;border-top:1px solid var(--line2)}
 .sec-h{display:grid;grid-template-columns:minmax(0,1fr);gap:.35rem;margin:0 0 1.4rem}
@@ -557,6 +557,11 @@ html.lf-open{overflow:hidden}
 .ic-grid{stroke:var(--line2);stroke-width:1}
 .ic-zero{stroke:var(--line);stroke-width:1.2}
 .ic-ax{fill:var(--mute);font-size:11px;font-family:var(--font)}
+/* 가격 눈금(x=60 끝 맞춤 · tools/intent.py svg_line) — 왼쪽 칸 60 에 코인 11자리가 안 들어가 PC·휴대폰 모두 앞자리가 잘렸다(09-15 "45,000")
+   → 그래프 왼쪽 안쪽, 눈금선 바로 위에 얹는다(맨 위 줄 y=22 은 선 아래). 선과 겹치는 곳은 바탕색 테두리로 읽히게 */
+.ic-ax[x="60"][text-anchor="end"]{text-anchor:start;transform:translate(-54px,-9px);paint-order:stroke;stroke:var(--surface);stroke-width:4px;stroke-linejoin:round}
+.ic-ax[x="60"][text-anchor="end"][y="22.0"]{transform:translate(-54px,14px)}
+@media(max-width:44rem){.ic-ax[x="60"][text-anchor="end"][y="22.0"]{transform:translate(-54px,19px)}}
 .ic-val{fill:var(--ink2);font-size:11px;font-weight:600;font-family:var(--font)}
 .ic-line{fill:none;stroke:var(--ink2);stroke-width:1.6;stroke-linejoin:round}
 .ic-dot{fill:var(--accent);opacity:.75}
