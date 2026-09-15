@@ -32,6 +32,24 @@
     return d.slice(0, 3) + '-' + d.slice(3, 7) + '-' + d.slice(7);
   }
   var norm = function (s) { return String(s || '').replace(/제\s*(\d)/g, '$1').replace(/[^0-9a-z가-힣]/gi, '').replace(/권$/, '').toLowerCase(); };
+  /* ★09-15 단순 신청 창(관리 워커 정의 form.simple = {book:'무료 책 받기', talk:'무료 1:1 상담'}) — 사용자 "책 받기 상담받기 두개로 줄이고 번호 입력 이름입력 심플하게"
+     누른 버튼의 약속(utm_campaign)이 책 이름이면 "무료 책 받기", 그 밖(상담·옛 제안 이름·없음)이면 "무료 1:1 상담"을 미리 체크한다.
+     책 이름은 창에 늘어놓지 않는다 — 누른 책 버튼의 책, 아니면 이 페이지의 첫 책 버튼의 책을 book 으로 보낸다(텔레그램·proreport 저장 답에만). */
+  var OLD_OFFERS = ['지금 선별된 종목과 근거', '내 코인 확인하기'];
+  function campOf(href) {
+    try { return decodeURIComponent((/[?&]utm_campaign=([^&]+)/.exec(href) || [])[1] || '').replace(/-/g, ' '); } catch (e) { return ''; }
+  }
+  function isTalk(camp, S) {
+    return !camp || norm(camp) === norm(S.talk) || OLD_OFFERS.some(function (x) { return norm(x) === norm(camp); });
+  }
+  function isBookName(camp, S) { return !!camp && !isTalk(camp, S) && norm(camp) !== norm(S.book); }
+  function pageBook(link, S) {
+    var c = campOf(link.href);
+    if (isBookName(c, S)) return c;
+    var all = document.querySelectorAll('a[href*="proreport.co.kr/f/"]');
+    for (var i = 0; i < all.length; i++) { var x = campOf(all[i].href); if (isBookName(x, S)) return x; }
+    return '';
+  }
 
   function beacon(path, obj) {
     var body = JSON.stringify(obj);
@@ -58,8 +76,8 @@
     var f = def.form, answers = {}, touched = false, answered = {};
     var qs = (f.questions || []).filter(function (q) { return q.type !== 'statement' || q.title; });
     /* 누른 버튼의 약속 = utm_campaign(제안 선택지 또는 책 이름 · ctahref.html) → 첫 선택 칸 미리 체크 */
-    var book = '';
-    try { book = decodeURIComponent((/[?&]utm_campaign=([^&]+)/.exec(link.href) || [])[1] || '').replace(/-/g, ' '); } catch (e) {}
+    var book = campOf(link.href), S = f.simple || null;
+    var want = S ? (cur.talk ? S.talk : S.book) : '';
     var coinName = link.getAttribute('data-coin') || '';   // 코인 페이지에서 누르면 "들고 있거나 보는 코인" 칸에 그 코인을 미리 적는다(고칠 수 있다)
 
     var form = el('form', { class: 'lf-form', novalidate: '' });
@@ -91,7 +109,7 @@
         answers[q.id] = q.type === 'choice' ? '' : [];
         (q.options || []).forEach(function (o, oi) {
           var inp = el('input', { type: q.type === 'choice' ? 'radio' : 'checkbox', name: id, id: id + '-' + oi, value: o.label });
-          if (book && norm(o.label) === norm(book)) { inp.checked = true; }
+          if (S ? o.label === want : (book && norm(o.label) === norm(book))) { inp.checked = true; }
           var lab = el('label', { class: 'lf-opt', for: id + '-' + oi }, [inp, el('span', { text: o.label })]);
           inp.addEventListener('change', function () {
             if (q.type === 'choice') answers[q.id] = inp.value;
@@ -164,7 +182,7 @@
       fetch('/admin/lead', {
         method: 'POST', credentials: 'omit', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pv: cur.pv, slug: cur.slug, fsid: cur.fsid, place: cur.place, p: location.pathname, t: document.title.slice(0, 140),
-          utm: cur.utm, answers: clean, dur: Math.round((Date.now() - cur.t0) / 1000), hp: hp.value })
+          utm: cur.utm, answers: clean, dur: Math.round((Date.now() - cur.t0) / 1000), hp: hp.value, book: cur.book || '' })
       }).then(function (r) { return r.json(); }).then(function (j) {
         if (!j || !j.ok) throw new Error((j && j.error) || 'fail');
         cur.done = true;
@@ -230,14 +248,23 @@
       defs[slug] = def;
       if (cur !== mine) return;
       var title = String((def.form.intro && def.form.intro.title) || def.form.title || '신청').replace(/\s*\n\s*/g, ' '), eyebrow = def.form.eyebrow || '';
-      /* 책 버튼으로 열면 제목도 그 책으로(09-14 회의론자 심사: 『주식의 기본기』 제6장을 눌렀는데 "선별 종목 받아 보기"가 떴다)
-         제안 선택지 = 사이트 정의의 첫 선택지(o_site0 · 관리 워커 LOCAL_DEFS) · 그 밖의 campaign = 책 이름 */
-      var q0 = def.form.questions.filter(function (q) { return q.type === 'multi_choice'; })[0];
-      var offer = q0 && q0.options && q0.options[0] && q0.options[0].id === 'o_site0' ? q0.options[0].label : '';
       var bookText = (link.textContent || '').replace(/\s+/g, ' ').trim();
-      if (offer && utm.campaign && String(utm.campaign).replace(/-/g, ' ') !== offer && bookText.indexOf('『') === 0) {
-        title = bookText.indexOf('무료') < 0 ? bookText + ' 무료로 받기' : bookText;
+      var S = def.form.simple;
+      if (S) {
+        /* 09-15 단순 신청 창 — 상담 버튼이면 제목 "무료 1:1 상담", 책 버튼이면 그 책(『…』 무료로 받기) */
+        cur.talk = isTalk(campOf(link.href), S);
+        cur.book = pageBook(link, S);
+        title = cur.talk ? S.talk : (bookText.indexOf('『') === 0 ? (bookText.indexOf('무료') < 0 ? bookText + ' 무료로 받기' : bookText) : S.book);
         eyebrow = '';
+      } else {
+        /* 책 버튼으로 열면 제목도 그 책으로(09-14 회의론자 심사: 『주식의 기본기』 제6장을 눌렀는데 "선별 종목 받아 보기"가 떴다)
+           제안 선택지 = 사이트 정의의 첫 선택지(o_site0 · 관리 워커 LOCAL_DEFS) · 그 밖의 campaign = 책 이름 */
+        var q0 = def.form.questions.filter(function (q) { return q.type === 'multi_choice'; })[0];
+        var offer = q0 && q0.options && q0.options[0] && q0.options[0].id === 'o_site0' ? q0.options[0].label : '';
+        if (offer && utm.campaign && String(utm.campaign).replace(/-/g, ' ') !== offer && bookText.indexOf('『') === 0) {
+          title = bookText.indexOf('무료') < 0 ? bookText + ' 무료로 받기' : bookText;
+          eyebrow = '';
+        }
       }
       d.querySelector('#lf-title').textContent = title;
       d.querySelector('.lf-eyebrow').textContent = eyebrow;
