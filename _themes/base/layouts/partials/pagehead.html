@@ -12,7 +12,8 @@
         {{- $n := len . }}
         {{- range $i, $c := . }}
           {{- if gt $i 0 }}<span aria-hidden="true">/</span>{{ end }}
-          {{- if and $c.url (lt (add $i 1) $n) }}<a href="{{ $c.url }}">{{ $c.label }}</a>{{ else }}<span aria-current="page">{{ $c.label }}</span>{{ end }}
+          {{- /* 09-15 밤 링크 검사: 업종 이름의 쉼표·세미콜론·가운뎃점이 링크에 남아 404(주식 33곳) — Hugo 가 폴더 주소를 만들 때 빼는 글자를 링크에서도 뺀다(주소는 그대로) */}}
+          {{- if and $c.url (lt (add $i 1) $n) }}<a href="{{ replaceRE `[,;·()"'“”‘’]` "" $c.url }}">{{ $c.label }}</a>{{ else }}<span aria-current="page">{{ $c.label }}</span>{{ end }}
         {{- end }}
       </nav>
       {{- end }}

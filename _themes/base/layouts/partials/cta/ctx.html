@@ -145,7 +145,7 @@
 {{- range $steps }}{{ if ne .v "?" }}{{ $nnum = add $nnum 1 }}{{ end }}{{ end }}
 {{- if lt $nnum 2 }}{{ $steps = slice }}{{ end }}
 
-{{- $live := "" }}{{ if $code }}{{ $live = printf "%s:%s" (cond $coin "coin" (cond (eq site.Params.site "us") (cond (in (slice "fut" "tech") $kind) "usf" "us") "stock")) $code }}{{ end }}{{/* us = prostockus.kr 해외주식(관리 워커 /admin/q 가 네이버 해외 시세를 중계 · 달러) */}}
+{{- $live := "" }}{{ if $code }}{{ $live = printf "%s:%s" (cond $coin "coin" (cond (and (eq site.Params.site "us") (ne $p.Params.market "kr")) (cond (in (slice "fut" "tech") $kind) "usf" "us") "stock")) $code }}{{ end }}{{/* 09-15 밤 market "kr" = 해외 사이트 /국내상장etf/(원화 · 관리 워커가 국내 시세로 중계) */}}{{/* us = prostockus.kr 해외주식(관리 워커 /admin/q 가 네이버 해외 시세를 중계 · 달러) */}}
 {{- $ask := partial "cta/pick.html" (dict "list" $c.offer.ask "seed" (print $seed "|ask") "slots" $slots) }}
 {{- return dict "kind" $kind "akind" $akind "br" $br "slots" $slots "steps" $steps "q" $q "ask" $ask "live" $live "code" $code "name" $name
     "close" $close "asof" $asof "book" $book "states" $states "seed" $seed "coin" $coin }}

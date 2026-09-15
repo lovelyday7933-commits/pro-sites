@@ -96,10 +96,20 @@ summaryLength = 40
     url = "/etf/"
     weight = 20
   [[menus.main]]
+    identifier = "국내상장etf"
+    name = "국내상장 ETF"
+    url = "/국내상장etf/"
+    weight = 25
+  [[menus.main]]
     identifier = "해외선물"
     name = "해외선물"
     url = "/해외선물/"
     weight = 30
+  [[menus.main]]
+    identifier = "트레이딩뷰"
+    name = "트레이딩뷰"
+    url = "/트레이딩뷰/"
+    weight = 35
   [[menus.main]]
     identifier = "posts"
     name = "글"

@@ -116,6 +116,11 @@ summaryLength = 40
     url = "/신호/"
     weight = 20
   [[menus.main]]
+    identifier = "자동매매"
+    name = "자동매매"
+    url = "/자동매매/"
+    weight = 25
+  [[menus.main]]
     identifier = "posts"
     name = "글"
     url = "/posts/"
