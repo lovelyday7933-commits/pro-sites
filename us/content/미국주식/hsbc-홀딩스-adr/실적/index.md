@@ -1,0 +1,42 @@
+---
+title: "HSBC 홀딩스 ADR 실적, 2025년 매출 979억 달러 · 순이익 211억 달러 — 이익이 늘던 해 주가도 올랐을까"
+description: "HSBC 홀딩스 ADR 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다(2026.09.14 기준)."
+date: "2026-09-14"
+layout: "intent"
+code: "HSBC.K"
+name: "HSBC 홀딩스 ADR"
+intent: "실적"
+chip: "HSBC · 뉴욕증권거래소 · 은행 · 기준일 2026.09.14"
+utm_source: "hsbc-홀딩스-adr-실적"
+cta: {"book": "미국주식 이 책으로 끝낸다"}
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/미국주식/", "label": "미국주식"}, {"url": "/미국주식/업종/은행/", "label": "은행"}, {"url": "/미국주식/hsbc-홀딩스-adr/", "label": "HSBC 홀딩스 ADR"}, {"label": "실적"}]
+siblings: [{"url": "/미국주식/hsbc-홀딩스-adr/", "label": "HSBC 홀딩스 ADR 주가"}, {"url": "/미국주식/hsbc-홀딩스-adr/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/미국주식/hsbc-홀딩스-adr/배당금/", "label": "배당금", "cur": false}, {"url": "/미국주식/hsbc-홀딩스-adr/실적/", "label": "실적", "cur": true}]
+---
+
+HSBC 홀딩스 ADR의 가장 최근 연간 실적(2025년)은 매출 979억 달러, 영업이익 502억 달러, 순이익 211억 달러다. 매출은 한 해 전보다 9.9% 줄었다.
+
+## HSBC 홀딩스 ADR 연간 실적과 그해 주가
+
+| 회계연도 | 매출 | 영업이익 | 순이익 | PER | 그해 주가 |
+|---|---|---|---|---|---|
+| 2023년 | 1,009억 달러 | 495억 달러 | 224억 달러 | 9.7배 | +30.1% |
+| 2024년 | 1,086억 달러 | 508억 달러 | 229억 달러 | 13.4배 | +22.0% |
+| 2025년 | 979억 달러 | 502억 달러 | 211억 달러 | 13.1배 | +59.1% |
+
+순이익이 한 해 전보다 늘어난 해는 2번 중 1번이었고, 그중 그해 주가도 오른 해는 1번이었다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="HSBC 홀딩스 ADR 연간 매출(억 달러)"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023</text><rect class="ic-bar" x="107.1" y="44.3" width="104.5" height="211.7" rx="3"/><text class="ic-val" x="159.3" y="38.3" text-anchor="middle">1,009</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024</text><rect class="ic-bar" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">1,086</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025</text><rect class="ic-bar" x="480.4" y="50.6" width="104.5" height="205.4" rx="3"/><text class="ic-val" x="532.7" y="44.6" text-anchor="middle">979</text></svg><figcaption>HSBC 홀딩스 ADR 연간 매출(억 달러).</figcaption></figure>
+
+## HSBC 홀딩스 ADR 최근 분기 실적
+
+| 분기 말 | 매출 | 영업이익 | 순이익 |
+|---|---|---|---|
+| 2026.06 | 391억 달러 | 103억 달러 | 77억 달러 |
+| 2026.03 | 89억 달러 | 106억 달러 | 69억 달러 |
+| 2025.12 | 401억 달러 | 86억 달러 | 47억 달러 |
+| 2025.09 | 88억 달러 | 91억 달러 | 49억 달러 |
+| 2025.06 | 407억 달러 | 81억 달러 | 46억 달러 |
+
+가장 최근 분기(2026.06 말) 매출은 1년 전 같은 분기보다 3.9% 줄었다.
+
+실적은 네이버 증권 공개 자료(2026년 9월 15일 받음 · 회사 회계연도 기준), 주가 등락은 일봉 종가로 쟀다.

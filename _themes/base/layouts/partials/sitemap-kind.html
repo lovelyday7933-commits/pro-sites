@@ -5,6 +5,10 @@
 {{- $k := "etc" -}}
 {{- if eq .Section "posts" -}}
   {{- $k = "posts" -}}
+{{- else if eq .Section "해외선물" -}}
+  {{- $k = "futures" -}}{{/* prostockus.kr 해외선물 섹션(2026-09-15) */}}
+{{- else if in (slice "etf" "국내상장etf") .Section -}}
+  {{- $k = "etf" -}}
 {{- else if .Params.intent -}}
   {{- $k = index (dict "배당금" "dividend" "실적" "earnings" "주가 전망" "outlook" "전망" "outlook" "목표주가" "target" "최고가" "high") .Params.intent | default "etc" -}}
 {{- else if in (slice "stock" "ihub") .Layout -}}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="주식">
+  <!-- 16px 에서도 읽히도록 획을 굵게. 이모지·그라데이션 없음(메모리 규칙: AI티 금지). -->
+  <rect width="32" height="32" rx="7" fill="#12161c"/>
+  <g fill="#e8edf4">
+    <rect x="7"  y="17" width="4" height="8"/>
+    <rect x="14" y="12" width="4" height="13"/>
+    <rect x="21" y="7"  width="4" height="18"/>
+  </g>
+</svg>

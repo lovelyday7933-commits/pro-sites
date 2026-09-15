@@ -22,7 +22,7 @@
   {{- end }}
   {{- $pv = dict "cover" .cover "w" .w "h" .h "lines" $lines }}
 {{- end }}
-{{- $sub := cond (ne $x.name "") (printf "%s, 전문가 의견 받기" $x.name) "전문가 의견 받기" }}
+{{- $sub := `<span class="nw">전문가 의견 받기</span>` }}{{ with $x.name }}{{ $sub = printf `%s, <span class="nw">전문가 의견 받기</span>` (htmlEscape .) }}{{ end }}{{/* 이름 없는 페이지(nil)에 "%!s(<nil>)" 가 찍혔다(09-15 해외선물 첫 화면) */}}
 <form class="qf qf-{{ $place }}" data-place="{{ $place }}" data-slug="{{ $slug }}" data-href="{{ $href }}"{{ with $bform }} data-book="{{ . }}"{{ end }}{{ with $x.name }} data-subject="{{ . }}"{{ end }} novalidate data-nofp>
   {{- if eq $place "float" }}
   <div class="qf-more">
@@ -42,7 +42,7 @@
     </div>
     <div class="qf-opt">
       <label><input type="checkbox" name="o" value="무료 1:1 상담" checked><span class="qf-ot">무료 1:1 상담</span></label>
-      {{- if ne $place "float" }}<p class="qf-sub">{{ $sub }}</p>{{ end }}
+      {{- if ne $place "float" }}<p class="qf-sub">{{ $sub | safeHTML }}</p>{{ end }}
     </div>
   </div>
   <p class="qf-multi">중복 선택 가능</p>
@@ -55,7 +55,7 @@
   </div>
   {{- end }}
   <div class="qf-agree">
-    <label><input type="checkbox" name="agree"><span>안내사항과 개인정보 수집·이용에 동의합니다</span></label>
+    <label><input type="checkbox" name="agree"><span>안내사항과 개인정보 <span class="nw">수집·이용에</span> 동의합니다</span></label>
     <button type="button" class="qf-terms-btn" aria-expanded="false">보기</button>
   </div>
   <div class="qf-terms" hidden></div>
@@ -79,7 +79,7 @@
       </div>
     </div>
     {{- end }}
-    <p class="qf-sub">무료 1:1 상담 · {{ $sub }}</p>
+    <p class="qf-sub">무료 1:1 상담 · {{ $sub | safeHTML }}</p>
   </div>
   {{- end }}
   <p class="qf-status" role="status"></p>

@@ -297,7 +297,7 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 .body figure,.body p>img{margin:2.2rem 0}
 .body img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
 .body figcaption{margin-top:.6rem;font-size:.8125rem;line-height:1.6;color:var(--mute)}
-@media(min-width:62rem){.body figure{width:calc(100% + 8rem);margin-left:-4rem}}
+@media(min-width:62rem){.article .body figure{width:calc(100% + 8rem);margin-left:-4rem}}   /* ⛔09-15 .article(읽기 폭) 안에서만 넓힌다 — 허브(ihub)는 .site 폭이라 16px 가로 넘침(PC 1280)이 났다 */
 /* 표 — 렌더 훅(_markup/render-table.html)이 .tw 로 감싸고 +/− 칸에 up/dn 을 단다 */
 .body .tw{margin:1.8rem 0;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
 .body table{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.6}
@@ -783,4 +783,24 @@ html.lf-open{overflow:hidden}
   .qf-pvm{display:grid;gap:.45rem;padding:.6rem .7rem;border:1px dashed var(--line);border-radius:12px}
   .qbar .qf-bar-t{display:none}
   .qbar .qf-line{grid-template-columns:minmax(0,1fr) auto}
+}
+
+/* ══ 휴대폰 줄바꿈 다듬기 (09-15 사용자 캡처 "무료로 줄바꿈 받기 시각적으로 예쁘지가 않음 · 모바일 환경에서 이런게 더 있는지 자세히 확인") ══
+   원칙 = 한두 낱말만 다음 줄로 떨어지지 않게 — 제목·질문·짧은 줄은 balance · 본문 문단은 pretty · 버튼은 두 줄을 처음부터 설계로 받는다 */
+h1,h2,h3,.hk-ask,.cards li>a,.lead,.qf-agree label>span,.state,.ar-hide,.ar-crit li,.links a span,.sibs a{text-wrap:balance}
+/* .qf-sub 는 balance 를 쓰지 않는다 — 이름 가운데서 꺾였다("크루드오일/선물") · "전문가 의견 받기" 한 덩어리(.nw)만 통째로 다음 줄로 */
+.body p,.txt p,.faq dd{text-wrap:pretty}
+.nw{white-space:nowrap}
+.argue .ar-book{height:auto;min-height:46px;padding:.55rem 1.1rem;line-height:1.35;white-space:normal;text-align:center}
+.argue .ar-book .ar-bk-t{font-weight:600}
+@media(max-width:44rem){
+  .argue .ar-book{flex-direction:column;gap:.12rem}
+  .argue .ar-book .ar-bk-t{font-size:.8rem;color:var(--ink2)}
+}
+/* 계단 라벨 — 4칸이면 좁은 휴대폰에서 2×2("살펴본/기간"처럼 낱말마다 꺾였다) · 3칸은 글자를 조금 줄이고 balance("평소보다 나은/건") */
+@media(max-width:26rem){
+  .hk-steps span{text-wrap:balance;font-size:.66rem}
+  .hk-steps:has(li:nth-child(4)){display:grid;grid-template-columns:1fr 1fr}
+  .hk-steps:has(li:nth-child(4)) li+li::before{display:none}
+  .hk-steps:has(li:nth-child(4)) span{white-space:nowrap;font-size:.7rem}
 }

@@ -1,0 +1,111 @@
+# 사용자 구매 2026-09-14 밤("해외주식, 해외선물 관련해서 디비를 많이 뽑을 수 있도록 도메인을 신규 구매했어 prostockus.kr").
+# 한 도메인 = 해외주식(본체 · /미국주식/ · /etf/ · /국내상장etf/ — Hugo 가 주소를 소문자로 굽는다) + 해외선물(섹션 /해외선물/ — 나중에 떼어 내기 쉽게 한 갈래에 둔다).
+# canonical 은 절대 URL 자기참조여야 한다(SEO 기준).
+baseURL = "https://prostockus.kr/"
+languageCode = "ko-kr"
+defaultContentLanguage = "ko"
+# ⚠️임시 이름(주식·코인 "프로 주식·프로 코인" 규칙 · 사용자 09-10 "이건 나중에 바꿔도 되잖아"). 바꿀 때 여기 한 곳만 고친다.
+title = "프로 해외주식"
+themesDir = "../_themes"
+theme = "base"
+
+enableGitInfo = false          # ⛔true 로 두면 Actions 에서 fetch-depth:0 이 필요해진다(비용 조항 3번)
+enableRobotsTXT = true
+buildFuture = false            # publishDate 가 미래면 빌드에서 뺀다 = 예약 발행의 근거
+summaryLength = 40
+
+[pagination]
+  pagerSize = 12
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+[params]
+  # 네이버 서치어드바이저 소유확인 — 등록 뒤 받은 값을 넣는다(⛔지우면 확인이 풀린다)
+  naverVerification = ""
+  site = "us"
+  headline = "미국주식·ETF·해외선물 실측"
+  tagline = "미국주식·ETF·해외선물 실측"
+  # ⛔09-15 "나스닥·오일·골드 해외선물" 같은 붙여 쓴 나열 금지(사용자 "나스닥 오일 자리가 대체 무슨 표현이야") · 방어 문장("~하는 사이트가 아닙니다") 금지
+  description = "엔비디아·애플·테슬라 주가와 배당금, S&P500 ETF와 나스닥100 ETF, 나스닥 선물과 원유 선물, 금 선물까지 지나간 기록을 숫자로 모았습니다. 지금과 닮았던 때 뒤에는 어땠는지, 매매 신호 뒤에는 어땠는지 같은 기준으로 보여 드립니다."
+  # 신청 창 — 주식 양식에 사이트 전용 정의(관리 워커 LOCAL_DEFS)를 덮어 쓴다(⛔proreport 관리 화면 작업을 사용자에게 넘기지 않는다).
+  ctaURL = "https://proreport.co.kr/f/wvptb0wl"
+
+[params.home]
+  quick = ["NVDA.O", "AAPL.O", "TSLA.O", "MSFT.O", "SPY", "QQQ.O"]
+
+[outputFormats.search]
+  mediaType = "application/json"
+  baseName = "search"
+  isPlainText = true
+  notAlternative = true
+
+# 사이트맵 = 목차(sitemap.xml) + 종류별 파일(서치콘솔·서치어드바이저에서 종류마다 색인 비율을 본다)
+[outputFormats.smhubs]
+  mediaType = "application/xml"
+  baseName = "sitemap-hubs"
+  notAlternative = true
+[outputFormats.smoutlook]
+  mediaType = "application/xml"
+  baseName = "sitemap-outlook"
+  notAlternative = true
+[outputFormats.smdividend]
+  mediaType = "application/xml"
+  baseName = "sitemap-dividend"
+  notAlternative = true
+[outputFormats.smearnings]
+  mediaType = "application/xml"
+  baseName = "sitemap-earnings"
+  notAlternative = true
+[outputFormats.smetf]
+  mediaType = "application/xml"
+  baseName = "sitemap-etf"
+  notAlternative = true
+[outputFormats.smfutures]
+  mediaType = "application/xml"
+  baseName = "sitemap-futures"
+  notAlternative = true
+[outputFormats.smposts]
+  mediaType = "application/xml"
+  baseName = "sitemap-posts"
+  notAlternative = true
+[outputFormats.smetc]
+  mediaType = "application/xml"
+  baseName = "sitemap-etc"
+  notAlternative = true
+
+[outputs]
+  home = ["html", "rss", "search", "smhubs", "smoutlook", "smdividend", "smearnings", "smetf", "smfutures", "smposts", "smetc"]
+  section = ["html"]
+  taxonomy = ["html"]
+  term = ["html"]
+
+[menus]
+  [[menus.main]]
+    identifier = "미국주식"
+    name = "미국주식"
+    url = "/미국주식/"
+    weight = 10
+  [[menus.main]]
+    identifier = "etf"
+    name = "ETF"
+    url = "/etf/"
+    weight = 20
+  [[menus.main]]
+    identifier = "해외선물"
+    name = "해외선물"
+    url = "/해외선물/"
+    weight = 30
+  [[menus.main]]
+    identifier = "posts"
+    name = "글"
+    url = "/posts/"
+    weight = 40
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

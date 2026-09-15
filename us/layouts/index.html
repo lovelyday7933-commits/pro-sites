@@ -1,0 +1,70 @@
+{{/* prostockus.kr 홈 (2026-09-15) — 틀의 홈은 격자(grid.json) 점그림이라 해외 사이트는 여기서 덮는다.
+     홈 → 미국주식(업종 → 종목 → 주가 전망·배당금·실적) / 미국 ETF(→ 배당금) / 해외선물(→ 상품 → 매매 기법) — 고아 없음.
+     ⛔숫자는 전부 tools/us_pages.py 가 구운 자료(us_search.json)에서 · 여기서 만들어 내지 않는다. */}}
+{{ define "main" }}
+{{- $S := site.Data.us_search | default slice }}
+{{- $stocks := where $S "u" "like" "^/미국주식/" }}
+{{- $etfs := where $S "u" "like" "^/etf/" }}
+<section class="hero">
+  <div class="site">
+    <p class="eyebrow">미국주식 {{ len $stocks }}개 · 미국 ETF {{ len $etfs }}개 · 해외선물</p>
+    <div class="hero-g">
+      <div>
+        <h1>{{ site.Params.headline | default site.Title }}</h1>
+        {{- with site.Params.description }}<p class="lead">{{ . }}</p>{{ end }}
+      </div>
+      <div class="hero-find">
+        <div class="quick"><span>바로 보기</span>
+          {{- range site.Params.home.quick }}{{ $c := . }}{{ range where $S "c" $c }}<a href="{{ .u }}">{{ .n }}</a>{{ end }}{{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{- partial "cta/hook.html" . }}
+
+<div class="site page">
+  <section class="sec">
+    <div class="sec-h"><h2>미국주식 시가총액 상위</h2><p>종목마다 주가·주가 전망·배당금·실적 페이지가 있습니다.</p></div>
+    <ul class="links">
+      {{- range first 24 $stocks }}<li><a href="{{ .u }}"><span>{{ .n }} 주가</span><span class="v">{{ .x }}</span></a></li>{{ end }}
+    </ul>
+    <p style="margin:1.2rem 0 0"><a class="btn btn-ghost" href="/미국주식/">미국주식 전체 · 업종별로 보기</a></p>
+  </section>
+
+  <section class="sec">
+    <div class="sec-h"><h2>미국 ETF 거래대금 상위</h2><p>S&amp;P500·나스닥100·배당 ETF의 주가와 배당금을 모았습니다.</p></div>
+    <ul class="links">
+      {{- range first 18 $etfs }}<li><a href="{{ .u }}"><span>{{ .n }} 주가</span><span class="v">{{ .x }}</span></a></li>{{ end }}
+    </ul>
+    <p style="margin:1.2rem 0 0"><a class="btn btn-ghost" href="/etf/">미국 ETF 전체 보기</a></p>
+  </section>
+
+  {{- with site.GetPage "/해외선물" }}
+  <section class="sec">
+    <div class="sec-h"><h2>해외선물</h2><p>{{ .Description }}</p></div>
+    <ul class="links">
+      {{- range first 12 .Sections }}<li><a href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a></li>{{ end }}
+    </ul>
+    <p style="margin:1.2rem 0 0"><a class="btn btn-ghost" href="{{ .RelPermalink }}">해외선물 전체 보기</a></p>
+  </section>
+  {{- end }}
+
+  {{- $posts := where site.RegularPages "Section" "posts" }}
+  {{- with $posts }}
+  <section class="sec">
+    <div class="sec-h"><h2>최근 글</h2></div>
+    <ul class="cards">
+      {{- range first 6 . }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p>{{ .Description | default .Summary | plainify | truncate 110 }}</p>
+        <span class="meta">{{ .PublishDate.Format "2006.01.02" }}</span>
+      </li>
+      {{- end }}
+    </ul>
+  </section>
+  {{- end }}
+  {{- partial "cta/argue.html" . }}
+</div>
+{{ end }}

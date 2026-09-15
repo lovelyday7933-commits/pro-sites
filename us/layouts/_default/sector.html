@@ -1,0 +1,28 @@
+{{/* prostockus.kr — /미국주식/업종/<업종>/ · /etf/ 목록(tools/us_pages.py · 2026-09-15). 틀의 sector.html 은 KRX·/업종/ 문구라 여기서 덮는다. */}}
+{{ define "main" }}
+{{- $etf := eq .Section "etf" }}
+{{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" (printf "%s %d개 · %s" (cond $etf "ETF" "종목") (len .Params.stocks) (cond $etf "거래대금 순" "시가총액 순")) "title" .Title "lead" .Description) }}
+{{- partial "cta/hook.html" . }}
+<div class="site page">
+  <section class="sec">
+    <div class="tw">
+      <table class="dt sector">
+        <thead><tr><th>{{ cond $etf "티커" "종목" }}</th><th>{{ cond $etf "이름" "티커" }}</th>{{ if not $etf }}<th>시가총액</th>{{ end }}<th>더 보기</th></tr></thead>
+        <tbody>
+          {{- range .Params.stocks }}
+          <tr>
+            <td><a href="{{ .url }}">{{ .name }}</a></td>
+            <td class="lk">{{ .market }}</td>
+            {{- if not $etf }}<td>{{ .cap }}</td>{{ end }}
+            <td class="lk">{{ range $i, $l := .links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.label }}</a>{{ end }}</td>
+          </tr>
+          {{- end }}
+        </tbody>
+      </table>
+    </div>
+    <p class="note">{{ cond $etf "거래대금 순서는 네이버 증권 해외 ETF 공개 자료 기준입니다." "시가총액·업종은 네이버 증권 해외주식 공개 자료 기준입니다(원화 환산)." }}</p>
+  </section>
+  <p><a class="btn btn-ghost" href="{{ cond $etf "/미국주식/" "/미국주식/업종/" }}">{{ cond $etf "미국주식 보기" "다른 업종 보기" }}</a></p>
+  {{- partial "cta/argue.html" . }}
+</div>
+{{ end }}

@@ -24,7 +24,11 @@
   <div class="ar-go">
     <a class="ar-offer" href="{{ partial "ctahref.html" (dict "page" . "place" "argue" "campaign" $c.offer.form_option) }}"{{ if $x.coin }} data-coin="{{ $x.name }}"{{ end }} target="_blank" rel="noopener nofollow">{{ $c.argue.go_offer }}</a>
     {{- with $x.book }}{{ if .book }}
-    <a class="ar-book" href="{{ partial "ctahref.html" (dict "page" $ "place" "argue" "campaign" .form) }}" target="_blank" rel="noopener nofollow">{{ replace (replace $c.argue.go_book "{book}" .book) (cond (ne .ch "") "{chapter}" " {chapter}") .ch }}</a>
+    {{- $gb := replace $c.argue.go_book (cond (ne .ch "") "{chapter}" " {chapter}") .ch }}
+    {{- /* ★09-15 휴대폰에서 "『책』 제N장 무료로 받기"가 한 줄에 안 들어가 "받기"만 꺾이고 버튼 높이를 넘쳤다(사용자 캡처) → 책 이름 줄 · 받기 줄 두 줄로 설계 */}}
+    <a class="ar-book" href="{{ partial "ctahref.html" (dict "page" $ "place" "argue" "campaign" .form) }}" target="_blank" rel="noopener nofollow">
+      {{- if hasPrefix $gb "『{book}』" }}<span class="ar-bk-t">『{{ .book }}』</span> <span class="ar-bk-g">{{ trim (strings.TrimPrefix "『{book}』" $gb) " " }}</span>{{ else }}{{ replace $gb "{book}" .book }}{{ end -}}
+    </a>
     {{- end }}{{ end }}
   </div>
   <p class="ar-fine">{{ $c.disclaimer }}</p>

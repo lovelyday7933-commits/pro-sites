@@ -86,6 +86,8 @@
   if (!live || bot || !window.fetch) return;
   var parts = live.getAttribute('data-live').split(':'), kind = parts[0], code = parts[1];
   function won(v) {
+    if (kind === 'usf') return v.toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });   /* 해외선물 — 포인트·배럴당 달러 등 단위가 상품마다 달라 숫자만 */
+    if (kind === 'us') return (v >= 1 ? v.toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : String(+v.toFixed(4))) + '달러';   /* prostockus.kr */
     if (v >= 100) return Math.round(v).toLocaleString('ko-KR') + '원';
     if (v >= 1) return v.toLocaleString('ko-KR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '원';
     return String(+v.toFixed(6)) + '원';
@@ -134,7 +136,9 @@
       get('/admin/q?c=' + encodeURIComponent(code)).then(function (j) {
         if (!j || !j.ok) return;
         var at = (j.at || '').slice(11, 16);
-        paint(j.p, j.r, (j.s === 'open' ? '지금 ' : '마지막 체결 ') + (at || hm()));
+        /* 해외 = 체결 시각이 뉴욕 시간이라 그대로 적지 않는다(한국 시간으로 읽힌다) */
+        if (kind === 'us' || kind === 'usf') paint(j.p, j.r, j.s === 'open' ? '지금 ' + hm() : '미국 장 마지막 체결가');
+        else paint(j.p, j.r, (j.s === 'open' ? '지금 ' : '마지막 체결 ') + (at || hm()));
       }).catch(function () {});
     }
   }

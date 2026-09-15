@@ -75,11 +75,12 @@
 
 {{- else if eq $L "intent" }}
   {{- $code = $p.Params.code }}{{ $name = $p.Params.name }}{{ $ik := $p.Params.intent }}
-  {{- $kind = index $IK $ik | default "other" }}{{ $akind = $kind }}
+  {{- $kind = $p.Params.cta_kind | default (index $IK $ik | default "other") }}{{ $akind = $kind }}{{/* cta_kind 앞머리(⛔kind 는 Hugo 예약어) = prostockus.kr 해외선물 매매법 칸(tech) 등 — 없으면 검색어 이름으로 */}}
   {{- $slots = merge $slots (dict "name" $name) }}
   {{- with index $bm.kind $kind }}{{ $book = . }}{{ end }}
-  {{- with $bm.big4 }}{{ with index . $code }}{{ with index . $kind }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
-  {{- $h := dict }}{{ with site.Data.hooks }}{{ with index . $code }}{{ with index . $ik }}{{ $h = . }}{{ end }}{{ end }}{{ end }}
+  {{- with and $code $bm.big4 }}{{ with index . $code }}{{ with index . $kind }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
+  {{- with $p.Params.cta_book }}{{ $book = . }}{{ end }}{{/* prostockus.kr — 페이지마다 책 장(해외선물 매매법 = 17권 그 기법 장 · ETF = 8권) · tools/us_pages.py · us_futures.py */}}
+  {{- $h := dict }}{{ with and $code site.Data.hooks }}{{ with index . $code }}{{ with index . $ik }}{{ $h = . }}{{ end }}{{ end }}{{ end }}{{/* 코드 없는 칸(해외선물 트레이더 글) */}}
   {{- $slots = merge $slots $h }}
   {{- $br = $h.br | default "" }}{{ $close = $h.close | default "" }}{{ $asof = $h.asof | default "" }}
   {{- $a := index $A $kind }}
@@ -94,17 +95,21 @@
     {{- else }}{{ $kind = "other" }}{{ end }}
   {{- else if eq $kind "target" }}
     {{- if $br }}{{ $states = $states | append (dict "at" "목표주가와 최근 1년 주가" "text" (partial "cta/pick.html" (dict "list" (index $a.state_range $br) "seed" (print $seed "|sg") "slots" $slots))) }}{{ end }}
+  {{- else if eq $kind "tech" }}{{/* prostockus.kr 해외선물 매매법 칸(tools/us_futures.py) — 절 제목 "<상품> <대표 신호> 뒤 20거래일"(한 페이지 신호 여럿 — 대표 신호 절에만 붙게 신호 이름으로 찾는다) · "가장 나빴던 때" */}}
+    {{- if $br }}{{ $states = $states | append (dict "at" (print (index $slots "signal") " 뒤") "text" (partial "cta/pick.html" (dict "list" (index $a.state_edge $br) "seed" (print $seed "|se") "slots" $slots))) }}{{ end }}
+    {{- $states = $states | append (dict "at" "가장 나빴던 때" "text" (partial "cta/pick.html" (dict "list" $a.state_worst "seed" (print $seed "|sw") "slots" $slots))) }}
   {{- else if eq $kind "high" }}
     {{- if $br }}{{ $states = $states | append (dict "at" "되찾은" "text" (partial "cta/pick.html" (dict "list" (index $a.state_recs $br) "seed" (print $seed "|sc") "slots" $slots))) }}{{ end }}
   {{- end }}
 
 {{- else if eq $L "ihub" }}
   {{- $code = $p.Params.code }}{{ $name = $p.Params.name }}
-  {{- $kind = "ihub" }}{{ $akind = "ihub" }}
+  {{- $kind = $p.Params.cta_kind | default "ihub" }}{{ $akind = $kind }}{{/* prostockus.kr = etfhub · fut · fhome · techhub · trader */}}
   {{- $slots = merge $slots (dict "name" $name) }}
-  {{- $book = index $bm.kind "ihub" }}
-  {{- with $bm.big4 }}{{ with index . $code }}{{ with .ihub }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
-  {{- with site.Data.hooks }}{{ with index . $code }}{{ with .ihub }}{{ $slots = merge $slots . }}{{ $close = .close }}{{ $asof = .asof }}{{ end }}{{ end }}{{ end }}
+  {{- $book = index $bm.kind $kind | default (index $bm.kind "ihub") }}
+  {{- with and $code $bm.big4 }}{{ with index . $code }}{{ with .ihub }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
+  {{- with $p.Params.cta_book }}{{ $book = . }}{{ end }}
+  {{- with and $code site.Data.hooks }}{{ with index . $code }}{{ with index . (cond (eq $kind "etfhub") "ihub" $kind) }}{{ $slots = merge $slots . }}{{ $close = .close }}{{ $asof = .asof }}{{ $br = .br | default "" }}{{ end }}{{ end }}{{ end }}
 
 {{- else if in (slice "sector" "sectors") $L }}
   {{- $kind = "sector" }}{{ $akind = "sector" }}{{ $book = index $bm.kind "sector" | default $book }}
@@ -140,7 +145,7 @@
 {{- range $steps }}{{ if ne .v "?" }}{{ $nnum = add $nnum 1 }}{{ end }}{{ end }}
 {{- if lt $nnum 2 }}{{ $steps = slice }}{{ end }}
 
-{{- $live := "" }}{{ if $code }}{{ $live = printf "%s:%s" (cond $coin "coin" "stock") $code }}{{ end }}
+{{- $live := "" }}{{ if $code }}{{ $live = printf "%s:%s" (cond $coin "coin" (cond (eq site.Params.site "us") (cond (in (slice "fut" "tech") $kind) "usf" "us") "stock")) $code }}{{ end }}{{/* us = prostockus.kr 해외주식(관리 워커 /admin/q 가 네이버 해외 시세를 중계 · 달러) */}}
 {{- $ask := partial "cta/pick.html" (dict "list" $c.offer.ask "seed" (print $seed "|ask") "slots" $slots) }}
 {{- return dict "kind" $kind "akind" $akind "br" $br "slots" $slots "steps" $steps "q" $q "ask" $ask "live" $live "code" $code "name" $name
     "close" $close "asof" $asof "book" $book "states" $states "seed" $seed "coin" $coin }}

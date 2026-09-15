@@ -1,0 +1,42 @@
+---
+title: "Nuveen AMT-Free Municipal Credit Income Fund 실적, 2025년 10월 결산 매출 2.3억 달러 · 순이익 5,703만 달러 — 이익이 늘던 해 주가도 올랐을까"
+description: "Nuveen AMT-Free Municipal Credit Income Fund 연간 매출·영업이익·순이익 3년과 최근 분기를 표로 모으고, 그해 주가 등락과 나란히 놓았다(2026.09.14 기준)."
+date: "2026-09-14"
+layout: "intent"
+code: "NVG"
+name: "Nuveen AMT-Free Municipal Credit Income Fund"
+intent: "실적"
+chip: "NVG · 뉴욕증권거래소 · 폐쇄형 펀드 · 기준일 2026.09.14"
+utm_source: "nuveen-amt-free-municipal-credit-income-fund-실적"
+cta: {"book": "미국주식 이 책으로 끝낸다"}
+crumbs: [{"url": "/", "label": "홈"}, {"url": "/미국주식/", "label": "미국주식"}, {"url": "/미국주식/업종/폐쇄형-펀드/", "label": "폐쇄형 펀드"}, {"url": "/미국주식/nuveen-amt-free-municipal-credit-income-fund/", "label": "Nuveen AMT-Free Municipal Credit Income Fund"}, {"label": "실적"}]
+siblings: [{"url": "/미국주식/nuveen-amt-free-municipal-credit-income-fund/", "label": "Nuveen AMT-Free Municipal Credit Income Fund 주가"}, {"url": "/미국주식/nuveen-amt-free-municipal-credit-income-fund/주가-전망/", "label": "주가 전망", "cur": false}, {"url": "/미국주식/nuveen-amt-free-municipal-credit-income-fund/배당금/", "label": "배당금", "cur": false}, {"url": "/미국주식/nuveen-amt-free-municipal-credit-income-fund/실적/", "label": "실적", "cur": true}]
+---
+
+Nuveen AMT-Free Municipal Credit Income Fund의 가장 최근 연간 실적(2025년 10월 결산)은 매출 2.3억 달러, 영업이익 1.2억 달러, 순이익 5,703만 달러다. 매출은 한 해 전보다 1.0% 줄었다.
+
+## Nuveen AMT-Free Municipal Credit Income Fund 연간 실적과 그해 주가
+
+| 회계연도 | 매출 | 영업이익 | 순이익 | PER | 그해 주가 |
+|---|---|---|---|---|---|
+| 2023년 10월 결산 | 2.2억 달러 | 1.1억 달러 | 2,729만 달러 | 97.7배 | -2.6% |
+| 2024년 10월 결산 | 2.3억 달러 | 1.1억 달러 | 5.6억 달러 | 4.9배 | +3.7% |
+| 2025년 10월 결산 | 2.3억 달러 | 1.2억 달러 | 5,703만 달러 | 43.5배 | +3.3% |
+
+순이익이 한 해 전보다 늘어난 해는 2번 중 1번이었고, 그중 그해 주가도 오른 해는 1번이었다.
+
+<figure class="ichart"><svg class="ic" viewBox="0 0 640 290" role="img" aria-label="Nuveen AMT-Free Municipal Credit Income Fund 연간 매출(억 달러)"><line class="ic-zero" x1="66" x2="626" y1="256.0" y2="256.0"/><text class="ic-ax" x="159.3" y="282" text-anchor="middle">2023</text><rect class="ic-bar" x="107.1" y="32.9" width="104.5" height="223.1" rx="3"/><text class="ic-val" x="159.3" y="26.9" text-anchor="middle">2</text><text class="ic-ax" x="346.0" y="282" text-anchor="middle">2024</text><rect class="ic-bar" x="293.7" y="28.0" width="104.5" height="228.0" rx="3"/><text class="ic-val" x="346.0" y="22.0" text-anchor="middle">2</text><text class="ic-ax" x="532.7" y="282" text-anchor="middle">2025</text><rect class="ic-bar" x="480.4" y="30.2" width="104.5" height="225.8" rx="3"/><text class="ic-val" x="532.7" y="24.2" text-anchor="middle">2</text></svg><figcaption>Nuveen AMT-Free Municipal Credit Income Fund 연간 매출(억 달러).</figcaption></figure>
+
+## Nuveen AMT-Free Municipal Credit Income Fund 최근 분기 실적
+
+| 분기 말 | 매출 | 영업이익 | 순이익 |
+|---|---|---|---|
+| 2026.04 | 1.1억 달러 | 6,365만 달러 | 3,582만 달러 |
+| 2025.10 | 1.1억 달러 | 6,438만 달러 | 1.6억 달러 |
+| 2025.04 | 1.1억 달러 | 6,026만 달러 | -9,862만 달러 |
+| 2024.10 | 1.1억 달러 | 5,658만 달러 | 1.4억 달러 |
+| 2024.04 | 1.1억 달러 | 5,453만 달러 | 4.1억 달러 |
+
+가장 최근 분기(2026.04 말) 매출은 1년 전 같은 분기보다 2.3% 줄었다.
+
+실적은 네이버 증권 공개 자료(2026년 9월 15일 받음 · 회사 회계연도 기준), 주가 등락은 일봉 종가로 쟀다.

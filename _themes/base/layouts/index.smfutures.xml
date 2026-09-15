@@ -1,0 +1,5 @@
+{{- /* 사이트맵 종류 파일 (2026-09-14) — 목차 = layouts/sitemap.xml · 주소 목록 = partials/sitemap-urls.html · 종류 판정 = partials/sitemap-kind.html */ -}}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{{- partial "sitemap-urls.html" "futures" }}
+</urlset>
