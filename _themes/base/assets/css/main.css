@@ -302,6 +302,11 @@ form.find-h input:focus,.hero-find input:focus{outline:none;border-color:var(--a
 .body .tw{margin:1.8rem 0;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
 .body table{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.6}
 .body>table{display:block;overflow-x:auto}
+/* 코드 예시(09-15 밤 트레이딩뷰·자동매매 안내 — 웹훅 JSON 한 줄이 휴대폰에서 19px 가로 넘침) — 블록 안에서만 가로로 민다 */
+.body pre{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1.2rem 0;padding:.85rem 1rem;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface2);font-size:.82rem;line-height:1.6}
+.body pre code{white-space:pre;font-size:inherit;background:none;padding:0}
+.body :not(pre)>code{overflow-wrap:anywhere}
 .body th{padding:.65rem .9rem;text-align:left;white-space:nowrap;font-size:.75rem;font-weight:600;color:var(--mute);
   border-bottom:1px solid var(--line)}
 .body td{padding:.65rem .9rem;white-space:nowrap;border-bottom:1px solid var(--line2)}
