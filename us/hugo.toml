@@ -26,7 +26,7 @@ summaryLength = 40
 
 [params]
   # 네이버 서치어드바이저 소유확인 — 등록 뒤 받은 값을 넣는다(⛔지우면 확인이 풀린다)
-  naverVerification = ""
+  naverVerification = "c7d87b7444b12de3b7dd790bbce40871c6e28737"
   site = "us"
   headline = "미국주식·ETF·해외선물 실측"
   tagline = "미국주식·ETF·해외선물 실측"
