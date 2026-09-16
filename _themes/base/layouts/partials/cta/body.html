@@ -11,6 +11,21 @@
 {{- $argued := false }}
 {{- $ar := "" }}
 {{- if .argue }}{{ $ar = string (partial "cta/argue.html" $p) }}{{ end }}
+{{- /* ★09-16 배당 계산 칸 — 본문에 이미 있는 "가장 최근 연간 주당배당금 6,500원"을 그대로 읽어 쓴다(본문과 다른 숫자가 나올 수 없다).
+       자리 = "연도별 배당" 섹션 끝(사람들이 거기까지 읽고 나간다 — 09-16 실측 스크롤 44~91%) · 바로 아래 번호 칸.
+       ⛔여기서 새로 계산해 만든 값은 없다 · ⛔계산 칸이 없는 페이지(값 없음)는 아무것도 붙지 않는다. */}}
+{{- $calc := "" }}
+{{- if eq $p.Params.intent "배당금" }}
+  {{- $m := findRE `연간 주당배당금은 [0-9,]+원` (string .content) 1 }}
+  {{- with $m }}
+    {{- $dps := int (replaceRE `[^0-9]` "" (index . 0)) }}
+    {{- if gt $dps 0 }}
+      {{- $calc = printf "%s%s" (string (partial "cta/calc.html" (dict "page" $p "x" $x "dps" $dps)))
+                                (string (partial "cta/qform.html" (dict "page" $p "x" $x "place" "calc"))) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $calced := false }}
 {{- range $part := after 1 $parts }}
   {{- $head := index (split $part "</h2>") 0 }}
   {{- $out = printf "%s<h2%s" $out $part }}
@@ -20,6 +35,8 @@
       {{- if and .argue $ar (not $argued) }}{{ $out = printf "%s%s" $out $ar }}{{ $argued = true }}{{ end }}
     {{- end }}
   {{- end }}
+  {{- if and $calc (not $calced) (in $head "연도별 배당") }}{{ $out = printf "%s%s" $out $calc }}{{ $calced = true }}{{ end }}
 {{- end }}
+{{- if and $calc (not $calced) }}{{ $out = printf "%s%s" $out $calc }}{{ $calced = true }}{{ end }}
 {{- if and $ar (not $argued) }}{{ $out = printf "%s%s" $out $ar }}{{ $argued = true }}{{ end }}
 {{- return dict "html" ($out | safeHTML) "argued" $argued }}

@@ -56,5 +56,10 @@
   {{- $lf := resources.Get "js/leadform.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $lf.RelPermalink }}" defer></script>
   {{- end }}
+  {{- /* ★2026-09-16 배당 계산 칸 — 계산 칸이 있는 페이지에서만 받는다. leadform.js 뒤(폼의 __st 에 상담 대상을 붙인다). */}}
+  {{- if eq .Params.intent "배당금" }}
+  {{- $cl := resources.Get "js/calc.js" | resources.Minify | resources.Fingerprint }}
+  <script src="{{ $cl.RelPermalink }}" defer></script>
+  {{- end }}
 </body>
 </html>

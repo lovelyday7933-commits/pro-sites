@@ -114,6 +114,10 @@
       var ath = st.querySelector('li[data-slot="ath"]'), below = st.querySelector('li[data-slot="below"]');
       if (ath && below && num(ath) > 0) pct(below, (p / num(ath) - 1) * 100);
     }
+    /* ★09-16 배당 계산 칸(calc.js)이 같은 시세를 쓴다 — 계산 칸이 시세를 따로 부르면 한 화면에 다른 값이 뜬다.
+       ⛔일봉 종가는 쓰지 않는다(사용자 09-14) — 시세가 안 오면 계산 칸은 사는 데 드는 돈을 '—'로 둔다. */
+    window.__ptPrice = { p: p, label: label, at: Date.now() };
+    try { document.dispatchEvent(new CustomEvent('pt:price', { detail: window.__ptPrice })); } catch (e) {}
   }
   function hm() { var d = new Date(); return ('0' + d.getHours()).slice(-2) + ':' + ('0' + d.getMinutes()).slice(-2); }
   function get(u) {

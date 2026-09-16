@@ -1,0 +1,34 @@
+{{/* 배당 계산 칸 — "이 종목으로 월 ○○만원 받으려면 몇 주" (2026-09-16 · CTA 통합 구성 정본 §5 마지막 줄 "결과 바로 아래 번호 칸")
+     인자 dict: page · x(cta/ctx.html) · dps(연간 주당배당금 · 원)
+     ★왜 여기냐(09-16 실측): CTA 개편 뒤 방문 24 중 번호 칸을 본 방문 19 · 손댐 0. 노출이 아니라 "왜 번호를 남기나"가 비어 있다.
+       계산 칸은 방문자가 넣은 값(목표 월 배당)이 그대로 상담 이유가 된다 — 새 주소를 만들지 않으니 파일·빌드 한도도 안 건드린다.
+     ★값의 출처 = 본문에 이미 있는 "가장 최근 연간 주당배당금"(tools/intent.py) — 본문과 다른 숫자가 나오면 안 된다.
+     ⛔일봉 종가로 계산하지 않는다(사용자 09-14 "매일 갱신할 수 없어서 하지 말라") — 사는 데 드는 돈은 **지금 시세**(hook.js)가 와야 채운다.
+     ⛔위험·손실·주의 문구 0(사용자 09-15) · 회사·방·플랫폼 이름 0 · data-nofp = lastmod 지문 밖. */}}
+{{- $p := .page }}{{ $x := .x }}{{ $dps := .dps }}
+{{- $name := $p.Params.name | default "이 종목" }}
+{{- if gt $dps 0 }}
+<section class="calc" data-nofp data-dps="{{ $dps }}" data-name="{{ $name }}" aria-labelledby="calc-h">
+  <h3 id="calc-h">{{ $name }}로 다달이 받으려면 몇 주가 필요할까</h3>
+  <p class="calc-base">{{ $name }}의 가장 최근 연간 주당배당금 <b>{{ lang.FormatNumber 0 $dps }}원</b>으로 계산한다.</p>
+  <div class="calc-in">
+    <label for="calc-goal">다달이 받고 싶은 배당</label>
+    <div class="calc-row">
+      <input id="calc-goal" class="calc-goal" type="text" inputmode="numeric" autocomplete="off" value="30" maxlength="6" aria-describedby="calc-out">
+      <span class="calc-unit">만원</span>
+    </div>
+    <div class="calc-chips" role="group" aria-label="빠른 선택">
+      <button type="button" data-v="10">10만원</button>
+      <button type="button" data-v="30">30만원</button>
+      <button type="button" data-v="50">50만원</button>
+      <button type="button" data-v="100">100만원</button>
+    </div>
+  </div>
+  <dl class="calc-out" id="calc-out" aria-live="polite">
+    <div><dt>필요한 주식 수</dt><dd class="calc-sh">—</dd></div>
+    <div><dt>사는 데 드는 돈</dt><dd class="calc-won">—</dd></div>
+    <div><dt>한 해 받는 배당</dt><dd class="calc-yr">—</dd></div>
+  </dl>
+  <p class="calc-note calc-live">지금 시세를 불러오는 중이다.</p>
+</section>
+{{- end }}

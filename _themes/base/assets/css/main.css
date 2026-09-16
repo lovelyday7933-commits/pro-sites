@@ -820,3 +820,36 @@ h1,h2,h3,.hk-ask,.cards li>a,.lead,.qf-agree label>span,.state,.ar-hide,.ar-crit
   .hk-steps:has(li:nth-child(4)) li+li::before{display:none}
   .hk-steps:has(li:nth-child(4)) span{white-space:nowrap;font-size:.7rem}
 }
+
+/* ══ 배당 계산 칸 (2026-09-16 · "이 종목으로 다달이 ○○만원 받으려면 몇 주") ══
+   왜: 09-16 실측 — 번호 칸을 본 방문 19 / 손댐 0. 방문자가 넣은 값이 상담 이유가 되게 한다(결과 바로 아래 번호 칸).
+   ⛔붙는 자리 = "연도별 배당" 표 뒤 · 아래에 form.qf[data-place=calc] 가 이어 붙는다(qf 스타일 그대로). */
+.calc{margin:1.75rem 0 0;padding:1.15rem 1.2rem 1.25rem;border:1px solid var(--line);border-radius:var(--r);
+  background:var(--surface);box-shadow:var(--shadow)}
+.calc h3{margin:0 0 .35rem;font-size:1.0625rem;font-weight:650;letter-spacing:-.015em}
+.calc-base{margin:0 0 1rem;font-size:.875rem;color:var(--ink2)}
+.calc-base b{font-weight:650;color:var(--ink)}
+.calc-in label{display:block;margin:0 0 .45rem;font-size:.8125rem;font-weight:550;color:var(--ink2)}
+.calc-row{display:flex;align-items:center;gap:.55rem}
+.calc-goal{flex:0 1 8.5rem;min-width:0;height:52px;padding:0 .85rem;border:1px solid var(--line);border-radius:10px;
+  background:var(--bg);color:var(--ink);font:650 1.375rem/1 var(--font);letter-spacing:-.02em;text-align:right}
+.calc-goal:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+.calc-unit{font-size:1rem;font-weight:550;color:var(--ink2)}
+.calc-chips{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0 0}
+.calc-chips button{height:34px;padding:0 .7rem;border:1px solid var(--line);border-radius:999px;background:transparent;
+  color:var(--ink2);font:550 .8125rem/1 var(--font);cursor:pointer}
+.calc-chips button:hover{border-color:color-mix(in srgb,var(--ink) 30%,transparent);color:var(--ink)}
+.calc-out{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;margin:1.1rem 0 0;
+  border:1px solid var(--line);border-radius:10px;background:var(--line);overflow:hidden}
+.calc-out>div{padding:.8rem .85rem;background:var(--bg)}
+.calc-out dt{margin:0 0 .3rem;font-size:.75rem;font-weight:550;color:var(--mute)}
+.calc-out dd{margin:0;font-size:1.0625rem;font-weight:650;letter-spacing:-.02em;color:var(--ink);font-variant-numeric:tabular-nums}
+.calc-out>div:first-child dd{color:var(--accent)}
+.calc-note{margin:.7rem 0 0;font-size:.78125rem;color:var(--mute)}
+.calc+form.qf{margin-top:.9rem}
+@media(max-width:30rem){
+  .calc{padding:1rem 1rem 1.1rem}
+  .calc-out{grid-template-columns:1fr;gap:1px}
+  .calc-out>div{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem}
+  .calc-out dt{margin:0}
+}

@@ -23,13 +23,18 @@
   {{- $pv = dict "cover" .cover "w" .w "h" .h "lines" $lines }}
 {{- end }}
 {{- $sub := `<span class="nw">전문가 의견 받기</span>` }}{{ with $x.name }}{{ $sub = printf `%s, <span class="nw">전문가 의견 받기</span>` (htmlEscape .) }}{{ end }}{{/* 이름 없는 페이지(nil)에 "%!s(<nil>)" 가 찍혔다(09-15 해외선물 첫 화면) */}}
+{{- /* ★09-16 배당 계산 칸 아래(place=calc) — CTA 정본 §5 "결과 바로 아래 번호 칸: 이 결과로 무료 1:1 상담".
+     넣은 값(다달이 얼마 · 몇 주)은 calc.js 가 data-subject 로 붙인다(칸을 늘리지 않는다). */}}
+{{- if eq $place "calc" }}{{ $sub = `이 결과로 <span class="nw">전문가 의견 받기</span>` }}{{ end }}
 <form class="qf qf-{{ $place }}" data-place="{{ $place }}" data-slug="{{ $slug }}" data-href="{{ $href }}"{{ with $bform }} data-book="{{ . }}"{{ end }}{{ with $x.name }} data-subject="{{ . }}"{{ end }} novalidate data-nofp>
   {{- if eq $place "float" }}
   <div class="qf-more">
   {{- end }}
   {{- /* ★09-15 밤 사용자 "모바일에서도 책 표지가 더 확실하게 보여야 … 존나 작게 보여 이게 뭐 주긴 주는거여 싶은 그런 느낌" —
        표지가 선택 칸 안 44px 였다(휴대폰은 버튼 아래 44px). → 선택 칸 위에 책 카드 하나: 큰 표지 · 무료 책 · 제목 · 이 페이지 장이 들어 있는 목차 3줄. 누르면 "무료 책 받기"가 체크된다. */}}
-  {{- if and $pv.cover (ne $place "float") }}
+  {{- /* ★09-16 calc 자리에는 책 카드를 넣지 않는다 — 한 페이지에 같은 책 카드가 세 번(첫 화면·계산 칸·바닥) 나온다.
+       계산 칸 아래의 주인공은 "이 결과로 상담"이다(책은 첫 화면·바닥에서 이미 보여 준다). */}}
+  {{- if and $pv.cover (ne $place "float") (ne $place "calc") }}
   <div class="qf-book">
     <span class="qf-cv"><img src="{{ $pv.cover | relURL }}" width="{{ $pv.w }}" height="{{ $pv.h }}" alt="『{{ $bk }}』 표지" loading="{{ if eq $place "hook" }}eager{{ else }}lazy{{ end }}" decoding="async"></span>
     <div class="qf-bk">

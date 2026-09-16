@@ -38,7 +38,7 @@
     if (!kind) kind = PLACES.test(tail) ? parts.slice(0, -1).join('-') : med;
     return PLACES.test(tail) ? tail : 'bottom';
   }
-  var PLACES = /^(top|float|hook|argue|bottom|foot)$/;
+  var PLACES = /^(top|float|hook|argue|bottom|foot|calc)$/;   /* calc = 09-16 배당 계산 칸 아래 번호 칸 */
 
   var seen = {}, seenMs = 0, clicks = {}, clickMs = 0, clickSc = 0, scrollMax = 0, active = 0, lastAct = t0;
   var vis = document.visibilityState === 'visible', since = t0, acc = 0, sent = 0, lastSent = 0;
