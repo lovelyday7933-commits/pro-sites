@@ -6,7 +6,7 @@
 {{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
 {{- $c := site.Data.copy }}
 {{- $a := index $c.argue $x.akind }}
-{{- if and site.Params.ctaURL $a }}
+{{- if and site.Params.ctaURL $a (not $x.bf) }}{{/* ★09-27 책 먼저 쪽은 본문 논증 없음(홈 index.html 이 직접 부르는 자리 포함) */}}
 {{- $land := partial "cta/pick.html" (dict "list" $a.land "seed" (print $x.seed "|land") "slots" $x.slots) }}
 {{- $bridge := partial "cta/pick.html" (dict "list" $a.bridge "seed" (print $x.seed "|bridge") "slots" $x.slots) }}
 <section class="argue" data-nofp>

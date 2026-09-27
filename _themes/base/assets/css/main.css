@@ -853,3 +853,19 @@ h1,h2,h3,.hk-ask,.cards li>a,.lead,.qf-agree label>span,.state,.ar-hide,.ar-crit
   .calc-out>div{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem}
   .calc-out dt{margin:0}
 }
+
+/* ★09-27 책 먼저(배당금 쪽 · partials/cta/qform.html qf-bfb·qf-open·qf-rest) — 사용자 "그 CTA의 상품은 책이야"
+   첫 화면·바닥 모두 책 칸 하나(표지 | 사용자 문장 + 이 쪽 장) → [무료 책 받기] → 누르면 번호 칸 */
+.hk-bf{max-width:36rem}
+.cta.cta-bf{grid-template-columns:minmax(0,36rem);justify-content:start}
+.qf-bfb{grid-template-columns:8.5rem minmax(0,1fr)}
+.qf-bf-l{margin:0;font-size:1.12rem;font-weight:800;line-height:1.5;letter-spacing:-.03em;color:var(--ink);text-wrap:balance}
+.qf-bf-ch{margin:.1rem 0 0;padding-top:.45rem;border-top:1px solid var(--line);font-size:.86rem;line-height:1.5;color:var(--ink2)}
+.qf-bf-ch .nw{color:var(--accent);font-weight:700}
+.qf-rest{display:grid;gap:.6rem}
+.qf-rest[hidden]{display:none}
+.qf-open[hidden]{display:none}
+@media(max-width:44rem){
+  .qf-bfb{grid-template-columns:7.4rem minmax(0,1fr)}
+  .qf-bf-l{font-size:1rem}
+}

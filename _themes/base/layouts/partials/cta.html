@@ -6,7 +6,12 @@
      ⛔class "cta" 는 track.js 가 "바닥 카드 봄"을 세는 자리다 — 바꾸지 마라. data-nofp = lastmod 지문에서 뺀다. */}}
 {{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
 {{- $c := site.Data.copy }}
-{{- if and site.Params.ctaURL $c }}
+{{- if and site.Params.ctaURL $c $x.bf }}
+{{- /* ★09-27 배당금 쪽 = 책 먼저(ctx.bf) — 질문·확인서 없이 첫 화면과 같은 책 칸 */}}
+<aside class="cta cta-bf" data-nofp>
+  {{ partial "cta/qform.html" (dict "page" . "x" $x "place" "bottom") }}
+</aside>
+{{- else if and site.Params.ctaURL $c }}
 <aside class="cta" data-nofp>
   <div class="cta-t">
     <p class="bq">{{ partial "cta/pick.html" (dict "list" $c.bottom.q "seed" (print $x.seed "|bottom") "slots" $x.slots) }}</p>

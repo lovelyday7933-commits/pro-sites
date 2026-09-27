@@ -9,7 +9,12 @@
 {{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
 {{- $c := site.Data.copy }}
 {{- $pr := site.Data.proof }}
-{{- if and site.Params.ctaURL $c }}
+{{- if and site.Params.ctaURL $c $x.bf }}
+{{- /* ★09-27 배당금 쪽 = 책 먼저(ctx.bf) — 궁금증·공증 기록·계단·받기 한 줄 없이 책 칸 하나. class "hook" 은 track.js 봄 자리라 그대로 */}}
+<section class="hook hook-bf" data-nofp aria-label="무료 책">
+  <div class="site"><div class="hk-bf">{{ partial "cta/qform.html" (dict "page" . "x" $x "place" "hook") }}</div></div>
+</section>
+{{- else if and site.Params.ctaURL $c }}
 <section class="hook" data-nofp aria-label="{{ $c.proof.kicker }}">
   <div class="site">
     <div class="hk">

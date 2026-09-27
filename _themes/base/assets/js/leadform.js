@@ -295,6 +295,21 @@
      · 신청이 끝나면 이 페이지의 다른 번호 칸·아래 띠를 모두 "신청이 끝났습니다"로 바꾼다 · 고르지 않은 쪽은 한 번 눌러 함께 받게 한다(add). */
   var qforms = Array.prototype.slice.call(document.querySelectorAll('form.qf'));
   if (!qforms.length) return;
+  /* ★09-27 책 먼저(qform.html qf-open · 배당금 쪽) — [무료 책 받기]나 책 칸을 누르면 번호 칸을 열고 번호 칸에 커서를 둔다.
+     커서가 들어가면 track.js 의 focusin 이 그 자리 "누름"을 센다(버튼 focus 는 사파리에서 안 잡힌다). */
+  qforms.forEach(function (f) {
+    var ob = f.querySelector('.qf-open'), rest = f.querySelector('.qf-rest');
+    if (!ob || !rest) return;
+    function open() {
+      if (!rest.hidden) return;
+      rest.hidden = false; ob.hidden = true;
+      var t = rest.querySelector('input[type=tel]');
+      if (t) t.focus();
+    }
+    ob.addEventListener('click', open);
+    var card = f.querySelector('.qf-bfb');
+    if (card) card.addEventListener('click', open);
+  });
   var TALK = '무료 1:1 상담', BOOK = '무료 책 받기';
   var qdefs = {}, sentOnce = null;
   function qdef(slug) {
