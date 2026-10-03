@@ -3,7 +3,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
 <title>{{ $title }}</title>
-{{- with (or .Description .Summary site.Params.description) }}
+{{- /* 허브 쪽 앞머리 설명문의 "YYYY.MM.DD 종가 …" 는 멈춘 일봉 값이라 검색 결과에서 묵어 보인다 → hubdesc 로 갈음(2026-10-03) */}}
+{{- $desc := or .Description .Summary site.Params.description }}
+{{- if and (eq .Layout "ihub") (findRE `[0-9]{4}\.[0-9]{2}\.[0-9]{2} 종가` .Description 1) }}{{ $desc = (partial "hubdesc.html" .).desc }}{{ end }}
+{{- with $desc }}
 <meta name="description" content="{{ . | plainify | truncate 155 }}">
 {{- end }}
 {{- /* 네이버 서치어드바이저 소유확인. 값은 사이트마다 다르므로 hugo.toml 의 params 에 둔다.
@@ -32,7 +35,7 @@
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:locale" content="ko_KR">
-{{- with (or .Description .Summary site.Params.description) }}
+{{- with $desc }}
 <meta property="og:description" content="{{ . | plainify | truncate 155 }}">
 {{- end }}
 {{- with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}

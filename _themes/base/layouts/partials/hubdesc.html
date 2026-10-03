@@ -1,0 +1,49 @@
+{{- /* 허브 쪽(layout ihub) 머리말·검색 설명문 — 날짜 박힌 종가 대신 "무엇인가 · 이 쪽에 무엇이 있나 · 무료 책"(2026-10-03)
+     ⛔왜: 일봉은 09-11~15 에서 멈췄다(매일 갱신 안 함 · feedback-144-no-daily-close-columns).
+       앞머리 description 의 "2026.09.11 종가 204,500원" 이 ① 네이버 검색 결과에 그대로 나가고(노출 큰 허브 클릭률 0~0.3% ·
+       엘에스일렉트릭 30일 노출 15,439 · 클릭 0) ② 화면 맨 위 머리말(h1 바로 밑)에도 찍혀 첫 화면이 묵어 보였다.
+     → 안 썩는 것만: 시장·주요 제품(종목) / 티커·거래소(미국) / 펀드 이름(ETF) · 3년 차트 · 이어지는 칸 이름.
+     돌려주는 것 dict
+       lead = 화면 머리말(h1 밑 · 바로 아래가 책 칸이라 책 말은 넣지 않는다)
+       desc = 검색 설명문 = lead + 책 한 줄(쪽 책 칸과 같은 책 · 문장은 bookfirst 의 사용자 문장 그대로 "신청하신 모든 분들께 무료로 보내드립니다.")
+     부르는 곳 = partials/head.html · _default/ihub.html (앞머리 description 에 "YYYY.MM.DD 종가" 가 있는 ihub 만) */ -}}
+{{- $p := .Params -}}
+{{- $sec := .Section -}}
+{{- $chip := split ($p.chip | default "") " · " -}}
+{{- $noun := cond (in (slice "코인" "해외선물") $sec) "시세" "주가" -}}
+{{- /* 괄호 안 = 사람이 검색에 같이 치는 구분. 종목 업종은 " · " 가 들어 있어 쪼갤 수 없으므로 대신 본문의 주요 제품 */ -}}
+{{- $paren := slice -}}
+{{- if eq $sec "종목" -}}
+  {{- $paren = slice (index $chip 1) -}}
+  {{- with findRESubmatch `\(주요 제품: ([^)]+)\)` .RawContent 1 -}}
+    {{- /* 괄호 든 항목은 뺀다 — 본문 "(주요 제품: 유전체 분석 서비스 (NGS, CES 등))" 은 첫 ")" 에서 잘려 반쪽 괄호가 남는다 · 두 개까지(설명문 155자 안에 책 한 줄을 남긴다) */ -}}
+    {{- $pr := slice -}}{{- range split (index (index . 0) 1) "," -}}{{- with trim . " " -}}{{- if not (strings.ContainsAny . "()") -}}{{- $pr = $pr | append . -}}{{- end -}}{{- end -}}{{- end -}}
+    {{- with $pr -}}{{- $paren = $paren | append (printf "주요 제품 %s" (delimit (first 2 .) "·")) -}}{{- end -}}
+  {{- end -}}
+{{- else if eq $sec "미국주식" -}}{{- $paren = slice (index $chip 0) (index $chip 1) -}}
+{{- else if eq $sec "코인" -}}{{- $paren = slice (index $chip 0) -}}
+{{- else if and (eq $sec "etf") (strings.Contains .Title " — ") -}}{{- $paren = slice (index (split .Title " — ") 1) -}}{{- /* 미국 ETF = 제목 끝 펀드 이름(Goldman Sachs Physical Gold ETF) */ -}}
+{{- else if ge (len $chip) 2 -}}{{- $paren = slice (index $chip 1) -}}
+{{- end -}}
+{{- $keep := slice -}}
+{{- range $paren -}}{{- if and . (not (hasPrefix . "기준일")) (ne . $p.name) -}}{{- $keep = $keep | append . -}}{{- end -}}{{- end -}}
+{{- $head := $p.name -}}
+{{- /* 이름이 괄호로 끝나면(RISE 미국반도체인버스(합성 H)) 괄호를 겹치지 않는다 */ -}}
+{{- with $keep -}}{{- if not (hasSuffix $p.name ")") -}}{{- $head = printf "%s(%s)" $p.name (delimit . " · ") -}}{{- end -}}{{- end -}}
+{{- /* 이어지는 칸 — 검색어 그대로(네이버가 굵게 칠한다). 매매법은 묶어서 */ -}}
+{{- $name := dict "목표주가" "증권사 목표주가" "최고가" "역대 최고가" -}}
+{{- $items := slice -}}
+{{- $mm := slice -}}
+{{- range $p.intents -}}
+  {{- if hasSuffix .label "매매법" -}}{{- $mm = $mm | append (strings.TrimSuffix " 매매법" .label) -}}
+  {{- else -}}{{- $items = $items | append (index $name .label | default .label) -}}{{- end -}}
+{{- end -}}
+{{- with $mm -}}{{- $items = $items | append (printf "%s 등 매매법 %d가지" (delimit (first 3 .) "·") (len .)) -}}{{- end -}}
+{{- $lead := "" -}}
+{{- if $items -}}{{- $lead = printf "%s 3년 %s 차트부터 %s까지 한 페이지에 모았습니다." $head $noun (delimit $items "·") -}}
+{{- else -}}{{- $lead = printf "%s 3년 %s 차트를 한 페이지에 모았습니다." $head $noun -}}{{- end -}}
+{{- /* 책 = 이 쪽 책 칸과 같은 짝(cta/ctx.html) — 검색에서 본 책이 들어와서 보는 책과 같아야 한다 */ -}}
+{{- $desc := $lead -}}
+{{- $x := partialCached "cta/ctx.html" . .RelPermalink -}}
+{{- with $x.book -}}{{- with .book -}}{{- $desc = printf "%s 무료 책 『%s』 — 신청하신 모든 분들께 무료로 보내드립니다." $lead . -}}{{- end -}}{{- end -}}
+{{- return (dict "lead" $lead "desc" $desc) -}}
