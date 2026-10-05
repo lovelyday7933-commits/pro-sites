@@ -46,6 +46,8 @@
       <p class="qf-bf-ch">『{{ $bk }}』{{ range $pv.lines }}{{ if .on }} <span class="nw">{{ .ch }} {{ .t }}</span>{{ end }}{{ end }}</p>
     </div>
   </div>
+  {{- /* ★10-05 책 한 쪽 미리 읽기(cta/peek.html · data/bookpeek.json) — 이 쪽 장의 본문 몇 문단 · 자료 없는 장은 지금처럼 책 칸만 */}}
+  {{- with site.Data.bookpeek }}{{ with index . $bk }}{{ with index . $x.book.ch }}{{ partial "cta/peek.html" (dict "pk" . "page" $p "place" $place) }}{{ end }}{{ end }}{{ end }}
   <button type="button" class="qf-go qf-open">{{ $bw.go }}</button>
   <div class="qf-rest" hidden>
   {{- else if and $pv.cover (ne $place "float") (ne $place "calc") }}

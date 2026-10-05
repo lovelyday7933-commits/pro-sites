@@ -309,6 +309,14 @@
     ob.addEventListener('click', open);
     var card = f.querySelector('.qf-bfb');
     if (card) card.addEventListener('click', open);
+    /* ★10-05 책 한 쪽 미리 읽기(cta/peek.html) — 첫 화면은 접어 둔다 → [펼쳐 읽기]나 접힌 쪽을 누르면 편다(번호 칸은 안 연다 · 누름으로 안 센다) */
+    var pk = f.querySelector('.qf-peek.is-fold');
+    if (pk) {
+      var more = pk.querySelector('.qf-pk-more');
+      var unfold = function () { if (!pk.classList.contains('is-fold')) return; pk.classList.remove('is-fold'); if (more) { more.setAttribute('aria-expanded', 'true'); more.click(); } };
+      if (more) more.addEventListener('click', unfold);
+      pk.querySelector('.qf-pk-page').addEventListener('click', unfold);
+    }
   });
   var TALK = '무료 1:1 상담', BOOK = '무료 책 받기';
   var qdefs = {}, sentOnce = null;
@@ -409,7 +417,8 @@
       qfe(st, 'start');
       qdef(st.slug).catch(function () {});   // 미리 불러 둔다(제출이 빨라지게)
     }
-    fm.addEventListener('focusin', function () {
+    fm.addEventListener('focusin', function (e) {
+      if (e.target && e.target.closest && e.target.closest('.qf-peek')) return;   // 10-05 책 한 쪽 미리 읽기(펼쳐 읽기)는 신청 시작이 아니다
       begin();
       if (st.place === 'float') fm.closest('.qbar').classList.add('open');
     });

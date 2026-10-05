@@ -861,11 +861,55 @@ h1,h2,h3,.hk-ask,.cards li>a,.lead,.qf-agree label>span,.state,.ar-hide,.ar-crit
 .qf-bfb{grid-template-columns:8.5rem minmax(0,1fr)}
 .qf-bf-l{margin:0;font-size:1.12rem;font-weight:800;line-height:1.5;letter-spacing:-.03em;color:var(--ink);text-wrap:balance}
 .qf-bf-ch{margin:.1rem 0 0;padding-top:.45rem;border-top:1px solid var(--line);font-size:.86rem;line-height:1.5;color:var(--ink2)}
-.qf-bf-ch .nw{color:var(--accent);font-weight:700}
+.qf-bf-ch .nw{color:var(--accent);font-weight:700;white-space:normal}
+/* 10-05 실측: 긴 장 제목(「제2장 가격과 가치 — 좋은 회사가 곧 …」)이 줄바꿈 금지(.nw)라 칸을 297px 로 밀어 390폭 화면 밖 9~99px
+   (라이브 판에도 있던 넘침 · 표본 277종류 중 28) → 장 제목은 줄을 바꾸고 글 칸은 화면 폭을 넘지 않게 */
+.qf-bfb .qf-bk{grid-template-columns:minmax(0,1fr);min-width:0}
 .qf-rest{display:grid;gap:.6rem}
 .qf-rest[hidden]{display:none}
 .qf-open[hidden]{display:none}
 @media(max-width:44rem){
   .qf-bfb{grid-template-columns:7.4rem minmax(0,1fr)}
   .qf-bf-l{font-size:1rem}
+}
+
+/* ★10-05 책 한 쪽 미리 읽기(partials/cta/peek.html) — 책 칸 아래 · [무료 책 받기] 위. 책 본문 그대로 · 종이 한 장(밝은 화면·어두운 화면 같게)
+   첫 화면(is-fold) = 접어 둠 → 펼쳐 읽기 · 바닥 = 펼친 채. 끝 문단(tail)은 흐려지며 끊긴다 → 바로 아래 [무료 책 받기] */
+.qf-peek{position:relative;display:grid;grid-template-columns:minmax(0,1fr);gap:.55rem;min-width:0}
+.qf-pk-page,.qf-pk-body{min-width:0}   /* 부록 표(신호 성적표 5칸)가 휴대폰에서 칸을 밀어 화면 밖 62px — 표만 옆으로 밀리게(10-05 실측) */
+.qf-pk-page{position:relative;padding:1.15rem 1.25rem 1.2rem;border-radius:4px 10px 10px 4px;
+  background:#fbfaf6;color:#1d1f22;border:1px solid rgba(12,13,14,.1);
+  box-shadow:0 1px 0 rgba(12,13,14,.04),0 10px 26px -14px rgba(12,13,14,.35),inset 3px 0 0 rgba(12,13,14,.05)}
+.qf-pk-run{margin:0 0 .55rem;padding-bottom:.45rem;border-bottom:1px solid rgba(12,13,14,.1);
+  font-size:.72rem;font-weight:600;letter-spacing:.02em;color:#8a8d92}
+.qf-pk-h{margin:0 0 .6rem;font-size:1.02rem;font-weight:800;line-height:1.45;letter-spacing:-.03em;color:#0c0d0e;text-wrap:balance}
+.qf-pk-body p{margin:0 0 .7rem;font-size:.9rem;line-height:1.78;letter-spacing:-.01em;color:#2b2e33;word-break:keep-all;overflow-wrap:anywhere}
+.qf-pk-body figure{margin:.4rem 0 .8rem}
+.qf-pk-body ul,.qf-pk-body ol{margin:0 0 .75rem;padding-left:1.2rem;font-size:.88rem;line-height:1.7;color:#2b2e33}
+.qf-pk-body li{margin:.1rem 0}
+.qf-pk-body svg{display:block;width:100%;height:auto;border-radius:6px;border:1px solid rgba(12,13,14,.08)}
+.qf-pk-body figcaption{margin-top:.35rem;font-size:.75rem;color:#7b7e84;text-align:center}
+.qf-pk-body table{display:block;max-width:100%;overflow-x:auto;margin:.3rem 0 .8rem;border-collapse:collapse;
+  font-size:.78rem;line-height:1.45;color:#2b2e33;font-variant-numeric:tabular-nums}
+.qf-pk-body th,.qf-pk-body td{padding:.38rem .55rem;border-bottom:1px solid rgba(12,13,14,.09);text-align:left;white-space:nowrap}
+.qf-pk-body th{font-weight:700;color:#0c0d0e;background:rgba(12,13,14,.035)}
+.qf-pk-tail{margin:0!important;max-height:5.2em;overflow:hidden;
+  -webkit-mask-image:linear-gradient(#000 0,transparent 100%);mask-image:linear-gradient(#000 0,transparent 100%)}
+.qf-peek.is-fold .qf-pk-page{max-height:15.5rem;overflow:hidden}
+.qf-peek.is-fold .qf-pk-page::after{content:"";position:absolute;inset:auto 0 0;height:7rem;border-radius:0 0 10px 4px;
+  background:linear-gradient(rgba(251,250,246,0),#fbfaf6 78%)}
+.qf-pk-more{justify-self:center;margin-top:-1.9rem;position:relative;z-index:1;padding:.5rem 1.05rem;border-radius:999px;
+  border:1px solid rgba(12,13,14,.14);background:#fff;color:#1d1f22;font:650 .84rem/1 var(--font);cursor:pointer;
+  box-shadow:0 4px 14px -6px rgba(12,13,14,.3)}
+.qf-pk-more:hover{border-color:rgba(12,13,14,.3)}
+.qf-peek:not(.is-fold) .qf-pk-more{display:none}
+.qf-pk-toc{margin:.1rem 0 0;padding:0;list-style:none;display:grid;gap:.15rem;counter-reset:pk}
+.qf-pk-toc li{counter-increment:pk;display:flex;gap:.5rem;font-size:.8rem;line-height:1.5;color:var(--mute)}
+.qf-pk-toc li::before{content:counter(pk);min-width:1rem;font-variant-numeric:tabular-nums;color:var(--mute)}
+.qf-pk-toc li.on{color:var(--ink);font-weight:650}
+.qf-pk-toc li.on::before{color:var(--accent)}
+@media(max-width:44rem){
+  .qf-pk-page{padding:1rem 1rem 1.05rem}
+  .qf-pk-body p{font-size:.88rem}
+  .qf-peek.is-fold .qf-pk-page{max-height:14rem}
 }

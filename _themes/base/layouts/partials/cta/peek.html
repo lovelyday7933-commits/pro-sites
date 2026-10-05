@@ -1,0 +1,22 @@
+{{/* 책 한 쪽 미리 읽기 (2026-10-05) — 책 먼저 칸(qform.html qf-bfb) 바로 아래 · [무료 책 받기] 바로 위
+     사용자 10-05 *"cta 자체가 거의 없어. 응답 완료가 여지껏 딱 1개임"* → 실측: 책 칸 본 쪽보기 336 → 마음먹고 누른 것 약 3 → 신청 1
+     (09-27 책 먼저 뒤 8일 · 사람). 받을 것이 표지·장 제목 한 줄뿐이라 안 보인다 → 이 쪽 질문에 답하는 책 장을 몇 문단 그대로 보여 주고
+     흐려지는 꼬리에서 [무료 책 받기]로 잇는다(사용자 "ㅇㅇ 제대로 해보자" → "배당금만 하는게 아니라 대부분 다 이런 형태로").
+     인자 dict: "pk" data/bookpeek.json 의 한 장(tools/book_peek.py) · "page" 페이지 · "place" "hook"(접어 둠 · 펼쳐 읽기) | "bottom"(펼친 채)
+     신호 쪽(signal_key 있음)은 그 장의 신호별 절(pk.v)이 있으면 그것 — 차트 2권 5장 = RSI·MACD·볼린저밴드.
+     ⛔글은 책 본문 그대로(book_peek.py) — 세션·codex 가 고치지 마라. 이 틀이 더하는 낱말은 "펼쳐 읽기" 하나.
+     ⛔form.qf 안에 있다 → track.js·leadform.js 가 .qf-peek 안의 focusin 을 신청 누름·시작으로 세지 않는다(펼침은 seen "peek" 으로 따로 센다). */}}
+{{- $pk := .pk }}{{ $fold := eq .place "hook" }}
+{{- with .page.Params.signal_key }}{{ $k := . }}{{ with $pk.v }}{{ with index . $k }}{{ $pk = . }}{{ end }}{{ end }}{{ end }}
+<div class="qf-peek{{ if $fold }} is-fold{{ end }}">
+  <div class="qf-pk-page">
+    <p class="qf-pk-run">{{ $pk.run }}</p>
+    <p class="qf-pk-h">{{ $pk.sec }}</p>
+    <div class="qf-pk-body">
+      {{ $pk.html | safeHTML }}
+      {{- with $pk.tail }}<p class="qf-pk-tail" aria-hidden="true">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+  {{- if $fold }}<button type="button" class="qf-pk-more" aria-expanded="false">펼쳐 읽기</button>{{ end }}
+  {{- with $pk.secs }}<ol class="qf-pk-toc">{{ range $i, $s := . }}<li{{ if eq $i (int $pk.on) }} class="on"{{ end }}>{{ $s }}</li>{{ end }}</ol>{{ end }}
+</div>
