@@ -913,3 +913,67 @@ h1,h2,h3,.hk-ask,.cards li>a,.lead,.qf-agree label>span,.state,.ar-hide,.ar-crit
   .qf-pk-body p{font-size:.88rem}
   .qf-peek.is-fold .qf-pk-page{max-height:14rem}
 }
+
+/* ★10-07 무료 책 쪽(/책/ · layouts/_default/book.html·booklist.html · tools/book_pages.py)
+   사용자 "검색어 자체가 신청인 쪽" — 책을 찾는 검색에 받을 책이 크게·진짜로 보이게(표지·쪽수·차례 전체·원문 들어가며). */
+.book-page,.book-list{max-width:var(--read);margin:0 auto;padding:2rem 0 1rem}
+.book-page h2,.bk-lh{margin:0 0 .9rem;font-size:1.15rem;font-weight:750;letter-spacing:-.02em}
+.book-page section{margin:0 0 2.6rem}
+.bk-spec-row{display:grid;grid-template-columns:6.5rem minmax(0,1fr);gap:1.25rem;align-items:center;padding:1.1rem;
+  border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow)}
+.bk-spec-cv{display:block;width:100%;height:auto;border-radius:2px 5px 5px 2px;box-shadow:0 12px 20px -10px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.25)}
+.bk-spec dl{margin:0;display:grid;gap:.45rem}
+.bk-spec dl div{display:grid;grid-template-columns:3.2rem minmax(0,1fr);gap:.5rem;align-items:baseline}
+.bk-spec dt{color:var(--mute);font-size:.82rem;font-weight:600}
+.bk-spec dd{margin:0;font-weight:650;font-size:.98rem}
+.bk-spec dd b{font-size:1.15rem;font-variant-numeric:tabular-nums}
+.bk-spec dd.bk-free{color:var(--accent);font-weight:800}
+.bk-intro blockquote{margin:0;padding:1.25rem 1.3rem 1.1rem;border-left:3px solid var(--accent-bg);border-radius:0 var(--r) var(--r) 0;
+  background:var(--surface2);color:var(--ink2);font-size:.97rem;line-height:1.85}
+.bk-intro blockquote p{margin:0 0 .85rem}
+.bk-intro cite{display:block;font-style:normal;font-size:.8rem;color:var(--mute);font-weight:600}
+.bk-toc ol{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.bk-toc > ol > li{border-bottom:1px solid var(--line)}
+.bk-toc summary{display:grid;grid-template-columns:3.4rem minmax(0,1fr) 1rem;gap:.6rem;align-items:baseline;padding:.85rem 0;cursor:pointer;list-style:none}
+.bk-toc summary::-webkit-details-marker{display:none}
+.bk-toc summary::after{content:"";width:.5rem;height:.5rem;border-right:2px solid var(--mute);border-bottom:2px solid var(--mute);transform:rotate(45deg);align-self:center;transition:transform .15s}
+.bk-toc details[open] summary::after{transform:rotate(-135deg)}
+.bk-ch{color:var(--accent);font-size:.82rem;font-weight:800;font-variant-numeric:tabular-nums}
+.bk-ct{font-weight:650;line-height:1.45}
+.bk-toc ul{margin:0 0 .9rem;padding:0 0 0 4rem;list-style:none;display:grid;gap:.3rem}
+.bk-toc ul li{position:relative;color:var(--ink2);font-size:.92rem;line-height:1.5}
+.bk-toc ul li::before{content:"";position:absolute;left:-.9rem;top:.62em;width:.32rem;height:1px;background:var(--mute)}
+.bk-shelf{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr));gap:1rem}
+.bk-shelf a{display:grid;gap:.4rem;text-decoration:none}
+.bk-shelf img{display:block;width:100%;height:auto;border-radius:2px 5px 5px 2px;box-shadow:0 10px 18px -10px rgba(0,0,0,.55)}
+.bk-sh-t{font-weight:650;font-size:.9rem;line-height:1.4}
+.bk-sh-m{color:var(--mute);font-size:.8rem}
+.bk-shelf a:hover .bk-sh-t{color:var(--accent)}
+.bk-all{margin:1rem 0 0}
+.bk-all a{color:var(--accent);font-weight:650;font-size:.92rem}
+.bk-list{list-style:none;margin:0;padding:0;display:grid;gap:1rem}
+.bk-card{position:relative;display:grid;grid-template-columns:6.8rem minmax(0,1fr);gap:1.1rem;padding:1.1rem 1.1rem 1.1rem 1.1rem;
+  border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow);text-decoration:none;transition:border-color .15s,transform .15s}
+.bk-card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.bk-n{position:absolute;top:.7rem;left:.7rem;z-index:1;display:grid;place-items:center;width:1.7rem;height:1.7rem;border-radius:50%;
+  background:var(--ink);color:var(--bg);font-size:.82rem;font-weight:800}
+.bk-cv{display:block;width:100%;height:auto;border-radius:2px 5px 5px 2px;box-shadow:0 12px 20px -10px rgba(0,0,0,.6),0 2px 6px rgba(0,0,0,.25)}
+.bk-cb{display:grid;gap:.4rem;align-content:start;min-width:0}
+.bk-ttl{font-size:1.08rem;font-weight:750;letter-spacing:-.02em;line-height:1.35}
+.bk-meta{color:var(--ink2);font-size:.86rem}
+.bk-meta b{color:var(--accent)}
+.bk-chs{display:grid;gap:.15rem;color:var(--mute);font-size:.84rem;line-height:1.45}
+.bk-chs span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bk-go{margin-top:.2rem;color:var(--accent);font-weight:700;font-size:.88rem}
+.bk-go::after{content:" →"}
+@media(max-width:44rem){
+  .book-page,.book-list{padding-top:1.4rem}
+  .bk-spec-row{grid-template-columns:5.4rem minmax(0,1fr);gap:1rem;padding:.95rem}
+  .bk-card{grid-template-columns:5.6rem minmax(0,1fr);gap:.9rem;padding:.95rem}
+  .bk-toc summary{grid-template-columns:3rem minmax(0,1fr) 1rem}
+  .bk-toc ul{padding-left:3.6rem}
+}
+/* 모든 쪽 책 칸 — 받을 책의 실제 분량 + 그 책 쪽 링크(10-07 · qform.html) */
+.qf-bf-all{justify-self:start;margin-top:.15rem;color:var(--ink2);font-size:.82rem;font-weight:650;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.qf-bf-all::after{content:" →"}
+.qf-bf-all:hover{color:var(--accent)}

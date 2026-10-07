@@ -126,7 +126,7 @@
       if (!kind) { var m = /[?&]utm_medium=([^&]+)/.exec(f.getAttribute('data-href') || ''); if (m) { var ps = decodeURIComponent(m[1]).split('-'); kind = PLACES.test(ps[ps.length - 1]) ? ps.slice(0, -1).join('-') : ps.join('-'); } }
       if (pl !== 'float' && !f.hasAttribute('data-pt')) { f.setAttribute('data-pt', pl); if (io) io.observe(f); }
       f.addEventListener('focusin', function (e) {
-        if (e.target && e.target.closest && e.target.closest('.qf-peek')) return;   // 10-05 책 한 쪽 미리 읽기 — 펼침은 누름이 아니라 아래 봄 칸 "peek"
+        if (e.target && e.target.closest && e.target.closest('.qf-peek, .qf-bf-all')) return;   // 10-05 책 한 쪽 미리 읽기 — 펼침은 누름이 아니라 아래 봄 칸 "peek" · 10-07 "차례 전체 보기"(책 쪽 링크)도 누름 아님
         if (clicks[pl]) return;
         clicks[pl] = 1;
         if (!clickMs) { clickMs = Date.now() - t0; clickSc = nowPct(); }

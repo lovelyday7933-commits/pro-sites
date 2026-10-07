@@ -61,6 +61,8 @@
   {{- $br = cond (ge (mul (int $st.beat20) 2) $nsig) "many" "few" }}
   {{- $slots = merge $slots (dict "name" $st.name "n_sig" (printf "%d가지" $nsig) "beat20" (printf "%v가지" $st.beat20) "top" $top) }}
   {{- $book = index $bm.kind "hub" }}
+  {{- /* ★10-07 코인 빅4 이름 쪽(/코인/리플/ 등) = 그 코인 책(§4 1:1 · 전망·최고가 쪽은 이미 그 책) — "리플" 검색으로 온 사람에게 『리플의 모든것』 */}}
+  {{- with and $code $bm.big4 }}{{ with index . $code }}{{ with .ihub }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
 
 {{- else if eq $L "signal" }}
   {{- $key := $p.Params.signal_key }}{{ $sg := index $g.signals $key }}
@@ -110,6 +112,11 @@
   {{- with and $code $bm.big4 }}{{ with index . $code }}{{ with .ihub }}{{ $book = . }}{{ end }}{{ end }}{{ end }}
   {{- with $p.Params.cta_book }}{{ $book = . }}{{ end }}
   {{- with and $code site.Data.hooks }}{{ with index . $code }}{{ with index . (cond (eq $kind "etfhub") "ihub" $kind) }}{{ $slots = merge $slots . }}{{ $close = .close }}{{ $asof = .asof }}{{ $br = .br | default "" }}{{ end }}{{ end }}{{ end }}
+
+{{- else if in (slice "book" "booklist") $L }}
+  {{- /* ★10-07 무료 책 쪽(tools/book_pages.py · /책/) — 그 쪽의 책 · 묶음 쪽은 읽는 순서 첫 권 */}}
+  {{- $kind = "book" }}
+  {{- with $p.Params.cta_book }}{{ $book = . }}{{ end }}
 
 {{- else if in (slice "sector" "sectors") $L }}
   {{- $kind = "sector" }}{{ $akind = "sector" }}{{ $book = index $bm.kind "sector" | default $book }}

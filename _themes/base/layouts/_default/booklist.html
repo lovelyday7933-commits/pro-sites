@@ -1,0 +1,30 @@
+{{/* 무료 책 묶음 쪽 — /책/ (tools/book_pages.py · 2026-10-07)
+     "주식 책 추천"·"코인 책 추천"·"미국주식 책" 검색 = 책 목록을 찾는 사람 → 우리 무료 책을 읽는 순서대로(권마다 쪽수·장·차례 앞 셋).
+     첫 화면 책 칸 = 읽는 순서 첫 권(cta/hook.html) · 바닥 책 칸은 baseof 가 낸다(Kind=section).
+     ⛔글은 책 원문(data/bookpages.json) · 이 틀이 더하는 말은 이름표뿐. */}}
+{{ define "main" }}
+{{- $bp := site.Data.bookpages }}
+{{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" .Params.chip "title" .Title "lead" .Description) }}
+{{- /* 첫 화면 책 칸(cta/hook.html)은 넣지 않는다 — "주식 책 추천" 검색의 답은 목록이다(10-07 화면 확인: 책 칸이 목록을 둘째 화면으로 밀었다). 신청 칸은 목록 바로 아래 바닥(baseof). */}}
+<div class="site">
+<article class="post book-list">
+  <h2 class="bk-lh">읽는 순서</h2>
+  <ol class="bk-list">
+    {{- range $i, $name := $bp.order }}{{ $b := index $bp.books $name }}{{ $info := index site.Data.books $name }}
+    <li>
+      <a class="bk-card" href="{{ $b.url }}">
+        <span class="bk-n">{{ add $i 1 }}</span>
+        <img class="bk-cv" src="{{ $info.cover | relURL }}" width="{{ $info.w }}" height="{{ $info.h }}" alt="『{{ $name }}』 표지" loading="{{ if lt $i 2 }}eager{{ else }}lazy{{ end }}" decoding="async">
+        <span class="bk-cb">
+          <span class="bk-ttl">『{{ $name }}』</span>
+          <span class="bk-meta">{{ $b.pages }}쪽 · {{ len $b.toc }}장 · <b>무료</b></span>
+          <span class="bk-chs">{{ range first 3 $b.toc }}<span>{{ .ch }} {{ .t }}</span>{{ end }}</span>
+          <span class="bk-go">차례·첫 장 보기</span>
+        </span>
+      </a>
+    </li>
+    {{- end }}
+  </ol>
+</article>
+</div>
+{{ end }}

@@ -308,7 +308,7 @@
     }
     ob.addEventListener('click', open);
     var card = f.querySelector('.qf-bfb');
-    if (card) card.addEventListener('click', open);
+    if (card) card.addEventListener('click', function (e) { if (!(e.target && e.target.closest && e.target.closest('.qf-bf-all'))) open(); });   // 10-07 "차례 전체 보기"는 책 쪽으로만 간다
     /* ★10-05 책 한 쪽 미리 읽기(cta/peek.html) — 첫 화면은 접어 둔다 → [펼쳐 읽기]나 접힌 쪽을 누르면 편다(번호 칸은 안 연다 · 누름으로 안 센다) */
     var pk = f.querySelector('.qf-peek.is-fold');
     if (pk) {
@@ -406,7 +406,8 @@
     var phone = fm.querySelector('input[name="phone"]'), name = fm.querySelector('input[name="name"]'), agree = fm.querySelector('input[name="agree"]');
     var status = fm.querySelector('.qf-status'), go = fm.querySelector('.qf-go'), terms = fm.querySelector('.qf-terms'), tbtn = fm.querySelector('.qf-terms-btn');
     var book = fm.querySelector('.qf-book');   // 09-15 밤 받을 책 카드 — 누르면 "무료 책 받기"를 체크하고 번호 칸으로
-    if (book) book.addEventListener('click', function () {
+    if (book) book.addEventListener('click', function (e) {
+      if (e.target && e.target.closest && e.target.closest('.qf-bf-all')) return;   // 10-07 책 쪽 링크는 그냥 간다(번호 칸 열지 않음)
       var c = fm.querySelector('input[name="o"][value="무료 책 받기"]');
       if (c && !c.checked) { c.checked = true; c.dispatchEvent(new Event('change', { bubbles: true })); }
       if (phone && !phone.value) phone.focus();
@@ -418,7 +419,7 @@
       qdef(st.slug).catch(function () {});   // 미리 불러 둔다(제출이 빨라지게)
     }
     fm.addEventListener('focusin', function (e) {
-      if (e.target && e.target.closest && e.target.closest('.qf-peek')) return;   // 10-05 책 한 쪽 미리 읽기(펼쳐 읽기)는 신청 시작이 아니다
+      if (e.target && e.target.closest && e.target.closest('.qf-peek, .qf-bf-all')) return;   // 10-05 책 한 쪽 미리 읽기(펼쳐 읽기) · 10-07 "차례 전체 보기"(책 쪽 링크)는 신청 시작이 아니다
       begin();
       if (st.place === 'float') fm.closest('.qbar').classList.add('open');
     });

@@ -111,6 +111,12 @@ summaryLength = 40
     url = "/트레이딩뷰/"
     weight = 35
   [[menus.main]]
+    identifier = "책"
+    name = "무료 책"
+    url = "/책/"
+    weight = 39
+
+  [[menus.main]]
     identifier = "posts"
     name = "글"
     url = "/posts/"

@@ -31,8 +31,13 @@
     </button>
     {{- end }}
     {{- /* ★2026-09-14 버튼 말 통일 — 헤더·떠 있는 버튼·바닥 링크·첫 화면·본문 끝이 같은 말(copy.offer.button). 09-13 까지 6가지였다 */}}
+    {{- /* ★10-07 헤더 버튼 = "무료 책 받기" → 이 쪽 책의 책 쪽(/책/<책>/ · 없으면 /책/). 사용자 09-27 "CTA의 상품은 책" · 상담은 앞세우지 않는다.
+         실측: 옛 "무료 1:1 상담"(외부 신청 창) = 09-13~10-07 사람 840 · 보임 958 · 누름 1. 상담은 신청 창 둘째 선택지·바닥 링크에 그대로 있다. */}}
     {{- if and site.Params.ctaURL site.Data.copy }}
-    <a class="btn btn-primary" href="{{ partial "ctahref.html" (dict "page" . "place" "top" "campaign" site.Data.copy.offer.form_option) }}" target="_blank" rel="noopener nofollow">{{ site.Data.copy.offer.button }}</a>
+    {{- $hu := "/책/" }}
+    {{- with site.Data.bookpages }}{{ $bps := .books }}{{ with (partialCached "cta/ctx.html" $ $.RelPermalink).book }}{{ with index $bps .book }}{{ $hu = .url }}{{ end }}{{ end }}{{ end }}
+    {{- if $.Params.book }}{{ $hu = "/책/" }}{{ end }}
+    <a class="btn btn-primary" href="{{ $hu }}">무료 책 받기</a>
     {{- end }}
   </div>
 </header>

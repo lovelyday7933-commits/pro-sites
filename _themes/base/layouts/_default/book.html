@@ -1,0 +1,80 @@
+{{/* 무료 책 쪽 — /책/<책>/ (tools/book_pages.py 가 앞머리를 굽는다 · 2026-10-07)
+     사용자 10-07 *"검색어 자체가 신청인 쪽 니즈 자체가 그렇게 설계 되어야"* → "주식 입문 책"·"비트코인 책"처럼 책을 찾는 검색에 우리 책이 정답으로 선다.
+     순서 = 머리(검색어 + 책) → 첫 화면 책 칸(표지·사용자 문장·첫 장 미리 읽기·[무료 책 받기] · cta/hook.html) → 받는 책(쪽수·장·절·부록)
+       → 들어가며(책 원문 앞 문단) → 차례 전체(장·절) → 같이 받을 수 있는 책 → 바닥 책 칸(cta.html).
+     ⛔글은 전부 책 원문(data/bookpages.json) — 이 틀이 더하는 말은 이름표뿐. ⛔책 칸은 다른 쪽과 같은 부품(같은 신청 창·같은 기록). */}}
+{{ define "main" }}
+{{- $bp := site.Data.bookpages }}
+{{- $b := index $bp.books .Params.book }}
+{{- $info := index site.Data.books .Params.book }}
+{{- partial "pagehead.html" (dict "crumbs" .Params.crumbs "chip" .Params.chip "title" .Title "lead" .Description) }}
+{{- partial "cta/hook.html" . }}
+<div class="site">
+<article class="post book-page">
+  {{- $nsec := 0 }}{{ range $b.toc }}{{ $nsec = add $nsec (len .secs) }}{{ end }}
+  <section class="bk-spec" aria-label="받는 책">
+    <h2>받는 책</h2>
+    <div class="bk-spec-row">
+      <img class="bk-spec-cv" src="{{ $info.cover | relURL }}" width="{{ $info.w }}" height="{{ $info.h }}" alt="『{{ .Params.book }}』 표지" loading="lazy" decoding="async">
+      <dl>
+        <div><dt>책</dt><dd>『{{ .Params.book }}』</dd></div>
+        <div><dt>분량</dt><dd><b>{{ $b.pages }}</b>쪽</dd></div>
+        <div><dt>구성</dt><dd><b>{{ len $b.toc }}</b>장 · <b>{{ $nsec }}</b>절{{ with $b.appendix }} · 부록 <b>{{ len . }}</b>{{ end }}</dd></div>
+        <div><dt>가격</dt><dd class="bk-free">무료</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  {{- with $b.intro }}
+  <section class="bk-intro">
+    <h2>들어가며</h2>
+    <blockquote>{{ range . }}<p>{{ . }}</p>{{ end }}<cite>『{{ $.Params.book }}』 들어가며에서</cite></blockquote>
+  </section>
+  {{- end }}
+
+  <section class="bk-toc">
+    <h2>차례</h2>
+    <ol>
+      {{- range $i, $c := $b.toc }}
+      <li>
+        <details{{ if lt $i 2 }} open{{ end }}>
+          <summary><span class="bk-ch">{{ $c.ch }}</span><span class="bk-ct">{{ $c.t }}</span></summary>
+          {{- with $c.secs }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+        </details>
+      </li>
+      {{- end }}
+      {{- with $b.appendix }}
+      <li class="bk-app"><details><summary><span class="bk-ch">부록</span><span class="bk-ct">{{ replaceRE `^부록\s*\d+\s*[—-]\s*` "" (index . 0) }}{{ if gt (len .) 1 }} 외 {{ sub (len .) 1 }}가지{{ end }}</span></summary><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></details></li>
+      {{- end }}
+    </ol>
+  </section>
+
+  {{- /* 바닥 책 칸 = cta.html 과 같은 자리(class "cta" = track.js 바닥 봄)지만 미리 읽기는 2장 — 첫 화면(1장)과 같은 글이 두 번 나오지 않게 */}}
+  {{- $x := partialCached "cta/ctx.html" . .RelPermalink }}
+  {{- with and site.Params.ctaURL $x.bf (gt (len $b.toc) 1) }}
+  {{- $c2 := index $b.toc 1 }}
+  <aside class="cta cta-bf" data-nofp>
+    {{ partial "cta/qform.html" (dict "page" $ "x" (merge $x (dict "book" (merge $x.book (dict "ch" $c2.ch "title" $c2.t)))) "place" "bottom") }}
+  </aside>
+  {{- else }}
+  {{ partial "cta.html" . }}
+  {{- end }}
+
+  {{- $others := slice }}{{ range $bp.order }}{{ if ne . $.Params.book }}{{ $others = $others | append . }}{{ end }}{{ end }}
+  {{- with $others }}
+  <section class="rel bk-more">
+    <h2>같이 받을 수 있는 책</h2>
+    <ul class="bk-shelf">
+      {{- range . }}{{ $o := index $bp.books . }}{{ $oi := index site.Data.books . }}
+      <li><a href="{{ $o.url }}">
+        <img src="{{ $oi.cover | relURL }}" width="{{ $oi.w }}" height="{{ $oi.h }}" alt="" loading="lazy" decoding="async">
+        <span class="bk-sh-t">『{{ . }}』</span><span class="bk-sh-m">{{ $o.pages }}쪽 · 무료</span>
+      </a></li>
+      {{- end }}
+    </ul>
+    <p class="bk-all"><a href="/책/">무료 책 전체 보기</a></p>
+  </section>
+  {{- end }}
+</article>
+</div>
+{{ end }}

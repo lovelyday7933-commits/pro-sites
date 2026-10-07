@@ -44,6 +44,11 @@
       <p class="qf-free">무료 책</p>
       <p class="qf-bf-l">{{ index $bw.l1 $bk | default $bw.l1_default }}<br>{{ $bw.l2 }}</p>
       <p class="qf-bf-ch">『{{ $bk }}』{{ range $pv.lines }}{{ if .on }} <span class="nw">{{ .ch }} {{ .t }}</span>{{ end }}{{ end }}</p>
+      {{- /* ★10-07 받을 책의 실제 분량 + 그 책 쪽(/책/ · tools/book_pages.py) — 모든 쪽에서 책 쪽으로 잇는다(그 책 쪽 자신에선 뺀다).
+           ⛔.qf-bf-all 은 track.js·leadform.js 가 신청 누름·시작으로 세지 않는다(미리 읽기 .qf-peek 와 같은 예외) */}}
+      {{- with site.Data.bookpages }}{{ with index .books $bk }}{{ if ne $p.Params.book $bk }}
+      <a class="qf-bf-all" href="{{ .url }}">{{ .pages }}쪽 · {{ len .toc }}장 <span class="nw">차례 전체 보기</span></a>
+      {{- end }}{{ end }}{{ end }}
     </div>
   </div>
   {{- /* ★10-05 책 한 쪽 미리 읽기(cta/peek.html · data/bookpeek.json) — 이 쪽 장의 본문 몇 문단 · 자료 없는 장은 지금처럼 책 칸만 */}}
