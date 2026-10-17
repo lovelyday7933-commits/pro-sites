@@ -446,7 +446,6 @@
       var ph = fmtPhone(phone.value), nm = name.value.trim(), miss = null;
       if (!chosen.length) miss = ['받고 싶은 것을 하나 이상 골라 주세요.', fm.querySelector('input[name="o"]')];
       else if (!/^01[016789]-\d{3,4}-\d{4}$/.test(ph)) miss = ['휴대폰 번호를 확인해 주세요 (예: 010-1234-5678)', phone];
-      else if (!nm) miss = ['이름을 적어 주세요.', name];
       else if (!agree.checked) miss = ['동의에 체크해 주세요.', agree];
       if (miss) {
         if (st.place === 'float') fm.closest('.qbar').classList.add('open');
