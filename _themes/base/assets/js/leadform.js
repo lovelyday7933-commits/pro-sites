@@ -26,7 +26,9 @@
     return n;
   }
   function fmtPhone(s) {
-    var d = String(s || '').replace(/\D/g, '').slice(0, 11);
+    var d = String(s || '').replace(/\D/g, '');
+    if (/^820?1/.test(d)) d = '0' + d.replace(/^820?/, '');   // 10-17 폰 자동 채움 "+82 10-…" → 010-… (안 바꾸면 821-0123-4567 로 형식 검사에 걸린다)
+    d = d.slice(0, 11);
     if (d.length <= 3) return d;
     if (d.length <= 7) return d.slice(0, 3) + '-' + d.slice(3);
     return d.slice(0, 3) + '-' + d.slice(3, 7) + '-' + d.slice(7);
