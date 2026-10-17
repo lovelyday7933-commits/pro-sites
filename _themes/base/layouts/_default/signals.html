@@ -10,9 +10,9 @@
     "chip" (printf "신호 %d가지 · %s %d개 · 기준일 %s" (int $g.n_signals) $T (int $g.n_stocks) $g.as_of)
     "title" .Title "lead" .Description) }}
 {{- partial "cta/hook.html" . }}
-{{- partial "kpi.html" (dict "head" "잰 범위" "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
+{{- partial "kpi.html" (dict "head" "조사 범위" "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
     (dict "v" (int $g.n_signals) "u" "가지" "l" "차트 신호" "s" "이동평균·RSI·거래량 등")
-    (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" (printf "잰 %s" $T) "s" "일봉 전 기간")
+    (dict "v" (lang.FormatNumber 0 $g.n_stocks) "u" "개" "l" (printf "조사한 %s" $T) "s" "일봉 전 기간")
     (dict "v" (lang.FormatNumber 0 $g.n_measured) "u" "개" "l" (printf "%s×신호 조합" $T) "s" "신호 20번 이상만")
     (dict "v" (printf "%.1f" (mul (div (float $beat) (float $g.n_measured)) 100.0)) "u" "%" "l" "평소보다 나았던 조합" "s" (printf "20%s 뒤 기준" $D)))) }}
 <div class="site page">
@@ -28,7 +28,7 @@
       <h3>{{ $s.label }}</h3>
       <p class="rule">{{ $s.rule }}</p>
       <div class="st">
-        <div><b>{{ $s.measured }}개</b><span>잰 {{ $T }}</span></div>
+        <div><b>{{ $s.measured }}개</b><span>조사한 {{ $T }}</span></div>
         <div><b>{{ printf "%.1f" (float $s.beat20_rate) }}%</b><span>평소보다 나았던 {{ $T }}</span></div>
         <div><b class="{{ cond (ge (float $s.med20) 0.0) "up" "dn" }}">{{ printf "%+.2f" (float $s.med20) }}%p</b><span>평소와 차이(중앙값)</span></div>
       </div>

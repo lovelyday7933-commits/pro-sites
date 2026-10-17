@@ -18,7 +18,7 @@
     <div><dt>{{ $sg.measured }}개 {{ $T }} 중</dt><dd>{{ cond (ge $e.pct 50) (printf "상위 %v%%" (sub 101 $e.pct)) (printf "하위 %v%%" $e.pct) }}</dd></div>
   </dl>
   <div class="vh">
-    <p>같은 신호를 잰 {{ $sg.measured }}개 {{ $T }} 사이에서 {{ $st.name }} 자리(세로선)</p>
+    <p>같은 신호를 조사한 {{ $sg.measured }}개 {{ $T }} 사이에서 {{ $st.name }} 자리(세로선)</p>
     {{ partial "hist.html" (dict "sig" $sg "w" 440 "h" 54 "small" true "mark" $e20 "aria" (printf "%s %s별 20%s 뒤 차이 분포에서 %s의 위치" $sg.label $T $D $st.name)) }}
   </div>
 </div>

@@ -32,7 +32,7 @@
 </div>
 {{- end }}
 {{- partial "kpi.html" (dict "head" (printf "%s 신호 요약" $s.name) "sub" (printf "기준일 %s" $g.as_of) "tiles" (slice
-    (dict "v" (len $rows) "u" "가지" "l" "잰 신호" "s" (cond (eq (len $rows) (len $g.order)) (printf "%d가지 전부" (len $g.order)) (printf "%d가지는 신호 20번 미만" (sub (len $g.order) (len $rows)))))
+    (dict "v" (len $rows) "u" "가지" "l" "조사한 신호" "s" (cond (eq (len $rows) (len $g.order)) (printf "%d가지 전부" (len $g.order)) (printf "%d가지는 신호 20번 미만" (sub (len $g.order) (len $rows)))))
     (dict "v" (lang.FormatNumber 0 $s.hits) "u" "번" "l" "신호가 뜬 횟수 합계" "s" "조사 기간 전체")
     (dict "v" (printf "%v / %d" $s.beat20 (len $rows)) "l" "평소보다 나았던 신호" "s" (printf "20%s 뒤 기준" $D))
     (dict "v" (printf "%+.2f" $top.e20) "u" "%p" "cls" (cond (ge $top.e20 0.0) "up" "dn") "l" "가장 나았던 신호" "s" $top.label))) }}
@@ -57,7 +57,7 @@
     </div>
     <div class="tw">
       <table class="dt">
-        <thead><tr><th>신호</th><th>뜬 횟수</th><th>20{{ $D }} 뒤 평소와 차이</th><th>60{{ $D }} 뒤</th><th>같은 신호를 잰 {{ $T }} 중</th><th></th></tr></thead>
+        <thead><tr><th>신호</th><th>뜬 횟수</th><th>20{{ $D }} 뒤 평소와 차이</th><th>60{{ $D }} 뒤</th><th>같은 신호를 조사한 {{ $T }} 중</th><th></th></tr></thead>
         <tbody>
           {{- range $rows }}
           {{- $c20 := cond (ge .e20 0.0) "up" "dn" }}
@@ -75,7 +75,7 @@
       </table>
     </div>
     {{- range $rows }}{{ if .why }}<p class="note">{{ .label }} — {{ .why }}.</p>{{ end }}{{ end }}
-    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 순위는 같은 신호를 잰 {{ $T }}들 사이의 자리이고, 모두 지나간 기간의 결과입니다.</p>
+    <p class="note">"평소"는 신호와 상관없이 그 기간 모든 날에 샀을 때의 결과입니다. 순위는 같은 신호를 조사한 {{ $T }}들 사이의 자리이고, 모두 지나간 기간의 결과입니다.</p>
     {{- partial "cta/argue.html" . }}
   </section>
 

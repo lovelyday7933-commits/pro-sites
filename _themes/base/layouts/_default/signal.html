@@ -9,7 +9,7 @@
 {{- $s := index $g.signals .Params.signal_key }}
 {{- partial "pagehead.html" (dict
     "crumbs" (slice (dict "url" "/" "label" "홈") (dict "url" "/신호/" "label" "신호별 실측") (dict "label" $s.label))
-    "chip" (printf "잰 %s %v개 · 기준일 %s" $T $s.measured $g.as_of)
+    "chip" (printf "조사한 %s %v개 · 기준일 %s" $T $s.measured $g.as_of)
     "title" .Title "lead" ($s.meaning | default .Description)) }}
 {{- partial "cta/hook.html" . }}
 {{- $dist := partial "hist.html" (dict "sig" $s "w" 900 "h" 200 "aria" (printf "%s %s별 20%s 뒤 차이 분포" $s.label $T $D)) }}
@@ -17,7 +17,7 @@
     "distTitle" (printf "%s별 20%s 뒤 평소와 차이 — 막대 하나가 %v%%p 구간, 높이는 %s 수" $T $D $s.hist.step $T)
     "dist" $dist
     "tiles" (slice
-    (dict "v" $s.measured "u" "개" "l" (printf "잰 %s" $T) "s" (cond (lt $s.pages $s.measured) (printf "개별 페이지 %v장" $s.pages) "전부 개별 페이지"))
+    (dict "v" $s.measured "u" "개" "l" (printf "조사한 %s" $T) "s" (cond (lt $s.pages $s.measured) (printf "개별 페이지 %v장" $s.pages) "전부 개별 페이지"))
     (dict "v" $s.beat20 "u" "개" "l" (printf "평소보다 나았던 %s" $T) "s" (printf "%.1f%% · 20%s 뒤" (float $s.beat20_rate) $D))
     (dict "v" (printf "%+.2f" (float $s.med20)) "u" "%p" "cls" (cond (ge (float $s.med20) 0.0) "up" "dn") "l" (printf "20%s 뒤 평소와 차이" $D) "s" (printf "%s들의 중앙값" $T))
     (dict "v" (printf "%+.2f" (float $s.med60)) "u" "%p" "cls" (cond (ge (float $s.med60) 0.0) "up" "dn") "l" (printf "60%s 뒤 평소와 차이" $D) "s" (printf "나았던 %s %.1f%%" $T (float $s.beat60_rate))))) }}
