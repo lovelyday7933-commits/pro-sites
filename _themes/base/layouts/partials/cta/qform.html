@@ -52,7 +52,9 @@
     </div>
   </div>
   {{- /* ★10-05 책 한 쪽 미리 읽기(cta/peek.html · data/bookpeek.json) — 이 쪽 장의 본문 몇 문단 · 자료 없는 장은 지금처럼 책 칸만 */}}
-  {{- with site.Data.bookpeek }}{{ with index . $bk }}{{ with index . $x.book.ch }}{{ partial "cta/peek.html" (dict "pk" . "page" $p "place" $place) }}{{ end }}{{ end }}{{ end }}
+  {{- /* ★10-21 펼쳐 읽은 사람이 갈 곳 = 그 책 쪽(peek.html "next") — 10-08~21 펼친 사람 90 중 책 쪽 2 · 창 6 → 나머지는 글 끝에서 나갔다 */}}
+  {{- $next := dict }}{{ with site.Data.bookpages }}{{ with index .books $bk }}{{ if ne $p.Params.book $bk }}{{ $next = . }}{{ end }}{{ end }}{{ end }}
+  {{- with site.Data.bookpeek }}{{ with index . $bk }}{{ with index . $x.book.ch }}{{ partial "cta/peek.html" (dict "pk" . "page" $p "place" $place "next" $next) }}{{ end }}{{ end }}{{ end }}
   <button type="button" class="qf-go qf-open">{{ $bw.go }}</button>
   <div class="qf-rest" hidden>
   {{- else if and $pv.cover (ne $place "float") (ne $place "calc") }}

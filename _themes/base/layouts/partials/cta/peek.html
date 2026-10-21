@@ -19,4 +19,7 @@
   </div>
   {{- if $fold }}<button type="button" class="qf-pk-more" aria-expanded="false">펼쳐 읽기</button>{{ end }}
   {{- with $pk.secs }}<ol class="qf-pk-toc">{{ range $i, $s := . }}<li{{ if eq $i (int $pk.on) }} class="on"{{ end }}>{{ $s }}</li>{{ end }}</ol>{{ end }}
+  {{- /* ★10-21 펼쳐 읽은 다음 갈 곳 = 그 책 쪽(/책/ · 차례 전체 + 첫 장) — 접혀 있을 땐 숨긴다(펼쳐 읽기 버튼 자리) · 그 책 쪽 자신에선 qform 이 빈 dict 를 준다
+       ⛔.qf-peek 안이라 track.js·leadform.js 가 신청 누름·시작으로 세지 않는다 · 잴 것 = 책 쪽 pv 의 ref 가 우리 쪽인 사람 수 */}}
+  {{- with .next }}{{ with .url }}<a class="qf-pk-next" href="{{ . }}"><span>이 책 <span class="nw">차례 전체와 첫 장</span> <span class="nw">더 읽기</span></span><small>{{ $.next.pages }}쪽 · {{ len $.next.toc }}장</small></a>{{ end }}{{ end }}
 </div>
