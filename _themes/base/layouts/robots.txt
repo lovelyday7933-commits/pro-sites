@@ -8,3 +8,6 @@ User-agent: *
 Allow: /
 
 Sitemap: {{ "sitemap.xml" | absURL }}
+{{ with site.Params.daumWebmaster }}
+{{ . }}
+{{ end }}

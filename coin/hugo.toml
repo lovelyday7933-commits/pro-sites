@@ -24,6 +24,7 @@ summaryLength = 40
   endLevel = 3
 
 [params]
+  daumWebmaster = "#DaumWebMasterTool:2884de8954664b182cd48919447dc8739fbdc3c874a692028403c01ea14d905b:Zle7beqbjbws6dh5S5OBww=="   # Daum 웹마스터도구 인증 줄(robots.txt 끝) · 11-10 · ⛔지우면 인증 풀림
   # 네이버 서치어드바이저 소유확인 — ⛔지우면 확인이 풀린다
   naverVerification = "40163bcae369c64bde528d2742b299412ee47c64"
   site = "coin"
